@@ -1,0 +1,66 @@
+schema_version: 1
+document: knowledge/jp/how-to/automatic-calibration/setting-up-calibration-camera.md
+document_id: guide.automatic-calibration.setting-up-calibration-camera
+language: ja
+document_body_sha256: 59edb6c314bf30466783883f9947839a16c93cc8533eb90048a98c22e9e162fc
+figures:
+  - id: ja-b5639269ed-001
+    title: Mode Dial Manual
+    caption: Mode Dial Manual
+    show: "Mode Dial Manual. Use the adjacent instructions as the content brief: * Nikon D5000/D5100/D5200 カメラの電源を入れた際に、日付と時刻を入力するよう促された場合は、OKボタンを押してください。 カメラのモードダイアルをManual(M)に切り替えます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: カメラの設定
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/mode-dial-Manual.jpg
+    source_alt: Mode Dial Manual
+    text_coverage: not-independently-verified
+  - id: ja-b5639269ed-002
+    title: Lens Focus Manual
+    caption: Lens Focus Manual
+    show: "Lens Focus Manual. Use the adjacent instructions as the content brief: カメラのモードダイアルをManual(M)に切り替えます。 レンズフォーカスをマニュアル（M）に切り替え、Calibration WizardのFocus Gridテストパターンを参考にして、レンズのフォーカスを手動で合わせてください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: カメラの設定
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/lens-focus-Manual.jpg
+    source_alt: Lens Focus Manual
+    text_coverage: not-independently-verified
+  - id: ja-b5639269ed-003
+    title: Camera Position Side View
+    caption: Camera Position Side View
+    show: "Camera Position Side View. Use the adjacent instructions as the content brief: カメラの位置合わせのガイドライン： カメラをしっかりと三脚に取り付け、投影範囲（スクリーン）全体を捉えるように設置します。カメラの三脚をドームの床面に配置し、カメラのレンズがドームの天頂を向くようにします。カメラの傾きがドームの傾きと一致していることを確認してください。 カメラがプロジェクターのレンズよりも下になるよう設置し、カメラがドームスクリーンに影を落とさないようにします。撮影した写真の下部がドームの前方に、上部がドームの後方に対応するように向きを合わせます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: カメラの位置合わせ
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Camera-position-Side-view.png
+    source_alt: Camera Position Side View
+    text_coverage: not-independently-verified
+  - id: ja-b5639269ed-004
+    title: Camera Position Zenith View
+    caption: Camera Position Zenith View
+    show: "Camera Position Zenith View. Use the adjacent instructions as the content brief: カメラの位置合わせのガイドライン： カメラをしっかりと三脚に取り付け、投影範囲（スクリーン）全体を捉えるように設置します。カメラの三脚をドームの床面に配置し、カメラのレンズがドームの天頂を向くようにします。カメラの傾きがドームの傾きと一致していることを確認してください。 カメラがプロジェクターのレンズよりも下になるよう設置し、カメラがドームスクリーンに影を落とさないようにします。撮影した写真の下部がドームの前方に、上部がドームの後方に対応するように向きを合わせます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: カメラの位置合わせ
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Camera-position-Zenith-view.png
+    source_alt: Camera Position Zenith View
+    text_coverage: not-independently-verified
+  - id: ja-b5639269ed-005
+    title: Camera Position Dome Top View
+    caption: Camera Position Dome Top View
+    show: "Camera Position Dome Top View. Use the adjacent instructions as the content brief: 側面から見たカメラ位置天頂から見たカメラ位置 カメラがプロジェクターのレンズよりも下になるよう設置し、カメラがドームスクリーンに影を落とさないようにします。撮影した写真の下部がドームの前方に、上部がドームの後方に対応するように向きを合わせます。 キャリブレーションカメラの位置をドームの上から見た図"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 23
+      section: カメラの位置合わせ
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/camera-position-dome-Top-view.png
+    source_alt: Camera Position Dome Top View
+    text_coverage: not-independently-verified

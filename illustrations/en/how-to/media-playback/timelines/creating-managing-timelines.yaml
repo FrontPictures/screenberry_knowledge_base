@@ -1,0 +1,102 @@
+schema_version: 1
+document: knowledge/en/how-to/media-playback/timelines/creating-managing-timelines.md
+document_id: guide.media-playback.timelines.creating-managing-timelines
+language: en
+document_body_sha256: b97c2db24aab7f61c6b136407882283e0818d0202201c8263638a815ceb77522
+figures:
+  - id: en-db499388d8-001
+    title: Adding Timelines
+    caption: Adding Timelines
+    show: "Adding Timelines. Use the adjacent instructions as the content brief: To create a new timeline, you can either right-click an empty area of the Playlist and Timeline List panel or click the Add button in the bottom toolbar, then select Add Timeline from the dropdown menu. You can create a timeline within an existing folder by either right-clicking the folder or selecting it and clicking the Add button in the bottom toolbar, then choosing Add Timeline from the dropdown menu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Adding Timelines
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Timelines.gif
+    source_alt: Adding Timelines
+    text_coverage: not-independently-verified
+  - id: en-db499388d8-002
+    title: Adding Timelines 2
+    caption: Adding Timelines 2
+    show: "Adding Timelines 2. Use the adjacent instructions as the content brief: You can create a timeline within an existing folder by either right-clicking the folder or selecting it and clicking the Add button in the bottom toolbar, then choosing Add Timeline from the dropdown menu. To show or hide the contents of a folder, click the arrow icon located next to the folder icon ."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Adding Timelines
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Timelines-2.gif
+    source_alt: Adding Timelines 2
+    text_coverage: not-independently-verified
+  - id: en-db499388d8-003
+    title: Renaming Timelines
+    caption: Renaming Timelines
+    show: "Renaming Timelines. Use the adjacent instructions as the content brief: When you create timelines, it’s beneficial to name them descriptively so that they can be easily identified. To rename a timeline, right-click on its name, choose Rename from the dropdown menu, and enter a new name in the opened dialog box."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Renaming Timelines
+    source_url: https://help.screenberry.com/images/media-playback/animation/Renaming-Timelines.gif
+    source_alt: Renaming Timelines
+    text_coverage: not-independently-verified
+  - id: en-db499388d8-004
+    title: Deleting Timelines
+    caption: Deleting Timelines
+    show: "Deleting Timelines. Use the adjacent instructions as the content brief: To delete a timeline, either right-click on its name and select Delete from the dropdown menu, or select it and click the Delete button in the bottom toolbar of the Playlist and Timeline List panel."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: Deleting Timelines
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Timelines.gif
+    source_alt: Deleting Timelines
+    text_coverage: not-independently-verified
+  - id: en-db499388d8-005
+    title: Arranging Timelines
+    caption: Arranging Timelines
+    show: "Arranging Timelines. Use the adjacent instructions as the content brief: You can navigate the Playlist and Timeline List using the Up and Down arrow keys or by selecting timelines directly with a mouse click. To expand or collapse the contents of a folder, click on the arrow icon located next to the folder name. To change the order of playlists, timelines, or folders, either right-click on one of their names and select Move Up (Ctrl + Up) or Move Down (Ctrl + Down) from the dropdown menu,"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: Arranging Timelines
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Timelines.gif
+    source_alt: Arranging Timelines
+    text_coverage: not-independently-verified
+  - id: en-db499388d8-006
+    title: Indication Timelines
+    caption: Indication Timelines
+    show: "Indication Timelines. Use the adjacent instructions as the content brief: The toggles for the timeline settings are located next to the timeline name in the Playlist and Timeline List panel. These toggles also serve as indicators of the current timeline’s state."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: Timeline Settings and Indication
+    source_url: https://help.screenberry.com/images/media-playback/animation/Indication-Timelines.gif
+    source_alt: Indication Timelines
+    text_coverage: not-independently-verified
+  - id: en-db499388d8-007
+    title: Indication Timelines Playback
+    caption: Indication Timelines Playback
+    show: "Indication Timelines Playback. Use the adjacent instructions as the content brief: Locking. To prevent unintentional changes from being made to a timeline, it can be locked. When locked, a timeline cannot be modified further, whereas an unlocked timeline can be edited.Sending the Timecode. Enabling or disabling this toggle controls whether the timeline sends out a timecode or not.Event Mapping. Media items within a timeline can be mapped to different events, such as MIDI/Keyboard events, to trigger"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: Playback Indication
+    source_url: https://help.screenberry.com/images/media-playback/animation/Indication-Timelines-Playback.gif
+    source_alt: Indication Timelines Playback
+    text_coverage: not-independently-verified
+  - id: en-db499388d8-008
+    title: Frame Rate
+    caption: Frame Rate
+    show: "Frame Rate. Use the adjacent instructions as the content brief: To modify the frame rate of a timeline, right-click on the timeline name and choose Preferences from the dropdown menu, or click on the gear icon in the timeline’s side toolbar, then, in the opened Timeline Preferences window, select the desired frame rate value from the Timeline FPS drop-down list. Note: The toggle settings described above can also be adjusted in the timeline preferences, which can be accessed by ri"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: Frame Rate (FPS)
+    source_url: https://help.screenberry.com/images/media-playback/animation/Frame-Rate.gif
+    source_alt: Frame Rate
+    text_coverage: not-independently-verified

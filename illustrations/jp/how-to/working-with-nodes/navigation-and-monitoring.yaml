@@ -1,0 +1,150 @@
+schema_version: 1
+document: knowledge/jp/how-to/working-with-nodes/navigation-and-monitoring.md
+document_id: guide.working-with-nodes.navigation-and-monitoring
+language: ja
+document_body_sha256: 3fb71eb755f95dbfe37eff01cbbf1a008d1d3eddadbc00d0d955f95294831bd9
+figures:
+  - id: ja-fee823657f-001
+    title: Auto-Layout Nodes
+    caption: Auto-Layout Nodes
+    show: "Auto-Layout Nodes. Use the adjacent instructions as the content brief: ノードグラフ内のノードを整列するには、ノードを右クリックしてドロップダウンメニューからAuto-Layout Nodesを選択します（または L キーを押します）。ノードが選択されていない場合、Auto-Layout Nodesを使用すると、ノードツリー全体が整列されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: ノードの自動配置
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Auto-Layout-Nodes.gif
+    source_alt: Auto-Layout Nodes
+    text_coverage: not-independently-verified
+  - id: ja-fee823657f-002
+    title: Fit to View
+    caption: Fit to View
+    show: "Fit to View. Use the adjacent instructions as the content brief: ノードグラフ内で 1 つまたは複数の選択されたノードを中心に最適に表示するには、ノードを右クリックしてドロップダウンメニューからFit to Viewを選択します（または A キーを押します）。ノードが選択されていない場合は、Fit to View機能を使用するとノードツリー全体が表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: ノードの表示に合わせる
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Fit-To-View-For-Nodes.gif
+    source_alt: Fit to View
+    text_coverage: not-independently-verified
+  - id: ja-fee823657f-003
+    title: Changing Node Size
+    caption: Changing Node Size
+    show: "Changing Node Size. Use the adjacent instructions as the content brief: ノードのサイズを変更するには、ノードを選択し、マウスオーバー時に表示される四隅のコーナーハンドルのいずれかをドラッグしてください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: ノードサイズの変更
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Changing-Node-Size.gif
+    source_alt: Changing Node Size
+    text_coverage: not-independently-verified
+  - id: ja-fee823657f-004
+    title: Zooming and Panning
+    caption: Zooming and Panning
+    show: "Zooming and Panning. Use the adjacent instructions as the content brief: ビューをパンするには、次のいずれかを行います： マウスのスクロールホイールボタンを押したままにするか、マウスを移動する際に Alt キーを押します。右上隅の十字矢印ボタンをクリックし、マウスを移動します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: ノードグラフのズームとパン
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Zooming-and-Panning-in-the-Node-Graph.gif
+    source_alt: Zooming and Panning
+    text_coverage: not-independently-verified
+  - id: ja-fee823657f-005
+    title: Navigator Panel
+    caption: Navigator Panel
+    show: "Navigator Panel. Use the adjacent instructions as the content brief: ナビゲーターパネルを右クリックすると、標準モードと拡大モードの表示モードを切り替えることができます。 Node Graphウィジェットの空白の領域を右クリックし、Minimapチェックボックスを有効/無効にして（または Ctrl + M を押す）、ナビゲーターパネルの表示/非表示を切り替えることができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: ナビゲーターパネルの使用方法
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Navigator-Panel-1.gif
+    source_alt: Navigator Panel
+    text_coverage: not-independently-verified
+  - id: ja-fee823657f-006
+    title: Nodes Color Coding
+    caption: Nodes Color Coding
+    show: "Nodes Color Coding. Use the adjacent instructions as the content brief: 色分けは、さまざまなタイプのノードを示すために使用されます。 以下の色の組み合わせはデフォルトで設定されており、Preferences > Nodes Color Settings で変更することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: ノードの色分け
+    source_url: https://help.screenberry.com/images/working-with-nodes/static/ColorCoding.png
+    source_alt: Nodes Color Coding
+    text_coverage: not-independently-verified
+  - id: ja-fee823657f-007
+    title: Nodes Color Settings
+    caption: Nodes Color Settings
+    show: "Nodes Color Settings. Use the adjacent instructions as the content brief: 以下の色の組み合わせはデフォルトで設定されており、Preferences > Nodes Color Settings で変更することができます。 コピー＆ペーストの方法：Media Library、別のMedia Playerのプレイリスト、またはタイムラインで選択したメディアアイテムを選択します。右クリックしてドロップダウンメニューからCopyを選択するか、Ctrl + C のキーボードショートカットを使用してこれらのアイテムをコピーします。コピーしたメディアアイテムのシーケンスの開始グリッドセルを選択し、そこにアイテムを貼り付けます。これは右クリックしてドロップダウンメニューからPasteを選択するか、Ctrl + V のショートカットを使用して行うこともできます。 色分けは、Node Type、Category、およびTagに基づいています。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: ノードの色分け
+    source_url: https://help.screenberry.com/images/working-with-nodes/static/NodesColorSettings-1.png
+    source_alt: Nodes Color Settings
+    text_coverage: not-independently-verified
+  - id: ja-fee823657f-008
+    title: Nodes Color Settings
+    caption: Nodes Color Settings
+    show: "Nodes Color Settings. Use the adjacent instructions as the content brief: 新しいカスタムカラーテーマを作成するには、ボタンを押して、異なる16 進数カラー値を各 Type、Category、および Tag に割り当てます。 Typeの色設定はCategoryの色設定よりも優先され、Categoryの色設定はTagの色設定よりも優先されます。ノードの色が割り当てられる際に、これらのグループのいずれにも色が設定されていない場合、ノードの色はグレーのままです。 ノードのカラースキームを切り替えるには、Color Themeのドロップダウンリストでプロファイルを選択してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: ノードの色分け
+    source_url: https://help.screenberry.com/images/working-with-nodes/static/NodesColorSettings2-1.png
+    source_alt: Nodes Color Settings
+    text_coverage: not-independently-verified
+  - id: ja-fee823657f-009
+    title: Nodes Color Settings
+    caption: Nodes Color Settings
+    show: "Nodes Color Settings. Use the adjacent instructions as the content brief: ノードのカラースキームを切り替えるには、Color Themeのドロップダウンリストでプロファイルを選択してください。 選択されたカラーテーマはボタンを押して削除することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: ノードの色分け
+    source_url: https://help.screenberry.com/images/working-with-nodes/static/NodesColorSettings3.png
+    source_alt: Nodes Color Settings
+    text_coverage: not-independently-verified
+  - id: ja-fee823657f-010
+    title: Searching the Nodes
+    caption: Searching the Nodes
+    show: "Searching the Nodes. Use the adjacent instructions as the content brief: プロジェクトに追加された特定のノードを検索するには、虫眼鏡ボタン（Node Graphウィジェットの左上隅にあります）をクリックしてください。または Ctrl + F を押し、開いた検索フィールドにノード名の一部を入力してください。一致するノードがリストに表示されます。リスト内のノード名をクリックしてノードグラフで選択します。 もし検索条件に一致するノードが複数ある場合、F3 を押すと、選択が結果リストの次のノードに切り替わります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 28
+      section: ノードの検索
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Searching-the-Nodes1.gif
+    source_alt: Searching the Nodes
+    text_coverage: not-independently-verified
+  - id: ja-fee823657f-011
+    title: Searching the Nodes
+    caption: Searching the Nodes
+    show: "Searching the Nodes. Use the adjacent instructions as the content brief: もし検索条件に一致するノードが複数ある場合、F3 を押すと、選択が結果リストの次のノードに切り替わります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 29
+      section: ノードの検索
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Searching-the-Nodes2.gif
+    source_alt: Searching the Nodes
+    text_coverage: not-independently-verified
+  - id: ja-fee823657f-012
+    title: Using Tooltips
+    caption: Using Tooltips
+    show: "Using Tooltips. Use the adjacent instructions as the content brief: ノードパラメータ名（またはピン）の上にマウスを移動すると、リンクに流れるデータを含むパラメータのプロパティが表示される情報ツールチップが開きます（表示可能な場合）。この機能は、デバッグ中に特に便利であり、ノードのSettingsパネルを参照する必要なく、関連する情報に素早くアクセスできます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 31
+      section: ツールチップを使用してノードパラメータを監視する
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Tooltip.gif
+    source_alt: Using Tooltips
+    text_coverage: not-independently-verified

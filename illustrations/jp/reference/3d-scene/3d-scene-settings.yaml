@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/reference/3d-scene/3d-scene-settings.md
+document_id: guide.3d-scene.3d-scene-settings
+language: ja
+document_body_sha256: b8d6f42ed8e58ad56fe81682aef1e2916c0240a592fa8314ed5dde6baf91e06f
+figures:
+  - id: ja-93340ecfa0-001
+    title: 3D Scene Settings
+    caption: 3D Scene Settings
+    show: "3D Scene Settings. Use the adjacent instructions as the content brief: Screenberry の 3D Scene ウィジェットを使用すると、3D 環境を作成および管理できます。一般的な 3D シーン 設定にアクセスするには、シーンインスペクター ペインで 3D Scene を選択すると、対応するパネルにそのパラメータが表示されます。 注意: 3D シーンに統合された各オブジェクトの設定は個別に調整されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: 3D シーンの設定
+    source_url: https://help.screenberry.com/images/3d-scene/animation/3D-Scene-Settings.gif
+    source_alt: 3D Scene Settings
+    text_coverage: not-independently-verified

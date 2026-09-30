@@ -1,0 +1,1390 @@
+---
+id: guide.integration-control.screenberry-json-api
+variant_id: guide.integration-control.screenberry-json-api.imported-current-guide
+title: Screenberry JSON API - コマンドリファレンスと連携ガイド
+language: ja
+kind: reference
+status: in_review
+owner: unassigned
+applies_to:
+  from: null
+  until_exclusive: null
+verified_in: []
+last_verified: null
+evidence:
+  - type: existing-guide
+    path: archive/site/content/jp/integration-control/screenberry-json-api.mdx
+    sha256: af0e9699cefd93b0a6a33da2891ebe8f7d5eec4eb5f14927fdef15257fb49e4b
+    scope: Imported text; not independent product verification
+aliases: []
+related: []
+publication:
+  profile: legacy-guide-3.4
+  product_version: "3.4"
+  basis: Snapshot of existing current guide; applicability not independently verified
+  role: guide
+source:
+  path: content/jp/integration-control/screenberry-json-api.mdx
+  canonical_url: https://help.screenberry.com/jp/integration-control/screenberry-json-api
+  git_commit: 8acf5a3a7526c3013fc44f1dba0b25f88343e745
+  sha256: af0e9699cefd93b0a6a33da2891ebe8f7d5eec4eb5f14927fdef15257fb49e4b
+  imported_at: 2026-09-30T14:15:19.585Z
+  frontmatter:
+    title: Screenberry JSON API - コマンドリファレンスと連携ガイド
+    description: Screenberry JSON APIを使用して、メディア再生、プレイリスト、タイムラインを制御し、HTTP、TCP、UDP、OSC、シリアル通信を介して外部アプリケーションとデータをやり取りする方法を説明します。
+    openGraph:
+      title: Screenberry JSON API
+      description: JSONリクエストによるScreenberryへの接続、パラメーターの取得、Media Playerやプレイリストの管理、および各種Listenerノードを使用した外部システムとの連携方法を説明します。
+translation:
+  source_language: en
+  source_id: guide.integration-control.screenberry-json-api
+  source_revision: null
+  status: alignment-unverified
+  counterpart: ../../../en/reference/integration-control/screenberry-json-api.md
+presentation:
+  mode: text-only
+  illustrations: null
+  visual_information_review: not-applicable
+---
+
+# Screenberry JSON API
+
+**Screenberry JSON API**を使用すると、外部アプリケーションからサーバーに接続して次の操作を実行できます。
+
+- パラメーター値の取得と設定
+
+- ノード、パラメーター、リンクの取得
+
+- Media Player、プレイリスト、Media Libraryアイテムへのアクセス
+
+- Playlist、Timeline、Matrixアイテムの変更
+
+- 再生の制御
+
+すべての**リクエスト**は**JSONオブジェクト**として送信します。応答がある場合は、文字列にシリアライズされたJSONオブジェクトが返されます。
+
+## Listenerノード
+
+次のノードがJSON API通信に対応しています。
+
+- **HTTP Listener**
+
+- **TCP Listener**
+
+- **Serial Input**
+
+- **UDP Listener**
+
+- **OSC Listener**
+
+Listenerノードでは、**Screenberry API**パラメーターがデフォルトで**Enabled**になっています。必要に応じてノードの設定パネルで**Enabled**または**Disabled**に切り替えられます。
+
+各JSONリクエストには、コマンド名を指定する`"cmd"`フィールドが必要です。その他のフィールドはコマンドによって異なります。
+
+## HTTP Listener
+
+- **GET**および**POST**リクエストに対応しています。
+
+- JSON形式の応答文字列を返します。
+
+**Example — Get Media Players list:**
+
+```
+{
+    "cmd": "GetMediaPlayers"
+}
+```
+
+サーバーがローカル（`127.0.0.1`）で、HTTP Listenerのポートが`8080`の場合：
+
+**GETリクエスト：**
+
+```
+http://127.0.0.1:8080/request?command={"cmd":"GetMediaPlayers"}
+```
+
+**POSTリクエスト：**\
+リクエスト本文にJSONオブジェクトを含め、`/command`へ送信します。
+
+```
+http://127.0.0.1:8080/command
+```
+
+## TCP Listener
+
+- Accepts JSON messages separated by `\r\n` (carriage return + newline).
+
+- 区切り文字として認識されるのは`\r\n`のみです。`\n`だけでは動作しません。
+
+- 応答には次の情報が含まれます。
+
+  - **コマンドID**
+
+  - **Original request parameters**\
+    This allows the client to correctly match responses when multiple requests are sent in the same stream.
+
+## Serial Input
+
+- シリアルポート経由でデバイスと通信するために使用します。
+
+- **TCP Listener**と同様に動作します。
+
+- メッセージは`\r\n`で区切られたJSONオブジェクトである必要があります。
+
+## UDP Listener
+
+- UDP経由でJSONオブジェクトを受信します。
+
+- 応答を受信するには、リクエストに`"replyIp"`と`"replyPort"`を含めます。
+
+- 応答にはコマンドIDとリクエストパラメーターが含まれるため、クライアントは元のリクエストと対応付けられます。
+
+**Example — Get Media Players list with reply address:**
+
+```
+{
+  "cmd": "GetMediaPlayers",
+  "replyIp": "127.0.0.1",
+  "replyPort": 8081
+}
+```
+
+## OSC Listener
+
+- **UDP Listener**と同様に動作します。
+
+- JSONオブジェクトはOSCメッセージの**最初の文字列パラメーター**として指定します。
+
+- 追加のOSCパラメーターは無視されます。JSONは必ず最初のパラメーターとして指定してください。
+
+## Listenerクイックリファレンス
+
+| Listener          | Protocol          | Message Format                 | Delimiter / Rules                           | Response Behavior                                                                   | Special Notes                                                          |
+| ----------------- | ----------------- | ------------------------------ | ------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **HTTP Listener** | HTTP (GET / POST) | JSON object                    | N/A                                         | Returns JSON string in response                                                     | For GET requests, JSON must be URL-encoded. POST accepts JSON in body. |
+| **TCP Listener**  | TCP stream        | JSON object                    | Messages separated by `\r\n` (required)     | Includes command ID + echoed request parameters                                     | Supports multiple requests/responses in the same stream.               |
+| **Serial Input**  | Serial (COM port) | JSON object                    | Messages separated by `\r\n` (required)     | Same as TCP Listener                                                                | Used for direct device communication.                                  |
+| **UDP Listener**  | UDP datagram      | JSON object                    | Entire JSON object in one datagram          | Response includes command ID + echoed request; requires `"replyIp"` + `"replyPort"` | Lightweight but requires reply address fields in request.              |
+| **OSC Listener**  | OSC               | JSON object inside OSC message | JSON must be the **first string parameter** | Same as UDP Listener                                                                | Additional OSC parameters are ignored. Order strict.                   |
+
+## Node Graphコマンド
+
+### GetParameter
+
+Node Graph内のノードパラメーター値を取得します。
+
+**Parameters:**
+
+- **node** — ノード名。次の形式を使用できます。
+
+  - Full path: `"Root/Media Player"` or `"Root/Group/Media Player"`
+
+  - Partial path (without `"Root/"`): `"Media Player"` or `"Group/Media Player"`\
+    _（この規則はノード名フィールドを使用するすべてのコマンドに適用されます。）_
+
+- **parameter** — パラメーター名。グループ内のパラメーターでも、パラメーター名だけを指定します。
+
+**Request:**
+
+```json
+{
+    "cmd": "GetParameter",
+    "node": "Audio Out",
+    "parameter": "Volume"
+}
+```
+
+**HTTP Response:**
+
+```json
+{ "value": 1.0 }
+```
+
+**TCP/UDP Response:**
+
+```json
+{
+  "cmd": "ParameterValue",
+  "node": "Audio Out",
+  "parameter": "Volume",
+  "value": 1.0
+}
+```
+
+### SetParameter
+
+ノードパラメーターの値を設定します。
+
+```json
+{
+  "cmd": "SetParameter",
+  "node": "Slider",
+  "parameter": "Value",
+  "value": 0.75
+}
+```
+
+### AddNode
+
+Node Graphにノードを追加します。
+
+```json
+{
+  "cmd": "AddNode",
+  "nodePath": "My Media Player Node",
+  "nodeType": "Media Player",
+  "position": [11.2, 12.5]
+}
+```
+
+オプションの`position`フィールドにはノードの座標を指定します。省略した場合、ノードは既存ノードの右側に配置されます。
+
+### RemoveNode
+
+Node Graphからノードを削除します。
+
+```json
+{
+  "cmd": "RemoveNode",
+  "node": "Slider"
+}
+```
+
+### Link
+
+2つのノードパラメーター間にリンクを作成します。
+
+```json
+{
+  "cmd": "Link",
+  "sourceNode": "Float",
+  "sourceParameter": "Out",
+  "sinkNode": "Slider",
+  "sinkParameter": "External Control"
+}
+```
+
+### Unlink
+
+2つのノードパラメーター間のリンクを解除します。
+
+```json
+{
+  "cmd": "Unlink",
+  "sourceNode": "Float",
+  "sourceParameter": "Out",
+  "sinkNode": "Slider",
+  "sinkParameter": "External Control"
+}
+```
+
+### GetNodeGraph
+
+Node Graph内のノードとリンクを返します。
+
+```json
+{
+  "cmd": "GetNodeGraph"
+}
+```
+
+**HTTP Response:**
+
+```json
+{
+  "nodes": [
+    { "path": "Root/HTTP Listener", "type": "HTTP Listener" },
+    { "path": "Root/Solid Color", "type": "Solid Color" },
+    { "path": "Root/Canvas", "type": "Canvas" }
+  ],
+  "links": [
+    {
+      "sourceNode": "Root/Solid Color",
+      "sourceParam": "Image",
+      "sinkNode": "Root/Canvas",
+      "sinkParam": "Background Image"
+    }
+  ]
+}
+```
+
+### GetNodeParameters
+
+ノードのパラメーターを返します。各パラメーターの方向、型、ピンの表示状態、および該当する場合は値が含まれます。
+
+```json
+{
+  "cmd": "GetNodeParameters",
+  "node": "Media Player"
+}
+```
+
+**HTTP Response (abbreviated):**
+
+```json
+{
+  "params": [
+    {
+      "name": "Enabled",
+      "direction": "input",
+      "type": "Bool",
+      "pin": true,
+      "value": true
+    },
+    {
+      "name": "Image Size",
+      "direction": "input",
+      "type": "IVec2",
+      "pin": false,
+      "value": [1920, 1080]
+    }
+  ]
+}
+```
+
+### GetNodeTypes
+
+Node Graphに追加できるすべてのノードタイプをカテゴリー別に返します。
+
+```json
+{
+  "cmd": "GetNodeTypes"
+}
+```
+
+**HTTP Response (abbreviated):**
+
+```json
+{
+  "types": [
+    { "type": "3D Camera", "category": "3D" },
+    { "type": "3D Combine", "category": "3D" },
+    { "type": "3D Model Export", "category": "3D" },
+    { "type": "3D Model File", "category": "3D" }
+  ]
+}
+```
+
+## Media Playerコマンド
+
+### GetMediaPlayers
+
+Media Playerの一覧を取得します。
+
+**Request:**
+
+```json
+{ "cmd": "GetMediaPlayers" }
+```
+
+**HTTP Response:**
+
+```json
+{ "mediaPlayers": ["Media Player", "Media Player 2"] }
+```
+
+**TCP/UDP Response:**
+
+```json
+{
+  "cmd": "MediaPlayers",
+  "mediaPlayers": ["Media Player", "Media Player 2"]
+}
+```
+
+### GetPlaylists
+
+Media Playerのプレイリスト一覧を取得します。
+
+**Parameters:**
+
+- **mediaPlayer** — Media Player名。
+
+**Request:**
+
+```json
+{
+  "cmd": "GetPlaylists",
+  "mediaPlayer": "Media Player 1"
+}
+```
+
+**HTTP Response:**
+
+```json
+{
+  "playlists": [
+    { "type": "Playlist", "name": "Playlist", "id": 2 },
+    { "type": "Timeline", "name": "Timeline1", "id": 3 },
+    { "type": "Matrix", "name": "Matrix1", "id": 4 },
+    { "type": "Playlist", "name": "folder1/subPlaylist", "id": 6 }
+  ]
+}
+```
+
+**TCP/UDP Response:**
+
+`"cmd"`と`"mediaPlayer"`フィールドが追加されます。
+
+```json
+{
+  "cmd": "Playlists",
+  "mediaPlayer": "Media Player 1",
+  "playlists": [
+    { "type": "Playlist", "name": "Playlist", "id": 2 },
+    { "type": "Timeline", "name": "Timeline1", "id": 3 },
+    { "type": "Matrix", "name": "Matrix1", "id": 4 }
+  ]
+}
+```
+
+### GetMediaPlayerStatus
+
+Media Playerの現在の状態を取得します。
+
+**Parameters:**
+
+- **mediaPlayer** — Media Player名。
+
+**Request:**
+
+```json
+{
+  "cmd": "GetMediaPlayerStatus",
+  "mediaPlayer": "Media Player 1"
+}
+```
+
+**HTTP Responses:**
+
+- **Stopped playlist:**
+
+```json
+{ "playlistType": "Playlist", "playlistName": "Show", "state": "Stopped" }
+```
+
+- **Playlist playing:**
+
+```json
+{
+  "playlistType": "Playlist",
+  "playlistName": "Show",
+  "state": "Playing",
+  "itemIndex": 0,
+  "itemName": "You",
+  "itemId": 1,
+  "position": 177.924
+}
+```
+
+- **Paused timeline:**
+
+```json
+{
+  "playlistType": "Timeline",
+  "playlistName": "Timeline1",
+  "state": "Paused",
+  "position": 47.0
+}
+```
+
+- **Matrix:**
+
+```json
+{
+  "playlistType": "Matrix",
+  "playlistName": "Matrix1",
+  "rows": [
+    { "rowName": "Output 1", "state": "Paused", "itemIndex": 0, "itemName": "You", "itemId": 1, "position": 2.627 },
+    { "rowName": "Output 2", "state": "Playing", "itemIndex": 1, "itemName": "clip2", "itemId": 2, "position": 3.837 },
+    { "rowName": "Output 3", "state": "Stopped" }
+  ]
+}
+```
+
+**TCP/UDP Response:**\
+Same as HTTP, but includes `"cmd"` and `"mediaPlayer"`.
+
+```json
+{
+  "cmd": "MediaPlayerStatus",
+  "mediaPlayer": "Media Player 1",
+  "playlistType": "Playlist",
+  "playlistName": "Show",
+  "state": "Playing",
+  "itemIndex": 0,
+  "itemName": "You",
+  "itemId": 1,
+  "position": 177.924
+}
+```
+
+### GetPlaylistItems
+
+Playlist、Timeline、またはMatrixのアイテムを取得します。
+
+> **Note:**
+>
+> - Playlists can be addressed by **playlistId** or **playlistName**.
+>
+> - Playlist IDs are unique within a Media Player.
+>
+> - Item IDs are unique only within a single playlist.
+>
+> - すべての`duration`値は秒単位の浮動小数点数です。
+>
+> - 値が変更されていないフィールドも含めるには、オプションの`showAllFields`を`true`に設定します。
+
+**Request (by playlistId):**
+
+```json
+{
+  "cmd": "GetPlaylistItems",
+  "mediaPlayer": "MediaPlayer1",
+  "playlistId": 2,
+  "showAllFields": true
+}
+```
+
+**Request (by playlistName):**
+
+```json
+{
+  "cmd": "GetPlaylistItems",
+  "mediaPlayer": "MediaPlayer1",
+  "playlistName": "Show1",
+  "showAllFields": true
+}
+```
+
+**HTTP Responses:**
+
+- **Playlist:**
+
+```json
+{
+  "playlistType": "Playlist",
+  "playlistName": "Playlist",
+  "playlistId": 3,
+  "items": [
+    { "id": 0, "path": "TestMedia/sequenceRva.rva", "duration": 7.2 }
+  ]
+}
+```
+
+- **Timeline:**
+
+```json
+{
+  "playlistType": "Timeline",
+  "playlistName": "Timeline1",
+  "playlistId": 4,
+  "tracks": [
+    {
+      "name": "Track 1",
+      "items": [
+        { "id": 0, "path": "TestMedia/sequenceRva.rva", "position": 1.0, "duration": 10.0 }
+      ]
+    }
+  ]
+}
+```
+
+- **Matrix:**
+
+```json
+{
+  "playlistType": "Matrix",
+  "playlistName": "Matrix1",
+  "playlistId": 5,
+  "items": [
+    { "id": 0, "path": "TestMedia/sequenceRva.rva", "duration": 7.2, "column": 0, "row": 0 },
+    { "id": 1, "path": "TestMedia/sequenceRva.rva", "duration": 7.2, "column": 1, "row": 1 }
+  ]
+}
+```
+
+### 再生制御コマンド
+
+- **Play** — Starts or resumes playback.
+
+- **Pause** — Pauses playback.
+
+- **Stop** — Stops playback.
+
+- **PlayPlaylistItem** — Plays a specific item in a Playlist.
+
+- **PlayTimeline** — Plays a Timeline from a defined position (in seconds).
+
+- **PlayMatrixItem** — Plays a specific item in a Matrix by row/column.
+
+- **PlayMatrixColumn** — Plays an entire Matrix column.
+
+各コマンドは次の形式を使用します。
+
+**Request (Play example):**
+
+```json
+{
+  "cmd": "Play",
+  "mediaPlayer": "Media Player 1"
+}
+```
+
+**HTTP Response:**
+
+```json
+{ "cmd": "Success" }
+```
+
+**TCP/UDP Response:**\
+`"request"`に元のリクエストが含まれます。
+
+```json
+{
+  "cmd": "Success",
+  "request": {
+    "cmd": "Play",
+    "mediaPlayer": "Media Player 1"
+  }
+}
+```
+
+### PlayPlaylistItem — Plays item in Playlist
+
+**Request:**
+
+```json
+{
+  "cmd": "PlayPlaylistItem",
+  "mediaPlayer": "Media Player 1",
+  "playlistId": 2,
+  "itemId": 1
+}
+```
+
+**HTTP Response:**
+
+```json
+{
+  "cmd": "Success"
+}
+```
+
+**TCP/UDP Response (echoes original request):**
+
+```json
+{
+  "cmd": "Success",
+  "request": {
+    "cmd": "PlayPlaylistItem",
+    "mediaPlayer": "Media Player 1",
+    "playlistId": 2,
+    "itemId": 1
+  }
+}
+```
+
+> **Note:**
+>
+> - Playlist can be addressed using `playlistId` or `playlistName`.
+>
+> - Item can be addressed using `itemId` or `itemIndex`.
+>
+> - `itemId`と`itemIndex`をどちらも省略すると、最初のアイテムから再生します。
+
+### PlayTimeline — Plays Timeline from selected position (seconds)
+
+**Request:**
+
+```json
+{
+  "cmd": "PlayTimeline",
+  "mediaPlayer": "Media Player 1",
+  "playlistId": 2,
+  "position": 2.5
+}
+```
+
+**HTTP Response:**
+
+```json
+{
+  "cmd": "Success"
+}
+```
+
+**TCP/UDP Response (echoes original request):**
+
+```json
+{
+  "cmd": "Success",
+  "request": { 
+    "cmd": "PlayTimeline", 
+    "mediaPlayer": "Media Player 1", 
+    "playlistId": 2, 
+    "position": 2.5 
+}
+}
+```
+
+> **Note:**
+>
+> - Playlist can be addressed using `playlistId` or `playlistName`.
+>
+> - `position`はオプションです。`0`または省略した場合、Timelineの先頭から再生します。
+
+### PlayMatrixItem — Plays item in Matrix (by row/column)
+
+**Request:**
+
+```json
+{
+  "cmd": "PlayMatrixItem",
+  "mediaPlayer": "Media Player 1",
+  "playlistId": 2,
+  "row": 3,
+  "column": 1
+}
+```
+
+**HTTP Response:**
+
+```json
+{
+  "cmd": "Success"
+}
+```
+
+**TCP/UDP Response (echoes original request):**
+
+```json
+{
+  "cmd": "Success",
+  "request": { 
+    "cmd": "PlayMatrixItem", 
+    "mediaPlayer": "Media Player 1", 
+    "playlistId": 2, 
+    "row": 3,
+    "column": 1 
+}
+}
+```
+
+> **Note:** \* Playlist can be addressed using `playlistId` or `playlistName`.
+
+### PlayMatrixColumn — Plays column in Matrix
+
+**Request:**
+
+```json
+{
+  "cmd": "PlayMatrixColumn",
+  "mediaPlayer": "Media Player 1",
+  "playlistId": 2,
+  "column": 1
+}
+```
+
+**HTTP Response:**
+
+```json
+{
+  "cmd": "Success"
+}
+```
+
+**TCP/UDP Response (echoes original request):**
+
+```json
+{
+  "cmd": "Success",
+  "request": { 
+    "cmd": "PlayMatrixColumn", 
+    "mediaPlayer": "Media Player 1", 
+    "playlistId": 2, 
+    "column": 1 
+}
+}
+```
+
+> **Note:** \* Playlist can be addressed using `playlistId` or `playlistName`.
+
+### PlayMatrixRow
+
+現在選択されているMatrixの行を再生します。
+
+```json
+{
+  "cmd": "PlayMatrixRow",
+  "mediaPlayer": "Media Player 1",
+  "row": 1
+}
+```
+
+### PauseMatrixRow
+
+現在選択されているMatrixの行を一時停止します。
+
+```json
+{
+  "cmd": "PauseMatrixRow",
+  "mediaPlayer": "Media Player 1",
+  "row": 1
+}
+```
+
+### StopMatrixRow
+
+現在選択されているMatrixの行を停止します。
+
+```json
+{
+  "cmd": "StopMatrixRow",
+  "mediaPlayer": "Media Player 1",
+  "row": 1
+}
+```
+
+Matrix行コマンドは、現在のプレイリストがMatrixの場合にのみ使用できます。
+
+### Seek
+
+現在のPlaylistまたはTimelineの再生位置を指定位置へ移動します。
+
+```json
+{
+  "cmd": "Seek",
+  "mediaPlayer": "Media Player 1",
+  "position": 2.0
+}
+```
+
+`position`は秒単位です。このコマンドはPlaylistとTimelineでのみ使用できます。
+
+### SetVolume
+
+Media Playerの音量を設定します。
+
+```json
+{
+  "cmd": "SetVolume",
+  "mediaPlayer": "Media Player 1",
+  "volume": 0.75
+}
+```
+
+`volume`は浮動小数点数です。無音は`0.0`、元の音量は`1.0`です。
+
+### SeekMatrixItem
+
+Matrix行で再生中のアイテムを指定位置へシークします。
+
+```json
+{
+  "cmd": "SeekMatrixItem",
+  "mediaPlayer": "Media Player 1",
+  "row": 1,
+  "position": 2.0
+}
+```
+
+`row`はMatrixの行、`position`は秒単位の再生位置です。現在のプレイリストがMatrixの場合にのみ使用できます。
+
+## プレイリストの編集
+
+- **CreatePlaylist** — Creates a new Playlist, Timeline, or Matrix.
+
+- **AddPlaylistItem** — Inserts an item into a Playlist.
+
+- **AddTimelineItem** — Adds an item to a Timeline track.
+
+- **AddMatrixItem** — Adds an item to a Matrix grid.
+
+### CreatePlaylist
+
+Media Player内に新しい**Playlist**、**Timeline**、または**Matrix**を作成します。
+
+**Request:**
+
+```json
+{
+  "cmd": "CreatePlaylist",
+  "mediaPlayer": "Media Player 1",
+  "name": "New Playlist",
+  "playlistType": "Timeline",
+  "framerate": 30
+}
+```
+
+> **Note:**
+>
+> - **playlistType** must be `"Playlist"`, `"Timeline"`, or `"Matrix"`. (Case sensitive.)
+>
+> - **framerate**はTimelineでのみ使用できるオプションです。デフォルト値は`30`です。
+
+### AddPlaylistItem
+
+プレイリストにアイテムを追加します。アイテムは事前に**Media Library**へアップロードしておく必要があります。
+
+**Request:**
+
+```json
+{
+  "cmd": "AddPlaylistItem",
+  "mediaPlayer": "Media Player 1",
+  "playlistId": 2,
+  "index": 2,
+  "itemPath": "folder/Video.rva"
+}
+```
+
+> **Note:**
+>
+> - A playlist can be referenced by **playlistId** or **playlistName**.
+>
+> - **index**（オプション）：プレイリスト内でアイテムを追加する位置を指定します。
+>
+>   - 末尾に追加するには`-1`を指定します。
+>
+>   - 省略した場合も末尾に追加されます。
+
+### AddTimelineItem
+
+Timelineトラックにアイテムを追加します。アイテムは事前に**Media Library**へアップロードしておく必要があります。
+
+**Request:**
+
+```json
+{
+  "cmd": "AddTimelineItem",
+  "mediaPlayer": "Media Player 1",
+  "playlistId": 2,
+  "track": 0,
+  "position": 2.5,
+  "itemPath": "folder/Video.rva"
+}
+```
+
+> **Note:**
+>
+> - A timeline can be referenced by **playlistId** or **playlistName**.
+>
+> - **track**（オプション）：アイテムを追加するトラックのインデックスです。対象トラックが存在しない場合は作成されます。省略すると最初のトラックに追加されます。
+>
+> - **position**（オプション）：Timeline先頭からの時間を秒単位で指定します。省略するとトラックの最後のアイテムの後に追加されます。
+
+### AddMatrixItem
+
+Matrixグリッドにアイテムを追加します。アイテムは事前に**Media Library**へアップロードしておく必要があります。
+
+**Request:**
+
+```json
+{
+  "cmd": "AddMatrixItem",
+  "mediaPlayer": "Media Player 1",
+  "playlistId": 2,
+  "column": 2,
+  "row": 2,
+  "itemPath": "folder/Video.rva"
+}
+```
+
+> **Note:**
+>
+> - A matrix can be referenced by **playlistId** or **playlistName**.
+>
+> - **row**と**column**（オプション）：グリッド内の位置を指定します。
+>
+>   - 省略すると最初の行の末尾に追加されます。
+
+### ReplaceItem
+
+Playlist、Timeline、またはMatrixのアイテムを置き換えます。
+
+```json
+{
+  "cmd": "ReplaceItem",
+  "mediaPlayer": "Media Player 1",
+  "playlistName": "Playlist",
+  "itemId": 0,
+  "itemPath": "Media/Uploaded/111.rva",
+  "updateDuration": true,
+  "moveRightItems": true
+}
+```
+
+プレイリストは`playlistId`または`playlistName`で指定します。アイテムの指定には、プレイリストの種類に対応するフィールドを使用します。
+
+- **Playlist：** `itemId`または`itemIndex`
+
+- **Timeline：** `itemId`のみ
+
+- **Matrix：** `itemId`、または`itemRowIndex`と`itemColumnIndex`の両方。Matrixの行番号と列番号は`0`から始まります。
+
+Timelineアイテムでは、オプションの`updateDuration`を`true`にすると、新しいMedia Libraryアイテムに合わせてデュレーションが更新されます。`updateDuration`が有効な場合、`moveRightItems`を`true`にすると、デュレーションの変化に応じて後続アイテムが移動します。
+
+### ModifyTimelineItem
+
+Timelineのアイテムを変更します。プレイリストは`playlistId`または`playlistName`、アイテムは`itemId`で指定します。変更用フィールドはすべてオプションです。
+
+```json
+{
+  "cmd": "ModifyTimelineItem",
+  "mediaPlayer": "Media Player 1",
+  "playlistName": "Timeline",
+  "itemId": 0,
+  "duration": 100.0,
+  "position": 3.0,
+  "fadeIn": 0.2,
+  "fadeOut": 0.2,
+  "opacity": 0.85,
+  "volume": 0.9,
+  "muted": false,
+  "transformations": {
+    "mode": "Custom",
+    "crop": [1, 10, 12, 15],
+    "anchor": [10, 20],
+    "position": [30, 40],
+    "scale": [0.9, 0.8],
+    "rotate": 90
+  },
+  "disableVideo": true,
+  "multiplyByAlpha": true,
+  "freezeFrameEnable": false,
+  "freezeFramePosition": 0.0,
+  "audioFiles": ["en.wav"],
+  "subtitles": "subs.srt"
+}
+```
+
+変換の`crop`値は左、上、右、下の順です。`anchor`と`position`には水平・垂直座標、`scale`には水平・垂直の倍率を指定します。`rotate`は反時計回りの角度です。`audioFiles`と`subtitles`はMediaアイテムでのみ使用でき、AUXアイテムには`aux`を使用します。
+
+### ModifyPlaylistItem
+
+Playlistのアイテムを変更します。プレイリストは`playlistId`または`playlistName`、アイテムは`itemId`または`itemIndex`で指定します。変更用フィールドはすべてオプションです。
+
+```json
+{
+  "cmd": "ModifyPlaylistItem",
+  "mediaPlayer": "Media Player 1",
+  "playlistName": "Playlist",
+  "itemId": 0,
+  "volume": 0.9,
+  "muted": false,
+  "loop": true,
+  "pauseOnStart": false,
+  "pauseOnEnd": false,
+  "inPoint": 1.0,
+  "outPoint": 6.0,
+  "fadeIn": 0.25,
+  "sendTimecodeEnable": true,
+  "sendTimecodeOffset": 0.0,
+  "startOnTimecodeEnable": false,
+  "startOnTimecodeValue": 0.0
+}
+```
+
+MediaおよびAUXアイテムでは、`volume`、`muted`、`transformations`、`disableVideo`、`multiplyByAlpha`、`freezeFrameEnable`、`freezeFramePosition`も使用できます。Mediaアイテムでは`audioFiles`と`subtitles`、AUXアイテムでは`aux`を使用できます。
+
+### ModifyMatrixItem
+
+Matrixのアイテムを変更します。プレイリストは`playlistId`または`playlistName`で指定します。アイテムは`itemId`、または`itemRowIndex`と`itemColumnIndex`の両方で指定できます。Matrixの行番号と列番号は`0`から始まります。変更用フィールドはすべてオプションです。
+
+```json
+{
+  "cmd": "ModifyMatrixItem",
+  "mediaPlayer": "Media Player 1",
+  "playlistName": "Matrix",
+  "itemId": 0,
+  "column": 0,
+  "row": 0,
+  "volume": 0.9,
+  "muted": false,
+  "loop": true,
+  "inPoint": 1.0,
+  "outPoint": 6.0,
+  "fadeIn": 0.25
+}
+```
+
+Matrixアイテムでは、Playlistアイテムと同じMediaおよびAUX固有フィールドを使用できます。
+
+### RemovePlaylistItem
+
+Playlistからアイテムを削除します。アイテムは`itemIndex`または`itemId`で指定できます。
+
+```json
+{
+  "cmd": "RemovePlaylistItem",
+  "mediaPlayer": "Media Player",
+  "playlistName": "Playlist1",
+  "itemIndex": 0
+}
+```
+
+### RemoveTimelineItem
+
+Timelineからアイテムを削除します。アイテムは`itemId`で指定します。
+
+```json
+{
+  "cmd": "RemoveTimelineItem",
+  "mediaPlayer": "Media Player",
+  "playlistName": "Timeline1",
+  "itemId": 0
+}
+```
+
+### RemoveMatrixItem
+
+Matrixからアイテムを削除します。アイテムは`itemId`、または行番号と列番号で指定できます。
+
+```json
+{
+  "cmd": "RemoveMatrixItem",
+  "mediaPlayer": "Media Player",
+  "playlistName": "Matrix1",
+  "itemId": 0
+}
+```
+
+## Timelineマーカーコマンド
+
+### GetTimelineMarkers
+
+Timeline内のマーカーを返します。
+
+```json
+{
+  "cmd": "GetTimelineMarkers",
+  "mediaPlayer": "Media Player",
+  "playlistName": "Timeline1"
+}
+```
+
+**HTTP Response:**
+
+```json
+{
+  "markers": [
+    {
+      "name": "Marker 1",
+      "position": 5.866,
+      "type": "Control",
+      "id": 1,
+      "enabled": true
+    },
+    {
+      "name": "Jump 1",
+      "position": 7.666,
+      "type": "Jump",
+      "id": 2,
+      "enabled": true,
+      "jumpTime": 2.1,
+      "jumpType": "time"
+    }
+  ]
+}
+```
+
+### AddTimelineMarker
+
+Timelineにマーカーを追加します。プレイリストは`playlistId`または`playlistName`で指定し、マーカー名は一意である必要があります。
+
+```json
+{
+  "cmd": "AddTimelineMarker",
+  "mediaPlayer": "Media Player",
+  "playlistName": "Timeline1",
+  "type": "Marker",
+  "position": 2.5,
+  "name": "My Marker"
+}
+```
+
+大文字と小文字を区別するマーカータイプは`Marker`、`Pause`、`Jump`、`TimecodeTrigger`です。Jumpマーカーでは`jumpType`も必要です。`jumpType`が`time`の場合は`jumpTime`、`marker`の場合は`jumpMarkerId`を指定します。
+
+### RemoveTimelineMarker
+
+Timelineからマーカーを削除します。
+
+```json
+{
+  "cmd": "RemoveTimelineMarker",
+  "mediaPlayer": "Media Player",
+  "playlistName": "Timeline1",
+  "markerId": 4
+}
+```
+
+### ModifyTimelineMarker
+
+Timelineのマーカーを変更します。プレイリストは`playlistId`または`playlistName`、マーカーは`markerId`で指定します。
+
+```json
+{
+  "cmd": "ModifyTimelineMarker",
+  "mediaPlayer": "Media Player",
+  "playlistName": "Timeline1",
+  "markerId": 4,
+  "name": "Updated Marker",
+  "position": 3.5,
+  "enabled": true
+}
+```
+
+`name`、`position`、`enabled`はオプションです。Jumpマーカーでは、`jumpType`と`jumpTime`または`jumpMarkerId`も変更できます。
+
+## Upload Managerコマンド
+
+### GetUploadingItems
+
+現在のアップロード状況を取得します。
+
+**Request:**
+
+```json
+{ "cmd": "GetUploadingItems" }
+```
+
+**HTTP Response:**
+
+```json
+{
+    "items": [
+        {
+            "path": "Media/Untitled2.rva",
+            "progress": 1,
+            "status": "done"
+        },
+        {
+            "path": "Media/2024-02-03 22-50-50 (1).rva",
+            "progress": 0.010,
+            "status": "converting"
+        }
+    ]
+}
+```
+
+## ファイルシステムコマンド
+
+### GetMediaFolder
+
+ディレクトリの内容を返します。
+
+```json
+{
+  "cmd": "GetMediaFolder",
+  "path": "Media"
+}
+```
+
+`path`はオプションです。省略すると現在のプロジェクトディレクトリが返されます。プロジェクトディレクトリからの相対パスまたは絶対パスを指定できますが、設定された作業フォルダー外のパスは使用できません。
+
+**HTTP Response:**
+
+```json
+{
+  "entries": [
+    {
+      "path": "Media/someMedia.rva",
+      "type": "Content",
+      "size": 35784144
+    },
+    {
+      "path": "Media/Synced",
+      "type": "Folder"
+    }
+  ]
+}
+```
+
+### GetWorkFolders
+
+設定されているScreenberryの作業フォルダーを返します。
+
+```json
+{
+  "cmd": "GetWorkFolders"
+}
+```
+
+**HTTP Response:**
+
+```json
+{
+  "workFolders": [
+    "/Users/username/Documents/Screenberry"
+  ]
+}
+```
+
+### GetMediaItem
+
+RVAメディアアイテムの情報を返します。
+
+```json
+{
+  "cmd": "GetMediaItem",
+  "itemPath": "Media/someMedia.rva"
+}
+```
+
+`itemPath`にはRVAメディアファイルのパスを指定します。
+
+**HTTP Response:**
+
+```json
+{
+  "mediaItem": {
+    "path": "Media/someMedia.rva",
+    "fps": 60.0,
+    "duration": 17.116,
+    "width": 1920,
+    "height": 1080,
+    "size": 35784144,
+    "date": 1763038182,
+    "audioFiles": ["2025-08-06 14-56-07 6.wav"]
+  }
+}
+```
+
+`duration` is a floating-point number of seconds.
+
+## 一般コマンド
+
+次のコマンドはScreenberry Serverアプリケーションまたはサーバーコンピューターを制御します。使用には注意してください。
+
+### Exit
+
+Screenberry Serverアプリケーションを終了します。
+
+```json
+{ "cmd": "Exit" }
+```
+
+### Restart
+
+Screenberry Serverアプリケーションを再起動します。
+
+```json
+{ "cmd": "Restart" }
+```
+
+### Shutdown
+
+Screenberry Serverコンピューターをシャットダウンします。
+
+```json
+{ "cmd": "Shutdown" }
+```
+
+### Reboot
+
+Screenberry Serverコンピューターを再起動します。
+
+```json
+{ "cmd": "Reboot" }
+```

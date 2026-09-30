@@ -1,0 +1,126 @@
+schema_version: 1
+document: knowledge/jp/how-to/media-playback/playlists/playlists-playback.md
+document_id: guide.media-playback.playlists.playlists-playback
+language: ja
+document_body_sha256: d20defa140953750bb19c006f7fb9a20f3e41e79a50e2e2a6d0e3afde33d4c1c
+figures:
+  - id: ja-82916e424b-001
+    title: Mediaplayercontrols280 1
+    caption: Mediaplayercontrols280 1
+    show: "Mediaplayercontrols280 1. Use the adjacent instructions as the content brief: メモ： Media Playerウィジェットの下部に表示されている再生制御コントロールは、現在アクティブなメディアアイテムに関連しています。同時に、アクティブなプレイリストを再生しながら、他のプレイリストを開いて編集することもできます。アクティブなプレイリストに切り替える必要がある場合は、プレイリストツリーまたはプレイリストエリアを右クリックしてReveal Active Itemを選択するか、A キーを押してください。 シークバーは再生の進行状況を表示し、メディアアイテムに対する追加の再生制御と設定を提供します。 Play Selected Itemボタンは、選択したメディアアイテムの再生を開始します。 Playボタンは、現在の再生位置から再生を開始します。 Pauseボタンは、現在の再生位置で再生を一時停止します。 Stopボタンは、再生を終了します。 Previous Itemボタンはプレイリスト内の前のメディアアイテムに"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: プレイリストの再生制御コントロール
+    source_url: https://help.screenberry.com/images/media-playback/static/mediaplayercontrols280-1.png
+    source_alt: Mediaplayercontrols280 1
+    text_coverage: not-independently-verified
+  - id: ja-82916e424b-002
+    title: Two Modes Playlist Playback Controls
+    caption: Two Modes Playlist Playback Controls
+    show: "Two Modes Playlist Playback Controls. Use the adjacent instructions as the content brief: シークバーは再生の進行状況を表示し、メディアアイテムに対する追加の再生制御と設定を提供します。 Play Selected Itemボタンは、選択したメディアアイテムの再生を開始します。 Playボタンは、現在の再生位置から再生を開始します。 Pauseボタンは、現在の再生位置で再生を一時停止します。 Stopボタンは、再生を終了します。 Previous Itemボタンはプレイリスト内の前のメディアアイテムにジャンプします。 Next Itemボタンはプレイリスト内の次のメディアアイテムにジャンプします。 Lockボタンは、誤った操作を防ぐために再生制御コントロールを操作できなくします。メディアアイテムの全長と現在の再生時間（またはフレーム番号）情報を表示します。Volume ControlボタンはMedia Playerの出力の全体的な音量を調整します（音量制御を参照）。Color CorrectionボタンはMedia P"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: プレイリストの再生制御コントロール
+    source_url: https://help.screenberry.com/images/media-playback/animation/Two-modes-Playlist-playback-controls.gif
+    source_alt: Two Modes Playlist Playback Controls
+    text_coverage: not-independently-verified
+  - id: ja-82916e424b-003
+    title: Mediaplayerbar280
+    caption: Mediaplayerbar280
+    show: "Mediaplayerbar280. Use the adjacent instructions as the content brief: Screenberryでは、シークバーは現在アクティブなメディアアイテムの再生情報を表示します。 再生ヘッドは再生の進行状況を示します。ユーザーは再生ヘッドをドラッグして再生位置を変更することができます。再生はその位置にあるフレームから続行されます。再生時間表示はメディアアイテムの再生時間（またはフレーム番号）情報を表示します。開始点スライダーの位置は再生の最初のフレームを定義します。終了点スライダーの位置は再生の最後のフレームを定義します。時間目盛りは時間のスケールを表示します。オーディオピークはメディアアイテムのアクティブなオーディオトラック（存在する場合）の波形を表示します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: シークバー
+    source_url: https://help.screenberry.com/images/media-playback/static/mediaplayerbar280.png
+    source_alt: Mediaplayerbar280
+    text_coverage: not-independently-verified
+  - id: ja-82916e424b-004
+    title: Seek Bar Context Menu
+    caption: Seek Bar Context Menu
+    show: "Seek Bar Context Menu. Use the adjacent instructions as the content brief: 再生ヘッドは再生の進行状況を示します。ユーザーは再生ヘッドをドラッグして再生位置を変更することができます。再生はその位置にあるフレームから続行されます。再生時間表示はメディアアイテムの再生時間（またはフレーム番号）情報を表示します。開始点スライダーの位置は再生の最初のフレームを定義します。終了点スライダーの位置は再生の最後のフレームを定義します。時間目盛りは時間のスケールを表示します。オーディオピークはメディアアイテムのアクティブなオーディオトラック（存在する場合）の波形を表示します。 シークバーを右クリックすると関連するコンテキストメニューが表示されます： Jump to Frameは、再生ヘッドを指定されたフレームの位置に変更します。Set In Pointは、現在のカーソル位置に再生の最初のフレームを設定します。Set Out Pointは、現在のカーソル位置に再生の最後のフレームを設定します。Reset In/Out P"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: シークバー
+    source_url: https://help.screenberry.com/images/media-playback/animation/Seek-Bar-Context-Menu.gif
+    source_alt: Seek Bar Context Menu
+    text_coverage: not-independently-verified
+  - id: ja-82916e424b-005
+    title: Duration Display
+    caption: Duration Display
+    show: "Duration Display. Use the adjacent instructions as the content brief: 再生時間表示を右クリックすると、3つの異なる表示モードの切り替えが可能です。 現在の再生時間/メディアアイテムの全長 (hh:mm:ss)。現在のフレーム数/メディアアイテムの全フレーム数。メディアアイテムの残り再生時間 (hh:mm:ss)。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: 再生時間表示の切り替え
+    source_url: https://help.screenberry.com/images/media-playback/animation/Duration-Display.gif
+    source_alt: Duration Display
+    text_coverage: not-independently-verified
+  - id: ja-82916e424b-006
+    title: Media Items Playback
+    caption: Media Items Playback
+    show: "Media Items Playback. Use the adjacent instructions as the content brief: 再生ヘッドの現在位置から再生を開始するには、Playボタンを押します。プレイリストでメディアアイテムを選択し、Play Selected Itemボタンを押します。Alt キーを押しながら（マウスポインタはオレンジ色の再生シンボルに変わります）、プレイリスト内のメディアアイテムをクリックします。 最後の2つのオプションは、指定したメディアアイテムに再生を即座に切り替える必要がある場合によく使用されます。 プレイリスト内のメディアアイテムは、左から右へ、上から下へ順番に再生されます。再生ヘッドがプレイリスト内の最後のメディアアイテムの最後のフレームに到達すると、再生位置はプレイリスト内の最初のメディアアイテムの最初のフレームに移動します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 20
+      section: メディアアイテムの再生
+    source_url: https://help.screenberry.com/images/media-playback/animation/Media-Items-Playback.gif
+    source_alt: Media Items Playback
+    text_coverage: not-independently-verified
+  - id: ja-82916e424b-007
+    title: Revealing Currently Playing
+    caption: Revealing Currently Playing
+    show: "Revealing Currently Playing. Use the adjacent instructions as the content brief: 現在再生中のアイテムは、プレイリストツリーやプレイリストエリアを右クリックし、Reveal Active Itemを選択するか、A キーを押すことで素早く見つけることができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 26
+      section: 現在再生中のメディアアイテムの表示
+    source_url: https://help.screenberry.com/images/media-playback/animation/Revealing-Currently-Playing.gif
+    source_alt: Revealing Currently Playing
+    text_coverage: not-independently-verified
+  - id: ja-82916e424b-008
+    title: Loop Group
+    caption: Loop Group
+    show: "Loop Group. Use the adjacent instructions as the content brief: メディアアイテムのグループをループ再生するには、プレイリストで複数のメディアアイテムの選択して右クリックし、ドロップダウンメニューからLoop Through Selected Itemsを選択するか、Shift + L キーを押します。 ループグループが作成されると、ループの開始と終了を示す特別なLoop StartアイテムとLoop Endアイテムが、グループのメディアアイテムの前後に追加されます。これらのアイテムをプレイリスト内で移動して、ループグループに含めるメディアアイテムの数を増減させることができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 29
+      section: メディアアイテムのループグループ
+    source_url: https://help.screenberry.com/images/media-playback/animation/Loop-Group.gif
+    source_alt: Loop Group
+    text_coverage: not-independently-verified
+  - id: ja-82916e424b-009
+    title: Presentation Clicker
+    caption: Presentation Clicker
+    show: "Presentation Clicker. Use the adjacent instructions as the content brief: プレゼンテーションクリッカー（リモコン）"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 30
+      section: プレゼンテーションクリッカーでの再生制御
+    source_url: https://help.screenberry.com/images/media-playback/static/presentation-clicker.png
+    source_alt: Presentation Clicker
+    text_coverage: not-independently-verified
+  - id: ja-82916e424b-010
+    title: Presentation Clicker On
+    caption: Presentation Clicker On
+    show: "Presentation Clicker On. Use the adjacent instructions as the content brief: プレゼンテーションクリッカーを使用すると、Screenberryを使ってプレゼンテーションを便利に行うことができます。これにより、プレゼンターは遠隔でプレイリストの再生を制御することができます。プレゼンテーションクリッカーのNext（右矢印） またはPrevious（左矢印） ボタンを押すと、プレゼンテーションはそれぞれ次のメディアアイテムに進み、再生が開始されます。 プレゼンテーションクリッカーを使用したScreenberryの再生制御機能を行うには、Preferences > Generalを開き、Presentation Clickerのチェックボックスを選択してください。 また、プレイリストの方でもプレゼンテーションクリッカーによる再生制御を有効化必要があります。プレイリストの設定 - プレゼンテーションクリッカーによる再生制御を参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: プレゼンテーションクリッカーでの再生制御
+    source_url: https://help.screenberry.com/images/media-playback/animation/Presentation-Clicker-On.gif
+    source_alt: Presentation Clicker On
+    text_coverage: not-independently-verified

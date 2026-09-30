@@ -1,0 +1,102 @@
+schema_version: 1
+document: knowledge/en/how-to/media-playback/timelines/animation-and-keyframing.md
+document_id: guide.media-playback.timelines.animation-and-keyframing
+language: en
+document_body_sha256: 1fffdf2baa4461b8b5c89fa49d5f944836cf372ba0f2481a54a9ae654e227ce6
+figures:
+  - id: en-6d81ba6e63-001
+    title: Animation And Keyframing
+    caption: Animation And Keyframing
+    show: "Animation And Keyframing. Use the adjacent instructions as the content brief: Select the media item on the timeline track containing the parameter you want to animate.Move the playhead to the point in time where you wish to add a keyframe.In the Settings panel, specify the parameter you want to animate by clicking on the rhombus icon next to its name.Enter the desired value(s) into the parameter value field(s). When you set keyframes for a media item on the timeline, a rhombus icon will appear"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: Animation and Keyframing
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing.gif
+    source_alt: Animation And Keyframing
+    text_coverage: not-independently-verified
+  - id: en-6d81ba6e63-002
+    title: Animation And Keyframing 2
+    caption: Animation And Keyframing 2
+    show: "Animation And Keyframing 2. Use the adjacent instructions as the content brief: If the keyframes are positioned beyond the duration of the media item, the marks on the corresponding side of the parameter bar will indicate their existence and location. You can also set keyframes in real-time while the playhead is in motion during playback. In this case, whenever a value of the selected parameter is altered, a keyframe is automatically created at the current position of the playhead."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Animation and Keyframing
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing-2.gif
+    source_alt: Animation And Keyframing 2
+    text_coverage: not-independently-verified
+  - id: en-6d81ba6e63-003
+    title: Animation And Keyframing 3 1
+    caption: Animation And Keyframing 3 1
+    show: "Animation And Keyframing 3 1. Use the adjacent instructions as the content brief: You can also set keyframes in real-time while the playhead is in motion during playback. In this case, whenever a value of the selected parameter is altered, a keyframe is automatically created at the current position of the playhead. When more than one keyframe is added to a parameter, keyframe navigation arrows will appear on either side of the corresponding rhombus icon next to the parameter name in the Settings p"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: Animation and Keyframing
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing-3-1.gif
+    source_alt: Animation And Keyframing 3 1
+    text_coverage: not-independently-verified
+  - id: en-6d81ba6e63-004
+    title: Animation And Keyframing 4
+    caption: Animation And Keyframing 4
+    show: "Animation And Keyframing 4. Use the adjacent instructions as the content brief: When more than one keyframe is added to a parameter, keyframe navigation arrows will appear on either side of the corresponding rhombus icon next to the parameter name in the Settings panel. These arrows enable you to navigate to the existing keyframes for the purpose of making further adjustments. When a keyframe is selected, the rhombus icon changes its color to blue . Alternatively, you can navigate between keyfra"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: Animation and Keyframing
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing-4.gif
+    source_alt: Animation And Keyframing 4
+    text_coverage: not-independently-verified
+  - id: en-6d81ba6e63-005
+    title: Animation And Keyframing 5
+    caption: Animation And Keyframing 5
+    show: "Animation And Keyframing 5. Use the adjacent instructions as the content brief: To select keyframes in the timeline panel, click on their icons in the expanded list of parameters for the media item. Selected keyframes will be highlighted in yellow , while unselected ones will remain gray . You can select multiple keyframes at once by holding down the Ctrl key and clicking on their corresponding icons. To adjust the position (time) of selected keyframes, drag them to a desired location on the tim"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: Animation and Keyframing
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing-5.gif
+    source_alt: Animation And Keyframing 5
+    text_coverage: not-independently-verified
+  - id: en-6d81ba6e63-006
+    title: Animation And Keyframing 6
+    caption: Animation And Keyframing 6
+    show: "Animation And Keyframing 6. Use the adjacent instructions as the content brief: To copy keyframes from one media item to another, do the following: Right-click on the media item with the desired keyframes and select Copy from the dropdown menu. Alternatively, you can select the media item and use the Ctrl + C keyboard shortcut.Right-click on the target media item and select Paste Properties from the dropdown menu or use the Ctrl + Shift + V keyboard shortcut.In the window that appears, make sure"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: Animation and Keyframing
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing-6.gif
+    source_alt: Animation And Keyframing 6
+    text_coverage: not-independently-verified
+  - id: en-6d81ba6e63-007
+    title: Animation And Keyframing 7
+    caption: Animation And Keyframing 7
+    show: "Animation And Keyframing 7. Use the adjacent instructions as the content brief: If a keyframe is no longer needed, it can be easily deleted by right-clicking on its icon in the expanded list of parameters for the media item and selecting Delete Keyframes from the dropdown menu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: Animation and Keyframing
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing-7.gif
+    source_alt: Animation And Keyframing 7
+    text_coverage: not-independently-verified
+  - id: en-6d81ba6e63-008
+    title: Keyframing Of Data Items
+    caption: Keyframing Of Data Items
+    show: "Keyframing Of Data Items. Use the adjacent instructions as the content brief: Keyframes for a Data Item can be set manually, following the same process as for other media items on a timeline. Alternatively, you can use the recording function to automatically set keyframes. To enable this function, select the Record checkbox in the Data Item settings. Once enabled, all changes to the value parameter of the Data Item when it is played back will be automatically recorded using keyframes. Note: It"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: Keyframing of Data Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Keyframing-of-Data-Items.gif
+    source_alt: Keyframing Of Data Items
+    text_coverage: not-independently-verified

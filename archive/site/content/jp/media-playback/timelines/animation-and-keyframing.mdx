@@ -1,0 +1,73 @@
+---
+title: Screenberryのタイムラインでマーカーを使う方法
+description: Screenberryのタイムラインでラベルや再生停止、ジャンプ、タイムコードマーカーを使って高度な再生制御を行う方法を説明します。
+openGraph:
+  title: Screenberryのタイムラインでマーカーを使う方法
+  description: Screenberryのタイムラインで様々なマーカーを使って高度な再生制御を行う方法を説明します。
+---
+
+# アニメーションとキーフレーム
+
+タイムライン上のメディアアイテムの特定のパラメータをアニメーション化することができます。これは、パラメータ値にキーフレームを割り当てることによって実現されます。キーフレームは、特定のパラメータ値が設定される時間上のポイントを示します。時間の経過に伴うパラメータ値の変化を作成するには、少なくとも2つのキーフレームを設定する必要があります。変化の開始時のパラメータ値とｍ変化の終了時の値です。その後、キーフレーム間の値の滑らかな変化、つまり補間が自動的に作成されます。
+
+現在、次のメディアアイテムのパラメータをアニメーション化することができます：
+
+- 変形プロパティ： **アンカーポイント**、**位置**、**拡大率**、**回転**
+- 画像の**不透明度**
+- **音量**
+
+> **メモ：** 変形プロパティをアニメーション化するには、メディアアイテムの**Settings**で**Position Method**に**Custom Transformations**を選択してください。
+
+キーフレームを追加するには、次の手順に従ってください：
+
+1. アニメーションを付けたいパラメーターを含むタイムライン上のメディアアイテムを選択します。
+2. 再生ヘッドをキーフレームを追加したい時点に移動します。
+3. **Settings**パネルで、パラメーターをアニメーション化するために、その名前の隣にある菱形の<img alt="Rombus Icon" src="/images/media-playback/static/rombus-icon.png" width={23} height={23} loading="lazy" />アイコンをクリックして指定します。
+4. パラメータ入力欄に設定したい値を入力します。
+
+タイムライン上のメディアアイテムにキーフレームを設定すると、菱の<img alt="Rombusi Icon" src="/images/media-playback/static/rombusi-icon.png" width={23} height={23} loading="lazy" />アイコンがメディアアイテムの名前の右端に表示されます。このアイコンをクリックすると、設定されたキーフレームを持つメディアアイテムのパラメータのリストが展開または折りたたまれます。
+
+<img alt="Animation And Keyframing" src="/images/media-playback/animation/Animation-and-Keyframing.gif" width={800} height={480} loading="lazy" />
+
+もしキーフレームがメディアアイテムの長さを超える位置に配置されている場合、パラメーターバーの対応する側にあるマークがその存在と位置を示します。
+
+<img alt="Animation And Keyframing 2" src="/images/media-playback/animation/Animation-and-Keyframing-2.gif" width={800} height={440} loading="lazy" />
+
+リアルタイムで再生中に再生ヘッドが動いている間に、キーフレームを設定することもできます。この場合、選択したパラメータの値が変更されると、キーフレームが自動的に再生ヘッドの現在位置に作成されます。
+
+<img alt="Animation And Keyframing 3 1" src="/images/media-playback/animation/Animation-and-Keyframing-3-1.gif" width={800} height={440} loading="lazy" />
+
+複数のキーフレームがパラメータに追加されると、**Settings**パネル内のパラメータ名の隣にある菱形アイコンの両側に、キーフレームのナビゲーション矢印<img alt="2arrows" src="/images/media-playback/static/2arrows.png" width={39} height={21} loading="lazy" />が表示されます。これらの矢印を使用して、既存のキーフレームに移動し、さらなる調整を行うことができます。キーフレームが選択されると、菱形アイコンの色が青<img alt="2arrows Blue" src="/images/media-playback/static/2arrows-blue.png" width={39} height={21} loading="lazy" />に変わります。
+
+また、タイムラインパネルでキーフレーム間を移動する場合は、メディアアイテムのパラメータリストを展開し、再生ヘッドを移動することで行うことができます。再生ヘッドは自動的に既存のキーフレームにスナップされます。さらに、タイムライントラック上の任意の場所で右クリックし、ドロップダウンメニューから**Jump to…** > **Next Keyframe**（または**Previous Keyframe**）を選択することで、キーフレーム間を移動することもできます。
+
+<img alt="Animation And Keyframing 4" src="/images/media-playback/animation/Animation-and-Keyframing-4.gif" width={800} height={460} loading="lazy" />
+
+タイムラインパネルでキーフレームを選択するには、メディアアイテムのパラメータの展開されたリスト内のアイコンをクリックします。選択されたキーフレームは黄色<img alt="Rselected Icon" src="/images/media-playback/static/rselected-icon.png" width={19} height={19} loading="lazy" />でハイライト表示され、選択されていないキーフレームはグレー<img alt="Runselected Icon" src="/images/media-playback/static/runselected-icon.png" width={19} height={19} loading="lazy" />のままです。**`Ctrl`** キーを押しながら対応するアイコンをクリックすることで、複数のキーフレームを一度に選択することができます。
+
+選択されたキーフレームの位置（時間）を調整するには、タイムライントラック上の移動先にドラッグします。移動する際に、選択されたキーフレーム同士の相対的な位置関係は変わりません。
+
+<img alt="Animation And Keyframing 5" src="/images/media-playback/animation/Animation-and-Keyframing-5.gif" width={800} height={436} loading="lazy" />
+
+キーフレームを1つのメディアアイテムから別のメディアアイテムにコピーするには、以下の手順を実行します：
+
+1. キーフレームをコピーしたいメディアアイテムを右クリックし、ドロップダウンメニューから**Copy**を選択します。または、メディアアイテムを選択し、**`Ctrl`** + **`C`** のキーボードショートカットを使用することもできます。
+2. コピー先のメディアアイテムを右クリックし、ドロップダウンメニューから**Paste Properties**を選択するか、**`Ctrl`** + **`Shift`** + **`V`** のキーボードショートカットを使用します。
+3. 表示されるダイアログボックスで、**Animation Keys**チェックボックスが選択されていることを確認します。
+4. **OK**をクリックして、コピーしたキーフレームをターゲットメディアアイテムに適用します。
+
+<img alt="Animation And Keyframing 6" src="/images/media-playback/animation/Animation-and-Keyframing-6.gif" width={800} height={568} loading="lazy" />
+
+もしキーフレームが不要になった場合は、メディアアイテムのパラメータの展開リストでそのアイコンを右クリックし、ドロップダウンメニューから**Delete Keyframes**を選択することで簡単に削除することができます。
+
+<img alt="Animation And Keyframing 7" src="/images/media-playback/animation/Animation-and-Keyframing-7.gif" width={800} height={400} loading="lazy" />
+
+## データアイテムのキーフレーム化
+
+**データアイテム**は、ノードグラフに追加されたノードの任意の浮動小数点値パラメータをアニメーション化することができます。タイムライントラックに配置し、長さを自由に設定することができます。**データアイテム**にキーフレームを設定することで、再生中にパラメータ値をダイナミックに変化させることができます。
+
+**データアイテム**のキーフレームは、他のメディアアイテムと同様の手順で手動で設定することができます。また、レコーディング機能を使用して自動的にキーフレームを設定することもできます。この機能を有効にするには、**データアイテム**の設定で**Record**チェックボックスを選択します。有効にした場合、**データアイテム**の値パラメータに対するすべての変更は、再生時に自動的にキーフレームとして記録されます。
+
+> **メモ：** レコーディングを終えたら、次に**データアイテム**を再生する際に、以前に設定されたキーフレームが消去されないように、**Record**チェックボックスを選択解除してレコーディング機能を無効にしてください。
+
+<img alt="Keyframing Of Data Items" src="/images/media-playback/animation/Keyframing-of-Data-Items.gif" width={800} height={432} loading="lazy" />

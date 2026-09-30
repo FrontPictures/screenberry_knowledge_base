@@ -1,0 +1,102 @@
+schema_version: 1
+document: knowledge/en/how-to/web-panel.md
+document_id: guide.web-panel
+language: en
+document_body_sha256: fde86a3bf8cf9ba670a03e3c185e23865ae69635509db6b9837ac54468779860
+figures:
+  - id: en-7b16510cba-001
+    title: Adding Web Panel
+    caption: Adding Web Panel
+    show: "Adding Web Panel. Use the adjacent instructions as the content brief: To access the web panel, do the following: In the Node Graph, add the WebServer node. Notice that the default Port 8081 is selected in the settings of the node. You can choose another port if port 8081 is already in use.Enter the URL http://127.0.0.1:8081 (or http://localhost:8081) in your web browser if you’re accessing the web panel from the same machine that hosts the Screenberry server. When accessing from a mobi"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Accessing Web Panel
+    source_url: https://help.screenberry.com/images/web-panel/animation/Adding-Web-Panel.gif
+    source_alt: Adding Web Panel
+    text_coverage: not-independently-verified
+  - id: en-7b16510cba-002
+    title: Playlist Selection
+    caption: Playlist Selection
+    show: "Playlist Selection. Use the adjacent instructions as the content brief: To access the desired playlist, do the following: Click on the Screenberry Web Panel menu button located at the top left corner and select Media Player.Click on the Settings button located at the bottom right corner to open the right sidebar.Select the Media Player in the dropdown menu.Select the playlist in the dropdown menu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Playlist Selection
+    source_url: https://help.screenberry.com/images/web-panel/animation/Playlist-Selection.gif
+    source_alt: Playlist Selection
+    text_coverage: not-independently-verified
+  - id: en-7b16510cba-003
+    title: Web Panel Controls280
+    caption: Web Panel Controls280
+    show: "Web Panel Controls280. Use the adjacent instructions as the content brief: Play Selected Item starts playback of a selected media item. Play starts playback from the current playhead position. Pause freezes playback at the current playhead position. Stop ends playback. Previous Item jumps to the previous media item in the playlist. Next Item jumps to the next media item in the playlist. Volume Control adjusts the overall audio volume for the Media Player output."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: Playback Controls
+    source_url: https://help.screenberry.com/images/web-panel/static/web-panel-controls280.png
+    source_alt: Web Panel Controls280
+    text_coverage: not-independently-verified
+  - id: en-7b16510cba-004
+    title: Media Items Playback
+    caption: Media Items Playback
+    show: "Media Items Playback. Use the adjacent instructions as the content brief: To start playback of a media item in the playlist, do one of the following: Press the Play button to start playback from the current playhead position.Select the media item in the playlist and press the Play Selected Item button ."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: Media Items Playback
+    source_url: https://help.screenberry.com/images/web-panel/animation/Media-Items-Playback.gif
+    source_alt: Media Items Playback
+    text_coverage: not-independently-verified
+  - id: en-7b16510cba-005
+    title: Media Item Settings
+    caption: Media Item Settings
+    show: "Media Item Settings. Use the adjacent instructions as the content brief: The following media item settings are available for editing: Title changes the name of a media item.Fade In defines fade in time for a media item in seconds (crossfades a media item with a previous one).Pause on First Frame / Pause on Last Frame specifies whether the media item’s playback should be paused on the first or last frame.Loops and Infinite Loop specify whether the media item should be played in a loop.Volu"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: Media Item Settings
+    source_url: https://help.screenberry.com/images/web-panel/animation/Media-Item-Settings.gif
+    source_alt: Media Item Settings
+    text_coverage: not-independently-verified
+  - id: en-7b16510cba-006
+    title: Managing Playlists
+    caption: Managing Playlists
+    show: "Managing Playlists. Use the adjacent instructions as the content brief: To manage playlists, click on the Settings button located at the bottom right corner to open the right-sidebar, and then click on the playlist dropdown menu. You can perform the following actions: To add a new playlist, click on the Add New Playlist button.To rename a playlist, click the Edit icon next to the playlist name, and enter a new name in the opened dialog box.To delete a playlist, click the Trash icon next "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: Managing Playlists
+    source_url: https://help.screenberry.com/images/web-panel/animation/Managing-Playlists.gif
+    source_alt: Managing Playlists
+    text_coverage: not-independently-verified
+  - id: en-7b16510cba-007
+    title: Organizing Media Items In Playlists
+    caption: Organizing Media Items In Playlists
+    show: "Organizing Media Items In Playlists. Use the adjacent instructions as the content brief: To add media items, click on the button if the playlist is empty or the icon on the particular media item after which media items should be added. Select media items in the opened Media Library window and press the Add button .To delete a media item, click the icon on the media item.To change the order of media items, drag the media item to the desired position. When you have finished editing the playlist, click on t"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 29
+      section: Organizing Media Items in Playlists
+    source_url: https://help.screenberry.com/images/web-panel/animation/Organizing-Media-Items-in-Playlists.gif
+    source_alt: Organizing Media Items In Playlists
+    text_coverage: not-independently-verified
+  - id: en-7b16510cba-008
+    title: Working With Widgets
+    caption: Working With Widgets
+    show: "Working With Widgets. Use the adjacent instructions as the content brief: To access the desired widget, do the following: Click on the Screenberry Web Panel menu button located at the top left corner and select Widgets.Select the widget in the dropdown menu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: Working with Widgets
+    source_url: https://help.screenberry.com/images/web-panel/animation/Working-with-Widgets.gif
+    source_alt: Working With Widgets
+    text_coverage: not-independently-verified

@@ -1,0 +1,11 @@
+# Screenberry Knowledge Base
+
+Text-only product knowledge. Public default: 3.4; 3.5 is in development. Imported records are in_review. Use explicit version/profile selection. Search knowledge/ only; illustrations/ contains optional User Guide editorial briefs, not factual evidence. No binary media is bundled.
+
+## Start here
+
+- [Repository guide](README.md)
+- [AI instructions](AGENTS.md)
+- [Release registry](releases.yaml)
+- [Complete catalog](catalog/README.md)
+- [Screenshot and illustration workflow](docs/TEXT-AND-ILLUSTRATIONS.md)

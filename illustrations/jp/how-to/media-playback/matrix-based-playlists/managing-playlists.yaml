@@ -1,0 +1,78 @@
+schema_version: 1
+document: knowledge/jp/how-to/media-playback/matrix-based-playlists/managing-playlists.md
+document_id: guide.media-playback.matrix-based-playlists.managing-playlists
+language: ja
+document_body_sha256: b3cc8f16aaff43d09423cb304087c14cca070347983f91ca3f05ded8e4ebdde0
+figures:
+  - id: ja-86d7a43ce1-001
+    title: Creating Playlists Matrix
+    caption: Creating Playlists Matrix
+    show: "Creating Playlists Matrix. Use the adjacent instructions as the content brief: 既存のフォルダ内にプレイリストを作成するには、フォルダを右クリックするか、選択してAddをクリックし、Add Matrix Playlistを選択します。フォルダの内容の表示/非表示を切り替えるには、そのフォルダの隣にある矢印アイコンをクリックします。 作成されたマトリックス型プレイリストは、Matrix1、Matrix2などと順番に名前が付けられます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: プレイリストの作成
+    source_url: https://help.screenberry.com/images/media-playback/animation/Creating-Playlists-Matrix.gif
+    source_alt: Creating Playlists Matrix
+    text_coverage: not-independently-verified
+  - id: ja-86d7a43ce1-002
+    title: Renaming Playlists Matrix
+    caption: Renaming Playlists Matrix
+    show: "Renaming Playlists Matrix. Use the adjacent instructions as the content brief: プレイリストの名前を変更するには、その名前を右クリックし、ドロップダウンメニューからRenameを選択し、表示されるダイアログボックスに新しい名前を入力してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: プレイリスト名の変更
+    source_url: https://help.screenberry.com/images/media-playback/animation/Renaming-Playlists-Matrix.gif
+    source_alt: Renaming Playlists Matrix
+    text_coverage: not-independently-verified
+  - id: ja-86d7a43ce1-003
+    title: Deleting Playlists Matrix
+    caption: Deleting Playlists Matrix
+    show: "Deleting Playlists Matrix. Use the adjacent instructions as the content brief: プレイリストを削除するには、その名前を右クリックし、ドロップダウンメニューからDeleteを選択するか、プレイリストを選択し、ナビゲーションパネルの下部ツールバーにあるDelete ボタンを押してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: プレイリストの削除
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Playlists-Matrix.gif
+    source_alt: Deleting Playlists Matrix
+    text_coverage: not-independently-verified
+  - id: ja-86d7a43ce1-004
+    title: Arranging Playlists
+    caption: Arranging Playlists
+    show: "Arranging Playlists. Use the adjacent instructions as the content brief: ナビゲーションパネルで、プレイリスト、タイムライン、フォルダのリストを移動するには、Up と Down の矢印キーを使用します。矢印アイコンをクリックしてフォルダを展開または折りたたむこともできます。 ナビゲーションパネル内でプレイリストまたはタイムラインの順序を変更するには、移動したいプレイリストまたはタイムラインの名前を右クリックし、ドロップダウンメニューからMove Up（Ctrl + Up）またはMove Down（Ctrl + Down）を選択するか、リスト内の新しい位置にドラッグします。プレイリストをフォルダに配置するには、そのフォルダの名前の上にドラッグするか、現在のフォルダ内にドラッグします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: マトリックス型プレイリストの整理
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Playlists.gif
+    source_alt: Arranging Playlists
+    text_coverage: not-independently-verified
+  - id: ja-86d7a43ce1-005
+    title: Indication Playlists
+    caption: Indication Playlists
+    show: "Indication Playlists. Use the adjacent instructions as the content brief: プレイリスト名の横には、設定のためのトグルボタンがあり、現在のプレイリストの状態を表示しています： Locking： プレイリストをロックすることで、意図しない変更を防ぎます。ロックされたプレイリストは編集できず、ロック解除することで再び編集できるようになります。Playback Control with Presentation Clicker： プレゼンテーションクリッカーを使用したプレイリストの制御を有効化または無効化します。詳細については、プレゼンテーションクリッカーによるプレイリスト再生制御の章を参照してください。Event Mapping： プレイリスト内のメディアアイテムは、MIDI/キーボード入力などのさまざまなイベントを通じて再生を開始することができます。このトグルボタンを使用して、プレイリストがそのようなイベントを監視するかどうかを切り替えることができます。詳細については、メディアアイテムをイベントにマッピン"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: プレイリストの設定と状態表示
+    source_url: https://help.screenberry.com/images/media-playback/animation/Indication-Playlists.gif
+    source_alt: Indication Playlists
+    text_coverage: not-independently-verified
+  - id: ja-86d7a43ce1-006
+    title: Indication Playback
+    caption: Indication Playback
+    show: "Indication Playback. Use the adjacent instructions as the content brief: Locking： プレイリストをロックすることで、意図しない変更を防ぎます。ロックされたプレイリストは編集できず、ロック解除することで再び編集できるようになります。Playback Control with Presentation Clicker： プレゼンテーションクリッカーを使用したプレイリストの制御を有効化または無効化します。詳細については、プレゼンテーションクリッカーによるプレイリスト再生制御の章を参照してください。Event Mapping： プレイリスト内のメディアアイテムは、MIDI/キーボード入力などのさまざまなイベントを通じて再生を開始することができます。このトグルボタンを使用して、プレイリストがそのようなイベントを監視するかどうかを切り替えることができます。詳細については、メディアアイテムをイベントにマッピングする の章を参照してください。Listening to the Timecode： このトグルボタ"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: 再生状態の表示
+    source_url: https://help.screenberry.com/images/media-playback/animation/Indication-Playback.gif
+    source_alt: Indication Playback
+    text_coverage: not-independently-verified

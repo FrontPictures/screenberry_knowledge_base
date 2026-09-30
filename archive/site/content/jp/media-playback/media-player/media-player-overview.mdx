@@ -1,0 +1,39 @@
+---
+title: ScreenberryのMedia Playerによる再生制御
+description: ScreenberryのMedia Playerによる映像再生、プレイリストやタイムラインの管理やイベントマッピングによる映像再生の自動化について説明します。
+openGraph:
+  title: ScreenberryのMedia Playerによる再生制御
+  description: ScreenberryのMedia Playerによる映像再生、プレイリストやタイムラインの管理やイベントマッピングによる映像再生の自動化について説明します。
+---
+
+# Media Playerの概要
+
+**Media Player**（メディアプレーヤー）は、メディアファイルの再生、プレイリストとタイムラインの管理、タイムコード操作、色調補正、音量調整を提供します。
+
+Screenberryでは、複数のメディアプレーヤーを作成することができます。各メディアプレーヤーはプレイリストとタイムラインを含むことができます。
+
+DisplayとPatchを使うことで、メディアプレーヤーは出力画面上で異なるサイズ、位置、形状で映像を重ねることができます。
+
+メディアプレーヤーの再生は自動化することができます。そのためにメディアプレーヤー自体だけでなく、それぞれのプレイリスト、タイムライン、メディアアイテムなども、MIDI / キーボード / IPイベント、スクリプト、DMXコマンドなどによって手動または自動的にトリガーを受信することができます。
+
+![Mediaplayerview](/images/media-playback/static/mediaplayerview.png)
+
+_**Media Player**の画面構成： 1 – ナビゲーションパネル、2 – 現在のプレイリストまたはタイムラインのコンテンツエリア、3 – 再生制御と設定のためのコントロールバー。_
+
+## Media Player ウィジェット
+
+**Media Player**ノードが**Node Graph**に追加されると、対応する**Media Player**ウィジェットがアクセス可能になります。このウィジェットをワークスペースに追加するには、**Screenberry Panel** のメインメニューから **Window** > [**Media Player名**] を選択してください。
+
+> **メモ：** 複数の**Media Player**ノードを作成することができます。追加された各**MediaPlayer**ノードには、独自の**Media Player**ウィジェットが用意されます。
+
+<img alt="Media Player Widget" src="/images/media-playback/animation/Media-Player-Widget.gif" width={800} height={416} loading="lazy" />
+
+## プレイリスト、タイムライン、およびフォルダ
+
+メディア再生のために、メディアアイテムは**プレイリスト**に追加することも、**タイムライン**内に配置することもできます。
+
+さらに、複数のプレイリストとタイムラインはフォルダで整理することもできます。新しいフォルダを作成するには、**ナビゲーションパネル**の空白のエリアを右クリックし、ドロップダウンメニューから**Add Folder**を選択するか、**ナビゲーションパネル**の下部ツールバーの**Add Folder**<img alt="Addfolder" src="/images/media-playback/static/addfolder.png" width={18} height={18} loading="lazy" />ボタンをクリックしてください。
+
+<img alt="PlaylistsTimelinesFolders" src="/images/media-playback/animation/PlaylistsTimelinesFolders.gif" width={800} height={500} loading="lazy" />
+
+> **メモ：** デフォルトでは、新しい**Media Player**ウィジェットには空の**Playlist**が1つ作成されます。このプレイリストには、メディアアイテムを**Media Library**からドラッグ＆ドロップするか、直接システムフォルダから追加することができます。プレイリストへのメディアアイテムの追加については、[メディアアイテムをプレイリストに追加](../playlists/organizing-media-items-in-playlists#メディアアイテムをプレイリストに追加)の章を参照してください。

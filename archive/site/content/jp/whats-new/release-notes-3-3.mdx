@@ -1,0 +1,167 @@
+---
+title: Screenberry v3.3 リリースノート - 新機能と改善点
+description: macOS対応、TouchEngine用専用GPU、高度なカラーマネジメント、Hot Backup、再設計された3D Sceneなど、Screenberry v3.3の新機能を紹介します。
+openGraph:
+  title: Screenberry v3.3 リリースノート - 新機能と改善点
+  description: Screenberry v3.3で追加されたmacOS対応、再生、3D Scene、キャリブレーション、プロジェクト保護などの機能を紹介します。
+---
+
+# Screenberry v3.3 リリースノート
+
+## 新機能
+
+### macOS対応
+
+Screenberry ServerおよびPanelがmacOSに対応しました。既存プロジェクトを複数の対応プラットフォームで利用できます。
+
+### 非圧縮シーケンス再生の改善
+
+非圧縮イメージシーケンスの再生処理を最適化し、高解像度コンテンツをより安定して再生できるようになりました。
+
+### TouchEngine用の専用GPU
+
+TouchEngineの処理に専用GPUを割り当てられるようになり、ScreenberryのレンダリングとTouchDesignerコンテンツの負荷を分離できます。
+
+### 高度なカラーマネジメント
+
+プロジェクト全体で高精度な色処理を行うためのカラーマネジメント機能を拡張しました。
+
+### 遮蔽領域のキャリブレーション
+
+カメラから一部が見えない、または遮蔽される投影面を含む構成でのキャリブレーションに対応しました。
+
+### グローバルUndo Stack
+
+プロジェクト全体の編集操作を記録するグローバルな**Undo Stack**を追加しました。複数のウィジェットや編集領域をまたいで操作を元に戻せます。
+
+### Hot Backup
+
+稼働中のServerからバックアップServerへプロジェクト状態を同期し、障害発生時の復旧性を高める**Hot Backup**機能を追加しました。
+
+### 3D Sceneの再設計
+
+- ツールバーを刷新し、新しい編集ツールを追加しました。
+- オービット、パン、ズームなどのナビゲーションを改善しました。
+- オブジェクトのロックと非表示に対応しました。
+- 正投影ビューポートを追加しました。
+- Pose Estimationの精度と操作性を改善しました。
+- プロジェクターの投影結果を確認できるProjection Simulation Modeを追加しました。
+- ビューポートに軸インジケーターを追加しました。
+- 主要な表示・編集操作にキーボードショートカットを追加しました。
+
+### Media Playerの新機能
+
+- 高ビット深度オーディオに対応しました。
+- AUXオーディオ入力を追加しました。
+- Media Playerをコピーすると、そのコンテンツとプレイリストも複製されます。
+- メディアアイテムを別のファイルへ置き換えられます。
+- Timelineの編集、表示、再生操作を改善しました。
+- Matrix-based Playlistの選択、編集、再生操作を改善しました。
+
+### プロジェクトとシステム
+
+- **System Info**ウィジェットを再設計しました。
+- プロジェクトの自動保存を追加しました。
+- **Auto Save Project**の設定を追加しました。
+- 現在の変更を破棄して、保存済みプロジェクトへ戻せます。
+
+### レンダリング、Patch、オーディオ
+
+- Text Imageのレンダリング品質と設定を改善しました。
+- **Gamma Correction**ノードを追加しました。
+- 複数カメラのキャリブレーション用に**Parent Calibrator Patch**入力を追加しました。
+- Rectangle Patchに**Circular Mask**を追加しました。
+- Shape PatchにWarp機能を追加しました。
+- オーディオ信号を可視化する**Audio Analyzer**を追加しました。
+- **Render Target**にReference Image入力を追加しました。
+
+### メディア、時間、ユーティリティ
+
+- Media Libraryを更新しました。
+- Timecode Offsetに対応しました。
+- 各データ型を比較する新しい**Equal**ノードを追加しました。
+- 数値を丸める**Round**ノードを追加しました。
+- ノードグラフから対応する**User Control**ウィジェットへアクセスできます。
+- Linuxで**Web View**を利用できます。
+
+## 改善点
+
+### Media Player
+
+欠落したシーケンスフレームの警告、暗号化コンテンツのライセンス情報、Media Playerコピー時のプレイリスト、選択項目の合計時間、Undo履歴のプレイリスト名、GBRAPF32LE処理を改善しました。
+
+### Timeline
+
+メディアを表示範囲外へドラッグしたときの自動スクロール、Serverと異なるフレームレートの警告表示、欠落メディアの設定編集、新規トラックへの自動スクロールを追加しました。
+
+### Matrix-based Playlist
+
+**Ctrl**／**Shift**を使用するグリッド選択、列を再生する**Shift + 0～9**ショートカット、行ヘッダーの再生進捗表示を改善しました。
+
+### Node Graph
+
+ノードのスナップ、背景グリッドの非表示、データ型別のリンク色、リンクの接続と切断、ノード無効化、Logic Valueノード、テキストパラメーターの送信タイミング、**Esc**による編集値の復元を改善しました。
+
+### 3D Scene
+
+Color／Wireframe表示のシェーディング、ワイヤーフレーム、選択表示、空のシーン表示、カメラ操作、オブジェクトの移動と回転、Pose Estimation、Camera 3Dの名称、シャドウ設定を改善しました。**Camera 3D**は**3D Camera**へ名称変更しました。
+
+### Calibrator
+
+マルチカメラ構成のライセンス数、バックアップ復元確認、**Parent Calibrator Patch**、パターン投影順、再キャプチャ、Soft Edge補正、Calibration Export、Circular Mask、Intensity Blur Radiusの既定値を改善しました。
+
+### Patch Editor
+
+選択点とカーソル位置を定規に表示し、**Zoom to Pixels**と**Reveal All**を追加しました。キーボード操作中の意図しない制御点選択も防止します。
+
+### PanelとVideo Preview
+
+アクティブウィジェットを青い枠で表示し、空のワークスペースに**Add Widget**を追加しました。タブとメニューにウィジェットアイコンを表示します。Video Previewは最大4096 × 4096ピクセルに対応し、ツールバーをコンパクトな**View Options**へ変更しました。
+
+### Filesとネットワーク
+
+**Copy Path**がPanel側OSのネイティブ絶対パスをコピーするようになりました。FilesにBack、Forward、Parent Folder、Refresh、New Folder、スキャン進捗表示を追加しました。Server／Panel通信を最適化し、メッセージとファイルをTCPポート45100へ統合しました。
+
+### オーディオ
+
+基盤オーディオライブラリを再設計しました。デバイスの切断・再接続とプロパティ変更時の再初期化、Linux PulseAudioのカード／プロファイル／ポート、サンプルレート選択に対応し、ASIOデバイス切断時のクラッシュを修正しました。
+
+### その他
+
+相対パスによるプロジェクト起動、Server起動時間、Panel接続速度、CanvasのAlways on Top、Render TargetのTest Pattern、TouchEngine同期、メディアのフレームレート変更、ScriptのTcpClient API、Listener Nodes、GLSL Shader、Art-Net Receiver、Demo Activation、破損プロジェクトのバックアップ起動、Serial Port Output、System Exec、Licenses Widgetなどを改善しました。
+
+## サードパーティライブラリの更新
+
+- **NDI SDK**を**6.0.0**へ更新しました。
+- **TouchEngine SDK**を**2023.11340**へ更新しました。
+- **SDL2**を**2.20**から**2.30**へ更新しました。
+- **Deltacast SDK**を**6.18**から**6.21.03**へ更新しました。
+- **Canon EDSDK**を**EDSDKv131800W**へ更新しました。
+- digiCamControl用Canonライブラリを最新のRebelシリーズへ対応させ、**digiCamControl**を**2.1.6**へ更新しました。
+- Windows／Linuxの**gphoto2**を**2.5.31**へ更新しました。
+
+## 修正点
+
+### Media Player
+
+TimelineのPause後の再生フレーム、音声のみのTimecode、Timeline Offset、Data ItemのDuration、トラック挿入、選択、コピー、インポイント、無効なアイテム、Pause中の出力更新を修正しました。Matrix-based Playlistのアクティブ項目表示、Play動作、ドラッグした項目の追加位置、再生進捗表示も修正しました。GBRP10LE、非常に多いプレイリスト、画像シーケンス、SMPTE Timecode、AUX再生に関する問題も解決しました。
+
+### Node Graph
+
+複数選択時の**Hide Unlinked Pins**、オーディオノードを含むグループ解除時のPanelクラッシュ、パスパラメーターの**Reset to Default**、グループ化／解除後のノード位置、オーディオリンクのアニメーションを修正しました。
+
+### Content Upload
+
+特殊なフレームレート、`name.number.extension`形式のシーケンス、開始Timecodeが0以外のTS、WAV、Cineform変換、32 × 32未満の画像／動画、PAL8 PNGのアップロードと変換を修正しました。
+
+### 3D SceneとUndo Stack
+
+Exclusive Modeでの3D Scene表示と操作を修正しました。User Control、Transform 2D、Color Correction、GUI PanelのUndo、Node Settings／Inspectorの不要なUndo手順、複数選択値、Media PlayerのUndoを修正しました。
+
+### Calibrator、Patch Editor、Video Preview
+
+Calibrator-onlyライセンスでのCalibration Export、Display Height、パターンレベル8でのServer停止、Patchの並べ替え、ノード名変更後のVideo Preview停止を修正しました。
+
+### その他
+
+Panelフォーカス、macOSの空のメニューバー、NDI出力、EDID読み込み、DeckLink／Deltacast／Datapath Capture、GLSL Shader、TouchEngine、HTTP Listener、DomeSDK Saver、Audio Analyzer、フォント選択などの問題を修正しました。

@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/dometransform.md
+document_id: guide.warping-alignment.dometransform
+language: en
+document_body_sha256: c93ec1200e4e9956e25ed912e294e2bbe16d6ea97d5563116235a8da386c2397
+figures:
+  - id: en-7a2c6a7ca8-001
+    title: Dome Transform Node Tree
+    caption: Dome Transform Node Tree
+    show: "Dome Transform Node Tree. Use the adjacent instructions as the content brief: The Dome Transform node is a patch that allows the application of additional geometry correction to the image aligned by automatic calibration for the dome setup. Typically, it is used to compensate for the position, orientation, and lens distortion of the calibration camera. Generally, the Dome Transform node connects to the Calibrator node via the Render Target node. Example of the node graph with the Dome Transfor"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Dome Transform
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Dome-Transform-node-tree.png
+    source_alt: Dome Transform Node Tree
+    text_coverage: not-independently-verified
+  - id: en-7a2c6a7ca8-002
+    title: Dome Transform Controls
+    caption: Dome Transform Controls
+    show: "Dome Transform Controls. Use the adjacent instructions as the content brief: Example of the node graph with the Dome Transform node When the Dome Transform node is added, the Dome Transform Controls widget becomes available in the list of widgets. Both the Settings panel of the Dome Transform node and the Dome Transform Controls widget offer control over the following transformation parameters:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Dome Transform
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Dome-Transform-Controls.png
+    source_alt: Dome Transform Controls
+    text_coverage: not-independently-verified
+  - id: en-7a2c6a7ca8-003
+    title: Dome Transform Controls2
+    caption: Dome Transform Controls2
+    show: "Dome Transform Controls2. Use the adjacent instructions as the content brief: Example of the node graph with the Dome Transform node When the Dome Transform node is added, the Dome Transform Controls widget becomes available in the list of widgets. Both the Settings panel of the Dome Transform node and the Dome Transform Controls widget offer control over the following transformation parameters:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Dome Transform
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Dome-Transform-Controls2.png
+    source_alt: Dome Transform Controls2
+    text_coverage: not-independently-verified
+  - id: en-7a2c6a7ca8-004
+    title: Dome Transform
+    caption: Dome Transform
+    show: "Dome Transform. Use the adjacent instructions as the content brief: Offset Y Compensates for the vertical shift of the calibration camera position. Offset Z Compensates for the calibration camera being positioned closer or farther away from the zenith of the dome."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: Dome Transform
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Dome-Transform.gif
+    source_alt: Dome Transform
+    text_coverage: not-independently-verified

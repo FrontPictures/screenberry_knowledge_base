@@ -1,0 +1,102 @@
+schema_version: 1
+document: knowledge/en/how-to/working-with-nodes/linking-nodes.md
+document_id: guide.working-with-nodes.linking-nodes
+language: en
+document_body_sha256: a25c7d122483f64b7d8faf9da70088eafc95141e3a9f2737111cce7fddead769
+figures:
+  - id: en-bd92836216-001
+    title: Links Nodes Automatically
+    caption: Links Nodes Automatically
+    show: "Links Nodes Automatically. Use the adjacent instructions as the content brief: To create a link between nodes automatically, select one or more nodes and, while holding Ctrl, left-click on the target node — the system identifies parameters of the same type to establish the links. This is the fastest method of connecting nodes."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Creating Links Between Nodes Automatically
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Links-Nodes-Automatically.gif
+    source_alt: Links Nodes Automatically
+    text_coverage: not-independently-verified
+  - id: en-bd92836216-002
+    title: Links Nodes With Ctrl
+    caption: Links Nodes With Ctrl
+    show: "Links Nodes With Ctrl. Use the adjacent instructions as the content brief: Note: The link is possible only between pins of the same type. Note: More than one pin may be available for a given link. Drag the link along the side of the target node to view all valid connections. Note: When creating several links to a single pin, depending on the type of parameter, a new link will either replace an existing link or be added to an existing one."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Creating Links Between Nodes Manually
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Links-Nodes-with-Ctrl.gif
+    source_alt: Links Nodes With Ctrl
+    text_coverage: not-independently-verified
+  - id: en-bd92836216-003
+    title: Removing Node Links1
+    caption: Removing Node Links1
+    show: "Removing Node Links1. Use the adjacent instructions as the content brief: Right-clicking on the link or node pin (or its parameter name) and selecting Unlink [Parameter Name] will remove the link. Alternatively, Shift-clicking on the pin and dragging the link to an empty area of the Node Graph will also remove the link."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: Removing Links Between Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Removing-Node-Links1.gif
+    source_alt: Removing Node Links1
+    text_coverage: not-independently-verified
+  - id: en-bd92836216-004
+    title: Removing Node Links2
+    caption: Removing Node Links2
+    show: "Removing Node Links2. Use the adjacent instructions as the content brief: Alternatively, Shift-clicking on the pin and dragging the link to an empty area of the Node Graph will also remove the link."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: Removing Links Between Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Removing-Node-Links2.gif
+    source_alt: Removing Node Links2
+    text_coverage: not-independently-verified
+  - id: en-bd92836216-005
+    title: Rearranging Links Between Nodes
+    caption: Rearranging Links Between Nodes
+    show: "Rearranging Links Between Nodes. Use the adjacent instructions as the content brief: To move a link (or group of links) from one pin to another, Shift-click on the pin and drag the link(s) to a new pin or node."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Rearranging Links Between Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Rearranging-Links-Between-Nodes.gif
+    source_alt: Rearranging Links Between Nodes
+    text_coverage: not-independently-verified
+  - id: en-bd92836216-006
+    title: Reestablishing Links Automatically
+    caption: Reestablishing Links Automatically
+    show: "Reestablishing Links Automatically. Use the adjacent instructions as the content brief: Left-click an empty area of the Node Graph Editor to deselect all the nodes. Holding Ctrl, select the nodes you want to connect, one by one, in the order in which they should be executed. The appropriate links between the selected nodes will be created automatically and any existing links that conflict with the new ones will be removed."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: Reestablishing Links Between Nodes Automatically
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Reestablishing-Links-Automatically.gif
+    source_alt: Reestablishing Links Automatically
+    text_coverage: not-independently-verified
+  - id: en-bd92836216-007
+    title: Reordering Node Links
+    caption: Reordering Node Links
+    show: "Reordering Node Links. Use the adjacent instructions as the content brief: When several links are connected to the same input pin of a node, they are processed in the same order the links had been created. To change the processing order of inputs, right-click on the input parameter pin or name, and select Reorder Links for [Parameter Name]. Reorder the inputs in the opened dialog box by dragging the link names or selecting names and using the arrow buttons ."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: Reordering Node Links
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Reordering-Node-Links.gif
+    source_alt: Reordering Node Links
+    text_coverage: not-independently-verified
+  - id: en-bd92836216-008
+    title: Route Pin
+    caption: Route Pin
+    show: "Route Pin. Use the adjacent instructions as the content brief: To add a Reroute Pin, right-click on the link between nodes and select Reroute Pin from the dropdown menu. To delete a Reroute Pin, right-click on it and select Delete from the dropdown menu (or press the Del key)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: Using Reroute Pin
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Route-Pin.gif
+    source_alt: Route Pin
+    text_coverage: not-independently-verified

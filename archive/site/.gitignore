@@ -1,0 +1,9 @@
+.next
+public/_pagefind/
+node_modules
+.pnpm-store/
+*.tsbuildinfo
+.vscode
+.DS_Store
+.github
+package-lock.json

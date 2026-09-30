@@ -1,0 +1,66 @@
+schema_version: 1
+document: knowledge/en/concepts/patch-editor/patch-editor-basics.md
+document_id: guide.patch-editor.patch-editor-basics
+language: en
+document_body_sha256: 84a0d6a9cb3da9c9c6ac4b05bdcc1ccdbe086d579dcafb504519486b665a7a48
+figures:
+  - id: en-ce3e283c0a-001
+    title: Adding Widget
+    caption: Adding Widget
+    show: "Adding Widget. Use the adjacent instructions as the content brief: * The term “image” refers to any static or dynamic media (i.e. video). ** To access the Patch Editor, add the Canvas (or Render Target) widget to your workspace, then click the Patches tab on the top left of the widget to switch to the Patches view."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Overview
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Adding-Widget.gif
+    source_alt: Adding Widget
+    text_coverage: not-independently-verified
+  - id: en-ce3e283c0a-002
+    title: Patch Editor View
+    caption: Patch Editor View
+    show: "Patch Editor View. Use the adjacent instructions as the content brief: The Patch Editor view: (1) View mode bar, (2) Work area which is split into two parts: (A) Input panel and (B) Output panel, (3) Navigation tree, (4) Settings panel."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Patch Editor View
+    source_url: https://help.screenberry.com/images/patch-editor/static/Patch-Editor-View.png
+    source_alt: Patch Editor View
+    text_coverage: not-independently-verified
+  - id: en-ce3e283c0a-003
+    title: View Modes
+    caption: View Modes
+    show: "View Modes. Use the adjacent instructions as the content brief: Display both panels in the Vertical split view. Display both panels in the Horizontal split view."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: View Modes
+    source_url: https://help.screenberry.com/images/patch-editor/animation/View-Modes.gif
+    source_alt: View Modes
+    text_coverage: not-independently-verified
+  - id: en-ce3e283c0a-004
+    title: View Options
+    caption: View Options
+    show: "View Options. Use the adjacent instructions as the content brief: The View Options panel allows the user to show or hide the following elements: Rulers Helps you accurately place and measure patches and displays.Labels Shows the names of the patches and displays.Coordinates Shows the coordinates of the positions of the patch control points.Live Image The interactively updated preview of the current video output.Reference Image The reference image is used as a background for more pr"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: View Options
+    source_url: https://help.screenberry.com/images/patch-editor/animation/View-Options.gif
+    source_alt: View Options
+    text_coverage: not-independently-verified
+  - id: en-ce3e283c0a-005
+    title: Zoom And Pan
+    caption: Zoom And Pan
+    show: "Zoom And Pan. Use the adjacent instructions as the content brief: Тo zoom in and out of a specific area in the Input or Output panels of the Patch Editor, place the mouse cursor over the area, and use the mouse scroll wheel. Alternatively, click the button in the top right corner of the panel and move the mouse to change the magnification. To pan a view, drag with the middle or right mouse button held down, or click the button in the top right corner of the panel and move the mouse"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 20
+      section: Zoom and Pan Functions
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Zoom-and-Pan.gif
+    source_alt: Zoom And Pan
+    text_coverage: not-independently-verified

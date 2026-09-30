@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/how-to/3d-scene/3d-primitive.md
+document_id: guide.3d-scene.3d-primitive
+language: ja
+document_body_sha256: 938b858c5da7098cba368671e005aed69a2b3bd60b08fcb4615c771e31b6fd91
+figures:
+  - id: ja-a46ec5b5d9-001
+    title: 3D Primitive
+    caption: 3D Primitive
+    show: "3D Primitive. Use the adjacent instructions as the content brief: 3D プリミティブを追加するには、以下の手順に従ってください： Node Graph ウィジェットに移動します。ノードグラフに 3D Primitive ノードを追加します。3D Primitive ノードの Object 出力パラメータを 3D Scene ノードの Object 入力パラメータに接続します。必要であれば（この手順は後で 3D シーン内で直接実行することもできます）、3D Primitive ノードの設定で追加したい幾何学的形状の種類を選択します。選択肢には球体、ボックス、円柱、平面、ドームが含まれます。3D Scene ウィジェットに切り替えて、3D シーン ツールを使用するか、3D Primitive の設定内でプリミティブの位置と寸法をさらに調整します。 3D プリミティブ の設定には以下が含まれます："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: 3D プリミティブ
+    source_url: https://help.screenberry.com/images/3d-scene/animation/3D-Primitive.gif
+    source_alt: 3D Primitive
+    text_coverage: not-independently-verified

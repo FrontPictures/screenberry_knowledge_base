@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/en/concepts/media-playback/media-player/media-player-overview.md
+document_id: guide.media-playback.media-player.media-player-overview
+language: en
+document_body_sha256: 522309be0f9a98cb4a3645b4e43d26e3091fa1eb1930045e361ad570cf2ca23d
+figures:
+  - id: en-6785b639e2-001
+    title: Mediaplayerview
+    caption: Mediaplayerview
+    show: "Mediaplayerview. Use the adjacent instructions as the content brief: With the help of displays and patches, media players can be layered over each other, adjusted to different sizes, positions, and shapes on the output canvas. The playback of media players can be automated, since media players, as well as each playlist, timeline, and media item they contain, have the ability to trigger or be triggered manually or automatically by MIDI/keyboard/IP events, scripts, DMX commands, etc. Th"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Media Player Overview
+    source_url: https://help.screenberry.com/images/media-playback/static/mediaplayerview.png
+    source_alt: Mediaplayerview
+    text_coverage: not-independently-verified
+  - id: en-6785b639e2-002
+    title: Media Player Widget
+    caption: Media Player Widget
+    show: "Media Player Widget. Use the adjacent instructions as the content brief: When the MediaPlayer node is added to the Node Graph, the corresponding Media Player widget becomes accessible. To add this widget to the workspace, select Window > [Media Player Name] from the main Screenberry Panel menu. Note: Multiple Media Player nodes can be created. Each added MediaPlayer node has its own Media Player widget."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Media Player Widget
+    source_url: https://help.screenberry.com/images/media-playback/animation/Media-Player-Widget.gif
+    source_alt: Media Player Widget
+    text_coverage: not-independently-verified
+  - id: en-6785b639e2-003
+    title: PlaylistsTimelinesFolders
+    caption: PlaylistsTimelinesFolders
+    show: "PlaylistsTimelinesFolders. Use the adjacent instructions as the content brief: For playback, media items can be organized into Playlists or composed with the help of Timelines. Additionally, multiple playlists and timelines can be organized into folders. To create a new folder, either right-click an empty area of the playlist and timelines tree panel and select Add Folder from the dropdown menu or click the button on the bottom toolbar of the Navigation Pane. Note: By default, the new Media Pla"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: Playlists, Timelines, and Folders
+    source_url: https://help.screenberry.com/images/media-playback/animation/PlaylistsTimelinesFolders.gif
+    source_alt: PlaylistsTimelinesFolders
+    text_coverage: not-independently-verified

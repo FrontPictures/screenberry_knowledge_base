@@ -1,0 +1,42 @@
+---
+title: Screenberry LED Stripes Mapper - 映像コンテンツのLEDディスプレイへのマッピング
+description: Discover LED Stripes Mapperノードを利用して、映像メディアを様々なLEDコントローラーが対応するLEDディスプレイの線形フォーマットに変換する方法を説明します。
+openGraph:
+  title: Screenberry LED Stripes Mapper - 映像コンテンツのLEDディスプレイへのマッピング
+  description: LED Stripes Mapperノードを利用して、映像メディアを様々なLEDコントローラーが対応するLEDディスプレイの線形フォーマットに変換する方法を説明します。
+---
+
+# LED Stripes Mapper
+
+**LED Stripes Mapper**ノードは、映像メディアコンテンツを直線状にリマップするための Patch です。通常、このノードは信号を LED ストライプコントローラに出力するために使用されます。映像を入力として受け取る照明デバイスの制御にも使用することができます。
+
+典型的なセットアップでは、**LED Stripes Mapper**ノードは入力としてソース映像を受け取り、変形された映像を**Display**ノードまたは**Canvas**ノードに出力します。
+
+![LedStripesMapper](/images/warping-alignment/static/LedStripesMapper.png)
+
+<small>**LED Stripes Mapper**ノードを使用したノードグラフの例</small>
+
+映像メディアコンテンツを直線状にリマップするには、以下の手順を実行してください：
+
+1. **Node Graph**ウィジェットで、**Media Player**、**LED Stripes Mapper**、および**Canvas** ノードを追加し、それぞれを **`Ctrl`** キーを押しながらクリックして接続して、ノードツリーを作成します。
+2. **Media Player** ウィジェットに切り替えて、リマップしたいメディアコンテンツを **Media Player** のプレイリストに追加し、再生を開始して Patch 作業中に映像を参照できるように準備します。
+
+<img alt="LedStripesMapper Playback" src="/images/warping-alignment/animation/LedStripesMapper-playback.gif" width={800} height={284} loading="lazy" />
+
+3. **Patch Editor**に切り替え、Patch リストで**LED Stripes Mapper**を選択します。
+
+<img alt="LedStripesMapper Selection" src="/images/warping-alignment/animation/LedStripesMapper-selection.gif" width={376} height={112} loading="lazy" />
+
+4. **LED Stripes Mapper**の**Settings**パネルで：
+
+   - **Source Line Width**欄で、ソース映像の幅をピクセル単位で設定してください。
+   - **Target Image Size**、**Offset X**および**Y**、出力の**ライン幅（Line Width）**、**間隔（Spacing）** の欄にそれぞれ値を入力してください（LED ストライプまたはライティングコントローラーの仕様を参照してこれらの値を設定してください）。
+   - **Number of Polylines**欄に値を入力し、各ポリラインの **分割数（Segments）** と **全長**（**Total Length**、ピクセル単位）** を入力してください（例えば、5つに分割されて、各部分が128ピクセルである場合、全長は 5 x 128 = 640 ピクセルとなります）。
+
+<img alt="LedStripesMapper Settings" src="/images/warping-alignment/animation/LedStripesMapper-Settings.gif" width={800} height={656} loading="lazy" />
+
+5. **Input**パネルで、右クリックしてドロップダウンメニューから**Show Live Image**を選択し、その後、制御点をポリラインの端点上にドラッグしてポリラインを1つずつマッピングしてください。
+
+<img alt="Lines" src="/images/warping-alignment/animation/lines.gif" width={800} height={1039} loading="lazy" />
+
+<small>**LED Stripes Mapper**によるメディアサーバーからの映像出力の例</small>

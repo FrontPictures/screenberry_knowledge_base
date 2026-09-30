@@ -1,0 +1,21 @@
+name: Validate knowledge base
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.16.0'
+      - run: corepack enable
+      - run: corepack prepare pnpm@11.20.0 --activate
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm validate
+      - run: pnpm test
+      - run: pnpm export --profile legacy-guide-3.4 --version 3.4
+      - run: pnpm export --profile legacy-guide-3.4 --version 3.4 --view user-guide

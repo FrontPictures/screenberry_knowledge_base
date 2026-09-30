@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/jp/concepts/organizing-media/media-library-overview.md
+document_id: guide.organizing-media.media-library-overview
+language: ja
+document_body_sha256: c7f2a9d761cf2bb0c71fa1c99c13832409124fdf9c418cbeea06001c875ced03
+figures:
+  - id: ja-16c0efcdab-001
+    title: Media Library View
+    caption: Media Library View
+    show: "Media Library View. Use the adjacent instructions as the content brief: Media Library（メディアライブラリー）ウィジェットでは、ユーザーがサーバーに保存されているメディアコンテンツをアップロード、表示、管理することができます。Screenberry Panelのメインメニューから、Window > Media Library を選択して追加することができます。 Media libraryの画面構成： 1 - フォルダツリー、2 - コンテンツエリア、3 - メディアライブラリ情報とコントロールバー。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Media Library の画面構成
+    source_url: https://help.screenberry.com/images/organizing-media/static/media-library-view.png
+    source_alt: Media Library View
+    text_coverage: not-independently-verified
+  - id: ja-16c0efcdab-002
+    title: Media Library Controls
+    caption: Media Library Controls
+    show: "Media Library Controls. Use the adjacent instructions as the content brief: Mediaフォルダはデフォルトのルートフォルダであり、削除することはできません。新しいフォルダはすべてMediaフォルダ内に作成されます。 Interruptボタンは、アップロード/変換処理を停止します。Uploadingの進捗バーは、サーバーにアップロードされたメディアアイテムの割合と、既にアップロードされたファイルの数/アップロード中の総ファイル数を表示します。Convertingの進捗バーは、各メディアファイルの変換の進捗率を表示します。メディアアイテムのSearchボックス。Disk Space Usage Informationは、使用済みスペース/サーバー内蔵ドライブの総容量を表示します。Thumbnail Size Slidersは、メディアファイルのサムネイルのスケールと幅を調整します。Refreshボタンは、メディアライブラリに表示されるコンテンツを更新します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Media Library の操作
+    source_url: https://help.screenberry.com/images/organizing-media/static/media-library-controls.png
+    source_alt: Media Library Controls
+    text_coverage: not-independently-verified

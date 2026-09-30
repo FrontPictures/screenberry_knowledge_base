@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/jp/reference/node-reference/integration-nodes/touchengine.md
+document_id: guide.node-reference.integration-nodes.touchengine
+language: ja
+document_body_sha256: 8c158d0e6fc6ad0cd570aed40b7e155bedd832aff0016e626722788da5f7b5a1
+figures:
+  - id: ja-41a205d6e6-001
+    title: Adding TouchEngine
+    caption: Adding TouchEngine
+    show: "Adding TouchEngine. Use the adjacent instructions as the content brief: メモ： 追加した TouchEngine パラメータのFound情報チェックボックスが選択されていることを確認してください。それ以外の場合は、パラメータ名が対応する TouchDesigner オペレータの名前と一致しているかどうかを確認してください。 追加されたパラメータのタイプを選択してください - TOP、CHOP、DAT（テーブル）、またはDAT（文字列）。 現在、TouchEngine API では、TOP、CHOP、および DAT の入力および出力オペレーターがサポートされています。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: TouchEngine
+    source_url: https://help.screenberry.com/images/node-references/animation/Adding-TouchEngine.gif
+    source_alt: Adding TouchEngine
+    text_coverage: not-independently-verified
+  - id: ja-41a205d6e6-002
+    title: TouchEngineExample
+    caption: TouchEngineExample
+    show: "TouchEngineExample. Use the adjacent instructions as the content brief: TOP は、映像の作成、合成、変更、ファイルおよびネットワークへの静止画および動画の読み書きを行うオペレーター群です。TOP はグラフィックカードの GPU 上で動作します。CHOP は、アニメーション、オーディオ、数学、シミュレーション、ロジック、UI 構築などに使用されるチャンネル（数値の組）に対して操作を行うオペレーター群です。DAT は、テキスト文字列（複数行のテキストまたはテーブル）を操作するオペレーター群です。複数行テキストはコマンドスクリプトであることが多いですが、任意の複数行テキストであることもあります。テーブルは、テキスト文字列を含むセルの行と列で構成されます。 ノードの設定に入力/出力パラメーターが追加されると、ノードに対応するピンが追加されます。これにより、必要に応じて他のノードにこのパラメーターを接続することができます。 TouchEngineノードを使用したノードツリーの例です。これらのサンプルScre"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: TouchEngine
+    source_url: https://help.screenberry.com/images/node-references/animation/TouchEngineExample.gif
+    source_alt: TouchEngineExample
+    text_coverage: not-independently-verified

@@ -1,0 +1,62 @@
+[
+  {
+    "type": "source-alt-needs-review",
+    "source": "content/en/3d-scene/3d-scene-settings.mdx",
+    "target": "/images/3d-scene/animation/3D-Scene-Settings.gif"
+  },
+  {
+    "type": "source-alt-needs-review",
+    "source": "content/en/3d-scene/working-in-3d-scene.mdx",
+    "target": "/images/3d-scene/animation/Navigating-Zoom-Mode.gif"
+  },
+  {
+    "type": "editorial-comment-preserved-in-archive",
+    "source": "content/en/displays-control.mdx",
+    "comment": "/* IMAGE 2 - Place here: Quick force EDID with a common preset such as SMPTE 1080p60 selected. Suggested file: /images/displays-control/static/Quick-Force-EDID.png. Suggested alt text: \"Quick force EDID dialog showing SMPTE 1080p60 timing parameters\". */"
+  },
+  {
+    "type": "editorial-comment-preserved-in-archive",
+    "source": "content/en/displays-control.mdx",
+    "comment": "/* IMAGE 3 - Place here: Quick Mosaic showing topology, per-display dimensions, and refresh rate. Suggested file: /images/displays-control/static/Quick-Mosaic.png. Suggested alt text: \"Quick Mosaic dialog configured for a two-column by one-row display layout\". */"
+  },
+  {
+    "type": "editorial-comment-preserved-in-archive",
+    "source": "content/en/displays-control.mdx",
+    "comment": "/* IMAGE 4 - Place here when available: GPU Topology on a system with a Quadro Sync board, showing the device and timing controls. Suggested file: /images/displays-control/static/Quadro-Sync-Configuration.png. Suggested alt text: \"Displays Control showing a Quadro Sync device with Timing Server and Client synchronization settings\". */"
+  },
+  {
+    "type": "editorial-comment-preserved-in-archive",
+    "source": "content/en/displays-control.mdx",
+    "comment": "/* IMAGE 5 - Place here: Displays with two Extended displays and all settings and actions visible. Suggested file: /images/displays-control/static/Windows-Displays.png. Suggested alt text: \"Displays tab showing two Extended Windows displays and the settings available for the selected display\". */"
+  },
+  {
+    "type": "editorial-comment-preserved-in-archive",
+    "source": "content/en/displays-control.mdx",
+    "comment": "/* IMAGE 6 - Place here: a Node Graph showing content connected to the Displays, Patches, or Background Image inputs of Display Output nodes, their GPU output-device selections, and the Canvas Offscreen setting. Suggested file: /images/displays-control/static/Display-Output-Routing.png. Suggested alt text: \"Content connections and GPU output assignments for Display Output nodes, with Canvas Offscreen enabled\". */"
+  },
+  {
+    "type": "editorial-comment-preserved-in-archive",
+    "source": "content/en/getting-started/licensing.mdx",
+    "comment": "/* TODO: Restore after the commercial licensing comparison is finalized.\nFor prices and a complete comparison of output capacity and product features, see [Screenberry licensing options](https://online-shop.screenberry.com/software/licensing).\n*/"
+  },
+  {
+    "type": "editorial-comment-preserved-in-archive",
+    "source": "content/en/getting-started/licensing.mdx",
+    "comment": "/* TODO: Restore after the commercial licensing comparison is finalized.\n- [Compare Screenberry licenses](https://online-shop.screenberry.com/software/licensing)\n*/"
+  },
+  {
+    "type": "source-alt-needs-review",
+    "source": "content/en/media-playback/playlists/media-item-properties.mdx",
+    "target": "/images/media-playback/static/image.png"
+  },
+  {
+    "type": "editorial-comment-preserved-in-archive",
+    "source": "content/en/node-reference/primary-nodes/info.mdx",
+    "comment": "/* Planned animation: connect different parameter types by dropping a link anywhere on Info, then show how its display adapts and updates as the source values change. */"
+  },
+  {
+    "type": "source-alt-needs-review",
+    "source": "content/jp/media-playback/playlists/media-item-properties.mdx",
+    "target": "/images/media-playback/static/image.png"
+  }
+]

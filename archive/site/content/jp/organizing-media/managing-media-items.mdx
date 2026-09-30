@@ -1,0 +1,63 @@
+---
+title: Screenberryのメディアアイテム操作 - 追加、削除、検索方法について
+description: ScreenberryのMedia Library内でメディアアイテムを追加、削除および検索する方法について説明します。
+openGraph:
+  title: Screenberryのメディアアイテム操作 - 追加、削除、検索方法について
+  description: ScreenberryのMedia Library内でメディアアイテムを追加、削除および検索する方法について説明します。
+---
+
+# メディアアイテムの操作
+
+## メディアファイルの追加
+
+サーバーにメディアファイルを追加するには、次のいずれかの方法を実行します。
+
+- **Media Library**フォルダを選択し、フォルダツリーエリアの下部にある**Add Media**<img alt="Plus" src="/images/organizing-media/static/plus.png" width={30} height={30} loading="lazy" />ボタンを押します。
+- ファイルを既存の**Media Library**フォルダにドラッグアンドドロップします。
+- ファイルを既存の**Media Player**ウィジェットのプレイリストにドラッグアンドドロップします。
+
+<img alt="Adding Media Files" src="/images/organizing-media/animation/Adding-Media-Files.gif" width={800} height={420} loading="lazy" />
+
+表示された**Add Media File(s)** ダイアログボックスで、必要に応じてメディアアイテムの解像度を変更したり品質を変更したりしてから、**Add**ボタンを押してください。
+
+同じ名前のメディアファイルが既に存在する場合、新しいメディアファイルを追加するか既存のファイルを上書きするかを選択するオプションが表示されます。
+
+現在サポートされているファイル形式の一覧：
+
+<div className="table-without-thead">
+
+|                  |                                                                                     |
+| ---------------- | ----------------------------------------------------------------------------------- |
+| 動画             | mov, avi, mp4, flv, mkv, vob, ogv, wmv, mpg, m2v, 3gp, m4v, ts, gif, m2t, m2ts, mxf |
+| 静止画           | jpg, tga, png, bmp, tif                                                             |
+| オーディオ       | wav, mp3, aif, wma, ogg, ac3, aac, m4a, flac, ape                                   |
+| 字幕             | srt                                                                                 |
+| 内部フォーマット | RVA, EDVA, EDV, EDVI, ERVA, license                                                 |
+
+</div>
+> **メモ：** 一度に複数のファイルをアップロードおよび変換し、プロセスが  **Interrupt** ボタンで中止された場合、アップロードされたが変換されていないファイルは自動的にサーバーから削除され、すでにアップロードおよび変換されたファイルは**Media Library**に追加されます。
+> 
+
+> **メモ：** アップロードされたファイルは、ネイティブのScreenberryコンテナ形式 *.rva に変換されます。
+> 
+
+> **メモ：** メディアファイルがScreenberryサーバーに直接アップロードされた場合（共有フォルダやFTPを使用した場合）、**Refresh**<img alt="Reload" src="/images/organizing-media/static/reload.png" width={30} height={30} loading="lazy" />ボタンを押してそれらを**Media Library**で表示します。
+>
+
+## メディアアイテムの削除
+
+メディアアイテムを削除するには、フォルダコンテンツエリアでメディアアイテム（複数のメディアアイテムの選択）を右クリックし、**Remove Item from Media Library**を選択するか、**`Shift`** + **`Del`** を押します。
+
+<img alt="Deleting Media Items" src="/images/organizing-media/animation/Deleting-Media-Items.gif" width={800} height={336} loading="lazy" />
+
+## メディアアイテムの整理
+
+もし、**Media Library**で**Media**フォルダが選択されている場合、すべてのフォルダの内容が表示され、メディアアイテムをフォルダ間でドラッグアンドドロップすることができます。
+
+<img alt="Adding Media Files" src="/images/organizing-media/animation/Adding-Media-Files.gif" width={800} height={420} loading="lazy" />
+
+## メディアアイテムの検索
+
+特定のメディアアイテムを検索するには、**Media Library**の検索ボックスに名前の一部を入力してください。その結果、検索条件に一致する名前やユーザー定義のラベルを持つメディアアイテムのみがコンテンツエリアに表示されます。**Media**フォルダが選択されている場合、検索はすべてのフォルダで実行されます。
+
+<img alt="Searching Media Items 1" src="/images/organizing-media/animation/Searching-Media-Items-1.gif" width={800} height={380} loading="lazy" />

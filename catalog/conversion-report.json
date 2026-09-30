@@ -1,0 +1,1742 @@
+[
+  {
+    "source": "content/en/3d-scene/3d-camera.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/3d-scene/3d-model.mdx",
+    "images_converted": 2,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/3d-scene/3d-primitive.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 5,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/3d-scene/3d-scene-settings.mdx",
+    "images_converted": 2,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 8,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/3d-scene/3d-scene-view-navigation.mdx",
+    "images_converted": 10,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/3d-scene/creating-3d-scene.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/3d-scene/overview.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/3d-scene/projection-mapper.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/3d-scene/working-in-3d-scene.mdx",
+    "images_converted": 4,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 7,
+    "code_fragments_preserved": 27,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/automatic-calibration/automatic-calibration-basics.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/automatic-calibration/calibration-process.mdx",
+    "images_converted": 6,
+    "callouts_converted": 2,
+    "wrappers_removed": 19,
+    "imports_removed": 1,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/automatic-calibration/post-calibration.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/automatic-calibration/setting-up-calibration-camera.mdx",
+    "images_converted": 0,
+    "callouts_converted": 1,
+    "wrappers_removed": 8,
+    "imports_removed": 1,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/automatic-calibration/setting-up-projectors.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 3,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/display-editor.mdx",
+    "images_converted": 19,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 15,
+    "code_fragments_preserved": 9,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/displays-control.mdx",
+    "images_converted": 0,
+    "callouts_converted": 6,
+    "wrappers_removed": 0,
+    "imports_removed": 1,
+    "headings_preserved": 15,
+    "code_fragments_preserved": 2,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/getting-started/first-project.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/getting-started/hardware.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 8,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/getting-started/licensing.mdx",
+    "images_converted": 0,
+    "callouts_converted": 1,
+    "wrappers_removed": 1,
+    "imports_removed": 1,
+    "headings_preserved": 8,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/getting-started/platform-compatibility.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 2,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/getting-started/screenberry-overview.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 2,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/getting-started/software.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 1,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/index.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/integration-control/screenberry-json-api.mdx",
+    "images_converted": 0,
+    "callouts_converted": 5,
+    "wrappers_removed": 0,
+    "imports_removed": 1,
+    "headings_preserved": 62,
+    "code_fragments_preserved": 227,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/matrix-based-playlists/adding-organizing-media-items.mdx",
+    "images_converted": 17,
+    "callouts_converted": 1,
+    "wrappers_removed": 0,
+    "imports_removed": 1,
+    "headings_preserved": 11,
+    "code_fragments_preserved": 13,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/matrix-based-playlists/managing-playlists.mdx",
+    "images_converted": 8,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 7,
+    "code_fragments_preserved": 6,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/matrix-based-playlists/overview.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 2,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/matrix-based-playlists/playback.mdx",
+    "images_converted": 23,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 7,
+    "code_fragments_preserved": 3,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/media-player/media-player-global-settings.mdx",
+    "images_converted": 4,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 10,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/media-player/media-player-overview.mdx",
+    "images_converted": 3,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/playlists/creating-managing-playlists.mdx",
+    "images_converted": 10,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 7,
+    "code_fragments_preserved": 6,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/playlists/media-item-properties.mdx",
+    "images_converted": 61,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 29,
+    "code_fragments_preserved": 7,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/playlists/organizing-media-items-in-playlists.mdx",
+    "images_converted": 15,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 8,
+    "code_fragments_preserved": 21,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/playlists/playlists-playback.mdx",
+    "images_converted": 18,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 8,
+    "code_fragments_preserved": 5,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/playlists/transformation-properties.mdx",
+    "images_converted": 8,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 12,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/timelines/animation-and-keyframing.mdx",
+    "images_converted": 14,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 2,
+    "code_fragments_preserved": 6,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/timelines/creating-managing-timelines.mdx",
+    "images_converted": 12,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 9,
+    "code_fragments_preserved": 6,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/timelines/organizing-media-in-timelines.mdx",
+    "images_converted": 18,
+    "callouts_converted": 1,
+    "wrappers_removed": 0,
+    "imports_removed": 1,
+    "headings_preserved": 14,
+    "code_fragments_preserved": 14,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/timelines/timeline-markers.mdx",
+    "images_converted": 14,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/timelines/timeline-playback.mdx",
+    "images_converted": 10,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 5,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/media-playback/timelines/timeline-view.mdx",
+    "images_converted": 18,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 13,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/node-reference/integration-nodes/notchplayback.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 1,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/node-reference/integration-nodes/touchengine.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 1,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/node-reference/nodes.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 18,
+    "imports_removed": 0,
+    "headings_preserved": 19,
+    "code_fragments_preserved": 1,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/node-reference/primary-nodes/canvas.mdx",
+    "images_converted": 3,
+    "callouts_converted": 0,
+    "wrappers_removed": 4,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/node-reference/primary-nodes/display.mdx",
+    "images_converted": 2,
+    "callouts_converted": 0,
+    "wrappers_removed": 3,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/node-reference/primary-nodes/info.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/node-reference/primary-nodes/mediaplayer.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 6,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/node-reference/primary-nodes/rendertarget.mdx",
+    "images_converted": 4,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/organizing-media/managing-folders.mdx",
+    "images_converted": 6,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 5,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/organizing-media/managing-media-items.mdx",
+    "images_converted": 6,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 5,
+    "code_fragments_preserved": 2,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/organizing-media/media-library-overview.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/patch-editor/adding-and-managing-patches.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/patch-editor/editing-patches.mdx",
+    "images_converted": 38,
+    "callouts_converted": 0,
+    "wrappers_removed": 14,
+    "imports_removed": 0,
+    "headings_preserved": 23,
+    "code_fragments_preserved": 39,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/patch-editor/patch-editor-basics.mdx",
+    "images_converted": 10,
+    "callouts_converted": 0,
+    "wrappers_removed": 2,
+    "imports_removed": 0,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/privacy-policy.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 2,
+    "imports_removed": 1,
+    "headings_preserved": 0,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/terms-and-conditions.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 2,
+    "imports_removed": 1,
+    "headings_preserved": 0,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/bezierwarp.mdx",
+    "images_converted": 3,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/dometransform.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 4,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/latlongtodome.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/ledstripesmapper.mdx",
+    "images_converted": 4,
+    "callouts_converted": 0,
+    "wrappers_removed": 2,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/mask.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 8,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/overview.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/patchreplicator.mdx",
+    "images_converted": 4,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/planartodome.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/quadgrid.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 3,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/quadwarp.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/rectangle.mdx",
+    "images_converted": 2,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/softedgeblender.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/transform2d.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/trianglemesh.mdx",
+    "images_converted": 2,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 4,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/warping-alignment/xgrid.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/web-panel.mdx",
+    "images_converted": 24,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 11,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/whats-new/earlier-release-notes.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/whats-new/release-notes-2-6-0.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 11,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/whats-new/release-notes-2-7-0.mdx",
+    "images_converted": 8,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 11,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/whats-new/release-notes-2-8-0.mdx",
+    "images_converted": 6,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 12,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/whats-new/release-notes-2-9-0.mdx",
+    "images_converted": 7,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 5,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/whats-new/release-notes-3-0-0.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 2,
+    "imports_removed": 0,
+    "headings_preserved": 7,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/whats-new/release-notes-3-1-0.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 9,
+    "code_fragments_preserved": 3,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/whats-new/release-notes-3-2-0.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 34,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/whats-new/release-notes-3-3.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 70,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/whats-new/release-notes-3-4.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 2,
+    "imports_removed": 0,
+    "headings_preserved": 99,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/working-with-audio.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 8,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/working-with-nodes/adding-and-managing-nodes.mdx",
+    "images_converted": 13,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 10,
+    "code_fragments_preserved": 9,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/working-with-nodes/linking-nodes.mdx",
+    "images_converted": 9,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 8,
+    "code_fragments_preserved": 2,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/working-with-nodes/navigation-and-monitoring.mdx",
+    "images_converted": 11,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 9,
+    "code_fragments_preserved": 8,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/working-with-nodes/node-basics.mdx",
+    "images_converted": 9,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 5,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/en/working-with-nodes/node-parameters-and-settings.mdx",
+    "images_converted": 15,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/3d-scene/3d-camera.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/3d-scene/3d-model.mdx",
+    "images_converted": 2,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/3d-scene/3d-primitive.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 5,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/3d-scene/3d-scene-settings.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 8,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/3d-scene/3d-scene-view-navigation.mdx",
+    "images_converted": 10,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/3d-scene/creating-3d-scene.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/3d-scene/overview.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/3d-scene/projection-mapper.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/3d-scene/working-in-3d-scene.mdx",
+    "images_converted": 8,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 7,
+    "code_fragments_preserved": 27,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/automatic-calibration/automatic-calibration-basics.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/automatic-calibration/calibration-process.mdx",
+    "images_converted": 6,
+    "callouts_converted": 2,
+    "wrappers_removed": 19,
+    "imports_removed": 1,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/automatic-calibration/post-calibration.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/automatic-calibration/setting-up-calibration-camera.mdx",
+    "images_converted": 0,
+    "callouts_converted": 1,
+    "wrappers_removed": 8,
+    "imports_removed": 1,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/automatic-calibration/setting-up-projectors.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 3,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/display-editor.mdx",
+    "images_converted": 19,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 15,
+    "code_fragments_preserved": 10,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/getting-started/hardware.mdx",
+    "images_converted": 0,
+    "callouts_converted": 1,
+    "wrappers_removed": 1,
+    "imports_removed": 1,
+    "headings_preserved": 12,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/getting-started/screenberry-overview.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 2,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/getting-started/software.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 2,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/index.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/integration-control/screenberry-json-api.mdx",
+    "images_converted": 0,
+    "callouts_converted": 7,
+    "wrappers_removed": 0,
+    "imports_removed": 1,
+    "headings_preserved": 62,
+    "code_fragments_preserved": 210,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/matrix-based-playlists/adding-organizing-media-items.mdx",
+    "images_converted": 17,
+    "callouts_converted": 1,
+    "wrappers_removed": 0,
+    "imports_removed": 1,
+    "headings_preserved": 11,
+    "code_fragments_preserved": 13,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/matrix-based-playlists/managing-playlists.mdx",
+    "images_converted": 8,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 7,
+    "code_fragments_preserved": 6,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/matrix-based-playlists/overview.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 2,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/matrix-based-playlists/playback.mdx",
+    "images_converted": 23,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 7,
+    "code_fragments_preserved": 3,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/media-player/media-player-global-settings.mdx",
+    "images_converted": 4,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 10,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/media-player/media-player-overview.mdx",
+    "images_converted": 3,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/playlists/creating-managing-playlists.mdx",
+    "images_converted": 10,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 7,
+    "code_fragments_preserved": 6,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/playlists/media-item-properties.mdx",
+    "images_converted": 61,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 29,
+    "code_fragments_preserved": 9,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/playlists/organizing-media-items-in-playlists.mdx",
+    "images_converted": 15,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 8,
+    "code_fragments_preserved": 21,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/playlists/playlists-playback.mdx",
+    "images_converted": 18,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 8,
+    "code_fragments_preserved": 5,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/timelines/animation-and-keyframing.mdx",
+    "images_converted": 14,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 2,
+    "code_fragments_preserved": 6,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/timelines/creating-managing-timelines.mdx",
+    "images_converted": 12,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 9,
+    "code_fragments_preserved": 6,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/timelines/organizing-media-in-timelines.mdx",
+    "images_converted": 18,
+    "callouts_converted": 1,
+    "wrappers_removed": 0,
+    "imports_removed": 1,
+    "headings_preserved": 14,
+    "code_fragments_preserved": 14,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/timelines/timeline-markers.mdx",
+    "images_converted": 14,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/timelines/timeline-playback.mdx",
+    "images_converted": 10,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 5,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/media-playback/timelines/timeline-view.mdx",
+    "images_converted": 18,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 13,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/node-reference/integration-nodes/notchplayback.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/node-reference/integration-nodes/touchengine.mdx",
+    "images_converted": 2,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/node-reference/nodes.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 18,
+    "imports_removed": 0,
+    "headings_preserved": 19,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/node-reference/primary-nodes/canvas.mdx",
+    "images_converted": 3,
+    "callouts_converted": 0,
+    "wrappers_removed": 4,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/node-reference/primary-nodes/display.mdx",
+    "images_converted": 2,
+    "callouts_converted": 0,
+    "wrappers_removed": 3,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/node-reference/primary-nodes/mediaplayer.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 7,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/node-reference/primary-nodes/rendertarget.mdx",
+    "images_converted": 4,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/organizing-media/managing-folders.mdx",
+    "images_converted": 6,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 5,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/organizing-media/managing-media-items.mdx",
+    "images_converted": 6,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 5,
+    "code_fragments_preserved": 2,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/organizing-media/media-library-overview.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/patch-editor/adding-and-managing-patches.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/patch-editor/editing-patches.mdx",
+    "images_converted": 38,
+    "callouts_converted": 0,
+    "wrappers_removed": 14,
+    "imports_removed": 0,
+    "headings_preserved": 23,
+    "code_fragments_preserved": 42,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/patch-editor/patch-editor-basics.mdx",
+    "images_converted": 10,
+    "callouts_converted": 0,
+    "wrappers_removed": 2,
+    "imports_removed": 0,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/privacy-policy.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 2,
+    "imports_removed": 1,
+    "headings_preserved": 0,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/terms-and-conditions.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 2,
+    "imports_removed": 1,
+    "headings_preserved": 0,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/bezierwarp.mdx",
+    "images_converted": 3,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/dometransform.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 4,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/latlongtodome.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/ledstripesmapper.mdx",
+    "images_converted": 4,
+    "callouts_converted": 0,
+    "wrappers_removed": 2,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 1,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/mask.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 8,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/overview.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/patchreplicator.mdx",
+    "images_converted": 4,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 4,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/planartodome.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/quadgrid.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 3,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/quadwarp.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/rectangle.mdx",
+    "images_converted": 2,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/softedgeblender.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/transform2d.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/trianglemesh.mdx",
+    "images_converted": 2,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 4,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/warping-alignment/xgrid.mdx",
+    "images_converted": 1,
+    "callouts_converted": 0,
+    "wrappers_removed": 1,
+    "imports_removed": 0,
+    "headings_preserved": 1,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/web-panel.mdx",
+    "images_converted": 24,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 11,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/whats-new/earlier-release-notes.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 3,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/whats-new/release-notes-2-6-0.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 11,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/whats-new/release-notes-2-7-0.mdx",
+    "images_converted": 8,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 11,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/whats-new/release-notes-2-8-0.mdx",
+    "images_converted": 6,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 12,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/whats-new/release-notes-2-9-0.mdx",
+    "images_converted": 7,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 5,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/whats-new/release-notes-3-0-0.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 2,
+    "imports_removed": 0,
+    "headings_preserved": 7,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/whats-new/release-notes-3-1-0.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 9,
+    "code_fragments_preserved": 3,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/whats-new/release-notes-3-2-0.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 34,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/whats-new/release-notes-3-3.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 34,
+    "code_fragments_preserved": 1,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/whats-new/release-notes-3-4.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 2,
+    "imports_removed": 0,
+    "headings_preserved": 99,
+    "code_fragments_preserved": 4,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/working-with-audio.mdx",
+    "images_converted": 0,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 8,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/working-with-nodes/adding-and-managing-nodes.mdx",
+    "images_converted": 13,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 9,
+    "code_fragments_preserved": 9,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/working-with-nodes/linking-nodes.mdx",
+    "images_converted": 9,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 8,
+    "code_fragments_preserved": 5,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/working-with-nodes/navigation-and-monitoring.mdx",
+    "images_converted": 13,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 9,
+    "code_fragments_preserved": 12,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/working-with-nodes/node-basics.mdx",
+    "images_converted": 9,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  },
+  {
+    "source": "content/jp/working-with-nodes/node-parameters-and-settings.mdx",
+    "images_converted": 15,
+    "callouts_converted": 0,
+    "wrappers_removed": 0,
+    "imports_removed": 0,
+    "headings_preserved": 6,
+    "code_fragments_preserved": 0,
+    "semantic_roundtrip": true
+  }
+]

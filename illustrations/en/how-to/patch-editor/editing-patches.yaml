@@ -1,0 +1,522 @@
+schema_version: 1
+document: knowledge/en/how-to/patch-editor/editing-patches.md
+document_id: guide.patch-editor.editing-patches
+language: en
+document_body_sha256: 8fbfcb18c48a0cba144d559e727445f4fec3b629e2fa1e425572bf25a28aea9e
+figures:
+  - id: en-8c12990026-001
+    title: Selecting Patches 1
+    caption: Selecting Patches 1
+    show: "Selecting Patches 1. Use the adjacent instructions as the content brief: In the Patch Editor: Click a patch in the navigation tree panel.To select multiple noncontiguous patches, Ctrl-click them in the navigation tree.To select multiple contiguous patches, click the first patch and then Shift-click the last patch in the navigation tree panel.To select all patches, click in the navigation tree panel and press Ctrl + A. In the Node Graph:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Selecting Patches for Editing
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Selecting-Patches-1.gif
+    source_alt: Selecting Patches 1
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-002
+    title: Selecting Patches 2
+    caption: Selecting Patches 2
+    show: "Selecting Patches 2. Use the adjacent instructions as the content brief: In the Node Graph: Double-click on a patch node. In the Display Editor:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: Selecting Patches for Editing
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Selecting-Patches-2.gif
+    source_alt: Selecting Patches 2
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-003
+    title: Selecting Patches 3
+    caption: Selecting Patches 3
+    show: "Selecting Patches 3. Use the adjacent instructions as the content brief: In the Display Editor: Double-click on a display to open all the patches connected to this display in the Patch Editor. When multiple patches are selected, you can select patches of a particular type by clicking the number next to the patch type name in the Settings panel."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: Selecting Patches for Editing
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Selecting-Patches-3.gif
+    source_alt: Selecting Patches 3
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-004
+    title: Selecting Patches 4
+    caption: Selecting Patches 4
+    show: "Selecting Patches 4. Use the adjacent instructions as the content brief: When multiple patches are selected, you can select patches of a particular type by clicking the number next to the patch type name in the Settings panel. To switch to the editing of a contiguous patch, do one of the following:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: Selecting Patches for Editing
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Selecting-Patches-4.gif
+    source_alt: Selecting Patches 4
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-005
+    title: Selecting Patches 5
+    caption: Selecting Patches 5
+    show: "Selecting Patches 5. Use the adjacent instructions as the content brief: To switch to the editing of a contiguous patch, do one of the following: Press the Z key to select the next patch, or press Shift + Z to select the previous patch.Right-click in the Input or Output panels and choose Select Next Patch or Select Previous Patch from the dropdown menu. When a particular patch is selected, its Settings panel opens to provide control over its parameters."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Selecting Patches for Editing
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Selecting-Patches-5.gif
+    source_alt: Selecting Patches 5
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-006
+    title: Selecting Patches 6 1
+    caption: Selecting Patches 6 1
+    show: "Selecting Patches 6 1. Use the adjacent instructions as the content brief: When a particular patch is selected, its Settings panel opens to provide control over its parameters."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: Selecting Patches for Editing
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Selecting-Patches-6-1.gif
+    source_alt: Selecting Patches 6 1
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-007
+    title: Modifying Output Image Geometry 1
+    caption: Modifying Output Image Geometry 1
+    show: "Modifying Output Image Geometry 1. Use the adjacent instructions as the content brief: To change the output image geometry, select and drag the circular handles of the mesh control points (vertices) in the Output panel. Multiple control points can be selected by Shift-clicking them one by one, or left-clicking and dragging a marquee box around them."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: Modifying Output Image Geometry
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Modifying-Output-Image-Geometry-1.gif
+    source_alt: Modifying Output Image Geometry 1
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-008
+    title: Modifying Output Image Geometry 2
+    caption: Modifying Output Image Geometry 2
+    show: "Modifying Output Image Geometry 2. Use the adjacent instructions as the content brief: Multiple control points can be selected by Shift-clicking them one by one, or left-clicking and dragging a marquee box around them. Note: It is recommended to have visual control over Screenberry output while making image geometry adjustments."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: Modifying Output Image Geometry
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Modifying-Output-Image-Geometry-2.gif
+    source_alt: Modifying Output Image Geometry 2
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-009
+    title: Adjusting UV Map
+    caption: Adjusting UV Map
+    show: "Adjusting UV Map. Use the adjacent instructions as the content brief: In Screenberry, a source image received by a patch node is UV mapped onto a geometry defined by a patch. To adjust the UV mapping of the input image, select and drag the circular handles of the mesh control points (UV map vertices) in the Input panel."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 20
+      section: Adjusting UV Map
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Adjusting-UV-Map.gif
+    source_alt: Adjusting UV Map
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-010
+    title: Setting Control Points Coordinates
+    caption: Setting Control Points Coordinates
+    show: "Setting Control Points Coordinates. Use the adjacent instructions as the content brief: To show control points coordinates, do one of the following: Press the Spacebar.Right-click in the Input or Output panels and select Show Coordinates from the dropdown menu.Select Show Coordinates in the View Options panel. To change control point coordinates manually, select the control point and press the Enter key, or right-click on the control point and select Set Position from the dropdown menu. Enter X and Y co"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 23
+      section: Control Points Coordinates
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Setting-Control-Points-Coordinates.gif
+    source_alt: Setting Control Points Coordinates
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-011
+    title: Setting Control Points Coordinates 2
+    caption: Setting Control Points Coordinates 2
+    show: "Setting Control Points Coordinates 2. Use the adjacent instructions as the content brief: To change control point coordinates manually, select the control point and press the Enter key, or right-click on the control point and select Set Position from the dropdown menu. Enter X and Y coordinates in the dialog window. Note: The coordinate origin (0,0) is located at the top-left corner."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: Control Points Coordinates
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Setting-Control-Points-Coordinates-2.gif
+    source_alt: Setting Control Points Coordinates 2
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-012
+    title: Flipping And Rotating
+    caption: Flipping And Rotating
+    show: "Flipping And Rotating. Use the adjacent instructions as the content brief: You can apply a vertical flip or 90 degrees clockwise rotation to the source media in the Geometry Layout Area or to a UV selection in the UV Layout Area. All vertices of the geometry mesh in the Output panel or a UV map in the Input panel can be flipped vertically or rotated 90 degrees clockwise at once. To flip, select any of the patch control points and press the F key, or right-click on a control point and select"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: Flipping and Rotating Patch Indexes
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Flipping-and-Rotating.gif
+    source_alt: Flipping And Rotating
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-013
+    title: Modifying Density
+    caption: Modifying Density
+    show: "Modifying Density. Use the adjacent instructions as the content brief: You can change the density of the mesh grid to achieve more control over the image geometry correction. To change the mesh grid density, use the related keyboard shortcut, or right-click in the Patch Editor work area and select Subdivide/Merge/[Function] from the dropdown menu. The following functions and keyboard shortcuts are available: Increase Subdivision (Ctrl + X) splits the polygons by cutting them in half and"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 31
+      section: Modifying the Density of a Mesh Grid
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Modifying-Density.gif
+    source_alt: Modifying Density
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-014
+    title: Guidelines 1
+    caption: Guidelines 1
+    show: "Guidelines 1. Use the adjacent instructions as the content brief: When the position of the control points is edited, the gray-dotted horizontal and vertical smart guides are displayed. They provide a visual reference to the previous coordinates of the control point and help with its alignment along the prior axes. Besides, when editing the Rectangle patch the additional diagonal gray dotted smart guide is displayed to indicate the aspect ratio of the source image."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: Using Smart Guides and Guidelines
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Guidelines-1.gif
+    source_alt: Guidelines 1
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-015
+    title: Guidelines 2
+    caption: Guidelines 2
+    show: "Guidelines 2. Use the adjacent instructions as the content brief: Besides, when editing the Rectangle patch the additional diagonal gray dotted smart guide is displayed to indicate the aspect ratio of the source image. To add custom guidelines, right-click in the panel and select Guideline Editor from the dropdown menu. In the opened dialog box, do one of the following:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 34
+      section: Using Smart Guides and Guidelines
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Guidelines-2.gif
+    source_alt: Guidelines 2
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-016
+    title: Guidelines 3
+    caption: Guidelines 3
+    show: "Guidelines 3. Use the adjacent instructions as the content brief: Create the guideline grid by entering the number of Columns and Rows and pressing the Add Grid button.Add individual guidelines by entering their coordinates and pressing the Add Horizontal Guideline or Add Vertical Guideline buttons. Press the Clear All button if you want to remove all guidelines. After the guidelines setup is finished, press the OK button to add guidelines to the panel."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 37
+      section: Using Smart Guides and Guidelines
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Guidelines-3.gif
+    source_alt: Guidelines 3
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-017
+    title: Snapping
+    caption: Snapping
+    show: "Snapping. Use the adjacent instructions as the content brief: By default, the automatic snapping option is enabled. When you change the position of a control point, it snaps to the guidelines, smart guides, output canvas edges, and other control points if placed near them. To disable snapping temporarily while dragging a control point, hold down the Shift key."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 39
+      section: Snapping
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Snapping.gif
+    source_alt: Snapping
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-018
+    title: Alignment Of The Control Points 1
+    caption: Alignment Of The Control Points 1
+    show: "Alignment Of The Control Points 1. Use the adjacent instructions as the content brief: To align the selected control points horizontally press Shift + H or right-click on the selected control points and choose Align Horizontally from the dropdown menu. To align the selected control points vertically press Shift + V or right-click on the selected control points and choose Align Vertically from the dropdown menu. You can also constrain the movement of the control points while editing:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 41
+      section: Vertical and Horizontal Alignment of the Control Points
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Alignment-of-the-Control-Points-1.gif
+    source_alt: Alignment Of The Control Points 1
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-019
+    title: Alignment Of The Control Points 2
+    caption: Alignment Of The Control Points 2
+    show: "Alignment Of The Control Points 2. Use the adjacent instructions as the content brief: You can also constrain the movement of the control points while editing: To the horizontal axis by pressing the H key or right-clicking on the control point and selecting Constrain Horizontally from the dropdown menu.To the vertical axis by pressing the V key or right-clicking on the control point and selecting Constrain Vertically from the dropdown menu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 43
+      section: Vertical and Horizontal Alignment of the Control Points
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Alignment-of-the-Control-Points-2.gif
+    source_alt: Alignment Of The Control Points 2
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-020
+    title: Previewing Patch Output
+    caption: Previewing Patch Output
+    show: "Previewing Patch Output. Use the adjacent instructions as the content brief: If you need to update the Live Image manually, do one of the following: Press F5.Press the Live Image > Image [ Refresh ] button in the View Options panel.Right-click in the panel and select the Get Live Image from Server option from the dropdown menu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 48
+      section: Previewing Patch Output
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Previewing-Patch-Output.gif
+    source_alt: Previewing Patch Output
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-021
+    title: Reference Image
+    caption: Reference Image
+    show: "Reference Image. Use the adjacent instructions as the content brief: Select/deselect the Reference Image > Show option from the View Options panel.Right-click in the panel and select/deselect the Show Reference Image checkbox in the dropdown menu. These actions will open the image loading dialog box if no reference image has previously been loaded."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 54
+      section: Using a Reference Image
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Reference-Image.gif
+    source_alt: Reference Image
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-022
+    title: Viewmode1
+    caption: Viewmode1
+    show: "Viewmode1. Use the adjacent instructions as the content brief: You can select one of the three available display modes by choosing the View Mode parameter in the Settings panel of the patch: Textured shows the output image only.Textured + Cage shows the output image and mesh grid (red lines).Textured + Wireframe shows the output image, mesh grid (red lines), and subdivision wireframe (grey lines)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 58
+      section: Selecting Display Modes for the Output
+    source_url: https://help.screenberry.com/images/patch-editor/static/viewmode1.jpg
+    source_alt: Viewmode1
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-023
+    title: Viewmode2
+    caption: Viewmode2
+    show: "Viewmode2. Use the adjacent instructions as the content brief: You can select one of the three available display modes by choosing the View Mode parameter in the Settings panel of the patch: Textured shows the output image only.Textured + Cage shows the output image and mesh grid (red lines).Textured + Wireframe shows the output image, mesh grid (red lines), and subdivision wireframe (grey lines)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 58
+      section: Selecting Display Modes for the Output
+    source_url: https://help.screenberry.com/images/patch-editor/static/viewmode2.jpg
+    source_alt: Viewmode2
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-024
+    title: Viewmode3
+    caption: Viewmode3
+    show: "Viewmode3. Use the adjacent instructions as the content brief: You can select one of the three available display modes by choosing the View Mode parameter in the Settings panel of the patch: Textured shows the output image only.Textured + Cage shows the output image and mesh grid (red lines).Textured + Wireframe shows the output image, mesh grid (red lines), and subdivision wireframe (grey lines)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 58
+      section: Selecting Display Modes for the Output
+    source_url: https://help.screenberry.com/images/patch-editor/static/viewmode3.jpg
+    source_alt: Viewmode3
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-025
+    title: Modifying Density
+    caption: Modifying Density
+    show: "Modifying Density. Use the adjacent instructions as the content brief: Fixed uses Fixed Subdivisions to set the subdivision count. The default count is 10, with a range of 1–256.Adaptive adjusts the subdivision density to the geometry and uses Max Subdivisions to limit the result. The default maximum is 16384. The available controls and default mode depend on the patch type. Quad Grid uses Adaptive by default. Example of increasing the fixed subdivision count from 5 to 20 to improve the"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 63
+      section: Modifying Density of a Subdivision Wireframe
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Modifying-Density.gif
+    source_alt: Modifying Density
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-026
+    title: Patch Editor Interpolation Algorithm
+    caption: Patch Editor Interpolation Algorithm
+    show: "Patch Editor Interpolation Algorithm. Use the adjacent instructions as the content brief: To change the interpolation algorithm for translating pixel values of the patch, select the Linear or Nearest-neighbor option for the Image Interpolation parameter in the Settings panel."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 67
+      section: Selecting the Interpolation Algorithm
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Patch-Editor-Interpolation-Algorithm.gif
+    source_alt: Patch Editor Interpolation Algorithm
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-027
+    title: Changing Patch Opacity
+    caption: Changing Patch Opacity
+    show: "Changing Patch Opacity. Use the adjacent instructions as the content brief: To adjust the patch opacity, change a value for the Opacity parameter in the Settings panel."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 69
+      section: Changing Patch Opacity
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Changing-Patch-Opacity.gif
+    source_alt: Changing Patch Opacity
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-028
+    title: Softening Patch Edges
+    caption: Softening Patch Edges
+    show: "Softening Patch Edges. Use the adjacent instructions as the content brief: To fade the edges of a patch into transparency (feather), enter the soft edge width in pixels for the Soft Edge parameter in the Settings panel of the patch."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 71
+      section: Softening Patch Edges
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Softening-Patch-Edges.gif
+    source_alt: Softening Patch Edges
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-029
+    title: Transformations 1
+    caption: Transformations 1
+    show: "Transformations 1. Use the adjacent instructions as the content brief: Various transformations can be applied to the patch by using the transformation matrix. Click the Edit button for the Transform Matrix parameter in the Settings panel of the patch to edit the matrix values. Examples of transformations:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 73
+      section: Applying Transformations to Patches
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Transformations-1.gif
+    source_alt: Transformations 1
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-030
+    title: Transformations 2
+    caption: Transformations 2
+    show: "Transformations 2. Use the adjacent instructions as the content brief: 100tx010ty00100001 Tilt: tx specifies the tilt factor along the x-axis. ty specifies the tilt factor along the y-axis."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 82
+      section: Applying Transformations to Patches
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Transformations-2.gif
+    source_alt: Transformations 2
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-031
+    title: Locking Patch Geometry
+    caption: Locking Patch Geometry
+    show: "Locking Patch Geometry. Use the adjacent instructions as the content brief: To avoid further (accidental) editing of the patch geometry, select the Lock Geometry checkbox in the Settings panel of the patch. Note: Patches with the Lock Geometry checkbox selected are skipped during cycling through the patches using Z (next patch) and Shift + Z (previous patch) keyboard shortcuts directly on the Server."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 84
+      section: Locking Patch Geometry
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Locking-Patch-Geometry.gif
+    source_alt: Locking Patch Geometry
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-032
+    title: Test Pattern 1
+    caption: Test Pattern 1
+    show: "Test Pattern 1. Use the adjacent instructions as the content brief: For more efficient and convenient patch editing, consider using a grid test pattern generated by the Test Pattern node. Connect this node to the patch node as the source image, and adjust the test pattern's appearance by modifying the parameters in the node settings."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 87
+      section: Using Test Pattern
+    source_url: https://help.screenberry.com/images/patch-editor/static/Test-Pattern-1.png
+    source_alt: Test Pattern 1
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-033
+    title: Test Pattern 2
+    caption: Test Pattern 2
+    show: "Test Pattern 2. Use the adjacent instructions as the content brief: For more efficient and convenient patch editing, consider using a grid test pattern generated by the Test Pattern node. Connect this node to the patch node as the source image, and adjust the test pattern's appearance by modifying the parameters in the node settings. A default grid test pattern generated by the Test Pattern node"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 87
+      section: Using Test Pattern
+    source_url: https://help.screenberry.com/images/patch-editor/static/Test-Pattern-2.png
+    source_alt: Test Pattern 2
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-034
+    title: Reset Patch
+    caption: Reset Patch
+    show: "Reset Patch. Use the adjacent instructions as the content brief: To restore the default settings of a patch, right-click on the patch name in the navigation tree and select Reset Patch from the dropdown menu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 90
+      section: Restoring Patch Default Settings
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Reset-Patch.gif
+    source_alt: Reset Patch
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-035
+    title: Server Shortcuts Selection
+    caption: Server Shortcuts Selection
+    show: "Server Shortcuts Selection. Use the adjacent instructions as the content brief: Selecting the Patch Patch Editing Mode Selection"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 95
+      section: Visual Examples of Using Keyboard Shortcuts on the Server
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-selection.gif
+    source_alt: Server Shortcuts Selection
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-036
+    title: Server Shortcuts Switchingmodes
+    caption: Server Shortcuts Switchingmodes
+    show: "Server Shortcuts Switchingmodes. Use the adjacent instructions as the content brief: Patch Editing Mode Selection Selecting and Moving Control Points"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 96
+      section: Visual Examples of Using Keyboard Shortcuts on the Server
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-switchingmodes.gif
+    source_alt: Server Shortcuts Switchingmodes
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-037
+    title: Server Shortcuts Select And Move Points
+    caption: Server Shortcuts Select And Move Points
+    show: "Server Shortcuts Select And Move Points. Use the adjacent instructions as the content brief: Selecting and Moving Control Points Selecting Faces of the Patch Mesh (only for the TriangleMesh patch)"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 97
+      section: Visual Examples of Using Keyboard Shortcuts on the Server
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-select-and-move-points.gif
+    source_alt: Server Shortcuts Select And Move Points
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-038
+    title: Server Shortcuts Trimesh
+    caption: Server Shortcuts Trimesh
+    show: "Server Shortcuts Trimesh. Use the adjacent instructions as the content brief: Selecting Faces of the Patch Mesh (only for the TriangleMesh patch) Moving and Scaling All Control Points of the Patch Mesh at Once"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 98
+      section: Visual Examples of Using Keyboard Shortcuts on the Server
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-trimesh.gif
+    source_alt: Server Shortcuts Trimesh
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-039
+    title: Server Shortcuts Move Scale All Control Points At Once
+    caption: Server Shortcuts Move Scale All Control Points At Once
+    show: "Server Shortcuts Move Scale All Control Points At Once. Use the adjacent instructions as the content brief: Moving and Scaling All Control Points of the Patch Mesh at Once Changing the Editing Step Increment"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 99
+      section: Visual Examples of Using Keyboard Shortcuts on the Server
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-Move-scale-all-control-points-at-once.gif
+    source_alt: Server Shortcuts Move Scale All Control Points At Once
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-040
+    title: Server Shortcuts Increase Increment
+    caption: Server Shortcuts Increase Increment
+    show: "Server Shortcuts Increase Increment. Use the adjacent instructions as the content brief: Changing the Editing Step Increment Flipping and Rotating the Patch Mesh"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 100
+      section: Visual Examples of Using Keyboard Shortcuts on the Server
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-Increase-increment.gif
+    source_alt: Server Shortcuts Increase Increment
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-041
+    title: Server Shortcuts Rotation
+    caption: Server Shortcuts Rotation
+    show: "Server Shortcuts Rotation. Use the adjacent instructions as the content brief: Flipping and Rotating the Patch Mesh Changing the Direction of the Control Point Handle"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 101
+      section: Visual Examples of Using Keyboard Shortcuts on the Server
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-rotation.gif
+    source_alt: Server Shortcuts Rotation
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-042
+    title: Server Shortcuts Control Point Handle
+    caption: Server Shortcuts Control Point Handle
+    show: "Server Shortcuts Control Point Handle. Use the adjacent instructions as the content brief: Changing the Direction of the Control Point Handle Modifying the density of the patch grid"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 102
+      section: Visual Examples of Using Keyboard Shortcuts on the Server
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-control-point-handle.gif
+    source_alt: Server Shortcuts Control Point Handle
+    text_coverage: not-independently-verified
+  - id: en-8c12990026-043
+    title: Server Shortcuts Grid Subdivisions
+    caption: Server Shortcuts Grid Subdivisions
+    show: "Server Shortcuts Grid Subdivisions. Use the adjacent instructions as the content brief: Modifying the density of the patch grid"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 103
+      section: Visual Examples of Using Keyboard Shortcuts on the Server
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-grid-subdivisions.gif
+    source_alt: Server Shortcuts Grid Subdivisions
+    text_coverage: not-independently-verified

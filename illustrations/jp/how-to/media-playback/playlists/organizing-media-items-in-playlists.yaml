@@ -1,0 +1,138 @@
+schema_version: 1
+document: knowledge/jp/how-to/media-playback/playlists/organizing-media-items-in-playlists.md
+document_id: guide.media-playback.playlists.organizing-media-items-in-playlists
+language: ja
+document_body_sha256: e247f4caa1fda5c96bc6242aae255e8ba0af8dfe8152312d190abe5aa60af2ac
+figures:
+  - id: ja-60ba980401-001
+    title: Adding Media Items To Playlists
+    caption: Adding Media Items To Playlists
+    show: "Adding Media Items To Playlists. Use the adjacent instructions as the content brief: Media Libraryからメディアアイテムを追加するには： プレイリストの内容をMedia Playerウィジェットで表示するには、その名前をクリックします。メディアアイテムをMedia Libraryからプレイリストのコンテンツエリアにドラッグアンドドロップするか、Media Libraryでメディアアイテムを選択し、この操作を実行するためにコピー（Ctrl + C）および貼り付け（Ctrl + V）を使用します。 メディアアイテムを直接追加する方法："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: メディアアイテムをプレイリストに追加
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Media-Items-to-Playlists.gif
+    source_alt: Adding Media Items To Playlists
+    text_coverage: not-independently-verified
+  - id: ja-60ba980401-002
+    title: Adding Media Items To Playlists2
+    caption: Adding Media Items To Playlists2
+    show: "Adding Media Items To Playlists2. Use the adjacent instructions as the content brief: メディアアイテムを直接追加する方法： プレイリストの内容を表示するために、Media Playerウィジェットでその名前をクリックしてください。システムフォルダからファイルをドラッグアンドドロップするか、またはコピー（Ctrl + C）および貼り付け（Ctrl + V）操作を使用してください。表示されるAdd Media File(s) ダイアログボックスで、アップロードされるメディアアイテムの品質（Good Quality 4:2:2、Max Quality 4:2:2、Optimal Quality 4:2:0）を選択し、必要に応じてリサイズするかどうか選択してから、Addボタンを押してください。 メモ： プレイリストにメディアアイテムが直接追加されると、Uploaded_on_YYYY-MM-DD という名前のMedia Libraryフォルダに自動的に追加されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: メディアアイテムをプレイリストに追加
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Media-Items-to-Playlists2.gif
+    source_alt: Adding Media Items To Playlists2
+    text_coverage: not-independently-verified
+  - id: ja-60ba980401-003
+    title: Adding Media Items To Playlists3
+    caption: Adding Media Items To Playlists3
+    show: "Adding Media Items To Playlists3. Use the adjacent instructions as the content brief: メモ： プレイリストにメディアアイテムが直接追加されると、Uploaded_on_YYYY-MM-DD という名前のMedia Libraryフォルダに自動的に追加されます。 同じ名前のメディアアイテムが既に存在する場合、ユーザーは新しいメディアアイテムを追加するか、既存のアイテムを上書きするかの選択肢が表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: メディアアイテムをプレイリストに追加
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Media-Items-to-Playlists3.gif
+    source_alt: Adding Media Items To Playlists3
+    text_coverage: not-independently-verified
+  - id: ja-60ba980401-004
+    title: Renaming Media Items
+    caption: Renaming Media Items
+    show: "Renaming Media Items. Use the adjacent instructions as the content brief: Media Libraryでメディアアイテムの名前を変更する方法には2つあります。メディアアイテムの名前を変更すると、すべての既存のプレイリストでその名前が一斉に変更されます。 特定のプレイリスト内のメディアアイテムの名前を変更するには、右クリックしてドロップダウンメニューからSettingsを選択し、Title欄に新しい名前を入力してください。 メモ： 現在、既存の Media Player ウィジェットのいずれかで再生中のメディアアイテムは、名前を変更することができません。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: メディアアイテム名の変更
+    source_url: https://help.screenberry.com/images/media-playback/animation/Renaming-Media-Items.gif
+    source_alt: Renaming Media Items
+    text_coverage: not-independently-verified
+  - id: ja-60ba980401-005
+    title: Deleting Media Items
+    caption: Deleting Media Items
+    show: "Deleting Media Items. Use the adjacent instructions as the content brief: プレイリストからメディアアイテムまたは複数のメディアアイテムを削除するには、それらを右クリックしてドロップダウンメニューからDeleteを選択するか、Del キーを押してください。 既存のすべてのプレイリスト方メディアアイテムを削除する場合は、Media Libraryからメディアアイテムを削除します。プレイリスト内のメディアアイテムまたは複数のメディアアイテムを右クリックし、ドロップダウンメニューからRemove Item from Media Libraryを選択するか、Shift + Del キーを押してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: メディアアイテムの削除
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Media-Items.gif
+    source_alt: Deleting Media Items
+    text_coverage: not-independently-verified
+  - id: ja-60ba980401-006
+    title: Deleting Media Items2
+    caption: Deleting Media Items2
+    show: "Deleting Media Items2. Use the adjacent instructions as the content brief: 既存のすべてのプレイリスト方メディアアイテムを削除する場合は、Media Libraryからメディアアイテムを削除します。プレイリスト内のメディアアイテムまたは複数のメディアアイテムを右クリックし、ドロップダウンメニューからRemove Item from Media Libraryを選択するか、Shift + Del キーを押してください。 メディアアイテムがMedial Libraryから削除され、再生ができなくなったことを示すために、既存のプレイリスト内のすべての該当メディアアイテムのサムネイルに取り消し線が引かれます。同じ名前のメディアアイテムが後でMedia Libraryに追加されると、同名のメディアアイテムのすべてのサムネイルがアクティブな状態に戻り、再びMedia Playerのプレイリストで再生可能になります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: メディアアイテムの削除
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Media-Items2.gif
+    source_alt: Deleting Media Items2
+    text_coverage: not-independently-verified
+  - id: ja-60ba980401-007
+    title: Arranging Media Items
+    caption: Arranging Media Items
+    show: "Arranging Media Items. Use the adjacent instructions as the content brief: メディアアイテムは、ドラッグアンドドロップやコピー（Ctrl + C）、切り取り（Ctrl + X）、貼り付け（Ctrl + V）コマンドを使用して整理することができます。 同じプレイリスト内でメディアアイテムの再生順序を変更することができます。同じMedia Playerウィジェットの異なるプレイリスト間でコピーや移動ができます。異なるMedia Playerウィジェットのプレイリスト間でもコピーや移動ができます。 メディアアイテムがプレイリスト間でコピーまたは移動されると、再生設定が保持されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: メディアアイテムの整理
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Media-Items.gif
+    source_alt: Arranging Media Items
+    text_coverage: not-independently-verified
+  - id: ja-60ba980401-008
+    title: Arranging Media Items2
+    caption: Arranging Media Items2
+    show: "Arranging Media Items2. Use the adjacent instructions as the content brief: メディアアイテムがプレイリスト間でコピーまたは移動されると、再生設定が保持されます。 さらに、テキストエディタにメディアアイテムのデータと再生設定を コピー（Ctrl + C）および 貼り付け（Ctrl + V）することもできます。 プレイリスト内のメディアアイテムを視覚的に識別しやすくするために、カラータグを割り当てることができます。プレイリスト内の一つまたは複数のメディアアイテムを選択し、右クリックして表示されるドロップダウンメニュー内のSet Color Tagサブメニューから、タグの色を選択してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 26
+      section: メディアアイテムの整理
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Media-Items2.gif
+    source_alt: Arranging Media Items2
+    text_coverage: not-independently-verified
+  - id: ja-60ba980401-009
+    title: Arranging Media Items3
+    caption: Arranging Media Items3
+    show: "Arranging Media Items3. Use the adjacent instructions as the content brief: プレイリスト内のメディアアイテムを視覚的に識別しやすくするために、カラータグを割り当てることができます。プレイリスト内の一つまたは複数のメディアアイテムを選択し、右クリックして表示されるドロップダウンメニュー内のSet Color Tagサブメニューから、タグの色を選択してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: メディアアイテムの整理
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Media-Items3.gif
+    source_alt: Arranging Media Items3
+    text_coverage: not-independently-verified
+  - id: ja-60ba980401-010
+    title: Sorting Media Items
+    caption: Sorting Media Items
+    show: "Sorting Media Items. Use the adjacent instructions as the content brief: メディアアイテムは、プレイリスト内で選択したアイテムを右クリックし、ドロップダウンメニューからSort Byサブメニューを選択することで並べ替えができます。フレーム数、名前、タイトル、カラータグ、そしてシャッフルなど、いくつかの並べ替え方法があります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 29
+      section: メディアアイテムの並べ替え
+    source_url: https://help.screenberry.com/images/media-playback/animation/Sorting-Media-Items.gif
+    source_alt: Sorting Media Items
+    text_coverage: not-independently-verified
+  - id: ja-60ba980401-011
+    title: Adjusting Media Item Thumbnails
+    caption: Adjusting Media Item Thumbnails
+    show: "Adjusting Media Item Thumbnails. Use the adjacent instructions as the content brief: クリックすることでアクセスできるサムネイルメニューは、以下のオプションを提供しています： サムネイルの表示方法には3つの異なるタイプがあります：正方形 、1 x 1（デフォルト）横 、ランドスケープ向けの2 x 1縦 、ポートレート向けの1 x 2サムネイル画像の引き延ばし方法も選択できます。Aspect Fitチェックボックスが選択されている場合（デフォルト）、中央に配置されたサムネイル画像は自動的にクロップされ、短い寸法に合わせてサムネイルの枠が埋められます。Aspect Fitチェックボックスが選択されていない場合、サムネイル画像は長い寸法に合わせて自動的にサムネイルの枠にフィットします。メディアアイテムのタイトル（名前）の表示/非表示は、Hide Titlesチェックボックスで切り替えることができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 34
+      section: メディアアイテムのサムネイル
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adjusting-Media-Item-Thumbnails.gif
+    source_alt: Adjusting Media Item Thumbnails
+    text_coverage: not-independently-verified

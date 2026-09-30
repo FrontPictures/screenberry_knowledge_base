@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/how-to/3d-scene/projection-mapper.md
+document_id: guide.3d-scene.projection-mapper
+language: en
+document_body_sha256: a582e3c1a1ebfe1ae5175037a11d65c462dda0d228dc137168e193a6eaa58727
+figures:
+  - id: en-7763db517c-001
+    title: Projection Mapper
+    caption: Projection Mapper
+    show: "Projection Mapper. Use the adjacent instructions as the content brief: To add a Projection Mapper, do the following: Navigate to the Node Graph widget.Add a Projection Mapper node to your node graph.Connect the Projection Mapper output parameter of the Projection Mapper node to the Projection Mappers input parameter of the 3D Scene node.Connect an image source node (transmitting the image to be projected in the 3D environment) to the Source Image input parameter of the Projection Mapper"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Projection Mapper
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Projection-Mapper.gif
+    source_alt: Projection Mapper
+    text_coverage: not-independently-verified

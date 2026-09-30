@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/dometransform.md
+document_id: guide.warping-alignment.dometransform
+language: ja
+document_body_sha256: c58eb86d7dc35f7ebae044468dcc6ba2d58f20726b8525cf14c062ff07389941
+figures:
+  - id: ja-f6d298188b-001
+    title: Dome Transform Node Tree
+    caption: Dome Transform Node Tree
+    show: "Dome Transform Node Tree. Use the adjacent instructions as the content brief: Dome Transform ノードは、ドームセットアップにおいて自動キャリブレーションの結果に追加のジオメトリ修正を適用するための Patch です。主にキャリブレーションカメラの位置、向き、およびレンズの歪みを補正するために使用されます。 典型的なセットアップでは、Dome Transform ノードは Calibrator ノードと Render Target ノードを介して接続されます。 Dome Transformノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Dome Transform
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Dome-Transform-node-tree.png
+    source_alt: Dome Transform Node Tree
+    text_coverage: not-independently-verified
+  - id: ja-f6d298188b-002
+    title: Dome Transform Controls
+    caption: Dome Transform Controls
+    show: "Dome Transform Controls. Use the adjacent instructions as the content brief: Dome Transformノードを使用したノードグラフの例 Dome Transformノードが追加されると、ウィジェットのリストからDome Transform Controlsウィジェットが利用可能になります。 Dome TransformノードのSettingsパネルとDome Transform Controlsウィジェットの両方で、以下の設定が可能になります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Dome Transform
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Dome-Transform-Controls.png
+    source_alt: Dome Transform Controls
+    text_coverage: not-independently-verified
+  - id: ja-f6d298188b-003
+    title: Dome Transform Controls2
+    caption: Dome Transform Controls2
+    show: "Dome Transform Controls2. Use the adjacent instructions as the content brief: Dome Transformノードを使用したノードグラフの例 Dome Transformノードが追加されると、ウィジェットのリストからDome Transform Controlsウィジェットが利用可能になります。 Dome TransformノードのSettingsパネルとDome Transform Controlsウィジェットの両方で、以下の設定が可能になります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Dome Transform
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Dome-Transform-Controls2.png
+    source_alt: Dome Transform Controls2
+    text_coverage: not-independently-verified
+  - id: ja-f6d298188b-004
+    title: Dome Transform
+    caption: Dome Transform
+    show: "Dome Transform. Use the adjacent instructions as the content brief: Offset Y： キャリブレーションカメラの前後位置を補正します。 Offset Z： キャリブレーションカメラがドームの天頂から近くまたは遠くに配置されていることを補正します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: Dome Transform
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Dome-Transform.gif
+    source_alt: Dome Transform
+    text_coverage: not-independently-verified

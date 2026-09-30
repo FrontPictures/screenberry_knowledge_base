@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/concepts/automatic-calibration/automatic-calibration-basics.md
+document_id: guide.automatic-calibration.automatic-calibration-basics
+language: ja
+document_body_sha256: 6187f98070ee934f5e9acba868dd31919d8c5bbf44bc3f2b28d3557d6ca814c4
+figures:
+  - id: ja-ce7e7eef39-001
+    title: Automatic Calibration Node Graph
+    caption: Automatic Calibration Node Graph
+    show: "Automatic Calibration Node Graph. Use the adjacent instructions as the content brief: Node Graphウィジェットに、Canvasノードを追加します。ワークスペースにCanvas Editorウィジェットを追加し、View ModeドロップダウンメニューでDisplaysが選択されていることを確認します。Canvas EditorでCreate Display Arrayボタンを押します。表示されるダイアログボックスで、セットアップのプロジェクターの数*に対応したディスプレイグリッドを生成するために、RowsとColumnsの数を入力し、Patch TypeにCalibratorPatchを選択してOKを押します。これにより、ノードグラフには、Calibratorノードに接続されたCalibratorPatchノード、さらにそれらがDisplayノードを介してCanvasノードに接続されたノードツリーが生成されます。ノードグラフにMedia Playerノード（または他のソース映像ノード）を追加し、そのIma"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: 自動キャリブレーションのためのノードグラフの作成
+    source_url: https://help.screenberry.com/images/automatic-calibration/animation/Automatic-Calibration-Graph.gif
+    source_alt: Automatic Calibration Node Graph
+    text_coverage: not-independently-verified

@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/trianglemesh.md
+document_id: guide.warping-alignment.trianglemesh
+language: en
+document_body_sha256: 3fbc88c2342491da6c75636ca688d32ee0ad80c4b3e9d8791fa2f272487705d4
+figures:
+  - id: en-653e2c7518-001
+    title: Triangle Mesh Node Tree
+    caption: Triangle Mesh Node Tree
+    show: "Triangle Mesh Node Tree. Use the adjacent instructions as the content brief: The Triangle Mesh node is a patch that is mostly used to map projection onto the surfaces of objects that are composed of triangular shapes. In a typical setup, the Triangle Mesh node receives a source image as the input and outputs the modified image to the Display or Canvas node. Example of the node graph with the Triangle Mesh node"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Triangle Mesh
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Triangle-Mesh-node-tree.png
+    source_alt: Triangle Mesh Node Tree
+    text_coverage: not-independently-verified
+  - id: en-653e2c7518-002
+    title: Triangle Mesh
+    caption: Triangle Mesh
+    show: "Triangle Mesh. Use the adjacent instructions as the content brief: To apply triangular mesh warping: Create and edit a triangular mesh by doing the following:Add control points. Position the cursor over the layout area and press P, or right-click there and select Add Point from the context menu.Connect control points into triangular mesh faces. Select the control points and press T, or right-click the selection and choose Create Triangles from the context menu. If no points are sele"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Triangle Mesh
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Triangle-Mesh.gif
+    source_alt: Triangle Mesh
+    text_coverage: not-independently-verified
+  - id: en-653e2c7518-003
+    title: Trimesh Edit 1
+    caption: Trimesh Edit 1
+    show: "Trimesh Edit 1. Use the adjacent instructions as the content brief: In the Output panel, modify the mesh grid by dragging the handles of the mesh control points.In the Input panel, define the mapping of the source image for the individual mesh triangles by dragging the handles of the mesh control points. In addition, working with the Triangle Mesh patch follows the general principles for working with patches outlined in the Editing Patches section of the documentation."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Triangle Mesh
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/trimesh-edit-1.gif
+    source_alt: Trimesh Edit 1
+    text_coverage: not-independently-verified

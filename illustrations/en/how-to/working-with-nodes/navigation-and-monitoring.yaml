@@ -1,0 +1,114 @@
+schema_version: 1
+document: knowledge/en/how-to/working-with-nodes/navigation-and-monitoring.md
+document_id: guide.working-with-nodes.navigation-and-monitoring
+language: en
+document_body_sha256: 6748284283882a022cea5f010782b3ba5a2bb4218dece665b8bf12240a615b67
+figures:
+  - id: en-b1fd64b949-001
+    title: Auto-Layout Nodes
+    caption: Auto-Layout Nodes
+    show: "Auto-Layout Nodes. Use the adjacent instructions as the content brief: To align the nodes in the Node Graph, right-click on the nodes and select Auto-Layout Nodes from the dropdown menu (or press the L key). If no nodes have been selected, using the Auto-Layout Nodes function will align the entire node tree."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Arranging Nodes Automatically
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Auto-Layout-Nodes.gif
+    source_alt: Auto-Layout Nodes
+    text_coverage: not-independently-verified
+  - id: en-b1fd64b949-002
+    title: Fit to View
+    caption: Fit to View
+    show: "Fit to View. Use the adjacent instructions as the content brief: To scale a view of one or more selected nodes to fit the Node Graph window, right-click on the nodes and select Fit to View from the dropdown menu (or press the A key). If no nodes have been selected, using the Fit to View function will bring the entire node tree into view."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Fit To View For Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Fit-To-View-For-Nodes.gif
+    source_alt: Fit to View
+    text_coverage: not-independently-verified
+  - id: en-b1fd64b949-003
+    title: Changing Node Size
+    caption: Changing Node Size
+    show: "Changing Node Size. Use the adjacent instructions as the content brief: To resize a node, select it and drag any one of its corner handles (which become visible on mouseover)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Changing Node Size
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Changing-Node-Size.gif
+    source_alt: Changing Node Size
+    text_coverage: not-independently-verified
+  - id: en-b1fd64b949-004
+    title: Zooming and Panning
+    caption: Zooming and Panning
+    show: "Zooming and Panning. Use the adjacent instructions as the content brief: To pan a view, do one of the following: Hold the mouse scroll wheel button or hold the Alt key while moving the mouse.Click the button in the top right corner and move the mouse."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: Zooming and Panning in the Node Graph
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Zooming-and-Panning-in-the-Node-Graph.gif
+    source_alt: Zooming and Panning
+    text_coverage: not-independently-verified
+  - id: en-b1fd64b949-005
+    title: Navigator Panel
+    caption: Navigator Panel
+    show: "Navigator Panel. Use the adjacent instructions as the content brief: Right-clicking on the Navigator panel toggles between two display modes, standard and enlarged. To show/hide the Navigator panel, right-click an empty area in the Node Graph window and enable/disable the Minimap checkbox (or press Ctrl + M)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: Using the Navigator Panel
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Navigator-Panel-1.gif
+    source_alt: Navigator Panel
+    text_coverage: not-independently-verified
+  - id: en-b1fd64b949-006
+    title: Nodes Color Coding
+    caption: Nodes Color Coding
+    show: "Nodes Color Coding. Use the adjacent instructions as the content brief: Color coding is used to indicate various types of nodes. Node colors are determined by the active palette. A color assigned to the node type takes priority over a color assigned to its category. If neither is defined, the palette’s default node color is used."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: Nodes Color Coding
+    source_url: https://help.screenberry.com/images/working-with-nodes/static/ColorCoding.png
+    source_alt: Nodes Color Coding
+    text_coverage: not-independently-verified
+  - id: en-b1fd64b949-007
+    title: Searching the Nodes
+    caption: Searching the Nodes
+    show: "Searching the Nodes. Use the adjacent instructions as the content brief: To search for specific nodes added to the project, click the button (located in the top left corner of the Node Graph window) or press Ctrl + F, and type any part of the node name in the opened search field. Any matching nodes are displayed in the list below. Click on the node name in the list to select it in the node graph. If more than one node matches the search criteria, pressing F3 will switch the selection to t"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: Searching the Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Searching-the-Nodes1.gif
+    source_alt: Searching the Nodes
+    text_coverage: not-independently-verified
+  - id: en-b1fd64b949-008
+    title: Searching the Nodes
+    caption: Searching the Nodes
+    show: "Searching the Nodes. Use the adjacent instructions as the content brief: If more than one node matches the search criteria, pressing F3 will switch the selection to the next node in the results list."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 23
+      section: Searching the Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Searching-the-Nodes2.gif
+    source_alt: Searching the Nodes
+    text_coverage: not-independently-verified
+  - id: en-b1fd64b949-009
+    title: Using Tooltips
+    caption: Using Tooltips
+    show: "Using Tooltips. Use the adjacent instructions as the content brief: You can also quickly preview a video and monitor audio levels directly within the node graph: Video Preview: Hold the Alt key while hovering over an image link to view the real-time video being transferred.Audio Level Meter: Hold the Alt key while hovering over an audio link to monitor audio levels."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: Using Tooltips for Monitoring Parameters and Data Transfer
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Tooltip.gif
+    source_alt: Using Tooltips
+    text_coverage: not-independently-verified

@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Optional User Guide illustration briefs",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "document",
+    "document_id",
+    "language",
+    "document_body_sha256",
+    "figures"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "document": {
+      "type": "string",
+      "minLength": 1
+    },
+    "document_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "en",
+        "ja"
+      ]
+    },
+    "document_body_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "figures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "caption",
+          "show",
+          "status",
+          "placement"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "caption": {
+            "type": "string",
+            "minLength": 1
+          },
+          "show": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "draft-needs-review",
+              "reviewed"
+            ]
+          },
+          "placement": {
+            "type": "object",
+            "required": [
+              "before_block",
+              "section"
+            ],
+            "properties": {
+              "before_block": {
+                "type": "integer"
+              },
+              "section": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

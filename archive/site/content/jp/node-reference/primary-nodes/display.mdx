@@ -1,0 +1,42 @@
+---
+title: ScreenberryのDisplayノード - 映像の表示場所の定義
+description: Displayノードによる個別の映像表示範囲やパラメータ設定方法を説明します。
+openGraph:
+  title: ScreenberryのDisplayノード - 映像の表示場所の定義
+  description: Displayノードによる個別の映像表示範囲やパラメータ設定方法を説明します。
+---
+
+# Display
+
+**Display**ノードは、Screenberry サーバーの映像出力に配置できる個々の表示領域を定義します。複数の**Display**ノードを**Canvas**ノードまたは **Render Target**ノード（オフスクリーンレンダリング用）に接続することができます。
+
+**Display**ノードは、接続された映像ソースや Patch ノードからメディアコンテンツを受信します。
+
+<img alt="Display Node Graph" src="/images/node-references/animation/Display1.gif" width={800} height={608} loading="lazy" />
+
+**Display**ノードが**Canvas**（または**Render Target**）ノードに接続されると、このノードは対応する**Canvas**（または**Render Target**）**Editor**ウィジェットで編集可能になります。表示の編集に関する詳細は、[Display Editor](../../../display-editor)の章を参照してください。
+
+<img alt="Display Editor" src="/images/node-references/animation/Display2.gif" width={800} height={400} loading="lazy" />
+
+**Display**ノードの**Settings**パネルでは、以下の制御と情報パラメータが提供されています。
+
+<div className="table-parameter-list table-without-thead">
+
+|                                    |                                                                                                                                                                                                                                            |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Patches                            | **Display**ノードに接続されている**Patch**ノードの数を表示します。                                                                                                                                                                         |
+| Image                              | **Display**ノードに接続された映像ソースに関する情報を表示します。                                                                                                                                                                          |
+| Size                               | Display の幅と高さをピクセル単位で設定します。                                                                                                                                                                                             |
+| Position                           | Display の左上隅の位置をサーバーの映像出力の左上隅に対して相対的に設定します。                                                                                                                                                             |
+| Test Pattern                       | Display に表示するテストパターンを選択できます（**Label**、**Grid**、**Color Bars**、または **Gradient**）。詳細はこちらを参照してください： [Display のテストパターンを表示する](../../../display-editor#display-のテストパターンを表示する). |
+| <small>_Stereoscopic_</small>      |                                                                                                                                                                                                                                            |
+| Enable Stereoscopic                | **Display**への立体視映像のレンダリングを有効化します。                                                                                                                                                                                    |
+| Stereoscopic Mode                  | 立体視映像の方式を選択できます： **Side-by-side**、**Top/Bottom**、または**Frame Sequential**のいずれかを指定します。                                                                                                                      |
+| Swap Left-Right                    | サイドバイサイドの立体視映像で左目と右目の映像位置を入れ替えます。                                                                                                                                                                         |
+| <small>_Output Parameters_</small> |                                                                                                                                                                                                                                            |
+| Display                            | **Display**ノードが**Canvas**または**Render Target**ノードに接続されているかどうかを示します。                                                                                                                                             |
+| DomeSDKDisplay                     | **Display**ノードが**DomeSDK Saver**ノードに接続されているかどうかを示します。                                                                                                                                                             |
+
+</div>
+
+> **メモ：** **Display**ノードは、**DomeSDK Saver**ノードにも接続することができ、マルチプロジェクションドームのセットアップで個別のプロジェクターのキャリブレーションデータを書き出すすることができます。これを実現するためには、**DomeSDK Display**の出力パラメーターピンを有効にする必要があります。

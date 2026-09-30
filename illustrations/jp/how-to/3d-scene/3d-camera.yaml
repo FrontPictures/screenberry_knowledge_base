@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/how-to/3d-scene/3d-camera.md
+document_id: guide.3d-scene.3d-camera
+language: ja
+document_body_sha256: 1784fb0a21616eaa21f312b3dc9e9dc0c3bbbe226d6d7081a401c29ff9e3ac03
+figures:
+  - id: ja-4eb10d36bb-001
+    title: 3D Camera
+    caption: 3D Camera
+    show: "3D Camera. Use the adjacent instructions as the content brief: Node Graph ウィジェットに移動します。ノードグラフに 3D Camera ノードを追加します。3D Camera ノードの Camera 出力パラメータを 3D Scene ノードの Camera 入力パラメータに接続します。これによりカメラがシーンに統合されます。3D Scene ウィジェットに切り替えて、3D シーンツールを使用するか、3D Camera の設定で直接カメラの位置と向きをさらに調整します。 3D Camera ノードが 3D Scene ノードに接続されると、3D Scene ノードに 3D Camera 出力パラメータが追加されます。このパラメータはカメラビュー映像を出力し、Canvas や Display ノードなどの映像表示用ノードにルーティングできます。 カメラ設定では、シーン内の 3D カメラ ビューのパラメータを設定できます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: 3D カメラ
+    source_url: https://help.screenberry.com/images/3d-scene/animation/3D-Camera.gif
+    source_alt: 3D Camera
+    text_coverage: not-independently-verified

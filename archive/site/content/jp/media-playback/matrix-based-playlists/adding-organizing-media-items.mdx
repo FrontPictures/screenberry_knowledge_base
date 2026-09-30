@@ -1,0 +1,172 @@
+---
+title: Screenberryのマトリックス型プレイリストにおけるメディアアイテムの管理
+description: Screenberryのマトリックス型プレイリストでメディアアイテムを追加、整理およびカスタマイズする方法について説明します。
+openGraph:
+  title: Screenberryのマトリックス型プレイリストにおけるメディアアイテムの管理
+  description: Screenberryのマトリックス型プレイリストでメディアアイテムを追加、整理およびカスタマイズする方法について説明します。
+---
+
+# メディアアイテムの整理
+
+## 行と列の管理
+
+もし、現在用意されている行や列よりも多くの行や列が必要な場合、現在の端までスクロールしてグリッドを拡張することができます。表示限界に達すると、自動的に追加の行や列が追加されます。逆にメディアアイテムで埋められていない行や列は、スクロールバック時に自動的に縮小され、整然かつ管理しやすいグリッドに整形されます
+
+<img alt="Adding Rows And Columns" src="/images/media-playback/animation/Adding-Rows-and-Columns.gif" width={800} height={480} loading="lazy" />
+
+## メディアアイテムの追加
+
+マトリックスグリッドにメディアアイテムを追加するには、以下のいずれかの方法を使用します：
+
+- **ドラッグ＆ドロップ**：
+  - **Media Library**、別の**Media Player**のプレイリスト、またはタイムラインから、メディアアイテムをグリッドに直接ドラッグします。
+- **コピー＆ペースト**:
+  1. **Media Library**、別の**Media Player**のプレイリスト、またはタイムラインでメディアアイテムを選択します。
+  2. 右クリックしてドロップダウンメニューから**Copy**を選択するか、**`Ctrl`** + **`C`** のキーボードショートカットを使用してこれらのアイテムをコピーします。
+  3. メディアアイテムのシーケンスの開始グリッドセルを選択し、そこにアイテムを貼り付けます。これは、右クリックしてドロップダウンメニューから**Paste**を選択するか、**`Ctrl`** + **`V`** のショートカットを使用して行うことができます。
+
+<img alt="Adding Media Items Matrix" src="/images/media-playback/animation/Adding-Media-Items-Matrix.gif" width={800} height={696} loading="lazy" />
+
+- **システムフォルダから直接ファイルをインポート**：
+
+  1. システムフォルダからファイルをドラッグアンドドロップしてグリッドに追加するか、**`Ctrl`** + **`C`**（**コピー**）および **`Ctrl`** + **`V`**（**貼り付け**）のショートカットを使用してグリッドにコピー＆ペーストします。
+  2. 表示される **Add Media File(s)** ダイアログボックスで、メディアアイテムの変換品質を選択します。利用可能な選択肢は以下の通りです:
+     - **MPEG-2 Max Quality** **4:2:2** は、最高品質でエンコードされたMPEG-2ビデオ形式です。これは、より高い品質の維持を可能にするデフォルトのエンコードオプションです。ほとんどの場合、最適な品質とパフォーマンスを提供します。ただし、特定のメディアアイテムで再生の問題や映像の乱れが発生する場合は、**MPEG-2 Good Quality** エンコードを使用して再エンコードすることを検討してください。
+     - **MPEG-2 Good Quality** **4:2:2** は、高いビットレートでエンコードを行いますが、映像の複雑さに関係なくスムーズなビデオ再生を確保するために特定のビットレート制限があります。
+     - **MPEG-2 Optimal Quality 4:2:0** は、非常に高い解像度の映像を再生するためのより適切なオプションです。厳しいビットレート制限を使用します。
+     - **Uncompressed Targa Sequence** は、非可逆的なRLE圧縮の連番画像形式です。ファイルは非圧縮のままであるため、最適な再生パフォーマンスのためには大容量のストレージ容量と高速な読み込み能力が必要です。
+     - **Original file(s)** は、元のファイルの形式を維持します。また、変換中に低解像度のプレビュー映像が生成され、オーディオコンテンツは別ファイルに抽出されます。メディアアイテムの再生は、元の形式によっては最適ではない場合があります。この形式は、_NotchLC_ および _HAP_ の再生にも使用されます。
+     - **CineForm (High)** は、高画質とパフォーマンスを両立するために設計された _CineForm_ コーデック形式を使用します。高解像度、高ダイナミックレンジ、高フレームレートのメディアアイテムを提供しますが、大容量のストレージスペースも必要とします。
+     - **CineForm (High, 12-bit)** は、_CineForm_ コーデック形式を使用します。唯一の違いは、このエンコードがより高いビット深度、具体的には10ビットおよび12ビットの映像を扱うように設計されていることです。
+  3. メディアアイテムの解像度の調整が必要な場合は、**Add Media File(s)** ダイアログボックスで **Resize Image** チェックボックスを選択し、適切な幅と高さを**Width**と**Height**欄に入力します。
+  4. **Add**ボタンをクリックしてアップロード作業を開始します。
+
+<img alt="Adding Media Items Matrix 2" src="/images/media-playback/animation/Adding-Media-Items-Matrix-2.gif" width={800} height={712} loading="lazy" />
+
+> **メモ：** メディアアイテムがマトリックスグリッドにドラッグまたはコピーされると、選択したセルから始まり、対象の行のセルに順番に配置されます。重なる新しいシーケンスによって既存のメディアアイテムが置き換えられることに注意してください。
+
+> **メモ：** システムフォルダからメディアアイテムがマトリックスグリッドにインポートされると、対応するメディアファイルがアップロードされ、**Media** フォルダ内に**Uploaded_on_YYYY-MM-DD**という名前のフォルダに保存されます。
+
+import { Callout } from 'nextra/components';
+
+<Callout  emoji={<img src="/images/misc/drafts_blue.svg" alt="Information" width={20} height={20} />}>
+**メモ：** ユーザーは、マトリックスグリッド内の既存のメディアアイテムが置き換えられる可能性がある2つの特定のケースに注意する必要があります。それは、メディアアイテムの複製と分割です。
+
+**メディアアイテムの複製**
+
+メディアアイテムを複製するには、それを右クリックしてドロップダウンメニューから**Duplicate**を選択します。この操作により、元のアイテムのすぐ隣のセルにアイテムのコピーが作成されます。ただし、この操作により、次のセルに既存のメディアアイテムが置き換えられることに注意してください。
+
+**メディアアイテムの分割**
+
+メディアアイテムを分割するには、まずアイテムを選択し、シークバー上で右クリックし、ドロップダウンメニューから **Split at Frame ([フレーム番号])** を選択します。この操作により、メディアアイテムは2つのパートに分割されます。最初のパートには指定したフレームまでのフレームが含まれ、現在のセルに残ります。2番目のパートには指定したフレームから始まるフレームが含まれ、既存のメディアアイテムを置き換える形で次のセルに配置されます。
+
+<img alt="Duplicate Split Matrix" src="/images/media-playback/animation/Duplicate-Split-Matrix.gif" width={716} height={440} loading="lazy" />
+
+</Callout>
+
+## AUXアイテムの追加
+
+**Media Player**ノードは、ノードグラフ内の映像出力を持つノードから映像を受け取ることができます。これらの映像は、特殊なAUXアイテムとしてマトリックス型プレイリストに統合することができます。このためには、**Node Graph**ウィジェット内で、ソースノードからの映像出力を**Media Player**ノードの**AUX Image**入力ピン（例： **AUX Image 1**、**AUX Image 2**など）にリンクしてください。
+
+**Media Player**が複数の映像入力を受け取る必要がある場合は、**Media Player**ノードの設定で**Number of AUX Inputs**を指定してください。
+
+これらの映像を受け取るために**Media Player**ノードを設定した後、マトリック型プレイリストに戻ります。AUXアイテムを追加したいグリッドセルで右クリックし、ドロップダウンメニューから**Add AUX**を選択します。これにより、**Select AUX**ダイアログボックスが開き、セルに挿入するAUXメディアソースを選択することができます。
+
+<img alt="Adding AUX Items Matrix" src="/images/media-playback/animation/Adding-AUX-Items-Matrix.gif" width={800} height={496} loading="lazy" />
+
+マトリックスグリッド内のAUXアイテムは、アイテムが選択された時に表示される設定パネルを使用してカスタマイズすることができます。すぐに調整すべき設定の1つは、プレイリスト内で挿入された映像の再生時間を決定する**Duration**の値です。
+
+<img alt="Adding AUX Items Matrix 2" src="/images/media-playback/animation/Adding-AUX-Items-Matrix-2.gif" width={800} height={472} loading="lazy" />
+
+## データアイテムの追加
+
+データアイテムは、マトリックス型プレイリストに組み込むことができる特殊なメディアアイテムの一種です。これらのアイテムは、ノードグラフ内で現在アクティブなノードの浮動小数点値パラメータを変更する機能を提供し、自動化を行う際に特に便利です。
+
+マトリックスグリッドにデータアイテムを追加するには、以下の手順に従ってください：
+
+1. データアイテムを配置するグリッドセルで右クリックします。
+2. ドロップダウンメニューから**Add Data Item**を選択します。
+3. 表示されるダイアログボックスで、変更するパラメータの**Node Path**と**Parameter Name**を入力します。
+4. データアイテムの設定で、このデータアイテムを再生中にパラメータが利用する値を定義します。
+
+<img alt="Adding Data Items Matrix" src="/images/media-playback/animation/Adding-Data-Items-Matrix.gif" width={800} height={452} loading="lazy" />
+
+## メディアアイテム名を変更する
+
+プレイリスト内のメディアアイテムの名前を変更するには、次の方法があります：
+
+1. メディアアイテムを右クリックし、ドロップダウンメニューから**Rename**を選択します（または **`F2`** ショートカットを使用します）。その後、開かれた **Set Item Title** ダイアログボックスの **Title** 欄に新しい名前を入力します。
+2. または、メディアアイテムを選択して設定を開き、**Title** 欄に新しいタイトルを入力します。
+
+<img alt="Renaming Media Items Matrix" src="/images/media-playback/animation/Renaming-Media-Items-Matrix.gif" width={800} height={424} loading="lazy" />
+
+## メディアアイテムの削除
+
+グリッドからメディアアイテムまたは複数の選択されたメディアアイテムを削除するには、アイテムを右クリックしてドロップダウンメニューから **Delete** を選択するか、**`Del`** キーを押してください。
+
+<img alt="Deleting Media Items Matrix" src="/images/media-playback/animation/Deleting-Media-Items-Matrix.gif" width={800} height={424} loading="lazy" />
+
+## メディアアイテムの選択方法
+
+マトリックスグリッド内のアイテムは、以下の方法で選択できます：
+
+- アイテムをクリックして選択します。
+- 複数のアイテムを選択するには、**`Ctrl`** キーを押しながらアイテムをクリックします。
+- 一つのアイテムを選択し、**`Shift`** キーを押しながら別のアイテムをクリックすると、これらのアイテムを対角線とする四角形領域内のすべてのアイテムが選択されます。
+- 列のヘッダをクリックすると、その列のすべてのアイテムが選択されます。
+- 行のヘッダをクリックすると、その行のすべてのアイテムが選択されます。
+
+<img alt="Selecting Media Items Matrix" src="/images/media-playback/animation/Selecting-Media-Items-Matrix.gif" width={800} height={536} loading="lazy" />
+
+## マトリックスグリッド内のメディアアイテムの配置
+
+メディアアイテムを選択し、グリッドの好きな位置にドラッグして配置することができます。
+
+複数のアイテムを同時に移動する場合、それらの相対位置関係が維持されます。これらのアイテムをドラッグすると、グリッド内のターゲットセルがハイライト表示され、マウスボタンを離した時に配置される場所が示されます。これらのセルに既存のメディアアイテムがある場合は、新しく配置されるアイテムによって上書きされることに注意してください。
+
+<img alt="Arranging Media Items Matrix" src="/images/media-playback/animation/Arranging-Media-Items-Matrix.gif" width={800} height={536} loading="lazy" />
+
+## メディアアイテムの設定
+
+**Media Player**ウィジェットの各メディアアイテムは、**Media Library**内のソースファイルへのインスタンスまたは参照です。プレイリスト内でメディアアイテムの設定を変更しても、元のソースファイルは変更されません。
+
+メディアアイテムの設定にアクセスして調整するには、次のいずれかの方法を使用します：
+
+- マトリックスグリッド内のアイテムを右クリックし、ドロップダウンメニューから**Item Settings**を選択するか、メディアアイテムを選択した状態で **`S`** キーを押して **Settings** ダイアログボックスを開きます。
+- または、メディアアイテムを選択して表示される **Settings** パネルを利用します。
+
+<img alt="Media Item Settings Matrix" src="/images/media-playback/animation/Media-Item-Settings-Matrix.gif" width={800} height={528} loading="lazy" />
+
+マトリックス型プレイリストのメディアアイテムには、シンプルなプレイリストと同じ設定が利用できます。利用可能な設定項目の詳細については、[メディアアイテムの設定](../playlists/media-item-properties)の章を参照してください。
+
+## サムネイルの表示方法のカスタマイズ
+
+視覚的な好みやプレイリストの表示状況に合わせて、サムネイルのサイズと表示設定を調整することができます。
+
+**サムネイルのサイズ変更：**
+
+サムネイルのサイズを変更するには、プレイリストの右上にあるスライダーを使用します。スライダーをドラッグして、サムネイルのサイズを増減させることができます。
+
+**サムネイル表示のカスタマイズ：**
+
+オプションメニューが表示される <img alt="Eye" src="/images/media-playback/static/eye.png" width={21} height={20} loading="lazy" /> アイコンを選択することで、追加のサムネイル表示設定にアクセスできます。このメニューでは、以下の設定を変更できます。
+
+**Orientation**では、サムネイルに適したアスペクト比を選択します：
+
+- **Square** <img alt="T Square" src="/images/media-playback/static/t-square.png" width={17} height={17} loading="lazy" />： 1:1のアスペクト比で表示されます。デフォルトの設定です。
+- **Wide** <img alt="T Wide" src="/images/media-playback/static/t-wide.png" width={17} height={17} loading="lazy" />： 2:1のアスペクト比で表示されます。横向きのメディアに対応します。
+- **Tall** <img alt="T Tall" src="/images/media-playback/static/t-tall.png" width={17} height={17} loading="lazy" />： 1:2のアスペクト比で表示されます。縦向きのメディアに適しています。
+
+**Fit Method**では、サムネイルが枠内でどのように表示されるかを選択します：
+
+- **Fit Thumbnails**を選択すると、サムネイルは短い寸法に合わせて枠内に切り抜かれ、一貫した中央揃えの外観が提供されます。
+- **Fit Thumbnails**のチェックを外すと、サムネイルは長い寸法に合わせて画像が枠内に収まるようにスケーリングされ、切り抜きなしで全体が表示されます。
+
+**Title Visibility**
+
+- **Show Names**のチェックを外すと、視覚的なコンテンツに焦点を合わせたクリーンな表示になります。
+- **Show Names**をチェックしたままにすると、タイトルが表示され、メディアアイテムを見つけて操作しやすくなります。
+
+これらの設定により、プロジェクトの要件に合わせてメディアアイテムのサムネイルを柔軟に設定することができます。
+
+<img alt="Customizing Thumbnail Appearance Matrix" src="/images/media-playback/animation/Customizing-Thumbnail-Appearance-Matrix.gif" width={800} height={528} loading="lazy" />

@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/jp/reference/media-playback/timelines/timeline-view.md
+document_id: guide.media-playback.timelines.timeline-view
+language: ja
+document_body_sha256: 93a0241f83c845b2a9ab33fddfe320f68d443969d5b4370b612b0aa29b937cfd
+figures:
+  - id: ja-8918f141ed-001
+    title: Timelineview
+    caption: Timelineview
+    show: "Timelineview. Use the adjacent instructions as the content brief: Timelineパネルは、メディアの整理と再生管理のためのさまざまなツールとオプションを提供しています。これには以下のものが含まれます："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 1
+      section: タイムライン表示と操作
+    source_url: https://help.screenberry.com/images/media-playback/static/timelineview.png
+    source_alt: Timelineview
+    text_coverage: not-independently-verified
+  - id: ja-8918f141ed-002
+    title: Positioning The Playhead On A Timeline
+    caption: Positioning The Playhead On A Timeline
+    show: "Positioning The Playhead On A Timeline. Use the adjacent instructions as the content brief: 以下のいずれかの方法で、タイムライン上で再生位置を変更します。 再生位置ヘッドを移動したいタイムライン上の時間目盛りをクリックします。タイムライン上の再生ヘッドをドラッグします。再生ヘッドをメディアアイテムの境界やマーカーにスナップさせたい場合は、サイドツールバーのPlayhead Snappingスイッチを有効にします。矢印キーを使用します。右矢印 キーまたは 左矢印 キーを押して、再生ヘッドを次のフレームまたは前のフレームに移動します。上矢印 キーまたは 下矢印 キーを押して、次のメディアアイテムの境界やマーカーに移動します。K キーまたは J キーを押して、再生ヘッドを次のキーフレームまたは前のキーフレームに移動します。Home キーまたは End キーを押して、再生ヘッドをタイムラインの先頭または終端に移動します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: タイムライン上の再生位置の変更
+    source_url: https://help.screenberry.com/images/media-playback/animation/Positioning-the-playhead-on-a-timeline.gif
+    source_alt: Positioning The Playhead On A Timeline
+    text_coverage: not-independently-verified
+  - id: ja-8918f141ed-003
+    title: Zooming In Or Out Of A Timeline 1
+    caption: Zooming In Or Out Of A Timeline 1
+    show: "Zooming In Or Out Of A Timeline 1. Use the adjacent instructions as the content brief: タイムラインのズームインまたはズームアウトするには、以下のいずれかの方法を使用します。 マウスカーソルをタイムライン上に置き、マウスのスクロールホイールを使用して、マウスカーソルの位置に基づいてズームインまたはズームアウトします。再生ヘッドの位置に基づいて、プラスキー + を押してズームインし、マイナスキー - を押してズームアウトします。トップツールバーのまたはボタンをクリックして、再生ヘッドの位置に基づいてズームインまたはズームアウトします。トップツールバーのボタンをクリックするか、\\（バックスラッシュ）キーを押して、タイムライン全体を表示するためにズームアウトします。トップツールバーのボタンをクリックするか、Shift + \\（バックスラッシュ）キーを押して、フレーム単位までズームインします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: タイムラインのズームイン/アウト
+    source_url: https://help.screenberry.com/images/media-playback/animation/Zooming-in-or-out-of-a-timeline-1.gif
+    source_alt: Zooming In Or Out Of A Timeline 1
+    text_coverage: not-independently-verified
+  - id: ja-8918f141ed-004
+    title: Scrolling A Timeline Horizontally 2
+    caption: Scrolling A Timeline Horizontally 2
+    show: "Scrolling A Timeline Horizontally 2. Use the adjacent instructions as the content brief: タイムラインの一部が表示されていない場合、タイムラインウィジェットの下部にあるスクロールバーをドラッグすることで水平に移動することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: タイムラインの水平移動
+    source_url: https://help.screenberry.com/images/media-playback/animation/Scrolling-a-timeline-horizontally-2.gif
+    source_alt: Scrolling A Timeline Horizontally 2
+    text_coverage: not-independently-verified

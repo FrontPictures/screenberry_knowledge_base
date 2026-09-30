@@ -1,0 +1,81 @@
+---
+title: Screenberry Hardware Requirements
+description: Review the baseline computer, graphics, network, output, audio, and capture-device requirements for Screenberry.
+openGraph:
+  title: Screenberry Hardware Requirements
+  description: Prepare hardware for a Screenberry Server and Operator Workstation.
+---
+
+# Hardware Requirements
+
+The hardware required for a Screenberry system depends on the project workload. When checking whether a computer is suitable, consider:
+
+- Total output resolution and frame rate
+- Media resolution, codec, and the number of simultaneous media layers
+- Number and type of video or camera inputs
+- Audio-channel requirements
+- Calibration, tracking, TouchEngine, Notch, and other processing requirements
+
+The following table shows the currently documented baseline requirements. For operating-system-specific feature availability, see [Platform Support](/en/getting-started/platform-compatibility).
+
+| Component | Minimum | Recommended |
+| --- | --- | --- |
+| Operating system | Windows 10, 64-bit, with the latest service pack | Windows 10, 64-bit, with the latest service pack |
+| Processor | Intel Core or AMD dual-core processor | Intel Core or AMD quad-core processor |
+| Graphics | NVIDIA GeForce or AMD Radeon with 2 GB VRAM and OpenGL 3.3 support | NVIDIA GeForce or AMD Radeon with 6 GB VRAM |
+| Memory | 8 GB RAM | 16 GB RAM |
+| Input | Keyboard and mouse | Keyboard and multi-button mouse with scroll wheel |
+
+> **Note:** Higher output resolutions, additional inputs, and more demanding project processing require more capable hardware. Validate the complete project on its intended production hardware before deployment.
+
+## Network
+
+Connect the Operator Workstation and Media Server computer through Ethernet. Wi-Fi can be used, but a wired connection is recommended for a production system.
+
+## Graphics
+
+The graphics card used for **Screenberry Server** video output must support OpenGL 3.3.
+
+Some graphics cards can combine several physical outputs into one desktop surface. The feature name depends on the manufacturer and product family.
+
+| Manufacturer | Product family | Feature name |
+| --- | --- | --- |
+| NVIDIA | GeForce | Surround |
+| NVIDIA | Quadro | Mosaic |
+| AMD | Radeon | Eyefinity |
+
+Where the graphics driver provides these controls:
+
+- Set **Power Management** to **Maximum Performance**.
+- Set **Output Dynamic Range** to **Full**.
+
+## Video output
+
+Screenberry can output to projectors, LCD, LED, PDP, and other display devices supported by the graphics card. Output devices can connect directly to graphics-card ports or through a video-wall controller or graphics-expansion device.
+
+The number and resolution of outputs depend on the computer hardware, graphics configuration, operating-system support, and Screenberry license capacity.
+
+## Audio output
+
+**Screenberry Server** supports Mono, Stereo, 5.1, and 7.1 output configurations. Multi-channel systems can use MADI and Dante interfaces and ASIO, WASAPI, or WINMM protocols where supported by the selected platform and hardware.
+
+## Video and camera input
+
+Screenberry works with supported capture devices, including products from Datapath Vision, Blackmagic DeckLink, Deltacast, and Magewell. Support varies by operating system and device model; check [Platform Support](/en/getting-started/platform-compatibility) before selecting capture hardware.
+
+## Hardware drivers
+
+Install the manufacturer-provided drivers required by each graphics card, capture device, and audio interface. Test driver changes with the complete Screenberry project before using them in production.
+
+## Prepare a production computer
+
+Operating-system updates, driver changes, notifications, restarts, sleep, and power-saving behavior can interrupt media playback. Before a show or deployment:
+
+- Schedule operating-system and driver updates outside production hours.
+- Test updates and driver changes before applying them to the production system.
+- Prevent the Media Server computer from sleeping while **Screenberry Server** is running.
+- Disable nonessential notifications during playback.
+- Confirm that the selected graphics-performance settings remain active.
+- Test all outputs, inputs, audio channels, and network connections with the production project.
+
+Keep the operating system and security updates maintained through a controlled maintenance process rather than leaving the computer permanently unpatched.

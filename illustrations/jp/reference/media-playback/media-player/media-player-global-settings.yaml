@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/jp/reference/media-playback/media-player/media-player-global-settings.md
+document_id: guide.media-playback.media-player.media-player-global-settings
+language: ja
+document_body_sha256: 82bc6f21e78739eb2d7815680a4b187c05479ff90af4311e38952d072a0408b0
+figures:
+  - id: ja-6cacbdfb22-001
+    title: Global Color Correction
+    caption: Global Color Correction
+    show: "Global Color Correction. Use the adjacent instructions as the content brief: Media Playerの出力用の色調補正コントロールにアクセスするには、Media Playerウィジェットの右下にあるColor Correctionボタンをクリックします。 メモ： 色調補正は個々のメディアアイテムにも適用することができ、それらはMedia Playerの出力に適用されるものと組み合わされます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: 色調補正
+    source_url: https://help.screenberry.com/images/media-playback/animation/Global-Color-Correction.gif
+    source_alt: Global Color Correction
+    text_coverage: not-independently-verified
+  - id: ja-6cacbdfb22-002
+    title: Global Volume Control
+    caption: Global Volume Control
+    show: "Global Volume Control. Use the adjacent instructions as the content brief: Media Playerのオーディオ出力の音量を調整するには、Media Playerウィジェットの右下にあるVolumeボタンをクリックし、スライダーをドラッグして音量レベルを設定します。 個々のメディアアイテムのオーディオ音量も調整することができ、これらの変更はMedia Playerのオーディオ出力と音調設定と組み合わされます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: 音量調整
+    source_url: https://help.screenberry.com/images/media-playback/animation/Global-Volume-Control.gif
+    source_alt: Global Volume Control
+    text_coverage: not-independently-verified

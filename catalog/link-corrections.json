@@ -1,0 +1,16 @@
+[
+  {
+    "document": "knowledge/en/how-to/media-playback/matrix-based-playlists/managing-playlists.md",
+    "old_anchor": "ControlwithPresentationClicker",
+    "new_anchor": "playback-control-with-presentation-clicker",
+    "basis": "Existing target heading: Playback Control with Presentation Clicker",
+    "original_archive_changed": false
+  },
+  {
+    "document": "knowledge/en/how-to/media-playback/matrix-based-playlists/managing-playlists.md",
+    "old_anchor": "MappingMediaItem",
+    "new_anchor": "mapping-a-media-item-to-a-midikeyboard-event",
+    "basis": "Existing target heading: Mapping a Media Item to a MIDI/Keyboard Event",
+    "original_archive_changed": false
+  }
+]

@@ -1,0 +1,222 @@
+schema_version: 1
+document: knowledge/jp/how-to/display-editor.md
+document_id: guide.display-editor
+language: ja
+document_body_sha256: 4016dd875b924467c5905c99f97746a79d774ad6b42ef4543c58ce0ec93668ff
+figures:
+  - id: ja-3db46e4341-001
+    title: Display Editor View
+    caption: Display Editor View
+    show: "Display Editor View. Use the adjacent instructions as the content brief: ユーザーはDisplay Editorを利用して、新しい Display の追加や Display のサイズ、位置、重ね順序の設定、Display 配列の作成、Display の入れ替えのほか、Display に関する様々な設定を行うことができます。Display EditorはCanvas（またはRender Target）ウィジェット内でアクセスできます。 基本的な映像再生のノードグラフの例と、それをDisplay Editorで表示した例： Media Playerノード (1) は、解像度が 1240 x 768 ピクセルで、Canvasノード (3) の(0,0)座標に配置された Displayノード (2) に映像を送信します。Canvasノードは、解像度が 1960 x 1280 ピクセルのサーバー出力画面を定義しています。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: 概要
+    source_url: https://help.screenberry.com/images/display-editor/static/Display-Editor-View.png
+    source_alt: Display Editor View
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-002
+    title: Accessing Display Editor
+    caption: Accessing Display Editor
+    show: "Accessing Display Editor. Use the adjacent instructions as the content brief: Media Playerノード (1) は、解像度が 1240 x 768 ピクセルで、Canvasノード (3) の(0,0)座標に配置された Displayノード (2) に映像を送信します。Canvasノードは、解像度が 1960 x 1280 ピクセルのサーバー出力画面を定義しています。 Display Editorにアクセスするには、ワークスペースにCanvas（またはRender Target）ウィジェットを追加し、ウィジェットの左上にあるDisplaysタブをクリックしてDisplays表示に切り替えてください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: 概要
+    source_url: https://help.screenberry.com/images/display-editor/animation/Accessing-Display-Editor.gif
+    source_alt: Accessing Display Editor
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-003
+    title: Adding A Display
+    caption: Adding A Display
+    show: "Adding A Display. Use the adjacent instructions as the content brief: デフォルトでは、追加された Display はCanvasと同じ解像度になります。 関連するCanvas（またはRender Target）ノードに自動的にリンクされ、ノードグラフに対応するDisplayノードが作成されます。 逆に、ノードグラフに新しいDisplayノードを追加し、それをCanvas（またはRenderTarget）ノードにリンクすることでもDisplayを構築できます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: Display の追加
+    source_url: https://help.screenberry.com/images/display-editor/animation/Adding-a-Display.gif
+    source_alt: Adding A Display
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-004
+    title: Creating A Display Array
+    caption: Creating A Display Array
+    show: "Creating A Display Array. Use the adjacent instructions as the content brief: Canvas（またはRenderTarget）ウィジェットを開きます。ウィジェットの左上にあるDisplaysタブをクリックして、Displays表示に切り替えます。ツールバーの左上にあるCreate Display Arrayボタンをクリックするか、Displays表示内の空白の領域を右クリックして、ドロップダウンメニューからCreate Display Arrayを選択します。表示されたダイアログボックスで、Display 配列の行（Rows）と列（Columns）の数を入力し、Displayに接続する Patch のタイプを選択してOKをクリックします。 その結果、Canvasが等しい領域に分割された Display の配列が作成されます。Display は、左から右、上から下に向かってDisplay 1、Display 2、Display 3などと名前が付けられます。同時に、関連するDisplayノードと関連するPatc"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: Display 配列の作成
+    source_url: https://help.screenberry.com/images/display-editor/animation/Creating-a-Display-Array.gif
+    source_alt: Creating A Display Array
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-005
+    title: Renaming A Display
+    caption: Renaming A Display
+    show: "Renaming A Display. Use the adjacent instructions as the content brief: Display の名前を変更するには、次のいずれかの方法を使用します： Display を右クリックし、ドロップダウンメニューからRenameを選択し、表示されたダイアログボックスに新しい Display の名前を入力し、OKをクリックします。Display を選択し、Display のSettingsパネルのヘッダーで Display 名を変更します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: Display 名の変更
+    source_url: https://help.screenberry.com/images/display-editor/animation/Renaming-a-Display.gif
+    source_alt: Renaming A Display
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-006
+    title: Selecting Displays 1
+    caption: Selecting Displays 1
+    show: "Selecting Displays 1. Use the adjacent instructions as the content brief: Display を選択するには、Display Editor内の Display を左クリックするか、ナビゲーションツリー内の Display 名をクリックします。 Display Editor内の Display またはナビゲーションツリー内の Display 名を**Shift**キーを押しながらクリックすることで、複数の Display を選択することができます"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: Display の選択
+    source_url: https://help.screenberry.com/images/display-editor/animation/Selecting-Displays-1.gif
+    source_alt: Selecting Displays 1
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-007
+    title: Selecting Displays 2
+    caption: Selecting Displays 2
+    show: "Selecting Displays 2. Use the adjacent instructions as the content brief: Display Editor内の Display またはナビゲーションツリー内の Display 名を**Shift**キーを押しながらクリックすることで、複数の Display を選択することができます 複数の Display は、Display Editorの空白領域をマウスで左ドラッグすることで一度に選択することもできます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: Display の選択
+    source_url: https://help.screenberry.com/images/display-editor/animation/Selecting-Displays-2.gif
+    source_alt: Selecting Displays 2
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-008
+    title: Selecting Displays 3
+    caption: Selecting Displays 3
+    show: "Selecting Displays 3. Use the adjacent instructions as the content brief: 複数の Display は、Display Editorの空白領域をマウスで左ドラッグすることで一度に選択することもできます。 右から左にドラッグすると、矩形の選択範囲に接触するすべての Display が選択されます。 左から右へのドラッグ操作の場合、長方形の範囲内にある表示物のみが選択されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: Display の選択
+    source_url: https://help.screenberry.com/images/display-editor/animation/Selecting-Displays-3.gif
+    source_alt: Selecting Displays 3
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-009
+    title: Selecting Displays 4
+    caption: Selecting Displays 4
+    show: "Selecting Displays 4. Use the adjacent instructions as the content brief: 左から右へのドラッグ操作の場合、長方形の範囲内にある表示物のみが選択されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 28
+      section: Display の選択
+    source_url: https://help.screenberry.com/images/display-editor/animation/Selecting-Displays-4.gif
+    source_alt: Selecting Displays 4
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-010
+    title: Display Position And Dimensions
+    caption: Display Position And Dimensions
+    show: "Display Position And Dimensions. Use the adjacent instructions as the content brief: Display の位置を変更する別の方法は、Display Editorで Display を選択するか、ナビゲーションツリーで Display 名を選択し、SettingsパネルのPositionパラメータのXとYの値を変更することです。 また、Settingsパネルで表示のサイズも調整できます。SizeパラメータのWとHの値を変更してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: Display の表示位置とサイズ
+    source_url: https://help.screenberry.com/images/display-editor/animation/Display-Position-and-Dimensions.gif
+    source_alt: Display Position And Dimensions
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-011
+    title: Copying And Pasting Displays
+    caption: Copying And Pasting Displays
+    show: "Copying And Pasting Displays. Use the adjacent instructions as the content brief: Display Editorで Display をコピーして貼り付けするには、次のいずれかの方法を使用します： Display（または選択した複数の Display）を右クリックし、ドロップダウンメニューからCopyまたはCutを選択し、その後Pasteを選択します。キーボードショートカットを使用します： Ctrl + C でコピー、Ctrl + X で切り取り、Ctrl + V で貼り付けします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 36
+      section: Display のコピーと貼り付け
+    source_url: https://help.screenberry.com/images/display-editor/animation/Copying-and-Pasting-Displays.gif
+    source_alt: Copying And Pasting Displays
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-012
+    title: Deleting A Display
+    caption: Deleting A Display
+    show: "Deleting A Display. Use the adjacent instructions as the content brief: Display を削除するには、次のいずれかの方法を使用します。 Display を右クリックし、ドロップダウンメニューからDeleteを選択します（または Del キーを押します）。ノードグラフ内の対応するDisplayノードを削除します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 39
+      section: Display の削除
+    source_url: https://help.screenberry.com/images/display-editor/animation/Deleting-a-Display.gif
+    source_alt: Deleting A Display
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-013
+    title: Disabling A Display
+    caption: Disabling A Display
+    show: "Disabling A Display. Use the adjacent instructions as the content brief: ノードグラフ（詳細はノードの状態を参照）でDisplayノードを無効化すると、Display Editor内の対応する Display も無効化されます。ノードが無効化されていることを示すため、Display には取り消し線が描かれます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 41
+      section: Display の無効化
+    source_url: https://help.screenberry.com/images/display-editor/animation/Disabling-a-Display.gif
+    source_alt: Disabling A Display
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-014
+    title: Swapping Displays
+    caption: Swapping Displays
+    show: "Swapping Displays. Use the adjacent instructions as the content brief: Display を入れ替えるには、左上のツールバーにあるSwap Displaysタブをクリックするか、Displays表示の空白の領域を右クリックし、ドロップダウンメニューからSwap Displaysを選択します。次に、以下の手順を実行します。 Swap欄のドロップダウンメニューから Display を選択します。リスト内の次の Display に移動するには、Skipボタンまたは Enter キーを押します。選択した Display が表示されたら、With欄に入れ替える Display の名前を入力し、Applyボタンを押します。 メモ： この手順はセットアップ中に特に役立ちます。サーバーに映像表示デバイスを接続する際に、順序を気にする必要はありません。後でSwap Displays機能を使用して簡単に並びを変更できます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 44
+      section: Display の入れ替え
+    source_url: https://help.screenberry.com/images/display-editor/animation/Swapping-Displays.gif
+    source_alt: Swapping Displays
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-015
+    title: Changing Stack Order Of Displays
+    caption: Changing Stack Order Of Displays
+    show: "Changing Stack Order Of Displays. Use the adjacent instructions as the content brief: また、Display の重ね順序は、ノードグラフ内のDisplayノードとCanvasノードを接続するリンクの並べ替えによっても変更できます（詳細はノードリンクの並べ替えを参照してください）。 Display は、DisplayノードがCanvasノードにリンクされる順序に基づいて上から下に積み重ねられます。つまり、後続のノードリンクを持つ Display がそれらの Display の上に重なって表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 50
+      section: Display の重ね順序を変更する
+    source_url: https://help.screenberry.com/images/display-editor/animation/Changing-Stack-Order-of-Displays.gif
+    source_alt: Changing Stack Order Of Displays
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-016
+    title: Turning On Display Test Pattern
+    caption: Turning On Display Test Pattern
+    show: "Turning On Display Test Pattern. Use the adjacent instructions as the content brief: Display にテストパターンを表示するには、Settingsパネルで、Test Patternドロップダウンから次のいずれかを選択します： Display 名、数字、グリッド、カラーバー、またはグラデーション。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 52
+      section: Display のテストパターンを表示する
+    source_url: https://help.screenberry.com/images/display-editor/animation/Turning-on-Display-Test-Pattern.gif
+    source_alt: Turning On Display Test Pattern
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-017
+    title: Rotating Display Output Image
+    caption: Rotating Display Output Image
+    show: "Rotating Display Output Image. Use the adjacent instructions as the content brief: 1 つ以上のプロジェクターやディスプレイパネルが縦向きや上下逆さまに配置されている場合、該当する Display 出力映像の向きが変更できると便利です。これにより、デバイスを物理的に動かすことなく、画面上の操作で修正を行うことができます。 Display の出力映像を回転させるには、Settingsパネルにアクセスして、Rotate Degreeドロップダウンの中から次のいずれかを選択してください： 0°、90° 時計回り、90° 反時計回り、または180°。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 55
+      section: Display 出力映像の回転
+    source_url: https://help.screenberry.com/images/display-editor/animation/Rotating-Display-Output-Image.gif
+    source_alt: Rotating Display Output Image
+    text_coverage: not-independently-verified
+  - id: ja-3db46e4341-018
+    title: Zooming And Panning
+    caption: Zooming And Panning
+    show: "Zooming And Panning. Use the adjacent instructions as the content brief: Display Editorで特定のエリアをズームインおよびズームアウトするには、マウスカーソルをそのエリアに重ね、マウスのスクロールホイールを使用します。または、右上隅にあるズームボタンをクリックしてマウスを移動させることで拡大率を変更することもできます。 ビューをパンするには、マウスの左ボタンを押しながらドラッグするか、右上隅にあるパンボタンをクリックし、マウスを移動させてください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 58
+      section: Display Editor でのズームとパン
+    source_url: https://help.screenberry.com/images/display-editor/animation/Zooming-and-Panning.gif
+    source_alt: Zooming And Panning
+    text_coverage: not-independently-verified

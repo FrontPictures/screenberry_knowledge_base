@@ -1,0 +1,86 @@
+---
+title: Screenberryのマトリックス型プレイリストによる映像再生
+description: Screenberryにおけるマトリックスベースのプレイリスト再生について、行、列、および個別のメディアアイテムの再生方法を説明します。
+openGraph:
+  title: Screenberryのマトリックス型プレイリストによる映像再生
+  description: Screenberryにおけるマトリックスベースのプレイリスト再生について、行、列、および個別のメディアアイテムの再生方法を説明します。
+---
+
+## 概要
+
+マトリックス型プレイリスト内の各行は独立して動作し、個別に再生制御が可能です。映像再生の流れは以下の通りです：
+
+メディアアイテムの再生が完了すると、その行の次のメディアアイテムの再生が自動的に開始されます。このシーケンスは、特定のメディアアイテムがループ設定されていない限り続きます。デフォルトでは、再生が行の最後のメディアアイテムに到達した場合、その行の最初のメディアアイテムに巻き戻ります。
+
+## 個々のメディアアイテムの再生
+
+マトリックス型プレイリスト内で個々のメディアアイテムの再生を開始するには、次のいずれかの方法を使用します。
+
+- マトリックスグリッドで 1 つまたは複数のアイテムを選択し、**Play Selected Item** <img alt="Play" src="/images/media-playback/static/play.png" width={24} height={24} loading="lazy" /> ボタンをクリックします。ひとつの行内で複数のメディアアイテムが選択されている場合、その行の再生は選択されたアイテムのシーケンスの最初のアイテムから開始されます。
+- 代わりに、**`Alt`** キーを押しながら（カーソルがメディアアイテム上にあるとオレンジ色の再生シンボル ![Altplay](/images/media-playback/static/altplay.png) に変わります）、マトリックスグリッド内のメディアアイテムをクリックします。
+- 以前に一時停止されたメディアアイテムの再生を再開するには、**Play**ボタン <img alt="Play1" src="/images/media-playback/static/play1.png" width={24} height={24} loading="lazy" /> をクリックします。再生は、一時停止された位置から再開されます。
+
+再生を一時停止するには、**Pause** <img alt="Pause" src="/images/media-playback/static/pause.png" width={24} height={24} loading="lazy" /> ボタンをクリックします。この操作により、再生中のメディアアイテムの最後に再生されたフレームで一時停止され、これらのフレームが出力され続けます。
+
+再生を完全に停止するには、**Stop** <img alt="Stop" src="/images/media-playback/static/stop.png" width={24} height={24} loading="lazy" /> ボタンをクリックします。
+
+<img alt="Playback Of Individual Media Items Matrix" src="/images/media-playback/animation/Playback-of-Individual-Media-Items-Matrix.gif" width={800} height={528} loading="lazy" />
+
+## 行ごとの再生
+
+特定の行内のメディアアイテムの再生を開始するためには、いくつかの方法があります。
+
+- その行のヘッダにある**Play** <img alt="Play1" src="/images/media-playback/static/play1.png" width={24} height={24} loading="lazy" /> ボタンをクリックします。初回再生の場合、または前に**Stop** <img alt="Stop" src="/images/media-playback/static/stop.png" width={24} height={24} loading="lazy" /> ボタンが使用された場合、再生はその行で最初に利用可能なメディアアイテムから開始されます。以前に一時停止された場合は、一時停止した位置から再開されます。
+- 行内の特定のメディアアイテムから再生を開始するには、そのアイテムを選択し、その行のヘッダにある**Play Selected Item** <img alt="Play" src="/images/media-playback/static/play.png" width={24} height={24} loading="lazy" /> ボタンをクリックします。
+- **`Alt`** キーを押しながら、行内のメディアアイテムをクリックします。
+
+特定の行の再生を一時停止するには、その行のヘッダにある**Pause** <img alt="Pause" src="/images/media-playback/static/pause.png" width={24} height={24} loading="lazy" /> ボタンをクリックします。この操作により、映像再生は現在再生中のメディアアイテムの最後に再生されたフレームで一時停止し、そのフレームが出力され続けます。
+
+特定の行の再生を停止するには、その行のヘッダにある**Stop** <img alt="Stop" src="/images/media-playback/static/stop.png" width={24} height={24} loading="lazy" /> ボタンをクリックします。再生が停止し、再生開始位置がその行の最初のメディアアイテムの先頭にリセットされます。
+
+行ヘッダの**Play Previous** <img alt="Prev" src="/images/media-playback/static/prev.png" width={24} height={24} loading="lazy" /> ボタンと**Play Next** <img alt="Next" src="/images/media-playback/static/next.png" width={24} height={24} loading="lazy" /> ボタンを使用すると、特定の行内のメディアアイテムを順次再生することができます：
+
+- **Play Previous：** 再生を前のメディアアイテムに戻します。
+- **Play Next：** 再生を次のメディアアイテムに進めます。
+
+![Alt text](<../../../../public/images/media-playback/animation/Row-Specific-Playback.gif>)
+
+## 列ごとの再生
+
+特定の列内のすべてのメディアアイテムを同時に再生するには、次の手順を実行します。
+
+- 列のヘッダーを右クリックし、ドロップダウンメニューから**Play Column**を選択します。
+- **`Alt`** キーを押しながら列のヘッダーをクリックします。
+
+再生を一時停止または停止するには、プレイリストの再生制御バーにある**Pause** <img alt="Pause" src="/images/media-playback/static/pause.png" width={24} height={24} loading="lazy" /> ボタンまたは**Stop** <img alt="Stop" src="/images/media-playback/static/stop.png" width={24} height={24} loading="lazy" /> ボタンを使用します。これは、個々のメディアアイテムの再生を制御する場合と同じように使用できます。
+
+さらに、プレイリストの再生制御バーの**Play Previous** <img alt="Prev" src="/images/media-playback/static/prev.png" width={24} height={24} loading="lazy" /> ボタンと**Play Next** <img alt="Next" src="/images/media-playback/static/next.png" width={24} height={24} loading="lazy" /> ボタンを使用して、列ごとの順次再生操作を行うことができます。
+
+- **Play Previous：** 前の列の再生に移動します。これは、現在再生中のメディアアイテムを最も上位のアクティブな行で特定し、そのアイテムの直前の列の再生を開始することで実現されます。
+- **Play Next：** 次の列の再生に進みます。これは、現在再生中のメディアアイテムを最も上位のアクティブな行で特定し、そのアイテムの直後の列の再生を開始することで実現されます。
+
+<img alt="Column Specific Playback" src="/images/media-playback/animation/Column-Specific-Playback.gif" width={800} height={528} loading="lazy" />
+
+## その他の再生制御機能
+
+再生制御バーには、以下の機能も用意されています。
+
+**Lock/Unlock Playback Controls**トグルボタン <img alt="Lock" src="/images/media-playback/static/lock.png" width={24} height={24} loading="lazy" />： マトリックス型プレイリストの再生状態が意図せず変更されるのを防ぎます。このトグルボタンをアクティブにすると、**Play Selected**、**Play**、**Pause**、**Stop**などの再生制御ボタンがすべて操作できなくなります。これらの操作を再度行う場合は、トグルボタンを再度クリックしてください。
+
+<img alt="Lock Playback Controls Matrix" src="/images/media-playback/animation/Lock-Playback-Controls-Matrix.gif" width={800} height={528} loading="lazy" />
+
+**Reveal Active Item**ボタン <img alt="Reveal Icon" src="/images/media-playback/static/reveal-icon.png" width={23} height={23} loading="lazy" />： 現在再生中のメディアアイテムを素早く見つけることができます。このボタンをクリックすると、アクティブなプレイリストに表示が切り替わり、現在再生中のメディアアイテムに自動的にスクロールし、ハイライト表示されます。
+
+<img alt="Reveal Active Item Matrix" src="/images/media-playback/animation/Reveal-Active-Item-Matrix.gif" width={800} height={528} loading="lazy" />
+
+## 状態表示
+
+マトリックス型プレイリストが再生、一時停止、または停止されている場合、**ナビゲーション**パネルのプレイリスト名の隣にある対応するアイコンに現在の状態が表示されます。現在アクティブなプレイリストが折りたたまれたフォルダ内にある場合、これらのアイコンはフォルダアイコンを置き換えます。
+
+<img alt="Indication Playback" src="/images/media-playback/animation/Indication-Playback.gif" width={464} height={76} loading="lazy" />
+
+## 再生の優先度
+
+マトリックス型プレイリストでは、再生に関連するすべての新しいユーザーの操作は、前の操作よりも優先されます。例えば、列の再生が開始され、その後ひとつの行が一時停止される場合、このより新しい操作が優先され、その行の再生が一時停止されます。
+
+<img alt="Playback Prioritization Matrix" src="/images/media-playback/animation/Playback-Prioritization-Matrix.gif" width={800} height={528} loading="lazy" />

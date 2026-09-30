@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/jp/reference/node-reference/primary-nodes/display.md
+document_id: guide.node-reference.primary-nodes.display
+language: ja
+document_body_sha256: 6e71b17dfb04642ece21be04ac82e646f3bc8ca1014881bf3af18865aba1fa3e
+figures:
+  - id: ja-8737f35385-001
+    title: Display Node Graph
+    caption: Display Node Graph
+    show: "Display Node Graph. Use the adjacent instructions as the content brief: Displayノードは、Screenberry サーバーの映像出力に配置できる個々の表示領域を定義します。複数のDisplayノードをCanvasノードまたは Render Targetノード（オフスクリーンレンダリング用）に接続することができます。 Displayノードは、接続された映像ソースや Patch ノードからメディアコンテンツを受信します。 DisplayノードがCanvas（またはRender Target）ノードに接続されると、このノードは対応するCanvas（またはRender Target）Editorウィジェットで編集可能になります。表示の編集に関する詳細は、Display Editorの章を参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Display
+    source_url: https://help.screenberry.com/images/node-references/animation/Display1.gif
+    source_alt: Display Node Graph
+    text_coverage: not-independently-verified
+  - id: ja-8737f35385-002
+    title: Display Editor
+    caption: Display Editor
+    show: "Display Editor. Use the adjacent instructions as the content brief: DisplayノードがCanvas（またはRender Target）ノードに接続されると、このノードは対応するCanvas（またはRender Target）Editorウィジェットで編集可能になります。表示の編集に関する詳細は、Display Editorの章を参照してください。 DisplayノードのSettingsパネルでは、以下の制御と情報パラメータが提供されています。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Display
+    source_url: https://help.screenberry.com/images/node-references/animation/Display2.gif
+    source_alt: Display Editor
+    text_coverage: not-independently-verified

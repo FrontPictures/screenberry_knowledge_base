@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/bezierwarp.md
+document_id: guide.warping-alignment.bezierwarp
+language: ja
+document_body_sha256: 21bf121a0b6f8d847888b2e28524cce085aa62af396bc1c5f9c4e20b70e85101
+figures:
+  - id: ja-8e2add2309-001
+    title: Bezier Warp Node Tree
+    caption: Bezier Warp Node Tree
+    show: "Bezier Warp Node Tree. Use the adjacent instructions as the content brief: Bezier Warpノードは、ベジエ曲線に基づいた映像の変形を可能にするPatchです。主に曲面や一部が曲がった表面、その他の規則的または自由形状のオブジェクトへの投影マッピングに使用されます。 典型的なセットアップでは、Bezier Warpノードは入力としてソース映像を受け取り、変形された映像をDisplayノードまたはCanvasノードに出力します。 Bezier Warpノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Bezier Warp
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Bezier-Warp-node-tree.png
+    source_alt: Bezier Warp Node Tree
+    text_coverage: not-independently-verified
+  - id: ja-8e2add2309-002
+    title: Bezier Warp
+    caption: Bezier Warp
+    show: "Bezier Warp. Use the adjacent instructions as the content brief: 映像のジオメトリとマッピングを変更するために、Bezier Warpノードを使用して、以下の手順をPatch Editorで実行してください： Inputパネルで、メッシュの制御点のハンドルをドラッグして、ソース映像のマッピングを調整します。Outputパネルで、メッシュの制御点のハンドルをドラッグして、映像をオブジェクトの形状に合わせます。 通常、Bezier Warpノードを使用して歪み補正をする場合、メッシュの角の制御ポイントを投影面の形状に合わせて設定することから始めます。その際、メッシュの密度は最小に設定しておきます。その後、制御点グリッドを段階的に細分化し、各細分化ステップでメッシュの曲線を洗練させながら、目的の歪み補正が達成されるまで作業を進めます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Bezier Warp
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Bezier-Warp.gif
+    source_alt: Bezier Warp
+    text_coverage: not-independently-verified
+  - id: ja-8e2add2309-003
+    title: Bezier Warp2
+    caption: Bezier Warp2
+    show: "Bezier Warp2. Use the adjacent instructions as the content brief: 通常、Bezier Warpノードを使用して歪み補正をする場合、メッシュの角の制御ポイントを投影面の形状に合わせて設定することから始めます。その際、メッシュの密度は最小に設定しておきます。その後、制御点グリッドを段階的に細分化し、各細分化ステップでメッシュの曲線を洗練させながら、目的の歪み補正が達成されるまで作業を進めます。 SettingsパネルでInterpolate Inner Pointsモードを選択することでもBezier Warpノードの編集を行うことができます。このモードでは、制御点グリッドの辺にあたる制御点が移動された際に、内部の制御点の座標が自動的に再計算されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Bezier Warp
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Bezier-Warp2.gif
+    source_alt: Bezier Warp2
+    text_coverage: not-independently-verified
+  - id: ja-8e2add2309-004
+    title: Bezier Warp3
+    caption: Bezier Warp3
+    show: "Bezier Warp3. Use the adjacent instructions as the content brief: SettingsパネルでInterpolate Inner Pointsモードを選択することでもBezier Warpノードの編集を行うことができます。このモードでは、制御点グリッドの辺にあたる制御点が移動された際に、内部の制御点の座標が自動的に再計算されます。 Bezier Warpノードを使用する場合は、Patchの共通操作についてPatchの編集の章も参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: Bezier Warp
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Bezier-Warp3.gif
+    source_alt: Bezier Warp3
+    text_coverage: not-independently-verified

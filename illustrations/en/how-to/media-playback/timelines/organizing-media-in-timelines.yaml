@@ -1,0 +1,162 @@
+schema_version: 1
+document: knowledge/en/how-to/media-playback/timelines/organizing-media-in-timelines.md
+document_id: guide.media-playback.timelines.organizing-media-in-timelines
+language: en
+document_body_sha256: 8f2bf6ca4b679d05cc87be39f871b117e79ee39d7932e3726655cdd642470a8c
+figures:
+  - id: en-9fb55d9493-001
+    title: Adding Tracks
+    caption: Adding Tracks
+    show: "Adding Tracks. Use the adjacent instructions as the content brief: To add a new track to the timeline, do one of the following: Select an existing track and click either the Add Track Above or the Add Track Below buttons located in the top toolbar.Right-click on the track header and select either the Add Track Above or the Add Track Below options from the dropdown menu.Drag and drop media items from the Media Library, a playlist, or another timeline onto the timeline tracks area. Wh"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Adding Tracks
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Tracks.gif
+    source_alt: Adding Tracks
+    text_coverage: not-independently-verified
+  - id: en-9fb55d9493-002
+    title: Renaming Tracks
+    caption: Renaming Tracks
+    show: "Renaming Tracks. Use the adjacent instructions as the content brief: To rename a timeline track, right-click on its header, select Rename from the dropdown menu, and enter a new name for the track in the opened dialog window."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Renaming Tracks
+    source_url: https://help.screenberry.com/images/media-playback/animation/Renaming-Tracks.gif
+    source_alt: Renaming Tracks
+    text_coverage: not-independently-verified
+  - id: en-9fb55d9493-003
+    title: Deleting Tracks
+    caption: Deleting Tracks
+    show: "Deleting Tracks. Use the adjacent instructions as the content brief: To remove a timeline track, right-click on its header and select Delete from the dropdown menu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Deleting Tracks
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Tracks.gif
+    source_alt: Deleting Tracks
+    text_coverage: not-independently-verified
+  - id: en-9fb55d9493-004
+    title: Tracks Color Coding
+    caption: Tracks Color Coding
+    show: "Tracks Color Coding. Use the adjacent instructions as the content brief: To apply a color label to a timeline track, right-click on its header, select Color Tag from the dropdown menu, then choose a color from the color picker window that appears. The selected color will then be applied to the color label line on the track’s header."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: Tracks Color Coding
+    source_url: https://help.screenberry.com/images/media-playback/animation/Tracks-Color-Coding.gif
+    source_alt: Tracks Color Coding
+    text_coverage: not-independently-verified
+  - id: en-9fb55d9493-005
+    title: Arranging Media Items On Timeline Tracks
+    caption: Arranging Media Items On Timeline Tracks
+    show: "Arranging Media Items On Timeline Tracks. Use the adjacent instructions as the content brief: Drag media items from the Media Library, another Media Player playlist, or a timeline to the timeline tracks.Select media items in the Media Library, another Media Player playlist, or a timeline, then copy them by either right-clicking and selecting Copy from the dropdown menu or using the Ctrl + C keyboard shortcut. Next, select the target track on a timeline, and use Paste (Ctrl + V) from the dropdown menu to place"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: Adding Media Items to Timeline Tracks
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Media-Items-on-Timeline-Tracks.gif
+    source_alt: Arranging Media Items On Timeline Tracks
+    text_coverage: not-independently-verified
+  - id: en-9fb55d9493-006
+    title: Adding External Image Sources As AUX Media Items
+    caption: Adding External Image Sources As AUX Media Items
+    show: "Adding External Image Sources As AUX Media Items. Use the adjacent instructions as the content brief: Once you have configured the Media Player to receive external image sources, navigate to the timeline panel and click on the header of the desired timeline track where you want the AUX item to be placed. Then, right-click on the track to open a dropdown menu and select the Add AUX option. A window will appear where you can choose the desired AUX media source from a dropdown list. All the settings and transformations "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: Adding External Image Sources as AUX Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-External-Image-Sources-as-AUX-Media-Items.gif
+    source_alt: Adding External Image Sources As AUX Media Items
+    text_coverage: not-independently-verified
+  - id: en-9fb55d9493-007
+    title: Adding Data Item
+    caption: Adding Data Item
+    show: "Adding Data Item. Use the adjacent instructions as the content brief: To add a Data Item to a timeline track, select the desired track by clicking on its header. Then, right-click on the track to open a dropdown menu and select Add Data Item. In the window that appears, enter the Node Path and Parameter Name of the value parameter that you want to animate. For more information on Data Items, refer to the section that describes working with keyframes, as they are essential for describin"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: Adding a Data Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Data-Item.gif
+    source_alt: Adding Data Item
+    text_coverage: not-independently-verified
+  - id: en-9fb55d9493-008
+    title: Deleting Media Items Timelines
+    caption: Deleting Media Items Timelines
+    show: "Deleting Media Items Timelines. Use the adjacent instructions as the content brief: To remove a single or multiple media items from a timeline, right-click on the media item or group of selected media items and choose Delete from the dropdown menu. Alternatively, you can select media items and press the Del key."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: Deleting Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Media-Items-Timelines.gif
+    source_alt: Deleting Media Items Timelines
+    text_coverage: not-independently-verified
+  - id: en-9fb55d9493-009
+    title: Arranging Media Items On Timeline Tracks
+    caption: Arranging Media Items On Timeline Tracks
+    show: "Arranging Media Items On Timeline Tracks. Use the adjacent instructions as the content brief: To restrict the dragging of media items exclusively to vertical movement, hold down the Shift key. If you want to place a media item precisely at a specific time position on the same timeline track, enter the desired time value into the Position field in the media item’s Settings panel. Note:There are two different ways to access media item settings:The side Settings panel, which can be made visible or hidden by clic"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: Arranging Media Items on Timeline Tracks
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Media-Items-on-Timeline-Tracks.gif
+    source_alt: Arranging Media Items On Timeline Tracks
+    text_coverage: not-independently-verified
+  - id: en-9fb55d9493-010
+    title: Splitting Media Items 1
+    caption: Splitting Media Items 1
+    show: "Splitting Media Items 1. Use the adjacent instructions as the content brief: If necessary, you can split a media item into two parts using the Razor tool. This action creates two separate instances of the media item, each being a full version of the original but with different In and Out points. To split a media item, select the Razor tool from the side toolbar (or use the C keyboard shortcut), then click on the point within the media item where you wish to split it. To resume editing by drag"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 36
+      section: Splitting Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Splitting-Media-Items-1.gif
+    source_alt: Splitting Media Items 1
+    text_coverage: not-independently-verified
+  - id: en-9fb55d9493-011
+    title: Changing Duration Of Media Items
+    caption: Changing Duration Of Media Items
+    show: "Changing Duration Of Media Items. Use the adjacent instructions as the content brief: To adjust the duration and starting time of a media item, you can trim or expand it by dragging the white square handles located on either side of the media item’s thumbnail. The left handle changes the starting time while the right handle adjusts the duration. Alternatively, you can right-click on the media item, select Item Settings from the dropdown menu, and then input values into the Start from and Duration fiel"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 38
+      section: Changing the Duration of Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Changing-Duration-of-Media-Items.gif
+    source_alt: Changing Duration Of Media Items
+    text_coverage: not-independently-verified
+  - id: en-9fb55d9493-012
+    title: Fading Media Items In And Out
+    caption: Fading Media Items In And Out
+    show: "Fading Media Items In And Out. Use the adjacent instructions as the content brief: To set fade in and fade out for a media item, either drag the white triangular handles located at the top corners of the media item thumbnail or right-click on the media item, select Item Settings from the dropdown menu, and enter the required values into the Fade In and Fade Out fields."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 40
+      section: Fading Media Items In and Out
+    source_url: https://help.screenberry.com/images/media-playback/animation/Fading-Media-Items-In-and-Out.gif
+    source_alt: Fading Media Items In And Out
+    text_coverage: not-independently-verified
+  - id: en-9fb55d9493-013
+    title: Freezing A Frame Of A Media Item
+    caption: Freezing A Frame Of A Media Item
+    show: "Freezing A Frame Of A Media Item. Use the adjacent instructions as the content brief: To enable the continuous playback of any still frame of a media item, right-click on the media item, select Item Settings from the dropdown menu, and select the Enable Freeze Frame checkbox in the window that appears. Next, define the specific frame of the media item that you wish to hold by inputting the desired value into the Freeze Frame field. To specify how long you want to play back the still frame, input the v"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 42
+      section: Freezing a Frame of a Media Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Freezing-a-Frame-of-a-Media-Item.gif
+    source_alt: Freezing A Frame Of A Media Item
+    text_coverage: not-independently-verified

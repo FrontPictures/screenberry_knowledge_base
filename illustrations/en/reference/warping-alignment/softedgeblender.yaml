@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/softedgeblender.md
+document_id: guide.warping-alignment.softedgeblender
+language: en
+document_body_sha256: 7b471cdb076bd59b06dbbb6b000d40c9b0875b2ac006ada45bdc492bce7455e5
+figures:
+  - id: en-189a9d8284-001
+    title: Soft Edge Blender Node Tree
+    caption: Soft Edge Blender Node Tree
+    show: "Soft Edge Blender Node Tree. Use the adjacent instructions as the content brief: The Soft Edge Blender node offers control over soft-edge blending for combining two or more overlapping projected images into a single seamless image. The Soft Edge Blender node generates blending maps to allow seamless overlapping for the images modified by patches and should be connected to the Soft Edge Blender input parameter of these patch nodes. Example of the node graph with the Soft Edge Blender node"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Soft Edge Blender
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Soft-Edge-Blender-node-tree.png
+    source_alt: Soft Edge Blender Node Tree
+    text_coverage: not-independently-verified
+  - id: en-189a9d8284-002
+    title: Soft Edge Blender
+    caption: Soft Edge Blender
+    show: "Soft Edge Blender. Use the adjacent instructions as the content brief: Example of the node graph with the Soft Edge Blender node The Settings panel of the Soft Edge Blender node provides the following controls for soft-edge blending: Generation Method Select the blend map generation method: Linear Distance or Gravity Function."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Soft Edge Blender
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Soft-Edge-Blender.png
+    source_alt: Soft Edge Blender
+    text_coverage: not-independently-verified
+  - id: en-189a9d8284-003
+    title: SoftEdgeBlender
+    caption: SoftEdgeBlender
+    show: "SoftEdgeBlender. Use the adjacent instructions as the content brief: Build Blend Maps Pressing the Build Blend Maps button generates new blend maps. Disable Blending Resets the blend maps. Note: Regenerate blend maps by pressing the Build Blend Maps button every time the settings of the Soft Edge Blender node are changed or when the geometry is modified in patch nodes connected to the Soft Edge Blender node."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: Soft Edge Blender
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/SoftEdgeBlender.gif
+    source_alt: SoftEdgeBlender
+    text_coverage: not-independently-verified

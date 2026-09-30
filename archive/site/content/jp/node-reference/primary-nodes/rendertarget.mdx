@@ -1,0 +1,48 @@
+---
+title: ScreenberryのRender Targetノード - オフスクリーン映像描画
+description: Screenberryのオフスクリーン映像描画機能について説明します。
+openGraph:
+  title: ScreenberryのRender Targetノード - オフスクリーン映像描画
+  description: Screenberryのオフスクリーン映像描画機能について説明します。
+---
+
+# Render Target
+
+**Render Target**ノードは、**Canvas**ノードと同じ機能を持っていますが、オフスクリーンの映像レンダリングに使用されます。
+
+<img alt="Render Target node" src="/images/node-references/animation/RenderTarget1.gif" width={800} height={368} loading="lazy" />
+
+**Render Target**ノードは、映像の歪み補正処理の中間結果を扱うためによく使用されます。
+
+<img alt="Render Target node usage" src="/images/node-references/animation/RenderTarget2.gif" width={800} height={332} loading="lazy" />
+
+**Render Target**ノードが**ノードグラフ**に追加されると、**Render Target**ノードに接続された**Display**と**Patch**を編集するための対応するウィジェットが利用可能になります。このウィジェットは、メインの**Screenberry Panel**メニューから**Window** > [**Render Target名**] を選択することでワークスペースに追加することができます。DisplayとPatchの編集に関する詳細については、このユーザーガイドの[Display Editor](../../../display-editor)および[Patch Editor](../../../patch-editor/patch-editor-basics)の章を参照してください。
+
+<img alt="Render Target Editor" src="/images/node-references/animation/RenderTarget3.gif" width={800} height={488} loading="lazy" />
+
+ノードを**Video Preview**ノードに接続することで、**Render Target**で生成された映像をプレビューすることができます。**Video Preview**ノードには、ワークスペースに追加することができるウィジェットがあります。
+
+<img alt="Render Target Video Preview" src="/images/node-references/animation/RenderTarget4.gif" width={800} height={652} loading="lazy" />
+
+**Render Target**ノードの**Settings**パネルでは、以下の制御および情報パラメータが提供されます。
+
+<div className="table-parameter-list table-without-thead">
+
+|                                  |                                                                                                                                                                                           |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Image Size                       | オフスクリーン映像のレンダリングを有効化/無効化します。                                                                                                                                   |
+| Number of Channels               | レンダリングされる映像のチャンネル数を設定します。                                                                                                                                        |
+| Bits per Channel                 | レンダリングされる映像のカラーデプスを設定します。                                                                                                                                        |
+| Stereoscopic                     | 立体視を有効化/無効化します。                                                                                                                                                             |
+| Multisample Anti-Aliasing (MSAA) | レンダリングされたPatchの周辺の画質を向上させます（より滑らかにします）。このアンチエイリアシングオプションは、**Canvas**または**Display**に直接レンダリングされるPatchにのみ影響します。 |
+| Color Buffer                     | カラーバッファの使用を有効化します。                                                                                                                                                      |
+| Depth Buffer                     | デプスバッファの使用を有効化します。                                                                                                                                                      |
+| Displays                         | **Render Target**ノードに接続された**Display**ノードの数を表示します。                                                                                                                    |
+| Patches                          | **Render Target**ノードに接続された**Patch**ノードの数を表示します。                                                                                                                      |
+| Background Image                 | **Canvas**ノードに接続されたバックグラウンド映像に関する情報を表示します。                                                                                                                |
+| Image Wrap Mode                  | テクスチャの端から外の描画方法を選択します。**Clamp to Edge**が選択された場合、外側は端のピクセルの色が広がります。**Clamp to Border**では、指定したボーダーカラー（黒）が広がります。    |
+| Image Format                     | 外部映像からピクセル形式を変換します。このパラメータのピンはデフォルトで非表示になっており、映像を接続するために有効にする必要があります。                                                |
+| Use External Image Format        | **Image Format**パラメータに接続された外部映像の解像度とピクセル形式を使用します。                                                                                                        |
+| Image                            | レンダリングされた映像を出力します。                                                                                                                                                      |
+
+</div>

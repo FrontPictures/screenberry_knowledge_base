@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/en/reference/node-reference/primary-nodes/rendertarget.md
+document_id: guide.node-reference.primary-nodes.rendertarget
+language: en
+document_body_sha256: 64b2ee15248f4733a15b881f51a2f61fc4671c5293e5f73d13850c0033b5b10d
+figures:
+  - id: en-1307d1b89a-001
+    title: Render Target node
+    caption: Render Target node
+    show: "Render Target node. Use the adjacent instructions as the content brief: The Render Target node has the same functionality as the Canvas node but is used for off-screen image rendering. The Render Target node is often used to obtain an intermediate result in a series of image geometry transformations."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: Render Target
+    source_url: https://help.screenberry.com/images/node-references/animation/RenderTarget1.gif
+    source_alt: Render Target node
+    text_coverage: not-independently-verified
+  - id: en-1307d1b89a-002
+    title: Render Target node usage
+    caption: Render Target node usage
+    show: "Render Target node usage. Use the adjacent instructions as the content brief: The Render Target node is often used to obtain an intermediate result in a series of image geometry transformations. When the Render Target node is added in the Node Graph, a corresponding widget becomes accessible that allows editing Displays and Patches connected to the Render Target node. The widget can be added to the workspace by selecting Window > [Render Target Name] from the main Screenberry Panel menu. For m"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Render Target
+    source_url: https://help.screenberry.com/images/node-references/animation/RenderTarget2.gif
+    source_alt: Render Target node usage
+    text_coverage: not-independently-verified
+  - id: en-1307d1b89a-003
+    title: Render Target Editor
+    caption: Render Target Editor
+    show: "Render Target Editor. Use the adjacent instructions as the content brief: When the Render Target node is added in the Node Graph, a corresponding widget becomes accessible that allows editing Displays and Patches connected to the Render Target node. The widget can be added to the workspace by selecting Window > [Render Target Name] from the main Screenberry Panel menu. For more information on editing displays and patches see the Display Editor and Patch Editor sections of this user guide. "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Render Target
+    source_url: https://help.screenberry.com/images/node-references/animation/RenderTarget3.gif
+    source_alt: Render Target Editor
+    text_coverage: not-independently-verified
+  - id: en-1307d1b89a-004
+    title: Render Target Video Preview
+    caption: Render Target Video Preview
+    show: "Render Target Video Preview. Use the adjacent instructions as the content brief: To preview the Render Target resulting image, the node can be connected to the Video Preview node, which has its own widget that can be added to the workspace. The Settings panel of the Render Target node offers the following control and information parameters:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Render Target
+    source_url: https://help.screenberry.com/images/node-references/animation/RenderTarget4.gif
+    source_alt: Render Target Video Preview
+    text_coverage: not-independently-verified

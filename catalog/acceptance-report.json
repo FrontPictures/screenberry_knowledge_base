@@ -1,0 +1,39 @@
+{
+  "representation": "text-only",
+  "documents": 174,
+  "original_prose_preserved_in_order": true,
+  "original_code_preserved_exactly": true,
+  "all_legacy_baseline_hashes_match": true,
+  "embedded_images": 0,
+  "bundled_binary_resources": 0,
+  "optional_illustration_briefs": 786,
+  "illustration_drafts_visually_verified": false,
+  "source_archive_files": 272,
+  "tests_passed": 9,
+  "exports": [
+    {
+      "view": "knowledge",
+      "documents": 174,
+      "chunks": 1404,
+      "images": 0,
+      "assets": 0,
+      "local_links_checked": 165
+    },
+    {
+      "view": "user-guide",
+      "documents": 174,
+      "chunks": 1404,
+      "images": 0,
+      "assets": 0,
+      "local_links_checked": 165
+    }
+  ],
+  "retrieval_chunks_identical_across_views": true,
+  "website_build": "not run; website source unchanged",
+  "browser": "not run; no site UI changed",
+  "product_runtime": "not verified",
+  "external_urls": "not fetched",
+  "github_ci": "configured, not run remotely",
+  "inherited_code_whitespace": "30 original JSON lines retain trailing spaces; original code preserved",
+  "parent_git_diff_check": "passed"
+}

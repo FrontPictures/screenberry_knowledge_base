@@ -1,0 +1,123 @@
+---
+id: guide.3d-scene.projection-mapper
+variant_id: guide.3d-scene.projection-mapper.imported-current-guide
+title: Projection Mapping in Screenberry 3D Scene
+language: en
+kind: how-to
+status: in_review
+owner: unassigned
+applies_to:
+  from: null
+  until_exclusive: null
+verified_in: []
+last_verified: null
+evidence:
+  - type: existing-guide
+    path: archive/site/content/en/3d-scene/projection-mapper.mdx
+    sha256: 2d9d8c9ea92550fe45f735eaf78e5d6cb511a46e5def6356093304b9f56a544c
+    scope: Imported text; not independent product verification
+aliases: []
+related: []
+publication:
+  profile: legacy-guide-3.4
+  product_version: "3.4"
+  basis: Snapshot of existing current guide; applicability not independently verified
+  role: guide
+source:
+  path: content/en/3d-scene/projection-mapper.mdx
+  canonical_url: https://help.screenberry.com/en/3d-scene/projection-mapper
+  git_commit: 8acf5a3a7526c3013fc44f1dba0b25f88343e745
+  sha256: 2d9d8c9ea92550fe45f735eaf78e5d6cb511a46e5def6356093304b9f56a544c
+  imported_at: 2026-09-30T14:15:19.585Z
+  frontmatter:
+    title: Projection Mapping in Screenberry 3D Scene
+    description: Discover how to use the Projection Mapper in Screenberry to accurately project textures onto 3D objects, simulating real-world projector setups.
+    openGraph:
+      title: Projection Mapping in Screenberry 3D Scene
+      description: Discover how to use the Projection Mapper in Screenberry to accurately project textures onto 3D objects, simulating real-world projector setups.
+presentation:
+  mode: text-only
+  illustrations: illustrations/en/how-to/3d-scene/projection-mapper.yaml
+  visual_information_review: not-independently-verified
+---
+
+# Projection Mapper
+
+The **Projection Mapper** functions as a virtual projector and is used to project textures onto 3D objects (projection mapping), aligning closely with the properties of real-world projectors. It is commonly employed in scenarios where the positions of virtual projectors in a 3D scene match those of real-world projectors to ensure accurate map reprojection and facilitate seamless blends on object surfaces.
+
+The **Projection Mapper** shares similar parameters with the **3D Camera** node, allowing it to also function as a camera to simulate a projector’s perspective, thus aiding in setup and testing.
+
+To add a **Projection Mapper**, do the following:
+
+1. Navigate to the **Node Graph** widget.
+2. Add a **Projection Mapper** node to your node graph.
+3. Connect the **Projection Mapper** output parameter of the **Projection Mapper** node to the **Projection Mappers** input parameter of the **3D Scene** node.
+4. Connect an image source node (transmitting the image to be projected in the 3D environment) to the **Source Image** input parameter of the **Projection Mapper** node.
+5. Switch to the **3D Scene** widget to further adjust the position and orientation of the projector, either by using 3D scene tools or directly in the **Projection Mapper** settings.
+
+The settings of the **Projection Mapper** include:
+
+##### General settings
+
+- **Image Size**: Set the width (**W**) and height (**H**) dimensions of the projected image.
+- **Bits per Channel**: Determine the color depth of the projected image. Options include **8-bit** and **32-bit (float)**.
+- **Type**: Choose the projection type:
+  - **Perspective**: Projects images with a depth effect, where elements diminish in size with distance.
+  - **Orthogonal**: Projects images with uniform scaling, maintaining the true dimensions of objects irrespective of their distance.
+  - **Fisheye**: Projects images in a wide-angle, hemispherical view, offering a panoramic perspective.
+  - **Spherical (Lat/Long)**: Projects 360-degree panoramic images.
+- **View Mode**: Select how the scene is displayed within the projector view if it is used as a camera.
+  - **Textured**: Displays the scene with all textures applied to objects.
+  - **Wireframe**: Displays the geometry of objects as a mesh of lines, representing the edges of all polygons.
+  - **Textured + Wireframe**: Combines the textured and wireframe views, overlaying the wireframe mesh on top of the textured objects.
+  - **Color**: Renders objects in solid colors, which can be set in the settings of the individual objects.
+  - **Color + Wireframe**: Displays the objects in flat colors with the wireframe mesh overlaid.
+  - **Points**: Displays only the vertices (points) of the objects' geometry.
+  - **None (Projections Only)**: Displays only projections.
+- **Test Pattern**: Allows you to choose a specific pattern to project. The options include **None**, **Name**, **Digits**, **Grid**, **Color Bars**, **Gradient**, **Black**, **White**, and **Color**. If **None** is selected, the source image will be projected.
+- **Test Pattern Color**: Selects the color to be displayed as a test pattern if the **Color** test pattern is chosen.
+- **Shadows**: Toggles the rendering of shadows cast by the projection in a 3D environment.
+- **Source Image**: Provides information about the source image being projected.
+- **Show Projections**: Toggles the visibility of the projection.
+- **Image Interpolation**: Determines the method by which the projected image is interpolated.
+  - **Linear**: Blends the colors of surrounding pixels to produce smooth transitions.
+  - **Nearest-neighbor**: Selects the color of the nearest pixel without any blending, preserving hard edges.
+- **Transform Matrix**: Displays the transformation matrix, which is a representation of the projector's position, rotation, and scale within the 3D space.
+- **Transform Order**: Specifies the order in which transformations (scale, rotate, translate) are applied to the projector.
+- **Scale**: Sets the scale of the projected area along the **X**, **Y**, and **Z** axes.
+- **Rotation Order**: Indicates the sequence in which rotations are applied around the axes, for example, **Y** (Heading), **X** (Pitch), and **Z** (Bank).
+- **Rotation**: Orients the projector within the 3D space by setting rotation angles around the **X**, **Y**, and **Z** axes.
+- **Position**: Defines the projector's location in the 3D space along the X, Y, and Z axes.
+- **Perspective Angle Mode**: Specifies the method used to define the projector's perspective.
+  - **Throw Ratio**: Defines the relationship between the projector's distance from the projection surface and the width of the projected image.
+  - **Horizontal FOV** (Field of View): Specifies the width of the projection area as seen from the projector, indicating how wide an image will be when displayed.
+  - **Vertical FOV** (Field of View): Specifies the height of the projection area as seen from the projector, indicating how tall an image will be when displayed.
+- **Throw Ratio**: Adjusts the size of the projected image relative to the distance between the projector and the projection surface.
+- **Horizontal FOV**: Adjusts the horizontal field of view of the projector, affecting the width of the projected image.
+- **Vertical FOV**: Adjusts the vertical field of view of the projector, affecting the height of the projected image.
+- **Horizontal Shift**: Shifts the projected image horizontally without moving the projector itself.
+- **Vertical Shift**: Shifts the projected image vertically without moving the projector itself.
+- **Ortho Width**: Adjusts the width of the projection when using an orthographic projection type.
+- **Render Behind Camera**: Enables the rendering of texture projections on the surfaces of objects located behind the normal projector.
+- **Fixed Lens Shifts for Pose Estimation**: When the lens shift value of a projector is known, it can be locked, allowing for the calculation of other pose estimation parameters without altering this specific parameter.
+- **Fixed Throw Ratio for Pose Estimation**: When the throw ratio value of a projector is provided, it can be fixed, enabling the calculation of other parameters for pose estimation without altering this specific parameter.
+- **Fixed Position for Pose Estimation**: With a known position value of a projector, it can be locked, allowing for the calculation of other parameters for pose estimation without changing this specific parameter.
+- **Depth Test**: Ensures the precise projection of textures by considering the relative positioning of objects in 3D space and accounting for object obstruction within the scene.
+- **Back-face Culling**: When enabled, this setting prevents the rendering of the backsides of 3D objects in the projection view, which can optimize performance by not projecting textures onto unseen surfaces.
+- **Frustum Distance**: Defines the distance between the projector and the furthest and nearest clipping planes. This distance sets the boundaries within which projections appear in a 3D scene, ensuring that only objects within this defined range are mapped.
+- **Show Frustum Center**: Toggles the visibility of a reference point at the center of the projection frustum.
+- **Near Distance**: Sets the distance of the near-clipping plane from the projector, beyond which the projected textures begin to render.
+- **Antialiasing**: Enables the smoothing of jagged edges in the projected textures.
+- **Preview Mode**: Switches to a rendering mode with reduced levels of detail for improved performance.
+- **Camera Gizmo Size**: Adjusts the size of the projector object in the 3D viewport.
+
+##### Simulation
+
+- **Gamma**: Adjusts the gamma levels, enhancing or softening the projected image's luminosity and contrast.
+- **Simulate Black Intensity**: Toggles the feature that simulates the intensity of black colors in the projection.
+- **Black Intensity**: Adjusts the depth of black colors in the projection.
+- **Black Intensity Offset**: Modifies the baseline level of black intensity.
+
+##### Navigation
+
+- **Keyboard Fly Speed** and **Keyboard Orbit and Zoom Speed**: Sets the projector's movement speeds for keyboard navigation.

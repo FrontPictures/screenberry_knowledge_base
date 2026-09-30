@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/en/how-to/organizing-media/managing-folders.md
+document_id: guide.organizing-media.managing-folders
+language: en
+document_body_sha256: 488102faebb7f77bea0812cef7f33c1dc1b0cef64813e4ec6e61845686406e1a
+figures:
+  - id: en-47436dd555-001
+    title: Adding Media Library Folders
+    caption: Adding Media Library Folders
+    show: "Adding Media Library Folders. Use the adjacent instructions as the content brief: To add a folder: Click the Create Folder button at the bottom of the folders tree area, or right-click in a folder contents area and select Add Folder in the drop-down menu.Enter the folder name and click the OK button."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Adding Folders
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Adding-Media-Library-Folders.gif
+    source_alt: Adding Media Library Folders
+    text_coverage: not-independently-verified
+  - id: en-47436dd555-002
+    title: Deleting Media Library Folders
+    caption: Deleting Media Library Folders
+    show: "Deleting Media Library Folders. Use the adjacent instructions as the content brief: To delete a folder, right-click on the folder name or in a folder contents area and select Remove Folder in the drop-down menu, or click on the Delete button ."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Deleting Folders
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Deleting-Media-Library-Folders.gif
+    source_alt: Deleting Media Library Folders
+    text_coverage: not-independently-verified
+  - id: en-47436dd555-003
+    title: Renaming Media Library Folders
+    caption: Renaming Media Library Folders
+    show: "Renaming Media Library Folders. Use the adjacent instructions as the content brief: To rename a folder: Right-click on the folder name and select Rename Folder in the drop-down menu.Enter a new folder name and click the OK button."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Renaming Folders
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Renaming-Media-Library-Folders.gif
+    source_alt: Renaming Media Library Folders
+    text_coverage: not-independently-verified
+  - id: en-47436dd555-004
+    title: Arranging Media Library Folders
+    caption: Arranging Media Library Folders
+    show: "Arranging Media Library Folders. Use the adjacent instructions as the content brief: To arrange folders, drag and drop folder names in the folders tree area."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: Arranging Folders
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Arranging-Media-Library-Folders.gif
+    source_alt: Arranging Media Library Folders
+    text_coverage: not-independently-verified

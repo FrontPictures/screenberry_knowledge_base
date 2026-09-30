@@ -1,0 +1,31 @@
+---
+title: Screenberry Rectangle Patch - 平面映像の調整
+description: Rectangleノードを利用して、平面映像の大きさや位置を調整する方法を説明します。
+openGraph:
+  title: Screenberry Rectangle Patch - 平面映像の調整
+  description: Rectangleノードを利用して、平面映像の大きさや位置を調整する方法を説明します。
+---
+
+# Rectangle
+
+**Rectangle**ノードは、平面の矩形ベースの変更を適用するためのPatchであり、主に _LED_ などの矩形のスクリーン上で映像をスケーリング、整列、配置するために使用されます。また、複数のメディアソースを1つの画面上で組み合わせてピクチャインピクチャ効果を作成するためにも使用されます。典型的なセットアップでは、**Rectangle**ノードは入力としてソース映像を受け取り、変形された映像を**Display**ノードまたは**Canvas**ノードに出力します。
+
+![Rectangle](/images/warping-alignment/static/Rectangle.png)
+
+<small>**Rectangle**ノードを使用したノードグラフの例</small>
+
+**Patch Editor**の**Rectangle**ノードを使用して、映像のジオメトリとマッピングを変更するには、次の手順を実行します：
+
+- **Input**パネルで、メッシュの制御点のハンドルをドラッグして、マッピングされるソース映像のスケール、アスペクト比、および範囲を変更します。
+- **Output**パネルで、メッシュの制御点のハンドルをドラッグして、映像のスケール、アスペクト比、およびオフセットを調整して、映像をオブジェクトの形状に合わせます。
+
+<img alt="Rectangle" src="/images/warping-alignment/animation/Rectangle.gif" width={800} height={773} loading="lazy" />
+
+**Rectangle**ノードで制御点を編集する際、追加の斜めスマートガイドが表示されます。
+
+- **Input**パネルでは、**Output**パネルで定義された映像のアスペクト比が表示されます。
+- **Output**パネルでは、現在の**Input**パネルで定義されている映像のアスペクト比が表示されます。
+
+<img alt="Rect Whiteguide" src="/images/warping-alignment/animation/Rect-whiteguide.gif" width={800} height={456} loading="lazy" />
+
+**Rectangle**ノードを使用する場合は、Patchの共通操作について[Patchの編集](../patch-editor/editing-patches)の章も参照してください。

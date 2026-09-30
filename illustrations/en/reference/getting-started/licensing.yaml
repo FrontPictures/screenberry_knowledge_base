@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/reference/getting-started/licensing.md
+document_id: guide.getting-started.licensing
+language: en
+document_body_sha256: 439649268ebc70f49eac7d9d9c983e89470616ef38a3ede1bef7bcbdc1077b24
+figures:
+  - id: en-bebc03086b-001
+    title: Sentinel HASP USB license dongle
+    caption: Sentinel HASP USB license dongle
+    show: "Sentinel HASP USB license dongle. Use the adjacent instructions as the content brief: Permanent and Lite licenses can be supplied on a Sentinel HASP Key, a USB hardware license dongle. Connect the dongle to the computer running Screenberry Server. No software activation action is required. Sentinel HASP USB license dongle"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: Use a USB dongle license
+    source_url: https://help.screenberry.com/images/getting-started/static/license-dongle.jpg
+    source_alt: Sentinel HASP USB license dongle
+    text_coverage: not-independently-verified

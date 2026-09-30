@@ -1,0 +1,160 @@
+---
+title: Screenberryによる自動キャリブレーションの流れ
+description: 自動キャリブレーションの工程について、プリセットの選択やプロジェクター・カメラの準備、投影エリアの調整方法やキャリブレーションの各段階について説明します。
+openGraph:
+  title: Screenberryによる自動キャリブレーションの流れ
+  description: 自動キャリブレーションの工程について、準備から実行まで順を追って説明します。
+---
+
+# キャリブレーション作業
+
+## 自動キャリブレーションのプリセット
+
+**Calibrator Wizard**ウィジェット（**Window** > **Calibrator Wizard**）には、3つのキャリブレーションのプリセットがあります：
+
+- **Geometry**キャリブレーションは、_歪み補正_　および　_エッジブレンド_　を行います。通常、プロジェクターごとに約30秒かかり、**Mask**、**Geometry**、**Blend**のキャリブレーション段階が含まれます。
+- **Geometry+Intensity**キャリブレーションは、_歪み補正_、_エッジブレンド_、および _黒と白のレベル補正_ を提供します。通常、プロジェクターごとに約1.5分かかり、**Mask**、**Geometry**、**Blend**、**Intensity**のキャリブレーション段階が含まれます。
+- **Geometry+Intensity+Gamma**キャリブレーションは、すべての**標準**キャリブレーション機能に加えて、ブレンド内の画像の色の均一性を確保するための _ガンマ補正_ を行います。通常、約15〜30分かかり、**Mask**、**Geometry**、**Blend**、**Color**、**Intensity**のキャリブレーション段階が含まれます。
+
+![Automatic Calibration Presets](/images/automatic-calibration/static/Automatic-Calibration-Presets.png)
+
+> **メモ：** 最初の**Geometry+Intensity**および**Geometry+Intensity+Gamma**のキャリブレーションは、カメラの黒レベル補正キャリブレーションのために遅いシャッタースピードでの撮影が必要なため、より長い時間がかかる場合があります。
+
+> **メモ：** **Gamma Correction** のキャリブレーション段階が完了すると、ガンマ補正マップはLUTテーブルに保存され、以降の **Geometry** と **Geometry+Intensity** のキャリブレーションにも適用されます。
+
+import { Callout } from 'nextra/components';
+
+<Callout emoji={<img src="/images/misc/drafts_blue.svg" alt="Information" width={20} height={20} />}>
+**メモ：** **Geometry+Intensity+Gamma** プリセットは、Brilliant Colorが有効なDLPシングルチッププロジェクターを使用している場合にのみ必要です。このキャリブレーションは、初期設定時または以下のいずれかの場合に必要です：
+
+- プロジェクターランプが長時間使用された後に交換された場合。
+- プロジェクター間のブレンドに目立つ色ズレが現れた場合。
+- プロジェクターのカラーモード（プレゼンテーション（ゲーム、PC）、シネマ、sRGB など）が変更された場合。
+
+</Callout>
+
+## プロジェクターとカメラの位置の確認
+
+キャリブレーションプリセットが選択されると、Screenberryが自動的にテスト写真を撮影します。
+
+![Camera Positioning](/images/automatic-calibration/static/Camera-Positioning.png)
+
+カメラが接続されていないか正常に動作していない場合は、**エラー**メッセージが表示されます。
+
+テスト写真に基づいて、必要に応じて以下の調整を行います：
+
+- カメラの回転と傾きの修正
+- 投影される映像の重なり具合を変えるためのプロジェクターの位置調整
+- カメラの位置とフォーカスの修正
+
+調整が完了したら、**Retake Photo**<img alt="Retake Photo Button" src="/images/automatic-calibration/static/Retake-Photo-Button.png" width={80} height={19} loading="lazy" />ボタンを押して再度テスト写真を撮影し、必要に応じてさらに調整を行ってください。この手順を繰り返し、カメラと投影レイアウトが要件に合うようにセットアップしてください。
+
+## キャリブレーション投影エリアの定義
+
+投影エリアの外にあるオブジェクト（光源、トラスなど）は光を反射または放射することがあり、その結果、キャリブレーションの幾何学的歪みや黒レベル補正、明るさのバランスに影響を与える可能性があります。そのため、投影エリアを正確に定義することが重要です。指定されたエリア内のものはキャリブレーションされ、外側のものは無視されます。
+
+**Calibration Area**ドロップダウンメニューを開いて、3つの画面エリア設定モードのうち1つを選択してください：
+
+![Calibration Area Selection](/images/automatic-calibration/static/Calibration-Area-Selection.png)
+
+- **Automatic**： キャリブレーションパターンを使用して、**Calibrator Wiard**が投影エリアの境界を自動的に識別します。
+- **Manual**（おすすめ）： このモードでは、ユーザーが投影エリアのより正確な境界形状を手動で定義することができます。これによって、プロジェクションでカバーすべきでない望ましくない領域を除外することができ、キャリブレーションの品質が大幅に向上します。
+
+マスクを調整するには、以下の手順を実行します：
+
+  - **Bounding Box**モードでは、ハンドルをドラッグしてマスクの大きさを調整します。
+  - **Circular**モードでは、カーブ上のハンドルをドラッグしてマスクの形状を微調整します。このモードに切り替えるには、**Bounding Box Off**チェックボックス![Bounding Box Off Checkbox](/images/automatic-calibration/static/Bounding-Box-Off-checkbox.png)を選択します。
+
+      <div className="table-pictures table-without-border">
+
+    | ![Bounding Box Mode](/images/automatic-calibration/static/Bounding-Box-mode.png) | ![Circular Mode](/images/automatic-calibration/static/Circular-mode.png) |
+    | --------------------------------------------------------------- | ----------------------------------------------------------- |
+    | <small>**Bounding Box**モード</small>                            | <small>**Circular**モード</small>                            |
+
+      </div>
+
+より正確な調整をするには、マウスのスクロールホイールを使用して表示エリアを拡大縮小したり、移動したりします（ズームするにはスクロールし、パンするには押し続けます）。または、右上隅にある**Zoom**<img alt="Zoom Icon" src="/images/automatic-calibration/static/zoom-icon.png" width={25} height={25} loading="lazy" />ボタンと**Pan**<img alt="Pan Icon" src="/images/automatic-calibration/static/pan-icon.png" width={25} height={25} loading="lazy" />ボタンをクリックしてマウスをドラッグすることでも操作できます。
+
+マスクをデフォルトの状態にリセットするには、**Reset Calibration Area**![Reset Calibration Area Button](/images/automatic-calibration/static/Reset-Calibration-Area-Button.png)ボタンを押します。
+
+> **メモ：** ユーザーによって定義されたマスク設定は自動的に保存され、次回のキャリブレーションセッションで読み込まれます。
+
+- **Full Camera Frame**：このモードでは、**Calibrator Wizard**が自動的に撮影された写真全体を投影領域と認識し、コンテンツをこの枠内に収まるように配置します。
+
+## キャリブレーションの実行
+
+キャリブレーション投影エリアを定義できたら、**Start [キャリブレーションプリセット]**![Start Button](/images/automatic-calibration/static/Start-Button.png)ボタンを押してキャリブレーションを開始します。キャリブレーションの作業中は、**Calibrator Wizard**がキャリブレーションの進行状況バー、現在のキャリブレーション段階、およびスクリーンに投影されたキャリブレーションパターンの写真を表示します。
+
+<img alt="Automatic Calibration Process2" src="/images/automatic-calibration/static/Automatic-Calibration-process2.gif" width={800} height={570} loading="lazy" />
+
+キャリブレーション作業は、**Abort**<img alt="Abort Button" src="/images/automatic-calibration/static/Abort-Button.png" width={40} height={19} loading="lazy" />ボタンを押すことで中断できます。**Abort**ボタンはキャリブレーション中はアクティブな状態であり、キャリブレーション作業が正常に完了すると非アクティブになります。
+
+キャリブレーション作業が完了したら、**Finish**<img alt="Finish Button" src="/images/automatic-calibration/static/Finish-Button.png" width={43} height={19} loading="lazy" />ボタンを押してください。**Finish**ボタンはキャリブレーション作業中は非アクティブであり、キャリブレーションが完了するとアクティブになります。
+
+![Finish Calibration2](/images/automatic-calibration/static/Finish-Calibration2.jpg)
+
+<Callout type="info" emoji={<img src="/images/misc/warning_yellow.svg" alt="Warning" width={20} height={20} />}>
+**重要：** 正確なキャリブレーション結果を得るために、キャリブレーション作業中は以下の点に留意してください：
+
+- プロジェクターの投影を遮る物体や人物が存在しないようにしてください。もしキャリブレーション中に人員が必要な場合は、投影されている範囲よりも低い高さで、カメラの視野範囲外にとどまっている必要があります。
+- ドーム内には余計な光源が存在しないようにしてください。ランプ、モニター、携帯電話の画面などはオフにするか、最低限の明るさに設定してください。
+
+</Callout>
+
+## 自動キャリブレーションの段階
+
+1. **Mask**の段階では、各プロジェクターの投影領域を判別するために、黒と白の線のパターンが投影されます。
+
+   <div className="table-pictures table-without-border">
+
+   | ![Mask1](/images/automatic-calibration/static/mask1.png) | ![Mask2](/images/automatic-calibration/static/mask2.png) |
+   | --------------------------------------------------- | --------------------------------------------------- |
+   | <small>黒と白の線のパターン</small>         | <small>結果のマスク</small>                       |
+
+   </div>
+
+2. **Geometry**の段階では、各プロジェクターの変形マップを生成するために、一連の点群パターンが投影されます。
+
+   <div className="table-pictures table-without-border">
+
+   | ![Geometry1](/images/automatic-calibration/static/Geometry1.png) | ![Geometry2](/images/automatic-calibration/static/Geometry2.png) |
+   | ------------------------------------------------------- | ------------------------------------------------------- |
+   | <small>ジオメトリの点群パターン</small>                   | <small>生成されたジオメトリーの変形マップ</small>      |
+
+   </div>
+
+3. **Blend**の段階では、各プロジェクターの輝度のグラデーションを生成して、投影の重なる領域でのスムーズで均一な輝度に調整します。
+
+   <div className="table-pictures table-without-border">
+
+   | ![Blend1](/images/automatic-calibration/static/blend1.png) | ![Blend2](/images/automatic-calibration/static/blend2.png) |
+   | ---------------------------------------------------- | ---------------------------------------------------- |
+   | <small>プロジェクター＃1のブレンドマップ</small>                | <small>プロジェクター＃2のブレンドマップ</small>                |
+
+   </div>
+
+4. **Gamma Correction**の段階では、DLPシングルチッププロジェクターで、ブリリアントカラーなどの強調されたガンマを設定した場合に生じる非線形のガンマ歪みによる色や輝度の変化を補正します。一連の色パターンが投影され、使用しているプロジェクターモデル用のルックアップテーブル（LUT）が生成されます。
+
+   ![Colors](/images/automatic-calibration/static/colors.png)
+
+   <small>ガンマ補正に使用される色のパターンの例</small>
+
+   > **メモ：** **ガンマ補正**のキャリブレーション段階は、初期セットアップ、プロジェクターランプの交換後、または長期使用の結果、投影間のブレンドに目立つ色/明るさの違いが生じてきた場合に必要です。これは、**赤**、**緑**、**青**のテストパターンを使用して確認できます。
+
+5. **Intensity**の段階では、プロジェクター間の輝度の違いを均等化するために、低輝度（暗い）および高輝度（明るい）範囲でのピクセル単位の輝度ムラの調整のために使用されます。
+
+   <div className="table-pictures table-without-border">
+
+   | ![Int1](/images/automatic-calibration/static/int1.png) | ![Int2](/images/automatic-calibration/static/int2.png) |
+   | -------------------------------------------------- | -------------------------------------------------- |
+   | <small>黒レベル補正の適用前</small>                | <small>黒レベル補正の適用後</small>                |
+
+   </div>
+
+   <div className="table-pictures table-without-border">
+
+   | ![Int3](/images/automatic-calibration/static/int3.png) | ![Int4](/images/automatic-calibration/static/int4.png) |
+   | -------------------------------------------------- | -------------------------------------------------- |
+   | <small>白レベル補正の適用前</small>                | <small>白レベル補正の適用後</small>                |
+
+   </div>

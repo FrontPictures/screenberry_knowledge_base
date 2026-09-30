@@ -1,0 +1,64 @@
+---
+title: Screenberryの3Dシーンの操作画面と表示
+description: 3Dビューポート、UVビューア、カメラビューセレクター、ナビゲーションモードなど、Screenberryで3Dシーンをナビゲートし表示するためのさまざまなツールとオプションを探索します。
+openGraph:
+  title: Screenberryの3Dシーンの操作画面と表示
+  description: 3Dビューポート、UVビューア、カメラビューセレクター、ナビゲーションモードなど、Screenberryで3Dシーンをナビゲートし表示するためのさまざまなツールとオプションを探索します。
+---
+
+# 3Dシーンの表示と操作画面
+
+![alt text](../../../public/images/3d-scene/static/3D-Scene-View.png)
+
+1. **ビューセレクター**：このツールバーには、**3D Viewport** / **UV Viewer セレクター**と**カメラビューセレクター**が含まれています。
+
+   ##### 3D Viewport / UV Viewer セレクター
+
+   ![alt text](../../../public/images/3d-scene/static/View-Selector.png)
+
+   - **3D Viewport**は、3D環境がレンダリングされるインタラクティブな作業エリアです。3Dシーン内のオブジェクトの操作、選択、修正に使用されます。
+   - **UV Viewer**は、選択した3DオブジェクトのUVマップ（UVマップがある場合）を確認および編集するための特殊なビューモードです。
+
+   ![alt text](../../../public/images/3d-scene/static/UV-Viewer.png)
+
+   ##### カメラビューセレクター
+
+   ![alt text](../../../public/images/3d-scene/static/Camera-View.png)
+
+   このドロップダウンメニューでは、事前に用意された様々な表示方法（ビュー）やカスタムカメラアングルから選択することができます：
+
+   - **Free Camera**は、ユーザーが視点を自由に移動、回転、ズームできるデフォルトのナビゲーションツールで、3D環境の制限のない探索を可能にします。
+   - **3D Camera**は、ユーザーがカスタマイズした視点から3Dシーンを捉え、カメラビューのレンダリング結果をノードグラフ内の後続のノードに配信します。
+   - **Projection Mapper** ビューは、プロジェクターの視点からの可視化を提供し、投影された画像が3Dシーン内のオブジェクトにどのように適用され、相互作用するかをユーザーが確認できるようにします。
+   - 標準的な正投影ビュー（カメラ）には、**Top**、**Bottom**、**Left**、**Right**、**Front**、**Back**が含まれます。
+
+2. **ナビゲーションとビューオプションツールバー**：このツールバーには、3Dシーンの操作方法やビューポート内のナビゲーション方法を変更するツールセットが用意されています。機能には以下が含まれます：
+
+   - <img alt="Fly Mode Icon" src="/images/3d-scene/static/Fly-Mode-Icon.png" width={25} height={25} loading="lazy" /> **フライモード**：一人称視点に似たカメラ移動を可能にし、シーン内を自由に動き回ることができます。
+   - <img alt="Orbit Mode Icon" src="/images/3d-scene/static/Orbit-Mode-Icon.png" width={25} height={25} loading="lazy" /> **オービットモード**：中心点を軸に回転することができ、異なる角度からの視点を提供します。
+   - <img alt="Pan Mode Icon" src="/images/3d-scene/static/Pan-Mode-Icon.png" width={25} height={25} loading="lazy" /> **パンモード**：視点面に平行に視界を移動させることができます。
+   - <img alt="Zoom Mode Icon" src="/images/3d-scene/static/Zoom-Mode-Icon.png" width={25} height={25} loading="lazy" /> **ズームモード**：シーン内のオブジェクトに近づいたり遠ざかったりすることができます。
+
+   さらに、このツールバーには**ビューオプション**が含まれており、背景色など3D Viewportのカスタマイズ設定を提供します。
+
+   ナビゲーションオプションの詳細については、[ビューポートのナビゲーション](../3d-scene/working-in-3d-scene#ビューポートの操作) セクションを参照してください。
+
+3. **ツールボックス**には以下が含まれます：
+
+   - <img alt="Select Tool Icon" src="/images/3d-scene/static/Select-Tool-Icon.png" width={25} height={25} loading="lazy" /> **選択ツール**：3Dシーン内のオブジェクトを選択するためのツールです。また、上記で説明したナビゲーションモードから切り替える際にも使用されます。
+   - <img alt="Move Tool Icon" src="/images/3d-scene/static/Move-Tool-Icon.png" width={25} height={25} loading="lazy" /> **移動ツール**：3Dシーン内で選択したオブジェクトを移動するためのツールです。
+   - <img alt="Rotate Tool Icon" src="/images/3d-scene/static/Rotate-Tool-Icon.png" width={25} height={25} loading="lazy" /> **回転ツール**：選択したオブジェクトを異なる軸を中心に回転させるためのツールです。
+   - <img alt="Scale Tool Icon" src="/images/3d-scene/static/Scale-Tool-Icon.png" width={25} height={25} loading="lazy" /> **拡大縮小ツール**：選択したオブジェクトを異なる軸に沿って拡大縮小するためのツールです。
+
+   選択したオブジェクトの編集には、2つのモードが利用可能です：
+
+   - <img alt="Object Mode Icon" src="/images/3d-scene/static/Object-Mode-Icon.png" width={25} height={25} loading="lazy" /> **オブジェクトモード**：ユーザーがオブジェクト全体の編集ができるモードです。
+   - <img alt="Mesh Mode Icon" src="/images/3d-scene/static/Mesh-Mode-Icon.png" width={25} height={25} loading="lazy" /> **メッシュモード**：オブジェクトのメッシュの個々の頂点を編集する機能を提供します。
+
+4. **ビューポート**：3Dシーンが表示され、その編集作業を行う領域です。ここでオブジェクトの選択、配置、修正、カメラ設定の調整を行い、リアルタイムで結果を確認します。
+
+5. **軸インジケーター**：3Dシーン内での空間的な方向を示すコンパスの役割を提供します。
+
+6. **シーンインスペクター**：このペインには3Dシーン内のすべての要素がリストされ、それらの選択と管理が可能です。特定のオブジェクトが選択されると、その下のパネルにパラメータが表示されます。
+
+7. **設定パネル**：このセクションでは、選択したオブジェクトのパラメータを表示し、その値を編集することができます。

@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/jp/reference/node-reference/primary-nodes/canvas.md
+document_id: guide.node-reference.primary-nodes.canvas
+language: ja
+document_body_sha256: 8e60335a05d6dcd38983a4738a0ba6958fff3d01fc75703e07c055009ebdf76f
+figures:
+  - id: ja-8a927bc5d4-001
+    title: Canvas Node Graph
+    caption: Canvas Node Graph
+    show: "Canvas Node Graph. Use the adjacent instructions as the content brief: Canvasノードは、メインサーバーの映像出力用のOpenGLコンテキストウィンドウを作成する重要なScreenberryノードです。これはDisplayノードやPatchノードなど、すべてのScreenberryの映像出力要素が合成されるキャンバスとして機能します。 CanvasノードがNode Graphに追加されると、このCanvasノードに関連付けられたDisplayとPatchを編集するための対応するウィジェットが利用可能になります。このウィジェットは、メインのScreenberry PanelメニューからWindow > [Canvas名]を選択してワークスペースに追加することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: Canvas
+    source_url: https://help.screenberry.com/images/node-references/animation/Canvas-graph.gif
+    source_alt: Canvas Node Graph
+    text_coverage: not-independently-verified
+  - id: ja-8a927bc5d4-002
+    title: Canvas Widget
+    caption: Canvas Widget
+    show: "Canvas Widget. Use the adjacent instructions as the content brief: CanvasノードがNode Graphに追加されると、このCanvasノードに関連付けられたDisplayとPatchを編集するための対応するウィジェットが利用可能になります。このウィジェットは、メインのScreenberry PanelメニューからWindow > [Canvas名]を選択してワークスペースに追加することができます。 複数のCanvasノードを作成することができますが、メディアサーバーの映像出力には一度に1つだけ有効にすることができます。追加された各Canvasノードには、それぞれ対応するウィジェットがあります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Canvas
+    source_url: https://help.screenberry.com/images/node-references/animation/Canvas-widget.gif
+    source_alt: Canvas Widget
+    text_coverage: not-independently-verified
+  - id: ja-8a927bc5d4-003
+    title: Multiple Canvas nodes
+    caption: Multiple Canvas nodes
+    show: "Multiple Canvas nodes. Use the adjacent instructions as the content brief: 複数のCanvasノードを作成することができますが、メディアサーバーの映像出力には一度に1つだけ有効にすることができます。追加された各Canvasノードには、それぞれ対応するウィジェットがあります。 詳細な情報は、このユーザーガイドのDisplay EditorとPatch Editorの章を参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Canvas
+    source_url: https://help.screenberry.com/images/node-references/animation/Canvas-disabled.gif
+    source_alt: Multiple Canvas nodes
+    text_coverage: not-independently-verified

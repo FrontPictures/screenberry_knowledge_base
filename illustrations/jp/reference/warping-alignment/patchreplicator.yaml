@@ -1,0 +1,66 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/patchreplicator.md
+document_id: guide.warping-alignment.patchreplicator
+language: ja
+document_body_sha256: 05962e35ce96dba2abd1c7aeb3c70d17f3ec787595ff971ae61eabba28a52aba
+figures:
+  - id: ja-f240bc49a0-001
+    title: Patch Replicator Node Tree
+    caption: Patch Replicator Node Tree
+    show: "Patch Replicator Node Tree. Use the adjacent instructions as the content brief: Patch Replicator ノードは、ユーザーが定義したルールに従って、Patchのインスタンスを複製し配置するPatchです。 メモ： Patch Replicator ノードは、Patchノードからの映像入力のみを受け取ることができます。 Patch Replicator ノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Patch Replicator
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Patch-Replicator-node-tree.png
+    source_alt: Patch Replicator Node Tree
+    text_coverage: not-independently-verified
+  - id: ja-f240bc49a0-002
+    title: Patch Replicator
+    caption: Patch Replicator
+    show: "Patch Replicator. Use the adjacent instructions as the content brief: Patch Replicator ノードを使用したノードグラフの例 Patch Replicator ノードには、長方形配置（Rectangular Array）、放射状配置（Radial Array）、および 鏡像配置（Mirror） の3つの複製タイプがあります。これらはSettingsパネルの Mode から選択できます。各タイプにはそれぞれ固有の設定が用意されています。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Patch Replicator
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Patch-Replicator.gif
+    source_alt: Patch Replicator
+    text_coverage: not-independently-verified
+  - id: ja-f240bc49a0-003
+    title: Patch Replicator Rect
+    caption: Patch Replicator Rect
+    show: "Patch Replicator Rect. Use the adjacent instructions as the content brief: SettingsパネルのModeにRectangular Arrayを選択すると、次の複製パラメータが利用可能になります： X Count および Y Count には、X軸およびY軸に沿って作成するインスタンスの数を設定します。X Offset および Y Offset には、出力領域全体に対するインスタンス間のオフセットを設定します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: 長方形配置（Rectangular Array）の複製
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Patch-Replicator-Rect.gif
+    source_alt: Patch Replicator Rect
+    text_coverage: not-independently-verified
+  - id: ja-f240bc49a0-004
+    title: Patch Replicator Radial
+    caption: Patch Replicator Radial
+    show: "Patch Replicator Radial. Use the adjacent instructions as the content brief: Settingsパネルの Mode に Radial Array を選択すると、次の複製パラメータが利用可能になります： Count には、作成するインスタンスの数を設定します。Angle には、は回転角度を設定します。Method には、インスタンスの分布方法を決定します。Between が選択された場合、作成される各インスタンス間の角度はAngleの値と等しくなります。Total の選択肢は、Angle で指定された範囲内で均等な角度でインスタンスが配置されます。Keep Aspect Ratio には、アスペクト比を維持してインスタンスを作成するかどうかを設定します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: 放射状配置（Radial Array）の複製
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Patch-Replicator-Radial.gif
+    source_alt: Patch Replicator Radial
+    text_coverage: not-independently-verified
+  - id: ja-f240bc49a0-005
+    title: Patch Replicator Mirr
+    caption: Patch Replicator Mirr
+    show: "Patch Replicator Mirr. Use the adjacent instructions as the content brief: この複製を使用すると、映像のX軸またはY軸に沿った鏡像のインスタンスを作成することができます。 Settingsパネルの Mode に Mirror を選択し、Direction に Horizontal または Vertical を選択して、鏡像のできる方向を設定します。 Patch Replicator ノードを使用する場合は、Patchの共通操作についてPatchの編集の章も参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: 鏡像配置（Mirror）の複製
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Patch-Replicator-Mirr.gif
+    source_alt: Patch Replicator Mirr
+    text_coverage: not-independently-verified

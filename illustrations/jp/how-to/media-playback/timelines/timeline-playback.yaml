@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/how-to/media-playback/timelines/timeline-playback.md
+document_id: guide.media-playback.timelines.timeline-playback
+language: ja
+document_body_sha256: 1948a76b019a1a9c0051de82d6461ccb932b8bd4a8bf02ce103365fd1a79f077
+figures:
+  - id: ja-857faeb32a-001
+    title: Timeline Playback
+    caption: Timeline Playback
+    show: "Timeline Playback. Use the adjacent instructions as the content brief: タイムラインの再生状態を誤って操作してしまうのを防ぐには、Lock/Unlock Playback Controlsトグルボタンを使用します。タイムラインがロックされている場合、すべての Play、Pause、Stop ボタンは無効になります。再びアンロックするには、Lock/Unlock Playback Controlsトグルボタンを再度クリックしてください。 現在再生中のメディアアイテムを検索するには、Reveal Active Itemボタンをクリックしてください。これにより表示がアクティブなタイムラインに切り替わり、現在再生中のアイテムの位置に自動的にスクロールされ、アイテムが目立つようにハイライトされます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: タイムラインの再生
+    source_url: https://help.screenberry.com/images/media-playback/animation/Timeline-Playback.gif
+    source_alt: Timeline Playback
+    text_coverage: not-independently-verified

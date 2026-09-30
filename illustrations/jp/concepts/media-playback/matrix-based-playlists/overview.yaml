@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/concepts/media-playback/matrix-based-playlists/overview.md
+document_id: guide.media-playback.matrix-based-playlists.overview
+language: ja
+document_body_sha256: 235dd1dc264e02382975116890dd0bd95be728bf0002e5ee2c93665a454d39ad
+figures:
+  - id: ja-c8e20cb71d-001
+    title: マトリクス型プレイリストの画面構成
+    caption: マトリクス型プレイリストの画面構成
+    show: "マトリクス型プレイリストの画面構成. Use the adjacent instructions as the content brief: Screenberry のマトリックス型プレイリストは、グリッド状のインターフェースを通じてメディアの再生を管理および制御する便利な方法を提供します。この機能により、ユーザーは複数のメディアシーケンスの再生を調整し、それぞれの映像出力を同期させることができます。この機能は、複数のビジュアルレイヤーをまたいだリアルタイムのビデオミキシングや、複数の映像出力に対して同時に複数のメディアを再生する必要があるダイナミックなメディアプレゼンテーションに特に有益です。 ナビゲーションパネル： Media Playerで利用可能なプレイリストとタイムラインを表示します。ステータスバー： 現在開いているプレイリストに関する情報を提供します。アイテムの総数や選択されたアイテムの詳細などが表示されます。表示オプション： メディアアイテムのサムネイルのカスタマイズが可能で、サイズや向きの調整ができます。マトリックス行： 連続再生のために配置されたメデ"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: マトリクス型プレイリストの画面構成
+    source_url: https://help.screenberry.com/images/media-playback/static/matrix-view.png
+    source_alt: マトリクス型プレイリストの画面構成
+    text_coverage: not-independently-verified

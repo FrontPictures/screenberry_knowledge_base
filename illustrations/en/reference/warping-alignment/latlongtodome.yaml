@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/latlongtodome.md
+document_id: guide.warping-alignment.latlongtodome
+language: en
+document_body_sha256: 162341fa7e4aef7faf3634b12ea2935be51e6f389e2274a526fad15725f642a8
+figures:
+  - id: en-e206c62ec8-001
+    title: LatLong To Dome Node Tree
+    caption: LatLong To Dome Node Tree
+    show: "LatLong To Dome Node Tree. Use the adjacent instructions as the content brief: The LatLong to Dome node is a patch that allows the mapping of VR 360-degree media onto a virtual sphere and provides controls for displaying it on a dome surface. In a typical setup, the LatLong to Dome node receives a source image as the input and outputs the modified image to the Display or Canvas node. Example of the node graph with the LatLong to Dome node"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: LatLong to Dome
+    source_url: https://help.screenberry.com/images/warping-alignment/static/LatLong-to-Dome-node-tree.png
+    source_alt: LatLong To Dome Node Tree
+    text_coverage: not-independently-verified
+  - id: en-e206c62ec8-002
+    title: LatLong To Dome
+    caption: LatLong To Dome
+    show: "LatLong To Dome. Use the adjacent instructions as the content brief: Visible FOV Sets the angle of masking for the fisheye lens field of view. Note: When the fisheye lens field of view angle approaches 360°, some artifacts may appear on the edges of the image. To avoid this, use a mask to limit the visible part of the image."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: LatLong to Dome
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/LatLong-to-Dome.gif
+    source_alt: LatLong To Dome
+    text_coverage: not-independently-verified

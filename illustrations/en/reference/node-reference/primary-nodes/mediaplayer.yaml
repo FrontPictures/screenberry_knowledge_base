@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/reference/node-reference/primary-nodes/mediaplayer.md
+document_id: guide.node-reference.primary-nodes.mediaplayer
+language: en
+document_body_sha256: d7b304af87f13a3bf9a0c6971f9585599e8c02a011be713fd551bc5132c6d6ee
+figures:
+  - id: en-87ce67b5dc-001
+    title: Media Playback Node Graph
+    caption: Media Playback Node Graph
+    show: "Media Playback Node Graph. Use the adjacent instructions as the content brief: The Media Player node creates a media player that provides control over the playlists and timelines playback. Its output Image parameter can be connected to any node capable of receiving an input image. The Media Player node can also output Audio, Subtitles, and Timecode parameters. For detailed information on managing media playback with the help of the Media Player widget, see Media Playback."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: Media Player
+    source_url: https://help.screenberry.com/images/node-references/animation/MediaPlayer.gif
+    source_alt: Media Playback Node Graph
+    text_coverage: not-independently-verified

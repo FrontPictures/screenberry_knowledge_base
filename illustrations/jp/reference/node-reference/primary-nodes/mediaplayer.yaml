@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/reference/node-reference/primary-nodes/mediaplayer.md
+document_id: guide.node-reference.primary-nodes.mediaplayer
+language: ja
+document_body_sha256: a0e22c098ba3bd1db1795d69acae0b2e7c53cbe8a713646c20660d631f7fe45a
+figures:
+  - id: ja-c9d7f689ad-001
+    title: Media Playback Node Graph
+    caption: Media Playback Node Graph
+    show: "Media Playback Node Graph. Use the adjacent instructions as the content brief: Media Playerノードは、プレイリストとタイムラインの再生を制御するメディアプレーヤーを作成します。その出力のImageパラメータは、入力映像を受け取ることができる任意のノードに接続することができます。Media Playerノードはまた、Audio、Subtitles、Timecodeのパラメータも出力することができます。 Media Playerウィジェットを使用してメディア再生を管理する方法については、詳細はMedia Playbackの章を参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: Media Player
+    source_url: https://help.screenberry.com/images/node-references/animation/MediaPlayer.gif
+    source_alt: Media Playback Node Graph
+    text_coverage: not-independently-verified

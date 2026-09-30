@@ -1,0 +1,26 @@
+---
+title: Screenberry Quad Warp Patch - キーストーン歪みの修正
+description:  Quad Warpノードを利用して、平面に斜めから映像を投映した時に生じるキーストーン歪みを補正する方法を説明します。
+openGraph:
+  title: Screenberry Quad Warp Patch - キーストーン歪みの修正
+  description: Quad Warpノードを利用して、平面に斜めから映像を投映した時に生じるキーストーン歪みを補正する方法を説明します。
+---
+
+# Quad Warp
+
+**Quad Warp**ノードは、主に映像のジオメトリ補正に使用されるPatchノードであり、平面上に斜めから映像を投映した際の歪み（_キーストーン歪み_ とも呼ばれる）を補正します。
+
+典型的なセットアップでは、**Quad Warp**ノードは入力としてソース映像を受け取り、変形された映像を**Display**ノードまたは**Canvas**ノードに出力します。
+
+![QuadWarp](/images/warping-alignment/static/QuadWarp.png)
+
+<small>**Quad Warp**ノードを使用したノードグラフの例</small>
+
+**Quad Warpノード**を使用して、映像のジオメトリとマッピングを変更するには、次の手順を**Patch Editor**で実行します。
+
+- **Input**パネルで、メッシュの制御点のハンドルをドラッグして、マップされるソース映像の範囲を調整します。
+- **Output**パネルで、メッシュの制御点のハンドルをドラッグして、映像の透視投影変換を調整して、映像をオブジェクトの形状に合わせます。
+
+<img alt="Quad Warp" src="/images/warping-alignment/animation/Quad-Warp.gif" width={800} height={778} loading="lazy" />
+
+**Quad Warp**ノードを使用する場合は、Patchの共通操作について[Patchの編集](../patch-editor/editing-patches)の章も参照してください。

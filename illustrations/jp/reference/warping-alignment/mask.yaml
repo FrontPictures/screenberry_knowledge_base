@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/mask.md
+document_id: guide.warping-alignment.mask
+language: ja
+document_body_sha256: 5f90d0adf2029e110d22bbf394597eab563c96313a2a452dc78e130b19785f81
+figures:
+  - id: ja-d83e9a9ce3-001
+    title: Mask Node Tree
+    caption: Mask Node Tree
+    show: "Mask Node Tree. Use the adjacent instructions as the content brief: Maskノードは、他の映像の上に自由形状の単色マスクを描くためによく利用されるPatchです。 典型的なセットアップでは、MaskノードはSolid Colorノードから単色の画像を受け取り、結果のマスク形状をDisplayノードまたはCanvasノードに出力します。その際に、別の映像ソースノードから受け取ったの上に映像にマスクを描きます。 Maskノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Mask
+    source_url: https://help.screenberry.com/images/warping-alignment/static/mask-node-tree.png
+    source_alt: Mask Node Tree
+    text_coverage: not-independently-verified
+  - id: ja-d83e9a9ce3-002
+    title: Mask
+    caption: Mask
+    show: "Mask. Use the adjacent instructions as the content brief: Patch EditorのOutputパネルで、次の操作を実行して形状マスクを作成および編集します： 制御点を追加してパスを描画します。 Outputエリア上にカーソルを置き、P キーを押すか、右クリックしてドロップダウンメニューから Add Point を選択して、制御点を作成します。追加される各制御点は、前の制御点と自動的に直線で接続されます。制御点を追加して必要な形状にパスを描画します。形状を完成させます。 Outputパネル内でダブルクリックすると、描画中のパスが閉じられます。直線のパスを曲線に変換します。 制御点にカーソルを重ねたまま、次のいずれかの操作を行います：Ctrl キーを押しながらマウスをドラッグすると、方向線（または接線）ハンドルが延長され、制御点の片側の曲線が調整されます。Ctrl + Shift キーを押しながらマウスをドラッグすると、ペアの方向線ハンドルが延長され、制御点の両側の曲線が同時に調整されま"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Mask
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/mask.gif
+    source_alt: Mask
+    text_coverage: not-independently-verified
+  - id: ja-d83e9a9ce3-003
+    title: Mask Shapes Overlap
+    caption: Mask Shapes Overlap
+    show: "Mask Shapes Overlap. Use the adjacent instructions as the content brief: Maskノードには複数のマスク形状を含むことができます。これらのマスク形状を重ねて使用することもできます。 Maskノードを使用する場合は、Patchの共通操作についてPatchの編集の章も参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Mask
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Mask-shapes-overlap.jpg
+    source_alt: Mask Shapes Overlap
+    text_coverage: not-independently-verified

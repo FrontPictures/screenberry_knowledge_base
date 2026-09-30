@@ -1,0 +1,109 @@
+---
+title: Screenberry Web Control Panel - Remote Media Management and Playback
+description: Access media players, manage playlists, and edit media item settings remotely from any device with the HTML5-powered web control panel.
+openGraph:
+  title: Screenberry Web Control Panel - Remote Media Management and Playback
+  description: Access media players, manage playlists, and edit media item settings remotely from any device with the HTML5-powered web control panel.
+---
+
+# Web Control Panel
+
+## Overview
+
+The web control panel provides a platform-independent web interface powered by HTML 5 that enables multiple users to operate the Screenberry server simultaneously via the web browser from a computer, tablet, or smartphone.
+
+## Accessing Web Panel
+
+To access the web panel, do the following:
+
+1. In the **Node Graph**, add the **WebServer** node. Notice that the default **Port** 8081 is selected in the settings of the node. You can choose another port if port 8081 is already in use.
+2. Enter the URL [http://127.0.0.1:8081](http://127.0.0.1:8081/) (or [http://localhost:8081](http://localhost:8081/)) in your web browser if you’re accessing the web panel from the same machine that hosts the Screenberry server. When accessing from a mobile phone or another computer on the same computer network, you can enter any of the IP addresses associated with the Screenberry server computer. For example, the URL may look like [http://192.168.31.218:8081](http://192.168.31.218:8081/).
+
+<img alt="Adding Web Panel" src="/images/web-panel/animation/Adding-Web-Panel.gif" width={800} height={564} loading="lazy" />
+
+> **Note:** The web panel provides access to the media players, playlists, and widgets currently created in Screenberry.
+
+> **Note:** A known issue affects some builds of the Screenberry version 2.8.x, in which the web server components are not copied into the *Resources* folder of the newly created Screenberry project. In case you get an empty page after completing the above steps, please copy the files from [this archive](../downloads/Web-Panel-Components.zip) into the *Resources/webServer* folder of the project manually.
+
+## Media Playback
+
+The web panel provides control over media playback and playlist management for the **Media Players** created in Screenberry.
+
+### Playlist Selection
+
+To access the desired playlist, do the following:
+
+1. Click on the **Screenberry Web Panel** menu button <img alt="Burgmenu" src="/images/web-panel/static/burgmenu.png" width={24} height={24} loading="lazy" /> located at the top left corner and select **Media Player**.
+2. Click on the **Settings** button <img alt="Settings Button" src="/images/web-panel/static/settings_button.png" width={24} height={24} loading="lazy" /> located at the bottom right corner to open the right sidebar.
+3. Select the **Media Player** in the dropdown menu.
+4. Select the playlist in the dropdown menu.
+
+<img alt="Playlist Selection" src="/images/web-panel/animation/Playlist-Selection.gif" width={800} height={474} loading="lazy" />
+
+### Playback Controls
+
+![Web Panel Controls280](/images/web-panel/static/web-panel-controls280.png)
+
+1. <img alt="Play Selected" src="/images/web-panel/static/play-selected.png" width={24} height={24} loading="lazy" /> **Play Selected Item** starts playback of a selected media item.
+2. <img alt="Play" src="/images/web-panel/static/play.png" width={24} height={24} loading="lazy" /> **Play** starts playback from the current playhead position.
+3. <img alt="Pause" src="/images/web-panel/static/pause.png" width={24} height={24} loading="lazy" /> **Pause** freezes playback at the current playhead position.
+4. <img alt="Stop" src="/images/web-panel/static/stop.png" width={24} height={24} loading="lazy" /> **Stop** ends playback.
+5. <img alt="Rew" src="/images/web-panel/static/rew.png" width={24} height={24} loading="lazy" /> **Previous Item** jumps to the previous media item in the playlist.
+6. <img alt="Fwd" src="/images/web-panel/static/fwd.png" width={24} height={24} loading="lazy" /> **Next Item** jumps to the next media item in the playlist.
+7. <img alt="Volume" src="/images/web-panel/static/volume.png" width={24} height={24} loading="lazy" /> **Volume Control** adjusts the overall audio volume for the **Media Player** output.
+
+### Media Items Playback
+
+To start playback of a media item in the playlist, do one of the following:
+
+- Press the **Play** button <img alt="Play" src="/images/web-panel/static/play.png" width={24} height={24} loading="lazy" /> to start playback from the current playhead position.
+- Select the media item in the playlist and press the **Play Selected Item** button <img alt="Play Selected" src="/images/web-panel/static/play-selected.png" width={24} height={24} loading="lazy" />.
+
+<img alt="Media Items Playback" src="/images/web-panel/animation/Media-Items-Playback.gif" width={800} height={515} loading="lazy" />
+
+### Media Item Settings
+
+To access media item settings, select a media item and press the **Settings** button <img alt="Settings Button" src="/images/web-panel/static/settings_button.png" width={24} height={24} loading="lazy" /> located at the bottom right corner.
+
+The following media item settings are available for editing:
+
+- **Title** changes the name of a media item.
+- **Fade In** defines fade in time for a media item in seconds (crossfades a media item with a previous one).
+- **Pause on First Frame** / **Pause on Last Frame** specifies whether the media item’s playback should be paused on the first or last frame.
+- **Loops** and **Infinite Loop** specify whether the media item should be played in a loop.
+- **Volume** adjusts the volume of a selected media item’s audio output.
+
+<img alt="Media Item Settings" src="/images/web-panel/animation/Media-Item-Settings.gif" width={800} height={466} loading="lazy" />
+
+### Managing Playlists
+
+To manage playlists, click on the **Settings** button <img alt="Settings Button" src="/images/web-panel/static/settings_button.png" width={24} height={24} loading="lazy" /> located at the bottom right corner to open the right-sidebar, and then click on the playlist dropdown menu. You can perform the following actions:
+
+- To add a new playlist, click on the **Add New Playlist** button.
+- To rename a playlist, click the **Edit** icon <img alt="Edit" src="/images/web-panel/static/edit.png" width={24} height={24} loading="lazy" /> next to the playlist name, and enter a new name in the opened dialog box.
+- To delete a playlist, click the **Trash** icon <img alt="Trash" src="/images/web-panel/static/trash.png" width={24} height={24} loading="lazy" /> next to the playlist name.
+
+<img alt="Managing Playlists" src="/images/web-panel/animation/Managing-Playlists.gif" width={1304} height={760} loading="lazy" />
+
+### Organizing Media Items in Playlists
+
+To manage media items in the playlists, click on the **Edit** floating button ![Edit Big](/images/web-panel/static/edit-big.png). You can perform the following actions:
+
+- To add media items, click on the button ![Plus](/images/web-panel/static/plus.png) if the playlist is empty or the icon <img alt="Plus Icon" src="/images/web-panel/static/plus-icon.png" width={29} height={29} loading="lazy" /> on the particular media item after which media items should be added. Select media items in the opened **Media Library** window and press the **Add** button ![Add](/images/web-panel/static/add.png).
+- To delete a media item, click the icon <img alt="X Icon" src="/images/web-panel/static/x-icon.png" width={29} height={29} loading="lazy" /> on the media item.
+- To change the order of media items, drag the media item to the desired position.
+
+When you have finished editing the playlist, click on the **Edit** floating button ![Edit Big](/images/web-panel/static/edit-big.png) again to exit the editing mode.
+
+<img alt="Organizing Media Items In Playlists" src="/images/web-panel/animation/Organizing-Media-Items-in-Playlists.gif" width={800} height={494} loading="lazy" />
+
+## Working with Widgets
+
+The web panel allows access to the widgets added in Screenberry.
+
+To access the desired widget, do the following:
+
+1. Click on the Screenberry Web Panel menu button located at the top left corner and select **Widgets**.
+2. Select the widget in the dropdown menu.
+
+<img alt="Working With Widgets" src="/images/web-panel/animation/Working-with-Widgets.gif" width={800} height={494} loading="lazy" />

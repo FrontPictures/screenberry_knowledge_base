@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/trianglemesh.md
+document_id: guide.warping-alignment.trianglemesh
+language: ja
+document_body_sha256: 82af18862f710a72a7f0529c75accc881f0144734c023b86074256fe16046e49
+figures:
+  - id: ja-177642c24c-001
+    title: Triangle Mesh Node Tree
+    caption: Triangle Mesh Node Tree
+    show: "Triangle Mesh Node Tree. Use the adjacent instructions as the content brief: Triangle Meshノードは、主に三角形の形状で構成されたオブジェクトの表面に投影マッピングするために使用されるPatchノードです。 典型的なセットアップでは、セットアップでは、Triangle Meshノードは入力としてソース映像を受け取り、変形された映像をDisplayノードまたはCanvasノードに出力します。 Triangle Meshノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Triangle Mesh
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Triangle-Mesh-node-tree.png
+    source_alt: Triangle Mesh Node Tree
+    text_coverage: not-independently-verified
+  - id: ja-177642c24c-002
+    title: Triangle Mesh
+    caption: Triangle Mesh
+    show: "Triangle Mesh. Use the adjacent instructions as the content brief: 三角メッシュ変形を適用するためには: 以下の手順に従って、三角メッシュを作成し編集します：制御点の追加。レイアウトエリアにマウスカーソルを置き、P キーを押すか、右クリックしてドロップダウンメニューから Add Point を選択して制御点を作成します。制御点を三角メッシュの面として接続。制御点を選択して T キーを押すか、選択した制御点を右クリックしてドロップダウンメニューから Create Triangles を選択して、選択した制御点を接続します。制御点が選択されていない場合、T キーを押すとすべての既存の制御点が接続されます。制御点の削除。制御点を選択して Del キーを押すか、選択した制御点を右クリックし、ドロップダウンメニューから Delete points を選択して、それらの制御点を削除します。 Outputパネルで、メッシュの制御点のハンドルをドラッグして、映像をオブジェクトの形状に合わせます。Inputパネル"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Triangle Mesh
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Triangle-Mesh.gif
+    source_alt: Triangle Mesh
+    text_coverage: not-independently-verified
+  - id: ja-177642c24c-003
+    title: Trimesh Edit 1
+    caption: Trimesh Edit 1
+    show: "Trimesh Edit 1. Use the adjacent instructions as the content brief: Outputパネルで、メッシュの制御点のハンドルをドラッグして、映像をオブジェクトの形状に合わせます。Inputパネルで、メッシュの制御点のハンドルをドラッグして、個々のメッシュ三角形に対するソース映像のマッピングを定義します。 Triangle Meshノードを使用する場合は、Patchの共通操作についてPatchの編集の章も参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Triangle Mesh
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/trimesh-edit-1.gif
+    source_alt: Trimesh Edit 1
+    text_coverage: not-independently-verified

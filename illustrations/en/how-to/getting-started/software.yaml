@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/how-to/getting-started/software.md
+document_id: guide.getting-started.software
+language: en
+document_body_sha256: d28ba73c9e2d8a36ab3a38052e10d77eef1a1c3967a87cb1a7bcde6e34207fdc
+figures:
+  - id: en-f091066b6f-001
+    title: Windows Security Alert for Screenberry Server network access
+    caption: Windows Security Alert for Screenberry Server network access
+    show: "Windows Security Alert for Screenberry Server network access. Use the adjacent instructions as the content brief: The first time Screenberry Server starts after installation, Windows Security Alert may ask whether to allow network communication through Windows Firewall. Allow Screenberry Server on the trusted network used by the Media Server and Operator Workstation. Do not enable access for an untrusted public network unless it is intentionally part of the Screenberry system and has been reviewed by the system administrator."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Allow Screenberry through Windows Firewall
+    source_url: https://help.screenberry.com/images/getting-started/static/WIndows-Alert.png
+    source_alt: Windows Security Alert for Screenberry Server network access
+    text_coverage: not-independently-verified

@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/quadwarp.md
+document_id: guide.warping-alignment.quadwarp
+language: en
+document_body_sha256: b71afb36ec1e190127c33106af92e56fdf986f1075669dadd656b19d44c397bb
+figures:
+  - id: en-0b4660a13a-001
+    title: QuadWarp
+    caption: QuadWarp
+    show: "QuadWarp. Use the adjacent instructions as the content brief: The Quad Warp node is a patch primarily used for image geometry correction to compensate for the distortion caused by an off-axis image projection onto a planar surface (also known as keystone distortion). In a typical setup, the Quad Warp node receives a source image as the input and outputs the modified image to the Display or Canvas node. Example of the node graph with the QuadWarp node"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Quad Warp
+    source_url: https://help.screenberry.com/images/warping-alignment/static/QuadWarp.png
+    source_alt: QuadWarp
+    text_coverage: not-independently-verified
+  - id: en-0b4660a13a-002
+    title: Quad Warp
+    caption: Quad Warp
+    show: "Quad Warp. Use the adjacent instructions as the content brief: To modify image geometry and mapping using the Quad Warp patch, do the following in the Patch Editor: In the Input panel, adjust the area of the source image to be mapped by dragging the handles of the mesh control points.In the Output panel, set the image geometry by adjusting the image perspective by dragging the handles of the mesh control points. In addition, working with the Quad Warp patch follows the general p"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Quad Warp
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Quad-Warp.gif
+    source_alt: Quad Warp
+    text_coverage: not-independently-verified

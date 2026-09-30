@@ -1,0 +1,453 @@
+---
+id: guide.whats-new.release-notes-3-3
+variant_id: guide.whats-new.release-notes-3-3.imported-current-guide
+title: Screenberry v3.3 Release Notes - Latest Updates and Features
+language: en
+kind: release-notes
+status: in_review
+owner: unassigned
+applies_to:
+  from: null
+  until_exclusive: null
+verified_in: []
+last_verified: null
+evidence:
+  - type: existing-guide
+    path: archive/site/content/en/whats-new/release-notes-3-3.mdx
+    sha256: 8d3fedc47e78ac0b2af0eea80d2c33e34c17ac2ef7294952f90fe1d057061a6b
+    scope: Imported text; not independent product verification
+aliases: []
+related: []
+publication:
+  profile: legacy-guide-3.4
+  product_version: "3.4"
+  basis: Snapshot of existing current guide; applicability not independently verified
+  role: historical
+source:
+  path: content/en/whats-new/release-notes-3-3.mdx
+  canonical_url: https://help.screenberry.com/en/whats-new/release-notes-3-3
+  git_commit: 8acf5a3a7526c3013fc44f1dba0b25f88343e745
+  sha256: 8d3fedc47e78ac0b2af0eea80d2c33e34c17ac2ef7294952f90fe1d057061a6b
+  imported_at: 2026-09-30T14:15:19.585Z
+  frontmatter:
+    title: Screenberry v3.3 Release Notes - Latest Updates and Features
+    description: Learn about the latest improvements and new features in Screenberry v3.3, including redesigned 3D Scene, uncompressed sequences playback, support for MacOS, and advanced color management.
+    openGraph:
+      title: Screenberry v3.2.0 Release Notes - Updates & Features Overview
+      description: Discover the newest features in Screenberry v3.3, such as redesigned 3D Scene, uncompressed sequences playback, support for MacOS, and advanced color management.
+describes_release: "3.3"
+presentation:
+  mode: text-only
+  illustrations: null
+  visual_information_review: not-applicable
+---
+
+# Screenberry v3.3 Release Notes
+
+## New Features
+
+### macOS Support
+
+Screenberry now runs on macOS. Mac users gain access to powerful Screenberry features with native support for the Mac platform.
+
+### Improved Uncompressed Sequence Playback
+
+The playback for uncompressed sequences has been significantly optimized. The media server now makes better use of hardware resources, enabling the smoother playback of TGA, TIFF, and DPX image sequences in higher resolutions and with higher frame rates.
+
+### Dedicated GPU for TouchEngine
+
+The **TouchEngine** node now allows users to select a specific GPU for TOX rendering. This enhances consistency, improves rendering speeds, and optimizes overall performance by leveraging users' specific hardware configurations.
+
+### Advanced Color Management
+
+The new **Color Space Transform** node utilizes the _OpenColorIO_ library to apply accurate color space transformations, enhancing visual consistency and fidelity across different types of media.
+
+### Occluded Area Calibration
+
+Automatic camera-based projection alignment is now possible even when the calibration camera’s view is partially obscured by objects between the camera and the screen. Objects can be masked before calibration, and the algorithm will reconstruct the image for the obstructed screen areas using data from adjacent sections of the screen.
+
+### Global Undo Stack
+
+A global **Undo Stack** has been implemented along with a dedicated **Undo History** widget to track and manage changes more efficiently. New keyboard shortcuts have been introduced: **Ctrl**+**Shift**+**Z** is now available for redoing actions (**Ctrl**+**Y** also remains functional).
+
+### Hot Backup
+
+A new Hot Backup node has been added that manages the synchronization of project data and mirrors control commands from the Panel to the backup server.
+
+### Redesigned 3D Scene
+
+#### Enhanced Toolbar with New Tools
+
+The redesigned toolbar now includes **Move**, **Rotate**, and **Scale** tools for the precise manipulation of 3D objects within the scene, improving user interaction and experience.
+
+#### Improved Navigation Experience
+
+New navigation tools such as the **Fly**, **Pan**, **Orbit**, and **Zoom** modes provide comprehensive control over viewport navigation, making scene interaction more intuitive.
+
+#### Objects Lock and Hide
+
+Lock and hide objects within the Scene Inspector pane, facilitating the simpler and more efficient management of scene elements by securing objects from accidental modifications and decluttering the view.
+
+#### Ortho Viewports
+
+Orthographic camera views have been introduced, which are essential for tasks that require more precision and clarity. These views complement the perspective view, which offers a more realistic representation of how objects appear in the real world.
+
+#### Enhanced Pose Estimation
+
+The pose estimation algorithms have been reworked, enhancing accuracy. Accessing the pose estimation functionality has become more intuitive. Point selection is now possible when using a free camera in pose estimation tasks.
+
+#### Projection Simulation Mode
+
+A new experimental Projection Simulation mode has been added, allowing users to conduct projector studies and preview a projection within the 3D scene.
+
+#### Axis Indicator
+
+An axis indicator is now displayed on the bottom left of the 3D viewport, providing a constant reference for spatial orientation within the scene.
+
+#### New Shortcuts
+
+Keyboard shortcuts have been added for all navigation and object interaction features within the 3D Scene, enabling quick and easy access to these tools and functions. For more detailed information, refer to the [Working in the 3D Scene](../../how-to/3d-scene/working-in-3d-scene.md#navigating-the-viewport) section.
+
+### Media Player Improvements
+
+#### High Bit-Depth Audio Support
+
+The Media Player now supports 24-bit and 32-bit audio, enabling uploads in their original native sample format to preserve audio quality.
+
+#### AUX Audio Inputs
+
+AUX audio inputs have been integrated into the Media Player node for the independent handling of multiple audio sources. Users can now rename AUX inputs for better management.
+
+#### Media Player Copying with Content
+
+When a Media Player node is copied, all the associated playlists and media they contain are copied with it. Additionally, restoring a deleted Media Player node using the Undo action also recovers all its content.
+
+#### Item Replace Feature
+
+This feature allows users to replace media items in playlists or timelines while preserving all the settings of the original media item.
+
+#### Timeline Improvements
+
+The ability to duplicate tracks on the timeline has been introduced, simplifying content replication and enhancing editing workflows.
+
+The timeline view options have been expanded. Users can now select from three track heights: the default wide tracks, medium-height tracks, and narrow tracks. Updated video thumbnail display options allow users to show preview frames continuously, display just the first and last frames, or hide preview frames completely.
+
+#### Matrix-based Playlist Improvements
+
+Users can now duplicate, insert, move, and rename rows and columns, getting extended control over matrix layouts for precise content placement and adjustments.
+
+The **Ignore** button has been added to the row header, enabling users to exclude specific rows when the particular column playback is started.
+
+The **Reveal Currently Playing Row Item** button is now available, allowing users to quickly identify the currently active item in the row.
+
+### System Info Widget Redesign
+
+Screenberry's **System Info** widget has been redesigned to provide more comprehensive system data along with new controls for GPU fan management.
+
+### Automatic Project Saving
+
+Screenberry now features an option to automatically save projects when the Screenberry Server application is being closed.
+
+### Auto Save Project Settings
+
+In **Preferences**, users can set intervals at which to automatically save the current project.
+
+### Reverting to the Saved Project
+
+The **File Menu** now includes a **Revert to Saved** option, allowing users to easily revert their projects to the last saved state, thus safeguarding against accidental changes and unwanted modifications.
+
+### Text Rendering Enhancements
+
+The **Text Image** node settings now include options for background color and shadow, providing additional customization capabilities for displaying text.
+
+### Gamma Correction Node
+
+A new (experimental) **Gamma Correction File** node has been added, allowing users to load T3D files for precise gamma correction. This node enables the accurate adjustment of brightness and color balance by applying custom Look-Up-Tables (LUTs), ensuring accuracy and consistency across different projectors during calibration.
+
+### Parent Calibrator Parameter
+
+The **Parent Calibrator Patch** input parameter has been added to the **Calibrator** node, allowing multiple **Calibrator** nodes to connect directly to simplify multi-camera calibration setups.
+
+### Rectangle Patch Circular Mask Option
+
+The **Rectangle** patch now includes a **Circular Mask** option, allowing the creation and manipulation of circular shapes.
+
+### Shape Patch Warp Feature
+
+An experimental feature has been added to the **Shape Patch**, enabling users to warp rectangular shapes using manually placed points. This feature allows for more flexible and customized shape manipulation.
+
+### Audio Analyzer
+
+A new **Audio Analyzer** node allows for the visualization of the audio spectrum of the incoming audio.
+
+### Media Library Update
+
+The Main Server menu now includes the Rescan Media action for refreshing media content associated with the project.
+
+### Timecode Offset
+
+An Offset parameter has been added to **LTC** and **MTC Decoders**, allowing users to customize timecode offsets.
+
+### New Equal Nodes
+
+A range of new **Equal** nodes for various data types has been introduced including **Float**, **Int**, **Vec2**, **Vec3**, **Vec4**, **IVec2**, and **String**, streamlining node setups when performing data comparisons.
+
+### New Round Node
+
+A new mathematical **Round** node has been added that’s specifically intended for rounding input double-precision floating points.
+
+### Render Target Reference Image Input
+
+A new **Reference Image** input parameter has been added to the **Render Target** node, allowing users to utilize images received from other nodes as references within the **Patch Editor**, thus enhancing the accuracy and ease of content creation.
+
+### Accessing the User Control Widget
+
+Double-clicking any node related to user controls (**Button**, **Checkbox**, etc.) now opens the **User Control** widget.
+
+### Web View on Linux
+
+The **Web View** feature now works on Linux.
+
+## Improvements
+
+### Media Player
+
+- The warnings for missed sequence frames are now displayed during the upload process.
+- The content license information for encrypted content is now easily accessible within the media item settings.
+- The **Media Item Info** now includes details about the item’s preset name, codec, and pixel format information.
+- The performance of the Screenberry Panel has been optimized for projects containing more than 1000 media items.
+- Color tags and their names within the **Media Player** have been updated for improved visibility.
+- The ability to zoom using the **Ctrl** + **Mouse Wheel** has been added.
+- **Timecode Send** and **Send Timecode** have been renamed to **Output Timecode** and **Output TC Offset** in item settings.
+- The playlist name is now displayed in the undo history record related to the modifications made to the media items in that playlist.
+- The GPU processing of the GBRAPF32LE pixel format has been optimized.
+
+### Timeline
+
+- Auto-scroll functionality has been implemented to allow users to scroll the timeline when media items are dragged beyond the currently visible area.
+- The frame rate of the timeline is now displayed in green. If the timeline frame rate differs from the server frame rate, it becomes highlighted in red for quick identification.
+- The editing of media item settings is now possible even when the associated media file is missing.
+- The timeline view now automatically scrolls to newly inserted tracks.
+
+### Matrix-based Playlists
+
+- The selection mmechanics in the matrix grid using **Ctrl** + **Click** and **Shift** + **Click** has been enhanced, and other selection-related issues have been addressed to improve the user experience.
+- New shortcuts (**Shift** + **09**) have been introduced to quickly initiate the playback of the corresponding matrix columns.
+- Row headers now feature indicators, providing the visual tracking of the matrix items’ playback progress.
+
+### Node Graph
+
+- A snapping feature has been implemented to assist with node alignment.
+- An option to hide the background grid has been added to the **Preferences** (accessible from the main menu).
+- The **Node Widget** parameter with the **Open** button has been added to node settings for the nodes that have corresponding widgets.
+- The auto-layout algorithm has been improved, maintaining the relative positions of nodes to enhance readability and consistency.
+- The ability to copy and paste parameter values has been added to node settings. This is especially useful for copying multi-input parameters such as vectors or arrays.
+- The search functionality in the **Add Node** dialog box now highlights matching text, streamlining the node selection process.
+- The handling of text parameters has been improved – strings are now sent to the server only after editing is completed (on unfocus, **Enter** for one-line edits, or **Ctrl** + **Enter** for multiline edits).
+- While editing a parameter in the node settings, pressing **Esc** now restores its previous value.
+
+### 3D Scene
+
+- Shading is now displayed in the **Color** and **Color + Wireframe** view modes.
+- Wireframe rendering in both the **Textured + Wireframe** and **Color + Wireframe** view modes has been enhanced.
+- The **Projection Mapper** now includes a **Test Pattern** parameter.
+- An **Opacity** parameter has been added to the **Projection Mapper**, allowing interactive visibility adjustments.
+- Pose estimation accuracy has been improved with an advanced averaging technique for selected points.
+- The **3D Camera** viewport in the **3D Scene** node now displays the grid and gizmo for improved orientation and manipulation within the viewport.
+- The **Anti-Aliasing** option has been added to the **3D Camera** node to improve image quality.
+- The selection of **3D Primitive** options has been expanded to include a **Dome** primitive with a fisheye UV map.
+- The ability to change the color of the **Camera** and **Projection Mapper** gizmos based on the **Comment Area** color in which the related nodes are included in the node graph has been added.
+- The option to set near/far distances has been added to the **Camera** and **Projection Mapper** settings.
+- The **Frustum Opacity** parameter and **Frustum Fill Opacity** parameter (hidden) have been added to the **Camera** and **Projection Mapper** settings.
+- The **Camera 3D** node has been renamed to **3D Camera**.
+- An option to disable casting shadows for objects has been added.
+
+### Calibrator
+
+- The count of calibrator licenses in multi-camera setups has been corrected.
+- Users are now prompted for confirmation before restoring calibration from a backup.
+- The **Mask** input functionality has now been added to the **Calibrator Patches**.
+- The **Blob Marker Position** parameter has been relocated to the **Calibrator Patches** settings, allowing for individual configuration. Additionally, test patterns for **Blobs** and **Blob Markers** have been introduced.
+- New **Rectangular Grid** and **Numbers** test patterns have been incorporated into the **Calibrator** to assist with the calibration of panoramas.
+- The geometry extrapolation algorithms in the **Calibrator** have been refined for areas beyond the camera’s view to suppress jagged edges.
+- An option to set the maximum extrapolation distance has been added to the **Calibrator**.
+- The **Circular Mask** option has been added to the **Blend Calibrator** node.
+- The default intensity blur radius has been set to 0, as this generally improves the quality of black maps generated during auto-calibration.
+
+### Patch Editor
+
+- The **Patch Editor** now shows the positions of selected points and the cursor with the help of indicators on horizontal and vertical rulers, enhancing the precision of editing.
+- The **Zoom to Pixels** and **Reveal All** view options have been introduced in the **Patch Editor**, which are accessible with the \*_\*_ and **Shift** + \*_\*_ shortcuts.
+- The auto-selection of control points is now blocked when using the keyboard, except for the arrow keys, to prevent accidental selection.
+
+### Panel Widgets
+
+- Active widgets are now highlighted with a blue outline for improved visibility, replacing the thin top border line indicator used previously.
+- An **Add Widget** button is now featured in empty workspaces, streamlining the process of adding new widgets.
+- Widget icons are now displayed on the tabs and within the **Insert Widget** dropdown menu for quicker widget identification.
+
+### Video Preview
+
+- The maximum stream size for **Video Preview** has been expanded from 2048x2048 to 4096x4096 pixels, accommodating higher resolution requirements.
+- The **Video Preview** widget interface has been refined by replacing the top toolbar with a compact floating **View Options** (Eye) button in the top left corner.
+
+### Files Widget
+
+- The **Copy Path** option now copies the absolute path in the native format of the operational system where the Screenberry Panel is open.
+- The **Files** widget has been improved with the addition of **Back**, **Forward**, **Go to Parent Folder**, **Refresh**, and **New Folder** buttons on the top toolbar, as well as more distinct icons for folders and files.
+- The "Scanning Media: items left" status is now displayed in the bottom left corner of the **Files** widget during the initial scan of media items, providing users with real-time progress updates.
+
+### Network Communication
+
+- Network communication between the Server and Panel has been optimized to reduce latency and increase upload/download speeds.
+- The Screenberry Server now routes all communication via a single TCP port (45100) for both messages and files, enhancing efficiency.
+
+### Audio
+
+The base audio library has been redesigned:
+
+- Devices now automatically reinitialize upon disconnection and reconnection.
+- Devices now automatically reinitialize when there are changes in device properties within the system.
+- Enhanced PulseAudio support for the Linux version of Screenberry has been added, including options for selecting cards, profiles, and ports.
+- The option to select device sample rates has been added.
+- Crashes that occurred when an ASIO device was disconnected have been fixed.
+
+### Other Improvements
+
+- **Server**: The opening of projects by relative paths has been enabled using the --projectPath command line argument.
+- **Server**: Server startup time has been reduced by approximately 0.5 seconds by skipping the GPU info retrieval stage.
+- **Panel**: The loading phase when connecting to a server containing numerous widgets has been accelerated.
+- **Canvas**: The **Always on Top** window setting is now ensured to be consistently applied. A **Shift** + **Esc** shortcut has been added to temporarily disable this feature.
+- **Render Target**: A **Test Pattern** parameter has been added.
+- **TouchEngine:** Screenberry now waits until TouchEngine finishes frame rendering for better synchronization. If there is any lag from TouchEngine, Screenberry dynamically adjusts its frame rate downward to maintain synchronization.
+- **Media Library**: The ability to change the frame rate of media items has been added.
+- **Script**: The _TcpClient_ object API has been improved to prevent frame drops while connecting or awaiting data from a TCP stream within scripts.
+- **Listener Nodes**: A **Screenberry API** option has been added to enable or disable the processing of input commands with the Screenberry Protocol.
+- **GLSL Shader**: The **GLSL Shader** has been updated to output an image directly, rather than a patch.
+- **GLSL Shader**: The **GLSL Shader** now preserves links for input images when new ISF shaders are loaded.
+- **Art-Net Receiver**: The **Events** output parameter has been added to the **Art-Net Receiver** node, facilitating the mapping of **Media Player** media items to DMX signals.
+- **Demo Activation**: Now, when a USB dongle with a valid license is inserted while the Demo activation window is open, the form will be automatically completed and closed, and it will not reappear on subsequent starts.
+- **Opening a project**: Now, a project automatically opens from the backup if the current project file becomes corrupted.
+- **Serial Port Output**: A **Keep Port Open** option has been added, enabled by default. While the default behavior remains unchanged, users now have the ability to disable it for easier open/send/close communications if needed.
+- **System Exec**: The **Verbose Logging** parameter has been added, along with the **Return Code**, **Stdout**, and **Stderr** output parameters.
+- **Licenses Widget**: The **License ID** for the currently active USB dongle is now displayed.
+
+## Third-party Library Updates
+
+_NDI SDK_ has been updated to version 6.0.0.
+
+_TouchEngine SDK_ has been updated to version 2023.11340.
+
+_SDL2 library_ has been updated from version 2.20 to 2.30.
+
+_Deltacast SDK_ has been updated from version 6.18 to 6.21.03 (in **Deltacast Capture**).
+
+The _Canon library_ has been updated to the EDSDKv131800W version.
+
+The _Canon library_ for _digiCamControl_ has been upgraded to support the latest Rebel series cameras (in **Digital Camera**).
+
+_digiCamControl_ has been updated to version 2.1.6.
+
+_gphoto2_ has been updated to version 2.5.31 (Windows and Linux).
+
+## Fixes
+
+### Media Player
+
+### Timeline
+
+- Fixed the issue with starting playback on the correct frame after seeking on pause.
+- Ensured that the timecode is followed for audio-only items.
+- Adjusted the output timecode to include the configured timeline offset.
+- Added a duration setting display for **Data Item**.
+- Prevented the playhead from jumping to the jump marker when seeking on pause.
+- Jump markers are now ignored when seeking while paused to prevent accidental playhead jumps.
+- Resolved an issue where the **Split At Frame** action for the media item failed to function in the **Preview Dialog** if the **In/Out Points** of the media item had been previously set.
+- Resolved a problem where playback would stop on invalid items.
+- Fixed an issue where the output image of a paused timeline would not update when the media item blending mode was changed.
+
+### Matrix-based playlist
+
+- Fixed the reveal of active items in the matrix grid.
+- Resolved an issue where pressing the **Play** button had no effect when the playback of all rows had been previously stopped. Now, pressing **Play** in this scenario initiates playback from the start of each row.
+- Corrected an issue where items dragged from the system folder were not predictably appending to the matrix; items are now added to the end of the first matrix row.
+- Corrected the issue with the item playback progress indicator flickering when changing the media item volume or other settings.
+
+### General
+
+- Optimized playback for GBRP10LE pixel format (10-bit DPX).
+- Enhanced the responsiveness of the Screenberry Panel when processing large numbers of playlists (5000 or more).
+- Changes to locked playlists are now also restricted in the **Web Panel**. Previously, locked playlists could still be modified from the **Web Panel**.
+- Fixed an issue where the set **Out Point** for AUX items was ignored during playback.
+- Corrected the algorithm for sorting within playlists by path, label, and duration.
+- Resolved issues where the timecode widget failed to display the correct frame rate after modifications were made using the widget.
+- Fixed issues where playlists were not copied along with the copy-pasted **Media Players** containing them.
+- Resolved an issue where AUX playback would halt subsequent changes to the AUX item settings.
+
+### Node Graph
+
+- Fixed the issue with the **Hide Unlinked Pins** functionality not working for multiple selected nodes.
+- Addressed a panel crash issue that occurred when ungrouping a group of nodes that included any audio node.
+- Fixed an issue where the **Reset to Default** option was not displayed for path parameters in the node settings.
+- Corrected node positioning in the node graph following grouping and ungrouping actions.
+- Fixed an issue where audio node links were no longer animated.
+
+### Content Upload
+
+- Corrected video file conversion for special frame rate values, e.g., 30.0003.
+- Fixed sequence uploading for files named using the following format: _name.number.extension_.
+- Fixed issues related to changing the settings for an uploaded item while the next item in the queue is still converting.
+- Resolved incorrect warning messages being displayed when aborting all uploads.
+- Fixed the issue with a server crash occurring when uploading images/videos smaller than 32x32 pixels using the Cineform preset.
+- Corrected the issues with the conversion of PNG images that use PAL8 (8-bit indexed color).
+
+### 3D Scene
+
+- Fixed issues with the 3D Scene widget’s display and functionality when opened in exclusive mode (shortcut '**\~**').
+
+### Undo Stack
+
+- Enabled undo functionality in the **User Control**, **Transform 2D**, **Color Correction**, and **GUI Panel** widgets.
+- Eliminated unnecessary undo steps in **Node Settings** and **Inspector** when adjusting parameter values using a mouse.
+- Fixed inconsistencies when editing 2-component values with multiple items with different values selected.
+- Fixed the undo functionality in the **Media Player** for adding/removing playlists and changing playlist preferences.
+
+### Calibrator
+
+- Resolved issues with saving files in the **Dome SDK Saver** under a calibrator-only license with **Render Target** nodes present in the pipeline.
+- Corrected display height information in **Dome SDK Saver** info.xml files.
+- Fixed the server freeze that occurred during geometry calibration with the pattern level 8 by switching to vector-based extrapolation instead of RBF.
+
+### Patch Editor
+
+- Resolved the issue with the incorrect reordering of patches in the patch list.
+
+### Video Preview
+
+- Resolved issues with the preview freezing after renaming nodes.
+
+### Other Fixes
+
+- **Panel**: Ensured that focus is maintained on previously selected UI elements upon switching between widgets.
+- **Panel**: Removed an empty menu bar on top of the Screenberry Panel window on macOS.
+- **Panel**: Fixed an issue where the Screenberry Panel window border would become corrupted after moving the Panel to a second display.
+- **Canvas**: Fixed the detection of NVIDIA Quadro cards for the RTX and Ada series (used exclusively for **Datapath Capture** and plugins).
+- **Video Capture on Linux**: Improved compatibility with Datapath Vision capture cards featuring multiple inputs and streamlined usage by replacing the **Vision** node with the **Video Capture** node.
+- **Media Library**: Resolved a server freeze issue that occurred when accessing a folder containing over 3,000 RVA items.
+- **RTMP Out**: Addressed audio/video synchronization issues.
+- **RTMP Server**: Fixed audio/video synchronization issues that occurred after restarting the stream.
+- **Plugins**: Resolved an issue where links would be lost after a restart when using plugins with licenses other than Screenberry Pro.
+- **Image File**: Fixed loading issues for SBRAW images in float format.
+- **Preset Widget**: Corrected table layout issues in exclusive mode (shortcut '**\~**') for the **Preset** widget.
+- **Notch Playback**: Ensured that color parameter links are preserved after restarts.
+- **Notch Playback**: Fixed GPU selection for GPUs with identical names.
+- **Switch**: Fixed the loss of names for the 3rd and subsequent input parameters after a restart.
+- **Project Backups**: Prevented changes to the modification time of the backup file when loading projects from backups.
+- **GLSL Shader**: Resolved the incorrect functioning of the IMG\_NORM\_PIXEL operator in ISF shaders.
+- **TouchEngine**: Fixed a server crash related to adding parameters while the TOX was not fully loaded by restricting parameter addition during TOX loading.
+- **HTTP Listener**: Resolved the issue where the Screenberry favicon.ico would not display in the browser when sending requests.
+- **Datapath Capture**: Fixed GPUDirect issues that occurred with Datapath Vision versions 7.27 and 7.28.
+- **DomeSDK Saver**: Fixed incompatibility issues with the **Gate** and **Switch** nodes in the pipeline.
+- **DomeSDK Saver**: Fixed the issue causing inaccurate UV map saving when utilizing the **UV Remap** node with the 32-bit float image format in the pipeline.
+- **Audio Analyzer**: Fixed an issue where the output image would fail to update after audio input ceased.
+- **Fonts**: Ensured that the same font is selected on Screenberry Server startup even when the system font list changes.

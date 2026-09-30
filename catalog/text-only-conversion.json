@@ -1,0 +1,4687 @@
+{
+  "schema_version": 1,
+  "reason": "User requested text-only knowledge; illustrations reserved for User Guide briefs.",
+  "documents": 174,
+  "removed_images": 1234,
+  "guide_briefs": 786,
+  "visual_inspection_performed": false,
+  "entries": [
+    {
+      "document": "knowledge/en/compatibility/getting-started/hardware.md",
+      "before_sha256": "02c78c63e8f7d32ac206f14de5ebac54d40917fffb21a59539212ee189e186da",
+      "after_sha256": "63e25b37bfd13653d0ce949a232a8f6a32c5c49edbf605590d910a760b294257",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 8,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/compatibility/getting-started/platform-compatibility.md",
+      "before_sha256": "56e91c2c5f4528dc58f6454d3e8c5c9f9053a00d9ed0a4ab39ac009c49c1f635",
+      "after_sha256": "1a983d294022a2cae9bfe774f656a66a265884f682c3861fe7b4aaad625ad0b7",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [
+        {
+          "original": "https://screenberry.com/contact-us",
+          "external": "https://screenberry.com/contact-us"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 2,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/concepts/3d-scene/overview.md",
+      "before_sha256": "5a4dbb15f07225216d33287a57db78f959a8466447d916b741a5a43ad42c6040",
+      "after_sha256": "7b19761a5e8c9fec63c889cbd248ca4ea243428826255ca3173a4970a299a3d5",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/concepts/automatic-calibration/automatic-calibration-basics.md",
+      "before_sha256": "418305d9f8a81b281d74a2c4c59c1b8173838824e41bd9f0d90a0ced09dae598",
+      "after_sha256": "496d89a94917ba6870c47a9ed76c746e11cfe1c1f2fdc1de91da1cf07234e2f6",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/concepts/getting-started/screenberry-overview.md",
+      "before_sha256": "0269ca108bfd5dfecfcf95cf7ec4397c9c959fbd6313f30e8001ab29af338748",
+      "after_sha256": "674288bf63bdc6b12f330e383482327798efedeaebc74d233a8366584f44f167",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 2,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/concepts/index.md",
+      "before_sha256": "c09ae1d52a33e5de9e3ce49562381258ffe6af5fa768a552ae7885636d5167b5",
+      "after_sha256": "87707a47127353857fd3ff7b77c65c5050f118e6c1c6f70d41dc0509fa0d8d35",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/concepts/media-playback/matrix-based-playlists/overview.md",
+      "before_sha256": "9a38a9178d8dc460e59ec17a5a656b645c6b7d69304b0941c53522aabac92e55",
+      "after_sha256": "add2081e22453e0c696e74972dc67c70e65944e57fe9ea142961cb356f461532",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 2,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/concepts/media-playback/media-player/media-player-overview.md",
+      "before_sha256": "9835407df551f6d39422000b82be4dd8bda9a9c780a0e6a51840d430ad56f73d",
+      "after_sha256": "43e96b087fb412596431e5ba62b41465cd62db06271eb262e5e5109a047481d0",
+      "removed_images": 4,
+      "guide_briefs": 3,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/addfolder.png",
+          "original_alt": "Addfolder",
+          "preserved_label": "Addfolder"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/concepts/organizing-media/media-library-overview.md",
+      "before_sha256": "91046d3bf95075b147df3c35e04e6ee10de5e149689cb8028dc322aa1754aa14",
+      "after_sha256": "cf0325cfbc313d5d4831fbcfdf521d0a18010674047a0f4d7207c94c21c92156",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/concepts/patch-editor/patch-editor-basics.md",
+      "before_sha256": "8f35417838351a4b185445dffceb84c7e3a090f53bfe11022ed95aa5dbb6c4f0",
+      "after_sha256": "6e156ae2845a4f26c047e34d983b86b5f64935271d9b1ef3c153f49804f01522",
+      "removed_images": 11,
+      "guide_briefs": 5,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/patch-editor/static/vm1.png",
+          "original_alt": "Vm1",
+          "preserved_label": "Vm1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/patch-editor/static/vm2.png",
+          "original_alt": "Vm2",
+          "preserved_label": "Vm2"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/patch-editor/static/vm3.png",
+          "original_alt": "Vm3",
+          "preserved_label": "Vm3"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/patch-editor/static/vm4.png",
+          "original_alt": "Vm4",
+          "preserved_label": "Vm4"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/patch-editor/static/zoom-icon.png",
+          "original_alt": "Zoom Icon",
+          "preserved_label": "Zoom Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/patch-editor/static/pan-icon.png",
+          "original_alt": "Pan Icon",
+          "preserved_label": "Pan Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/concepts/warping-alignment/overview.md",
+      "before_sha256": "370972cc0048589e573b22a6752be0439132f174f203f2d940f4b3fbaa653b84",
+      "after_sha256": "4c0f181a2b0a68191b47b0c9466195faf52bb0dc048f3ec0313f05d5e398a23d",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/concepts/working-with-nodes/node-basics.md",
+      "before_sha256": "4e1428358d8b601242ff6f9675579a5e4ac9270c0d4acffc68d226eee6e0917e",
+      "after_sha256": "69ee1e5ad14984df634c3903187c0b694a7575cb71aa99e50e1424b296a64da7",
+      "removed_images": 9,
+      "guide_briefs": 6,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/status-enabled.png",
+          "original_alt": "Status Enabled",
+          "preserved_label": "Status Enabled"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/status-disabled.png",
+          "original_alt": "Status Disabled",
+          "preserved_label": "Status Disabled"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/status-notactive.png",
+          "original_alt": "Status Notactive",
+          "preserved_label": "Status Notactive"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 5,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/3d-scene/3d-camera.md",
+      "before_sha256": "f900d6f5b9f96a72f7d180c626337757d7e7381690af5ccc98d6a39ebfb539e9",
+      "after_sha256": "152da3bd2181b6333dffe3443dce7df7b596e817fd664326f3063311f8d03187",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/3d-scene/3d-model.md",
+      "before_sha256": "90db601b26f390192c801b42e4c2bdc25cbc45e60f7a1229e65f7b37e8a41bfb",
+      "after_sha256": "9e042d6d0c36979f358946463c6eb68ceecc76e27e937232ffb70f66b6caab52",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/3d-scene/3d-primitive.md",
+      "before_sha256": "f01a2e85658e47c1dfe9583ed9e69cb56b60805b40feebf7769cd631fdee0c72",
+      "after_sha256": "a557bd2e1d3430b0e3a304978694536f70f1c0c018f7757918f11e4a5598277d",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 5,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/3d-scene/3d-scene-view-navigation.md",
+      "before_sha256": "972aa57cb1ff1977fec5b58401dbe543cc34943d17b42d9cd9405645000ecf93",
+      "after_sha256": "2f58552a8446a070b6948ca30d0258b37c48a6d9f101744ff0b8714e63783455",
+      "removed_images": 14,
+      "guide_briefs": 1,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/View-Selector.png",
+          "original_alt": "alt text",
+          "preserved_label": "icon (description unverified)"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/UV-Viewer.png",
+          "original_alt": "alt text",
+          "preserved_label": "icon (description unverified)"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Camera-View.png",
+          "original_alt": "alt text",
+          "preserved_label": "icon (description unverified)"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Fly-Mode-Icon.png",
+          "original_alt": "Fly Mode Icon",
+          "preserved_label": "Fly Mode Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Orbit-Mode-Icon.png",
+          "original_alt": "Orbit Mode Icon",
+          "preserved_label": "Orbit Mode Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Pan-Mode-Icon.png",
+          "original_alt": "Pan Mode Icon",
+          "preserved_label": "Pan Mode Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Zoom-Mode-Icon.png",
+          "original_alt": "Zoom Mode Icon",
+          "preserved_label": "Zoom Mode Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Select-Tool-Icon.png",
+          "original_alt": "Select Tool Icon",
+          "preserved_label": "Select Tool Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Move-Tool-Icon.png",
+          "original_alt": "Move Tool Icon",
+          "preserved_label": "Move Tool Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Rotate-Tool-Icon.png",
+          "original_alt": "Rotate Tool Icon",
+          "preserved_label": "Rotate Tool Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Scale-Tool-Icon.png",
+          "original_alt": "Scale Tool Icon",
+          "preserved_label": "Scale Tool Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Object-Mode-Icon.png",
+          "original_alt": "Object Mode Icon",
+          "preserved_label": "Object Mode Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Mesh-Mode-Icon.png",
+          "original_alt": "Mesh Mode Icon",
+          "preserved_label": "Mesh Mode Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/3d-scene/creating-3d-scene.md",
+      "before_sha256": "7e3d8c4de61e5684f9565d12faa619d8af42fdf3d356d74de9129069d1b39072",
+      "after_sha256": "1f49efcd53defaf2e63c13acaaf28f670b913e633cde0f659adfc344262fb83b",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/3d-scene/projection-mapper.md",
+      "before_sha256": "c8c104bbf05e8c1774aa45ea31dad7eaf205ce3849dfd006f189ee7c028b28e5",
+      "after_sha256": "68b29b3e3785192d4fb563347f8d3dd65068e5dca04be583ff79ff51ab0e18e7",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/3d-scene/working-in-3d-scene.md",
+      "before_sha256": "41f8bfbff7b4d9c12842f016c9a6d3eac78cb71e11b69fd46505d0ad0d010f8d",
+      "after_sha256": "598433bfdf41f7f593a2576ac7d15bc48ae1d60eadecb66780679fc0e79f09c4",
+      "removed_images": 8,
+      "guide_briefs": 8,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 27,
+      "headings_preserved": 7,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/automatic-calibration/calibration-process.md",
+      "before_sha256": "2614d107d9b20e0e6e43f8fe8f30957934787fc68aa7bf2ce7b9a087ce99f4ca",
+      "after_sha256": "e578f9ed26e0c06b3b58137d8b6be6721d9d78cf5cdc03575f78f41a407fec76",
+      "removed_images": 26,
+      "guide_briefs": 5,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Retake-Photo-Button.png",
+          "original_alt": "Retake Photo Button",
+          "preserved_label": "Retake Photo Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Bounding-Box-Off-checkbox.png",
+          "original_alt": "Bounding Box Off Checkbox",
+          "preserved_label": "Bounding Box Off Checkbox"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Bounding-Box-mode.png",
+          "original_alt": "Bounding Box Mode",
+          "preserved_label": "Bounding Box Mode"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Circular-mode.png",
+          "original_alt": "Circular Mode",
+          "preserved_label": "Circular Mode"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/zoom-icon.png",
+          "original_alt": "Zoom Icon",
+          "preserved_label": "Zoom Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/pan-icon.png",
+          "original_alt": "Pan Icon",
+          "preserved_label": "Pan Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Reset-Calibration-Area-Button.png",
+          "original_alt": "Reset Calibration Area Button",
+          "preserved_label": "Reset Calibration Area Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Start-Button.png",
+          "original_alt": "Start Button",
+          "preserved_label": "Start Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Abort-Button.png",
+          "original_alt": "Abort Button",
+          "preserved_label": "Abort Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Finish-Button.png",
+          "original_alt": "Finish Button",
+          "preserved_label": "Finish Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/mask1.png",
+          "original_alt": "Mask1",
+          "preserved_label": "Mask1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/mask2.png",
+          "original_alt": "Mask2",
+          "preserved_label": "Mask2"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Geometry1.png",
+          "original_alt": "Geometry1",
+          "preserved_label": "Geometry1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Geometry2.png",
+          "original_alt": "Geometry2",
+          "preserved_label": "Geometry2"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/blend1.png",
+          "original_alt": "Blend1",
+          "preserved_label": "Blend1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/blend2.png",
+          "original_alt": "Blend2",
+          "preserved_label": "Blend2"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/colors.png",
+          "original_alt": "Colors",
+          "preserved_label": "Colors"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/int1.png",
+          "original_alt": "Int1",
+          "preserved_label": "Int1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/int2.png",
+          "original_alt": "Int2",
+          "preserved_label": "Int2"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/int3.png",
+          "original_alt": "Int3",
+          "preserved_label": "Int3"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/int4.png",
+          "original_alt": "Int4",
+          "preserved_label": "Int4"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/automatic-calibration/post-calibration.md",
+      "before_sha256": "f42e03e93d6d7a0dacfc50a0d2ce9b1283804928bdceef241995549a1739eee4",
+      "after_sha256": "0fbf39df032660ef544c29486042c46173a0cc228cca1de424aed0bbacb00945",
+      "removed_images": 2,
+      "guide_briefs": 1,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Open-Calibration-Images-Viewer-button.png",
+          "original_alt": "Open Calibration Images Viewer",
+          "preserved_label": "Open Calibration Images Viewer"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/automatic-calibration/setting-up-calibration-camera.md",
+      "before_sha256": "be974ca94f3a59d9eba368a9fe454c80c49329192526208f74f6f695676b0192",
+      "after_sha256": "6a06ece4b49e591d4f2743699431423f08b436454848155df8dd2c17bb6e39fc",
+      "removed_images": 6,
+      "guide_briefs": 5,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Remove-lens-cap.png",
+          "original_alt": "Remove Lens Cap",
+          "preserved_label": "Remove Lens Cap"
+        }
+      ],
+      "externalized_links": [
+        {
+          "original": "http://www.gphoto.org/proj/libgphoto2/support.php",
+          "external": "http://www.gphoto.org/proj/libgphoto2/support.php"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/automatic-calibration/setting-up-projectors.md",
+      "before_sha256": "c09d64c51d1a6ffc1ce2512eae1f29f54322472e81117867ee3aaf9f9c64dd1f",
+      "after_sha256": "f08224e24476779953177bbaddb9bf5ba30aa564a0d82e0c0dbce5966c2218ef",
+      "removed_images": 2,
+      "guide_briefs": 1,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Show-Test-Pattern.png",
+          "original_alt": "Show Test Pattern",
+          "preserved_label": "Show Test Pattern"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/display-editor.md",
+      "before_sha256": "e99faf94357af973d63495d2f6ba5e59ebf4bff421f02ff94afc9f26921c306f",
+      "after_sha256": "c1a554d238ad3b2a8fb854376955e8d5c919640df1b2df83c6accdd172705805",
+      "removed_images": 20,
+      "guide_briefs": 18,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/display-editor/static/zoom-icon.png",
+          "original_alt": "Zoom Icon",
+          "preserved_label": "Zoom Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/display-editor/static/pan-icon.png",
+          "original_alt": "Pan Icon",
+          "preserved_label": "Pan Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 9,
+      "headings_preserved": 15,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/displays-control.md",
+      "before_sha256": "9bec02f630520ef146556aed72d8a3ce58dc40ab447027d3a8ae30e526ea0c06",
+      "after_sha256": "73348c545a8d2a49cf73d60ea88a9c3edb644b0711a712b5ee93a0c2b4f7371f",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 2,
+      "headings_preserved": 15,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/getting-started/software.md",
+      "before_sha256": "40c170fb15c15e601eeb50a040d1458ed21f52cc929042d4d9c1a92e8911d60f",
+      "after_sha256": "c11b8834fc5bc2468db9b2344adaa76bd83e37f95c7dc07531504f9412e53726",
+      "removed_images": 9,
+      "guide_briefs": 1,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/getting-started/static/install1.png",
+          "original_alt": "Screenberry Setup Wizard welcome screen",
+          "preserved_label": "Screenberry Setup Wizard welcome screen"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/getting-started/static/Install2.png",
+          "original_alt": "Screenberry Setup Wizard installation-folder selection",
+          "preserved_label": "Screenberry Setup Wizard installation-folder selection"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/getting-started/static/install3.png",
+          "original_alt": "Screenberry Setup Wizard component selection",
+          "preserved_label": "Screenberry Setup Wizard component selection"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/getting-started/static/install4.png",
+          "original_alt": "Screenberry End User License Agreement in the Setup Wizard",
+          "preserved_label": "Screenberry End User License Agreement in the Setup Wizard"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/getting-started/static/Install5.png",
+          "original_alt": "Screenberry Start menu shortcut options",
+          "preserved_label": "Screenberry Start menu shortcut options"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/getting-started/static/install6.png",
+          "original_alt": "Screenberry Setup Wizard shortcut-folder selection",
+          "preserved_label": "Screenberry Setup Wizard shortcut-folder selection"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/getting-started/static/install7.png",
+          "original_alt": "Screenberry Setup Wizard ready to install Screenberry",
+          "preserved_label": "Screenberry Setup Wizard ready to install Screenberry"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/getting-started/static/install8.png",
+          "original_alt": "Screenberry installation completed in the Setup Wizard",
+          "preserved_label": "Screenberry installation completed in the Setup Wizard"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 1,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/media-playback/matrix-based-playlists/adding-organizing-media-items.md",
+      "before_sha256": "272906262b2acc44587f47a394477aeaa9f4d8f27961fe2e28fae2698844ab4f",
+      "after_sha256": "b936f910e1cda217b2a1a7a39049fa63d8f403effb8deb1f30a185d381957a7f",
+      "removed_images": 17,
+      "guide_briefs": 12,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/animation/Duplicate-Split-Matrix.gif",
+          "original_alt": "Duplicate Split Matrix",
+          "preserved_label": "Duplicate Split Matrix"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/eye.png",
+          "original_alt": "Eye",
+          "preserved_label": "Eye"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/t-square.png",
+          "original_alt": "T Square",
+          "preserved_label": "T Square"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/t-wide.png",
+          "original_alt": "T Wide",
+          "preserved_label": "T Wide"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/t-tall.png",
+          "original_alt": "T Tall",
+          "preserved_label": "T Tall"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 13,
+      "headings_preserved": 11,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.md",
+      "before_sha256": "5e53e95bc5d7d68957e1969352f474598c77b2f052b27a6654301a70bbf56461",
+      "after_sha256": "ef1727285c527aa1dc3c52935f05abdc8af418e5d9e7f05b08ab051fbf725d1e",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/media-playback/matrix-based-playlists/managing-playlists.md",
+      "before_sha256": "6966b0cb24ebd8140311410ede78dafab77a4a79f40484aafb5e7b17c2e6ea14",
+      "after_sha256": "45fa7d6be00999f6ae78661845577ba3001d540b6c2906d2e0791467ef5d574e",
+      "removed_images": 8,
+      "guide_briefs": 6,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/add.png",
+          "original_alt": "Add",
+          "preserved_label": "Add"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/trash.png",
+          "original_alt": "Trash",
+          "preserved_label": "Trash"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 6,
+      "headings_preserved": 7,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/media-playback/matrix-based-playlists/playback.md",
+      "before_sha256": "4983ced82d02a09d475fc050fb7a70e21bbba20e9f88978826a465eff1a8b5de",
+      "after_sha256": "591d7cb84bbf5a2e3384fe503b8f31b2ea02be1d78e9c89b052bd1b9adbf28b1",
+      "removed_images": 25,
+      "guide_briefs": 7,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/altplay.png",
+          "original_alt": "Altplay",
+          "preserved_label": "Altplay"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play1.png",
+          "original_alt": "Play1",
+          "preserved_label": "Play1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play1.png",
+          "original_alt": "Play1",
+          "preserved_label": "Play1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/prev.png",
+          "original_alt": "Prev",
+          "preserved_label": "Prev"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/next.png",
+          "original_alt": "Next",
+          "preserved_label": "Next"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/prev.png",
+          "original_alt": "Prev",
+          "preserved_label": "Prev"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/next.png",
+          "original_alt": "Next",
+          "preserved_label": "Next"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/lock.png",
+          "original_alt": "Lock",
+          "preserved_label": "Lock"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/reveal-icon.png",
+          "original_alt": "Reveal Icon",
+          "preserved_label": "Reveal Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 3,
+      "headings_preserved": 7,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/media-playback/playlists/creating-managing-playlists.md",
+      "before_sha256": "a65555057a0b2a206d113d1e908ebdfbc95f9e799ee5dc2b1d4b0388e19bba0e",
+      "after_sha256": "b7c2b389b9c42b3fe5fdc74d040f3620aaf375bb72156f0e7370f26e19c3df71",
+      "removed_images": 10,
+      "guide_briefs": 7,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/add.png",
+          "original_alt": "Add",
+          "preserved_label": "Add"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/add.png",
+          "original_alt": "Add",
+          "preserved_label": "Add"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/trash.png",
+          "original_alt": "Trash",
+          "preserved_label": "Trash"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 6,
+      "headings_preserved": 7,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/media-playback/playlists/organizing-media-items-in-playlists.md",
+      "before_sha256": "fad637c87c16ad2a86ec0643ddef487925a15fbe32fc1eac1f1b4ecee1b913c4",
+      "after_sha256": "dbba01a07d408f15cbeeeff098fa7a8c453960426c1d38e459d1b566a652c099",
+      "removed_images": 15,
+      "guide_briefs": 11,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/eye.png",
+          "original_alt": "Eye",
+          "preserved_label": "Eye"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/t-square.png",
+          "original_alt": "T Square",
+          "preserved_label": "T Square"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/t-wide.png",
+          "original_alt": "T Wide",
+          "preserved_label": "T Wide"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/t-tall.png",
+          "original_alt": "T Tall",
+          "preserved_label": "T Tall"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 21,
+      "headings_preserved": 8,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/media-playback/playlists/playlists-playback.md",
+      "before_sha256": "b4b69f88cfc494556e27b6e26dddd7d2c044c5b766a28b2d835eafdfbecc5065",
+      "after_sha256": "019031c2fd02d506e25e0f73b86a02f5e2fcbd8b92f2962b1b05303894d1329f",
+      "removed_images": 26,
+      "guide_briefs": 10,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play1.png",
+          "original_alt": "Play1",
+          "preserved_label": "Play1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/prev.png",
+          "original_alt": "Prev",
+          "preserved_label": "Prev"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/next.png",
+          "original_alt": "Next",
+          "preserved_label": "Next"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/lock.png",
+          "original_alt": "Lock",
+          "preserved_label": "Lock"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/dd1.png",
+          "original_alt": "Dd1",
+          "preserved_label": "Dd1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/dd2.png",
+          "original_alt": "Dd2",
+          "preserved_label": "Dd2"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/dd3.png",
+          "original_alt": "Dd3",
+          "preserved_label": "Dd3"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/dds.png",
+          "original_alt": "Dds",
+          "preserved_label": "Dds"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play1.png",
+          "original_alt": "Play1",
+          "preserved_label": "Play1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/altplay.png",
+          "original_alt": "Altplay",
+          "preserved_label": "Altplay"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 5,
+      "headings_preserved": 8,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/media-playback/timelines/animation-and-keyframing.md",
+      "before_sha256": "917878abadb37c162d403028ab54baeeb4dc1db76c7a0fc009fc1ed15a9b112a",
+      "after_sha256": "c4763b94dcdbb971b36a67c27620767cffa3e2f9da747c6c6cdcae8af224a49d",
+      "removed_images": 14,
+      "guide_briefs": 8,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/rombus-icon.png",
+          "original_alt": "Rombus Icon",
+          "preserved_label": "Rombus Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/rombusi-icon.png",
+          "original_alt": "Rombusi Icon",
+          "preserved_label": "Rombusi Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/2arrows.png",
+          "original_alt": "2arrows",
+          "preserved_label": "2arrows"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/2arrows-blue.png",
+          "original_alt": "2arrows Blue",
+          "preserved_label": "2arrows Blue"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/rselected-icon.png",
+          "original_alt": "Rselected Icon",
+          "preserved_label": "Rselected Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/runselected-icon.png",
+          "original_alt": "Runselected Icon",
+          "preserved_label": "Runselected Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 6,
+      "headings_preserved": 2,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/media-playback/timelines/creating-managing-timelines.md",
+      "before_sha256": "a8470c4a8a7c95c0dac15b0d8469abdc3d094fd137835bd37ab7894119257245",
+      "after_sha256": "022b874a6025594a6894bbd37fed3909c80a6244fec7bf735ac1c7d72fe786d8",
+      "removed_images": 12,
+      "guide_briefs": 8,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/add.png",
+          "original_alt": "Add",
+          "preserved_label": "Add"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/add.png",
+          "original_alt": "Add",
+          "preserved_label": "Add"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/addfolder.png",
+          "original_alt": "Addfolder",
+          "preserved_label": "Addfolder"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/trash.png",
+          "original_alt": "Trash",
+          "preserved_label": "Trash"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 6,
+      "headings_preserved": 9,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/media-playback/timelines/organizing-media-in-timelines.md",
+      "before_sha256": "d025e8c23649f69b86648c7514ffe2743652e9e0e10438c28a9fbdef81f8fe0e",
+      "after_sha256": "1c8cfa62952526b26f78eba8ac2b79e4245c3322faccef344a1463e69c862598",
+      "removed_images": 18,
+      "guide_briefs": 13,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/trackabove-icon.png",
+          "original_alt": "Trackabove Icon",
+          "preserved_label": "Trackabove Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/trackbelow-icon.png",
+          "original_alt": "Trackbelow Icon",
+          "preserved_label": "Trackbelow Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/snap-icon.png",
+          "original_alt": "Snap Icon",
+          "preserved_label": "Snap Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/razor-icon.png",
+          "original_alt": "Razor Icon",
+          "preserved_label": "Razor Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/move-icon.png",
+          "original_alt": "Move Icon",
+          "preserved_label": "Move Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 14,
+      "headings_preserved": 14,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/media-playback/timelines/timeline-markers.md",
+      "before_sha256": "bc03f330547ba95efb4efe92613d2350fda5a37aff179793baba2549bdc6e70e",
+      "after_sha256": "1ea5f2ed83579f22fb6e6b3f62b8aa144722aaa3b5ec5dca28b458cf44d1d7f7",
+      "removed_images": 14,
+      "guide_briefs": 10,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/m1-icon.png",
+          "original_alt": "M1 Icon",
+          "preserved_label": "M1 Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/m2-icon.png",
+          "original_alt": "M2 Icon",
+          "preserved_label": "M2 Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/m3-icon.png",
+          "original_alt": "M3 Icon",
+          "preserved_label": "M3 Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/m4-icon.png",
+          "original_alt": "M4 Icon",
+          "preserved_label": "M4 Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/media-playback/timelines/timeline-playback.md",
+      "before_sha256": "4c851f260359d66ba3e889041cb692a9d3ece79df8518ef207628730f6235d5a",
+      "after_sha256": "186c42213f3f19935b4b09a5a82baf880cab84cab1dab559c9d6b97fda1727e3",
+      "removed_images": 11,
+      "guide_briefs": 1,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play1.png",
+          "original_alt": "Play1",
+          "preserved_label": "Play1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/altplay.png",
+          "original_alt": "Altplay",
+          "preserved_label": "Altplay"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/lock.png",
+          "original_alt": "Lock",
+          "preserved_label": "Lock"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/reveal-icon.png",
+          "original_alt": "Reveal Icon",
+          "preserved_label": "Reveal Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/lock.png",
+          "original_alt": "Lock",
+          "preserved_label": "Lock"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/lock.png",
+          "original_alt": "Lock",
+          "preserved_label": "Lock"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/reveal-icon.png",
+          "original_alt": "Reveal Icon",
+          "preserved_label": "Reveal Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 5,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/organizing-media/managing-folders.md",
+      "before_sha256": "7ac618193ee1ff9254e8a9a25fb3f243cfda02f8b7d98c66f2205b9de0148fbd",
+      "after_sha256": "927a3bab1f77e5073fb9dc1175f653951a2e379203fc814b76f07974b907d058",
+      "removed_images": 6,
+      "guide_briefs": 4,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/organizing-media/static/folder.png",
+          "original_alt": "Folder",
+          "preserved_label": "Folder"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/organizing-media/static/delete.png",
+          "original_alt": "Delete",
+          "preserved_label": "Delete"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 5,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/organizing-media/managing-media-items.md",
+      "before_sha256": "3f785c1eddd9ac0383a5c747b54e70d4177e020a883b37933e51038db9034435",
+      "after_sha256": "616e65e265b572dadbaca8a0a5d38dcb30b006c04af121159e12f237167c05a6",
+      "removed_images": 6,
+      "guide_briefs": 4,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/organizing-media/static/plus.png",
+          "original_alt": "Plus",
+          "preserved_label": "Plus"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/organizing-media/static/reload.png",
+          "original_alt": "Reload",
+          "preserved_label": "Reload"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 2,
+      "headings_preserved": 5,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/patch-editor/adding-and-managing-patches.md",
+      "before_sha256": "ab1da637eaba598118dc6d7ad95170b62efe5696e471d890a277fd3ebad82674",
+      "after_sha256": "4b881a4db90fb4b66e2ff132135f16647305f4701ebb044243b534df8ab18b77",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/patch-editor/editing-patches.md",
+      "before_sha256": "069cb67d6d68280aa4a9ba209d4311d19f0cbce73d1246486cce2ee63c05dddf",
+      "after_sha256": "ca9b10685a9355e39a5db71766d9141de77cb8c234079a750cc60ede4ee11bb5",
+      "removed_images": 43,
+      "guide_briefs": 43,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 39,
+      "headings_preserved": 23,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/web-panel.md",
+      "before_sha256": "1df4602aa41afa685548a7770d3950fe9d9e8a38f81c1bf38f4533171a19a8e7",
+      "after_sha256": "a2056b81ff31ea0f14969b03b370b8d197b2edd405933ffb398e9973765a13ac",
+      "removed_images": 29,
+      "guide_briefs": 8,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/burgmenu.png",
+          "original_alt": "Burgmenu",
+          "preserved_label": "Burgmenu"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/settings_button.png",
+          "original_alt": "Settings Button",
+          "preserved_label": "Settings Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/play-selected.png",
+          "original_alt": "Play Selected",
+          "preserved_label": "Play Selected"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/rew.png",
+          "original_alt": "Rew",
+          "preserved_label": "Rew"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/fwd.png",
+          "original_alt": "Fwd",
+          "preserved_label": "Fwd"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/volume.png",
+          "original_alt": "Volume",
+          "preserved_label": "Volume"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/play-selected.png",
+          "original_alt": "Play Selected",
+          "preserved_label": "Play Selected"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/settings_button.png",
+          "original_alt": "Settings Button",
+          "preserved_label": "Settings Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/settings_button.png",
+          "original_alt": "Settings Button",
+          "preserved_label": "Settings Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/edit.png",
+          "original_alt": "Edit",
+          "preserved_label": "Edit"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/trash.png",
+          "original_alt": "Trash",
+          "preserved_label": "Trash"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/edit-big.png",
+          "original_alt": "Edit Big",
+          "preserved_label": "Edit Big"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/plus.png",
+          "original_alt": "Plus",
+          "preserved_label": "Plus"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/plus-icon.png",
+          "original_alt": "Plus Icon",
+          "preserved_label": "Plus Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/add.png",
+          "original_alt": "Add",
+          "preserved_label": "Add"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/x-icon.png",
+          "original_alt": "X Icon",
+          "preserved_label": "X Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/edit-big.png",
+          "original_alt": "Edit Big",
+          "preserved_label": "Edit Big"
+        }
+      ],
+      "externalized_links": [
+        {
+          "original": "http://127.0.0.1:8081/",
+          "external": "http://127.0.0.1:8081/"
+        },
+        {
+          "original": "http://localhost:8081/",
+          "external": "http://localhost:8081/"
+        },
+        {
+          "original": "http://192.168.31.218:8081/",
+          "external": "http://192.168.31.218:8081/"
+        },
+        {
+          "original": "../../../assets/site-public/downloads/Web-Panel-Components.zip",
+          "external": "https://help.screenberry.com/downloads/Web-Panel-Components.zip"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 11,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/working-with-audio.md",
+      "before_sha256": "695ac63b4ad8f01e4ed7bb009a708466f90e91caaf97639edaddba04b9052fc7",
+      "after_sha256": "06d3eab9349311d3eb10ab044afdc816aceda385424df762bef0d93a2028b278",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 8,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/working-with-nodes/adding-and-managing-nodes.md",
+      "before_sha256": "1d9a4a765f60ecf2f851c1df5b1c217ec1813ce0c3a7f5c59d88b88f23c658a7",
+      "after_sha256": "dafa68c1f16c05ba3239c7cd336558b7c63ba2143700a808d83b9079f3995b63",
+      "removed_images": 14,
+      "guide_briefs": 14,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 9,
+      "headings_preserved": 10,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/working-with-nodes/linking-nodes.md",
+      "before_sha256": "728d78ece18fe277849b8187400ca689a491e58670a5431984906db64dc0252e",
+      "after_sha256": "4bf689705418e9db29b604770b436a6190c2861f14574d553f88c88641e46075",
+      "removed_images": 9,
+      "guide_briefs": 8,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/reorderarrows.png",
+          "original_alt": "Reorderarrows",
+          "preserved_label": "Reorderarrows"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 2,
+      "headings_preserved": 8,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/how-to/working-with-nodes/navigation-and-monitoring.md",
+      "before_sha256": "daf4ab9f4c0a167e8557335e27528ec1e46d72d8230f24aaf699998aefbac565",
+      "after_sha256": "cf8037433760363722db7036a80e380f0e5a4c5426cde8c773518f5e39409368",
+      "removed_images": 12,
+      "guide_briefs": 9,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/zoom-icon.png",
+          "original_alt": "Zoom Button",
+          "preserved_label": "Zoom Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/pan-icon.png",
+          "original_alt": "Pan Button",
+          "preserved_label": "Pan Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/search-icon.png",
+          "original_alt": "Search Button",
+          "preserved_label": "Search Button"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 8,
+      "headings_preserved": 9,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/3d-scene/3d-scene-settings.md",
+      "before_sha256": "6bc1ba78c95db3b1fe9d808ecd297a84ed379c981c5741783054a61dfe500a79",
+      "after_sha256": "8d0c2785a1dba53ef70126be108ffb246ebc8e36943fa6b795dfac25d45f72f9",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 8,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/getting-started/licensing.md",
+      "before_sha256": "07ad233d8f18aca370543d0222fad2a75f202231bf14c0a62781dfdd29644916",
+      "after_sha256": "85fbc4e39abb856ba09a5cb30f8c07408ab31436b3732927cafc977619fa8c7b",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [
+        {
+          "original": "https://screenberry.com/contact-us",
+          "external": "https://screenberry.com/contact-us"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 8,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/integration-control/screenberry-json-api.md",
+      "before_sha256": "2fae1f83c7cee9d971783f8738749c530d143e3d634b89dfb36be1d525216523",
+      "after_sha256": "a5b4decc463c91573a281f0295d381d3de99e065f52f3eb20013ceead47ee0ba",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 227,
+      "headings_preserved": 62,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/media-playback/media-player/media-player-global-settings.md",
+      "before_sha256": "00dedc643f5d77306e4736aa16e605723d03bffa652059017218183d809827fb",
+      "after_sha256": "d27bc0564d49dec2d9b4910335fea1d03c7dd14cbed8eb9011bc3d3810cd7571",
+      "removed_images": 4,
+      "guide_briefs": 2,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/colorcorrection.png",
+          "original_alt": "Colorcorrection",
+          "preserved_label": "Colorcorrection"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/volume.png",
+          "original_alt": "Volume",
+          "preserved_label": "Volume"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 10,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/media-playback/playlists/media-item-properties.md",
+      "before_sha256": "3d9061124217eecc0e8abd12e6f9aae4a1c719f0826e775438f824f5ce866579",
+      "after_sha256": "62bc180af0ab28a5815db340010a4b76f648025f2f4ee6aae247fda4a0c1c24e",
+      "removed_images": 64,
+      "guide_briefs": 26,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/FadeIn.png",
+          "original_alt": "FadeIn",
+          "preserved_label": "FadeIn"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/loop.png",
+          "original_alt": "Loop",
+          "preserved_label": "Loop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/PauseStart-1.png",
+          "original_alt": "PauseStart 1",
+          "preserved_label": "PauseStart 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/PauseEnd-1.png",
+          "original_alt": "PauseEnd 1",
+          "preserved_label": "PauseEnd 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/PauseStartEnd-1.png",
+          "original_alt": "PauseStartEnd 1",
+          "preserved_label": "PauseStartEnd 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/TCin.png",
+          "original_alt": "TCin",
+          "preserved_label": "TCin"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/TCout.png",
+          "original_alt": "TCout",
+          "preserved_label": "TCout"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/colorcorr.png",
+          "original_alt": "Colorcorr",
+          "preserved_label": "Colorcorr"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/alpha.png",
+          "original_alt": "Alpha",
+          "preserved_label": "Alpha"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/videodis.png",
+          "original_alt": "Videodis",
+          "preserved_label": "Videodis"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/alphades.png",
+          "original_alt": "Alphades",
+          "preserved_label": "Alphades"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/audiodes.png",
+          "original_alt": "Audiodes",
+          "preserved_label": "Audiodes"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/cc.png",
+          "original_alt": "Cc",
+          "preserved_label": "Cc"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/comment.png",
+          "original_alt": "Comment",
+          "preserved_label": "Comment"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/image.png",
+          "original_alt": "Image",
+          "preserved_label": "icon (description unverified)"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/video.png",
+          "original_alt": "Video",
+          "preserved_label": "Video"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/videostereo.png",
+          "original_alt": "Videostereo",
+          "preserved_label": "Videostereo"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/playback-play.png",
+          "original_alt": "Playback Play",
+          "preserved_label": "Playback Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/playback-pause.png",
+          "original_alt": "Playback Pause",
+          "preserved_label": "Playback Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/playback-stop.png",
+          "original_alt": "Playback Stop",
+          "preserved_label": "Playback Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/audio.png",
+          "original_alt": "Audio",
+          "preserved_label": "Audio"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/audiodes.png",
+          "original_alt": "Audiodes",
+          "preserved_label": "Audiodes"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/durationc.png",
+          "original_alt": "Durationc",
+          "preserved_label": "Durationc"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/duration.png",
+          "original_alt": "Duration",
+          "preserved_label": "Duration"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/FadeIns.png",
+          "original_alt": "FadeIns",
+          "preserved_label": "FadeIns"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/loop.png",
+          "original_alt": "Loop",
+          "preserved_label": "Loop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/PauseStart-1.png",
+          "original_alt": "PauseStart 1",
+          "preserved_label": "PauseStart 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/PauseEnd-1.png",
+          "original_alt": "PauseEnd 1",
+          "preserved_label": "PauseEnd 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/PauseStartEnd-1.png",
+          "original_alt": "PauseStartEnd 1",
+          "preserved_label": "PauseStartEnd 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/colorcorr.png",
+          "original_alt": "Colorcorr",
+          "preserved_label": "Colorcorr"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/TCin.png",
+          "original_alt": "TCin",
+          "preserved_label": "TCin"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/TCout.png",
+          "original_alt": "TCout",
+          "preserved_label": "TCout"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/TCinout.png",
+          "original_alt": "TCinout",
+          "preserved_label": "TCinout"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/alpha.png",
+          "original_alt": "Alpha",
+          "preserved_label": "Alpha"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/alphades.png",
+          "original_alt": "Alphades",
+          "preserved_label": "Alphades"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/mapping.png",
+          "original_alt": "Mapping",
+          "preserved_label": "Mapping"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/cc.png",
+          "original_alt": "Cc",
+          "preserved_label": "Cc"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/comment.png",
+          "original_alt": "Comment",
+          "preserved_label": "Comment"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 7,
+      "headings_preserved": 29,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/media-playback/playlists/transformation-properties.md",
+      "before_sha256": "dc2699c2e545dcd5d6a52cc8f9f6707c4ffad519fb4d0c31d1cfa5fae59a4cf5",
+      "after_sha256": "d93a7bec5fbd6895985ed3ff543de92bf6f3e683b4c5241914e466dca34d3d13",
+      "removed_images": 9,
+      "guide_briefs": 9,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 12,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/media-playback/timelines/timeline-view.md",
+      "before_sha256": "4676d4b426b2c30288680ddc881ca3cc789b8f0ecb85b9599c453e581abbbfa7",
+      "after_sha256": "243f3999fa69a7c4a957ead7d65f1d4a5a41538cbd98b9d0f29bef5e4c50b30d",
+      "removed_images": 19,
+      "guide_briefs": 4,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/razor-icon.png",
+          "original_alt": "Razor Icon",
+          "preserved_label": "Razor Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/move-icon.png",
+          "original_alt": "Move Icon",
+          "preserved_label": "Move Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/playheadsnap-icon.png",
+          "original_alt": "Playheadsnap Icon",
+          "preserved_label": "Playheadsnap Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/snap-icon.png",
+          "original_alt": "Snap Icon",
+          "preserved_label": "Snap Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play1.png",
+          "original_alt": "Play1",
+          "preserved_label": "Play1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/lock.png",
+          "original_alt": "Lock",
+          "preserved_label": "Lock"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/reveal-icon.png",
+          "original_alt": "Reveal Icon",
+          "preserved_label": "Reveal Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/playheadsnap-icon.png",
+          "original_alt": "Playheadsnap Icon",
+          "preserved_label": "Playheadsnap Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/zoomplus-icon.png",
+          "original_alt": "Zoomplus Icon",
+          "preserved_label": "Zoomplus Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/zoomminus-icon.png",
+          "original_alt": "Zoomminus Icon",
+          "preserved_label": "Zoomminus Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/zoomfit-icon.png",
+          "original_alt": "Zoomfit Icon",
+          "preserved_label": "Zoomfit Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/zoomframe-icon.png",
+          "original_alt": "Zoomframe Icon",
+          "preserved_label": "Zoomframe Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 13,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/node-reference/integration-nodes/notchplayback.md",
+      "before_sha256": "e8f1585e5ba1b4e2f7c00b9956683995a2178725bb2ce6d3309fd24e9e7ff442",
+      "after_sha256": "365e972fc18470cd7c79020009948ea1b6d9d81ba1569239b237eb5b527215f0",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [
+        {
+          "original": "https://www.notch.one/products/notch-playback/",
+          "external": "https://www.notch.one/products/notch-playback/"
+        }
+      ],
+      "code_fragments_preserved": 1,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/node-reference/integration-nodes/touchengine.md",
+      "before_sha256": "89f5175adfaaf5e607e6e00a8ab7bd4eeef9a4d44659f905357ae033f0788489",
+      "after_sha256": "965f72bb790d8eeef2bc9f50323c0f9c0cec937b7e04c526aa157268cc9547e4",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [
+        {
+          "original": "https://docs.derivative.ca/TouchEngine",
+          "external": "https://docs.derivative.ca/TouchEngine"
+        },
+        {
+          "original": "https://screenberry.com/resources/downloads",
+          "external": "https://screenberry.com/resources/downloads"
+        }
+      ],
+      "code_fragments_preserved": 1,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/node-reference/nodes.md",
+      "before_sha256": "dd4c132078acf11540d4a1066ee73b1f223d8ef9366e5e876878e284ade0fc36",
+      "after_sha256": "aa5478c4885e30dd208556faea35025b99c7884f8230743f578edc22af21731b",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 1,
+      "headings_preserved": 19,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/node-reference/primary-nodes/canvas.md",
+      "before_sha256": "d6702328c275164e8a1534871bdcd0359d0540adb7145314d46af5a3e2e4e246",
+      "after_sha256": "188b70c38b3d5e29446b91562020eba08bf2fcf8f91a069259912d730822af36",
+      "removed_images": 3,
+      "guide_briefs": 3,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/node-reference/primary-nodes/display.md",
+      "before_sha256": "1bee409bb6558e1272bf969f39d98ba309d925eb3883519b8f34433cb1f71fd2",
+      "after_sha256": "ba2b361850ee13d95d78f0fe33ceebad2c3b5bf57807c051f6268f0bc88bfa3f",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/node-reference/primary-nodes/info.md",
+      "before_sha256": "2ce61c737d769e287bcde1e2cc7a9e376ace58ab7cf0eb065e4ac4185127c5bd",
+      "after_sha256": "f6c0a8d3da000503a898645c92298e21f7ba9602ee7c669dc58854592c77129a",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/node-reference/primary-nodes/mediaplayer.md",
+      "before_sha256": "50d3c6b1a43d5a583f41bd0ddfccf799aab5e35ea7492980d62874a366eafd1a",
+      "after_sha256": "eb6b311572df47db1201a5248b2c63bcc5f0f813757339302c8b229b656ec084",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/node-reference/primary-nodes/rendertarget.md",
+      "before_sha256": "063ab9f2f0d5c13a7c65a105024d58684ed2d2a8e72144c52c7fb5e69ea71198",
+      "after_sha256": "8ca892d9c011f8ea844fb97e6267d32600fefd8565c167c0c2742e03ec37846e",
+      "removed_images": 4,
+      "guide_briefs": 4,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/privacy-policy.md",
+      "before_sha256": "0bbc8908ab541f7e38b09600b8b00bbbb6afc2c91dc54772fbdd917ee9e8c3d4",
+      "after_sha256": "bb25fd26c7e52061fa3916e254845ae1db3824eccef4e6893ad8a88579c9af1b",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 7,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/terms-and-conditions.md",
+      "before_sha256": "3fc3e2093338baac6cfb7d99c797da14579e9c0f528760b7d88ce2baac80534d",
+      "after_sha256": "d60b9410deef2d713713fc22dc5a28e8407ff66869be9bb668b49c1efdcc008a",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/bezierwarp.md",
+      "before_sha256": "7a4041cfe052d366542fcc81c905808a5c6f8f962f48c11f1c1f0e9e0c3b95e1",
+      "after_sha256": "12e4815b13df21093d1899cddc932fd996d84cefe4682787222af1c1dc400922",
+      "removed_images": 4,
+      "guide_briefs": 4,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/dometransform.md",
+      "before_sha256": "093f725aeda483a9b7b1c8066a19500db2813a3005131130cda05b7e8af47b36",
+      "after_sha256": "d674bf0f9fc981b43144f4f4560ca3dfe201a17bf403a1d4fa512b312fd96c32",
+      "removed_images": 4,
+      "guide_briefs": 4,
+      "inline_labels": [],
+      "externalized_links": [
+        {
+          "original": "https://en.wikipedia.org/wiki/Fisheye_lens#Mapping_function",
+          "external": "https://en.wikipedia.org/wiki/Fisheye_lens#Mapping_function"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/latlongtodome.md",
+      "before_sha256": "5d104f1d45c08ed5997171d0b73958e5323a3bd9cebe4e1027e2503d7010c7e5",
+      "after_sha256": "e62090d93421dcb227d3d8b26c5129eaf61df80bbe6e22233d83e9d40c1d2546",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/ledstripesmapper.md",
+      "before_sha256": "ff2ebbfe0648e9bb28118f3ca75e58cc940463d28a0d881e21149d2bca35354c",
+      "after_sha256": "90f943086d3747552e6fe76eb8b11a91432c4d8a98007dc6eb1b6125276a9f58",
+      "removed_images": 5,
+      "guide_briefs": 5,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/mask.md",
+      "before_sha256": "734a6ea9741b9938f31223bd3fbce9343138094f3615f3ee08421355c02ae2c2",
+      "after_sha256": "ae5ef01cdf8af81c015d91030a5ee9dcb6ee93903db395ae55f96c3c853170bf",
+      "removed_images": 3,
+      "guide_briefs": 3,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 8,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/patchreplicator.md",
+      "before_sha256": "454829bc1e8de49b34a74f4192caa06ee6f5fc36e8622bf10f9c053bbac9ccf6",
+      "after_sha256": "406237c70d394b2070eb58ab22dc4a63cbb32e088bc75b3cf24481060bc72332",
+      "removed_images": 5,
+      "guide_briefs": 5,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/planartodome.md",
+      "before_sha256": "97c8a942e9a4c931002c6d075c15b47c85fdfc6244cee4ae4cef31237a672ba2",
+      "after_sha256": "de8f523d99ff69995d68b92ce7c1bb8bbf7470d863318a42ad80018a72ff9a9e",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/quadgrid.md",
+      "before_sha256": "f936a6aa882c54106894748303cdf3efac0cc1d645cee8378e9056d945ecefba",
+      "after_sha256": "cc82c6d0233728db2f5fda5f631bfa8dd1fa1592291ca4afe1632c9e62b1dd16",
+      "removed_images": 4,
+      "guide_briefs": 4,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/quadwarp.md",
+      "before_sha256": "5a600fc71ca2a5209f3e1e0ee7f9f193996841115983731ec7ab2c5ee2683a05",
+      "after_sha256": "692517832a7e1b348d7982c1d0c707a9b68562277967707c737511948f696cf2",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/rectangle.md",
+      "before_sha256": "4da6c2090b2ccddaa24d082b447ef7b0b7661f236b862e25f6131c050aaa0e79",
+      "after_sha256": "7c33c08e6cf773e56344b23a9124f43ed722a2f8f0f8ddae3e581a257ee2f9e3",
+      "removed_images": 3,
+      "guide_briefs": 3,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/softedgeblender.md",
+      "before_sha256": "883963502c6ebee1aeda02cbc045ead7b99f4d46a40f089c05787682d1549e4d",
+      "after_sha256": "1375c8fb81911bae7855590821df9dd9bacbc4ebf9f4dde0a2b965a43065e1ee",
+      "removed_images": 3,
+      "guide_briefs": 3,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/transform2d.md",
+      "before_sha256": "bb1420d93eef918219120169618c19a697b9d28789587cdabc308da42ecaab76",
+      "after_sha256": "62ff0405b99c29506fc0936a6b2e475f06bc24844a281384b4926d58116905d3",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/trianglemesh.md",
+      "before_sha256": "0c9bfc7993733e874c7994476dbe3c699282d94b3c8bd51d581f19606a45da2b",
+      "after_sha256": "0e3d297f256597fbaf4d957a99cf103552d21203427443925cb17a60fad3c991",
+      "removed_images": 3,
+      "guide_briefs": 3,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 4,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/warping-alignment/xgrid.md",
+      "before_sha256": "263fccae9f914d53c97312c239430c84bdd7e9b9687fad22f4c5c686e7b655b1",
+      "after_sha256": "23957078f2786fd7f3fe7088d62e223c86c4d8f24002a782ada48218ce05d299",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/reference/working-with-nodes/node-parameters-and-settings.md",
+      "before_sha256": "b848985276f45653fb1fd3ce12c1b23c05b9c8032a62439241d5f72d53884ec3",
+      "after_sha256": "5a94394d2121e92990109cb72bf1935ae47950ec52c26aa003b76e3d44e43ac9",
+      "removed_images": 15,
+      "guide_briefs": 8,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/grey-pin.png",
+          "original_alt": "Grey Pin",
+          "preserved_label": "Grey Pin"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/blue-pin.png",
+          "original_alt": "Blue Pin",
+          "preserved_label": "Blue Pin"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/orange-pin.png",
+          "original_alt": "Orange Pin",
+          "preserved_label": "Orange Pin"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/pink-pin.png",
+          "original_alt": "Pink Pin",
+          "preserved_label": "Pink Pin"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/redoarrow-1.png",
+          "original_alt": "Redoarrow 1",
+          "preserved_label": "Redoarrow 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/bluedot-1.png",
+          "original_alt": "Blue Dot",
+          "preserved_label": "Blue Dot"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/greydot-1.png",
+          "original_alt": "Grey Dot",
+          "preserved_label": "Grey Dot"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/releases/whats-new/earlier-release-notes.md",
+      "before_sha256": "85b9cd45d654b6292fd41ff7f51a38fd1edd0d26ec0eb4a1b030dc0b7a270e61",
+      "after_sha256": "5d816fd70f245355e2379499af0b45fced3b4c8a524d87d0e1ece888831d62d8",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/releases/whats-new/release-notes-2-6-0.md",
+      "before_sha256": "e329cafff9f56e80557048a01f5f4438f6996a591a01ac0b885288422c238518",
+      "after_sha256": "c7044b81abc8c8e0d1c69b782c06d623abaa27a31f2420b1ddf674d12edbe1c2",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 11,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/releases/whats-new/release-notes-2-7-0.md",
+      "before_sha256": "7d7b6eb2b1329d7dcf035b1ada2cadeb710da433b89a041db0adc47ff6edbc2d",
+      "after_sha256": "be9240c446dbe3e2a4c27b98bf25a9a5798129630e712efe0ca626aa513f9a1c",
+      "removed_images": 10,
+      "guide_briefs": 10,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 11,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/releases/whats-new/release-notes-2-8-0.md",
+      "before_sha256": "7c604d9f7ff01e3adaa123b89eafdef43701abf4f5f4be17fd61bcd70479b867",
+      "after_sha256": "9033b532889c4f16e7bc47ecb5f120b120a50b4f99aa017cc52c9a20e62f16f8",
+      "removed_images": 11,
+      "guide_briefs": 11,
+      "inline_labels": [],
+      "externalized_links": [
+        {
+          "original": "https://derivative.ca/community-post/introducing-touchengine-and-front-pictures-screenberry-integration/64140",
+          "external": "https://derivative.ca/community-post/introducing-touchengine-and-front-pictures-screenberry-integration/64140"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 12,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/releases/whats-new/release-notes-2-9-0.md",
+      "before_sha256": "5fa80dd504d74e0ca6be9178ea37feb51a414bdba151635dff889ace0f0e19c4",
+      "after_sha256": "809b83af8888af0ac41cd0ce51d12918a8af90f0c5fb1191b0272ff1a70197f1",
+      "removed_images": 9,
+      "guide_briefs": 9,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 5,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/releases/whats-new/release-notes-3-0-0.md",
+      "before_sha256": "d7e7c6c15aae212e5c51be4a95910c33b74a687a54010126f235ea9d932934c2",
+      "after_sha256": "0550716570cc179bb7e76209e73eb0fa048a00410b612d31e6b4bc5d771de7a3",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 7,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/releases/whats-new/release-notes-3-1-0.md",
+      "before_sha256": "7256f86004773268b447d9ba001ef9e3de2965345a814014b7a7cf6315736da5",
+      "after_sha256": "1b7a704b4dbec6ddf0ae0693398fa52751c1be7f2bdc8c3f6e3f6ecb1e644e02",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 3,
+      "headings_preserved": 9,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/releases/whats-new/release-notes-3-2-0.md",
+      "before_sha256": "7c08462575a938f1d67b2f29104ce250a3d77663820096691ffaeb414369de06",
+      "after_sha256": "2895bd7649470d9ef99b41705ca5d2b1234ffd0dbd169bd54e1c7cc983e7bff4",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 34,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/releases/whats-new/release-notes-3-3.md",
+      "before_sha256": "a9a6785fc3303672dc632ed931726aa1aadd4818a89ba6dfa3217da47d599d42",
+      "after_sha256": "19e8316a0901e4f05da1c49b15f3f6b6a7b8025be8f78639d6a1fd46e2469039",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 70,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/releases/whats-new/release-notes-3-4.md",
+      "before_sha256": "c00e3ef374d3b40ddf8f6d9361e9675a2cc9f9e4754624df067092ad401babad",
+      "after_sha256": "c6b8afea05fb5fd6a6ab3b67aa5e5b91e502ee98031e0420112979da46334f6a",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 99,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/en/tutorials/getting-started/first-project.md",
+      "before_sha256": "fafec96452cf460a42282eb7ba4a95202be768d8d559fa3b529ad2fc0b6502ff",
+      "after_sha256": "a8b9ba6788e5e3a2489fbb8542fbd6f0a2054a74c89a610dad8a805cdf560381",
+      "removed_images": 3,
+      "guide_briefs": 0,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/getting-started/static/run1.png",
+          "original_alt": "Screenberry Server output window before a project is loaded",
+          "preserved_label": "Screenberry Server output window before a project is loaded"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/getting-started/static/run2.png",
+          "original_alt": "Screenberry Panel starting on the Operator Workstation",
+          "preserved_label": "Screenberry Panel starting on the Operator Workstation"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/getting-started/static/connect.png",
+          "original_alt": "Screenberry Panel Welcome screen for selecting a Server connection",
+          "preserved_label": "Screenberry Panel Welcome screen for selecting a Server connection"
+        }
+      ],
+      "externalized_links": [
+        {
+          "original": "https://www.youtube.com/watch?v=nbY1YFiltRU",
+          "external": "https://www.youtube.com/watch?v=nbY1YFiltRU"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/compatibility/getting-started/hardware.md",
+      "before_sha256": "aac253599715d1017ff715730f056b5c2e634b66c45a96fed5d3b8c51b30a17f",
+      "after_sha256": "4bae014f66b980621c2fd50d8eb04f990e0343cee5d22670f572e4bddaf02b91",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 12,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/concepts/3d-scene/overview.md",
+      "before_sha256": "ea4f4ffe8388a672c869d4e27f9b9f9208d3d17ccb8443ec1c297578538b5818",
+      "after_sha256": "e189320c6916cef75d9fb7b6f7421dcc0f4c1a9040f6f9461a4678d514973937",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/concepts/automatic-calibration/automatic-calibration-basics.md",
+      "before_sha256": "444af983adf56d10ad4c4cca41c3c28978b553dd4e156d4593ec6607b07081f2",
+      "after_sha256": "8e31be9c54a3ab4cffa9bb19c1bd63e0a5fbdcde0f1607219467fa0b1b0f074c",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/concepts/getting-started/screenberry-overview.md",
+      "before_sha256": "ea369ee831a6f7a418ae246c5a0dc93bfb60f3eb7fa5faaa567aa9810a03a36c",
+      "after_sha256": "d334c3d651476fd091ab9f7c00724350502801c6240f8190c23d8d2695d29899",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 2,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/concepts/index.md",
+      "before_sha256": "8f317fac14808b1c4c0b16338bd397f6cae4c148f90d90ee483d8ceb73ee3c4e",
+      "after_sha256": "fab353f4f3e4d4e86c75459466488f3e958eb390d341849d1b63c08fc8ac26ff",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/concepts/media-playback/matrix-based-playlists/overview.md",
+      "before_sha256": "1e634ab670913de38e9dc2a8a29e59ea2206c249687a0efa35b636cf98bc966d",
+      "after_sha256": "ab70ac2514ec7d4716a6363917dbbc89a257ca2367be6927084abab2cd843321",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 2,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/concepts/media-playback/media-player/media-player-overview.md",
+      "before_sha256": "c2868822f6ad52771467deb9a0f8ed6010c4d143021fecd0ac4322da363bc44a",
+      "after_sha256": "d9a857c78b002c1031e02a5c9aa25b57254e4527f677d487d057fb216cbca452",
+      "removed_images": 4,
+      "guide_briefs": 3,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/addfolder.png",
+          "original_alt": "Addfolder",
+          "preserved_label": "Addfolder"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/concepts/organizing-media/media-library-overview.md",
+      "before_sha256": "4ebe9f2f9205fbd7feb1a3ab3fb4534e63d2645d9411eef9277044a5dc06713e",
+      "after_sha256": "5efe64d0fc2f294c9351abffbed496c6eba4e4f56aa4237cd5676fa05a3f9afe",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/concepts/patch-editor/patch-editor-basics.md",
+      "before_sha256": "9b6b95bb774731d85d6e9b96cab06198d041526d785bd0809d98ca3ac1b11275",
+      "after_sha256": "5e67e80c5b63346ecfd9c882d20f7671434e7b308cae7fa487846615154450b8",
+      "removed_images": 11,
+      "guide_briefs": 5,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/patch-editor/static/vm1.png",
+          "original_alt": "Vm1",
+          "preserved_label": "Vm1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/patch-editor/static/vm2.png",
+          "original_alt": "Vm2",
+          "preserved_label": "Vm2"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/patch-editor/static/vm3.png",
+          "original_alt": "Vm3",
+          "preserved_label": "Vm3"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/patch-editor/static/vm4.png",
+          "original_alt": "Vm4",
+          "preserved_label": "Vm4"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/patch-editor/static/zoom-icon.png",
+          "original_alt": "Zoom Icon",
+          "preserved_label": "Zoom Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/patch-editor/static/pan-icon.png",
+          "original_alt": "Pan Icon",
+          "preserved_label": "Pan Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/concepts/warping-alignment/overview.md",
+      "before_sha256": "82e826725f4b745385869bb3f562096457478318ba03a89cc7fc0b3c867d5f2d",
+      "after_sha256": "b7031ec5db9e5cad67c0ec875575e6659f05102073b8624352539fd485a62524",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/concepts/working-with-nodes/node-basics.md",
+      "before_sha256": "a769d3e6d29d269773e8199c23c4de6e6ef7794241ec3de6cda1bfbed3dce5f2",
+      "after_sha256": "e338ff49b27b791725877429de940ef05de298fed5a75a9404db5aef3928e442",
+      "removed_images": 9,
+      "guide_briefs": 6,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/status-enabled.png",
+          "original_alt": "Status Enabled",
+          "preserved_label": "Status Enabled"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/status-disabled.png",
+          "original_alt": "Status Disabled",
+          "preserved_label": "Status Disabled"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/status-notactive.png",
+          "original_alt": "Status Notactive",
+          "preserved_label": "Status Notactive"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/3d-scene/3d-camera.md",
+      "before_sha256": "c0ea0f5fd83bd3258e5ef93074a0f16b82054b0262c78feed657fec19b92491b",
+      "after_sha256": "08374a4b22fcd474e6c57b4b3eff2c5273642922366ce15ad5fb827f58bcd7f2",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/3d-scene/3d-model.md",
+      "before_sha256": "ee4aab1de30aec91b237037373ffe6b06d11ce595634ca0d519c413eb8bb650f",
+      "after_sha256": "d849208a4ec51f7273e9b190d117bf15415d23ea656611357e7191889848f3fb",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/3d-scene/3d-primitive.md",
+      "before_sha256": "bb0fa2f70fb5ae5939c81473831f1716a84cc75007026c4266c168da95f90fb7",
+      "after_sha256": "eeb712e3e36e88990239b212fbe92308e2b152dc752297c3c6199ec6df036db5",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 5,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/3d-scene/3d-scene-view-navigation.md",
+      "before_sha256": "993fcc58a965a347b743a0101289f68079ffb28827fd2505f9513cd1d8b69e26",
+      "after_sha256": "a0630bf81072d11aed401c9af9f8b28a5110ea189c2dfca8dc24305287f6c38a",
+      "removed_images": 14,
+      "guide_briefs": 1,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/View-Selector.png",
+          "original_alt": "alt text",
+          "preserved_label": "アイコン（説明未確認）"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/UV-Viewer.png",
+          "original_alt": "alt text",
+          "preserved_label": "アイコン（説明未確認）"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Camera-View.png",
+          "original_alt": "alt text",
+          "preserved_label": "アイコン（説明未確認）"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Fly-Mode-Icon.png",
+          "original_alt": "Fly Mode Icon",
+          "preserved_label": "Fly Mode Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Orbit-Mode-Icon.png",
+          "original_alt": "Orbit Mode Icon",
+          "preserved_label": "Orbit Mode Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Pan-Mode-Icon.png",
+          "original_alt": "Pan Mode Icon",
+          "preserved_label": "Pan Mode Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Zoom-Mode-Icon.png",
+          "original_alt": "Zoom Mode Icon",
+          "preserved_label": "Zoom Mode Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Select-Tool-Icon.png",
+          "original_alt": "Select Tool Icon",
+          "preserved_label": "Select Tool Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Move-Tool-Icon.png",
+          "original_alt": "Move Tool Icon",
+          "preserved_label": "Move Tool Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Rotate-Tool-Icon.png",
+          "original_alt": "Rotate Tool Icon",
+          "preserved_label": "Rotate Tool Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Scale-Tool-Icon.png",
+          "original_alt": "Scale Tool Icon",
+          "preserved_label": "Scale Tool Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Object-Mode-Icon.png",
+          "original_alt": "Object Mode Icon",
+          "preserved_label": "Object Mode Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/3d-scene/static/Mesh-Mode-Icon.png",
+          "original_alt": "Mesh Mode Icon",
+          "preserved_label": "Mesh Mode Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/3d-scene/creating-3d-scene.md",
+      "before_sha256": "761a7b21c2e7ea19f327db00f285a347b8725a9aa1d4b28d15360e2c963e227c",
+      "after_sha256": "599407430c83052e18e4d10459bf2423bbe3e7850413cc199299972e8039c13e",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/3d-scene/projection-mapper.md",
+      "before_sha256": "6d27812ca9da22b3afaa79f2ff80d1ae81ec3f54914a9e485ff699d095173d44",
+      "after_sha256": "964ba127de788ac4e28fa6c12663d411464693d18d18e1399793f6196a2dfe43",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/3d-scene/working-in-3d-scene.md",
+      "before_sha256": "1bb941a655d821726dc8ac24cf3f12f23da3d7980ffdd6fb59241b1c73e1aa89",
+      "after_sha256": "f3239907486b693393be8b946e7b77c82d68e5801619291d2aaba5f648cb3ac3",
+      "removed_images": 8,
+      "guide_briefs": 8,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 27,
+      "headings_preserved": 7,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/automatic-calibration/calibration-process.md",
+      "before_sha256": "d84a6724031b8561ff942575de16ced4ca32b8b470cd9a919b18e23affa1fea2",
+      "after_sha256": "679486977fb44193b38fa036a36ba969ac5bfada309e498269fae5a76c77e764",
+      "removed_images": 26,
+      "guide_briefs": 5,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Retake-Photo-Button.png",
+          "original_alt": "Retake Photo Button",
+          "preserved_label": "Retake Photo Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Bounding-Box-Off-checkbox.png",
+          "original_alt": "Bounding Box Off Checkbox",
+          "preserved_label": "Bounding Box Off Checkbox"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Bounding-Box-mode.png",
+          "original_alt": "Bounding Box Mode",
+          "preserved_label": "Bounding Box Mode"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Circular-mode.png",
+          "original_alt": "Circular Mode",
+          "preserved_label": "Circular Mode"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/zoom-icon.png",
+          "original_alt": "Zoom Icon",
+          "preserved_label": "Zoom Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/pan-icon.png",
+          "original_alt": "Pan Icon",
+          "preserved_label": "Pan Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Reset-Calibration-Area-Button.png",
+          "original_alt": "Reset Calibration Area Button",
+          "preserved_label": "Reset Calibration Area Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Start-Button.png",
+          "original_alt": "Start Button",
+          "preserved_label": "Start Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Abort-Button.png",
+          "original_alt": "Abort Button",
+          "preserved_label": "Abort Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Finish-Button.png",
+          "original_alt": "Finish Button",
+          "preserved_label": "Finish Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/mask1.png",
+          "original_alt": "Mask1",
+          "preserved_label": "Mask1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/mask2.png",
+          "original_alt": "Mask2",
+          "preserved_label": "Mask2"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Geometry1.png",
+          "original_alt": "Geometry1",
+          "preserved_label": "Geometry1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Geometry2.png",
+          "original_alt": "Geometry2",
+          "preserved_label": "Geometry2"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/blend1.png",
+          "original_alt": "Blend1",
+          "preserved_label": "Blend1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/blend2.png",
+          "original_alt": "Blend2",
+          "preserved_label": "Blend2"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/colors.png",
+          "original_alt": "Colors",
+          "preserved_label": "Colors"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/int1.png",
+          "original_alt": "Int1",
+          "preserved_label": "Int1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/int2.png",
+          "original_alt": "Int2",
+          "preserved_label": "Int2"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/int3.png",
+          "original_alt": "Int3",
+          "preserved_label": "Int3"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/int4.png",
+          "original_alt": "Int4",
+          "preserved_label": "Int4"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/automatic-calibration/post-calibration.md",
+      "before_sha256": "0e8434686f89eb8e7bdcfd0c90fdd79fb7de899d9bd06e8ba7119d09a424d4f2",
+      "after_sha256": "8db88b255a369f65beb551312c86ac07d1ce66fa07a94053dbc830ecbc85e543",
+      "removed_images": 2,
+      "guide_briefs": 1,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Open-Calibration-Images-Viewer-button.png",
+          "original_alt": "Open Calibration Images Viewer",
+          "preserved_label": "Open Calibration Images Viewer"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/automatic-calibration/setting-up-calibration-camera.md",
+      "before_sha256": "cb506124cd69875e43e10b1d222c88ffddf557a64a84a3f7f63db38cf92ae7e2",
+      "after_sha256": "7a82ec4ab7c5e7d13ce81332deec034a594f34d98c6f94f69bb7ad13c8769287",
+      "removed_images": 6,
+      "guide_briefs": 5,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Remove-lens-cap.png",
+          "original_alt": "Remove Lens Cap",
+          "preserved_label": "Remove Lens Cap"
+        }
+      ],
+      "externalized_links": [
+        {
+          "original": "http://www.gphoto.org/proj/libgphoto2/support.php",
+          "external": "http://www.gphoto.org/proj/libgphoto2/support.php"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/automatic-calibration/setting-up-projectors.md",
+      "before_sha256": "1d76bacbe9d79683dd75a05ec77394b928cf15cfb7138c8ad7bf28cfb17ae240",
+      "after_sha256": "8f8cd04f3129ddbd354cd633f37e6bdeccc4d47aa576d7c1fc7fd6230e5266ae",
+      "removed_images": 2,
+      "guide_briefs": 1,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/automatic-calibration/static/Show-Test-Pattern.png",
+          "original_alt": "Show Test Pattern",
+          "preserved_label": "Show Test Pattern"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/display-editor.md",
+      "before_sha256": "be1c1485059c8a95fab505f4f88860a9a0447f939781aaca4d53eb913f38ed10",
+      "after_sha256": "e61d7474918b8f10a826a579943e52c0fc67fe2d33d3c09a44e4a38ed885f08a",
+      "removed_images": 20,
+      "guide_briefs": 18,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/display-editor/static/zoom-icon.png",
+          "original_alt": "Zoom Icon",
+          "preserved_label": "Zoom Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/display-editor/static/pan-icon.png",
+          "original_alt": "Pan Icon",
+          "preserved_label": "Pan Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 10,
+      "headings_preserved": 15,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/getting-started/software.md",
+      "before_sha256": "6ab3af13988895a41583bf2e9120ffbe8923548b1996e203c7694dcb00185f3b",
+      "after_sha256": "0a288d3ed904752b19e035c64efcc3cbf897824c6330647f31aa36ee69701693",
+      "removed_images": 12,
+      "guide_briefs": 12,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 2,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/media-playback/matrix-based-playlists/adding-organizing-media-items.md",
+      "before_sha256": "5f38fbaf3364b7196661d8fb447fa7020b087a2f030b01a3db46e03bf5474fed",
+      "after_sha256": "b38c53d5b323002e56ac1440b5b6e073793082c64240a31ba5b8432d60e8cc18",
+      "removed_images": 17,
+      "guide_briefs": 12,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/animation/Duplicate-Split-Matrix.gif",
+          "original_alt": "Duplicate Split Matrix",
+          "preserved_label": "Duplicate Split Matrix"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/eye.png",
+          "original_alt": "Eye",
+          "preserved_label": "Eye"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/t-square.png",
+          "original_alt": "T Square",
+          "preserved_label": "T Square"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/t-wide.png",
+          "original_alt": "T Wide",
+          "preserved_label": "T Wide"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/t-tall.png",
+          "original_alt": "T Tall",
+          "preserved_label": "T Tall"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 13,
+      "headings_preserved": 11,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.md",
+      "before_sha256": "6addf562315b36cf605b3d86e4b80bfab3bd055b16dba6bc45b170593be482ed",
+      "after_sha256": "b18b1779dd1fa7cfa491bb9c04423f47336ee3c0cc20e7b0a59bc090ec97a3a4",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/media-playback/matrix-based-playlists/managing-playlists.md",
+      "before_sha256": "10230f78ee2542d7e9e5d10f6ad602dd04e20efe473bad60767567c685aec527",
+      "after_sha256": "8db0b562927b78d893746042a13417f405a2bf9c34d1c00e85b9f0f6a0c739b3",
+      "removed_images": 8,
+      "guide_briefs": 6,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/add.png",
+          "original_alt": "Add",
+          "preserved_label": "Add"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/trash.png",
+          "original_alt": "Trash",
+          "preserved_label": "Trash"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 6,
+      "headings_preserved": 7,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/media-playback/matrix-based-playlists/playback.md",
+      "before_sha256": "7eb2acd534a17867c10067b1ffa62852e3729c1f6e89eb189149a94f1ce9c47e",
+      "after_sha256": "cdd57586b179eb6c86f0830ef00ff652476e839cf8ac152a52887417948a9197",
+      "removed_images": 25,
+      "guide_briefs": 7,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/altplay.png",
+          "original_alt": "Altplay",
+          "preserved_label": "Altplay"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play1.png",
+          "original_alt": "Play1",
+          "preserved_label": "Play1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play1.png",
+          "original_alt": "Play1",
+          "preserved_label": "Play1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/prev.png",
+          "original_alt": "Prev",
+          "preserved_label": "Prev"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/next.png",
+          "original_alt": "Next",
+          "preserved_label": "Next"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/prev.png",
+          "original_alt": "Prev",
+          "preserved_label": "Prev"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/next.png",
+          "original_alt": "Next",
+          "preserved_label": "Next"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/lock.png",
+          "original_alt": "Lock",
+          "preserved_label": "Lock"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/reveal-icon.png",
+          "original_alt": "Reveal Icon",
+          "preserved_label": "Reveal Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 3,
+      "headings_preserved": 7,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/media-playback/playlists/creating-managing-playlists.md",
+      "before_sha256": "42c9de3efd2ca42cb2cf116b0c07901aa3c5c04716cde59e940c11261c13f20a",
+      "after_sha256": "0b87d3a4f65f22ac6378e5a27d890cc3921e5a5da6fec227e277107a92bdaa09",
+      "removed_images": 10,
+      "guide_briefs": 7,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/add.png",
+          "original_alt": "Add",
+          "preserved_label": "Add"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/add.png",
+          "original_alt": "Add",
+          "preserved_label": "Add"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/trash.png",
+          "original_alt": "Trash",
+          "preserved_label": "Trash"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 6,
+      "headings_preserved": 7,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/media-playback/playlists/organizing-media-items-in-playlists.md",
+      "before_sha256": "62d8de2219d043fde413f1d5a406c19f10369ab24e068efc0b85cfdfb099057d",
+      "after_sha256": "90137cab2cec2f59fd86fe3cd738f360bca5cb7788d14c9f86258e5b37b103bc",
+      "removed_images": 15,
+      "guide_briefs": 11,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/eye.png",
+          "original_alt": "Eye",
+          "preserved_label": "Eye"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/t-square.png",
+          "original_alt": "T Square",
+          "preserved_label": "T Square"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/t-wide.png",
+          "original_alt": "T Wide",
+          "preserved_label": "T Wide"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/t-tall.png",
+          "original_alt": "T Tall",
+          "preserved_label": "T Tall"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 21,
+      "headings_preserved": 8,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/media-playback/playlists/playlists-playback.md",
+      "before_sha256": "c34f417a6acb6e3701eb880e0bab31a367836d47815b506016c92925b0ff75dc",
+      "after_sha256": "f6c70bbc5bd3ad1abb8f37b725dbe66e063a66f42935e4064288fd3067d93418",
+      "removed_images": 26,
+      "guide_briefs": 10,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play1.png",
+          "original_alt": "Play1",
+          "preserved_label": "Play1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/prev.png",
+          "original_alt": "Prev",
+          "preserved_label": "Prev"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/next.png",
+          "original_alt": "Next",
+          "preserved_label": "Next"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/lock.png",
+          "original_alt": "Lock",
+          "preserved_label": "Lock"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/dd1.png",
+          "original_alt": "Dd1",
+          "preserved_label": "Dd1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/dd2.png",
+          "original_alt": "Dd2",
+          "preserved_label": "Dd2"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/dd3.png",
+          "original_alt": "Dd3",
+          "preserved_label": "Dd3"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/dds.png",
+          "original_alt": "Dds",
+          "preserved_label": "Dds"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play1.png",
+          "original_alt": "Play1",
+          "preserved_label": "Play1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/altplay.png",
+          "original_alt": "Altplay",
+          "preserved_label": "Altplay"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 5,
+      "headings_preserved": 8,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/media-playback/timelines/animation-and-keyframing.md",
+      "before_sha256": "5366a3c2b5f5bf04befaa678ae655768e8ac2e78a91370929f45d7578782b4e9",
+      "after_sha256": "3e020e0b66cf0cb168e179e9843a81371cfcf7de58842e4415ba57bf56d506f1",
+      "removed_images": 14,
+      "guide_briefs": 8,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/rombus-icon.png",
+          "original_alt": "Rombus Icon",
+          "preserved_label": "Rombus Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/rombusi-icon.png",
+          "original_alt": "Rombusi Icon",
+          "preserved_label": "Rombusi Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/2arrows.png",
+          "original_alt": "2arrows",
+          "preserved_label": "2arrows"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/2arrows-blue.png",
+          "original_alt": "2arrows Blue",
+          "preserved_label": "2arrows Blue"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/rselected-icon.png",
+          "original_alt": "Rselected Icon",
+          "preserved_label": "Rselected Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/runselected-icon.png",
+          "original_alt": "Runselected Icon",
+          "preserved_label": "Runselected Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 6,
+      "headings_preserved": 2,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/media-playback/timelines/creating-managing-timelines.md",
+      "before_sha256": "9dfe73e6631d9af51e26f959cd9dee07a25fa2d58b70f89c45b6dd74b18774fd",
+      "after_sha256": "dd361669ba4acfbfbf3711ed7c6cee337e910e89496c2b10fc48d952721d9b31",
+      "removed_images": 12,
+      "guide_briefs": 8,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/add.png",
+          "original_alt": "Add",
+          "preserved_label": "Add"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/add.png",
+          "original_alt": "Add",
+          "preserved_label": "Add"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/addfolder.png",
+          "original_alt": "Addfolder",
+          "preserved_label": "Addfolder"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/trash.png",
+          "original_alt": "Trash",
+          "preserved_label": "Trash"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 6,
+      "headings_preserved": 9,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/media-playback/timelines/organizing-media-in-timelines.md",
+      "before_sha256": "e8cb5e8028cd3c9ebd4520045c306edcc3de1268ff3c83fd07f86d0daf90b1f2",
+      "after_sha256": "dd926132aebe21c5eb2b8fca5c6bf9e3a1c67bba810a4cc1eae3259229ba8951",
+      "removed_images": 18,
+      "guide_briefs": 13,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/trackabove-icon.png",
+          "original_alt": "Trackabove Icon",
+          "preserved_label": "Trackabove Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/trackbelow-icon.png",
+          "original_alt": "Trackbelow Icon",
+          "preserved_label": "Trackbelow Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/snap-icon.png",
+          "original_alt": "Snap Icon",
+          "preserved_label": "Snap Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/razor-icon.png",
+          "original_alt": "Razor Icon",
+          "preserved_label": "Razor Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/move-icon.png",
+          "original_alt": "Move Icon",
+          "preserved_label": "Move Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 14,
+      "headings_preserved": 14,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/media-playback/timelines/timeline-markers.md",
+      "before_sha256": "c43662a3eecc52c88993ac87ec903de4927fda3a0ba64fece576fc0f87c4682a",
+      "after_sha256": "c8e2603af2e8b2c7a487766ccb1eb0550c7c2815b448cb2c172073125d3ffb5d",
+      "removed_images": 14,
+      "guide_briefs": 10,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/m1-icon.png",
+          "original_alt": "M1 Icon",
+          "preserved_label": "M1 Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/m2-icon.png",
+          "original_alt": "M2 Icon",
+          "preserved_label": "M2 Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/m3-icon.png",
+          "original_alt": "M3 Icon",
+          "preserved_label": "M3 Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/m4-icon.png",
+          "original_alt": "M4 Icon",
+          "preserved_label": "M4 Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/media-playback/timelines/timeline-playback.md",
+      "before_sha256": "44ad36620855abe9e431291e6e67d2adc0ed971d5833c193f74904fc1ba3dfb4",
+      "after_sha256": "673ec39d3169ccc87223666e172a55306b28bca1f5028f1c5e725ab0aac31b8e",
+      "removed_images": 11,
+      "guide_briefs": 1,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play1.png",
+          "original_alt": "Play1",
+          "preserved_label": "Play1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/altplay.png",
+          "original_alt": "Altplay",
+          "preserved_label": "Altplay"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/lock.png",
+          "original_alt": "Lock",
+          "preserved_label": "Lock"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/reveal-icon.png",
+          "original_alt": "Reveal Icon",
+          "preserved_label": "Reveal Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/lock.png",
+          "original_alt": "Lock",
+          "preserved_label": "Lock"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/lock.png",
+          "original_alt": "Lock",
+          "preserved_label": "Lock"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/reveal-icon.png",
+          "original_alt": "Reveal Icon",
+          "preserved_label": "Reveal Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 5,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/organizing-media/managing-folders.md",
+      "before_sha256": "30b392fa94c6fa24f1f1e801ebb8bd378a9d5930953dc692872c985b940d623d",
+      "after_sha256": "ef0251cba3b1e1b5b8dc4912084697839a1fee71fe9215ea86b93f5283984970",
+      "removed_images": 6,
+      "guide_briefs": 4,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/organizing-media/static/folder.png",
+          "original_alt": "Folder",
+          "preserved_label": "Folder"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/organizing-media/static/delete.png",
+          "original_alt": "Delete",
+          "preserved_label": "Delete"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 5,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/organizing-media/managing-media-items.md",
+      "before_sha256": "e16585426013d516b1d53aae6fa6df968c853f1a440e2c3adb6815606dedd4c8",
+      "after_sha256": "e21bb929de0d764a6d1c4ccc2fceddad928f9ec3369e122c12c7b3b140432ab0",
+      "removed_images": 6,
+      "guide_briefs": 4,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/organizing-media/static/plus.png",
+          "original_alt": "Plus",
+          "preserved_label": "Plus"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/organizing-media/static/reload.png",
+          "original_alt": "Reload",
+          "preserved_label": "Reload"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 2,
+      "headings_preserved": 5,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/patch-editor/adding-and-managing-patches.md",
+      "before_sha256": "675aaa267464dab8ffbb98fcb168f93362a4215d22a43a8cec945b5dbdf50385",
+      "after_sha256": "e8f55362be5ef964db7e38e048459b52e6be7cd14db92fa76bea513d15e9c632",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/patch-editor/editing-patches.md",
+      "before_sha256": "907f0f5848e24f183be68d790f879e8eb381a40fae063c04c93796f9f2620dcb",
+      "after_sha256": "6fe3701ee81a277e2e856795d1221798c0a6d6fdc08a72dd72cc6390f44c34c9",
+      "removed_images": 43,
+      "guide_briefs": 43,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 42,
+      "headings_preserved": 23,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/web-panel.md",
+      "before_sha256": "bbdca369334bda7404d69b0131a3c0524cffcfa4c67bf2cd03141dadc033bcd1",
+      "after_sha256": "f93336a9b5f09eb176fa160393191672cf41b693fdc56d7a396c39093221e16b",
+      "removed_images": 29,
+      "guide_briefs": 8,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/burgmenu.png",
+          "original_alt": "Burgmenu",
+          "preserved_label": "Burgmenu"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/settings_button.png",
+          "original_alt": "Settings Button",
+          "preserved_label": "Settings Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/play-selected.png",
+          "original_alt": "Play Selected",
+          "preserved_label": "Play Selected"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/rew.png",
+          "original_alt": "Rew",
+          "preserved_label": "Rew"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/fwd.png",
+          "original_alt": "Fwd",
+          "preserved_label": "Fwd"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/volume.png",
+          "original_alt": "Volume",
+          "preserved_label": "Volume"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/play-selected.png",
+          "original_alt": "Play Selected",
+          "preserved_label": "Play Selected"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/settings_button.png",
+          "original_alt": "Settings Button",
+          "preserved_label": "Settings Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/settings_button.png",
+          "original_alt": "Settings Button",
+          "preserved_label": "Settings Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/edit.png",
+          "original_alt": "Edit",
+          "preserved_label": "Edit"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/trash.png",
+          "original_alt": "Trash",
+          "preserved_label": "Trash"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/edit-big.png",
+          "original_alt": "Edit Big",
+          "preserved_label": "Edit Big"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/plus.png",
+          "original_alt": "Plus",
+          "preserved_label": "Plus"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/plus-icon.png",
+          "original_alt": "Plus Icon",
+          "preserved_label": "Plus Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/add.png",
+          "original_alt": "Add",
+          "preserved_label": "Add"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/x-icon.png",
+          "original_alt": "X Icon",
+          "preserved_label": "X Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/web-panel/static/edit-big.png",
+          "original_alt": "Edit Big",
+          "preserved_label": "Edit Big"
+        }
+      ],
+      "externalized_links": [
+        {
+          "original": "http://127.0.0.1:8081/",
+          "external": "http://127.0.0.1:8081/"
+        },
+        {
+          "original": "http://localhost:8081/",
+          "external": "http://localhost:8081/"
+        },
+        {
+          "original": "http://192.168.31.218:8081/",
+          "external": "http://192.168.31.218:8081/"
+        },
+        {
+          "original": "../../../assets/site-public/downloads/Web-Panel-Components.zip",
+          "external": "https://help.screenberry.com/downloads/Web-Panel-Components.zip"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 11,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/working-with-audio.md",
+      "before_sha256": "f0c8375c7a49d6199ebbea2dc3dce91471745e7af06f6092519590c5549cfd3c",
+      "after_sha256": "dec469bc4b1192874fc3f6f616b0f75def94df45d7e36e57f8c7cd751c7b95b3",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 8,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/working-with-nodes/adding-and-managing-nodes.md",
+      "before_sha256": "d178b5ee1850a20a0d29c20a72bc58765919abd8b0ce4db8feee7194ed407e6c",
+      "after_sha256": "abe6e573ac46778ad093f7c812e80041e28575dfc15843fdf531183dd28c9295",
+      "removed_images": 14,
+      "guide_briefs": 13,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/animation/Grouping-Nodes.gif",
+          "original_alt": "Grouping Nodes",
+          "preserved_label": "Grouping Nodes"
+        }
+      ],
+      "externalized_links": [
+        {
+          "original": "../../../../assets/site-public/images/working-with-nodes/animation/Grouping-Nodes.gif",
+          "external": "https://help.screenberry.com/images/working-with-nodes/animation/Grouping-Nodes.gif"
+        }
+      ],
+      "code_fragments_preserved": 9,
+      "headings_preserved": 9,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/working-with-nodes/linking-nodes.md",
+      "before_sha256": "10cd4f87d8f0d09aff289d6cae1edd035f31782d28c86d7eeb7217cd88019f25",
+      "after_sha256": "dcc57297ae818e2ac73263ac5ba8109af2633ceee291fdc9a562e2e44a6a9bc8",
+      "removed_images": 9,
+      "guide_briefs": 8,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/reorderarrows.png",
+          "original_alt": "Reorderarrows",
+          "preserved_label": "Reorderarrows"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 5,
+      "headings_preserved": 8,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/how-to/working-with-nodes/navigation-and-monitoring.md",
+      "before_sha256": "751ef2219ec66a4b237f0d385595ee28fda6ebdcb69d4186edbd73ab618905c8",
+      "after_sha256": "95d16b68628263d7a9c5272cea2d615ea2540f0c730a1f1345c27ed7f9b7bebc",
+      "removed_images": 17,
+      "guide_briefs": 12,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/zoom-icon.png",
+          "original_alt": "Zoom Button",
+          "preserved_label": "Zoom Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/pan-icon.png",
+          "original_alt": "Pan Button",
+          "preserved_label": "Pan Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/plus-1.png",
+          "original_alt": "Plus Button",
+          "preserved_label": "Plus Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/X-1.png",
+          "original_alt": "X Button",
+          "preserved_label": "X Button"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/search-icon.png",
+          "original_alt": "Search Button",
+          "preserved_label": "Search Button"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 12,
+      "headings_preserved": 9,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/3d-scene/3d-scene-settings.md",
+      "before_sha256": "b4f8050b61d2eb5c415ca76410f39220f264ca13cf01c240da883b2d10b6694f",
+      "after_sha256": "ffc519f34dfbd6db6bb2442480827e79c6eed7f0202c5a1a9151549452e47239",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 8,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/integration-control/screenberry-json-api.md",
+      "before_sha256": "1827e7b9cedee76a8858547f84201261f01ebb10fba61916ec5aaa6eca15818a",
+      "after_sha256": "ceaed76d1e7a72916f7a70d884bc560d2dbb9e023ec850eb4caabbb4babe8e30",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 210,
+      "headings_preserved": 62,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/media-playback/media-player/media-player-global-settings.md",
+      "before_sha256": "47b940d4b1be91a9901ff5d2cbb7fa7f9824a5afa90dd1599205ee4adff451a5",
+      "after_sha256": "f4836f7606075456d3abfb175a9886fb2a10e3f41ed9e1c78f82efbbb3b0492b",
+      "removed_images": 4,
+      "guide_briefs": 2,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/colorcorrection.png",
+          "original_alt": "Colorcorrection",
+          "preserved_label": "Colorcorrection"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/volume.png",
+          "original_alt": "Volume",
+          "preserved_label": "Volume"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 10,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/media-playback/playlists/media-item-properties.md",
+      "before_sha256": "591a6718c3e9b8da1c306eb1de557c18ab51946e68e3035fc01ac55b6d8cc21e",
+      "after_sha256": "b717e8f2fcc12737d5a7dbd18705387c2610ce0531998d8e9dae42c8b11eeaa0",
+      "removed_images": 64,
+      "guide_briefs": 27,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/FadeIn.png",
+          "original_alt": "FadeIn",
+          "preserved_label": "FadeIn"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/loop.png",
+          "original_alt": "Loop",
+          "preserved_label": "Loop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/PauseStart-1.png",
+          "original_alt": "PauseStart 1",
+          "preserved_label": "PauseStart 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/PauseEnd-1.png",
+          "original_alt": "PauseEnd 1",
+          "preserved_label": "PauseEnd 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/PauseStartEnd-1.png",
+          "original_alt": "PauseStartEnd 1",
+          "preserved_label": "PauseStartEnd 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/TCin.png",
+          "original_alt": "TCin",
+          "preserved_label": "TCin"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/TCout.png",
+          "original_alt": "TCout",
+          "preserved_label": "TCout"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/colorcorr.png",
+          "original_alt": "Colorcorr",
+          "preserved_label": "Colorcorr"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/alpha.png",
+          "original_alt": "Alpha",
+          "preserved_label": "Alpha"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/videodis.png",
+          "original_alt": "Videodis",
+          "preserved_label": "Videodis"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/alphades.png",
+          "original_alt": "Alphades",
+          "preserved_label": "Alphades"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/audiodes.png",
+          "original_alt": "Audiodes",
+          "preserved_label": "Audiodes"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/cc.png",
+          "original_alt": "Cc",
+          "preserved_label": "Cc"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/comment.png",
+          "original_alt": "Comment",
+          "preserved_label": "Comment"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/image.png",
+          "original_alt": "Image",
+          "preserved_label": "アイコン（説明未確認）"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/video.png",
+          "original_alt": "Video",
+          "preserved_label": "Video"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/videostereo.png",
+          "original_alt": "Videostereo",
+          "preserved_label": "Videostereo"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/playback-play.png",
+          "original_alt": "Playback Play",
+          "preserved_label": "Playback Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/playback-pause.png",
+          "original_alt": "Playback Pause",
+          "preserved_label": "Playback Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/playback-stop.png",
+          "original_alt": "Playback Stop",
+          "preserved_label": "Playback Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/audio.png",
+          "original_alt": "Audio",
+          "preserved_label": "Audio"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/audiodes.png",
+          "original_alt": "Audiodes",
+          "preserved_label": "Audiodes"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/durationc.png",
+          "original_alt": "Durationc",
+          "preserved_label": "Durationc"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/duration.png",
+          "original_alt": "Duration",
+          "preserved_label": "Duration"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/FadeIns.png",
+          "original_alt": "FadeIns",
+          "preserved_label": "FadeIns"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/loop.png",
+          "original_alt": "Loop",
+          "preserved_label": "Loop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/PauseStart-1.png",
+          "original_alt": "PauseStart 1",
+          "preserved_label": "PauseStart 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/PauseEnd-1.png",
+          "original_alt": "PauseEnd 1",
+          "preserved_label": "PauseEnd 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/PauseStartEnd-1.png",
+          "original_alt": "PauseStartEnd 1",
+          "preserved_label": "PauseStartEnd 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/colorcorr.png",
+          "original_alt": "Colorcorr",
+          "preserved_label": "Colorcorr"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/TCin.png",
+          "original_alt": "TCin",
+          "preserved_label": "TCin"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/TCout.png",
+          "original_alt": "TCout",
+          "preserved_label": "TCout"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/TCinout.png",
+          "original_alt": "TCinout",
+          "preserved_label": "TCinout"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/alpha.png",
+          "original_alt": "Alpha",
+          "preserved_label": "Alpha"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/alphades.png",
+          "original_alt": "Alphades",
+          "preserved_label": "Alphades"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/mapping.png",
+          "original_alt": "Mapping",
+          "preserved_label": "Mapping"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/cc.png",
+          "original_alt": "Cc",
+          "preserved_label": "Cc"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 9,
+      "headings_preserved": 29,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/media-playback/timelines/timeline-view.md",
+      "before_sha256": "77dcdde7001d0d678a9b2d8808898dbb916d896fb16de2dd326cacb20d8e5e50",
+      "after_sha256": "837bff6e0aecd608b4961807f0a26d53a5afcfb7007079ba3fd0f2facd0b5699",
+      "removed_images": 19,
+      "guide_briefs": 4,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/razor-icon.png",
+          "original_alt": "Razor Icon",
+          "preserved_label": "Razor Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/move-icon.png",
+          "original_alt": "Move Icon",
+          "preserved_label": "Move Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/playheadsnap-icon.png",
+          "original_alt": "Playheadsnap Icon",
+          "preserved_label": "Playheadsnap Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/snap-icon.png",
+          "original_alt": "Snap Icon",
+          "preserved_label": "Snap Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play.png",
+          "original_alt": "Play",
+          "preserved_label": "Play"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/play1.png",
+          "original_alt": "Play1",
+          "preserved_label": "Play1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/pause.png",
+          "original_alt": "Pause",
+          "preserved_label": "Pause"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/stop.png",
+          "original_alt": "Stop",
+          "preserved_label": "Stop"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/lock.png",
+          "original_alt": "Lock",
+          "preserved_label": "Lock"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/reveal-icon.png",
+          "original_alt": "Reveal Icon",
+          "preserved_label": "Reveal Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/playheadsnap-icon.png",
+          "original_alt": "Playheadsnap Icon",
+          "preserved_label": "Playheadsnap Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/zoomplus-icon.png",
+          "original_alt": "Zoomplus Icon",
+          "preserved_label": "Zoomplus Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/zoomminus-icon.png",
+          "original_alt": "Zoomminus Icon",
+          "preserved_label": "Zoomminus Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/zoomfit-icon.png",
+          "original_alt": "Zoomfit Icon",
+          "preserved_label": "Zoomfit Icon"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/media-playback/static/zoomframe-icon.png",
+          "original_alt": "Zoomframe Icon",
+          "preserved_label": "Zoomframe Icon"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 13,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/node-reference/integration-nodes/notchplayback.md",
+      "before_sha256": "5336e6f0025a8d00c7bd029f8ff0db4abcd0e948735d75504f17098b40d4c26e",
+      "after_sha256": "4317b3e2b47e5776eebfc1ac36d4c417d91b2a66fd02d09a1457813f31a8be9f",
+      "removed_images": 3,
+      "guide_briefs": 3,
+      "inline_labels": [],
+      "externalized_links": [
+        {
+          "original": "https://www.notch.one/products/notch-playback/",
+          "external": "https://www.notch.one/products/notch-playback/"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/node-reference/integration-nodes/touchengine.md",
+      "before_sha256": "a0395a2df1af51278f69418e55cb00705b869816f997eb8c09fb4be588084b97",
+      "after_sha256": "431854afd73aa470db690663e3ff6fb24d6a9948cf06832caa29036c6a2bc5a9",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [
+        {
+          "original": "https://docs.derivative.ca/TouchEngine",
+          "external": "https://docs.derivative.ca/TouchEngine"
+        },
+        {
+          "original": "https://screenberry.com/resources/downloads",
+          "external": "https://screenberry.com/resources/downloads"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/node-reference/nodes.md",
+      "before_sha256": "5643d2dac2e5ae79b8d7111dce6c00817cfac2d3c3c355d9d945f38462bba519",
+      "after_sha256": "10de8590c121b32a1f5b9ebc47d6ba2096b0e444d87b01612a800d80f762958c",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 19,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/node-reference/primary-nodes/canvas.md",
+      "before_sha256": "165704fa4ebf94377f889b12aedee5ef16b97b78a16427b72fa95d029bb7d34f",
+      "after_sha256": "6fdc2e67e2ea18a41c7aa83cbf855d76b861913f78d9b5baeaa15dceece31f17",
+      "removed_images": 3,
+      "guide_briefs": 3,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/node-reference/primary-nodes/display.md",
+      "before_sha256": "dfdf32668e739142b1d1040d1b21b64bc5fa48abefd7fb0620b1d9633c74b86e",
+      "after_sha256": "8f50883f292cc7d52203a801a5dbb09b8db50efca73e30815562ec1fc4afc5ef",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/node-reference/primary-nodes/mediaplayer.md",
+      "before_sha256": "4cfc18dc2e3e5c600de293ada49a272839d5e7f5d7813366ccc402eb923721dc",
+      "after_sha256": "50dec4d3566ff07af0b1478665afeec25608dac027d59b86e15bfe5cd6cde5b3",
+      "removed_images": 1,
+      "guide_briefs": 1,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/node-reference/primary-nodes/rendertarget.md",
+      "before_sha256": "db2a3eac36730505e56807d98d08320a8a4fee9e8f0d6cc087bf3465f370ada4",
+      "after_sha256": "f8f64fc3a403f1494a4830c56e1544c3c11e5e2ac992d07551b1133081f27500",
+      "removed_images": 4,
+      "guide_briefs": 4,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/privacy-policy.md",
+      "before_sha256": "4a57df7d1ff7593f0d7d4e9e41b64959771dbf11fcad0b1618d49a84b3adc802",
+      "after_sha256": "87b5165f57fd58d1a2234afdfd3a7179e6cfb7af26a036cf26ea1cbe60c5b785",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 7,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/terms-and-conditions.md",
+      "before_sha256": "7b1d40a811d93bbfdfe68585405c467df3a483f8de217ec9af7f8f100a4c36bf",
+      "after_sha256": "d034e468e2259dde60d45c56b15253897209fcf2ad005e430a9652fd4b6c8910",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/bezierwarp.md",
+      "before_sha256": "fcc3afc11fd1a33907ad429e866f31945c352c68d6d7f2a7e1af263a9de2ce6e",
+      "after_sha256": "a970ceaa548a8fd7abc662b2cf573ce5d977dafe9b5dfd6abd8d4401401d8a8b",
+      "removed_images": 4,
+      "guide_briefs": 4,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/dometransform.md",
+      "before_sha256": "40a2a1281eba7a52033af487935f13e84a9c84f75decb707fa39d56caf23c157",
+      "after_sha256": "d222fd32e774993307c6632fff90f35408d95c474aba97c997595601ede548a3",
+      "removed_images": 4,
+      "guide_briefs": 4,
+      "inline_labels": [],
+      "externalized_links": [
+        {
+          "original": "https://en.wikipedia.org/wiki/Fisheye_lens#Mapping_function",
+          "external": "https://en.wikipedia.org/wiki/Fisheye_lens#Mapping_function"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/latlongtodome.md",
+      "before_sha256": "b9f59babf635362525f06ba4408fbf9f89606ec6f1fe8c9918fc9ff843ad9176",
+      "after_sha256": "b0c1ae80ad629843dfc96f6e21e0eb9cc5fb32b4175497d85a42eb4ea2b47064",
+      "removed_images": 2,
+      "guide_briefs": 1,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/warping-alignment/static/LatLong-to-Dome-node-tree.png",
+          "original_alt": "LatLong To Dome Node Tree",
+          "preserved_label": "LatLong To Dome Node Tree"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/ledstripesmapper.md",
+      "before_sha256": "196db7aff1e894bd69b3cf461239e1fffb4b9102d9bb92748b4e964009104c78",
+      "after_sha256": "8562c4ee6c0e85597e3ed0c4a70ec409e594facfbf913c9031affce70cfeeea8",
+      "removed_images": 5,
+      "guide_briefs": 5,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 1,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/mask.md",
+      "before_sha256": "a2e21197ef15af11f5ff2bbef2421ca1b49789c5b4415b8eb494ad2fb5823a99",
+      "after_sha256": "ab878fdfbbb4a29a9af9f3eb1d57c12e16f2bcfca6e41b3a3f0ccb8514ffb912",
+      "removed_images": 3,
+      "guide_briefs": 3,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 8,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/patchreplicator.md",
+      "before_sha256": "a818c921ca91a48606ccb0cc86a2aed6c4087b310babdcac6e7de92b8b47a35c",
+      "after_sha256": "a29fc44c22b65ac4e51ff587c4f269120a6a8d1130349c6729ceaf5eb580baad",
+      "removed_images": 5,
+      "guide_briefs": 5,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 4,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/planartodome.md",
+      "before_sha256": "b9235394c2e97807df6c525d70921c7610672df82eee2b2750498662102c1de8",
+      "after_sha256": "f69e2647208184667292d79b7ff9129d15487723b1299f1c268af8eec46ed85a",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/quadgrid.md",
+      "before_sha256": "e39190a22842613a4477c825d060b1e2a2978ce970a7b7567f0fb184cbdc36c2",
+      "after_sha256": "ea923db7ec17ec92f609bbbf3f94e86ad96e9408721ad49908ca885192ad0df1",
+      "removed_images": 4,
+      "guide_briefs": 4,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/quadwarp.md",
+      "before_sha256": "52c67a95c5d69f7ab1c27d966efccc2fde64eb9b5eb04a5d2402fdb5cd1060cb",
+      "after_sha256": "7d5a25a7f1477eb10d2aa9a22cdedf95f3e75a0c529295bbd74a1604d8798fc5",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/rectangle.md",
+      "before_sha256": "e55e010e8b87237bc80d9f179476df6ac3d3b72e37f72c1e5847f4632d9c877e",
+      "after_sha256": "764950b6ba4a4428e1794b0de3c1520b043faba026c937572dd24ba27adeae2a",
+      "removed_images": 3,
+      "guide_briefs": 3,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/softedgeblender.md",
+      "before_sha256": "5da66d166eac4102697075d5cf8220f49e45c9b6f09a9fe36548dda248a48cee",
+      "after_sha256": "1c9d5a3bebc7e0f641cf70e7aaeca4d1a5422b32e44b2bc6d19a282288494b33",
+      "removed_images": 3,
+      "guide_briefs": 3,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/transform2d.md",
+      "before_sha256": "21fcaa0bfda964e0b48917c15c6de579b2db4075f9ca506a2dd47716bc51f2f9",
+      "after_sha256": "e2ddf1e8af0c3f6fb11cb31ce1a03c22381382151c5cb8d658f02ebf7e24eaab",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/trianglemesh.md",
+      "before_sha256": "98c120fb7e7a01e475efa49dab5523beeb6797710063904ca59a0007d4e8cda6",
+      "after_sha256": "a3448055a68cb4c9085e9c8b8cf2307c1ee59058420cd218dc9d11eead3e25bf",
+      "removed_images": 3,
+      "guide_briefs": 3,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 4,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/warping-alignment/xgrid.md",
+      "before_sha256": "f90fc19ecc97b519d32a6de8ae0bb85c5178ba166d32a011eb477c5ee2320bab",
+      "after_sha256": "f7f711eac9f7aeb8c8123694d614c243b202b64500f244b3e3945db90e71bc6d",
+      "removed_images": 2,
+      "guide_briefs": 2,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 1,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/reference/working-with-nodes/node-parameters-and-settings.md",
+      "before_sha256": "a4006ecb17d1c14152f1fe5aa63306ce35b66f192ea8e5259898c10b560e8b24",
+      "after_sha256": "bc2f6ca6787e7aa2811f65cfd3ddcae4c32b24312bdb574ea402d4f37a869b7b",
+      "removed_images": 15,
+      "guide_briefs": 8,
+      "inline_labels": [
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/grey-pin.png",
+          "original_alt": "Grey Pin",
+          "preserved_label": "Grey Pin"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/blue-pin.png",
+          "original_alt": "Blue Pin",
+          "preserved_label": "Blue Pin"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/orange-pin.png",
+          "original_alt": "Orange Pin",
+          "preserved_label": "Orange Pin"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/pink-pin.png",
+          "original_alt": "Pink Pin",
+          "preserved_label": "Pink Pin"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/redoarrow-1.png",
+          "original_alt": "Redoarrow 1",
+          "preserved_label": "Redoarrow 1"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/bluedot-1.png",
+          "original_alt": "Blue Dot",
+          "preserved_label": "Blue Dot"
+        },
+        {
+          "source_url": "https://help.screenberry.com/images/working-with-nodes/static/greydot-1.png",
+          "original_alt": "Grey Dot",
+          "preserved_label": "Grey Dot"
+        }
+      ],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 6,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/releases/whats-new/earlier-release-notes.md",
+      "before_sha256": "a5815785fc329b9b45e1daa72b66367f54c31d97c82ba238272c8e8da289a8fb",
+      "after_sha256": "235ffff7f476044b3d1c5bdcefd3d5d62f3ef8cddd1217af23f9f798e07f1f74",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 3,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/releases/whats-new/release-notes-2-6-0.md",
+      "before_sha256": "f70fca812e5e790717f0078ef86325ef439b2854b39d49c31396de2cf242507e",
+      "after_sha256": "c7bd7c7d6d09cd3722aee9908dbf2202ee008f3aecd503c7a521d33eef403d10",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 11,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/releases/whats-new/release-notes-2-7-0.md",
+      "before_sha256": "8a37637a2b9657f90ce56be4637d80c9e176c1a912266b544932c3734b85f4a5",
+      "after_sha256": "bd97ffc900a0c29b1f21c38bac70b47b62ce538b15401c45e037fc08b99ee13d",
+      "removed_images": 10,
+      "guide_briefs": 10,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 11,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/releases/whats-new/release-notes-2-8-0.md",
+      "before_sha256": "51d43c83848cfde0c287c0d88530286ed67a7052f9250beb95e0db158b81cabb",
+      "after_sha256": "b0147eeee4c26038ccb6345c47ba51e6c0a77958281c0c0b3608cae58eb22873",
+      "removed_images": 11,
+      "guide_briefs": 11,
+      "inline_labels": [],
+      "externalized_links": [
+        {
+          "original": "https://derivative.ca/community-post/introducing-touchengine-and-front-pictures-screenberry-integration/64140",
+          "external": "https://derivative.ca/community-post/introducing-touchengine-and-front-pictures-screenberry-integration/64140"
+        }
+      ],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 12,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/releases/whats-new/release-notes-2-9-0.md",
+      "before_sha256": "34c303c008e20f7a21bbfe0b22339a17dc72460233e3f6a200cff54244516bc0",
+      "after_sha256": "fac0ec285e1133c5e315e31206c998b2cfd500e8376254cda8d2619a5d3c77a4",
+      "removed_images": 9,
+      "guide_briefs": 9,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 5,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/releases/whats-new/release-notes-3-0-0.md",
+      "before_sha256": "c1373003c9f9aea05f0176896d29fea8cb079988fcc5f59437ca8b1402b92348",
+      "after_sha256": "23f7921565bdbd7b74679c6066a4ae3485d0e74122b03669f37328d347788593",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 7,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/releases/whats-new/release-notes-3-1-0.md",
+      "before_sha256": "b404844ea267e754d9d890b16f440f3bd616cc15f892d01dd1c544d6db88c306",
+      "after_sha256": "c74740f48329762ce07621e257987dcb8866fb52dce09ee9d339760657b9de17",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 3,
+      "headings_preserved": 9,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/releases/whats-new/release-notes-3-2-0.md",
+      "before_sha256": "6dd7708de8670f4a4ee5ee6c13839e0033fedf6b9547fac8eeed75df4bc18d4f",
+      "after_sha256": "36f36e92cb4b1e671707d8ecfe7227eeda70885c8cfaeaf2dde58e911507293f",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 0,
+      "headings_preserved": 34,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/releases/whats-new/release-notes-3-3.md",
+      "before_sha256": "4af750c41b4fabefcb1c38fe408e783a6437e11581465cc146d0191f12530b17",
+      "after_sha256": "11402bde571d9620c6586c40c53f4b2d059f81fc54b5ab3a541331020b4ccf86",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 1,
+      "headings_preserved": 34,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    },
+    {
+      "document": "knowledge/jp/releases/whats-new/release-notes-3-4.md",
+      "before_sha256": "eb7a78a10d3396e0fb81b40d6ff67dca53f82659458bb35b7c2697d3d6e4f390",
+      "after_sha256": "3e1868a00c1a7c6457a2fa14a5a69be846c89a1de03369f5d094809097243603",
+      "removed_images": 0,
+      "guide_briefs": 0,
+      "inline_labels": [],
+      "externalized_links": [],
+      "code_fragments_preserved": 4,
+      "headings_preserved": 99,
+      "text_roundtrip": true,
+      "legacy_baseline_carried_forward": true
+    }
+  ],
+  "redundant_inline_labels_removed": 101
+}

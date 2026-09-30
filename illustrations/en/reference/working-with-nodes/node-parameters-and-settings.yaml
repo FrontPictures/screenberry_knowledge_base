@@ -1,0 +1,102 @@
+schema_version: 1
+document: knowledge/en/reference/working-with-nodes/node-parameters-and-settings.md
+document_id: guide.working-with-nodes.node-parameters-and-settings
+language: en
+document_body_sha256: 522cde0d16915a068153ecb99f2285fa1f0669c9c746c0a136b14fb34ca9c126
+figures:
+  - id: en-965e9f2788-001
+    title: Node Parameters Pins
+    caption: Node Parameters Pins
+    show: "Node Parameters Pins. Use the adjacent instructions as the content brief: In Screenberry, every node has a set of parameters. These parameters are represented by pins on the nodes. The flow of data, actions, or messages between nodes is established by creating links between the pins of corresponding parameters. Data (gray pin ) parameter contains simple data (number, string, timecode) or a pointer to Screenberry internal resources (i.e. image)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Node Parameters (Pins)
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Node-Parameters-Pins.gif
+    source_alt: Node Parameters Pins
+    text_coverage: not-independently-verified
+  - id: en-965e9f2788-002
+    title: Node Parameters Example
+    caption: Node Parameters Example
+    show: "Node Parameters Example. Use the adjacent instructions as the content brief: Action (orange pin ) supports the creation of multiple links to one input. The value of each resulting frame will be determined using logical OR for all input values. Messages (pink pin ) also enables the creation of multiple links to one input. All incoming messages will be queued on the input."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Node Parameters (Pins)
+    source_url: https://help.screenberry.com/images/working-with-nodes/static/Node-Parameters-Example.gif
+    source_alt: Node Parameters Example
+    text_coverage: not-independently-verified
+  - id: en-965e9f2788-003
+    title: Node Settings
+    caption: Node Settings
+    show: "Node Settings. Use the adjacent instructions as the content brief: Selecting the node will open its Settings panel where node parameters can be edited. The change of the node parameter value in the Settings panel is indicated by the button next to the parameter value field. Clicking on this button restores the default parameter value."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Node Settings
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Node-Settings.gif
+    source_alt: Node Settings
+    text_coverage: not-independently-verified
+  - id: en-965e9f2788-004
+    title: Restore Node Settings
+    caption: Restore Node Settings
+    show: "Restore Node Settings. Use the adjacent instructions as the content brief: The change of the node parameter value in the Settings panel is indicated by the button next to the parameter value field. Clicking on this button restores the default parameter value."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: Node Settings
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Restore-Node-Settings.gif
+    source_alt: Restore Node Settings
+    text_coverage: not-independently-verified
+  - id: en-965e9f2788-005
+    title: Selecting Nodes by Type
+    caption: Selecting Nodes by Type
+    show: "Selecting Nodes by Type. Use the adjacent instructions as the content brief: When more than one node is selected, only the parameters common to all selected nodes are displayed in the Settings panel and can be edited. Additionally, information regarding the number of nodes of each type within the selection will be displayed on the buttons at the top of the Settings panel. Click a button with a number to have only the nodes of that type remain in the current selection."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: Settings of Multiple Selected Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Selecting-Nodes-by-Type.gif
+    source_alt: Selecting Nodes by Type
+    text_coverage: not-independently-verified
+  - id: en-965e9f2788-006
+    title: Hiding and Showing Individual Node Parameters
+    caption: Hiding and Showing Individual Node Parameters
+    show: "Hiding and Showing Individual Node Parameters. Use the adjacent instructions as the content brief: To hide a parameter, right-click on the parameter name and select Hide from the dropdown menu. To display hidden parameters, click Show in the Hidden parameters field. The parameters with a hidden status are displayed in italics. To unhide a parameter, right-click on the parameter name and select Show from the dropdown menu. To stop displaying hidden parameters, click Hide in the Hidden parameters field. Note: Less f"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: Hiding/Showing Individual Node Parameters
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Hiding-Showing-Node-Parameters.gif
+    source_alt: Hiding and Showing Individual Node Parameters
+    text_coverage: not-independently-verified
+  - id: en-965e9f2788-007
+    title: Hiding Showing Node Pins
+    caption: Hiding Showing Node Pins
+    show: "Hiding Showing Node Pins. Use the adjacent instructions as the content brief: In the Settings panel, left-clicking on the dot to the left of the parameter name toggles between displaying and hiding the corresponding parameter pin on the node. A blue dot indicates that the parameter pin is displayed, and a gray dot indicates that it is hidden. When a parameter pin with an established link becomes hidden, this link will remain active and be displayed as a dimmed straight line."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: Hiding/Showing Node Pins
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Hiding-Showing-Node-Pins.gif
+    source_alt: Hiding Showing Node Pins
+    text_coverage: not-independently-verified
+  - id: en-965e9f2788-008
+    title: Dimmed Link
+    caption: Dimmed Link
+    show: "Dimmed Link. Use the adjacent instructions as the content brief: When a parameter pin with an established link becomes hidden, this link will remain active and be displayed as a dimmed straight line."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: Hiding/Showing Node Pins
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Dimmed-Link.gif
+    source_alt: Dimmed Link
+    text_coverage: not-independently-verified

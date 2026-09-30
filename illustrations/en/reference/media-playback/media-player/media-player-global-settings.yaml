@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/en/reference/media-playback/media-player/media-player-global-settings.md
+document_id: guide.media-playback.media-player.media-player-global-settings
+language: en
+document_body_sha256: 980b89f5cadc8e97cd2a4dae268d49096d925d0e9c1cc955dd515c0edea44f33
+figures:
+  - id: en-4b2c87724d-001
+    title: Global Color Correction
+    caption: Global Color Correction
+    show: "Global Color Correction. Use the adjacent instructions as the content brief: To access the color correction controls for the Media Player output, click the Color Correction button at the bottom right of the Media Player widget. Note: Color corrections can be also applied to the individual media items, and those are cumulative to the ones applied to the Media Player output."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Color Correction
+    source_url: https://help.screenberry.com/images/media-playback/animation/Global-Color-Correction.gif
+    source_alt: Global Color Correction
+    text_coverage: not-independently-verified
+  - id: en-4b2c87724d-002
+    title: Global Volume Control
+    caption: Global Volume Control
+    show: "Global Volume Control. Use the adjacent instructions as the content brief: To adjust the volume of the Media Player audio output, click the Volume button at the bottom right of the Media Player widget, and drag the slider to set the volume level. It is possible to adjust the audio volume for the individual media items, and those changes will be combined with the Media Player audio output."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: Volume Control
+    source_url: https://help.screenberry.com/images/media-playback/animation/Global-Volume-Control.gif
+    source_alt: Global Volume Control
+    text_coverage: not-independently-verified

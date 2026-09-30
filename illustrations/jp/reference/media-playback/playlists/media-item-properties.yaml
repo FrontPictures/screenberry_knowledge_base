@@ -1,0 +1,330 @@
+schema_version: 1
+document: knowledge/jp/reference/media-playback/playlists/media-item-properties.md
+document_id: guide.media-playback.playlists.media-item-properties
+language: ja
+document_body_sha256: 02d61a34db134a48c8c5a431e443c571f95f7514f7f161b40f1130680b5091a6
+figures:
+  - id: ja-75a0e9d3a0-001
+    title: Renaming Media Items
+    caption: Renaming Media Items
+    show: "Renaming Media Items. Use the adjacent instructions as the content brief: メディアアイテムの名前を変更する方法は2つあります。Media Libraryでメディアアイテムの名前を変更すると、既存のすべてのプレイリストで名前が変わります。 特定のプレイリスト内のメディアアイテムのタイトルを設定することで名前を変更することもできます。メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、Title欄に新しい名前を入力してください。 メモ： 現在Media Playerウィジェットで再生中のメディアアイテムは、名前を変更することができません。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: メディアアイテム名の変更
+    source_url: https://help.screenberry.com/images/media-playback/animation/Renaming-Media-Items.gif
+    source_alt: Renaming Media Items
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-002
+    title: Crossfading Media Items
+    caption: Crossfading Media Items
+    show: "Crossfading Media Items. Use the adjacent instructions as the content brief: メディアアイテムをフェードインさせるには（前のメディアアイテムとクロスフェードするには）、メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、開いたダイアログボックスのFade In欄に時間またはフレーム数を入力してください。 メモ： メディアアイテムのフェードインが設定されている場合、そのコンテンツはクロスフェード切り替えの期間中、前のメディアアイテムにオーバーレイされます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: メディアアイテムのクロスフェード
+    source_url: https://help.screenberry.com/images/media-playback/animation/Crossfading-Media-Items.gif
+    source_alt: Crossfading Media Items
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-003
+    title: Playing A Media Item In A Loop
+    caption: Playing A Media Item In A Loop
+    show: "Playing A Media Item In A Loop. Use the adjacent instructions as the content brief: メディアアイテムをループ再生するには、メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、次のいずれかを行います： Loop欄にループの回数を入力します。メディアアイテムを連続してループ再生する場合は、Infinite Loopチェックボックスを選択します。 また、メディアアイテムを右クリックして、ドロップダウンメニューからInfinite Loopを選択するか、L キーを押すことでも、メディアアイテムを連続してループ再生することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: メディアアイテムのループ再生
+    source_url: https://help.screenberry.com/images/media-playback/animation/Playing-a-Media-Item-in-a-Loop.gif
+    source_alt: Playing A Media Item In A Loop
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-004
+    title: Playing A Media Item In A Loop2
+    caption: Playing A Media Item In A Loop2
+    show: "Playing A Media Item In A Loop2. Use the adjacent instructions as the content brief: また、メディアアイテムを右クリックして、ドロップダウンメニューからInfinite Loopを選択するか、L キーを押すことでも、メディアアイテムを連続してループ再生することができます。 メディアアイテムにループ再生が設定されている場合、プレイリスト内のメディアアイテムのサムネイルにアイコンが表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: メディアアイテムのループ再生
+    source_url: https://help.screenberry.com/images/media-playback/animation/Playing-a-Media-Item-in-a-Loop2.gif
+    source_alt: Playing A Media Item In A Loop2
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-005
+    title: Pausing Media Item Playback At The Start Or End
+    caption: Pausing Media Item Playback At The Start Or End
+    show: "Pausing Media Item Playback At The Start Or End. Use the adjacent instructions as the content brief: メディアアイテムの再生を最初のフレームまたは最後のフレームで一時停止するには、メディアアイテムを右クリックし、次のいずれかの操作を行います： ドロップダウンメニューからPause on First Frameを選択します（または [ キーを押します）/ ドロップダウンメニューから Pause on Last Frame を選択します（または ] キーを押します）。ドロップダウンメニューからSettingsを選択し、Pause on First Frame / Pause on Last Frameのチェックボックスを選択します。 メディアアイテムが開始または終了時に一時停止されている場合、プレイリストのメディアアイテムのサムネイルには次のアイコンが表示されます："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: 再生開始または終了時の一時停止
+    source_url: https://help.screenberry.com/images/media-playback/animation/Pausing-Media-Item-Playback-at-the-Start-or-End.gif
+    source_alt: Pausing Media Item Playback At The Start Or End
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-006
+    title: Trimming A Media Item
+    caption: Trimming A Media Item
+    show: "Trimming A Media Item. Use the adjacent instructions as the content brief: メディアアイテムの開始点と終了点を設定するには、以下のいずれかの方法を使用します： Media Playerのシークバーで開始点と終了点のスライダーをドラッグします。Media Playerのシークバーで右クリックし、ドロップダウンメニューからSet In Point (Set Out Point)を選択します。メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、In Point/Out Point欄のフレーム番号を入力します。メディアアイテムを右クリックし、ドロップダウンメニューからPreview Itemを選択するか、スペースバーを押してMedia Item Previewダイアログボックスを開きます。シークバーで開始点と終了点のスライダーをドラッグするか、シークバーで右クリックし、ドロップダウンメニューからSet In Point (Set Out Point)を選択します。 開始点または終"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 26
+      section: メディアアイテムの再生範囲の設定
+    source_url: https://help.screenberry.com/images/media-playback/animation/Trimming-a-Media-Item.gif
+    source_alt: Trimming A Media Item
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-007
+    title: Starting Media Item Playback At A Timecode
+    caption: Starting Media Item Playback At A Timecode
+    show: "Starting Media Item Playback At A Timecode. Use the adjacent instructions as the content brief: メディアアイテムの再生は、特定のタイムコードをきっかけに開始することができます。メディアアイテムの再生を特定のタイムコードで開始するには、メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、Start at Timecodeチェックボックスを選択し、Start at Timecode欄に時間またはフレームの値を入力してください。 メディアアイテムが特定のタイムコードで開始されるように設定されている場合、プレイリスト内のメディアアイテムのサムネイルにアイコンが表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 30
+      section: 特定のタイムコードでのメディアアイテムの再生開始
+    source_url: https://help.screenberry.com/images/media-playback/animation/Starting-Media-Item-Playback-at-a-Timecode.gif
+    source_alt: Starting Media Item Playback At A Timecode
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-008
+    title: Sending A Timecode
+    caption: Sending A Timecode
+    show: "Sending A Timecode. Use the adjacent instructions as the content brief: メディアアイテムは、内部および外部のソフトウェアやハードウェアのイベントをトリガーするために、タイムコードを送信することができます。メディアアイテムからタイムコードを送信するには、メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、Send Timecodeチェックボックスを選択し、Send Timecode欄に時間とフレームの値を入力します。 メディアアイテムがタイムコードを送信するように設定されている場合、プレイリスト内のメディアアイテムのサムネイルにはアイコンが表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: タイムコードの送信
+    source_url: https://help.screenberry.com/images/media-playback/animation/Sending-a-Timecode.gif
+    source_alt: Sending A Timecode
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-009
+    title: Media Item Color Correction
+    caption: Media Item Color Correction
+    show: "Media Item Color Correction. Use the adjacent instructions as the content brief: メディアアイテムの色調補正コントロールにアクセスするには、メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、Image Adjustment欄のColor Correctionボタンをクリックします。 メモ： 色調補正は、Media Player自体にも設定できます。これは、個々のメディアアイテムに設定された色調補正と組み合わされます。詳細については、Media Playerの色調補正を参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 36
+      section: メディアアイテムの色調補正
+    source_url: https://help.screenberry.com/images/media-playback/animation/Media-Item-Color-Correction.gif
+    source_alt: Media Item Color Correction
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-010
+    title: Multiply By Alpha
+    caption: Multiply By Alpha
+    show: "Multiply By Alpha. Use the adjacent instructions as the content brief: メディアアイテムにアルファ値による乗算を設定するには、メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、Multiply by Alphaチェックボックスをオンにします。 メディアアイテムにアルファチャンネルが含まれている場合、プレイリストのメディアアイテムのサムネイルにアイコンが表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 55
+      section: プレマルチプライドアルファブレンディングの設定
+    source_url: https://help.screenberry.com/images/media-playback/animation/Multiply-by-Alpha.gif
+    source_alt: Multiply By Alpha
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-011
+    title: Disabling Video Output Of A Media Item
+    caption: Disabling Video Output Of A Media Item
+    show: "Disabling Video Output Of A Media Item. Use the adjacent instructions as the content brief: メディアアイテムの映像トラックを無効にするには、メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、Disable Videoチェックボックスを選択してください。 メモ： メディアアイテムの映像出力が無効になっている場合でも、再生中にはメディアアイテムのオーディオトラックが引き続き再生されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 58
+      section: メディアアイテムの映像トラックの無効化
+    source_url: https://help.screenberry.com/images/media-playback/animation/Disabling-Video-Output-of-a-Media-Item.gif
+    source_alt: Disabling Video Output Of A Media Item
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-012
+    title: Disabling The Alpha Channel Of A Media Item
+    caption: Disabling The Alpha Channel Of A Media Item
+    show: "Disabling The Alpha Channel Of A Media Item. Use the adjacent instructions as the content brief: メディアアイテムのアルファチャンネルを無効にするには、メディアアイテムを右クリックし、ドロップダウンメニューからSettigsを選択し、Disable Alpha Channelチェックボックスを選択します。 メディアアイテムのアルファチャネルが無効になっている場合、プレイリストのメディアアイテムのサムネイルにアイコンが表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 62
+      section: メディアアイテムのアルファチャンネルの無効化
+    source_url: https://help.screenberry.com/images/media-playback/animation/Disabling-the-Alpha-Channel-of-a-Media-Item.gif
+    source_alt: Disabling The Alpha Channel Of A Media Item
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-013
+    title: Adjusting The Audio Level Of A Media Item
+    caption: Adjusting The Audio Level Of A Media Item
+    show: "Adjusting The Audio Level Of A Media Item. Use the adjacent instructions as the content brief: メディアアイテムの音量を調整するには、メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、Volumeスライダーをドラッグして音量レベルを設定するか、対応する入力欄にパーセンテージで入力します。また、メディアアイテムのオーディオをミュートするには、Muteチェックボックスを選択します。音量レベルを2倍にするには、Boostチェックボックスを選択します。 また、Media Player自体の音量を調整することも可能です。この音量設定はメディアアイテムの音量設定と組み合わされます。詳細はMedia Player/全体調整/音量調整を参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 65
+      section: メディアアイテムの音量調整
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adjusting-the-Audio-Level-of-a-Media-Item.gif
+    source_alt: Adjusting The Audio Level Of A Media Item
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-014
+    title: Adding And Switching The Audio Tracks Of A Media Item
+    caption: Adding And Switching The Audio Tracks Of A Media Item
+    show: "Adding And Switching The Audio Tracks Of A Media Item. Use the adjacent instructions as the content brief: メディアアイテムには複数のオーディオトラックが存在する場合があります。 メディアアイテムにオーディオトラックを追加するには、システムフォルダからオーディオファイルをMedia Playerのプレイリスト（またはMedia Library）のメディアアイテムサムネイル上にドラッグアンドドロップし、表示されたダイアログボックスでAdd Audioボタンをクリックします。追加されたメディアアイテムの再生時間がオーディオファイルの再生時間と一致しない場合、メディアアイテムの再生時間をオーディオファイルと一致させるか、そのままにするかを選択することができます。 メディアアイテムのオーディオトラックを選択および切り替えるには、メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、Audio Track [N] のドロップダウンリストからトラックを選択してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 70
+      section: オーディオトラックの追加および切り替え
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-and-Switching-the-Audio-Tracks-of-a-Media-Item.gif
+    source_alt: Adding And Switching The Audio Tracks Of A Media Item
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-015
+    title: Adding And Displaying Media Item Subtitles
+    caption: Adding And Displaying Media Item Subtitles
+    show: "Adding And Displaying Media Item Subtitles. Use the adjacent instructions as the content brief: メディアアイテムには、再生中に表示される字幕を含めることができます。 メディアアイテムに字幕を追加するには、システムフォルダから字幕ファイル（.srt形式）をMedia Playerのプレイリスト（またはMedia Library）のメディアアイテムのサムネイルにドラッグアンドドロップし、表示されるダイアログボックスのAdd Subtitlesボタンをクリックします。 メディアアイテムには複数の字幕トラックが追加できます。メディアアイテムの再生中に表示する字幕トラックを選択するには、メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、Subtitlesのドロップダウンリストから字幕ファイルを選択します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 74
+      section: メディアアイテムに字幕を追加する
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-and-Displaying-Media-Item-Subtitles.gif
+    source_alt: Adding And Displaying Media Item Subtitles
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-016
+    title: Adding And Displaying Media Item Subtitles2
+    caption: Adding And Displaying Media Item Subtitles2
+    show: "Adding And Displaying Media Item Subtitles2. Use the adjacent instructions as the content brief: 再生中、Media Playerノードは、メディアアイテムに関連付けられた字幕をテキストとして出力します。このテキストを出力で表示するには、TextImageノードを使用してイメージとしてレンダリングし、通常はPatchノードの1つであるBezierWarpノードを使用して現在の出力上に配置する必要があります。 TextImageノードとBezierWarpノードをノードグラフに追加します。MediaPlayerノードのSubtitles出力ピンをTextImageノードのText入力ピンに接続します。TextImageノードのImage出力ピンをBezierWarpノードのSource Image入力ピンに接続します。BezierWarpノードのPatch出力ピンをDisplay（またはCanvas）ノードのPatches入力ピンに接続します。字幕付きのメディアアイテムの再生を開始し、Screenberry Serverの出力"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 77
+      section: メディアアイテムに字幕を追加する
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-and-Displaying-Media-Item-Subtitles2.gif
+    source_alt: Adding And Displaying Media Item Subtitles2
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-017
+    title: Adding User Comments To A Media Item
+    caption: Adding User Comments To A Media Item
+    show: "Adding User Comments To A Media Item. Use the adjacent instructions as the content brief: メディアアイテムにコメントを追加することで、上映時にメディアアイテムについて特定の操作を行うためのメモなどとして利用できます。 コメントを追加するには、メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、Commentsテキストエリアにコメントを入力してください。 メディアアイテムにコメントが追加されると、プレイリストのメディアアイテムのサムネイルにアイコンが表示されます。このアイコンにカーソルを合わせると、コメントのツールチップが表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 81
+      section: メディアアイテムにユーザーコメントを追加する
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-User-Comments-to-a-Media-Item.gif
+    source_alt: Adding User Comments To A Media Item
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-018
+    title: Changing The Frame Rate
+    caption: Changing The Frame Rate
+    show: "Changing The Frame Rate. Use the adjacent instructions as the content brief: メディアアイテムの再生フレームレートは、Media Libraryでのみ変更できます。この変更は、このメディアアイテムのすべてのインスタンスに影響します。 メディアアイテムを右クリックし、ドロップダウンメニューからReveal Item in Media Libraryを選択し、Media Libraryウィジェットでメディアアイテムを右クリックし、ドロップダウンメニューからChange FPS for Selected itemsを選択し、表示されたダイアログボックスのSet FPS欄に数値を入力してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 86
+      section: メディアアイテムのフレームレート（FPS）の変更
+    source_url: https://help.screenberry.com/images/media-playback/animation/Changing-the-Frame-Rate.gif
+    source_alt: Changing The Frame Rate
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-019
+    title: Changing The Duration Of A Media Item
+    caption: Changing The Duration Of A Media Item
+    show: "Changing The Duration Of A Media Item. Use the adjacent instructions as the content brief: メディアアイテムの再生時間は、Media Libraryでのみ変更することができます。この変更は、このメディアアイテムのすべてのインスタンスに影響を与えます。 メディアアイテムを右クリックし、ドロップダウンメニューからReveal Item in Media Libraryを選択し、Media Libraryウィジェットでメディアアイテムを右クリックし、ドロップダウンメニューからChange Duration for Selected itemsを選択し、表示されたたダイアログボックスのSet Frames欄にフレーム数を入力してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 89
+      section: メディアアイテムの再生時間の変更
+    source_url: https://help.screenberry.com/images/media-playback/animation/Changing-the-Duration-of-a-Media-Item.gif
+    source_alt: Changing The Duration Of A Media Item
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-020
+    title: Mapping A Media Item
+    caption: Mapping A Media Item
+    show: "Mapping A Media Item. Use the adjacent instructions as the content brief: メディアアイテムをキーボード（またはマウス）イベントにマッピングするには、以下の手順を実行してください。 Media Playerのプレイリストでマッピングしたいメディアアイテムを右クリックし、ドロップダウンメニューからMap Item to MIDI/Keyboard Eventを選択します。マッピングを行っていることを示す黄色いハイライトがメディアアイテムのサムネイルに追加されます。Node Graphに切り替え、Keyboard（またはMouse）ノードを追加します。Keyboard（またはMouse）ノードのMessage出力ピンをMedia PlayerノードのEvent入力ピンに接続します。Screenberry PanelのメインメニューからServer > Forward Keyboard and Mouse Eventsを選択します。マッピングしたいキーまたはキーコンビネーションを押します（例： Ctrl + "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 92
+      section: メディアアイテムをMIDI/キーボードイベントにマッピングする
+    source_url: https://help.screenberry.com/images/media-playback/animation/Mapping-a-Media-Item.gif
+    source_alt: Mapping A Media Item
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-021
+    title: Mapping A Media Item2
+    caption: Mapping A Media Item2
+    show: "Mapping A Media Item2. Use the adjacent instructions as the content brief: 現在のメディアアイテムへのマッピングの詳細情報を確認するには、メディアアイテムを右クリックし、ドロップダウンメニューからSettingsを選択し、MIDI/Keyboard Mappings欄を表示してください。こちらでは、イベントの説明の横にあるDiscard MIDI/Keyboard Mappingボタンを押すことで個々のイベントのマッピングを解除することができます。 イベントのマッピングを中止する場合は、Media Playerのプレイリストでメディアアイテムを右クリックし、ドロップダウンメニューからCancel Item Mappingを選択します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 93
+      section: メディアアイテムをMIDI/キーボードイベントにマッピングする
+    source_url: https://help.screenberry.com/images/media-playback/animation/Mapping-a-Media-Item2.gif
+    source_alt: Mapping A Media Item2
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-022
+    title: Mapping A Media Item3
+    caption: Mapping A Media Item3
+    show: "Mapping A Media Item3. Use the adjacent instructions as the content brief: イベントのマッピングを中止する場合は、Media Playerのプレイリストでメディアアイテムを右クリックし、ドロップダウンメニューからCancel Item Mappingを選択します。 選択したメディアアイテムへのマッピングをすべて削除したい場合は、メディアアイテムを右クリックし、ドロップダウンメニューからRemove All Mappingsを選択します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 95
+      section: メディアアイテムをMIDI/キーボードイベントにマッピングする
+    source_url: https://help.screenberry.com/images/media-playback/animation/Mapping-a-Media-Item3.gif
+    source_alt: Mapping A Media Item3
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-023
+    title: Viewing Media Item Information
+    caption: Viewing Media Item Information
+    show: "Viewing Media Item Information. Use the adjacent instructions as the content brief: メディアアイテムに関する情報にアクセスするには、メディアアイテムを右クリックしてドロップダウンメニューからItem Infoを選択するか、I キーを押してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 97
+      section: メディアアイテムの情報表示
+    source_url: https://help.screenberry.com/images/media-playback/animation/Viewing-Media-Item-Information.gif
+    source_alt: Viewing Media Item Information
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-024
+    title: Changing Settings For Multiple Media Items
+    caption: Changing Settings For Multiple Media Items
+    show: "Changing Settings For Multiple Media Items. Use the adjacent instructions as the content brief: 一度に複数のメディアアイテムの設定を変更するには、メディアアイテムを選択し、右クリックしてドロップダウンメニューからItem Settingsを選択するか、S キーを押してください。選択されたすべてのメディアアイテムに共通する設定のみが、Settingsダイアログボックスで編集可能になります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 99
+      section: 複数のメディアアイテム設定の一括変更
+    source_url: https://help.screenberry.com/images/media-playback/animation/Changing-Settings-for-Multiple-Media-Items.gif
+    source_alt: Changing Settings For Multiple Media Items
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-025
+    title: Media Item With Indicators
+    caption: Media Item With Indicators
+    show: "Media Item With Indicators. Use the adjacent instructions as the content brief: メディアアイテムの現在の設定と状態に関する状態表示は、メディアアイテムのサムネイル上に表示されます。 状態表示付きのメディアアイテム"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 101
+      section: メディアアイテムの状態表示
+    source_url: https://help.screenberry.com/images/media-playback/static/Media-Item-with-Indicators.png
+    source_alt: Media Item With Indicators
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-026
+    title: Audioitem
+    caption: Audioitem
+    show: "Audioitem. Use the adjacent instructions as the content brief: 立体視動画 オーディオのみのメディアアイテムには特定のアイコンがありません。代わりに、サムネイルはオーディオのヒストグラムに基づいて生成されます。 再生状態の種類"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 107
+      section: メディアアイテムの状態表示
+    source_url: https://help.screenberry.com/images/media-playback/static/audioitem.png
+    source_alt: Audioitem
+    text_coverage: not-independently-verified
+  - id: ja-75a0e9d3a0-027
+    title: Comment
+    caption: Comment
+    show: "Comment. Use the adjacent instructions as the content brief: メディアアイテムには字幕が含まれています（メディアアイテムに字幕を追加するを参照）。 コメント ユーザーコメントがメディアアイテムに追加されています。アイコンにカーソルを合わせると表示されます（メディアアイテムにユーザーコメントを追加するを参照）。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 137
+      section: メディアアイテムの状態表示
+    source_url: https://help.screenberry.com/images/media-playback/static/comment.png
+    source_alt: Comment
+    text_coverage: not-independently-verified

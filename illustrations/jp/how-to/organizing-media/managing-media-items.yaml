@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/jp/how-to/organizing-media/managing-media-items.md
+document_id: guide.organizing-media.managing-media-items
+language: ja
+document_body_sha256: 1ec6e5d1b6f0eaa82bf25bd237572e84208fece29f339dc27dce3d57388f20bd
+figures:
+  - id: ja-36bd81b2f0-001
+    title: Adding Media Files
+    caption: Adding Media Files
+    show: "Adding Media Files. Use the adjacent instructions as the content brief: サーバーにメディアファイルを追加するには、次のいずれかの方法を実行します。 Media Libraryフォルダを選択し、フォルダツリーエリアの下部にあるAdd Mediaボタンを押します。ファイルを既存のMedia Libraryフォルダにドラッグアンドドロップします。ファイルを既存のMedia Playerウィジェットのプレイリストにドラッグアンドドロップします。 表示されたAdd Media File(s) ダイアログボックスで、必要に応じてメディアアイテムの解像度を変更したり品質を変更したりしてから、Addボタンを押してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: メディアファイルの追加
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Adding-Media-Files.gif
+    source_alt: Adding Media Files
+    text_coverage: not-independently-verified
+  - id: ja-36bd81b2f0-002
+    title: Deleting Media Items
+    caption: Deleting Media Items
+    show: "Deleting Media Items. Use the adjacent instructions as the content brief: メディアアイテムを削除するには、フォルダコンテンツエリアでメディアアイテム（複数のメディアアイテムの選択）を右クリックし、Remove Item from Media Libraryを選択するか、Shift + Del を押します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: メディアアイテムの削除
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Deleting-Media-Items.gif
+    source_alt: Deleting Media Items
+    text_coverage: not-independently-verified
+  - id: ja-36bd81b2f0-003
+    title: Adding Media Files
+    caption: Adding Media Files
+    show: "Adding Media Files. Use the adjacent instructions as the content brief: もし、Media LibraryでMediaフォルダが選択されている場合、すべてのフォルダの内容が表示され、メディアアイテムをフォルダ間でドラッグアンドドロップすることができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: メディアアイテムの整理
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Adding-Media-Files.gif
+    source_alt: Adding Media Files
+    text_coverage: not-independently-verified
+  - id: ja-36bd81b2f0-004
+    title: Searching Media Items 1
+    caption: Searching Media Items 1
+    show: "Searching Media Items 1. Use the adjacent instructions as the content brief: 特定のメディアアイテムを検索するには、Media Libraryの検索ボックスに名前の一部を入力してください。その結果、検索条件に一致する名前やユーザー定義のラベルを持つメディアアイテムのみがコンテンツエリアに表示されます。Mediaフォルダが選択されている場合、検索はすべてのフォルダで実行されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: メディアアイテムの検索
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Searching-Media-Items-1.gif
+    source_alt: Searching Media Items 1
+    text_coverage: not-independently-verified

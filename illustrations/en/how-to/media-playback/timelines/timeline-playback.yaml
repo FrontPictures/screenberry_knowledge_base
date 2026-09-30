@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/how-to/media-playback/timelines/timeline-playback.md
+document_id: guide.media-playback.timelines.timeline-playback
+language: en
+document_body_sha256: 175aec12e0f6806c17cf5b793bf476c833344658cead53abd93fa6b24c20ed56
+figures:
+  - id: en-caee1ec7ae-001
+    title: Timeline Playback
+    caption: Timeline Playback
+    show: "Timeline Playback. Use the adjacent instructions as the content brief: To prevent accidental changes from being made to a timeline’s playback state, you can enable the Lock/Unlock Controls toggle . When this control is locked, all play, pause, and stop buttons will become disabled. To unlock the playback controls, click the Lock/Unlock Playback Controls toggle again. To locate the currently playing media item, click the Reveal Active Item button . Upon clicking, the view will be switche"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Timeline Playback
+    source_url: https://help.screenberry.com/images/media-playback/animation/Timeline-Playback.gif
+    source_alt: Timeline Playback
+    text_coverage: not-independently-verified

@@ -1,0 +1,56 @@
+---
+title: Screenberry 3D Scene - Adding and Modifying 3D Primitives
+description: Learn how to add and modify basic geometric shapes in Screenberry's 3D scenes, including boxes, spheres, and cylinders.
+openGraph:
+  title: Screenberry 3D Scene - Adding and Modifying 3D Primitives
+  description: Learn how to add and modify basic geometric shapes in Screenberry's 3D scenes, including boxes, spheres, and cylinders.
+---
+
+# 3D Primitive
+
+The **3D Primitive** feature allows you to add basic geometric shapes such as boxes, spheres, cylinders, etc., into your 3D scene and modify them.
+
+To add a **3D Primitive**, do the following:
+
+1. Navigate to the **Node Graph** widget.
+2. Add a **3D Primitive** node to your node graph.
+3. Connect the **Object** output parameter of the **3D Primitive** node to the **Objects** input parameter of the **3D Scene** node.
+4. Optionally (this step can be performed later directly in the 3D scene), select the type of geometric shape you want to add in the **3D Primitive** node settings. Options include a sphere, box, cylinder, plane, or dome.
+5. Switch to the **3D Scene** widget to further adjust the position and dimensions of the primitive, either using **3D scene** tools or within the **3D Primitive** settings.
+
+<img alt="3D Primitive" src="/images/3d-scene/animation/3D-Primitive.gif" width={800} height={544} loading="lazy" />
+
+The **3D Primitive** settings include:
+
+##### General settings
+
+- **Type**: Select the type of primitive you wish to create: **Sphere**, **Box**, **Cylinder**, **Plane**, or **Dome**.
+- **Size**: Define the dimensions of the primitive with specific values for width (**X**), height (**Y**), and depth (**Z**).
+
+##### Texture Controls
+
+- **Flip U / Flip V**: These options invert the texture mapping on the U-axis or V-axis.
+- **Opposite Polygons**: Enable the rendering of opposite sides of polygons. This can be useful in certain 3D setup scenarios, for example, when the 3D camera is placed inside the primitive.
+- **Double-sided**: When checked, both sides of the polygons are rendered.
+- **Top/Bottom Plane**: Toggle these to include or exclude the top and bottom planes in shapes like boxes and cylinders.
+
+##### Baked Texture
+
+- **Render Baked Texture**: Toggle this option to enable or disable the continuous re-rendering of the baked texture.
+- **Baked Texture Size**: Set the resolution of the baked texture. Specify values for width (**X**) and height (**Y**), for example, 1920x1080 for full HD.
+- **Baked Texture Bits per Channel**: Choose the color depth for the texture. Options include **8-bit** and **32-bit (float)**.
+- **Baked Texture Wrap Mode**: Select how the image is sampled outside its texture boundaries. **Clamp to Black** returns black outside the image; **Repeat Edge Pixels** extends the colors of the nearest edge pixels.
+
+##### Other parameters
+
+- **Current UV Set**: Define which set of texture coordinates will be used for the texture mapping of the 3D primitive.
+- **Color**: Select the color of the primitive's surface (if no texture is applied).
+- **Transform Matrix**: Access transformation controls, including scale, rotation, and position.
+- **Transform Order**: Choose the order in which transformations like scale, rotate, and translate are applied.
+- **Scale**: Adjust the size of the primitive across the **X**, **Y**, and **Z** axes.
+- **Rotation Order**: Indicate the sequence in which rotations are applied around the axes, for example, **Y (Heading), X (Pitch),** and **Z (Bank)**.
+- **Rotation**: Orient the primitive within the 3D space by setting the rotation angles around the **X**, **Y**, and **Z** axes.
+- **Position**: Set the location of the primitive within the 3D space by entering coordinates for the **X**, **Y**, and **Z** axes.
+- **Projection Mapping**: Enable or disable the application of projected textures onto the surface of the primitive.
+- **Resources Folder**: Specify the path to the folder where the current state of the primitive, including its geometry and texture coordinates, will be continuously saved as an OBJ file.
+- **UV Set [N] Texture**: Assigns the texture to be mapped onto the surface of the 3D primitive using **UV Set [N]**.

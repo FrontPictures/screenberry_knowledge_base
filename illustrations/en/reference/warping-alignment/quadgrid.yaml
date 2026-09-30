@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/quadgrid.md
+document_id: guide.warping-alignment.quadgrid
+language: en
+document_body_sha256: a2468f015cf980859d1413f19a136c22a22fbd190bea8b893c94483dd217bc60
+figures:
+  - id: en-d831440980-001
+    title: Quad Grid Node Tree
+    caption: Quad Grid Node Tree
+    show: "Quad Grid Node Tree. Use the adjacent instructions as the content brief: The Quad Grid node is a patch that applies perspective to the individual planes of the user-defined mesh grid. This patch is developed to map projection onto surfaces of stair-like objects. In a typical setup, the Quad Grid node receives a source image as the input and outputs the modified image to the Display or Canvas node. Example of the node graph with the Quad Grid node"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: Quad Grid
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Quad-Grid-node-tree.png
+    source_alt: Quad Grid Node Tree
+    text_coverage: not-independently-verified
+  - id: en-d831440980-002
+    title: Stairs1
+    caption: Stairs1
+    show: "Stairs1. Use the adjacent instructions as the content brief: To apply perspective warping using the Quad Grid patch, do the following in the Patch Editor: Create a mesh grid by entering X and Y values in the Grid Size parameter in the Settings panel.For a staircase-like object with horizontal tread and riser surfaces:Set X to 2 to create one column of quadrilateral faces. Use a larger value if a more complex object requires additional columns.Set Y to the total number of conse"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Quad Grid
+    source_url: https://help.screenberry.com/images/warping-alignment/static/stairs1.png
+    source_alt: Stairs1
+    text_coverage: not-independently-verified
+  - id: en-d831440980-003
+    title: Stairs2 1
+    caption: Stairs2 1
+    show: "Stairs2 1. Use the adjacent instructions as the content brief: To apply perspective warping using the Quad Grid patch, do the following in the Patch Editor: Create a mesh grid by entering X and Y values in the Grid Size parameter in the Settings panel.For a staircase-like object with horizontal tread and riser surfaces:Set X to 2 to create one column of quadrilateral faces. Use a larger value if a more complex object requires additional columns.Set Y to the total number of conse"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Quad Grid
+    source_url: https://help.screenberry.com/images/warping-alignment/static/stairs2-1.png
+    source_alt: Stairs2 1
+    text_coverage: not-independently-verified
+  - id: en-d831440980-004
+    title: Quad Grid
+    caption: Quad Grid
+    show: "Quad Grid. Use the adjacent instructions as the content brief: Example of a patch grid for an object with horizontal planes. Grid Size: X=2, Y=10, giving 9 quadrilateral faces.Example of a patch grid for an object with vertical planes. Grid Size: X=10, Y=2, giving 9 quadrilateral faces. In the Output panel, modify the warping mesh for the projected image by dragging the handles of the mesh control points for each grid plane.If the grid planes are transformed into trapezoidal sha"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Quad Grid
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Quad-Grid.gif
+    source_alt: Quad Grid
+    text_coverage: not-independently-verified

@@ -1,0 +1,160 @@
+---
+title: Screenberry Calibration Process - A Detailed Step-by-Step Overview
+description: Understand the Screenberry automatic calibration process, including calibration presets, projector and camera setup, defining projection areas, and the stages of calibration.
+openGraph:
+  title: The Complete Calibration Process in Screenberry Explained
+  description: Step-by-step overview of the entire calibration process in Screenberry, from setup to execution.
+---
+
+# Calibration Process
+
+## Automatic Calibration Presets
+
+The **Calibrator Wizard** widget (**Window** > **Calibrator Wizard)** offers three calibration presets:
+
+- **Geometry** calibration provides _geometry alignment_ and _edge blending_. It normally takes about 30 seconds per projector and includes the **Masks**, **Geometry,** and **Blends** calibration stages.
+- **Geometry + Intensity** calibration provides _geometry alignment,_ _edge blending,_ and _black and white level compensation._ It normally takes about 1.5 minutes per projector and includes the **Masks**, **Geometry,** **Blends,** and **Intensity** calibration stages.
+- **Geometry + Intensity + Gamma** calibration has all the **Standard** calibration features with the addition of _gamma correction_ to ensure image color uniformity within blends. It usually takes about 15-30 minutes and includes the **Masks**, **Geometry,** **Blends, Colors,** and **Intensity** calibration stages.
+
+![Automatic Calibration Presets](/images/automatic-calibration/static/Automatic-Calibration-Presets.png)
+
+> **Note:** The initial **Geometry + Intensity** and **Geometry + Intensity + Gamma** calibration may take longer as more pictures at a slow shutter speed should be taken for automatic adjustment of the camera for black calibration.
+
+> **Note:** Once the **Gamma Correction** calibration stage is completed, the gamma correction maps are stored in the LUT tables and applied every time that the **Geometry** and **Geometry + Intensity** calibrations are run.
+
+import { Callout } from 'nextra/components';
+
+<Callout emoji={<img src="/images/misc/drafts_blue.svg" alt="Information" width={20} height={20} />}>
+**Note:** The **Geometry + Intensity + Gamma** preset is required only if you are using DLP single-chip projectors with Brilliant Color enabled. This calibration is required for the initial setup, or in any of the following cases:
+
+- After the projector lamps have been replaced following extensive use.
+- When visible color shifts in the blends between projections become apparent.
+- After the projector color mode (Presentation (Game, PC), Cinema, sRGB, etc.) had been changed.
+
+</Callout>
+
+## Checking Projectors and Camera Positioning
+
+When the calibration preset is selected, the system automatically takes a test photo.
+
+![Camera Positioning](/images/automatic-calibration/static/Camera-Positioning.png)
+
+If the camera is not connected or not functioning properly, an **Error** message will appear.
+
+Based on the test photo, adjustments can be made, if necessary, to:
+
+- Camera rotation and tilt.
+- The positioning of projectors to change how projected images overlap.
+- The positioning and focus of the camera.
+
+After adjustments are made, press the **Retake Photo** button <img alt="Retake Photo Button" src="/images/automatic-calibration/static/Retake-Photo-Button.png" width={80} height={19} loading="lazy" /> to take another test photo. Make further adjustments if necessary. Repeat these steps until the camera and projection layout are set up as required.
+
+## Defining the Calibration Projection Area
+
+The objects outside the projection area (light sources, trusses, etc) can reflect or emit light and, thus affect the calibration results — distorting calibration geometry or influencing black level compensation and brightness balance. Therefore, it is important to precisely define the projection area — anything inside the specified area is calibrated while everything outside is ignored.
+
+Open the **Calibration Area** dropdown menu to select one of three screen area setting modes:
+
+![Calibration Area Selection](/images/automatic-calibration/static/Calibration-Area-Selection.png)
+
+- **Automatic**. Using the calibration patterns, the **Calibration Wizard** identifies the borders of the projection area automatically.
+- **Manual** (recommended). In this mode, a user can manually define a more precise bounding shape for the projection area. This approach significantly improves calibration quality by excluding undesired areas that should not be covered by the projection.
+
+  To adjust the mask, do the following:
+
+  - In **Bounding Box** mode, scale the mask by dragging the handles.
+  - In **Circular** mode, apply fine adjustments to the mask by dragging the handles on the curve. You can switch to this mode by selecting the **Bounding Box Off** checkbox ![Bounding Box Off Checkbox](/images/automatic-calibration/static/Bounding-Box-Off-checkbox.png).
+
+      <div className="table-pictures table-without-border">
+
+    | ![Bounding Box Mode](/images/automatic-calibration/static/Bounding-Box-mode.png) | ![Circular Mode](/images/automatic-calibration/static/Circular-mode.png) |
+    | --------------------------------------------------------------- | ----------------------------------------------------------- |
+    | <small>**Bounding Box** mode</small>                            | <small>**Circular** mode</small>                            |
+
+      </div>
+
+For more adjustment precision, zoom and pan the view by using the mouse scroll wheel (scrolling it to zoom, and holding it to pan) or by clicking the **Zoom** <img alt="Zoom Icon" src="/images/automatic-calibration/static/zoom-icon.png" width={25} height={25} loading="lazy" /> and **Pan** <img alt="Pan Icon" src="/images/automatic-calibration/static/pan-icon.png" width={25} height={25} loading="lazy" /> buttons in the top right corner and moving the mouse.
+
+To reset the mask to its default state, press the **Reset Calibration Area** button ![Reset Calibration Area Button](/images/automatic-calibration/static/Reset-Calibration-Area-Button.png).
+
+> **Note:** The mask settings defined by the user are saved automatically, and loaded during the next calibration session.
+
+- **Full Camera Frame**. In this mode, the **Calibration Wizard** automatically recognizes the entire photo frame as a projection area and positions the content to fit within the borders of the test photo.
+
+## Running Calibration
+
+Once the calibration projection area is defined, press the **Start (Selected Calibration Preset)** button ![Start Button](/images/automatic-calibration/static/Start-Button.png) to start the calibration. During calibration, the **Calibrator Wizard** displays the calibration progress bar, the current calibration stage, and photos of the calibration patterns projected on the screen.
+
+<img alt="Automatic Calibration Process2" src="/images/automatic-calibration/static/Automatic-Calibration-process2.gif" width={800} height={570} loading="lazy" />
+
+The calibration process can be interrupted by pressing the **Abort** button <img alt="Abort Button" src="/images/automatic-calibration/static/Abort-Button.png" width={40} height={19} loading="lazy" />. The **Abort** button stays active during calibration and deactivates once the calibration process is finished successfully.
+
+Press the **Finish** button <img alt="Finish Button" src="/images/automatic-calibration/static/Finish-Button.png" width={43} height={19} loading="lazy" /> when the calibration process is completed. The **Finish** button is inactive during the calibration process and activates when calibration is completed.
+
+![Finish Calibration2](/images/automatic-calibration/static/Finish-Calibration2.jpg)
+
+<Callout type="info" emoji={<img src="/images/misc/warning_yellow.svg" alt="Warning" width={20} height={20} />}>
+**Important:** To achieve the best calibration results, during the calibration process:
+
+- No object or person should obstruct the projectors’ light beams. If during the calibration the presence of personnel is required, they must remain below the projection line and out of camera view range.
+- No light sources should be present in the dome. Lamps, monitors, phone screens, etc. should be turned off or, at the very least, set to minimum brightness.
+
+</Callout>
+
+## Stages of Automatic Calibration
+
+1. During the **Masks** stage, a series of black and white line patterns are generated to define a projection area for each projector.
+
+   <div className="table-pictures table-without-border">
+
+   | ![Mask1](/images/automatic-calibration/static/mask1.png) | ![Mask2](/images/automatic-calibration/static/mask2.png) |
+   | --------------------------------------------------- | --------------------------------------------------- |
+   | <small>Black and white line pattern</small>         | <small>Resulting mask</small>                       |
+
+   </div>
+
+2. During the **Geometry** stage, a series of blob patterns is projected to generate the displacement maps for each projector.
+
+   <div className="table-pictures table-without-border">
+
+   | ![Geometry1](/images/automatic-calibration/static/Geometry1.png) | ![Geometry2](/images/automatic-calibration/static/Geometry2.png) |
+   | ------------------------------------------------------- | ------------------------------------------------------- |
+   | <small>Geometry pattern blobs</small>                   | <small>Generated geometry displacement map</small>      |
+
+   </div>
+
+3. The **Blends** stage is used to generate brightness gradients for each projector to enable a smooth and even transition for the overlapping areas between projections.
+
+   <div className="table-pictures table-without-border">
+
+   | ![Blend1](/images/automatic-calibration/static/blend1.png) | ![Blend2](/images/automatic-calibration/static/blend2.png) |
+   | ---------------------------------------------------- | ---------------------------------------------------- |
+   | <small>Projector #1 blend map</small>                | <small>Projector #2 blend map</small>                |
+
+   </div>
+
+4. The **Gamma Correction** stage is used to compensate for visible color/brightness shifts caused by non-linear gamma distortions that can occur when color modes with “boosted gamma” (like Brilliant Color) are set on DLP single-chip projectors. A series of color patterns are projected, and as a result, a Look Up Table (LUT) for a specific projector model is generated.
+
+   ![Colors](/images/automatic-calibration/static/colors.png)
+
+   <small>Example of color patterns used for Gamma Correction</small>
+
+   > **Note:** The **Gamma Correction** calibration stage is required for the initial setup, after projector lamp replacements, or following extensive use, when visible color/brightness shifts in the blends between projections become apparent, which can be checked by using the **Red**, **Green**, **Blue** test patterns.
+
+5. The **Intensity** stage is used to adjust the brightness in low (dark) and high (bright) intensity ranges to equalize the brightness levels between projections.
+
+   <div className="table-pictures table-without-border">
+
+   | ![Int1](/images/automatic-calibration/static/int1.png) | ![Int2](/images/automatic-calibration/static/int2.png) |
+   | -------------------------------------------------- | -------------------------------------------------- |
+   | <small>Before Black Level Compensation</small>     | <small>After Black Level Compensation</small>      |
+
+   </div>
+
+   <div className="table-pictures table-without-border">
+
+   | ![Int3](/images/automatic-calibration/static/int3.png) | ![Int4](/images/automatic-calibration/static/int4.png) |
+   | -------------------------------------------------- | -------------------------------------------------- |
+   | <small>Before Brightness Balance</small>           | <small>After Brightness Balance</small>            |
+
+   </div>

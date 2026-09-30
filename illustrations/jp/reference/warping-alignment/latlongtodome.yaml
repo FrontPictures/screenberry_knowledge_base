@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/latlongtodome.md
+document_id: guide.warping-alignment.latlongtodome
+language: ja
+document_body_sha256: 2697d006c08a6c278b5f5865b12ad707151aed7e7c0dace00dada89cba8022b9
+figures:
+  - id: ja-4114b99097-001
+    title: LatLong To Dome
+    caption: LatLong To Dome
+    show: "LatLong To Dome. Use the adjacent instructions as the content brief: Visible FOV： 魚眼レンズにかけるマスキングの角度を設定します。 メモ： 魚眼レンズの視野角が360°に近づくと、映像の端に乱れが現れることがあります。これを避けるためには、映像の表示範囲を制限するマスクを使用してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: LatLong to Dome
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/LatLong-to-Dome.gif
+    source_alt: LatLong To Dome
+    text_coverage: not-independently-verified

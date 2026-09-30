@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/jp/reference/node-reference/integration-nodes/notchplayback.md
+document_id: guide.node-reference.integration-nodes.notchplayback
+language: ja
+document_body_sha256: 92c50602180548e153ea0c3167fe10b53bdd17547d2bba8e3915d851c0b4cc42
+figures:
+  - id: ja-86ffbcf173-001
+    title: Notch Added
+    caption: Notch Added
+    show: "Notch Added. Use the adjacent instructions as the content brief: Notch PlaybackノードはNotchプロジェクトのNotchブロックをScreenberryプロジェクト内に読み込みます。Notchプロジェクトで公開されたパラメータの制御、およびNotchブロックの再生は、Notch Playbackノードを通じて行います。 通常、Notch Playbackは再生されたNotchブロックの映像をDisplayまたはCanvasノードに出力します。 Screenberryは、次のタイプのNotch公開パラメータをサポートしています："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Notch Playback
+    source_url: https://help.screenberry.com/images/node-references/static/notch-added.png
+    source_alt: Notch Added
+    text_coverage: not-independently-verified
+  - id: ja-86ffbcf173-002
+    title: Notch Settings
+    caption: Notch Settings
+    show: "Notch Settings. Use the adjacent instructions as the content brief: Purge VRAM Pool： 現在のNotchブロックレイヤーに使用されていないVRAMを破棄するためにこのボタンを押します。 Notch Layer： 利用可能なレイヤーのうちの1つを選択します。 Notch BlockレイヤーがSettingsパネルで選択されると、Notch Playbackノードは以下の動作をします："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: Notch Playback
+    source_url: https://help.screenberry.com/images/node-references/static/notch-settings.png
+    source_alt: Notch Settings
+    text_coverage: not-independently-verified
+  - id: ja-86ffbcf173-003
+    title: Notch
+    caption: Notch
+    show: "Notch. Use the adjacent instructions as the content brief: Notch BlockレイヤーがSettingsパネルで選択されると、Notch Playbackノードは以下の動作をします： このレイヤーの再生に切り替わります。各レイヤーオブジェクトごとにSettingsパネルに別のセクションを作成します。このセクションには公開されたパラメータが表示されます。レイヤー内のすべての公開されたパラメータに対してカスタムパラメータを生成します。 また、以下の操作を行うために、ノードグラフには様々なノードがNotch Playbackノードに接続できます："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: Notch Playback
+    source_url: https://help.screenberry.com/images/node-references/animation/notch.gif
+    source_alt: Notch
+    text_coverage: not-independently-verified

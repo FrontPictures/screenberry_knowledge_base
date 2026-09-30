@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/xgrid.md
+document_id: guide.warping-alignment.xgrid
+language: ja
+document_body_sha256: 9117dfd1b9e6c9c984e98654b553c5a92e18e07da95871a917aa957799ecf627
+figures:
+  - id: ja-59f687ec88-001
+    title: XGrid Node Tree
+    caption: XGrid Node Tree
+    show: "XGrid Node Tree. Use the adjacent instructions as the content brief: XGridノードは、主にX字形のグリッドパターンを表面にマッピングするために使用されるPatchノードです。 典型的なセットアップでは、セットアップでは、XGridノードは入力としてソース映像を受け取り、変形された映像をDisplayノードまたはCanvasノードに出力します。 XGrid ノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: XGrid
+    source_url: https://help.screenberry.com/images/warping-alignment/static/XGrid-node-tree.png
+    source_alt: XGrid Node Tree
+    text_coverage: not-independently-verified
+  - id: ja-59f687ec88-002
+    title: XGrid
+    caption: XGrid
+    show: "XGrid. Use the adjacent instructions as the content brief: Patch EditorでXGridノードを使用するには、以下の手順を実行してください： SettingsパネルのGrid SizeにXとYの値を入力して、メッシュグリッドを作成します。Inputパネルで、メッシュ制御点のハンドルをドラッグしてソース映像のマッピングを定義します。Outputパネルで、メッシュ制御点のハンドルをドラッグして、映像をオブジェクトの形状に合わせます。 XGridノードを使用する場合は、Patchの共通操作についてPatchの編集の章も参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: XGrid
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/XGrid.gif
+    source_alt: XGrid
+    text_coverage: not-independently-verified

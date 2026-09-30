@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/how-to/3d-scene/3d-scene-view-navigation.md
+document_id: guide.3d-scene.3d-scene-view-navigation
+language: en
+document_body_sha256: bfdffbad8b81ec1b46e4d8e844a5bf6db5ceed15c37982280176d2ad8762e195
+figures:
+  - id: en-8c346cd699-001
+    title: 3D Scene View and Navigation
+    caption: 3D Scene View and Navigation
+    show: "3D Scene View and Navigation. Use the adjacent instructions as the content brief: View Selectors: This toolbar includes the 3D Viewport / UV Viewer Selector and Camera View Selector.3D Viewport / UV Viewer SelectorThe 3D Viewport is the interactive workspace where the 3D environment is rendered. It is used to navigate, select, and modify objects within the 3D scene.The UV Viewer is a specialized view mode for inspecting and editing the UV map of a selected 3D object (if it has a UV map).Camera Vie"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 1
+      section: 3D Scene View and Navigation
+    source_url: https://help.screenberry.com/images/3d-scene/static/3D-Scene-View.png
+    source_alt: alt text
+    text_coverage: not-independently-verified

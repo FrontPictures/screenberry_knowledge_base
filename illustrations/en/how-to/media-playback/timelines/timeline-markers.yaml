@@ -1,0 +1,126 @@
+schema_version: 1
+document: knowledge/en/how-to/media-playback/timelines/timeline-markers.md
+document_id: guide.media-playback.timelines.timeline-markers
+language: en
+document_body_sha256: fba89acab3d2a35799bca5531694690ebe75d6f6a30f443aa0bded93575fe6f1
+figures:
+  - id: en-783b8e9f86-001
+    title: Adding And Managing Markers 1
+    caption: Adding And Managing Markers 1
+    show: "Adding And Managing Markers 1. Use the adjacent instructions as the content brief: To add a marker, do one of the following: Right-click on the time ruler, and select the desired type of marker from the dropdown menu.Place the playhead at the desired position, then click on the respective marker icon located on the top toolbar. To rename a marker, right-click on it and select Edit from the dropdown menu. In the dialog window that appears, enter the desired value in the Name field."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Adding and Managing Markers
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-and-Managing-Markers-1.gif
+    source_alt: Adding And Managing Markers 1
+    text_coverage: not-independently-verified
+  - id: en-783b8e9f86-002
+    title: Adding And Managing Markers 2 1
+    caption: Adding And Managing Markers 2 1
+    show: "Adding And Managing Markers 2 1. Use the adjacent instructions as the content brief: To rename a marker, right-click on it and select Edit from the dropdown menu. In the dialog window that appears, enter the desired value in the Name field. To move a marker, drag it on the time ruler or, for more precise positioning, right-click on the marker and select Edit from the dropdown menu. In the dialog window that appears, enter the desired value in the Position field."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: Adding and Managing Markers
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-and-Managing-Markers-2-1.gif
+    source_alt: Adding And Managing Markers 2 1
+    text_coverage: not-independently-verified
+  - id: en-783b8e9f86-003
+    title: Adding And Managing Markers 3 1
+    caption: Adding And Managing Markers 3 1
+    show: "Adding And Managing Markers 3 1. Use the adjacent instructions as the content brief: To move a marker, drag it on the time ruler or, for more precise positioning, right-click on the marker and select Edit from the dropdown menu. In the dialog window that appears, enter the desired value in the Position field. Markers can be enabled or disabled. To disable a marker, right-click on the marker and deselect the Enabled checkbox in the dropdown menu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: Adding and Managing Markers
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-and-Managing-Markers-3-1.gif
+    source_alt: Adding And Managing Markers 3 1
+    text_coverage: not-independently-verified
+  - id: en-783b8e9f86-004
+    title: Adding And Managing Markers 4 1
+    caption: Adding And Managing Markers 4 1
+    show: "Adding And Managing Markers 4 1. Use the adjacent instructions as the content brief: Markers can be enabled or disabled. To disable a marker, right-click on the marker and deselect the Enabled checkbox in the dropdown menu. To delete a marker, right-click on the marker and select Delete from the dropdown menu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: Adding and Managing Markers
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-and-Managing-Markers-4-1.gif
+    source_alt: Adding And Managing Markers 4 1
+    text_coverage: not-independently-verified
+  - id: en-783b8e9f86-005
+    title: Adding And Managing Markers 5 1
+    caption: Adding And Managing Markers 5 1
+    show: "Adding And Managing Markers 5 1. Use the adjacent instructions as the content brief: To delete a marker, right-click on the marker and select Delete from the dropdown menu. Setting up the Label Marker and the Pause Marker is simple and straightforward. However, using the Jump Marker and the Timecode Marker requires some further explanation."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Adding and Managing Markers
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-and-Managing-Markers-5-1.gif
+    source_alt: Adding And Managing Markers 5 1
+    text_coverage: not-independently-verified
+  - id: en-783b8e9f86-006
+    title: Jump Marker
+    caption: Jump Marker
+    show: "Jump Marker. Use the adjacent instructions as the content brief: The Jump Marker allows you to move the playhead to a specific position on the timeline, either to a specific time or to another marker. To set the Jump Marker, do the following: Open the Marker Properties window. It appears automatically when you add the marker or can be accessed by right-clicking on the marker and selecting Edit from the dropdown menu.Select the Time or Marker option for the Jump To parameter.If you"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: Jump Marker
+    source_url: https://help.screenberry.com/images/media-playback/animation/Jump-Marker.gif
+    source_alt: Jump Marker
+    text_coverage: not-independently-verified
+  - id: en-783b8e9f86-007
+    title: Timecode Marker
+    caption: Timecode Marker
+    show: "Timecode Marker. Use the adjacent instructions as the content brief: The Timecode Marker marks a specific point on the timeline from which playback of the timeline starts when the incoming timecode value matches the time value of the marker. For the Timecode Marker to function, certain conditions must be met: The Media Player node must receive the timecode. In the node graph, connect the incoming timecode link to the input Timecode In pin of the Media Player node.The media player shou"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 20
+      section: Timecode Marker
+    source_url: https://help.screenberry.com/images/media-playback/animation/Timecode-Marker.gif
+    source_alt: Timecode Marker
+    text_coverage: not-independently-verified
+  - id: en-783b8e9f86-008
+    title: Timecode Marker 2
+    caption: Timecode Marker 2
+    show: "Timecode Marker 2. Use the adjacent instructions as the content brief: If playback of the timeline needs to start at the Timecode Marker, but at a different time than the timecode value, use the Timecode Offset option. Right-click on the timeline name and select Preferences from the dropdown menu. In the window that appears, enter the desired value into the Timecode Offset field. For example, if the Timecode Marker is set on the timeline at 5 minutes but playback needs to start when the"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: Timecode Marker
+    source_url: https://help.screenberry.com/images/media-playback/animation/Timecode-Marker-2.gif
+    source_alt: Timecode Marker 2
+    text_coverage: not-independently-verified
+  - id: en-783b8e9f86-009
+    title: Using Markers For Automation
+    caption: Using Markers For Automation
+    show: "Using Markers For Automation. Use the adjacent instructions as the content brief: For example, the On Item Started node can be configured to listen for the event of a playhead reaching the specified marker, which will create a trigger that can be used to start some other processes. To achieve this, do the following: Select the On Item Started node in the node graph.In the settings for the node:Select the media player that you want to monitor for marker events in the Media Player parameter.Select T"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: Using Markers for Automation
+    source_url: https://help.screenberry.com/images/media-playback/animation/Using-Markers-for-Automation.gif
+    source_alt: Using Markers For Automation
+    text_coverage: not-independently-verified
+  - id: en-783b8e9f86-010
+    title: Using Markers For Automation 2 1
+    caption: Using Markers For Automation 2 1
+    show: "Using Markers For Automation 2 1. Use the adjacent instructions as the content brief: Similarly, this event can be used to synchronize the playback of a timeline with the playback of a playlist in some other media player. To achieve this, do the following: In the node graph, connect the Output Events pin of the source media player to the input Events pin of the target media player.Switch to the target media player, select the desired playlist, and right-click on the media item that you want to map to "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: Using Markers for Automation
+    source_url: https://help.screenberry.com/images/media-playback/animation/Using-Markers-for-Automation-2-1.gif
+    source_alt: Using Markers For Automation 2 1
+    text_coverage: not-independently-verified

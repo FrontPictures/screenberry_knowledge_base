@@ -1,0 +1,150 @@
+schema_version: 1
+document: knowledge/jp/how-to/media-playback/matrix-based-playlists/adding-organizing-media-items.md
+document_id: guide.media-playback.matrix-based-playlists.adding-organizing-media-items
+language: ja
+document_body_sha256: 9fae77cd5047922f31171b24fc3a90a3e070fd190eb9cfb2e5af74607dfccf4d
+figures:
+  - id: ja-a644a12d4c-001
+    title: Adding Rows And Columns
+    caption: Adding Rows And Columns
+    show: "Adding Rows And Columns. Use the adjacent instructions as the content brief: もし、現在用意されている行や列よりも多くの行や列が必要な場合、現在の端までスクロールしてグリッドを拡張することができます。表示限界に達すると、自動的に追加の行や列が追加されます。逆にメディアアイテムで埋められていない行や列は、スクロールバック時に自動的に縮小され、整然かつ管理しやすいグリッドに整形されます"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: 行と列の管理
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Rows-and-Columns.gif
+    source_alt: Adding Rows And Columns
+    text_coverage: not-independently-verified
+  - id: ja-a644a12d4c-002
+    title: Adding Media Items Matrix
+    caption: Adding Media Items Matrix
+    show: "Adding Media Items Matrix. Use the adjacent instructions as the content brief: マトリックスグリッドにメディアアイテムを追加するには、以下のいずれかの方法を使用します： ドラッグ＆ドロップ：Media Library、別のMedia Playerのプレイリスト、またはタイムラインから、メディアアイテムをグリッドに直接ドラッグします。コピー＆ペースト:Media Library、別のMedia Playerのプレイリスト、またはタイムラインでメディアアイテムを選択します。右クリックしてドロップダウンメニューからCopyを選択するか、Ctrl + C のキーボードショートカットを使用してこれらのアイテムをコピーします。メディアアイテムのシーケンスの開始グリッドセルを選択し、そこにアイテムを貼り付けます。これは、右クリックしてドロップダウンメニューからPasteを選択するか、Ctrl + V のショートカットを使用して行うことができます。 システムフォルダから直接ファイルをインポート：システムフォルダからファイル"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: メディアアイテムの追加
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Media-Items-Matrix.gif
+    source_alt: Adding Media Items Matrix
+    text_coverage: not-independently-verified
+  - id: ja-a644a12d4c-003
+    title: Adding Media Items Matrix 2
+    caption: Adding Media Items Matrix 2
+    show: "Adding Media Items Matrix 2. Use the adjacent instructions as the content brief: システムフォルダから直接ファイルをインポート：システムフォルダからファイルをドラッグアンドドロップしてグリッドに追加するか、Ctrl + C（コピー）および Ctrl + V（貼り付け）のショートカットを使用してグリッドにコピー＆ペーストします。表示される Add Media File(s) ダイアログボックスで、メディアアイテムの変換品質を選択します。利用可能な選択肢は以下の通りです:MPEG-2 Max Quality 4:2:2 は、最高品質でエンコードされたMPEG-2ビデオ形式です。これは、より高い品質の維持を可能にするデフォルトのエンコードオプションです。ほとんどの場合、最適な品質とパフォーマンスを提供します。ただし、特定のメディアアイテムで再生の問題や映像の乱れが発生する場合は、MPEG-2 Good Quality エンコードを使用して再エンコードすることを検討してください。MPEG-2 Good Quality"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: メディアアイテムの追加
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Media-Items-Matrix-2.gif
+    source_alt: Adding Media Items Matrix 2
+    text_coverage: not-independently-verified
+  - id: ja-a644a12d4c-004
+    title: Adding AUX Items Matrix
+    caption: Adding AUX Items Matrix
+    show: "Adding AUX Items Matrix. Use the adjacent instructions as the content brief: Media Playerが複数の映像入力を受け取る必要がある場合は、Media Playerノードの設定でNumber of AUX Inputsを指定してください。 これらの映像を受け取るためにMedia Playerノードを設定した後、マトリック型プレイリストに戻ります。AUXアイテムを追加したいグリッドセルで右クリックし、ドロップダウンメニューからAdd AUXを選択します。これにより、Select AUXダイアログボックスが開き、セルに挿入するAUXメディアソースを選択することができます。 マトリックスグリッド内のAUXアイテムは、アイテムが選択された時に表示される設定パネルを使用してカスタマイズすることができます。すぐに調整すべき設定の1つは、プレイリスト内で挿入された映像の再生時間を決定するDurationの値です。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: AUXアイテムの追加
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-AUX-Items-Matrix.gif
+    source_alt: Adding AUX Items Matrix
+    text_coverage: not-independently-verified
+  - id: ja-a644a12d4c-005
+    title: Adding AUX Items Matrix 2
+    caption: Adding AUX Items Matrix 2
+    show: "Adding AUX Items Matrix 2. Use the adjacent instructions as the content brief: マトリックスグリッド内のAUXアイテムは、アイテムが選択された時に表示される設定パネルを使用してカスタマイズすることができます。すぐに調整すべき設定の1つは、プレイリスト内で挿入された映像の再生時間を決定するDurationの値です。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: AUXアイテムの追加
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-AUX-Items-Matrix-2.gif
+    source_alt: Adding AUX Items Matrix 2
+    text_coverage: not-independently-verified
+  - id: ja-a644a12d4c-006
+    title: Adding Data Items Matrix
+    caption: Adding Data Items Matrix
+    show: "Adding Data Items Matrix. Use the adjacent instructions as the content brief: マトリックスグリッドにデータアイテムを追加するには、以下の手順に従ってください： データアイテムを配置するグリッドセルで右クリックします。ドロップダウンメニューからAdd Data Itemを選択します。表示されるダイアログボックスで、変更するパラメータのNode PathとParameter Nameを入力します。データアイテムの設定で、このデータアイテムを再生中にパラメータが利用する値を定義します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: データアイテムの追加
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Data-Items-Matrix.gif
+    source_alt: Adding Data Items Matrix
+    text_coverage: not-independently-verified
+  - id: ja-a644a12d4c-007
+    title: Renaming Media Items Matrix
+    caption: Renaming Media Items Matrix
+    show: "Renaming Media Items Matrix. Use the adjacent instructions as the content brief: プレイリスト内のメディアアイテムの名前を変更するには、次の方法があります： メディアアイテムを右クリックし、ドロップダウンメニューからRenameを選択します（または F2 ショートカットを使用します）。その後、開かれた Set Item Title ダイアログボックスの Title 欄に新しい名前を入力します。または、メディアアイテムを選択して設定を開き、Title 欄に新しいタイトルを入力します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: メディアアイテム名を変更する
+    source_url: https://help.screenberry.com/images/media-playback/animation/Renaming-Media-Items-Matrix.gif
+    source_alt: Renaming Media Items Matrix
+    text_coverage: not-independently-verified
+  - id: ja-a644a12d4c-008
+    title: Deleting Media Items Matrix
+    caption: Deleting Media Items Matrix
+    show: "Deleting Media Items Matrix. Use the adjacent instructions as the content brief: グリッドからメディアアイテムまたは複数の選択されたメディアアイテムを削除するには、アイテムを右クリックしてドロップダウンメニューから Delete を選択するか、Del キーを押してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: メディアアイテムの削除
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Media-Items-Matrix.gif
+    source_alt: Deleting Media Items Matrix
+    text_coverage: not-independently-verified
+  - id: ja-a644a12d4c-009
+    title: Selecting Media Items Matrix
+    caption: Selecting Media Items Matrix
+    show: "Selecting Media Items Matrix. Use the adjacent instructions as the content brief: マトリックスグリッド内のアイテムは、以下の方法で選択できます： アイテムをクリックして選択します。複数のアイテムを選択するには、Ctrl キーを押しながらアイテムをクリックします。一つのアイテムを選択し、Shift キーを押しながら別のアイテムをクリックすると、これらのアイテムを対角線とする四角形領域内のすべてのアイテムが選択されます。列のヘッダをクリックすると、その列のすべてのアイテムが選択されます。行のヘッダをクリックすると、その行のすべてのアイテムが選択されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: メディアアイテムの選択方法
+    source_url: https://help.screenberry.com/images/media-playback/animation/Selecting-Media-Items-Matrix.gif
+    source_alt: Selecting Media Items Matrix
+    text_coverage: not-independently-verified
+  - id: ja-a644a12d4c-010
+    title: Arranging Media Items Matrix
+    caption: Arranging Media Items Matrix
+    show: "Arranging Media Items Matrix. Use the adjacent instructions as the content brief: メディアアイテムを選択し、グリッドの好きな位置にドラッグして配置することができます。 複数のアイテムを同時に移動する場合、それらの相対位置関係が維持されます。これらのアイテムをドラッグすると、グリッド内のターゲットセルがハイライト表示され、マウスボタンを離した時に配置される場所が示されます。これらのセルに既存のメディアアイテムがある場合は、新しく配置されるアイテムによって上書きされることに注意してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 30
+      section: マトリックスグリッド内のメディアアイテムの配置
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Media-Items-Matrix.gif
+    source_alt: Arranging Media Items Matrix
+    text_coverage: not-independently-verified
+  - id: ja-a644a12d4c-011
+    title: Media Item Settings Matrix
+    caption: Media Item Settings Matrix
+    show: "Media Item Settings Matrix. Use the adjacent instructions as the content brief: メディアアイテムの設定にアクセスして調整するには、次のいずれかの方法を使用します： マトリックスグリッド内のアイテムを右クリックし、ドロップダウンメニューからItem Settingsを選択するか、メディアアイテムを選択した状態で S キーを押して Settings ダイアログボックスを開きます。または、メディアアイテムを選択して表示される Settings パネルを利用します。 マトリックス型プレイリストのメディアアイテムには、シンプルなプレイリストと同じ設定が利用できます。利用可能な設定項目の詳細については、メディアアイテムの設定の章を参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 34
+      section: メディアアイテムの設定
+    source_url: https://help.screenberry.com/images/media-playback/animation/Media-Item-Settings-Matrix.gif
+    source_alt: Media Item Settings Matrix
+    text_coverage: not-independently-verified
+  - id: ja-a644a12d4c-012
+    title: Customizing Thumbnail Appearance Matrix
+    caption: Customizing Thumbnail Appearance Matrix
+    show: "Customizing Thumbnail Appearance Matrix. Use the adjacent instructions as the content brief: Show Namesのチェックを外すと、視覚的なコンテンツに焦点を合わせたクリーンな表示になります。Show Namesをチェックしたままにすると、タイトルが表示され、メディアアイテムを見つけて操作しやすくなります。 これらの設定により、プロジェクトの要件に合わせてメディアアイテムのサムネイルを柔軟に設定することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 48
+      section: サムネイルの表示方法のカスタマイズ
+    source_url: https://help.screenberry.com/images/media-playback/animation/Customizing-Thumbnail-Appearance-Matrix.gif
+    source_alt: Customizing Thumbnail Appearance Matrix
+    text_coverage: not-independently-verified

@@ -1,0 +1,387 @@
+---
+title: Screenberry Patchの編集
+description: ScreenberryでPatchの位置調整やUVマッピング、アライメントやキーショートカットによる効率的な編集方法についてわかりやすく説明します。
+openGraph:
+  title: Screenberry Patchの編集
+  description: ScreenberryでPatchの位置調整やUVマッピング、アライメントなどの編集方法をわかりやすく説明します。
+---
+
+# Patchの編集
+
+Patchノードの設定は、他のノードと同様にノードグラフで編集することができます。詳細については、[ノードの設定](../working-with-nodes/node-parameters-and-settings#ノードの設定)を参照してください。ただし、**Patch Editor**では、Patchの配置や映像のジオメトリ、UVマッピングなどの高度な編集が可能です。
+
+## Patchの選択
+
+編集のためにを選択するには、以下のいずれかの方法を使用します：
+
+**Patch Editor**内で：
+
+- ナビゲーションツリーパネルでPatchをクリックします。
+- 連続していない複数のPatchを選択するには、ナビゲーションツリー内でそれらを **`Ctrl`** キーを押しながらクリックします。
+- 連続した複数のPatchを選択するには、最初のPatchをクリックし、ナビゲーションツリーパネルで最後のPatchを **`Shift`** キーを押しながらクリックします。
+- すべてのPatchを選択するには、ナビゲーションツリーパネルをクリックしてから **`Ctrl`** + **`A`** を押します。
+
+<img alt="Selecting Patches 1" src="/images/patch-editor/animation/Selecting-Patches-1.gif" width={800} height={372} loading="lazy" />
+
+**ノードグラフ** 内では：
+
+- Patchノードをダブルクリックします。
+
+<img alt="Selecting Patches 2" src="/images/patch-editor/animation/Selecting-Patches-2.gif" width={800} height={368} loading="lazy" />
+
+**Display Editor**内では：
+
+- Displayをダブルクリックすると、このDisplayに接続されているすべてのPatchが**Patch Editor**で選択されます。
+
+<img alt="Selecting Patches 3" src="/images/patch-editor/animation/Selecting-Patches-3.gif" width={800} height={380} loading="lazy" />
+
+複数のPatchが選択されている場合、**Settings**パネルでPatchタイプ名の横にある数字をクリックすることで、特定のタイプのPatchを選択することができます。
+
+<img alt="Selecting Patches 4" src="/images/patch-editor/animation/Selecting-Patches-4.gif" width={800} height={380} loading="lazy" />
+
+連続したPatchの編集に切り替えるには、次のいずれかの方法を行ってください：
+
+- **`Z`** キーを押して次のPatchを選択するか、**`Shift`** + **`Z`** を押して前のPatchを選択します。
+- **Input**パネルまたは**Output**パネルで右クリックし、ドロップダウンメニューから **Select Next Patch**または**Select Previous Patch**を選択します。
+
+<img alt="Selecting Patches 5" src="/images/patch-editor/animation/Selecting-Patches-5.gif" width={800} height={380} loading="lazy" />
+
+Patchが選択されると、そのPatchに対応した**Settings**パネルが表示され、設定の確認や変更ができるようになります。
+
+<img alt="Selecting Patches 6 1" src="/images/patch-editor/animation/Selecting-Patches-6-1.gif" width={800} height={568} loading="lazy" />
+
+## 映像出力のジオメトリの変更
+
+映像出力のジオメトリを変更するには、**Output**パネルのメッシュ制御点（頂点）の円形ハンドルを選択し、ドラッグしてください。これによって、出力映像の形状や表示される場所が変更されます。
+
+<img alt="Modifying Output Image Geometry 1" src="/images/patch-editor/animation/Modifying-Output-Image-Geometry-1.gif" width={800} height={416} loading="lazy" />
+
+複数の制御点は、**`Shift`** キーを押しながら一つずつクリックするか、マウスの左ボタンを押しながらドラッグして箱型に囲むことで選択できます。
+
+<img alt="Modifying Output Image Geometry 2" src="/images/patch-editor/animation/Modifying-Output-Image-Geometry-2.gif" width={800} height={412} loading="lazy" />
+
+> **メモ：** 映像のジオメトリ調整を行う際には、Screenberryの画面出力を実際に見ながら作業することをおすすめします。
+
+## UVマップの調整
+
+Screenberryでは、Patchノードによって受け取られたソース映像は、Patchで定義されたジオメトリにUVマップされます。入力映像のUVマッピングを調整するには、**Input**パネルでメッシュ制御点（UVマップの頂点）の円形ハンドルを選択してドラッグします。これによって、出力映像が参照する入力映像との対応関係が変更されます。
+<img alt="Adjusting UV Map" src="/images/patch-editor/animation/Adjusting-UV-Map.gif" width={800} height={856} loading="lazy" />
+
+## 制御点座標
+
+制御点座標を表示するには、次のいずれかの方法を使用します：
+
+- **`スペースバー`** を押します。
+- **Input**パネルまたは **Output**パネルで右クリックし、ドロップダウンメニューから **Show Coordinates**を選択します。
+- **View Options**パネルで**Show Coordinates**を選択します。
+
+<img alt="Setting Control Points Coordinates" src="/images/patch-editor/animation/Setting-Control-Points-Coordinates.gif" width={800} height={360} loading="lazy" />
+
+制御点の座標を手動で変更するには、制御点を選択して **`Enter`** キーを押すか、制御点を右クリックしてドロップダウンメニューから **Set Position** を選択します。ダイアログボックスに **X** 座標と **Y** 座標を入力してください。
+
+<img alt="Setting Control Points Coordinates 2" src="/images/patch-editor/animation/Setting-Control-Points-Coordinates-2.gif" width={800} height={352} loading="lazy" />
+
+> **メモ：** 座標の原点(0,0)は左上隅にあります。
+
+## Patchの反転と回転
+
+**Patch Editor**の**Input**パネルまたは**Output**パネルにおいて、_垂直反転や時計回りに90度回転_ を適用することができます。制御点を反転するには、Patchの制御点を選択し、**`F`** キーを押すか、制御点を右クリックしてドロップダウンメニューから **Transform** > **Flip** を選択します。回転するには、Patchの制御点を選択し、**`R`** キーを押すか、コントロールポイントを右クリックしてドロップダウンメニューから **Transform** > **Rotate Indexes** を選択します。
+
+<img alt="Flipping And Rotating" src="/images/patch-editor/animation/Flipping-and-Rotating.gif" width={800} height={380} loading="lazy" />
+
+> **メモ：** メッシュを反転または回転する際に制御点を選択すると、どのような幾何学的な変換やUVレイアウトの変換が適用されているかを理解するのに役立ちます。
+
+## 制御点の密度の変更
+
+映像のジオメトリ修正に対してより細かな編集を行うために、制御点の密度を変更することができます。制御点の密度を変更するには、対応するキーボードショートカットを使用するか、**Patch Editor**の作業エリアで右クリックしてドロップダウンメニューから **Subdivide/Merge/[機能名]** を選択します。以下の機能とキーボードショートカットが利用可能です：
+
+- **Increase Subdivision**（**`Ctrl`** + **`X`**）は、ポリゴンを半分に割って新しい頂点を追加することでポリゴンを分割します。
+- **Decrease Subdivision**（**`Ctrl`** + **`Shift`** + **`X`**）は、隣接するポリゴンを共有する境界を削除することでポリゴンを結合します。
+- **Subdivide Columns**（**`Ctrl`** + **`Shift`** + **`Right`**）は、すべての列のポリゴンを半分に割って新しい頂点を追加します。
+- **Merge Columns**（**`Ctrl`** + **`Shift`** + **`Left`**）は、すべての列の隣接するポリゴンを共有する境界を削除して結合します。
+- **Subdivide Rows**（**`Ctrl`** + **`Shift`** + **`Up`**）は、すべての行のポリゴンを半分に割って新しい頂点を追加します。
+- **Merge Rows**（**`Ctrl`** + **`Shift`** + **`Down`**）は、すべての行の隣接するポリゴンを共有する境界を削除して結合します。
+
+<img alt="Modifying Density" src="/images/patch-editor/animation/Modifying-Density.gif" width={800} height={476} loading="lazy" />
+
+## スマートガイドとガイドラインの使用
+
+制御点の位置が編集されると、灰色の点線の水平および垂直のスマートガイドが表示されます。これらは、制御点の以前の座標を視覚的表示することで、以前の軸に沿って整列しやすくします。
+
+<img alt="Guidelines 1" src="/images/patch-editor/animation/Guidelines-1.gif" width={800} height={476} loading="lazy" />
+
+また、**Rectangle Patch**を編集する際には、ソース映像のアスペクト比を示す追加の対角線状の灰色点線のスマートガイドが表示されます。
+
+<img alt="Guidelines 2" src="/images/patch-editor/animation/Guidelines-2.gif" width={800} height={476} loading="lazy" />
+
+独自にガイドラインを追加するには、空白の領域で右クリックし、ドロップダウンメニューから**Guideline Editor**を選択します。表示されたダイアログボックスで、次のいずれかを行います：
+
+- **列**（**Columns**）と **行**（**Rows**）の値を入力し、**Add Grid**ボタンを押してガイドライングリッドを作成します。
+- 座標を入力し、**Add Horizontal Guideline**または**Add Vertical Guideline**ボタンを押して個々のガイドラインを追加します。
+
+すべてのガイドラインを削除する場合は、**Clear All**ボタンを押します。ガイドラインの設定が完了したら、**OK**ボタンを押してガイドラインを追加します。
+
+<img alt="Guidelines 3" src="/images/patch-editor/animation/Guidelines-3.gif" width={800} height={476} loading="lazy" />
+
+## スナッピング
+
+デフォルトでは、自動スナッピング機能が有効になっています。制御点の位置を変更すると、ガイドライン、スマートガイド、出力Canvasの端、および近くに配置された他の制御点にスナップします。制御点をドラッグする際に一時的にスナップを無効にするには、**`Shift`** キーを押し続けます。
+
+<img alt="Snapping" src="/images/patch-editor/animation/Snapping.gif" width={800} height={368} loading="lazy" />
+
+## 制御点の垂直および水平方向の整列
+
+選択した制御点を水平方向に整列するには、**`Shift`** + **`H`** を押すか、選択した制御点を右クリックし、ドロップダウンメニューから **Align Horizontally** を選択します。 選択した制御点を垂直方向に整列するには、**`Shift`** + **`V`** を押すか、選択した制御点を右クリックし、ドロップダウンメニューから **Align Vertically** を選択します。
+
+<img alt="Alignment Of The Control Points 1" src="/images/patch-editor/animation/Alignment-of-the-Control-Points-1.gif" width={800} height={404} loading="lazy" />
+
+制御点の編集中に移動制限をかけることもできます：
+
+- 水平軸に移動制限をかけるには、**`H`** キーを押すか、制御点を右クリックしてドロップダウンメニューから**Constrain Horizontally**を選択します。
+- 垂直軸に移動制限をかけるには、**`V`** キーを押すか、制御点を右クリックしてドロップダウンメニューから**Constrain Vertically**を選択します。
+
+<img alt="Alignment Of The Control Points 2" src="/images/patch-editor/animation/Alignment-of-the-Control-Points-2.gif" width={800} height={380} loading="lazy" />
+
+## Patchの映像出力のプレビュー
+
+Patchの変形を視覚的に確認するために、Patchの出力映像をプレビュー表示することができます。このプレビュー表示は、Patchが変更されるたびに自動的に更新されます。**Output**パネルでは、この **プレビュー表示** がメディアサーバーからの現在の画面出力を表しており、**Input**パネルでは、Patchが受け取るソース映像が表示されます。**プレビュー表示**を表示/非表示にするには、次のいずれかの方法を使用します：
+
+- **`Shift`** + **`F5`** を押します（パネルがフォーカスされている必要があります）。
+- **View Options**パネルで、**Live Image** > **Show**を選択/選択解除します。
+- パネル内で右クリックし、ドロップダウンメニューで**Show Live Image**チェックボックスを選択/選択解除します。
+
+プレビュー表示を手動で更新する必要がある場合、次のいずれかの方法を使用します：
+
+- **`F5`** を押します。
+- **View Options**パネルで、**Live Image** > **Image [ Refresh ]** ボタンを押します。
+- パネル内で右クリックし、ドロップダウンメニューで**Get Live Image from Server**を選択します。
+
+<img alt="Previewing Patch Output" src="/images/patch-editor/animation/Previewing-Patch-Output.gif" width={800} height={380} loading="lazy" />
+
+## 参照画像の使用方法
+
+参照画像（例えば、マッピングを行うオブジェクトの写真）を背景として使用することで、より精度の高い制御点の位置合わせが行えます。参照画像を読み込むには、以下のいずれかの方法を使用します：
+
+- **View Options**パネルの **Reference Image** > **Image [ Load ]** ボタンをクリックします。
+- パネル内で右クリックし、ドロップダウンメニューから **Load Reference Image** を選択します。
+
+参照画像の表示/非表示を切り替えるには、以下のいずれかの方法を使用します：
+
+- **View Options**パネルの **Reference Image** > **Show** を選択/選択解除します。
+- パネル内で右クリックし、ドロップダウンメニューで **Show Reference Image** を選択/選択解除します。
+
+これらの操作では、以前に参照画像が読み込まれていない場合、画像の読み込みダイアログボックスが表示されます。
+
+<img alt="Reference Image" src="/images/patch-editor/animation/Reference-Image.gif" width={800} height={456} loading="lazy" />
+
+## Outputパネルの表示モードの選択
+
+Patchの**Settings**パネルで、**View Modeから**3つの利用可能な表示モードのうち1つを選択できます。
+
+- **Textured**は、出力映像のみを表示します。
+- **Textured + Cage**は、出力映像と制御点グリッド（赤い線）を表示します。
+- **Textured + Wireframe**は、出力映像、制御点グリッド（赤い線）、および細分化されたメッシュポリゴンのワイヤーフレーム（灰色の線）を表示します。
+
+<div className="table-3pictures table-without-border">
+
+| ![Viewmode1](/images/patch-editor/static/viewmode1.jpg)                               | ![Viewmode2](/images/patch-editor/static/viewmode2.jpg)                                      | ![Viewmode3](/images/patch-editor/static/viewmode3.jpg)                                           |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| <small>**Texture**モードの**PerspQuad**ノード出力の例</small>                | <small>**Texture + Cage**モードの**PerspQuad**ノード出力の例</small>                | <small>**Texture + Wireframe**モードの**PerspQuad**ノード出力の例</small>                |
+
+</div>
+
+## メッシュの細分化密度を変更する
+
+Patchの変形の結果として得られる出力映像の全体的な滑らかさは、メッシュの細分化の密度を上げることで改善できます。これにより、より _細かい変形_ が実現できます。
+
+Patchの**Settings**パネルの**Subdivisions**欄に値を入力することで、細分化の数を変更できます。最大値は256、最小値は1で、デフォルトは5です。
+
+<img alt="Modifying Density" src="/images/patch-editor/animation/Modifying-Density.gif" width={800} height={476} loading="lazy" />
+
+メッシュの細分化を5から20に変更することで、出力映像像の滑らかさが向上する例です。
+
+> **メモ：** 細分化の数はポリゴンの密度を決定します。密度が高いほど、歪みの精度が向上しますが、処理時間が増えます。逆に、密度が低いほど、処理時間が短くなります。
+>
+
+## 補間アルゴリズムの選択
+
+Patchのピクセル補間方法を、**Settings**パネルの**Image Interpolation**ドロップダウンで、**線形補間**（**Linear**）または **最近傍**（**Nearest-neighbor**）から選択することができます。
+
+<img alt="Patch Editor Interpolation Algorithm" src="/images/patch-editor/animation/Patch-Editor-Interpolation-Algorithm.gif" width={800} height={500} loading="lazy" />
+
+## Patchの不透明度の変更
+
+Patchの不透明度を調整するには、**Settings**パネルの**Opacity**の値を変更してください。
+
+<img alt="Changing Patch Opacity" src="/images/patch-editor/animation/Changing-Patch-Opacity.gif" width={800} height={615} loading="lazy" />
+
+## Patchの端を柔らかくする
+
+Patchの端を透明にフェードさせるためには、Patchの**Settings**パネルの**Soft Edge**欄に、ピクセル単位でフェードの幅を入力してください。
+
+<img alt="Softening Patch Edges" src="/images/patch-editor/animation/Softening-Patch-Edges.gif" width={800} height={615} loading="lazy" />
+
+## Patchへの行列変形の適用
+
+Patchに対して様々な変換行列を適用することができます。Patchの**Settings**パネルの**Transform** **Matrix**の**Edit**ボタンをクリックして、行列の値を編集します。
+
+<img alt="Transformations 1" src="/images/patch-editor/animation/Transformations-1.gif" width={488} height={580} loading="lazy" />
+
+変形行列の例：
+
+| sx  | 0   | 0   | 0   |
+| --- | --- | --- | --- |
+| 0   | sy  | 0   | 0   |
+| 0   | 0   | 1   | 0   |
+| 0   | 0   | 0   | 1   |
+
+**スケール**： **sx** は _x_ 軸の倍率を指定します。**sy** は _y_ 軸の倍率を指定します。
+
+| 1   | 0   | 0   | 0   |
+| --- | --- | --- | --- |
+| 0   | 1   | 0   | 0   |
+| 0   | 0   | 1   | 0   |
+| tx  | ty  | 0   | 1   |
+
+**平行移動**： **tx** は _x_ 軸方向の移動量を指定します。 **ty** は _y_ 軸方向の移動量を指定します。
+
+| 1   | shy | 0   | 0   |
+| --- | --- | --- | --- |
+| shx | 1   | 0   | 0   |
+| 0   | 0   | 1   | 0   |
+| 0   | 0   | 0   | 1   |
+
+**剪断**： **shx** は _x_ 軸方向の剪断係数を指定します。**shy** は _y_ 軸方向の剪断係数を指定します。
+
+| 1   | 0   | 0   | tx  |
+| --- | --- | --- | --- |
+| 0   | 1   | 0   | ty  |
+| 0   | 0   | 1   | 0   |
+| 0   | 0   | 0   | 1   |
+
+**傾斜**： **tx** は _x_ 軸に沿った傾斜係数を指定します。**ty** は _y_ 軸に沿った傾斜係数を指定します。
+
+<img alt="Transformations 2" src="/images/patch-editor/animation/Transformations-2.gif" width={800} height={667} loading="lazy" />
+
+## Patch変形**のロック**
+
+Patch変形の余計な編集を防ぐには、Patchの**Settings**パネルで**Lock Geometry**チェックボックスを選択してください。
+
+<img alt="Locking Patch Geometry" src="/images/patch-editor/animation/Locking-Patch-Geometry.gif" width={436} height={508} loading="lazy" />
+
+> **メモ：** サーバーで直接キーボードショートカットの **`Z`**（次のPatch）と **`Shift`** + **`Z`**（前のPatch）を使用してPatchを順次選択する際、**Lock Geometry** チェックボックスが選択されているPatchはスキップされます。
+
+## テストパターンの使用
+
+より効率的で便利なPatch編集のためには、**Test Pattern**ノードで生成された*グリッドテストパターン*の使用を検討してください。このノードをPatchノードに接続し、**Settings**パネルでテストパターンの外観を調整します。
+
+![Test Pattern 1](/images/patch-editor/static/Test-Pattern-1.png)
+
+![Test Pattern 2](/images/patch-editor/static/Test-Pattern-2.png)
+
+<small>**Test Pattern**ノードによって生成されたデフォルトのグリッドテストパターン</small>
+
+## Patchを初期状態に戻す
+
+Patchを初期状態に戻すには、ナビゲーションツリーでPatch名を右クリックし、ドロップダウンメニューから**Reset Patch**を選択します。
+
+<img alt="Reset Patch" src="/images/patch-editor/animation/Reset-Patch.gif" width={800} height={304} loading="lazy" />
+
+## Patch編集用のキーボードショートカット
+
+キーボードショートカットを使用すると、Patchの編集がより効果的に行えます。必要に応じて、キーボードをメディアサーバーに接続し、Screenberry Panelを使用せずに直接サーバー上で手動キャリブレーションも行うことができます。
+
+キーボードショートカットのリスト：
+
+| **操作内容**                                                          | **Panel ショートカット**                            | **Server ショートカット**                           |
+| --------------------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| **_<small>一般</small>_**                                             |                                                     |                                                     |
+| キャリブレーションモードの開始/終了                                   |                                                     | **Ctrl** + **C**                                    |
+| キーボードショートカットリストの表示                                  | **F1**                                              | **H** または **F1**                                 |
+| 元に戻す                                                              | **Ctrl** + **Z**                                    | **Ctrl** + **Z**                                    |
+| やり直し                                                              | **Ctrl** + **Shift** + **Z**                        | **Ctrl** +**Shift** + **Z** または **Ctrl** + **Y** |
+| PatchのInputとOutputをリセット                                        | **Ctrl** + **R**                                    | **Ctrl** + **R**                                    |
+| **_<small>Patchの選択</small>_**                                      |                                                     |                                                     |
+| 次のPatchを選択                                                       | **Z**                                               | **Z**                                               |
+| 前のPatchを選択                                                       | **Shift** + **Z**                                   | **Shift** + **Z**                                   |
+| **_<small>Patch編集モード</small>_**                                  |                                                     |                                                     |
+| Output編集モードに切り替える<br />（メッシュが赤く強調表示されます）  | **G** (再度 **G** を押すと細分化を表示/非表示にします) |                                                     |
+| Input編集モードに切り替える<br />（メッシュが緑で強調表示されます）   | **U**                                               | **U**                                               |
+| Output+Inputモードに切り替える<br />（メッシュが青で強調表示されます）|                                                     | **Y**                                               |
+| すべての制御点グリッドと<br />ワイヤーフレームの表示/非表示           |                                                     | **Space**                                           |
+| **_<small>増分値<br />（移動、スケール、回転操作用）</small>_**       |                                                     |                                                     |
+| 増分を増やす                                                          | **+** または **=**                                  | **=**                                               |
+| 増分を減らす                                                          | **–** (マイナス) or **\_** (下線)                   | **\_** (下線)                                       |
+| 増分をデフォルトにリセット                                            | **0** (ゼロ)                                        | **0** (ゼロ)                                        |
+| **_<small>制御点の操作</small>_**                                     |                                                     |                                                     |
+| 制御点を選択する                                                      | **矢印キー**                                        | **矢印キー**                                        |
+| メッシュの面を選択する（TriMesh Patchの場合）                         |                                                     | **Ctrl** + **矢印キー**                             |
+| 制御点を移動する                                                      | **W**、**S**、**A**、**D**                          | **W**、**S**、**A**、**D**                          |
+| 制御点をより小さな（1/10）増分で移動する                              | **Shift** + **W**、**S**、**A**、**D**              | **Shift** + **W**、**S**、**A**、**D**              |
+| **_<small>制御点全体</small>_**                                       |                                                     |                                                     |
+| 制御点全体を移動する                                                  | **Ctrl** + **W**、**S**、**A**、**D**               | **Ctrl** + **W**、**S**、**A**、**D**               |
+| 制御点全体をより小さな（1/10）増分で移動する                          | **Ctrl** + **Shift** + **W**、**S**、**A**、**D**   | **Ctrl** + **Shift** + **W**、**S**、**A**、**D**   |
+| 制御点全体をスケールする                                              | **Alt** + **W**、**S**、**A**、**D**                | **Alt** + **W**、**S**、**A**、**D**                |
+| 制御点全体をより小さな（1/10）増分でスケールする                      | **Alt** + **Shift** + **W**、**S**、**A**、**D**    | **Alt** + **Shift** + **W**、**S**、**A****D**      |
+| 制御点全体を時計回りに回転する                                        | **E**                                               | **E**                                               |
+| 制御点全体をより小さな（1/10）増分で時計回りに回転する                | **Shift** + **E**                                   | **Shift** + **E**                                   |
+| 制御点全体を反時計回りに回転する                                      | **Q**                                               | **Q**                                               |
+| 制御点全体をより小さな（1/10）増分で反時計回りに回転する              | **Shift** + **Q**                                   | **Shift** + **Q**                                   |
+| 制御点全体を垂直方向に反転する                                        | **F**                                               | **F**                                               |
+| 制御点全体を時計回りに90度回転する                                    | **R**                                               | **R**                                               |
+| **_<small>制御点ハンドル</small>_**                                   |                                                     |                                                     |
+| ハンドルを時計回りに90度回転する                                      |                                                     | **Ctrl** + **E**                                    |
+| ハンドルをより小さな（1/10）増分で時計回りに回転する                  |                                                     | **Ctrl** + **Shift** + **E**                        |
+| ハンドルを反時計回りに90度回転する                                    |                                                     | **Ctrl** + **Q**                                    |
+| ハンドルをより小さな（1/10）増分で反時計回りに回転する                |                                                     | **Ctrl** + **Shift** + **Q**                        |
+| **_<small>制御点グリッドの密度</small>_**                             |                                                     |                                                     |
+| 制御点の細分化を増やす                                                | **Ctrl** + **X**                                    | **Ctrl** + **X**                                    |
+| 制御点の細分化を減らす                                                | **Ctrl** + **Shift** + **X**                        | **Ctrl** + **Shift** + **X**                        |
+| 制御点の行の細分化を増やす                                            | **Ctrl** + **Shift** + **Up Arrow**                 | **Ctrl** + **Shift** + **Up Arrow**                 |
+| 制御点の行の細分化を減らす                                            | **Ctrl** + **Shift** + **Down Arrow**               | **Ctrl** + **Shift** + **Down Arrow**               |
+| 制御点の列の細分化を増やす                                            | **Ctrl** + **Shift** + **Right Arrow**              | **Ctrl** + **Shift** + **Right Arrow**              |
+| 制御点の列の細分化を減らす                                            | **Ctrl** + **Shift** + **Left Arrow**               | **Ctrl** + **Shift** + **Left Arrow**               |
+| メッシュの細分化を増やす                                              | **Ctrl** + **=**                                    | **Ctrl** + **=**                                    |
+| メッシュの細分化を減らす                                              | **Ctrl** + **\_** (下線)                            | **Ctrl** + **\_** (下線)                            |
+| **_<small>ブレンディング</small>_**                                   |                                                     |                                                     |
+| ブレンドマップを再構築する（SoftEdgeBlenderノードが接続されている場合 | **Ctrl** + **B**                                    | **Ctrl** + **B**                                    |
+| 選択した制御点の透明度の範囲を増やす（5％の増分）                     | **[**                                               | **[**                                               |
+| 選択した制御点の透明度の範囲を減らす（5％の増分）                     | **]**                                               | **]**                                               |
+
+## サーバーでのキーボードショートカットの使用例
+
+**Patchの選択**
+
+<img alt="Server Shortcuts Selection" src="/images/patch-editor/animation/server-shortcuts-selection.gif" width={800} height={600} loading="lazy" />
+
+**Patch編集モードの選択**
+
+<img alt="Server Shortcuts Switchingmodes" src="/images/patch-editor/animation/server-shortcuts-switchingmodes.gif" width={800} height={600} loading="lazy" />
+
+**制御点の選択と移動**
+
+<img alt="Server Shortcuts Select And Move Points" src="/images/patch-editor/animation/server-shortcuts-select-and-move-points.gif" width={800} height={600} loading="lazy" />
+
+**Patchメッシュのポリゴン面の選択（TriangleMesh Patchのみ）**
+
+<img alt="Server Shortcuts Trimesh" src="/images/patch-editor/animation/server-shortcuts-trimesh.gif" width={800} height={600} loading="lazy" />
+
+**Patchメッシュのすべての制御点を一括で移動およびスケーリング**
+
+<img alt="Server Shortcuts Move Scale All Control Points At Once" src="/images/patch-editor/animation/server-shortcuts-Move-scale-all-control-points-at-once.gif" width={800} height={600} loading="lazy" />
+
+**編集ステップの増分を変更**
+
+<img alt="Server Shortcuts Increase Increment" src="/images/patch-editor/animation/server-shortcuts-Increase-increment.gif" width={800} height={600} loading="lazy" />
+
+**Patchメッシュの反転と回転**
+
+<img alt="Server Shortcuts Rotation" src="/images/patch-editor/animation/server-shortcuts-rotation.gif" width={800} height={600} loading="lazy" />
+
+**制御点ハンドルの向きの変更**
+
+<img alt="Server Shortcuts Control Point Handle" src="/images/patch-editor/animation/server-shortcuts-control-point-handle.gif" width={800} height={600} loading="lazy" />
+
+**制御点の密度の変更**
+
+<img alt="Server Shortcuts Grid Subdivisions" src="/images/patch-editor/animation/server-shortcuts-grid-subdivisions.gif" width={800} height={600} loading="lazy" />

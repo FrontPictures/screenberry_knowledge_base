@@ -1,0 +1,66 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/ledstripesmapper.md
+document_id: guide.warping-alignment.ledstripesmapper
+language: en
+document_body_sha256: ad4f0b57151cd222c4c88b20e8c30417ebb502b0335a7b6700178aa7866a07d5
+figures:
+  - id: en-245a799673-001
+    title: LedStripesMapper
+    caption: LedStripesMapper
+    show: "LedStripesMapper. Use the adjacent instructions as the content brief: The LED Stripes Mapper node is a patch that allows the remapping of media content into lines. Typically, it is used to output the signal to a LED stripes controller. It can also be used to control lighting devices that can receive video as input. Typically, the LED Stripes Mapper node receives the media content from the Media Player node and sends output to the Canvas node. Example of the node graph with the LED Stri"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: LED Stripes Mapper
+    source_url: https://help.screenberry.com/images/warping-alignment/static/LedStripesMapper.png
+    source_alt: LedStripesMapper
+    text_coverage: not-independently-verified
+  - id: en-245a799673-002
+    title: LedStripesMapper Playback
+    caption: LedStripesMapper Playback
+    show: "LedStripesMapper Playback. Use the adjacent instructions as the content brief: To remap the content, do the following: In the Node Graph widget, create a node tree by adding the Media Player, LED Stripes Mapper, and Canvas nodes, and connect them by Ctrl-clicking them one by one.Switch to the Media Player widget, add the media content you want to remap into the lines to the Media Player playlist and start playback to have a visual reference while working with the patch. Switch to the Patch Edit"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: LED Stripes Mapper
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/LedStripesMapper-playback.gif
+    source_alt: LedStripesMapper Playback
+    text_coverage: not-independently-verified
+  - id: en-245a799673-003
+    title: LedStripesMapper Selection
+    caption: LedStripesMapper Selection
+    show: "LedStripesMapper Selection. Use the adjacent instructions as the content brief: Switch to the Patch Editor, and select the LED Stripes Mapper in the patches list. In the Settings panel of the LED Stripes Mapper:In the Source Line Width parameter, set the width in pixels of the source media to be remapped as lines.Enter values for the Target Image Size, Offset X and Y, output Line Width, and Spacing parameters (consult your LED stripes or lighting controller documentation for the format details)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: LED Stripes Mapper
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/LedStripesMapper-selection.gif
+    source_alt: LedStripesMapper Selection
+    text_coverage: not-independently-verified
+  - id: en-245a799673-004
+    title: LedStripesMapper Settings
+    caption: LedStripesMapper Settings
+    show: "LedStripesMapper Settings. Use the adjacent instructions as the content brief: In the Settings panel of the LED Stripes Mapper:In the Source Line Width parameter, set the width in pixels of the source media to be remapped as lines.Enter values for the Target Image Size, Offset X and Y, output Line Width, and Spacing parameters (consult your LED stripes or lighting controller documentation for the format details).Enter a value for the Number of Polylines parameter, and for each polyline enter th"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: LED Stripes Mapper
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/LedStripesMapper-Settings.gif
+    source_alt: LedStripesMapper Settings
+    text_coverage: not-independently-verified
+  - id: en-245a799673-005
+    title: Lines
+    caption: Lines
+    show: "Lines. Use the adjacent instructions as the content brief: In the Input panel, right-click and enable Show Live Image in the context menu. Then map each polyline by dragging its control points to the corresponding endpoints in the source image. Example of the server output from the LED Stripes Mapper"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: LED Stripes Mapper
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/lines.gif
+    source_alt: Lines
+    text_coverage: not-independently-verified

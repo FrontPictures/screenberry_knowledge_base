@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/how-to/3d-scene/3d-camera.md
+document_id: guide.3d-scene.3d-camera
+language: en
+document_body_sha256: 5bdd3a2f397693c2cfee2593de8787f165172fbd90d774693d3f31b606a77a97
+figures:
+  - id: en-b2bc78990c-001
+    title: 3D Camera
+    caption: 3D Camera
+    show: "3D Camera. Use the adjacent instructions as the content brief: Navigate to the Node Graph widget.Add a 3D Camera node to your node graph.Connect the Camera output parameter of the 3D Camera node to the Cameras input parameter of the 3D Scene node. This will integrate the camera into the scene.Switch to the 3D Scene widget to further adjust the position and orientation of the camera, either by using 3D scene tools or directly in the 3D Camera settings. When a 3D Camera node is co"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: 3D Camera
+    source_url: https://help.screenberry.com/images/3d-scene/animation/3D-Camera.gif
+    source_alt: 3D Camera
+    text_coverage: not-independently-verified

@@ -1,0 +1,134 @@
+---
+title: Screenberryのプレイリストの再生制御
+description: Screenberryのプレイリストの再生制御方法について説明します。
+openGraph:
+  title: Screenberryのプレイリストの再生制御
+  description: Screenberryのプレイリストの再生制御方法について説明します。
+---
+
+# プレイリストの再生
+
+**Media Player**ウィジェットの下部には、いくつかの標準的な再生制御コントロールが並んでいます。
+
+> **メモ：** **Media Player**ウィジェットの下部に表示されている再生制御コントロールは、現在アクティブなメディアアイテムに関連しています。同時に、アクティブなプレイリストを再生しながら、他のプレイリストを開いて編集することもできます。アクティブなプレイリストに切り替える必要がある場合は、プレイリストツリーまたはプレイリストエリアを右クリックして**Reveal Active Item**を選択するか、**`A`** キーを押してください。
+
+## プレイリストの再生制御コントロール
+
+![Mediaplayercontrols280 1](/images/media-playback/static/mediaplayercontrols280-1.png)
+
+1. **シークバー**は再生の進行状況を表示し、メディアアイテムに対する追加の再生制御と設定を提供します。
+2. <img alt="Play" src="/images/media-playback/static/play.png" width={24} height={24} loading="lazy" /> **Play Selected Item**ボタンは、選択したメディアアイテムの再生を開始します。
+3. <img alt="Play1" src="/images/media-playback/static/play1.png" width={24} height={24} loading="lazy" /> **Play**ボタンは、現在の再生位置から再生を開始します。
+4. <img alt="Pause" src="/images/media-playback/static/pause.png" width={24} height={24} loading="lazy" /> **Pause**ボタンは、現在の再生位置で再生を一時停止します。
+5. <img alt="Stop" src="/images/media-playback/static/stop.png" width={24} height={24} loading="lazy" /> **Stop**ボタンは、再生を終了します。
+6. <img alt="Prev" src="/images/media-playback/static/prev.png" width={24} height={24} loading="lazy" /> **Previous Item**ボタンはプレイリスト内の前のメディアアイテムにジャンプします。
+7. <img alt="Next" src="/images/media-playback/static/next.png" width={24} height={24} loading="lazy" /> **Next Item**ボタンはプレイリスト内の次のメディアアイテムにジャンプします。
+8. <img alt="Lock" src="/images/media-playback/static/lock.png" width={24} height={24} loading="lazy" /> **Lock**ボタンは、誤った操作を防ぐために再生制御コントロールを操作できなくします。
+9. **メディアアイテムの全長**と**現在の再生時間（またはフレーム番号）情報**を表示します。
+10. **Volume Control**ボタンは**Media Player**の出力の全体的な音量を調整します（[音量制御](../media-player/media-player-global-settings#音量調整)を参照）。
+11. **Color Correction**ボタンは**Media Player**の出力全体の色調補正を制御します（[色調補正](../media-player/media-player-global-settings#色調補正)を参照）。
+12. **プレイリスト名**を表示します。
+13. **メディアアイテム名**を表示します。
+14. プレイリスト内の**メディアアイテム数**と、**アクティブなメディアアイテムの通し番号**を表示します。
+15. 現在再生中の**メディアアイテムの全長**を表示します。
+16. **タイムコード情報**を表示します。
+17. **Timecode Controlメニュー**は**Media Player**に対するタイムコード制御へのアクセスを提供します。
+
+プレイリストの再生制御コントロールには2つの表示モード（通常と狭い）があり、**Media Player**ウィジェットの幅に応じて自動的に切り替わります。
+
+<img alt="Two Modes Playlist Playback Controls" src="/images/media-playback/animation/Two-modes-Playlist-playback-controls.gif" width={800} height={408} loading="lazy" />
+
+### シークバー
+
+Screenberryでは、シークバーは現在アクティブなメディアアイテムの再生情報を表示します。
+
+![Mediaplayerbar280](/images/media-playback/static/mediaplayerbar280.png)
+
+1. **再生ヘッド**は再生の進行状況を示します。ユーザーは再生ヘッドをドラッグして再生位置を変更することができます。再生はその位置にあるフレームから続行されます。
+2. **再生時間表示**はメディアアイテムの再生時間（またはフレーム番号）情報を表示します。
+3. **開始点**スライダーの位置は再生の最初のフレームを定義します。
+4. **終了点**スライダーの位置は再生の最後のフレームを定義します。
+5. **時間目盛り**は時間のスケールを表示します。
+6. **オーディオピーク**はメディアアイテムのアクティブなオーディオトラック（存在する場合）の波形を表示します。
+
+シークバーを右クリックすると関連するコンテキストメニューが表示されます：
+
+<img alt="Seek Bar Context Menu" src="/images/media-playback/animation/Seek-Bar-Context-Menu.gif" width={800} height={252} loading="lazy" />
+
+- **Jump to Frame**は、再生ヘッドを指定されたフレームの位置に変更します。
+- **Set In Point**は、現在のカーソル位置に再生の最初のフレームを設定します。
+- **Set Out Point**は、現在のカーソル位置に再生の最後のフレームを設定します。
+- **Reset In/Out Point**は、メディアアイテムの再生範囲の設定をデフォルトの状態にリセットします。
+- **Tag Frame**は、現在のカーソル位置のフレームにタグを割り当てます。
+- **Jump To Tagged Frame**は、現在タグ付けされているフレームのリストを表示し、選択したタグ付きフレームに再生ヘッドを移動することができます。
+- **Split at Frame (frame番号)** は、現在の再生ヘッドの位置を基準にメディアアイテムを2つのメディアアイテム（インスタンス）に分割します。最初のメディアアイテムは、開始から選択したフレームまでの期間を再生し、2番目のメディアアイテムは、選択したフレームから終了までの期間を再生します。
+- **Show Trimmed / Show Full Duration**は、全体の長さと範囲設定された部分の期間の表示モードを切り替えます。
+- **Show Time Ruler / Hide Time Ruler**は、時間目盛りの表示モードを切り替えます。
+
+> **メモ：** デフォルトでは、シークバーを左クリックすると再生ヘッドがクリック位置に移動します。このオプションは、**Preference** > **General**で**Mouse Seek Control**のチェックボックスを解除することで無効にすることができます。
+
+### 再生時間表示の切り替え
+
+**再生時間表示**を右クリックすると、3つの異なる表示モードの切り替えが可能です。
+
+<img alt="Duration Display" src="/images/media-playback/animation/Duration-Display.gif" width={800} height={52} loading="lazy" />
+
+1. 現在の再生時間/メディアアイテムの全長 (hh:mm:ss)。![Dd1](/images/media-playback/static/dd1.png)
+2. 現在のフレーム数/メディアアイテムの全フレーム数。![Dd2](/images/media-playback/static/dd2.png)
+3. メディアアイテムの残り再生時間 (hh:mm:ss)。![Dd3](/images/media-playback/static/dd3.png)
+
+もし**終了点**が設定されている場合、全ての3つの表示モードで記号 **}** が再生時間表示に追加され、再生時間（またはフレーム数）はメディアアイテムの終わりではなく**終了点**まで計算されます。![Dds](/images/media-playback/static/dds.png)
+
+## メディアアイテムの再生
+
+プレイリスト内のメディアアイテムを再生するには、以下のいずれかの方法を使用します：
+
+- 再生ヘッドの現在位置から再生を開始するには、**Play**<img alt="Play1" src="/images/media-playback/static/play1.png" width={24} height={24} loading="lazy" />ボタンを押します。
+- プレイリストでメディアアイテムを選択し、**Play Selected Item**<img alt="Play" src="/images/media-playback/static/play.png" width={24} height={24} loading="lazy" />ボタンを押します。
+- **`Alt`** キーを押しながら（マウスポインタはオレンジ色の**再生**![Altplay](/images/media-playback/static/altplay.png)シンボルに変わります）、プレイリスト内のメディアアイテムをクリックします。
+
+最後の2つのオプションは、指定したメディアアイテムに再生を即座に切り替える必要がある場合によく使用されます。
+
+<img alt="Media Items Playback" src="/images/media-playback/animation/Media-Items-Playback.gif" width={800} height={404} loading="lazy" />
+
+プレイリスト内のメディアアイテムは、左から右へ、上から下へ順番に再生されます。再生ヘッドがプレイリスト内の最後のメディアアイテムの最後のフレームに到達すると、再生位置はプレイリスト内の最初のメディアアイテムの最初のフレームに移動します。
+
+ユーザーが明示的に**Stop**または**Pause**のコマンドを発行しない限り、再生は続行されます。
+
+- **Pause**<img alt="Pause" src="/images/media-playback/static/pause.png" width={24} height={24} loading="lazy" />ボタンを押すことで再生を一時停止します。再生ヘッドは現在再生されているメディアアイテムの最後のフレームにとどまります。最後のフレームは出力され続けます。
+- **Stop**<img alt="Stop" src="/images/media-playback/static/stop.png" width={24} height={24} loading="lazy" />ボタンを押すことで再生を停止します。再生ヘッドはプレイリスト内の最初のメディアアイテムの最初のフレームに戻ります。
+
+再生中、ユーザーはメディアアイテムを追加および削除したり、プレイリスト内およびプレイリスト間で移動やコピーによって順序を変更したりすることができます。現在再生中のアイテムを削除しようとすると、警告が表示され、アイテムの削除によって再生が停止します。
+
+## 現在再生中のメディアアイテムの表示
+
+現在再生中のアイテムは、プレイリストツリーやプレイリストエリアを右クリックし、**Reveal Active Item**を選択するか、**`A`** キーを押すことで素早く見つけることができます。
+
+<img alt="Revealing Currently Playing" src="/images/media-playback/animation/Revealing-Currently-Playing.gif" width={800} height={452} loading="lazy" />
+
+## メディアアイテムのループグループ
+
+メディアアイテムのグループをループ再生するには、プレイリストで複数のメディアアイテムの選択して右クリックし、ドロップダウンメニューから**Loop Through Selected Items**を選択するか、**`Shift`** + **`L`** キーを押します。
+
+ループグループが作成されると、ループの開始と終了を示す特別な**Loop Start**アイテムと**Loop End**アイテムが、グループのメディアアイテムの前後に追加されます。これらのアイテムをプレイリスト内で移動して、ループグループに含めるメディアアイテムの数を増減させることができます。
+
+<img alt="Loop Group" src="/images/media-playback/animation/Loop-Group.gif" width={800} height={512} loading="lazy" />
+
+## プレゼンテーションクリッカーでの再生制御
+
+![Presentation Clicker](/images/media-playback/static/presentation-clicker.png)
+
+<small>*プレゼンテーションクリッカー（リモコン）*</small>
+
+プレゼンテーションクリッカーを使用すると、Screenberryを使ってプレゼンテーションを便利に行うことができます。これにより、プレゼンターは遠隔でプレイリストの再生を制御することができます。プレゼンテーションクリッカーの**Next（右矢印）** または**Previous（左矢印）** ボタンを押すと、プレゼンテーションはそれぞれ次のメディアアイテムに進み、再生が開始されます。
+
+プレゼンテーションクリッカーを使用したScreenberryの再生制御機能を行うには、**Preferences** > **General**を開き、**Presentation Clicker**のチェックボックスを選択してください。
+
+<img alt="Presentation Clicker On" src="/images/media-playback/animation/Presentation-Clicker-On.gif" width={484} height={584} loading="lazy" />
+
+また、プレイリストの方でもプレゼンテーションクリッカーによる再生制御を有効化必要があります。[プレイリストの設定 - プレゼンテーションクリッカーによる再生制御](creating-managing-playlists#プレイリストの設定と状態表示)を参照してください。
+
+> **メモ：** プレゼンテーションクリッカーのUSBトランスミッター/レシーバーはサーバーのUSBポートまたは操作用端末に取り付けるすることができます。操作用端末に取り付けられている場合、プレゼンテーションクリッカーを使用するためには、**Screenberry Panel**ウィンドウがフォーカスされている必要があります。
+> 
+
+詳細な機能については、プレゼンテーションクリッカーのデバイスマニュアルを参照してください。

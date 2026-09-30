@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/softedgeblender.md
+document_id: guide.warping-alignment.softedgeblender
+language: ja
+document_body_sha256: 36cc3a9a273e7fcab6c2e07c3ca44b72e3a89b58aad5ec63f8d9e98691449701
+figures:
+  - id: ja-24054ded73-001
+    title: Soft Edge Blender Node Tree
+    caption: Soft Edge Blender Node Tree
+    show: "Soft Edge Blender Node Tree. Use the adjacent instructions as the content brief: Soft Edge Blenderノードは、2つ以上の重なり合う映像を1つのシームレスな映像に組み合わせるためのソフトエッジブレンディングの機能を提供します。 Soft Edge Blenderノードは、Patchによって修正された映像のシームレスな重なり合いを可能にするブレンディングマップを生成するために、これらのPatchノードのSoft Edge Blender入力パラメータに接続する必要があります。 Soft Edge Blenderノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Soft Edge Blender
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Soft-Edge-Blender-node-tree.png
+    source_alt: Soft Edge Blender Node Tree
+    text_coverage: not-independently-verified
+  - id: ja-24054ded73-002
+    title: Soft Edge Blender
+    caption: Soft Edge Blender
+    show: "Soft Edge Blender. Use the adjacent instructions as the content brief: Soft Edge Blenderノードを使用したノードグラフの例 Soft Edge BlenderノードのSettingsパネルでは、次ような設定を使用してソフトエッジブレンドを行います： Generation Method： ブレンドマップの生成方法を設定します。線形距離（Linear Distance） または 重力関数（Gravity Function） のいずれかを選択します"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Soft Edge Blender
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Soft-Edge-Blender.png
+    source_alt: Soft Edge Blender
+    text_coverage: not-independently-verified
+  - id: ja-24054ded73-003
+    title: SoftEdgeBlender
+    caption: SoftEdgeBlender
+    show: "SoftEdgeBlender. Use the adjacent instructions as the content brief: Build Blend Maps： Build Blend Mapsボタンを押すと、新しいブレンドマップが生成されます。 Disable Blending： ブレンドマップがリセットされます。 メモ： Soft Edge Blender ノードの設定が変更された場合や、Soft Edge Blender ノードに接続されたPatchノードのジオメトリが変更された場合は、ブレンドマップを再生成するために Build Blend Maps ボタンを押してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: Soft Edge Blender
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/SoftEdgeBlender.gif
+    source_alt: SoftEdgeBlender
+    text_coverage: not-independently-verified

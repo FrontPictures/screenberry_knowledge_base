@@ -1,0 +1,16 @@
+schema_version: 1
+default_public_version: "3.4"
+releases:
+  "3.4":
+    status: released
+  "3.5":
+    status: development
+profiles:
+  verified-public:
+    description: Independently reviewed knowledge applicable to a released version.
+  legacy-guide-3.4:
+    description: Explicit immutable migration baseline, not a claim of product verification.
+    product_version: "3.4"
+    baseline: catalog/legacy-baseline.json
+  development-preview:
+    description: Explicit preview only; requires stated applicability, includes drafts.

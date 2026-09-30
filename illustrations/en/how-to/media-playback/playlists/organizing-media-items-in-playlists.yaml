@@ -1,0 +1,138 @@
+schema_version: 1
+document: knowledge/en/how-to/media-playback/playlists/organizing-media-items-in-playlists.md
+document_id: guide.media-playback.playlists.organizing-media-items-in-playlists
+language: en
+document_body_sha256: 462f188ad2ebab790e7f9cc9ace19b9f9105f817e20975f0b9b88647f0d18895
+figures:
+  - id: en-a4eea233e3-001
+    title: Adding Media Items To Playlists
+    caption: Adding Media Items To Playlists
+    show: "Adding Media Items To Playlists. Use the adjacent instructions as the content brief: To add media items from the Media Library: Reveal the contents of a playlist in the Media Player widget by clicking on its name.Drag and drop the media items from the Media Library to the playlist contents area, or select media items in the Media Library and use Copy (Ctrl + C) and Paste (Ctrl + V) operations to perform this action. To add media items directly:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Adding Media Items to Playlists
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Media-Items-to-Playlists.gif
+    source_alt: Adding Media Items To Playlists
+    text_coverage: not-independently-verified
+  - id: en-a4eea233e3-002
+    title: Adding Media Items To Playlists2
+    caption: Adding Media Items To Playlists2
+    show: "Adding Media Items To Playlists2. Use the adjacent instructions as the content brief: To add media items directly: Reveal the contents of a playlist in the Media Player widget by clicking on its name.Drag and drop the files from a system folder, or use Copy (Ctrl + C) and Paste (Ctrl + V) operations to perform this action.In the opened Add Media File(s) dialog box, select the quality for the uploaded media items (Good Quality 4:2:2, Max Quality 4:2:2, Optimal Quality 4:2:0) and choose to resize them i"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: Adding Media Items to Playlists
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Media-Items-to-Playlists2.gif
+    source_alt: Adding Media Items To Playlists2
+    text_coverage: not-independently-verified
+  - id: en-a4eea233e3-003
+    title: Adding Media Items To Playlists3
+    caption: Adding Media Items To Playlists3
+    show: "Adding Media Items To Playlists3. Use the adjacent instructions as the content brief: Note: If media items are added directly to the playlists, they are automatically added to the Media Library folders named Uploaded_on_YYYY-MM-DD. If media items with the same names already exist, a user is offered the option of adding new media items or overwriting the existing ones."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: Adding Media Items to Playlists
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Media-Items-to-Playlists3.gif
+    source_alt: Adding Media Items To Playlists3
+    text_coverage: not-independently-verified
+  - id: en-a4eea233e3-004
+    title: Renaming Media Items
+    caption: Renaming Media Items
+    show: "Renaming Media Items. Use the adjacent instructions as the content brief: There are two ways to rename a media item. Renaming a media item in the Media Library will change its name globally, i.e. in all existing playlists. A media item’s name in a particular playlist can also be changed by assigning it a title – right-click on the media item, select Settings from the dropdown menu, and enter a new name in the Title field. Note: Media items cannot be renamed if they are currently playing in"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: Renaming Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Renaming-Media-Items.gif
+    source_alt: Renaming Media Items
+    text_coverage: not-independently-verified
+  - id: en-a4eea233e3-005
+    title: Deleting Media Items
+    caption: Deleting Media Items
+    show: "Deleting Media Items. Use the adjacent instructions as the content brief: To delete a media item or a selection of media items from a playlist, right-click them and choose Delete from the dropdown menu, or press the Del button. You can also delete media items globally in all existing playlists by removing them from the Media Library – right-click a media item or a selection of media items in a playlist and select Remove Item from Media Library from the dropdown menu, or press Shift + Del."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: Deleting Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Media-Items.gif
+    source_alt: Deleting Media Items
+    text_coverage: not-independently-verified
+  - id: en-a4eea233e3-006
+    title: Deleting Media Items2
+    caption: Deleting Media Items2
+    show: "Deleting Media Items2. Use the adjacent instructions as the content brief: You can also delete media items globally in all existing playlists by removing them from the Media Library – right-click a media item or a selection of media items in a playlist and select Remove Item from Media Library from the dropdown menu, or press Shift + Del. To indicate that a media item has been removed from the Media Library and is no longer accessible for playback, the thumbnails of all its instances in exi"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: Deleting Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Media-Items2.gif
+    source_alt: Deleting Media Items2
+    text_coverage: not-independently-verified
+  - id: en-a4eea233e3-007
+    title: Arranging Media Items
+    caption: Arranging Media Items
+    show: "Arranging Media Items. Use the adjacent instructions as the content brief: Media items can be organized by dragging and dropping them or by using the Copy (Ctrl + C), Cut (Ctrl + X), and Paste (Ctrl + V) commands Within a single playlist to change the order of the media items playback.Between different playlists of the same Media Player widget.Between playlists of different Media Player widgets. When media items are copied or moved between playlists, they retain their playback settings."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: Arranging Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Media-Items.gif
+    source_alt: Arranging Media Items
+    text_coverage: not-independently-verified
+  - id: en-a4eea233e3-008
+    title: Arranging Media Items2
+    caption: Arranging Media Items2
+    show: "Arranging Media Items2. Use the adjacent instructions as the content brief: When media items are copied or moved between playlists, they retain their playback settings. Additionally, the media items’ data and playback settings may be copied to and from the text editor by using Copy (Ctrl + C) and Paste (Ctrl + V) operations. For easier visual identification of media items within a playlist, they can be assigned color tags – right-click a media item or a selection of media items in the playli"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 26
+      section: Arranging Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Media-Items2.gif
+    source_alt: Arranging Media Items2
+    text_coverage: not-independently-verified
+  - id: en-a4eea233e3-009
+    title: Arranging Media Items3
+    caption: Arranging Media Items3
+    show: "Arranging Media Items3. Use the adjacent instructions as the content brief: For easier visual identification of media items within a playlist, they can be assigned color tags – right-click a media item or a selection of media items in the playlist and select one of the default colors in the Set Color Tag submenu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: Arranging Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Media-Items3.gif
+    source_alt: Arranging Media Items3
+    text_coverage: not-independently-verified
+  - id: en-a4eea233e3-010
+    title: Sorting Media Items
+    caption: Sorting Media Items
+    show: "Sorting Media Items. Use the adjacent instructions as the content brief: Media items can be sorted by right-clicking a selection of items in the playlist and choosing the Sort by submenu from the dropdown menu. There are several sorting options, including Frame Count, Name, Title, Color Tags, and Shuffle."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 29
+      section: Sorting Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Sorting-Media-Items.gif
+    source_alt: Sorting Media Items
+    text_coverage: not-independently-verified
+  - id: en-a4eea233e3-011
+    title: Adjusting Media Item Thumbnails
+    caption: Adjusting Media Item Thumbnails
+    show: "Adjusting Media Item Thumbnails. Use the adjacent instructions as the content brief: The thumbnails menu, which is accessible by clicking the eye icon , offers the following options: Three different orientations for displaying thumbnails:Square , 1 x 1 (default),Horizontal , 2 x 1 for landscape-oriented media,Vertical , 1 x 2 for portrait-oriented media.Thumbnail image fit method. When the Aspect Fit checkbox is selected (default), the hard crop is performed, meaning that the centered thumbnail image"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 34
+      section: Adjusting Media Item Thumbnails
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adjusting-Media-Item-Thumbnails.gif
+    source_alt: Adjusting Media Item Thumbnails
+    text_coverage: not-independently-verified

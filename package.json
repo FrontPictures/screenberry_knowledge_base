@@ -1,0 +1,26 @@
+{
+  "name": "screenberry-knowledge-base",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "packageManager": "pnpm@11.20.0",
+  "scripts": {
+    "validate": "node tools/validate.mjs",
+    "test": "node --test tools/policy.test.mjs tools/illustrations.test.mjs",
+    "export": "node tools/export.mjs",
+    "restore-source": "node tools/restore-site.mjs"
+  },
+  "devDependencies": {
+    "github-slugger": "2.0.0",
+    "remark-frontmatter": "5.0.0",
+    "remark-gfm": "4.0.1",
+    "remark-mdx": "3.1.1",
+    "remark-parse": "11.0.0",
+    "remark-stringify": "11.0.0",
+    "unified": "11.0.5",
+    "yaml": "2.9.0"
+  }
+}

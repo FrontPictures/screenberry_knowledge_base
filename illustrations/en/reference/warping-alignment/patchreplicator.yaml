@@ -1,0 +1,66 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/patchreplicator.md
+document_id: guide.warping-alignment.patchreplicator
+language: en
+document_body_sha256: 9408ec4b7a0202eb2366b886b294c72e22704885022e1f41b9d6751d3b728332
+figures:
+  - id: en-a8b989c9e5-001
+    title: Patch Replicator Node Tree
+    caption: Patch Replicator Node Tree
+    show: "Patch Replicator Node Tree. Use the adjacent instructions as the content brief: The Patch Replicator is a patch that duplicates and distributes the instances of the target patch according to user-defined rules. Note: The Patch Replicator node can receive image input from the patch nodes only. Example of the node graph with the Patch Replicator node"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Patch Replicator
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Patch-Replicator-node-tree.png
+    source_alt: Patch Replicator Node Tree
+    text_coverage: not-independently-verified
+  - id: en-a8b989c9e5-002
+    title: Patch Replicator
+    caption: Patch Replicator
+    show: "Patch Replicator. Use the adjacent instructions as the content brief: Example of the node graph with the Patch Replicator node The Patch Replicator patch offers three replication types: Rectangular Array, Radial Array, and Mirror, which are selectable as a Mode parameter in the Settings panel. Each type is provided with its own set of settings."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Patch Replicator
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Patch-Replicator.gif
+    source_alt: Patch Replicator
+    text_coverage: not-independently-verified
+  - id: en-a8b989c9e5-003
+    title: Patch Replicator Rect
+    caption: Patch Replicator Rect
+    show: "Patch Replicator Rect. Use the adjacent instructions as the content brief: When the Rectangular Array type is chosen the following replication parameters become available in the Settings panel: X Count and Y Count values that determine the number of instances to be created along the X and Y axes.X Offset and Y Offset values that determine the offset between instances relative to the entire width and height of the output area."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Rectangular Array replication
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Patch-Replicator-Rect.gif
+    source_alt: Patch Replicator Rect
+    text_coverage: not-independently-verified
+  - id: en-a8b989c9e5-004
+    title: Patch Replicator Radial
+    caption: Patch Replicator Radial
+    show: "Patch Replicator Radial. Use the adjacent instructions as the content brief: When the Radial Array type is chosen the following replication parameters become available in the Settings panel: A Count parameter value determines the number of instances to be created.An Angle parameter sets the angle of rotation.The Method options determine how the instances are distributed. If Between mode is selected, the angle between each of the created instances is equal to the value of the Angle parameter. "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Radial Array replication
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Patch-Replicator-Radial.gif
+    source_alt: Patch Replicator Radial
+    text_coverage: not-independently-verified
+  - id: en-a8b989c9e5-005
+    title: Patch Replicator Mirr
+    caption: Patch Replicator Mirr
+    show: "Patch Replicator Mirr. Use the adjacent instructions as the content brief: Using mirroring, you can create a mirror copy of the image along the X or Y axes. When the Mirror type is chosen, select the Horizontal or Vertical option for the Direction parameter to set the mirroring direction. In addition, working with the Patch Replicator patch follows the general principles for working with patches outlined in the Editing Patches section of the documentation."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: Mirror replication
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Patch-Replicator-Mirr.gif
+    source_alt: Patch Replicator Mirr
+    text_coverage: not-independently-verified

@@ -1,0 +1,140 @@
+---
+title: Screenberryのタイムラインでメディアアイテム編集する方法
+description: Screenberryのタイムラインにメディアアイテムを追加し、編集や整理する方法を説明します。
+openGraph:
+  title: Screenberryのタイムラインでメディアアイテム編集する方法
+  description: Screenberryのタイムラインにメディアアイテムを追加し、編集や整理する方法を説明します。
+---
+
+# タイムライン内のメディアアイテム整理
+
+## トラックの追加
+
+タイムラインに新しいトラックを追加するには、以下のいずれかの方法を使用してください：
+
+- 既存のトラックを選択し、トップツールバーにある**Add Track Above** <img alt="Trackabove Icon" src="/images/media-playback/static/trackabove-icon.png" width={23} height={23} loading="lazy" /> または**Add Track Below** <img alt="Trackbelow Icon" src="/images/media-playback/static/trackbelow-icon.png" width={23} height={23} loading="lazy" /> のいずれかのボタンをクリックします。
+- トラックヘッダを右クリックし、ドロップダウンメニューから**Add Track Above**または**Add Track Below**を選択します。
+- **Media Library**、プレイリスト、または別のタイムラインからメディアアイテムをドラッグアンドドロップしてタイムラインのトラックエリアに配置します。タイムライントラックの空白部分にメディアアイテムをドロップすると、自動的に追加のタイムライントラックが作成されます。
+- **Media Library**、プレイリスト、または別のタイムラインからメディアアイテムをコピーして貼り付けます。タイムラインにメディアアイテムを貼り付ける場合は、トラックヘッダをクリックして対象のトラックを指定する必要があります。メディアアイテムは、トラック上の現在の再生位置に貼り付けられ、必要に応じて追加のタイムライントラックが作成されます。
+
+<img alt="Adding Tracks" src="/images/media-playback/animation/Adding-Tracks.gif" width={800} height={688} loading="lazy" />
+
+> **メモ：** タイムライン上のトラックは下から上に積み重ねられます。つまり、上のトラックの映像が下のトラックの上に描画されます。
+
+## トラック名の変更
+
+タイムラインのトラックの名前を変更するには、ヘッダーを右クリックし、ドロップダウンメニューから**Rename**を選択し、表示されるダイアログボックスに新しい名前を入力してください。
+
+<img alt="Renaming Tracks" src="/images/media-playback/animation/Renaming-Tracks.gif" width={800} height={400} loading="lazy" />
+
+## トラックの削除
+
+タイムラインのトラックを削除するには、そのヘッダーを右クリックし、ドロップダウンメニューから**Delete**を選択します。
+
+<img alt="Deleting Tracks" src="/images/media-playback/animation/Deleting-Tracks.gif" width={800} height={400} loading="lazy" />
+
+## トラックの色付け
+
+タイムラインのトラックに色のラベルを適用するには、そのヘッダーを右クリックし、ドロップダウンメニューから**Color Tag**を選択し、表示されるカラーピッカーダイアログボックスから色を選んでください。選択した色は、トラックのヘッダーにある色のラベルラインに適用されます。
+
+<img alt="Tracks Color Coding" src="/images/media-playback/animation/Tracks-Color-Coding.gif" width={800} height={464} loading="lazy" />
+
+## タイムライントラックへのメディアアイテムの追加
+
+メディアアイテムをタイムライントラックに配置するには、以下のいずれかの方法を使用します:
+
+- **Media Library**、別の**Media Player**の再生リスト、またはタイムラインからメディアアイテムをドラッグアンドドロップします。
+- **Media Library**、別の**Media Player**の再生リスト、またはタイムラインでメディアアイテムを選択し、右クリックしてドロップダウンメニューから**Copy**を選択するか、**`Ctrl`** + **`C`** のキーボードショートカットを使用してコピーします。次に、タイムライン上のターゲットトラックを選択し、ドロップダウンメニューから **貼り付け**（**`Ctrl`** + **`V`**）を使用してメディアアイテムをタイムライントラックに配置します。メディアアイテムは、選択されたトラックの現在の再生ヘッドがある位置に貼り付けられます。
+- システムフォルダからメディアファイルを直接ドラッグアンドドロップするか、**Copy**（**`Ctrl`** + **`C`**）と**貼り付け**（**`Ctrl`** + **`V`**）のコマンドを使用します。この操作により、**Add Media File(s)** ダイアログボックスが開き、メディアアイテムの変換品質を選択できます。利用可能な選択肢は以下の通りです：
+  - **MPEG-2 Max Quality** **4:2:2** は、最高品質でエンコードされた MPEG-2 ビデオ形式です。これは、より高い品質の維持を可能にするデフォルトのエンコードオプションです。ほとんどの場合、最適な品質とパフォーマンスを提供します。ただし、特定のメディアアイテムで再生の問題や映像の乱れが発生する場合は、**MPEG-2 Good Quality** エンコードを使用して再エンコードすることを検討してください。
+  - **MPEG-2 Good Quality** **4:2:2** は、高いビットレートでエンコードを行いますが、映像の複雑さに関係なくスムーズなビデオ再生を確保するために特定のビットレート制限があります。
+  - **MPEG-2 Optimal Quality 4:2:0** は、非常に高い解像度の映像を再生するためのより適切なオプションです。厳しいビットレート制限を使用します。
+  - **Uncompressed Targa Sequence** は、非可逆的な RLE 圧縮の連番画像形式です。ファイルは非圧縮のままであるため、最適な再生パフォーマンスのためには大容量のストレージ容量と高速な読み込み能力が必要です。
+  - **Original file(s)** は、元のファイルの形式を維持します。また、変換中に低解像度のプレビュー映像が生成され、オーディオコンテンツは別ファイルに抽出されます。メディアアイテムの再生は、元の形式によっては最適ではない場合があります。この形式は、_NotchLC_ および _HAP_ の再生にも使用されます。
+  - **CineForm (High)** は、高画質とパフォーマンスを両立するために設計された*CineForm*コーデック形式を使用します。高解像度、高ダイナミックレンジ、高フレームレートのメディアアイテムを提供しますが、大容量のストレージスペースも必要とします。
+  - **CineForm (High, 12-bit)** は、*CineForm*コーデック形式を使用します。唯一の違いは、このエンコードがより高いビット深度、具体的には 10 ビットおよび 12 ビットの映像を扱うように設計されていることです。
+- メディアアイテムの解像度を必要に応じて調整してから、**Add**ボタンをクリックしてアップロード作業を開始し、メディアファイルをタイムライントラックに追加を完了します。
+
+メディアアイテムがタイムライントラックにドラッグアンドドロップされるか、タイムライン内で再配置されるたびに、上書き編集が行われます。これは、新たに配置されたメディアアイテムが既存のメディアアイテムの一部と重なる場合、その範囲が上書きされることを意味します。
+
+<img alt="Arranging Media Items On Timeline Tracks" src="/images/media-playback/animation/Arranging-Media-Items-on-Timeline-Tracks.gif" width={800} height={452} loading="lazy" />
+
+> **メモ：** タイムラインに直接システムフォルダからメディアアイテムが追加されると、対応するメディアファイルは”**Media”** フォルダにアップロードされ、**Uploaded_on_YYYY-MM-DD**\_\_とラベルが付けられます。
+
+## 外部映像ソースを AUX メディアアイテムとして追加する
+
+**Media Player**は、特殊な**AUX**メディアアイテムとして外部映像ソースをタイムライントラックに配置することができます。このような映像入力を**Media Player**で受け取るには、関連する映像生成ノードの映像出力パラメータをノードグラフの**Media Player**ノードの**AUX Image [N]** 入力ピンに接続する必要があります。
+
+複数の外部映像入力を設定するには、**Media Player**ノードの**Settings**パネルで**Number of AUX Inputs**欄に希望する数を指定します。これにより、**Media Player**ノードに追加の**AUX Image**入力ピンが追加されます。
+
+外部画像ソースを受け取るために**Media Player**を設定したら、**Timeline**パネルに移動し、**AUX**アイテムを配置する目的のタイムライントラックのヘッダーをクリックします。次に、トラック上で右クリックしてドロップダウンメニューを開き、**Add AUX**を選択します。ダイアログボックスが表示され、ドロップダウンリストから希望する AUX メディアソースを選択できます。
+
+タイムライントラック上の任意のメディアアイテムに適用可能なすべての設定と変換は、**AUX**アイテムにも適用されます。通常、**AUX**メディアアイテムを配置した後は、外部映像ソースの再生時間を指定するためにその長さを調整します。
+
+<img alt="Adding External Image Sources As AUX Media Items" src="/images/media-playback/animation/Adding-External-Image-Sources-as-AUX-Media-Items.gif" width={800} height={456} loading="lazy" />
+
+## データアイテムの追加
+
+タイムライントラックに配置できる特殊なメディアアイテムのもう 1 つのタイプは、**データアイテム**です。このタイプのメディアアイテムを使用すると、ノードグラフに追加されたノードの浮動小数点値パラメータをアニメーション化することができます。
+
+**データアイテム**をタイムライントラックに追加するには、ヘッダをクリックして所望のトラックを選択します。次に、トラック上で右クリックしてドロップダウンメニューを開き、**Add Data Item**を選択します。表示されるダイアログボックスには、アニメーション化したい値パラメータの**Node Path**と**Parameter Name**を入力します。
+
+**データアイテム**についての詳細は、キーフレームの操作を説明するセクションを参照してください。キーフレームはこの機能の説明に必要不可欠です。
+
+<img alt="Adding Data Item" src="/images/media-playback/animation/Adding-Data-Item.gif" width={800} height={452} loading="lazy" />
+
+## メディアアイテムの削除
+
+タイムラインからひとつまたは複数のメディアアイテムを削除するには、メディアアイテムまたは選択したメディアアイテムのグループを右クリックし、ドロップダウンメニューから**Delete**を選択します。または、メディアアイテムを選択して **`Del`** キーを押して削除することもできます。
+
+<img alt="Deleting Media Items Timelines" src="/images/media-playback/animation/Deleting-Media-Items-Timelines.gif" width={800} height={400} loading="lazy" />
+
+## タイムライントラック上にメディアアイテムを配置する
+
+メディアアイテムをタイムライントラック上に配置して、再生順序や重ね合わせを変更することができます。これは、1 つ以上のメディアアイテムを選択し、タイムラインの同じトラックまたは別のトラックの所望の位置にドラッグすることで行います。
+
+メディアアイテムがタイムライントラック上にドラッグ＆ドロップされると、上書き編集が適用されます。これは、新しいアイテムが重なる既存のアイテムの一部分は新しいアイテムに置き換えられることを意味します。新しいアイテムのフレームはオレンジ色になり、既存のアイテムの対応する部分を上書きすることを示します。
+
+メディアアイテムをトラック上にドラッグすると、自動的に他のメディアアイテムのエッジ、再生ヘッドの位置、マーカーなどにスナップします。**スナップ**機能をオンまたはオフにするには、サイドツールバーの**Snap On/Off**<img alt="Snap Icon" src="/images/media-playback/static/snap-icon.png" width={23} height={23} loading="lazy" />トグルボタンをクリックするか、**`N`** キーボードショートカットを使用します。
+
+メディアアイテムのドラッグを垂直移動に制限する場合は、**`Shift`** キーを押しながら操作します。
+
+同じタイムライントラック上の特定の時間位置にメディアアイテムを正確に配置したい場合は、メディアアイテムの**Settings**パネルの**Position**欄に希望する時間値を入力します。
+
+<img alt="Arranging Media Items On Timeline Tracks" src="/images/media-playback/animation/Arranging-Media-Items-on-Timeline-Tracks.gif" width={800} height={452} loading="lazy" />
+
+import { Callout } from 'nextra/components';
+
+<Callout emoji={<img src="/images/misc/drafts_blue.svg" alt="Information" width={20} height={20} />}>
+**メモ：**
+
+メディアアイテムの設定には 2 つの異なる方法があります：
+
+1. タイムラインパネルの右上隅にあるトグルをクリックして表示または非表示にできる、**Settings**パネルです。
+2. メディアアイテムを右クリックし、ドロップダウンメニューから**Item Settings**を選択することでアクセスできる、独立した**Settings**ダイアログボックスです。
+
+</Callout>
+
+## メディアアイテムの分割
+
+必要な場合は、**カミソリ**ツールを使用してメディアアイテムを 2 つのパートに分割することができます。この操作により、元のメディアアイテムとは異なる**開始**点と**終了**点を持つ、2 つの別々のインスタンスが作成されます。メディアアイテムを分割するには、サイドツールバーから**カミソリ**<img alt="Razor Icon" src="/images/media-playback/static/razor-icon.png" width={23} height={23} loading="lazy" />ツールを選択します（または **`C`** キーボードショートカットを使用します）。その後、メディアアイテム内の分割したいポイントをクリックします。ドラッグによる編集を再開するには、サイドツールバーから**移動**<img alt="Move Icon" src="/images/media-playback/static/move-icon.png" width={23} height={23} loading="lazy" />ツールを選択するか、**`V`** または **`Esc`** キーボードショートカットを使用します。
+
+<img alt="Splitting Media Items 1" src="/images/media-playback/animation/Splitting-Media-Items-1.gif" width={800} height={456} loading="lazy" />
+
+## メディアアイテムの再生時間の変更
+
+メディアアイテムの再生時間と開始時間を調整するには、メディアアイテムのサムネイルの両側にある白い四角形のハンドルをドラッグしてトリミングまたは引き延ばしをすることができます。左側のハンドルは開始時間を変更し、右側のハンドルは再生時間を調整します。また、メディアアイテムを右クリックし、ドロップダウンメニューから**Item Settings**を選択し、その後**Start from**と**Duration**の欄に値を入力することもできます。メディアアイテムがトリミングまたは引き延ばしをされたことを示すために、四角形のハンドルは三角形のハンドルに変わります。
+
+<img alt="Changing Duration Of Media Items" src="/images/media-playback/animation/Changing-Duration-of-Media-Items.gif" width={800} height={508} loading="lazy" />
+
+## メディアアイテムのフェードインとフェードアウト
+
+メディアアイテムのフェードインとフェードアウトを設定するには、メディアアイテムサムネイルの上隅にある白い三角形のハンドルをドラッグするか、メディアアイテムを右クリックしてドロップダウンメニューから**Item Settings**を選択し、**Fade In**と**Fade Out**の欄に必要な値を入力します。
+
+<img alt="Fading Media Items In And Out" src="/images/media-playback/animation/Fading-Media-Items-In-and-Out.gif" width={800} height={503} loading="lazy" />
+
+## メディアアイテムのフレームを固定する
+
+メディアアイテムの任意の静止画フレームを連続再生するには、メディアアイテムを右クリックし、ドロップダウンメニューから**Item Settings**を選択し、表示されるダイアログボックスで**Enable Freeze Frame**チェックボックスを選択します。次に、保持したいメディアアイテムの特定のフレームを**Freeze Frame**フィールドに入力してください。静止画フレームの再生時間を指定するには、**Duration**欄に値を入力します。
+
+<img alt="Freezing A Frame Of A Media Item" src="/images/media-playback/animation/Freezing-a-Frame-of-a-Media-Item.gif" width={800} height={508} loading="lazy" />

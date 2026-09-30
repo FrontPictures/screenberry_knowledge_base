@@ -1,0 +1,60 @@
+---
+title: Screenberryのノードグラフ
+description: Screenberryにおけるノードベースのプロジェクトの作成方法について説明します。ノードの構成、ノードグラフ、実行順、データフロー、ノードの状態表示について説明します。
+openGraph:
+  title: Screenberryのノードグラフ
+  description: Screenberryにおけるノードベースのプロジェクトの基本を説明します。ノード構造やノードグラフの機能について説明します。
+---
+
+# ノードの基本
+
+## 概要
+
+ノードは、Screenberryでプロジェクトを作成するために使用される基本的な単位です。
+
+すべてのノードには固有の機能がありますが、いずれも操作は共通で、シンプルかつ直感的に扱うことができます。
+
+Screenberryでのプロジェクト作成は、ノードの追加/リンクと、ノードパラメータの変更の繰り返しです。これは、**Screenberry Panel**の**Node Graph**ウィジェットで行います。
+
+## ノードの構造
+
+<img alt="Node Structure2" src="/images/working-with-nodes/animation/Node-Structure2.gif" width={800} height={348} loading="lazy" />
+
+**ノードヘッダー**は、次の情報を提供します：
+
+- 実行順番（左上の数字）。
+- ノードの名前（またはラベル）。
+- ノード状態のインジケーター（ノードヘッダーの右側のカラーバー）。詳細は、[ノードの状態](#ノードの状態)を参照してください。
+
+**ノードボディ**には、入力パラメータの名前（左側）と出力パラメータの名前（右側）が含まれています。ノードが選択されると、そのパラメータが**Settings**パネルに表示されます。
+
+## ノードグラフの構造とデータフロー
+
+**ノードグラフ**は、ノードを追加してリンクさせることで作成されます。データは、ノードの右側の出力ピンと左側の入力ピンの間のリンクを通じて左から右へと流れます。**ノードグラフ**は、レンダリングされたビデオ、画像、およびオーディオの結果を示すデータフローとプロセスを視覚的に表現しています。
+
+<img alt="Example" src="/images/working-with-nodes/animation/Example.gif" width={800} height={236} loading="lazy" />
+_ノードグラフの例_
+
+ノード間のリンクはグレーの線で表示されます。選択されたノードへのリンクは緑でハイライトされます。データが送信されている場合（例えば、タイムコードが送信されている場合）、リンクはアニメーション表示されます。
+
+<img alt="Links" src="/images/working-with-nodes/animation/Links.gif" width={800} height={252} loading="lazy" />
+
+## ノードの実行順序
+
+ノードの実行順序は、ノード間のリンクとノードの実行順序番号に基づいて自動的に決定されます。
+
+<img alt="Execution Order" src="/images/working-with-nodes/animation/Execution-Order.gif" width={800} height={376} loading="lazy" />
+
+## ノードの状態
+
+ノードは、インジケータで表示される次の3つの状態のいずれかになることがあります：
+
+- <img alt="Status Enabled" src="/images/working-with-nodes/static/status-enabled.png" width={18} height={26} loading="lazy" /> 有効化されている状態（緑）
+- <img alt="Status Disabled" src="/images/working-with-nodes/static/status-disabled.png" width={18} height={26} loading="lazy" /> 無効化されている状態（灰色）
+- <img alt="Status Notactive" src="/images/working-with-nodes/static/status-notactive.png" width={18} height={26} loading="lazy" /> 有効化されているが、アクティブではない状態（赤）
+
+<img alt="Node Status" src="/images/working-with-nodes/static/Node-Status.gif" width={800} height={156} loading="lazy" />
+
+ノードを無効化または有効化するには、ノードを右クリックし、ドロップダウンメニューで**Enabled**のチェックボックスを選択/非選択してください。
+
+<img alt="Disable Node" src="/images/working-with-nodes/animation/Disable-Node.gif" width={800} height={220} loading="lazy" />

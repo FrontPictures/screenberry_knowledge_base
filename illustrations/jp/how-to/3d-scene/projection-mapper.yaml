@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/how-to/3d-scene/projection-mapper.md
+document_id: guide.3d-scene.projection-mapper
+language: ja
+document_body_sha256: 85474a216fa1848b9c71923c119a6ce627e40eac8e22aced401ecbf82ff2fafe
+figures:
+  - id: ja-3a69a5624b-001
+    title: Projection Mapper
+    caption: Projection Mapper
+    show: "Projection Mapper. Use the adjacent instructions as the content brief: プロジェクションマッパー を追加するには、以下の手順に従ってください： Node Graph ウィジェットに移動します。ノードグラフに Projection Mapper ノードを追加します。Projection Mapper ノードの Projection Mapper 出力パラメータを 3D Scene ノードの Projection Mapper 入力パラメータに接続します。映像ソースノード（3D 環境で投影される画像を送信）を Projection Mapper ノードの Source Image 入力パラメータに接続します。3D Scene ウィジェットに切り替えて、3D シーンツールを使用するか、Projection Mapper の設定で直接プロジェクターの位置と向きをさらに調整します。 Projection Mapper の設定には以下が含まれます："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: プロジェクションマッパー
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Projection-Mapper.gif
+    source_alt: Projection Mapper
+    text_coverage: not-independently-verified

@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/how-to/automatic-calibration/setting-up-projectors.md
+document_id: guide.automatic-calibration.setting-up-projectors
+language: en
+document_body_sha256: 55a2a74106d0f61bf6aa2f323e45d2c68462f48ee59d0f2048e328db81a2f9cf
+figures:
+  - id: en-2c29274179-001
+    title: Projections Overlapping
+    caption: Projections Overlapping
+    show: "Projections Overlapping. Use the adjacent instructions as the content brief: The following steps should be performed to set up projectors properly: Ensure that the projectors have equal or comparable lamp life. Replace the lamps if necessary. For projectors with solid-state laser light source, select the same brightness mode.Ensure that the projectors are fixed firmly and will not move during the calibration process.Connect the projectors to the corresponding video card outputs of the Screenb"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Setting Up Projectors
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/projections-overlapping.png
+    source_alt: Projections Overlapping
+    text_coverage: not-independently-verified

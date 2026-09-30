@@ -1,0 +1,174 @@
+schema_version: 1
+document: knowledge/en/how-to/working-with-nodes/adding-and-managing-nodes.md
+document_id: guide.working-with-nodes.adding-and-managing-nodes
+language: en
+document_body_sha256: d3a66aecc1a29bebe724a34050518434a6cec40e6c8a308792498570e8e142ec
+figures:
+  - id: en-e9f26c9166-001
+    title: Adding Nodes
+    caption: Adding Nodes
+    show: "Adding Nodes. Use the adjacent instructions as the content brief: Begin typing the node name in the Search box at the top of the menu to see the list of nodes that match your search criteria, then select the desired node from the list, or press Enter to add the first node from the list.Select a node by browsing the Category or Tag submenus.Select a node from the Recently Added Nodes list. The selected node will be placed at the cursor location where the Add Node menu was activated."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Adding Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Adding-Nodes.gif
+    source_alt: Adding Nodes
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-002
+    title: Adding Nodes Side Panel
+    caption: Adding Nodes Side Panel
+    show: "Adding Nodes Side Panel. Use the adjacent instructions as the content brief: Side Panel: Open the side panel in the Node Graph to access a list of nodes sorted by category. To add a node from this list, click and drag it into the node graph. This panel also contains a Search field that allows you to filter nodes. As you begin typing the node name, only the nodes that match your filter criteria will be left in the side panel. Node Classification"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: Adding Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Adding-Nodes-Side-Panel.gif
+    source_alt: Adding Nodes Side Panel
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-003
+    title: Node Classification
+    caption: Node Classification
+    show: "Node Classification. Use the adjacent instructions as the content brief: Node Classification All nodes are conveniently organized into categories and also labeled with one or more tags for easy identification and selection. The node selection can be carried out by either Category or Tag interchangeably. Note: Display and Patch type nodes are automatically added to the node graph when new displays or patches are created within the Display Editor or the Patch Editor."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: Adding Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Node-Classification.gif
+    source_alt: Node Classification
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-004
+    title: Selecting Node1
+    caption: Selecting Node1
+    show: "Selecting Node1. Use the adjacent instructions as the content brief: To select a node, left-click on it in the Node Graph. Multiple nodes can be selected by Shift-clicking on nodes in the Node Graph, or by left-clicking and dragging a marquee around them."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Selecting Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Selecting-Node1.gif
+    source_alt: Selecting Node1
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-005
+    title: Selecting Nodes Right To Left
+    caption: Selecting Nodes Right To Left
+    show: "Selecting Nodes Right To Left. Use the adjacent instructions as the content brief: Multiple nodes can be selected by Shift-clicking on nodes in the Node Graph, or by left-clicking and dragging a marquee around them. If dragging is done from right to left, all the nodes touched by the rectangular marquee will be selected. If dragging is done from left to right, only the nodes inside the rectangular marquee will be selected. This function is useful when selecting the nodes that are part of a complex "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: Selecting Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Selecting-Nodes-right-to-left.gif
+    source_alt: Selecting Nodes Right To Left
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-006
+    title: Selecting Nodes Left To Right
+    caption: Selecting Nodes Left To Right
+    show: "Selecting Nodes Left To Right. Use the adjacent instructions as the content brief: If dragging is done from left to right, only the nodes inside the rectangular marquee will be selected. This function is useful when selecting the nodes that are part of a complex node tree. See Settings of Multiple Selected Nodes for information about selecting multiple nodes of the same type."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: Selecting Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Selecting-Nodes-left-to-right.gif
+    source_alt: Selecting Nodes Left To Right
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-007
+    title: Moving Nodes
+    caption: Moving Nodes
+    show: "Moving Nodes. Use the adjacent instructions as the content brief: To move a node, left-click on the node and drag it. If multiple nodes are selected, then clicking on any node in the selection and dragging will move the entire selection."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: Moving Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Moving-Nodes.gif
+    source_alt: Moving Nodes
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-008
+    title: Copy Paste Nodes
+    caption: Copy Paste Nodes
+    show: "Copy Paste Nodes. Use the adjacent instructions as the content brief: To copy and paste nodes in the Node Graph, select one or more nodes and do one of the following: Right-click on a node (or a selected group of nodes) and choose either Copy or Cut and then choose Paste from the dropdown menu.Use the following keyboard shortcuts: Ctrl + C to copy or Ctrl + X to cut, and Ctrl + V to paste. Note: The nodes from one Screenberry project can be copied and pasted into another."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: Copy, Paste, and Cut Operations with Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Copy-Paste-Nodes.gif
+    source_alt: Copy Paste Nodes
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-009
+    title: Deleting Nodes
+    caption: Deleting Nodes
+    show: "Deleting Nodes. Use the adjacent instructions as the content brief: To delete a node or a group of selected nodes, right-click on a node (or a group) and select Delete from the dropdown menu, or press the Del button. Deleting a node removes any links attached to it."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: Deleting Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Deleting-Nodes.gif
+    source_alt: Deleting Nodes
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-010
+    title: Renaming Nodes
+    caption: Renaming Nodes
+    show: "Renaming Nodes. Use the adjacent instructions as the content brief: To rename a node, right-click on it, select Rename from the dropdown menu, and enter a new name in the opened dialog box."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 29
+      section: Renaming Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Renaming-Nodes.gif
+    source_alt: Renaming Nodes
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-011
+    title: Changing Node Size
+    caption: Changing Node Size
+    show: "Changing Node Size. Use the adjacent instructions as the content brief: To resize a node, select it and drag any one of its corner handles (which become visible on mouseover)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 31
+      section: Changing Node Size
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Changing-Node-Size.gif
+    source_alt: Changing Node Size
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-012
+    title: Grouping Nodes
+    caption: Grouping Nodes
+    show: "Grouping Nodes. Use the adjacent instructions as the content brief: To visually simplify and better organize the layout of a node tree, parts of it can be collapsed into groups. To do this, right-click on a group of selected nodes, choose Group Nodes from the dropdown menu (or press the G key), and enter a name for the created group in the opened dialog box. The selected nodes will be combined into a specialized Group node with input and output parameter pins that match the currently"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 34
+      section: Grouping Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Grouping-Nodes.gif
+    source_alt: Grouping Nodes
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-013
+    title: Groups
+    caption: Groups
+    show: "Groups. Use the adjacent instructions as the content brief: Switching between the contents of different Group nodes and the main node tree is accomplished by clicking on the buttons with the group names that are located on the navigation bar at the top of the Node Graph window (where Root indicates the main node tree). To ungroup nodes contained in a Group node, right-click on the Group node and select Ungroup from the dropdown menu (or press the U key)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 35
+      section: Grouping Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/static/groups.png
+    source_alt: Groups
+    text_coverage: not-independently-verified
+  - id: en-e9f26c9166-014
+    title: Ungrouping Nodes
+    caption: Ungrouping Nodes
+    show: "Ungrouping Nodes. Use the adjacent instructions as the content brief: To ungroup nodes contained in a Group node, right-click on the Group node and select Ungroup from the dropdown menu (or press the U key)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 36
+      section: Grouping Nodes
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Ungrouping-Nodes.gif
+    source_alt: Ungrouping Nodes
+    text_coverage: not-independently-verified

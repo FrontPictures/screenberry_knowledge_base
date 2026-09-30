@@ -1,0 +1,138 @@
+schema_version: 1
+document: knowledge/en/releases/whats-new/release-notes-2-8-0.md
+document_id: guide.whats-new.release-notes-2-8-0
+language: en
+document_body_sha256: c40de09605b1854273b0384c609fb8aa240a023638b047c6ea71891a98e66070
+figures:
+  - id: en-04c312e0bc-001
+    title: Touch Ui3
+    caption: Touch Ui3
+    show: "Touch Ui3. Use the adjacent instructions as the content brief: This integration is accomplished with the TouchEngine node that can be added to the Screenberry node graph and provides easy and intuitive control over TouchEngine instance creation, TOX file loading, parameter value retrieval, etc. The TouchEngine node can have TOPs and CHOPs inputs/outputs depending on the TouchDesigner project setup. Additionally, it contains a descriptive error logging system that makes troublesh"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: TouchEngine integration
+    source_url: https://help.screenberry.com/images/whats-new/static/touch-ui3.png
+    source_alt: Touch Ui3
+    text_coverage: not-independently-verified
+  - id: en-04c312e0bc-002
+    title: Touch Video
+    caption: Touch Video
+    show: "Touch Video. Use the adjacent instructions as the content brief: Video streams obtained from TouchEngine can be displayed as a texture, or as a composition layer. Incoming data streams can be used to provide Screenberry with information like tracking coordinates, object properties, DMX values, touch events, or any other real-time data. It is also easy to send a video stream or numeric values from Screenberry nodes to TouchEngine for processing and receive the resulting output back"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: TouchEngine integration
+    source_url: https://help.screenberry.com/images/whats-new/animation/touch-video.gif
+    source_alt: Touch Video
+    text_coverage: not-independently-verified
+  - id: en-04c312e0bc-003
+    title: Virtual Production Studio 1
+    caption: Virtual Production Studio 1
+    show: "Virtual Production Studio 1. Use the adjacent instructions as the content brief: Support has been added for the Mo-Sys (F4 protocol) precision camera tracking that has become an industry standard for use with XR stages, LED volumes, and green/blue screens in virtual production and content creation for live broadcasts, film, and game cinematics. The new Mo-Sys F4 node, which allows you, for example, to synchronize camera movement in the Screenberry 3D Scene using Mo-Sys camera tracking data."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: Mo-Sys F4 tracker support
+    source_url: https://help.screenberry.com/images/whats-new/static/Virtual_production_studio-1.jpg
+    source_alt: Virtual Production Studio 1
+    text_coverage: not-independently-verified
+  - id: en-04c312e0bc-004
+    title: Web Panel
+    caption: Web Panel
+    show: "Web Panel. Use the adjacent instructions as the content brief: The web-based control panel has been developed to control Screenberry playlist playback and work of user-defined widgets remotely, from any computer, tablet or smartphone. A custom platform-independent web interface with HTML 5 support makes it possible for multiple users to operate the server via the web browser."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: Web-based control panel for Screenberry playback and widgets
+    source_url: https://help.screenberry.com/images/whats-new/static/Web-Panel.jpg
+    source_alt: Web Panel
+    text_coverage: not-independently-verified
+  - id: en-04c312e0bc-005
+    title: Comments Area
+    caption: Comments Area
+    show: "Comments Area. Use the adjacent instructions as the content brief: The mechanism for storing template projects has been implemented, and the option to upload template projects has been added to the New Project dialog box. The new Comment Area element has been added to the node graph. It allows organizing a node graph more clearly and descriptively by arranging nodes into notated comment boxes, which is helpful for at-a-glance overviews of a complex node graph’s functionality. The Ti"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: "Features:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/Comments-Area.gif
+    source_alt: Comments Area
+    text_coverage: not-independently-verified
+  - id: en-04c312e0bc-006
+    title: Media Player Redesign
+    caption: Media Player Redesign
+    show: "Media Player Redesign. Use the adjacent instructions as the content brief: The Media Player widget has been completely redesigned to provide users with better playback control through a more convenient interface, and allow the easier organization of workflow. The option to lock transport controls has been added to the Media Player widget to prevent users from performing accidental actions."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 32
+      section: "UI/UX Improvements:"
+    source_url: https://help.screenberry.com/images/whats-new/static/media-player-redesign.png
+    source_alt: Media Player Redesign
+    text_coverage: not-independently-verified
+  - id: en-04c312e0bc-007
+    title: Lock
+    caption: Lock
+    show: "Lock. Use the adjacent instructions as the content brief: The option to lock transport controls has been added to the Media Player widget to prevent users from performing accidental actions. Waveforms have been added to the seek bar of the Media Player widget to display the audio peaks of the media item’s audio track."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: "UI/UX Improvements:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/lock.gif
+    source_alt: Lock
+    text_coverage: not-independently-verified
+  - id: en-04c312e0bc-008
+    title: Wave
+    caption: Wave
+    show: "Wave. Use the adjacent instructions as the content brief: Waveforms have been added to the seek bar of the Media Player widget to display the audio peaks of the media item’s audio track. The behavior of the logarithmic slider in the node Settings has been changed to improve usability and simplify precise value selection."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 34
+      section: "UI/UX Improvements:"
+    source_url: https://help.screenberry.com/images/whats-new/static/wave.png
+    source_alt: Wave
+    text_coverage: not-independently-verified
+  - id: en-04c312e0bc-009
+    title: Lslider
+    caption: Lslider
+    show: "Lslider. Use the adjacent instructions as the content brief: The behavior of the logarithmic slider in the node Settings has been changed to improve usability and simplify precise value selection. The behavior of the spinbox in the node Settings has been improved. Now users can change values by dragging the mouse over the spinbox while holding the left mouse button or by clicking on the spinbox and entering a value."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 35
+      section: "UI/UX Improvements:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/lslider.gif
+    source_alt: Lslider
+    text_coverage: not-independently-verified
+  - id: en-04c312e0bc-010
+    title: Slider
+    caption: Slider
+    show: "Slider. Use the adjacent instructions as the content brief: The behavior of the spinbox in the node Settings has been improved. Now users can change values by dragging the mouse over the spinbox while holding the left mouse button or by clicking on the spinbox and entering a value. In the GUI Panel, a new grid layout system has been implemented and the UI design of the user control elements has been improved. A function of snapping elements to the grid layout has been added, "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 36
+      section: "UI/UX Improvements:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/slider.gif
+    source_alt: Slider
+    text_coverage: not-independently-verified
+  - id: en-04c312e0bc-011
+    title: Double Click
+    caption: Double Click
+    show: "Double Click. Use the adjacent instructions as the content brief: In the GUI Panel, a new grid layout system has been implemented and the UI design of the user control elements has been improved. A function of snapping elements to the grid layout has been added, simplifying the creation of custom interfaces.If a node has an associated widget, it can be opened by double-clicking on a node in the node graph, or pressing the O key when a node is selected. In the Node Graph, the automa"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 37
+      section: "UI/UX Improvements:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/Double-Click.gif
+    source_alt: Double Click
+    text_coverage: not-independently-verified

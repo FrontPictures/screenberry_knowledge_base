@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/rectangle.md
+document_id: guide.warping-alignment.rectangle
+language: ja
+document_body_sha256: 739a681fe967fc4b9f1e1285e1f3e09c42d18dc1421b970dd805f6d8e743a438
+figures:
+  - id: ja-9bda42aa49-001
+    title: Rectangle
+    caption: Rectangle
+    show: "Rectangle. Use the adjacent instructions as the content brief: Rectangleノードは、平面の矩形ベースの変更を適用するためのPatchであり、主に LED などの矩形のスクリーン上で映像をスケーリング、整列、配置するために使用されます。また、複数のメディアソースを1つの画面上で組み合わせてピクチャインピクチャ効果を作成するためにも使用されます。典型的なセットアップでは、Rectangleノードは入力としてソース映像を受け取り、変形された映像をDisplayノードまたはCanvasノードに出力します。 Rectangleノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: Rectangle
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Rectangle.png
+    source_alt: Rectangle
+    text_coverage: not-independently-verified
+  - id: ja-9bda42aa49-002
+    title: Rectangle
+    caption: Rectangle
+    show: "Rectangle. Use the adjacent instructions as the content brief: Patch EditorのRectangleノードを使用して、映像のジオメトリとマッピングを変更するには、次の手順を実行します： Inputパネルで、メッシュの制御点のハンドルをドラッグして、マッピングされるソース映像のスケール、アスペクト比、および範囲を変更します。Outputパネルで、メッシュの制御点のハンドルをドラッグして、映像のスケール、アスペクト比、およびオフセットを調整して、映像をオブジェクトの形状に合わせます。 Rectangleノードで制御点を編集する際、追加の斜めスマートガイドが表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Rectangle
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Rectangle.gif
+    source_alt: Rectangle
+    text_coverage: not-independently-verified
+  - id: ja-9bda42aa49-003
+    title: Rect Whiteguide
+    caption: Rect Whiteguide
+    show: "Rect Whiteguide. Use the adjacent instructions as the content brief: Rectangleノードで制御点を編集する際、追加の斜めスマートガイドが表示されます。 Inputパネルでは、Outputパネルで定義された映像のアスペクト比が表示されます。Outputパネルでは、現在のInputパネルで定義されている映像のアスペクト比が表示されます。 Rectangleノードを使用する場合は、Patchの共通操作についてPatchの編集の章も参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Rectangle
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Rect-whiteguide.gif
+    source_alt: Rect Whiteguide
+    text_coverage: not-independently-verified

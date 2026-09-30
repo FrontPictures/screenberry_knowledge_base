@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/transform2d.md
+document_id: guide.warping-alignment.transform2d
+language: ja
+document_body_sha256: 258f2911c90cc8002f3f38c6234c132b92fcb1558b02b33741908e2b63a3b517
+figures:
+  - id: ja-6618371f61-001
+    title: Transform2D
+    caption: Transform2D
+    show: "Transform2D. Use the adjacent instructions as the content brief: Transform 2Dノードは、Patchに対して静的または動的な行列変形を適用することができます。通常、Patchの位置、移動、スケール、回転、さまざまなピクチャーインピクチャー効果を作成するために使用されます。 Transform 2Dノードは、変形対象にするPatchノードのTransform Matrix入力ピンに接続されます。 Transform 2Dノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Transform 2D
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Transform2D.png
+    source_alt: Transform2D
+    text_coverage: not-independently-verified
+  - id: ja-6618371f61-002
+    title: Transform2D Transformations2
+    caption: Transform2D Transformations2
+    show: "Transform2D Transformations2. Use the adjacent instructions as the content brief: Rotation Speed： 指定された角度でPatchを連続的に回転させる速度を設定します。 Reset to Default： Transform 2Dノードで適用されたすべての変形をリセットします。 Transform 2Dノードを使用する場合は、Patchの共通操作についてPatchの編集の章も参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: Transform 2D
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Transform2D-Transformations2.gif
+    source_alt: Transform2D Transformations2
+    text_coverage: not-independently-verified

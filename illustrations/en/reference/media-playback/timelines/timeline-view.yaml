@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/en/reference/media-playback/timelines/timeline-view.md
+document_id: guide.media-playback.timelines.timeline-view
+language: en
+document_body_sha256: ec66ffa718936b288b38f6e1bb338de9f5db76b17f7cc96bd596cbfe41c650c0
+figures:
+  - id: en-958c84ebcc-001
+    title: Timelineview
+    caption: Timelineview
+    show: "Timelineview. Use the adjacent instructions as the content brief: The timeline panel offers a range of tools and options for organizing your media and managing playback. These include the following:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 1
+      section: Timeline View and Navigation
+    source_url: https://help.screenberry.com/images/media-playback/static/timelineview.png
+    source_alt: Timelineview
+    text_coverage: not-independently-verified
+  - id: en-958c84ebcc-002
+    title: Positioning The Playhead On A Timeline
+    caption: Positioning The Playhead On A Timeline
+    show: "Positioning The Playhead On A Timeline. Use the adjacent instructions as the content brief: To position the playhead on a timeline, do any of the following: Click on the time ruler where you wish to position the playhead.Drag the playhead in the time ruler. If you want the playhead to snap to media item edges and markers, enable the Playhead Snapping toggle in the side toolbar.Use the arrow keys. Press Right Arrow to move to the next frame and Left Arrow to move to the previous frame. Press Down Arrow to mo"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Positioning the playhead on a timeline
+    source_url: https://help.screenberry.com/images/media-playback/animation/Positioning-the-playhead-on-a-timeline.gif
+    source_alt: Positioning The Playhead On A Timeline
+    text_coverage: not-independently-verified
+  - id: en-958c84ebcc-003
+    title: Zooming In Or Out Of A Timeline 1
+    caption: Zooming In Or Out Of A Timeline 1
+    show: "Zooming In Or Out Of A Timeline 1. Use the adjacent instructions as the content brief: To zoom in or out of a timeline, do one of the following: With the mouse cursor over a timeline, use the mouse’s scroll wheel to zoom in or out based on the mouse cursor’s position.Press the plus + key to zoom in and the minus – key to zoom out based on the playhead position.Click the or buttons in the top toolbar to zoom in or out based on the playhead position.Click the button in the top toolbar or press the \\ (bac"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Zooming in or out of a timeline
+    source_url: https://help.screenberry.com/images/media-playback/animation/Zooming-in-or-out-of-a-timeline-1.gif
+    source_alt: Zooming In Or Out Of A Timeline 1
+    text_coverage: not-independently-verified
+  - id: en-958c84ebcc-004
+    title: Scrolling A Timeline Horizontally 2
+    caption: Scrolling A Timeline Horizontally 2
+    show: "Scrolling A Timeline Horizontally 2. Use the adjacent instructions as the content brief: When parts of a timeline are out of view, you can scroll it horizontally by dragging the scroll bar at the bottom of the timeline window."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: Scrolling a timeline horizontally
+    source_url: https://help.screenberry.com/images/media-playback/animation/Scrolling-a-timeline-horizontally-2.gif
+    source_alt: Scrolling A Timeline Horizontally 2
+    text_coverage: not-independently-verified

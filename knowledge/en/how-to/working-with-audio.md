@@ -1,0 +1,108 @@
+---
+id: guide.working-with-audio
+variant_id: guide.working-with-audio.imported-current-guide
+title: Screenberry Advanced Audio Engine - Mixing, Processing, and ASIO Support
+language: en
+kind: how-to
+status: in_review
+owner: unassigned
+applies_to:
+  from: null
+  until_exclusive: null
+verified_in: []
+last_verified: null
+evidence:
+  - type: existing-guide
+    path: archive/site/content/en/working-with-audio.mdx
+    sha256: 4d847ad053ad93d2c3ddd0616cb01b55a7e721b449a88b3d884ad607e799adb0
+    scope: Imported text; not independent product verification
+aliases: []
+related: []
+publication:
+  profile: legacy-guide-3.4
+  product_version: "3.4"
+  basis: Snapshot of existing current guide; applicability not independently verified
+  role: guide
+source:
+  path: content/en/working-with-audio.mdx
+  canonical_url: https://help.screenberry.com/en/working-with-audio
+  git_commit: 8acf5a3a7526c3013fc44f1dba0b25f88343e745
+  sha256: 4d847ad053ad93d2c3ddd0616cb01b55a7e721b449a88b3d884ad607e799adb0
+  imported_at: 2026-09-30T14:15:19.585Z
+  frontmatter:
+    title: Screenberry Advanced Audio Engine - Mixing, Processing, and ASIO Support
+    description: Learn about Screenberry's audio engine for mixing, processing, and ASIO support. Understand integrating VST effects for enhanced audio experiences.
+    openGraph:
+      title: Advanced Audio Processing in Screenberry
+      description: Deep dive into Screenberry's advanced audio engine, covering mixing, processing, ASIO support, and VST integration.
+presentation:
+  mode: text-only
+  illustrations: null
+  visual_information_review: not-applicable
+---
+
+# Working with Audio
+
+## Overview
+
+Screenberry incorporates an advanced 32-bit audio engine designed for smooth, low-latency audio output. The engine supports up to 128 channels, with sample rates of up to 192 kHz. It is compatible with a wide range of devices and allows for customized audio mixes and the application of various audio effects.
+
+## Audio Data Transfer within the Node Graph
+
+The node graph, created by adding and linking nodes, serves as a visual representation of  Screenberry’s data flow and processing. Data, including audio, travels from left to right through the links connecting the nodes.
+
+All audio data within the system is transferred uniformly in a _32-bit_ format at a global sample rate. This global **Audio Sample Rate** can be adjusted in the general **Preferences**. However, please note that any alterations will require a server restart to take effect.
+
+When the sample rate of the audio transferred within the node graph differs from that of the media or the input/output signal, Screenberry automatically resamples the audio. To avoid this resampling, it’s recommended to set the global **Audio Sample Rate** to match your device and content formats.
+
+In Screenberry, audio data is transferred between nodes via the links that connect one node’s output audio parameter to another node’s input audio parameter. This transfer occurs in segments known as ‘**buffer blocks**‘. Each buffer block contains a fixed number of samples—defined as the ‘**buffer size**‘—and can support varying numbers of channels.
+
+It’s crucial to understand that audio channels are not automatically combined or submixed. Instead, a one-to-one direct mapping system is maintained. For instance, if a 4-channel media player is connected to a 2-channel stereo output, only the first two channels will be output. A specific node with the appropriate options will also have to be used to output the remaining 3rd and 4th channels. Similarly, if a mono audio source is connected to a stereo output, only the left channel will be output. Screenberry will not automatically upmix the mono signal to stereo.
+
+The **Audio Buffer Size**, which can be modified in the general **Preferences**, affects both latency and CPU load. Smaller buffer sizes result in lower latency but higher CPU load and the potential for glitches. With fresh settings, the default buffer size is 1200 samples, equivalent to 25 ms at 48 kHz. If low latency is not crucial, the buffer size can be increased to improve overall audio performance and stability. However, it’s not recommended to exceed 4096 samples. Be aware that audio input/output utilizing the _clock engine_ feature may dynamically override the buffer size. Note that small buffer sizes can cause audio disruptions when the CPU is heavily loaded (>90%), either by other tasks being performed simultaneously in Screenberry or by other software.
+
+In Screenberry, all parameters of audio nodes that control gain, volume, or level operate on a logarithmic scale. On this scale, the halfway point equals -15.5 dB, and values approaching zero equate to -50 dB.
+
+## Basic Audio Mixing Nodes
+
+Currently, Screenberry offers two nodes for audio remixing: the **Audio Mixer** and the **Audio Channel Mixer**.
+
+The **Audio Mixer** node has multiple input ports and a single output port. It allows for the blending of all incoming audio by adjusting the selected levels. It’s important to note that this node does not alter channels. For example, if you have two audio inputs: a 1-channel mono and a 2-channel stereo, the output will be 2-channel audio. The first channel will be a mix of both inputs, and the second channel will come from the second input, with the level adjusted accordingly. However, if you disconnect the second 2-channel input, the output will instantly become 1-channel audio.
+
+The **Audio Channel Mixer** node has one input and one output port. It consistently outputs a fixed number of audio channels that are submixed using a matrix. With this node, you can easily select which channels to remap and pass to the other node as the output.
+
+## Configuring Audio Nodes and Drivers
+
+Screenberry supports a wide variety of audio devices and drivers. This includes ASIO and WASAPI for Windows, Pulse and ALSA for Linux, and Core Audio for macOS.
+
+For Windows users seeking multichannel synchronous or low-latency audio input-output processing, ASIO is the recommended driver. However, please note that ASIO hardware can be vulnerable to physical disruptions, such as unexpected power losses or damaged digital cable interfaces. These disruptions can potentially cause server crashes or system failures.
+
+WASAPI, the default Windows audio engine, generally operates in mono or stereo. However, it also supports multichannel audio for certain sound cards. WASAPI features an Exclusive Mode for low-latency audio input/output, which assigns the selected audio device solely to Screenberry, preventing other software from accessing it. In terms of latency, the performance of WASAPI in Exclusive Mode is comparable to that of ASIO.
+
+Audio nodes in Screenberry provide an option to adjust the buffer size of the device. For direct access drivers like WASAPI Exclusive or ASIO, this buffer is stored in the hardware during the Digital-to-Analog Conversion (DAC) process. This buffer functions in a similar way to the global buffer size, and when using the Clock Engine mode, it actually becomes the global buffer size.
+
+However, these direct access drivers have certain limitations. The buffer size must either be a multiple of a specific value or remain fixed. Screenberry will automatically select the nearest feasible buffer size and display it in the **Actual Buffer Size** field.
+
+Certain hardware, including ASIO, offers external tools for configuration. These may include utilities for changing the sample rate or buffer size. However, it’s strongly advised not to modify parameters via an external utility while any Screenberry audio nodes are interacting with the device. Doing so could potentially cause system crashes or failures.
+
+## Clock Engine Functionality
+
+Screenberry processes audio data using its own internal clock while each hardware device maintains its own individual clock. Inconsistencies, or ‘jitter’, can sometimes occur between these two clock systems. To mitigate these effects, all audio input/output nodes in Screenberry incorporate a ‘smooth buffer’. This buffer,  which is automatically calculated based on the device buffer and global buffer size, smooths out the discrepancies between the two clocks. However, the use of a smooth buffer can introduce additional latency, leading to potential audio delays, which might be undesirable in certain scenarios.
+
+To address this, Screenberry offers a **Clock Audio Engine from Device** feature. This feature can only be enabled on a single node at a time, specifically on either an **Audio In** or **Audio Out** node. Once activated, the clock of the selected device is adapted for the audio data processing across the entire node graph in Screenberry. As a result, the global buffer size automatically adjusts to match the device buffer size, thereby minimizing latency. However, it’s important to note that the global sample rate remains unchanged despite the activation of the clock engine mode.
+
+## Working with ASIO Devices
+
+Due to the inherent technological constraints of the Audio Stream Input/Output (ASIO) drivers, only one ASIO device can be used with the Screenberry server at a time. This limitation means you cannot output audio to multiple ASIO devices connected to the server, nor can you input from one device and output to another simultaneously. If you require more channels with ASIO, professional audio cards often offer the capability to combine multiple cards into a single system. Refer to the manual of your specific audio card for more information.
+
+One significant feature of ASIO is its ability to function as a unified device for both input and output, allowing for real-time audio processing. This feature allows Screenberry to function as a node-based digital audio mixer. Nonetheless, this limits you to one ASIO audio output node and one ASIO input node in the graph, both of which must select the same device. However, you can simultaneously output audio to another device using the Windows Audio Session API (WASAPI) in conjunction with ASIO.
+
+When you first configure one of the audio nodes (either **Audio In** or **Audio Out**) to use the ASIO as the Audio Driver option, that node becomes the Primary ASIO node. Any subsequent audio nodes configured to use the ASIO driver become Secondary ASIO nodes. The status of each node is displayed in the ASIO Owner parameter.
+
+Device selection, buffer size, and clock engine mode configurations are done on the _primary node_. _Secondary nodes_ should select the same device as the _primary node_. Any parameters set on the _primary node_ apply to the device and, therefore, to the _secondary nodes_ as well. As a result, enabling the clock engine on the ASIO output node (when it’s designated as primary) will eliminate the smooth buffer on both the output and the input node (which would be secondary in this case), as they represent the same device with a unified clock.
+
+## Virtual Studio Technology (VST) Effects
+
+Screenberry has introduced an experimental feature incorporating Virtual Studio Technology (VST) within its system. VST, a software interface standard used to integrate software audio synthesizers and effect plugins with audio editors and recording systems, allows users to create a wide range of audio effects.
+
+As an experimental feature, the **VST Effects** node in Screenberry provides an additional layer of versatility for audio processing and manipulation within the node graph. This node allows for the integration and usage of VST plugins, opening up opportunities for more complex and unique audio effects, sound design, and sonic textures.

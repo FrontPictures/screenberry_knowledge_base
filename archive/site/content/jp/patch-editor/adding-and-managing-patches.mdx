@@ -1,0 +1,30 @@
+---
+title: Screenberry Patchの追加と削除
+description: ScreenberryでPatchを追加や削除する方法について説明します。
+openGraph:
+  title: Screenberry Patchの追加と削除
+  description: ScreenberryでPatchを追加や削除する方法について説明します。
+---
+
+# Patchの追加と管理
+
+## Patchの追加
+
+Patchノードは**ノードグラフ**に追加されます（詳細は[ノードの追加](../working-with-nodes/adding-and-managing-nodes#ノードの追加)を参照）。
+
+通常のセットアップでは、Patchノードの入力はソース映像となるノードに接続され、その出力は**Display**ノードまたは**Canvas**ノードに接続されます。
+
+![Node Tree Example](/images/patch-editor/static/Node-Tree-Example.png)
+
+<small>**Bezier Warp**ノードは**Media Player**ノードから映像入力を受け取り、**Canvas**ノードに映像出力を送ります。</small>
+
+## Patchの削除
+
+Patchを削除するには、**Canvas**ウィジェットを開き、次のいずれかの操作を行います：
+
+- **Input**パネルまたは**Output**パネルのいずれかの制御点を右クリックし、ドロップダウンメニューから**Delete** **Patches**を選択します。
+- ナビゲーションツリーのPatchをクリックし、ドロップダウンメニューから**Delete Patch**を選択します。
+
+または、**ノードグラフ** で関連するPatchノードを削除することもできます。
+
+<img alt="Deleting Patches" src="/images/patch-editor/animation/Deleting-Patches.gif" width={800} height={284} loading="lazy" />

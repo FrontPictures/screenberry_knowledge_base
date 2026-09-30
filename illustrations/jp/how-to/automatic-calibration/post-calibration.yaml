@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/how-to/automatic-calibration/post-calibration.md
+document_id: guide.automatic-calibration.post-calibration
+language: ja
+document_body_sha256: 3584d526d1ca7dae35e45e41b14623128806962424b155a513749feeb1250c29
+figures:
+  - id: ja-4678d4eaf2-001
+    title: Reviewing Calibration Images
+    caption: Reviewing Calibration Images
+    show: "Reviewing Calibration Images. Use the adjacent instructions as the content brief: もしキャリブレーションの結果が満足できない場合や、キャリブレーション中にエラーメッセージが表示された場合、問題の特定のためにキャリブレーション画像を確認することができます。 キャリブレーションデータを確認するには、Calibrator WizardウィジェットのOpen Calibration Images Viewerボタンを押し、必要なキャリブレーション段階の写真や画像をSelect Imageドロップダウンリストから選びます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: キャリブレーション画像の確認
+    source_url: https://help.screenberry.com/images/automatic-calibration/animation/Reviewing-Calibration-Images.gif
+    source_alt: Reviewing Calibration Images
+    text_coverage: not-independently-verified

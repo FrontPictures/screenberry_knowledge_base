@@ -1,0 +1,162 @@
+schema_version: 1
+document: knowledge/jp/how-to/working-with-nodes/adding-and-managing-nodes.md
+document_id: guide.working-with-nodes.adding-and-managing-nodes
+language: ja
+document_body_sha256: 844694210ed4a1f3e496dd56743dead8c25bbe3d916237994fd547a61e63cd93
+figures:
+  - id: ja-c4acaf7f87-001
+    title: Adding Nodes
+    caption: Adding Nodes
+    show: "Adding Nodes. Use the adjacent instructions as the content brief: メニューの上部にあるSearchボックスにノード名を入力し、ドロップダウンリストから選択するか、必要なノードがリストの最上部にある場合はEnterキーを押します。CategotyまたはTagでノードを選択します。Recently Added Nodesリストからノードを選択します。 ノードはノードグラフ内の、Add Nodeメニューが呼び出された場所に追加されます。 ノードの分類"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: ノードの追加
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Adding-Nodes.gif
+    source_alt: Adding Nodes
+    text_coverage: not-independently-verified
+  - id: ja-c4acaf7f87-002
+    title: Node Classification
+    caption: Node Classification
+    show: "Node Classification. Use the adjacent instructions as the content brief: ノードの分類 便宜上、利用可能なすべてのノードはカテゴリごとにグループ化され、1つ以上のタグが割り当てられています。ノードの選択は、カテゴリまたはタグのいずれかを使って行うことができます。 メモ： 新しいDisplayまたはPatchがDisplay EditorまたはPatch Editorで作成されると、DisplayおよびPatchタイプのノードも自動的にノードグラフに作成され追加されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: ノードの追加
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Node-Classification.gif
+    source_alt: Node Classification
+    text_coverage: not-independently-verified
+  - id: ja-c4acaf7f87-003
+    title: Selecting Node1
+    caption: Selecting Node1
+    show: "Selecting Node1. Use the adjacent instructions as the content brief: ノードを選択するには、ノードグラフ内でノードを左クリックします。 複数のノードを選択するには、Shift キーを押しながら ノードグラフ上のノードをクリックするか、左クリックして選択枠をドラッグします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: ノードの選択
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Selecting-Node1.gif
+    source_alt: Selecting Node1
+    text_coverage: not-independently-verified
+  - id: ja-c4acaf7f87-004
+    title: Selecting Nodes Right To Left
+    caption: Selecting Nodes Right To Left
+    show: "Selecting Nodes Right To Left. Use the adjacent instructions as the content brief: 複数のノードを選択するには、Shift キーを押しながら ノードグラフ上のノードをクリックするか、左クリックして選択枠をドラッグします。 右から左にドラッグすると、四角形の選択枠に触れるすべてのノードが選択されます。 もし左から右へドラッグすると、四角形の選択範囲内のノードのみが選択されます。この機能は、複雑なノードツリーの一部であるノードを選択する際に便利です。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: ノードの選択
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Selecting-Nodes-right-to-left.gif
+    source_alt: Selecting Nodes Right To Left
+    text_coverage: not-independently-verified
+  - id: ja-c4acaf7f87-005
+    title: Selecting Nodes Left To Right
+    caption: Selecting Nodes Left To Right
+    show: "Selecting Nodes Left To Right. Use the adjacent instructions as the content brief: もし左から右へドラッグすると、四角形の選択範囲内のノードのみが選択されます。この機能は、複雑なノードツリーの一部であるノードを選択する際に便利です。 ノードをダブルクリックすると、そのノードに接続されているすべてのノードが選択されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: ノードの選択
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Selecting-Nodes-left-to-right.gif
+    source_alt: Selecting Nodes Left To Right
+    text_coverage: not-independently-verified
+  - id: ja-c4acaf7f87-006
+    title: Selecting Nodes Double Click
+    caption: Selecting Nodes Double Click
+    show: "Selecting Nodes Double Click. Use the adjacent instructions as the content brief: ノードをダブルクリックすると、そのノードに接続されているすべてのノードが選択されます。 また、同じタイプの複数のノードを選択する方法については、複数選択されたノードの設定を参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: ノードの選択
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Selecting-Nodes-Double-click.gif
+    source_alt: Selecting Nodes Double Click
+    text_coverage: not-independently-verified
+  - id: ja-c4acaf7f87-007
+    title: Moving Nodes
+    caption: Moving Nodes
+    show: "Moving Nodes. Use the adjacent instructions as the content brief: ノードを移動するには、ノードを左クリックしてドラッグします。複数のノードが選択されている場合、選択した任意のノードをクリックしてドラッグすると、全体が移動します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: ノードの移動
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Moving-Nodes.gif
+    source_alt: Moving Nodes
+    text_coverage: not-independently-verified
+  - id: ja-c4acaf7f87-008
+    title: Copy Paste Nodes
+    caption: Copy Paste Nodes
+    show: "Copy Paste Nodes. Use the adjacent instructions as the content brief: ノードグラフでノードをコピーまたは貼り付けするには、次のいずれかの方法を使用します。 ノード（または選択した複数のノード）を右クリックし、ドロップダウンメニューからCopyまたはCutを選択し、その後Pasteを選択します。キーボードショートカットを使用します： コピーするには Ctrl + C、切り取るには Ctrl + X、貼り付けるには Ctrl + V を押します。 メモ： Screenberry プロジェクト内のノードは、他のプロジェクトにコピーして貼り付けることができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 20
+      section: ノードのコピー、貼り付け、切り取り操作
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Copy-Paste-Nodes.gif
+    source_alt: Copy Paste Nodes
+    text_coverage: not-independently-verified
+  - id: ja-c4acaf7f87-009
+    title: Deleting Nodes
+    caption: Deleting Nodes
+    show: "Deleting Nodes. Use the adjacent instructions as the content brief: ノードまたは選択した複数のノードを削除するには、ノード（またはグループ）を右クリックし、ドロップダウンメニューからDeleteを選択するか、Del ボタンを押します。ノードを削除すると、それに接続されたリンクも削除されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 23
+      section: ノードの削除
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Deleting-Nodes.gif
+    source_alt: Deleting Nodes
+    text_coverage: not-independently-verified
+  - id: ja-c4acaf7f87-010
+    title: Renaming Nodes
+    caption: Renaming Nodes
+    show: "Renaming Nodes. Use the adjacent instructions as the content brief: ノードの名前を変更するには、そのノードを右クリックして、ドロップダウンメニューからRenameを選択し、表示されたダイアログボックスに新しい名前を入力します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: ノードの名前変更
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Renaming-Nodes.gif
+    source_alt: Renaming Nodes
+    text_coverage: not-independently-verified
+  - id: ja-c4acaf7f87-011
+    title: Changing Node Size
+    caption: Changing Node Size
+    show: "Changing Node Size. Use the adjacent instructions as the content brief: ノードのサイズを変更するには、そのノードを選択し、四隅のいずれかをドラッグします（マウスオーバー時に表示されます）。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: ノードのサイズ変更
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Changing-Node-Size.gif
+    source_alt: Changing Node Size
+    text_coverage: not-independently-verified
+  - id: ja-c4acaf7f87-012
+    title: Groups
+    caption: Groups
+    show: "Groups. Use the adjacent instructions as the content brief: ! 異なるGroupノードの内容とメインのノードツリーを切り替えるには、Node Graphウィジェットのナビゲーションバーにあるグループ名のボタンをクリックします（ここでRootはメインのノードツリーを示しています）。 Groupノードにまとめられたノードを解体するには、Groupノードを右クリックし、ドロップダウンメニューからUngroupを選択します（または U キーを押します）。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 32
+      section: ノードのグループ化
+    source_url: https://help.screenberry.com/images/working-with-nodes/static/groups.png
+    source_alt: Groups
+    text_coverage: not-independently-verified
+  - id: ja-c4acaf7f87-013
+    title: Ungrouping Nodes
+    caption: Ungrouping Nodes
+    show: "Ungrouping Nodes. Use the adjacent instructions as the content brief: Groupノードにまとめられたノードを解体するには、Groupノードを右クリックし、ドロップダウンメニューからUngroupを選択します（または U キーを押します）。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: ノードのグループ化
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Ungrouping-Nodes.gif
+    source_alt: Ungrouping Nodes
+    text_coverage: not-independently-verified

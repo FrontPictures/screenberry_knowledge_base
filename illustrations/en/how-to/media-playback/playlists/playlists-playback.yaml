@@ -1,0 +1,126 @@
+schema_version: 1
+document: knowledge/en/how-to/media-playback/playlists/playlists-playback.md
+document_id: guide.media-playback.playlists.playlists-playback
+language: en
+document_body_sha256: 16bfb9e1ea642a416d73cbb52e0fa40e08b0d9c4bd942764fadd4106c654de9d
+figures:
+  - id: en-60caa06ac7-001
+    title: Mediaplayercontrols280 1
+    caption: Mediaplayercontrols280 1
+    show: "Mediaplayercontrols280 1. Use the adjacent instructions as the content brief: Note: Playback controls displayed along the bottom of the Media Player widget are associated with the currently active media item. At the same time, while the active playlist is playing, other playlists can be opened and edited. If you need to switch to the active playlist, right-click on the playlists tree or playlist area and select Reveal Active Item, or press the A key. The Seek Bar displays the playback progress"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Playlist Playback Controls
+    source_url: https://help.screenberry.com/images/media-playback/static/mediaplayercontrols280-1.png
+    source_alt: Mediaplayercontrols280 1
+    text_coverage: not-independently-verified
+  - id: en-60caa06ac7-002
+    title: Two Modes Playlist Playback Controls
+    caption: Two Modes Playlist Playback Controls
+    show: "Two Modes Playlist Playback Controls. Use the adjacent instructions as the content brief: The Seek Bar displays the playback progress and provides additional playback controls and settings for media items. Play Selected Item starts playback of a selected media item. Play starts playback from the current playhead position. Pause freezes playback at the current playhead position. Stop ends playback. Previous Item jumps to the previous media item in the playlist. Next Item jumps to the next media item in the"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Playlist Playback Controls
+    source_url: https://help.screenberry.com/images/media-playback/animation/Two-modes-Playlist-playback-controls.gif
+    source_alt: Two Modes Playlist Playback Controls
+    text_coverage: not-independently-verified
+  - id: en-60caa06ac7-003
+    title: Mediaplayerbar280
+    caption: Mediaplayerbar280
+    show: "Mediaplayerbar280. Use the adjacent instructions as the content brief: In Screenberry, the seek bar displays playback information for the currently active media item. Playhead shows the playback progress. A user is able to change the current position of the playhead by dragging it. The playback then will continue from the frame at which the playhead is located.Duration display shows the current time (or frame number) information in relation to the duration of a media item.In Point slide"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: Seek Bar
+    source_url: https://help.screenberry.com/images/media-playback/static/mediaplayerbar280.png
+    source_alt: Mediaplayerbar280
+    text_coverage: not-independently-verified
+  - id: en-60caa06ac7-004
+    title: Seek Bar Context Menu
+    caption: Seek Bar Context Menu
+    show: "Seek Bar Context Menu. Use the adjacent instructions as the content brief: Playhead shows the playback progress. A user is able to change the current position of the playhead by dragging it. The playback then will continue from the frame at which the playhead is located.Duration display shows the current time (or frame number) information in relation to the duration of a media item.In Point slider position defines the first frame of the playback.Out Point slider position defines the last fr"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: Seek Bar
+    source_url: https://help.screenberry.com/images/media-playback/animation/Seek-Bar-Context-Menu.gif
+    source_alt: Seek Bar Context Menu
+    text_coverage: not-independently-verified
+  - id: en-60caa06ac7-005
+    title: Duration Display
+    caption: Duration Display
+    show: "Duration Display. Use the adjacent instructions as the content brief: Right-clicking on the Duration Display allows switching between the three different display modes: Current playback time/total media item duration (hh:mm:ss) .Current frame count/total media item frame count .Remaining playback time of the media item (hh:mm:ss) ."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: Duration Display
+    source_url: https://help.screenberry.com/images/media-playback/animation/Duration-Display.gif
+    source_alt: Duration Display
+    text_coverage: not-independently-verified
+  - id: en-60caa06ac7-006
+    title: Media Items Playback
+    caption: Media Items Playback
+    show: "Media Items Playback. Use the adjacent instructions as the content brief: Press the Play button to start playback from the current playhead position.Select the media item in the playlist and press the Play Selected Item button .Hold the Alt key (the mouse pointer will turn into an orange Play symbol ) and click on the media item in the playlist. The last two options are most commonly used when there is a need to switch playback on the fly to a specific media item. Media items in the playli"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 20
+      section: Media Items Playback
+    source_url: https://help.screenberry.com/images/media-playback/animation/Media-Items-Playback.gif
+    source_alt: Media Items Playback
+    text_coverage: not-independently-verified
+  - id: en-60caa06ac7-007
+    title: Revealing Currently Playing
+    caption: Revealing Currently Playing
+    show: "Revealing Currently Playing. Use the adjacent instructions as the content brief: The currently playing item can be quickly located and brought into view by right-clicking on the playlists tree or playlist area and selecting Reveal Active Item, or by pressing the A key."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 26
+      section: Revealing Currently Playing Media Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Revealing-Currently-Playing.gif
+    source_alt: Revealing Currently Playing
+    text_coverage: not-independently-verified
+  - id: en-60caa06ac7-008
+    title: Loop Group
+    caption: Loop Group
+    show: "Loop Group. Use the adjacent instructions as the content brief: To play a group of media items in the loop, right-click a selection of media items in the playlist and select Loop Through Selected Items from the dropdown menu, or press Shift + L. When a loop group is created, special Loop Start and Loop End items are added to the playlist before and after the media items in the group to indicate the beginning and end of the loop. It is possible to move these items in the playlist "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 29
+      section: Media Items Loop Group
+    source_url: https://help.screenberry.com/images/media-playback/animation/Loop-Group.gif
+    source_alt: Loop Group
+    text_coverage: not-independently-verified
+  - id: en-60caa06ac7-009
+    title: Presentation Clicker
+    caption: Presentation Clicker
+    show: "Presentation Clicker. Use the adjacent instructions as the content brief: Logitech® presentation clicker (remote control)"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 30
+      section: Playback Control with Presentation Clicker
+    source_url: https://help.screenberry.com/images/media-playback/static/presentation-clicker.png
+    source_alt: Presentation Clicker
+    text_coverage: not-independently-verified
+  - id: en-60caa06ac7-010
+    title: Presentation Clicker On
+    caption: Presentation Clicker On
+    show: "Presentation Clicker On. Use the adjacent instructions as the content brief: Using a presentation clicker is a convenient method of giving a presentation with Screenberry, which allows the presenter to control the playback of playlists remotely. Pressing the Next (Right Arrow) or Previous (Left Arrow) buttons of a presentation clicker advances the presentation to the next or previous media item respectively and starts its playback. To turn on the functionality of Screenberry playback control "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: Playback Control with Presentation Clicker
+    source_url: https://help.screenberry.com/images/media-playback/animation/Presentation-Clicker-On.gif
+    source_alt: Presentation Clicker On
+    text_coverage: not-independently-verified

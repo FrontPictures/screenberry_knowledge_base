@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/rectangle.md
+document_id: guide.warping-alignment.rectangle
+language: en
+document_body_sha256: e507072e41248071210c4694249779c2cee38921f0b294dec1110795c856693c
+figures:
+  - id: en-264f184bec-001
+    title: Rectangle
+    caption: Rectangle
+    show: "Rectangle. Use the adjacent instructions as the content brief: The Rectangle node is a patch for applying planar rectangle-based modifications and is commonly used to scale, align and position the image on rectangular screens (mainly LED) or to create a picture-in-picture effect by combining multiple media sources on a single screen. In a typical setup, the Rectangle node receives a source image as the input and outputs the modified image to the Display or Canvas node. Example o"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: Rectangle
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Rectangle.png
+    source_alt: Rectangle
+    text_coverage: not-independently-verified
+  - id: en-264f184bec-002
+    title: Rectangle
+    caption: Rectangle
+    show: "Rectangle. Use the adjacent instructions as the content brief: To modify image geometry and mapping using the Rectangle patch in the Patch Editor, do the following: In the Input panel, modify the scale, aspect ratio, and area of the source image to be mapped by dragging the handles of the mesh control points.In the Output panel, set the image geometry by adjusting the scale, aspect ratio, and offset of the image by dragging the handles of the mesh control points. When editing co"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Rectangle
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Rectangle.gif
+    source_alt: Rectangle
+    text_coverage: not-independently-verified
+  - id: en-264f184bec-003
+    title: Rect Whiteguide
+    caption: Rect Whiteguide
+    show: "Rect Whiteguide. Use the adjacent instructions as the content brief: When editing control points with the Rectangle patch, an additional diagonal smart guide is displayed. In the Input panel, it corresponds to the aspect ratio of the resulting image defined in the Output panel.In the Output panel, it corresponds to the aspect ratio of the image currently defined in the Input panel. In addition, working with the Rectangle patch follows the general principles for working with patches ou"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Rectangle
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Rect-whiteguide.gif
+    source_alt: Rect Whiteguide
+    text_coverage: not-independently-verified

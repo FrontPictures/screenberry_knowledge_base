@@ -1,0 +1,114 @@
+schema_version: 1
+document: knowledge/en/releases/whats-new/release-notes-2-9-0.md
+document_id: guide.whats-new.release-notes-2-9-0
+language: en
+document_body_sha256: b247f64ed8c37960a51b7d43f84b58ca14c2fce564ad8fcb964e8ecd100b3649
+figures:
+  - id: en-4420cb4b67-001
+    title: Keyframes Animation
+    caption: Keyframes Animation
+    show: "Keyframes Animation. Use the adjacent instructions as the content brief: Timeline controls have been redesigned. Users can now add and modify keyframes to animate the position, scale, rotation, and opacity of media items. The new Home Screen has replaced the server connection pop-up dialog window."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Features
+    source_url: https://help.screenberry.com/images/whats-new/animation/Keyframes.gif
+    source_alt: Keyframes Animation
+    text_coverage: not-independently-verified
+  - id: en-4420cb4b67-002
+    title: Home Screen
+    caption: Home Screen
+    show: "Home Screen. Use the adjacent instructions as the content brief: The new Home Screen has replaced the server connection pop-up dialog window. The Media Player widget is now capable of playing media files from any folder on the Screenberry server, as opposed to the previous limitation of playing media files from the Media folder of the current project.The new Media Library widget can access all folders on the Screenberry server.The consolidation function to gather all media resourc"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Features
+    source_url: https://help.screenberry.com/images/whats-new/static/HomeScreen.png
+    source_alt: Home Screen
+    text_coverage: not-independently-verified
+  - id: en-4420cb4b67-003
+    title: Media Item Transformations
+    caption: Media Item Transformations
+    show: "Media Item Transformations. Use the adjacent instructions as the content brief: The Media Player widget is now capable of playing media files from any folder on the Screenberry server, as opposed to the previous limitation of playing media files from the Media folder of the current project.The new Media Library widget can access all folders on the Screenberry server.The consolidation function to gather all media resources related to the current project into a single folder has been added.Media i"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Features
+    source_url: https://help.screenberry.com/images/whats-new/animation/Media-Item-Transformations.gif
+    source_alt: Media Item Transformations
+    text_coverage: not-independently-verified
+  - id: en-4420cb4b67-004
+    title: Display orientation options
+    caption: Display orientation options
+    show: "Display orientation options. Use the adjacent instructions as the content brief: A new display orientation option has been added to make manual calibration easier when projectors are placed in portrait mode or upside down. Nodes in the Node Graph can now be copied and pasted as text, which makes it easier to save and share node snippets.The Screenberry Panel now offers two new viewing options – Full-screen Mode (shortcut F11), which activates full-screen for the current workspace, and Exclusive W"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Features
+    source_url: https://help.screenberry.com/images/whats-new/animation/Display-Rotation.gif
+    source_alt: Display orientation options
+    text_coverage: not-independently-verified
+  - id: en-4420cb4b67-005
+    title: Video preview option
+    caption: Video preview option
+    show: "Video preview option. Use the adjacent instructions as the content brief: Nodes in the Node Graph can now be copied and pasted as text, which makes it easier to save and share node snippets.The Screenberry Panel now offers two new viewing options – Full-screen Mode (shortcut F11), which activates full-screen for the current workspace, and Exclusive Widget Mode (hover over the widget with the shortcut key ` (accent grave)), which maximizes the specified widget.The option to select frames or"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Features
+    source_url: https://help.screenberry.com/images/whats-new/animation/Video-Preview.gif
+    source_alt: Video preview option
+    text_coverage: not-independently-verified
+  - id: en-4420cb4b67-006
+    title: Razor tool
+    caption: Razor tool
+    show: "Razor tool. Use the adjacent instructions as the content brief: Media Player: The new Settings panel has replaced the media item settings dialog box. Now, all changes in the parameter settings are instantly applied to the media items.The razor tool that allows users to split media items on the timeline with a single click has been implemented. The function to duplicate selected media items has been added (shortcut Ctrl + D).The ability to simultaneously change fade-in settings fo"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: Improvements
+    source_url: https://help.screenberry.com/images/whats-new/animation/Razor.gif
+    source_alt: Razor tool
+    text_coverage: not-independently-verified
+  - id: en-4420cb4b67-007
+    title: Perspective frustums
+    caption: Perspective frustums
+    show: "Perspective frustums. Use the adjacent instructions as the content brief: Scene: Perspective frustums with adjustable lengths are now shown for the cameras and projectors. Specific projection gizmos are now used for different camera types (Perspective, Orthogonal, Fisheye, Spherical)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 20
+      section: Improvements
+    source_url: https://help.screenberry.com/images/whats-new/animation/Perspective-frustum.gif
+    source_alt: Perspective frustums
+    text_coverage: not-independently-verified
+  - id: en-4420cb4b67-008
+    title: Projection gizmos
+    caption: Projection gizmos
+    show: "Projection gizmos. Use the adjacent instructions as the content brief: Specific projection gizmos are now used for different camera types (Perspective, Orthogonal, Fisheye, Spherical). Different visualization models for the camera and projector have been added.Scene preview stream stability and resizing have been improved.The Fit to View function using the ‘F’ key shortcut has been added.Settings for the adjustment of wireframe color, width, and point size have been implemented."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: Improvements
+    source_url: https://help.screenberry.com/images/whats-new/static/Projection-gizmos.png
+    source_alt: Projection gizmos
+    text_coverage: not-independently-verified
+  - id: en-4420cb4b67-009
+    title: Uniform scaling capability
+    caption: Uniform scaling capability
+    show: "Uniform scaling capability. Use the adjacent instructions as the content brief: Other: The Anchor Point parameter has been added to the Transform2D node.The method for the naming of duplicate parameters in the Notch Playback node has been improved to be consistent for different blocks.Support for the Blackmagic capture cards has been updated to DeckLinkAPI 11.2 for both Windows and Linux. The full-duplex mode is not supported yet.The maximum allowed input value for the timecode has been changed "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: Improvements
+    source_url: https://help.screenberry.com/images/whats-new/animation/Uniform-scaling.gif
+    source_alt: Uniform scaling capability
+    text_coverage: not-independently-verified

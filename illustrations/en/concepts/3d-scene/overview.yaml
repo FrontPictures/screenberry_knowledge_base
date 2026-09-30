@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/concepts/3d-scene/overview.md
+document_id: guide.3d-scene.overview
+language: en
+document_body_sha256: a50e64c4e8e8bdc91a3f63c4cba34fa94a7fa50a7847ddef1fc9d76efe8fe660
+figures:
+  - id: en-254c1dae6c-001
+    title: 3D Scene Illustration
+    caption: 3D Scene Illustration
+    show: "3D Scene Illustration. Use the adjacent instructions as the content brief: 3D Mapping: Applying UV mapping and projection mapping to 3D objects and models.Content Remapping: Easily remapping images or textures onto basic 3D shapes, such as spheres or cylinders.Environment Simulations: Simulating real-world projection setups, for example, in projection studies. Within the 3D Scene widget, you can manipulate objects, manage cameras and projection mappers (projectors), and apply and blend text"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Overview
+    source_url: https://help.screenberry.com/images/3d-scene/static/3D-Scene-Illustration.png
+    source_alt: 3D Scene Illustration
+    text_coverage: not-independently-verified

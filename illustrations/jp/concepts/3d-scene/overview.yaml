@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/concepts/3d-scene/overview.md
+document_id: guide.3d-scene.overview
+language: ja
+document_body_sha256: 3094f951f318ccc972bdde9219a6742789e2ccaa295ad705c7fd7ed3de868cf2
+figures:
+  - id: ja-dac1a8727a-001
+    title: 3D Scene Illustration
+    caption: 3D Scene Illustration
+    show: "3D Scene Illustration. Use the adjacent instructions as the content brief: 3Dマッピング：3DオブジェクトやモデルへのUVマッピングやプロジェクションマッピングの適用。コンテンツの再マッピング：球体や円柱などの基本的な3D形状に画像やテクスチャを簡単に再マッピングすること。環境シミュレーション：投影設計時の実世界のプロジェクション設定のシミュレーション。 3D Sceneウィジェット内では、オブジェクトの操作、カメラやプロジェクションマッパー（プロジェクター）の管理、テクスチャの適用とブレンドを行うことができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: 概要
+    source_url: https://help.screenberry.com/images/3d-scene/static/3D-Scene-Illustration.png
+    source_alt: 3D Scene Illustration
+    text_coverage: not-independently-verified

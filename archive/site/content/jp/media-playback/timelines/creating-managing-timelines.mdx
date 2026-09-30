@@ -1,0 +1,70 @@
+---
+title: Screenberryのタイムラインの作成及び管理
+description: Screenberryでタイムラインの作成や編集を行う方法や、再生制御のための設定方法を説明します。
+openGraph:
+  title: Screenberryのタイムラインの作成及び管理
+  description: Screenberryでタイムラインの作成や編集を行う方法や、再生制御のための設定方法を説明します。
+---
+
+# タイムラインの作成と編集
+
+## 概要
+
+**Media Player**ウィジェットは、タイムライン上でメディアアイテムを組み立てて再生することができます。必要に応じて複数のタイムラインを作成し、フォルダに整理することもできます。
+
+## タイムラインの追加
+
+新しいタイムラインを作成するには、**Playlist and Timeline List**パネルの空白の領域を右クリックするか、下部のツールバーの**Add**<img alt="Add" src="/images/media-playback/static/add.png" width={23} height={23} loading="lazy" />ボタンをクリックして、ドロップダウンメニューから**Add Timeline**を選択します。
+
+<img alt="Adding Timelines" src="/images/media-playback/animation/Adding-Timelines.gif" width={800} height={458} loading="lazy" />
+
+既存のフォルダ内にタイムラインを作成するには、フォルダを右クリックするか、選択して下部のツールバーの**Add**<img alt="Add" src="/images/media-playback/static/add.png" width={23} height={23} loading="lazy" />ボタンをクリックし、ドロップダウンメニューから**Add Timeline**を選択します。
+
+フォルダの内容を表示または非表示にするには、フォルダ<img alt="Addfolder" src="/images/media-playback/static/addfolder.png" width={18} height={18} loading="lazy" />アイコンの隣にある矢印アイコンをクリックしてください。
+<img alt="Adding Timelines 2" src="/images/media-playback/animation/Adding-Timelines-2.gif" width={800} height={400} loading="lazy" />
+
+## タイムライン名の変更
+
+タイムラインを作成する際には、識別しやすいように具体的な名前を付けると便利です。タイムラインの名前を変更するには、名前を右クリックし、ドロップダウンメニューから**Rename**を選択し、表示されたダイアログボックスに新しい名前を入力してください。
+
+<img alt="Renaming Timelines" src="/images/media-playback/animation/Renaming-Timelines.gif" width={800} height={400} loading="lazy" />
+
+## タイムラインの削除
+
+タイムラインを削除するには、タイムラインの名前を右クリックしてドロップダウンメニューから**Delete**を選択するか、選択してから**Playlist and Timeline List**パネルの下部ツールバーの**Delete**<img alt="Trash" src="/images/media-playback/static/trash.png" width={16} height={16} loading="lazy" />ボタンをクリックします。
+
+<img alt="Deleting Timelines" src="/images/media-playback/animation/Deleting-Timelines.gif" width={800} height={400} loading="lazy" />
+
+## タイムラインの整理
+
+**Playlist and Timeline List**パネルで、**`上`** と **`下`** の矢印キーで選択するか、マウスで直接クリックすることでタイムラインを選択することができます。フォルダの内容を展開または折りたたむには、フォルダ名の横にある矢印アイコンをクリックしてください。
+
+プレイリスト、タイムライン、またはフォルダの順序を変更するには、名前を右クリックし、ドロップダウンメニューから**Move Up**（**`Ctrl`** + **`上`**）または**Move Down**（**`Ctrl`** + **`下`**）を選択するか、リスト内でドラッグアンドドロップします。タイムラインをフォルダに移動するには、そのフォルダの名前の上またはフォルダの中にドラッグします。
+
+<img alt="Arranging Timelines" src="/images/media-playback/animation/Arranging-Timelines.gif" width={800} height={400} loading="lazy" />
+
+## タイムラインの設定と状態表示
+
+<img alt="Indication Timelines" src="/images/media-playback/animation/Indication-Timelines.gif" width={464} height={76} loading="lazy" />
+
+タイムライン設定のトグルボタンは、**Playlist and Timeline List**パネルのタイムライン名の横にあります。これらのトグルボタンは、現在のタイムラインの状態も示しています。
+
+1. **ロック：** タイムラインの誤操作を防ぐために、ロックすることができます。ロックされたタイムラインは編集できず、ロック解除することで再び編集できるようになります。
+2. **タイムコードの送信：** このトグルボタンのオン/オフによって、タイムラインがタイムコードを送信するかどうかを切り替えます。
+3. **イベントマッピング：** タイムライン内のメディアアイテムは、MIDI/キーボードイベントなどの異なるイベントにマッピングされ、再生をトリガーとすることができます。このトグルボタンにより、これらのイベントを受信または無視するよう切り替えることができます。詳細については、[メディアアイテムのイベントへのマッピング](../playlists/media-item-properties#メディアアイテムをmidiキーボードイベントにマッピングする)の章を参照してください。
+4. **タイムコードの受信：** このトグルボタンのオン/オフによって、タイムコードを受信または無視するよう切り替えることができます。
+5. **メディアアイテムの数：** タイムラインに追加されたメディアアイテムの現在の数が表示されます。
+
+### 再生状態の表示
+
+<img alt="Indication Timelines Playback" src="/images/media-playback/animation/Indication-Timelines-Playback.gif" width={464} height={76} loading="lazy" />
+
+タイムライン名の隣に配置されているアイコンは、現在のタイムラインの再生、一時停止、停止の状態を示しています。タイムラインが折りたたまれたフォルダに含まれている場合、これらのインジケーターがフォルダアイコンと置き換わります。
+
+## フレームレート （FPS）
+
+タイムラインのフレームレートを変更するには、タイムライン名を右クリックし、ドロップダウンメニューから**Preferences**を選択するか、タイムラインのサイドツールバーの歯車アイコンをクリックします。次に、開いた**Timeline Preferences**ダイアログボックスで、**Timeline FPS**ドロップダウンリストから希望するフレームレート値を選択してください。
+
+<img alt="Frame Rate" src="/images/media-playback/animation/Frame-Rate.gif" width={800} height={512} loading="lazy" />
+
+> **メモ：** 上記のトグルボタンは、タイムラインの名前を右クリックし、ドロップダウンメニューから**Preferences**を選択してアクセスできるタイムラインの設定で調整することもできます。

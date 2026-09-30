@@ -1,0 +1,102 @@
+schema_version: 1
+document: knowledge/jp/how-to/3d-scene/working-in-3d-scene.md
+document_id: guide.3d-scene.working-in-3d-scene
+language: ja
+document_body_sha256: baba6bd5662c83e098b07828892bf170752f6ba4498757af17c680cc9f33636b
+figures:
+  - id: ja-2d33a4f6c0-001
+    title: Navigating Fly Mode
+    caption: Navigating Fly Mode
+    show: "Navigating Fly Mode. Use the adjacent instructions as the content brief: ナビゲーションツールバーには以下のオプションがあります： フライモード：一人称視点でシーンを移動するには、ナビゲーションツールバーの飛行アイコンを選択してフライモードを有効にします。W、A、S、D キーを使用して、カメラをそれぞれ前、左、後、右に移動させます。**QとE**キーでカメラを上下に移動させます。カメラの向きを調整するには、左マウスボタンを押しながらマウスを動かします。ズームイン・アウトするには、マウスホイールをスクロールし、カメラをオブジェクトに近づけたり遠ざけたりします。 オービットモード：このモードでは、カメラがシーンの焦点を中心に回転します。ツールバーのオービットアイコンをクリックするか、Shift + O のショートカットを使用するか、Alt キーを押しながらマウスをドラッグすることでこのモードを有効にできます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: ビューポートの操作
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Navigating-Fly-Mode.gif
+    source_alt: Navigating Fly Mode
+    text_coverage: not-independently-verified
+  - id: ja-2d33a4f6c0-002
+    title: Navigating Orbit Mode
+    caption: Navigating Orbit Mode
+    show: "Navigating Orbit Mode. Use the adjacent instructions as the content brief: オービットモード：このモードでは、カメラがシーンの焦点を中心に回転します。ツールバーのオービットアイコンをクリックするか、Shift + O のショートカットを使用するか、Alt キーを押しながらマウスをドラッグすることでこのモードを有効にできます。 パンモード：視点の角度を変えずに水平または垂直方向に視点を平行移動させるには、ナビゲーションツールバーのパンアイコンを選択するか、Shift + P を押すか、Shift キー（またはマウスホイール）を押しながらマウスを動かして パン モードを有効にします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: ビューポートの操作
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Navigating-Orbit-Mode.gif
+    source_alt: Navigating Orbit Mode
+    text_coverage: not-independently-verified
+  - id: ja-2d33a4f6c0-003
+    title: Navigating Pan Mode
+    caption: Navigating Pan Mode
+    show: "Navigating Pan Mode. Use the adjacent instructions as the content brief: パンモード：視点の角度を変えずに水平または垂直方向に視点を平行移動させるには、ナビゲーションツールバーのパンアイコンを選択するか、Shift + P を押すか、Shift キー（またはマウスホイール）を押しながらマウスを動かして パン モードを有効にします。 ズームモード：シーン内のオブジェクトに近づいたり遠ざかったりするには、ナビゲーションツールバーのズームアイコンを選択するか、Shift + Z を押すか、Ctrl キーを押しながらマウスを動かして ズーム モードを有効にします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: ビューポートの操作
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Navigating-Pan-Mode.gif
+    source_alt: Navigating Pan Mode
+    text_coverage: not-independently-verified
+  - id: ja-2d33a4f6c0-004
+    title: Navigating Zoom Mode
+    caption: Navigating Zoom Mode
+    show: "Navigating Zoom Mode. Use the adjacent instructions as the content brief: ズームモード：シーン内のオブジェクトに近づいたり遠ざかったりするには、ナビゲーションツールバーのズームアイコンを選択するか、Shift + Z を押すか、Ctrl キーを押しながらマウスを動かして ズーム モードを有効にします。 これらのモードのいずれかで Shift キーを押し続けると、移動速度がデフォルトの 1/10 に低下します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: ビューポートの操作
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Navigating-Zoom-Mode.gif
+    source_alt: Navigating Zoom Mode
+    text_coverage: not-independently-verified
+  - id: ja-2d33a4f6c0-005
+    title: Selecting Objects
+    caption: Selecting Objects
+    show: "Selecting Objects. Use the adjacent instructions as the content brief: 有効化されたら、ビューポート内の任意のオブジェクトをクリックして選択します。選択されたオブジェクトはハイライトされ、容易に識別できるようになります。複数のオブジェクトを選択するには、Shift キーを押しながら各オブジェクトをクリックします。 オブジェクトを選択する別の方法は、オブジェクトリスト ペインでその名前をクリックすることです。あるいは、Alt キーを押しながら 上 矢印キーと 下 矢印キーを押すことで、このリスト内のオブジェクトを順に切り替えることができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: オブジェクトの選択
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Selecting-Objects.gif
+    source_alt: Selecting Objects
+    text_coverage: not-independently-verified
+  - id: ja-2d33a4f6c0-006
+    title: Moving Objects
+    caption: Moving Objects
+    show: "Moving Objects. Use the adjacent instructions as the content brief: オブジェクトが選択されている状態で、ビューポート内の任意の場所をドラッグすると、視点平面に平行に移動します。 さらに、オブジェクトの 設定 パネルで 位置 パラメータの X、Y、Z 座標を変更することでもオブジェクトを移動できます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: オブジェクトの移動
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Moving-Objects.gif
+    source_alt: Moving Objects
+    text_coverage: not-independently-verified
+  - id: ja-2d33a4f6c0-007
+    title: Rotating Objects
+    caption: Rotating Objects
+    show: "Rotating Objects. Use the adjacent instructions as the content brief: オブジェクトが選択されている状態で、ビューポート内の任意の場所をドラッグすると、視点平面に平行な面上で回転します。 さらに、オブジェクトの 設定 パネルで 回転 パラメータの X、Y、Z 座標の角度を変更することでもオブジェクトを回転させることができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: オブジェクトの回転
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Rotating-Objects.gif
+    source_alt: Rotating Objects
+    text_coverage: not-independently-verified
+  - id: ja-2d33a4f6c0-008
+    title: Scaling Objects
+    caption: Scaling Objects
+    show: "Scaling Objects. Use the adjacent instructions as the content brief: オブジェクトが選択されている状態で、ビューポート内の任意の場所をドラッグすると、比率を維持しながらサイズが変更されます。 さらに、オブジェクトの 設定 パネルで 拡大・縮小 パラメータの X、Y、Z 座標の値を変更することでもオブジェクトを拡大・縮小できます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 32
+      section: オブジェクトの拡大・縮小
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Scaling-Objects.gif
+    source_alt: Scaling Objects
+    text_coverage: not-independently-verified

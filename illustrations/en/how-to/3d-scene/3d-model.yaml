@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/en/how-to/3d-scene/3d-model.md
+document_id: guide.3d-scene.3d-model
+language: en
+document_body_sha256: 3f5aeeaf16ba1df9fc070755e7f5ec20343ac00aa495a2406d2574efde88e915
+figures:
+  - id: en-544eb2d204-001
+    title: 3D Model File
+    caption: 3D Model File
+    show: "3D Model File. Use the adjacent instructions as the content brief: To add a 3D model, do the following: Navigate to the Node Graph widget.Add a 3D Model File node to your node graph.In the 3D Model File node settings, select your desired 3D model file using the Filename parameter.Connect the Object output parameter of the 3D Model File node to the Objects input parameter of the 3D Scene node.Switch to the 3D Scene widget to further adjust the position and dimensions of the 3D model,"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Adding 3D Models
+    source_url: https://help.screenberry.com/images/3d-scene/animation/3D-Model-File.gif
+    source_alt: 3D Model File
+    text_coverage: not-independently-verified
+  - id: en-544eb2d204-002
+    title: 3D Model Export
+    caption: 3D Model Export
+    show: "3D Model Export. Use the adjacent instructions as the content brief: To export a 3D model, follow these steps: Navigate to the Node Graph widget.Add a 3D Model Export node to your node graph.Connect the Object output parameter from the 3D Model File and/or 3D Primitive nodes to the Source Object input parameter of the 3D Model Export node.In the settings of the 3D Model Export node, input the path and name for the 3D model file in the Filename parameter, then click the Save File butto"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: Saving 3D Models
+    source_url: https://help.screenberry.com/images/3d-scene/animation/3D-Model-Export.gif
+    source_alt: 3D Model Export
+    text_coverage: not-independently-verified

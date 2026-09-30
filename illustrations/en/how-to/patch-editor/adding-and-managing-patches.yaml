@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/en/how-to/patch-editor/adding-and-managing-patches.md
+document_id: guide.patch-editor.adding-and-managing-patches
+language: en
+document_body_sha256: 438d6aa41be84c3b9925aa4a2cfcfeaa35f0b82d902da01549165ad1708c6729
+figures:
+  - id: en-140bbc2528-001
+    title: Node Tree Example
+    caption: Node Tree Example
+    show: "Node Tree Example. Use the adjacent instructions as the content brief: Patch nodes are added in the Node Graph (see Adding Nodes). In a typical setup, an input of the patch node is connected to the source image node and its output to the Display or Canvas node. The Bezier Warp receives input from the Media Player and sends output to the Canvas"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Adding Patches
+    source_url: https://help.screenberry.com/images/patch-editor/static/Node-Tree-Example.png
+    source_alt: Node Tree Example
+    text_coverage: not-independently-verified
+  - id: en-140bbc2528-002
+    title: Deleting Patches
+    caption: Deleting Patches
+    show: "Deleting Patches. Use the adjacent instructions as the content brief: Right-click on any of the patch control points in the Input or Output panels and select Delete Patches from the dropdown menu.Click the patch in the navigation tree and choose Delete Patch from the dropdown menu. Alternatively, you can delete the related patch node in the Node Graph."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Deleting Patches
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Deleting-Patches.gif
+    source_alt: Deleting Patches
+    text_coverage: not-independently-verified

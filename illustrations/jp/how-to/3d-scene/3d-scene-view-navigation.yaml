@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/how-to/3d-scene/3d-scene-view-navigation.md
+document_id: guide.3d-scene.3d-scene-view-navigation
+language: ja
+document_body_sha256: 480c3cfbc54f4cd6b9b0deccfb4f34eac453a33bd97923b13aa69d176054949e
+figures:
+  - id: ja-35f18bfb1b-001
+    title: 3Dシーンの表示と操作画面
+    caption: 3Dシーンの表示と操作画面
+    show: "3Dシーンの表示と操作画面. Use the adjacent instructions as the content brief: ビューセレクター：このツールバーには、3D Viewport / UV Viewer セレクターとカメラビューセレクターが含まれています。3D Viewport / UV Viewer セレクター3D Viewportは、3D環境がレンダリングされるインタラクティブな作業エリアです。3Dシーン内のオブジェクトの操作、選択、修正に使用されます。UV Viewerは、選択した3DオブジェクトのUVマップ（UVマップがある場合）を確認および編集するための特殊なビューモードです。カメラビューセレクターこのドロップダウンメニューでは、事前に用意された様々な表示方法（ビュー）やカスタムカメラアングルから選択することができます：Free Cameraは、ユーザーが視点を自由に移動、回転、ズームできるデフォルトのナビゲーションツールで、3D環境の制限のない探索を可能にします。3D Cameraは、ユーザーがカスタマイズした視点から3Dシーンを捉"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 1
+      section: 3Dシーンの表示と操作画面
+    source_url: https://help.screenberry.com/images/3d-scene/static/3D-Scene-View.png
+    source_alt: alt text
+    text_coverage: not-independently-verified

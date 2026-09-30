@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/en/reference/node-reference/integration-nodes/notchplayback.md
+document_id: guide.node-reference.integration-nodes.notchplayback
+language: en
+document_body_sha256: fedade504fcc3b4856608d0f6383ca64192801b66647a6a53bb2795d4fd7236e
+figures:
+  - id: en-2e58e5dd93-001
+    title: Notch Added
+    caption: Notch Added
+    show: "Notch Added. Use the adjacent instructions as the content brief: Notch Blocks loading into a Screenberry project, control of the parameters exposed in the Notch project, and Notch Blocks playback are organized using the Notch Playback node. Typically, the Notch Playback outputs the Notch Blocks playback to the Display or Context node. Screenberry supports the following types of Notch exposed parameters:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Notch Playback
+    source_url: https://help.screenberry.com/images/node-references/static/notch-added.png
+    source_alt: Notch Added
+    text_coverage: not-independently-verified
+  - id: en-2e58e5dd93-002
+    title: Notch
+    caption: Notch
+    show: "Notch. Use the adjacent instructions as the content brief: When the Notch Block layer is selected in the Settings panel, the Notch Playback node does the following: Switches to the playback of this layer.Creates a separate section in the Settings panel for each layer object with the exposed parameters.Generates custom parameters for all exposed parameters in the layer. Additionally, various nodes can be connected to the Notch Playback node in the node graph to do any of the "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: Notch Playback
+    source_url: https://help.screenberry.com/images/node-references/animation/notch.gif
+    source_alt: Notch
+    text_coverage: not-independently-verified

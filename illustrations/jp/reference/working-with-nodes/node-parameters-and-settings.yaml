@@ -1,0 +1,102 @@
+schema_version: 1
+document: knowledge/jp/reference/working-with-nodes/node-parameters-and-settings.md
+document_id: guide.working-with-nodes.node-parameters-and-settings
+language: ja
+document_body_sha256: 8fd503d3df6fbee0c8e31e5f4cae9662f6b049eda4debbe9161d752700534587
+figures:
+  - id: ja-8b3cfcf5e8-001
+    title: Node Parameters Pins
+    caption: Node Parameters Pins
+    show: "Node Parameters Pins. Use the adjacent instructions as the content brief: ノードピンは、ノードのパラメータをグラフィカルに表現したものです。 データ（灰色のピン ）パラメータには、単純なデータ（数値、文字列、タイムコード）またはScreenberryの内部リソース（例： 画像）へのポインタが含まれています。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: ノードのパラメータ（ピン）
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Node-Parameters-Pins.gif
+    source_alt: Node Parameters Pins
+    text_coverage: not-independently-verified
+  - id: ja-8b3cfcf5e8-002
+    title: Node Parameters Example
+    caption: Node Parameters Example
+    show: "Node Parameters Example. Use the adjacent instructions as the content brief: アクション（オレンジのピン ）は、1つの入力に複数のリンクを作成することができます。その結果として、すべての入力値に対して論理OR（いずれか一つでも有効であれば有効）の結果が入力されます。 メッセージ（ピンク色のピン ）もまた、1 つの入力に対して複数のリンクを作成することができます。こちらは、すべての入力がキューイングされ順番に処理されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: ノードのパラメータ（ピン）
+    source_url: https://help.screenberry.com/images/working-with-nodes/static/Node-Parameters-Example.gif
+    source_alt: Node Parameters Example
+    text_coverage: not-independently-verified
+  - id: ja-8b3cfcf5e8-003
+    title: Node Settings
+    caption: Node Settings
+    show: "Node Settings. Use the adjacent instructions as the content brief: ノードを選択すると、そのノードのパラメータを編集するためのSettingsパネルが表示されます。 Settingsパネルでのノードパラメータ値が変更されると、パラメータ値フィールドの隣にあるボタンによって示されます。このボタンをクリックすると、デフォルトのパラメータ値に戻ります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: ノードの設定
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Node-Settings.gif
+    source_alt: Node Settings
+    text_coverage: not-independently-verified
+  - id: ja-8b3cfcf5e8-004
+    title: Restore Node Settings
+    caption: Restore Node Settings
+    show: "Restore Node Settings. Use the adjacent instructions as the content brief: Settingsパネルでのノードパラメータ値が変更されると、パラメータ値フィールドの隣にあるボタンによって示されます。このボタンをクリックすると、デフォルトのパラメータ値に戻ります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: ノードの設定
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Restore-Node-Settings.gif
+    source_alt: Restore Node Settings
+    text_coverage: not-independently-verified
+  - id: ja-8b3cfcf5e8-005
+    title: Selecting Nodes by Type
+    caption: Selecting Nodes by Type
+    show: "Selecting Nodes by Type. Use the adjacent instructions as the content brief: 複数のノードが選択されている場合、Settingsパネルにはすべての選択されたノードに共通するパラメータのみが表示され、編集することができます。さらに、選択範囲内の各タイプのノードの数に関する情報がSettingsパネルの上部に表示されます。このボタンをクリックすると、そのタイプのノードのみを選択することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: 複数選択されたノードの設定
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Selecting-Nodes-by-Type.gif
+    source_alt: Selecting Nodes by Type
+    text_coverage: not-independently-verified
+  - id: ja-8b3cfcf5e8-006
+    title: Hiding and Showing Individual Node Parameters
+    caption: Hiding and Showing Individual Node Parameters
+    show: "Hiding and Showing Individual Node Parameters. Use the adjacent instructions as the content brief: パラメータを非表示にするには、パラメータ名を右クリックし、ドロップダウンメニューからHideを選択します。非表示のパラメータを表示するには、Hidden Parameters欄でShowをクリックします。非表示状態のパラメータはイタリックで表示されます。パラメータを非表示解除するには、パラメータ名を右クリックし、ドロップダウンメニューからShowを選択します。非表示パラメータを表示しないようにするには、Hidden Parameters欄でHideをクリックします。 メモ： 一部のノードのより使用頻度の低い、より高度なパラメータはデフォルトで非表示になっています。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: ノードの個々のパラメータの非表示/表示
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Hiding-Showing-Node-Parameters.gif
+    source_alt: Hiding and Showing Individual Node Parameters
+    text_coverage: not-independently-verified
+  - id: ja-8b3cfcf5e8-007
+    title: Hiding Showing Node Pins
+    caption: Hiding Showing Node Pins
+    show: "Hiding Showing Node Pins. Use the adjacent instructions as the content brief: Settingsパネルでは、パラメータ名の左側にあるドットを左クリックすると、ノード上の対応するパラメータピンの表示と非表示を切り替えることができます。青いドットはパラメータピンが表示されていることを示し、灰色のドットは非表示を示します。 パラメータピンに設定されたリンクが非表示になった場合、このリンクは有効なままで、薄い線で表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: ノードのピンの表示/非表示
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Hiding-Showing-Node-Pins.gif
+    source_alt: Hiding Showing Node Pins
+    text_coverage: not-independently-verified
+  - id: ja-8b3cfcf5e8-008
+    title: Dimmed Link
+    caption: Dimmed Link
+    show: "Dimmed Link. Use the adjacent instructions as the content brief: パラメータピンに設定されたリンクが非表示になった場合、このリンクは有効なままで、薄い線で表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: ノードのピンの表示/非表示
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Dimmed-Link.gif
+    source_alt: Dimmed Link
+    text_coverage: not-independently-verified

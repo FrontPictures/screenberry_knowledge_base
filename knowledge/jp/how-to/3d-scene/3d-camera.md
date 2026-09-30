@@ -1,0 +1,122 @@
+---
+id: guide.3d-scene.3d-camera
+variant_id: guide.3d-scene.3d-camera.imported-current-guide
+title: Screenberry 3Dシーンにおける3Dカメラの活用
+language: ja
+kind: how-to
+status: in_review
+owner: unassigned
+applies_to:
+  from: null
+  until_exclusive: null
+verified_in: []
+last_verified: null
+evidence:
+  - type: existing-guide
+    path: archive/site/content/jp/3d-scene/3d-camera.mdx
+    sha256: f920f185fdef3e564421cb77722d648c7ed77a8a34e5f6f328974d319116afb4
+    scope: Imported text; not independent product verification
+aliases: []
+related: []
+publication:
+  profile: legacy-guide-3.4
+  product_version: "3.4"
+  basis: Snapshot of existing current guide; applicability not independently verified
+  role: guide
+source:
+  path: content/jp/3d-scene/3d-camera.mdx
+  canonical_url: https://help.screenberry.com/jp/3d-scene/3d-camera
+  git_commit: 8acf5a3a7526c3013fc44f1dba0b25f88343e745
+  sha256: f920f185fdef3e564421cb77722d648c7ed77a8a34e5f6f328974d319116afb4
+  imported_at: 2026-09-30T14:15:19.585Z
+  frontmatter:
+    title: Screenberry 3Dシーンにおける3Dカメラの活用
+    description: Screenberryの3Dカメラの機能を探索し、シーンを撮影するためにそれらを追加し設定する方法を含めて学びます。
+    openGraph:
+      title: Screenberry 3Dシーンにおける3Dカメラの活用
+      description: Screenberryの3Dカメラの機能を探索し、シーンを撮影するためにそれらを追加し設定する方法を含めて学びます。
+translation:
+  source_language: en
+  source_id: guide.3d-scene.3d-camera
+  source_revision: null
+  status: alignment-unverified
+  counterpart: ../../../en/how-to/3d-scene/3d-camera.md
+presentation:
+  mode: text-only
+  illustrations: illustrations/jp/how-to/3d-scene/3d-camera.yaml
+  visual_information_review: not-independently-verified
+---
+
+## 3D カメラ
+
+**3D Camera** は、ユーザーがカスタマイズした視点から 3D シーンをキャプチャすることを可能にします。カメラビューのレンダリング出力は、ノードグラフ内の後続のノードに転送できます。
+
+**3D Camera** を追加するには、以下の手順に従ってください：
+
+1. **Node Graph** ウィジェットに移動します。
+2. ノードグラフに **3D Camera** ノードを追加します。
+3. **3D Camera** ノードの **Camera** 出力パラメータを **3D Scene** ノードの **Camera** 入力パラメータに接続します。これによりカメラがシーンに統合されます。
+4. **3D Scene** ウィジェットに切り替えて、3D シーンツールを使用するか、**3D Camera** の設定で直接カメラの位置と向きをさらに調整します。
+
+**3D Camera** ノードが **3D Scene** ノードに接続されると、**3D Scene** ノードに **3D Camera** 出力パラメータが追加されます。このパラメータはカメラビュー映像を出力し、**Canvas** や **Display** ノードなどの映像表示用ノードにルーティングできます。
+
+カメラ設定では、シーン内の **3D カメラ** ビューのパラメータを設定できます。
+
+##### 一般設定
+
+- **Image Size**：カメラの出力画像の幅（**W**）と高さ（**H**）をピクセル単位で設定します。
+- **Bits per Channel**：カメラ出力の色深度を決定します。オプションには **8 ビット** と **32 ビット（浮動小数点）** があります。
+- **Type**：カメラレンズのタイプを選択します：
+  - **Perspective**：人間の目の知覚をエミュレートし、カメラからの距離に比例した奥行き感を作り出します。
+  - **Orthogonal**：遠近感のない物体表示を行い、距離に関係なく物体のスケールを維持します。
+  - **Fisheye**：球面歪みを伴う広角ビューをキャプチャします。
+  - **Spherical (Lat/Long)**：360 度のパノラマ出力を提供します。
+- **View Mode**：カメラビュー内でシーンがどのように表示されるかを選択します。
+  - **Textured**：オブジェクトにすべてのテクスチャを適用してシーンを表示します。
+  - **Wireframe**：すべてのポリゴンのエッジを表す線のメッシュとしてオブジェクトのジオメトリを表示します。
+  - **Textured + Wireframe**：テクスチャとワイヤーフレームビューを組み合わせ、テクスチャ付きオブジェクトの上にワイヤーフレームメッシュを重ねて表示します。
+  - **Color**：オブジェクトを単色で表示します。色は個々のオブジェクトの設定で指定できます。
+  - **Color + Wireframe**：オブジェクトをフラットカラーで表示し、その上にワイヤーフレームメッシュを重ねます。
+  - **Points**：オブジェクトのジオメトリの頂点（ポイント）のみを表示します。
+  - **None (Projections Only)**：**プロジェクションマッパー** からのプロジェクションのみを表示します。
+- **Show Projections**：カメラビューでのプロジェクションの可視性を切り替えます。
+- **Image Interpolation**：画像が補間される方法を決定します。
+  - **Linear**：周囲のピクセルの色をブレンドして滑らかな遷移を生成します。
+  - **Nearest-neighbor**：ブレンドを行わず最も近いピクセルの色を選択し、シャープなエッジを保持します。
+- **Mask**：ユーザーがカメラのビューにマスク画像を適用できるようにします。マスク画像は、ノードグラフ内の **3D Camera** ノードの **Mask** 入力パラメータに接続する必要があります。
+- **Transform Matrix**：3D 空間内におけるカメラの位置、回転、スケールを表す変換行列を表示します。
+- **Transform Order**：カメラに適用される変換（スケール、回転、移動）の順序を指定します。
+- **Scale**：3D シーン内のカメラのビュー領域のサイズを調整し、**X**、**Y**、**Z** 軸に沿ってスケーリングします。この設定は指定された **変換順序** に依存し、他の変換（回転や移動など）に続く場合にのみ順次適用されます。
+- **Rotation Order**：軸周りの回転が適用される順序を示します。例えば、**Y**（ヘッディング）、**X**（ピッチ）、**Z**（バンク）などです。
+- **Rotation**：**X**、**Y**、**Z** 軸周りの回転角度を設定することで、3D 空間内でカメラの向きを決定します。
+- **Position**：X、Y、Z 軸に沿って 3D 空間内のカメラの位置を定義します。
+- **Perspective Angle Mode**：カメラの遠近法を定義するために使用される方法を指定します。
+  - **スローレシオ**：カメラからスクリーンまでの距離と画像の幅の関係を定義します。
+  - **水平 FOV**（視野角）：カメラによってキャプチャされる 3D シーンの可視領域の水平方向の範囲を指定します。
+  - **垂直 FOV**（視野角）：カメラによってキャプチャされる 3D シーンの可視領域の垂直方向の範囲を指定します。
+- **Throw Ratio**：カメラと画像平面間の距離に対する可視画像のサイズを調整します。
+- **Horizontal FOV**：カメラの水平視野角を調整します。
+- **Vertical FOV**：カメラの垂直視野角を調整します。
+- **Horizontal Shift**：カメラの位置を変えずに、カメラのビューを水平方向にシフトします。
+- **Vertical Shift**：カメラの位置を変えずに、カメラのビューを垂直方向にシフトします。
+- **Ortho Width**：正投影カメラを使用する際のカメラビューの幅を決定します。
+- **Render Behind Camera**：カメラの背後にある物体のレンダリングを有効にします。
+- **Fixed Lens Shifts for Pose Estimation**：シーン内でカメラの位置と向きを推定する際に、レンズシフト設定を事前定義された値にロックします。
+- **Fixed Throw Ratio for Pose Estimation**：ポーズ推定中、スローレシオを固定値にロックします。
+- **Fixed Position for Pose Estimation**：ポーズ推定中、カメラの位置をロックします。
+- **Depth Test**：オブジェクトの相対的な深度を比較することで、カメラがオブジェクトの可視性を判断しながらレンダリングすることを可能にし、カメラに近いオブジェクトが遠いオブジェクトを遮蔽するようにします。
+- **Back-face Culling**：有効にすると、ポリゴンの前面のみがレンダリングされ、カメラから離れた面はレンダリングされません。これによりレンダリングのパフォーマンスが向上します。
+- **Frustum Distance**：カメラの位置からカメラの視錐台平面までの距離を定義します。
+- **Show Frustum Center**：参照用に使用されるカメラの視錐台中心の可視性を切り替えます。
+- **Near Distance**：近クリッピング平面の距離を設定します。この距離より近いオブジェクトはレンダリングされません。
+- **Antialiasing**：レンダリングされた画像のギザギザしたエッジを滑らかにします。
+- **Preview Mode**：パフォーマンス向上のため、詳細レベルを下げたレンダリングモードに切り替えます。
+- **Camera Gizmo Size**：3D シーンビューポート内のカメラオブジェクトのサイズを調整します。
+
+##### Simulation
+
+- **Gamma**：カメラビュー画像のガンマレベルを調整します。
+
+##### Navigation
+
+- **Keyboard Fly Speed** and **Keyboard Orbit and Zoom Speed**：キーボードナビゲーション時のカメラの移動速度を設定します。

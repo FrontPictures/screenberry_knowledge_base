@@ -1,0 +1,37 @@
+---
+title: Screenberry Planar to Dome - 平面映像とドーム映像の合成
+description: Planar to Domeノードを利用して、平面映像をドーム曲面上にマッピングする方法を説明します。マッピングの際には大きさや位置、傾きや回転を指定して、ドーム映像内のPicture in Pictureを実現することができます。
+openGraph:
+  title: Screenberry Planar to Dome - 平面映像とドーム映像の合成
+  description: Planar to Domeノードを利用して、平面映像をドーム曲面上にマッピングする方法を説明します。マッピングの際には大きさや位置、傾きや回転を指定して、ドーム映像内のPicture in Pictureを実現することができます。
+---
+
+# Planar to Dome
+
+**Planar to Dome**ノードは、平面イメージをドーム表面にマッピングするためのPatchです。これは、主にドームスクリーン上で平面とドームメディアコンテンツを組み合わせてピクチャーインピクチャー表示を実現するために使用されます。
+
+典型的なセットアップでは、**Planar to Dome**ノードはソース映像を入力として受け取り、変形されたイメージを**Display**ノードまたは**Canvas**ノードに出力します。
+
+![Planar To Dome Node Tree](/images/warping-alignment/static/Planar-to-Dome-node-tree.png)
+
+<small>**Planar to Dome**ノードを使用したノードグラフの例</small>
+
+**Planar to Dome**ノードの**Settings**パネルでは、以下の設定が可能になります。
+
+**Grid Size：** Patchメッシュグリッドの行数と列数を設定します。
+
+**Subdivisions：** Patchメッシュグリッドの分割数を設定します。
+
+**Aspect Ratio：** 平面メディアのアスペクト比を設定します。
+
+**Projection：** 平面メディアがマッピングされる三次元形状のタイプを **平面（Planar）**、**円錐（Conical）**、または **円柱（Cylindrical）** のいずれかから選択します。
+
+**Scale：** 平面メディアを設定された倍率でスケーリングします。
+
+**Vertical Offset：** 平面メディアの垂直位置をドームの天頂に対してオフセットします。
+
+**Tilt Angle：** 平面メディアを設定された角度だけ傾けます。
+
+**Rotation Angle：** 平面メディアの表示位置をドームの天頂を中心に回転させます。
+
+<img alt="Planar To Dome" src="/images/warping-alignment/animation/Planar-to-Dome.gif" width={500} height={780} loading="lazy" />

@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/how-to/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.md
+document_id: guide.media-playback.matrix-based-playlists.configuration-of-media-player-outputs
+language: en
+document_body_sha256: 5498c3f995304a281d3514b2acde085d483e83c0d214132b86f0f3d52c80f9cb
+figures:
+  - id: en-b9a9f302b9-001
+    title: Media Player Outputs Matrix
+    caption: Media Player Outputs Matrix
+    show: "Media Player Outputs Matrix. Use the adjacent instructions as the content brief: Navigate to the Node Graph widget.Select the Media Player node corresponding to your matrix-based playlist to open its settings panel.In the node settings, update the Number of Video Outputs parameter to match the number of operational rows in your matrix-based playlist. This will result in the creation of new output parameters like Image 2, Image 3, etc. in addition to the default Image parameter.Additionally, you c"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Configuration of Media Player Outputs
+    source_url: https://help.screenberry.com/images/media-playback/animation/Media-Player-Outputs-Matrix.gif
+    source_alt: Media Player Outputs Matrix
+    text_coverage: not-independently-verified

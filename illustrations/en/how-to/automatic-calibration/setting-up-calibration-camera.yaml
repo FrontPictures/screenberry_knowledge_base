@@ -1,0 +1,66 @@
+schema_version: 1
+document: knowledge/en/how-to/automatic-calibration/setting-up-calibration-camera.md
+document_id: guide.automatic-calibration.setting-up-calibration-camera
+language: en
+document_body_sha256: bc20b7774c11820478ec7faf256e8a7c23a8ad2f5ccc3c08f429c2e54020dafc
+figures:
+  - id: en-4ae70b0012-001
+    title: Mode Dial Manual
+    caption: Mode Dial Manual
+    show: "Mode Dial Manual. Use the adjacent instructions as the content brief: * For Nikon D5000/D5100/D5200. If the camera prompts you to enter the date and time after being turned on, press the OK button. Set the camera mode dial to Manual (M)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: Camera Settings
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/mode-dial-Manual.jpg
+    source_alt: Mode Dial Manual
+    text_coverage: not-independently-verified
+  - id: en-4ae70b0012-002
+    title: Lens Focus Manual
+    caption: Lens Focus Manual
+    show: "Lens Focus Manual. Use the adjacent instructions as the content brief: Set the camera mode dial to Manual (M). Switch the lens focus to Manual (M) and focus the lens manually using the Focus Grid test pattern of the Calibration Wizard as a reference."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: Camera Settings
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/lens-focus-Manual.jpg
+    source_alt: Lens Focus Manual
+    text_coverage: not-independently-verified
+  - id: en-4ae70b0012-003
+    title: Camera Position Side View
+    caption: Camera Position Side View
+    show: "Camera Position Side View. Use the adjacent instructions as the content brief: Camera position guidelines: Mount the camera steadily on a tripod and position it in a way that it captures the entire projection area (screen).Position the camera tripod on the floor surface below the dome so the camera lens is aligned with the dome’s zenith.Ensure that the camera tilt matches the dome tilt. Position the camera lens directly below the projectors’ lenses so that the camera does not cast shadows on th"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: Positioning the Camera
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Camera-position-Side-view.png
+    source_alt: Camera Position Side View
+    text_coverage: not-independently-verified
+  - id: en-4ae70b0012-004
+    title: Camera Position Zenith View
+    caption: Camera Position Zenith View
+    show: "Camera Position Zenith View. Use the adjacent instructions as the content brief: Camera position guidelines: Mount the camera steadily on a tripod and position it in a way that it captures the entire projection area (screen).Position the camera tripod on the floor surface below the dome so the camera lens is aligned with the dome’s zenith.Ensure that the camera tilt matches the dome tilt. Position the camera lens directly below the projectors’ lenses so that the camera does not cast shadows on th"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: Positioning the Camera
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Camera-position-Zenith-view.png
+    source_alt: Camera Position Zenith View
+    text_coverage: not-independently-verified
+  - id: en-4ae70b0012-005
+    title: Camera Position Dome Top View
+    caption: Camera Position Dome Top View
+    show: "Camera Position Dome Top View. Use the adjacent instructions as the content brief: Camera position. Side view.Camera position. Zenith view. Position the camera lens directly below the projectors’ lenses so that the camera does not cast shadows on the dome screen.Orient the camera so that the bottom of the picture frame corresponds to the front of the dome and the top of the frame corresponds to the rear end of the dome. Calibration camera position in the dome. Top view."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 23
+      section: Positioning the Camera
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/camera-position-dome-Top-view.png
+    source_alt: Camera Position Dome Top View
+    text_coverage: not-independently-verified

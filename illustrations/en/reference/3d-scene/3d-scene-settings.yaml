@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/en/reference/3d-scene/3d-scene-settings.md
+document_id: guide.3d-scene.3d-scene-settings
+language: en
+document_body_sha256: d318a45ac509cb1cc9e49043020fba00c6e129db802a1ded62f483f40d6c152f
+figures:
+  - id: en-0ab17adbaf-001
+    title: 3D Scene Settings
+    caption: 3D Scene Settings
+    show: "3D Scene Settings. Use the adjacent instructions as the content brief: The 3D Scene widget in Screenberry allows you to create and manage three-dimensional environments. To access general 3D Scene settings, select 3D Scene in the Scene Inspector pane, and its parameters will be displayed in the corresponding panel below."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: 3D Scene Settings
+    source_url: https://help.screenberry.com/images/3d-scene/animation/3D-Scene-Settings.gif
+    source_alt: 3D Scene Settings
+    text_coverage: not-independently-verified
+  - id: en-0ab17adbaf-002
+    title: 3D Scene Settings
+    caption: 3D Scene Settings
+    show: "3D Scene Settings. Use the adjacent instructions as the content brief: The 3D Scene widget in Screenberry allows you to create and manage three-dimensional environments. To access general 3D Scene settings, select 3D Scene in the Scene Inspector pane, and its parameters will be displayed in the corresponding panel below. Note: The settings for each object integrated into the 3D scene are adjusted individually."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: 3D Scene Settings
+    source_url: https://help.screenberry.com/images/3d-scene/animation/3D-Scene-Settings.gif
+    source_alt: alt text
+    text_coverage: not-independently-verified

@@ -1,0 +1,116 @@
+---
+id: guide.media-playback.timelines.timeline-markers
+variant_id: guide.media-playback.timelines.timeline-markers.imported-current-guide
+title: Screenberryのキーフレームアニメーション
+language: ja
+kind: how-to
+status: in_review
+owner: unassigned
+applies_to:
+  from: null
+  until_exclusive: null
+verified_in: []
+last_verified: null
+evidence:
+  - type: existing-guide
+    path: archive/site/content/jp/media-playback/timelines/timeline-markers.mdx
+    sha256: 3ce3156e150d672db071f9b0711048dfcac121235b48e5174e5d22c79c71f253
+    scope: Imported text; not independent product verification
+aliases: []
+related: []
+publication:
+  profile: legacy-guide-3.4
+  product_version: "3.4"
+  basis: Snapshot of existing current guide; applicability not independently verified
+  role: guide
+source:
+  path: content/jp/media-playback/timelines/timeline-markers.mdx
+  canonical_url: https://help.screenberry.com/jp/media-playback/timelines/timeline-markers
+  git_commit: 8acf5a3a7526c3013fc44f1dba0b25f88343e745
+  sha256: 3ce3156e150d672db071f9b0711048dfcac121235b48e5174e5d22c79c71f253
+  imported_at: 2026-09-30T14:15:19.585Z
+  frontmatter:
+    title: Screenberryのキーフレームアニメーション
+    description: Screenberryのタイムラインでキーフレームアニメーションを行う方法を説明します。キーフレームを調整することで、変形や透明度、音量、データアイテムを使ったアニメーションを実現することができます。
+    openGraph:
+      title: Screenberryのキーフレームアニメーション
+      description: Screenberryのタイムラインでキーフレームアニメーションを使って映像メディアを制御する方法を説明します。
+translation:
+  source_language: en
+  source_id: guide.media-playback.timelines.timeline-markers
+  source_revision: null
+  status: alignment-unverified
+  counterpart: ../../../../en/how-to/media-playback/timelines/timeline-markers.md
+presentation:
+  mode: text-only
+  illustrations: illustrations/jp/how-to/media-playback/timelines/timeline-markers.yaml
+  visual_information_review: not-independently-verified
+---
+
+# タイムラインマーカー
+
+## 概要
+
+タイムラインマーカーは、タイムライン上の特定のポイントを示すために使用されます。再生の流れを整理したり、再生コントロールを追加したり、複数のメディアプレーヤーの再生を同期したり、編集プロセスを効率化したり、プレイヘッドやメディアアイテムをタイムライン上の特定のポイントにスナップさせたりするために使用されます。マーカーは、識別しやすくするために色分けされています。
+
+現在、Screenberry のタイムラインに追加できるマーカーの種類は 4 つあります：
+
+- **ラベルマーカー** ( (M1 Icon) \*)： タイムライン上の特定のポイントにテキストラベルを追加します。
+- **一時停止マーカー** ( (M2 Icon) \*)： タイムライン上の特定のポイントで再生を停止します。
+- **ジャンプマーカー** ( (M3 Icon) \*)： タイムライン上の特定のポイントにスキップします。
+- **タイムコードマーカー** ( (M4 Icon) \*)： 一致するタイムコード値を受け取った時に再生を開始します。
+
+\* トップのツールボックスにある上記アイコンのボタンをクリックすると、対応するマーカーがタイムラインに追加されます。
+
+## マーカーの追加と管理
+
+マーカーを追加するには、以下のいずれかの方法を行ってください：
+
+- 時間目盛りの上で右クリックし、ドロップダウンメニューから追加したいマーカーの種類を選択します。
+- 再生ヘッドを追加したい位置に移動し、上部ツールバーにある対応するマーカーアイコンのボタンをクリックします。
+
+マーカーの名前を変更するには、マーカーを右クリックしてドロップダウンメニューから**Edit**を選択します。表示されるダイアログボックスで、**Name**欄にたらしい名前を入力してください。
+
+マーカーを移動するには、時間目盛り上でマーカーをドラッグするか、より正確な位置調整のために、マーカーを右クリックしてドロップダウンメニューから**Edit**を選択します。表示されるダイアログボックスで、**Position**欄に目的の値を入力してください。
+
+マーカーは有効または無効にできます。マーカーを無効にするには、マーカーを右クリックし、ドロップダウンメニューで**Enabled**チェックボックスを外してください。
+
+マーカーを削除するには、マーカーを右クリックして、ドロップダウンメニューから**Delete**を選択します。
+
+**ラベルマーカー**と**ポーズマーカー**は名前の通りに機能します。ここでは**ジャンプマーカー**と**タイムコードマーカー**について詳しく説明します。
+
+## ジャンプマーカー
+
+**ジャンプマーカー**は、タイムライン上の特定の位置、特定の時間、または別のマーカーへ再生ヘッドを移動させることができます。**ジャンプマーカー**を設定するには、以下の手順に従ってください。
+
+1. マーカーを追加するか、マーカーを右クリックしてドロップダウンメニューから**Edit**を選択して、**Marker Properties**ダイアログボックスを開きます。
+2. **Jump To**ドロップダウンで**Time**または**Marker**を選択します。
+3. **Time**を選択した場合は、**Time**欄に目的の時間を入力します。**Marker**を選択した場合は、**Marker**ドロップダウンで目的のマーカー名を選択します。
+
+## タイムコードマーカー
+
+**タイムコードマーカー**は、受信したタイムコードの値がマーカーに設定された時間値と一致した時に、タイムラインの再生を開始する位置を設定します。**タイムコードマーカー**が機能するためには、以下の条件を満たす必要があります：
+
+1. **Media Player**ノードは、タイムコードを受信する必要があります。Node Graph で、タイムコードリンクを**Media Player**ノードの**Timecode In**入力ピンに接続します。
+2. Media Player は、タイムコードを受信するように設定する必要があります。Media Player の一般的なタイムコード設定で、**Accept** (Timecode)チェックボックスを選択し、**Follow** (Timecode)チェックボックスを選択解除します。なお、**Follow** (Timecode)チェックボックスが選択されている場合、タイムラインはタイムコードに従って自動的に再生されます。
+3. タイムラインは、タイムコードを受信するように設定する必要があります。**Playlist and Timeline List**パネルのタイムライン名の横にある**Listening to the Timecode**トグルボタンを有効にするか、タイムライン名を右クリックしてドロップダウンメニューから**Preferences**を選択します。表示されるダイアログボックスで、**Accept Timecode**チェックボックスを選択します。
+
+もしタイムラインの再生が**タイムコードマーカー**で始まる必要があるが、タイムコードの値とは異なる時間で始める必要がある場合は、**Timecode Offset**機能を使用してください。タイムライン名を右クリックし、ドロップダウンメニューから**Preferences**を選択します。表示されるダイアログボックスで、**Timecode Offset**欄に希望する値を入力してください。例えば、タイムライン上で**タイムコードマーカー**が 5 分に設定されているが、再生を開始する時点はタイムコードの値が 15 分に到達した時である場合、**Timecode Offset**を 10 分に設定してください。
+
+## マーカーを使用した自動化
+
+任意のタイプのマーカーは、タイムラインに追加して操作の自動化のために使用することができます。
+
+例えば、**On Item Started**ノードは、指定したマーカーに再生ヘッドが到達した時のイベントを監視するように設定することができます。これにより、他の処理を開始するためのトリガーを作成することができます。以下の手順に従ってください。
+
+1. ノードグラフで**On Item Started**ノードを選択します。
+2. ノードの設定で：
+   - **Media Player**に監視したいメディアプレーヤーを選択します。
+   - **Item Selection Criteria**で**Timeline Control Point**を選択します。
+   - **Control Point Name**にマーカーの名前を入力します。
+
+同様にこのイベントは、タイムラインの再生を他の**Media Player**のプレイリストと同期するために使用することができます。このためには、以下の手順を実行します。
+
+1. ノードグラフで、ソースとなる**Media Player**の**Output Events**ピンをターゲットになる**Media Player**の**Events**ピンに接続します。
+2. ターゲットになる**Media Player**に切り替えて、使用するプレイリストを選択し、イベントにマップするメディアアイテムを右クリックします。ドロップダウンメニューから**Map Item to Event**を選択して、メディアアイテムがイベントのマッピングを待っている状態にします。
+3. ソースとなる**Media Player**のタイムラインに切り替えて、目的のマーカーの直前に再生ヘッドを位置させ、再生を開始します。再生ヘッドがタイムライン上のマーカーを通過すると、このイベントはターゲットの**Media Player**のプレイリスト内のメディアアイテムにマップされます。

@@ -1,0 +1,55 @@
+---
+title: Screenberry Patch Replicator - Patchの複製と配置
+description: Patch Replicatorノードを利用して、並列配置、放射状配置、鏡像配置などの方法でPatchを複製し分散配置する方法を説明します。
+openGraph:
+  title: Screenberry Patch Replicator - Patchの複製と配置
+  description: Patch Replicatorノードを利用して、並列配置、放射状配置、鏡像配置などの方法でPatchを複製し分散配置する方法を説明します。
+---
+
+# Patch Replicator
+
+**Patch Replicator** ノードは、ユーザーが定義したルールに従って、Patchのインスタンスを複製し配置するPatchです。
+
+> **メモ：** **Patch Replicator** ノードは、Patchノードからの映像入力のみを受け取ることができます。
+
+![Patch Replicator Node Tree](/images/warping-alignment/static/Patch-Replicator-node-tree.png)
+
+<small>**Patch Replicator** ノードを使用したノードグラフの例</small>
+
+**Patch Replicator** ノードには、**長方形配置（Rectangular Array）**、**放射状配置（Radial Array）**、および **鏡像配置（Mirror）** の3つの複製タイプがあります。これらは**Settings**パネルの **Mode** から選択できます。各タイプにはそれぞれ固有の設定が用意されています。
+
+<img alt="Patch Replicator" src="/images/warping-alignment/animation/Patch-Replicator.gif" width={320} height={416} loading="lazy" />
+
+## 長方形配置（Rectangular Array）の複製
+
+この複製を使用すると、作成するインスタンスの数とX軸および/またはY軸に沿ったオフセットを定義することができます。
+
+**Settings**パネルの**Mode**に**Rectangular Array**を選択すると、次の複製パラメータが利用可能になります：
+
+- **X Count** および **Y Count** には、X軸およびY軸に沿って作成するインスタンスの数を設定します。
+- **X Offset** および **Y Offset** には、出力領域全体に対するインスタンス間のオフセットを設定します。
+
+<img alt="Patch Replicator Rect" src="/images/warping-alignment/animation/Patch-Replicator-Rect.gif" width={800} height={720} loading="lazy" />
+
+## 放射状配置（Radial Array）の複製
+
+この複製を使用すると、出力領域（**Canvas**）の中心に対して、インスタンスの数と配置を円状に定義することができます。放射状の複製の最も一般的な使用例は、一つの画像のコピーをドームの天頂を中心に放射状に配置することです。
+
+**Settings**パネルの **Mode** に **Radial Array** を選択すると、次の複製パラメータが利用可能になります：
+
+- **Count** には、作成するインスタンスの数を設定します。
+- **Angle** には、は回転角度を設定します。
+- **Method** には、インスタンスの分布方法を決定します。**Between** が選択された場合、作成される各インスタンス間の角度は**Angle**の値と等しくなります。**Total** の選択肢は、**Angle** で指定された範囲内で均等な角度でインスタンスが配置されます。
+- **Keep Aspect Ratio** には、アスペクト比を維持してインスタンスを作成するかどうかを設定します。
+
+<img alt="Patch Replicator Radial" src="/images/warping-alignment/animation/Patch-Replicator-Radial.gif" width={800} height={725} loading="lazy" />
+
+## 鏡像配置（Mirror）の複製
+
+この複製を使用すると、映像のX軸またはY軸に沿った鏡像のインスタンスを作成することができます。
+
+**Settings**パネルの **Mode** に **Mirror** を選択し、**Direction** に **Horizontal** または **Vertical** を選択して、鏡像のできる方向を設定します。
+
+<img alt="Patch Replicator Mirr" src="/images/warping-alignment/animation/Patch-Replicator-Mirr.gif" width={800} height={685} loading="lazy" />
+
+**Patch Replicator** ノードを使用する場合は、Patchの共通操作について[Patchの編集](../patch-editor/editing-patches)の章も参照してください。

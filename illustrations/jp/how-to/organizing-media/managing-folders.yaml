@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/jp/how-to/organizing-media/managing-folders.md
+document_id: guide.organizing-media.managing-folders
+language: ja
+document_body_sha256: ddebe817c7aa7db91dcca4850dbee4baed1f9faa0f3ff347835175ab9474558b
+figures:
+  - id: ja-6651117892-001
+    title: Adding Media Library Folders
+    caption: Adding Media Library Folders
+    show: "Adding Media Library Folders. Use the adjacent instructions as the content brief: フォルダを追加するには： フォルダツリーエリアの下部にあるCreate Folderボタンをクリックするか、フォルダのコンテンツエリアで右クリックし、ドロップダウンメニューからAdd Folderを選択します。フォルダ名を入力し、OKボタンをクリックします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: フォルダの追加
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Adding-Media-Library-Folders.gif
+    source_alt: Adding Media Library Folders
+    text_coverage: not-independently-verified
+  - id: ja-6651117892-002
+    title: Deleting Media Library Folders
+    caption: Deleting Media Library Folders
+    show: "Deleting Media Library Folders. Use the adjacent instructions as the content brief: フォルダを削除するには、フォルダ名を右クリックするか、フォルダのコンテンツエリアで右クリックし、ドロップダウンメニューからRemove Folderを選択するかDeleteボタンをクリックしてください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: フォルダの削除
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Deleting-Media-Library-Folders.gif
+    source_alt: Deleting Media Library Folders
+    text_coverage: not-independently-verified
+  - id: ja-6651117892-003
+    title: Renaming Media Library Folders
+    caption: Renaming Media Library Folders
+    show: "Renaming Media Library Folders. Use the adjacent instructions as the content brief: フォルダの名前を変更するには以下の手順を実行してください： フォルダ名を右クリックし、ドロップダウンメニューからRename Folderを選択します。新しいフォルダ名を入力し、OKボタンをクリックします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: フォルダ名の変更
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Renaming-Media-Library-Folders.gif
+    source_alt: Renaming Media Library Folders
+    text_coverage: not-independently-verified
+  - id: ja-6651117892-004
+    title: Arranging Media Library Folders
+    caption: Arranging Media Library Folders
+    show: "Arranging Media Library Folders. Use the adjacent instructions as the content brief: フォルダを整理するには、フォルダツリーエリアでフォルダ名をドラッグアンドドロップしてください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: フォルダの整理
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Arranging-Media-Library-Folders.gif
+    source_alt: Arranging Media Library Folders
+    text_coverage: not-independently-verified

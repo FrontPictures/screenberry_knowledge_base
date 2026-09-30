@@ -1,0 +1,1664 @@
+{
+  "schema_version": 1,
+  "imported_at": "2026-09-30T14:15:19.585Z",
+  "source_revision": "8acf5a3a7526c3013fc44f1dba0b25f88343e745",
+  "source_state": "local-working-tree",
+  "working_tree_changes": [
+    "M public/sitemap-0.xml",
+    "?? docs/screenberry-knowledge-base-proposal.md"
+  ],
+  "documents": 174,
+  "locales": {
+    "en": 90,
+    "jp": 84
+  },
+  "exclusions": [
+    ".env and other environment files",
+    ".git history",
+    ".local private notes",
+    "node_modules",
+    ".next",
+    ".pnpm-store",
+    "public/_pagefind generated search",
+    "untracked package-lock.json",
+    "codegraph.json generated analysis",
+    "*.tsbuildinfo",
+    "All public resource bytes: images, GIF, downloads, fonts and generated public files (text-only policy)"
+  ],
+  "public_assets_storage": "Not bundled at user request. See catalog/external-resources.json for provenance only.",
+  "files": [
+    {
+      "source": ".gitignore",
+      "stored": "archive/site/.gitignore",
+      "bytes": 117,
+      "sha256": "76a5f0c7c981eb8977fa9163a53dce89964e8fa089f61356962fdb3afb35cf43"
+    },
+    {
+      "source": ".prettierrc.json",
+      "stored": "archive/site/.prettierrc.json",
+      "bytes": 117,
+      "sha256": "640388325a5832974c1bd749a143fe6150e4279ddd2f6dddf9c7742771302127"
+    },
+    {
+      "source": "AGENTS.md",
+      "stored": "archive/site/AGENTS.md",
+      "bytes": 8830,
+      "sha256": "0366da6b6c5c6adc2a827aaef35e943e42d08ae0a5255f748875ae8b416e0552"
+    },
+    {
+      "source": "README.md",
+      "stored": "archive/site/README.md",
+      "bytes": 363,
+      "sha256": "fe6ac51d6f691fea9287704ca9dbc985b56af5ecdd19b04bf5ffa08eda542014"
+    },
+    {
+      "source": "app/[lang]/[[...mdxPath]]/page.tsx",
+      "stored": "archive/site/app/[lang]/[[...mdxPath]]/page.tsx",
+      "bytes": 1566,
+      "sha256": "2474550b8021c5026d6780da5efe9f3fe287015315fcf4f5e0e4d1c5c63320ae"
+    },
+    {
+      "source": "app/[lang]/error.tsx",
+      "stored": "archive/site/app/[lang]/error.tsx",
+      "bytes": 591,
+      "sha256": "8af1b510071bc869d2429868dda422c5b2fede08b83e6981a0c579248e36a0ff"
+    },
+    {
+      "source": "app/[lang]/layout.tsx",
+      "stored": "archive/site/app/[lang]/layout.tsx",
+      "bytes": 2851,
+      "sha256": "19faa40a3fefd7287284cdea3b421e45d664322ae5e20c92eb37714ad34144db"
+    },
+    {
+      "source": "app/[lang]/not-found.tsx",
+      "stored": "archive/site/app/[lang]/not-found.tsx",
+      "bytes": 564,
+      "sha256": "14c82e2fc0415aa13514d3332ffed853da8401f4ef1c733d8044c8729142a9eb"
+    },
+    {
+      "source": "components/AppProviders.tsx",
+      "stored": "archive/site/components/AppProviders.tsx",
+      "bytes": 222,
+      "sha256": "6e362c9e9e3e1f51d8d7b2f8e0ff289919b39d7b4d53639fed8e177ef5fd605e"
+    },
+    {
+      "source": "components/CustomBreadcrumbs.tsx",
+      "stored": "archive/site/components/CustomBreadcrumbs.tsx",
+      "bytes": 2407,
+      "sha256": "63ee41b29f60d1ec94f48abd6a539231510aa524e3f95281b8316223d9eeda6d"
+    },
+    {
+      "source": "components/Footer.tsx",
+      "stored": "archive/site/components/Footer.tsx",
+      "bytes": 6913,
+      "sha256": "042fee8995c08017e50e9cbefc2dbaf25d4b81e41f9269b7c97a61f2261209c0"
+    },
+    {
+      "source": "components/Header/components/DesktopMainMenu.tsx",
+      "stored": "archive/site/components/Header/components/DesktopMainMenu.tsx",
+      "bytes": 15160,
+      "sha256": "18859d0f7841ef1f8f622bf9d11a17638a2dc574d21ee1a9b266e32a06c4060f"
+    },
+    {
+      "source": "components/Header/components/SubMenu.tsx",
+      "stored": "archive/site/components/Header/components/SubMenu.tsx",
+      "bytes": 645,
+      "sha256": "1f67c6368a75b08d3c60b0309a840440e64421a5bd25df57282f997e3adda570"
+    },
+    {
+      "source": "components/Header/index.tsx",
+      "stored": "archive/site/components/Header/index.tsx",
+      "bytes": 2721,
+      "sha256": "609efbc6a9685626d5265f8f115e40e0ad3b1853c2f2cb0f1448ca741008cf42"
+    },
+    {
+      "source": "components/Logo.tsx",
+      "stored": "archive/site/components/Logo.tsx",
+      "bytes": 997,
+      "sha256": "a61070eb2dfbd2ffddc36242e8bc79f626fcb6397e44735ff91cd2edd6002903"
+    },
+    {
+      "source": "components/Timestamp.tsx",
+      "stored": "archive/site/components/Timestamp.tsx",
+      "bytes": 1601,
+      "sha256": "dcefbf939e602cf66faca660e6c527f2161d2f090f989c7033793a63d3390e1e"
+    },
+    {
+      "source": "components/TocTitle.tsx",
+      "stored": "archive/site/components/TocTitle.tsx",
+      "bytes": 192,
+      "sha256": "a9861f8caf20bc3e7d2c02047b1daee8c8ddcb3fc19cf633d4c54b05f6dcc356"
+    },
+    {
+      "source": "components/fonts.ts",
+      "stored": "archive/site/components/fonts.ts",
+      "bytes": 523,
+      "sha256": "f805a5dfb99f297dafd1c14ef630c7eac7b13a49ca866813858a15a714776d45"
+    },
+    {
+      "source": "components/legal/PrivacyPolicy.tsx",
+      "stored": "archive/site/components/legal/PrivacyPolicy.tsx",
+      "bytes": 6147,
+      "sha256": "f03350ce9d9257be5fd0d0d699d8b2f8cb6871686a861cfd8852fcb662dd8879"
+    },
+    {
+      "source": "components/legal/TermsAndConditions.tsx",
+      "stored": "archive/site/components/legal/TermsAndConditions.tsx",
+      "bytes": 23665,
+      "sha256": "814b8ed4cf57b8c689bed516c66fbfb91632aac9884e3fedaab7aa98c89aeeba"
+    },
+    {
+      "source": "content/en/3d-scene/3d-camera.mdx",
+      "stored": "archive/site/content/en/3d-scene/3d-camera.mdx",
+      "bytes": 7396,
+      "sha256": "3f58a088691ac3fb803f1dd9cbc8311f55b595552d911359b1628d822545c670"
+    },
+    {
+      "source": "content/en/3d-scene/3d-model.mdx",
+      "stored": "archive/site/content/en/3d-scene/3d-model.mdx",
+      "bytes": 4269,
+      "sha256": "ec97f7235a728c9628a1d0c9c8edf9176725714e60753e9ebd3fa2c484dd498c"
+    },
+    {
+      "source": "content/en/3d-scene/3d-primitive.mdx",
+      "stored": "archive/site/content/en/3d-scene/3d-primitive.mdx",
+      "bytes": 4240,
+      "sha256": "64089bc157ed9660e13ab1a296e548c067832f8f73f65faba38aa8117addbdc6"
+    },
+    {
+      "source": "content/en/3d-scene/3d-scene-settings.mdx",
+      "stored": "archive/site/content/en/3d-scene/3d-scene-settings.mdx",
+      "bytes": 4500,
+      "sha256": "7c43f8347d438517855351d9aff589d5fe397620b25e40d8c5273c5a554f139b"
+    },
+    {
+      "source": "content/en/3d-scene/3d-scene-view-navigation.mdx",
+      "stored": "archive/site/content/en/3d-scene/3d-scene-view-navigation.mdx",
+      "bytes": 5493,
+      "sha256": "ce4e746f3a30fdead8233167bcc52d91ef5e7de15e559f2a55a0977df6449439"
+    },
+    {
+      "source": "content/en/3d-scene/_meta.ts",
+      "stored": "archive/site/content/en/3d-scene/_meta.ts",
+      "bytes": 408,
+      "sha256": "1903dccef44a8e0883f8ffe1684c6cf4c5c07c1314f8043710a59fe9d6ac9083"
+    },
+    {
+      "source": "content/en/3d-scene/creating-3d-scene.mdx",
+      "stored": "archive/site/content/en/3d-scene/creating-3d-scene.mdx",
+      "bytes": 1959,
+      "sha256": "941e197cf86a6eee30120ccc2e54242d1ae9c3b155a6a425df8ad53350320c22"
+    },
+    {
+      "source": "content/en/3d-scene/overview.mdx",
+      "stored": "archive/site/content/en/3d-scene/overview.mdx",
+      "bytes": 1275,
+      "sha256": "03036b96dcc87a7af06547519aab79a98ac6704f8233dbc34ba683c250ea8e11"
+    },
+    {
+      "source": "content/en/3d-scene/projection-mapper.mdx",
+      "stored": "archive/site/content/en/3d-scene/projection-mapper.mdx",
+      "bytes": 8905,
+      "sha256": "2d9d8c9ea92550fe45f735eaf78e5d6cb511a46e5def6356093304b9f56a544c"
+    },
+    {
+      "source": "content/en/3d-scene/working-in-3d-scene.mdx",
+      "stored": "archive/site/content/en/3d-scene/working-in-3d-scene.mdx",
+      "bytes": 6838,
+      "sha256": "cac08f8866b4afdb6e1eac280ea2e0c6ff773c095555c1fad3e8057d2bd03736"
+    },
+    {
+      "source": "content/en/_meta.ts",
+      "stored": "archive/site/content/en/_meta.ts",
+      "bytes": 827,
+      "sha256": "80ea4d4f0e88464d9e85b1762e62933b39a3a36f7545fdbb67b9499f68136c7e"
+    },
+    {
+      "source": "content/en/automatic-calibration/_meta.ts",
+      "stored": "archive/site/content/en/automatic-calibration/_meta.ts",
+      "bytes": 303,
+      "sha256": "6e2ca5113a636f044f281ba90d2dfdd8d365d2952a6c65527596eef292701a9f"
+    },
+    {
+      "source": "content/en/automatic-calibration/automatic-calibration-basics.mdx",
+      "stored": "archive/site/content/en/automatic-calibration/automatic-calibration-basics.mdx",
+      "bytes": 2780,
+      "sha256": "587153e835795ea37f171d60ac59ce93daa3614b44e32ffc852296f56c0bdd56"
+    },
+    {
+      "source": "content/en/automatic-calibration/calibration-process.mdx",
+      "stored": "archive/site/content/en/automatic-calibration/calibration-process.mdx",
+      "bytes": 12028,
+      "sha256": "4a571a6d9dcd8a0835de55568c381166294af50cfd79ffc4b7abd7f1d2546a89"
+    },
+    {
+      "source": "content/en/automatic-calibration/post-calibration.mdx",
+      "stored": "archive/site/content/en/automatic-calibration/post-calibration.mdx",
+      "bytes": 2057,
+      "sha256": "3834b5b66175f4d1ac218a9809b3a368e9f594e16a87bd3bbb0897528ce9b4df"
+    },
+    {
+      "source": "content/en/automatic-calibration/setting-up-calibration-camera.mdx",
+      "stored": "archive/site/content/en/automatic-calibration/setting-up-calibration-camera.mdx",
+      "bytes": 8863,
+      "sha256": "c46ac77baba63a9520293d67fe8dcf9383b7a58901ceb241aff45dba1be43c46"
+    },
+    {
+      "source": "content/en/automatic-calibration/setting-up-projectors.mdx",
+      "stored": "archive/site/content/en/automatic-calibration/setting-up-projectors.mdx",
+      "bytes": 3049,
+      "sha256": "dbc65f6b4ccd1def5e424d86a742b780c31f8c4d2f4431dcba3689a5e467a9e5"
+    },
+    {
+      "source": "content/en/display-editor.mdx",
+      "stored": "archive/site/content/en/display-editor.mdx",
+      "bytes": 12408,
+      "sha256": "ee051c6e51c768bb528671ebd7d8b35480f99bcd1eaa2c82476550c118d84403"
+    },
+    {
+      "source": "content/en/displays-control.mdx",
+      "stored": "archive/site/content/en/displays-control.mdx",
+      "bytes": 14912,
+      "sha256": "7ff5838ecddf077f9ed9d86b90304df86c8401751791d558028f628e06658de0"
+    },
+    {
+      "source": "content/en/getting-started/_meta.ts",
+      "stored": "archive/site/content/en/getting-started/_meta.ts",
+      "bytes": 270,
+      "sha256": "169d29dba2724a8a86614833a009084e8516aa28d1c92d648ea2bdd64a9bf3a9"
+    },
+    {
+      "source": "content/en/getting-started/first-project.mdx",
+      "stored": "archive/site/content/en/getting-started/first-project.mdx",
+      "bytes": 3947,
+      "sha256": "d66a9973ddaddc0175b3a474b244538803c22290b3e33688605ac7e1960726ae"
+    },
+    {
+      "source": "content/en/getting-started/hardware.mdx",
+      "stored": "archive/site/content/en/getting-started/hardware.mdx",
+      "bytes": 4425,
+      "sha256": "0819ae8e75b6c0f7c60da19a2a7dc2a65767de177a7b7536c4ae5a2aa1d99767"
+    },
+    {
+      "source": "content/en/getting-started/licensing.mdx",
+      "stored": "archive/site/content/en/getting-started/licensing.mdx",
+      "bytes": 5937,
+      "sha256": "fa6a8da6a01fdb6efec704d532a75dc3a97b996e0ca56b6bc444ea3facc5f2df"
+    },
+    {
+      "source": "content/en/getting-started/platform-compatibility.mdx",
+      "stored": "archive/site/content/en/getting-started/platform-compatibility.mdx",
+      "bytes": 3049,
+      "sha256": "21761016ab6aa9714875f02b0d44399c7f3ab2432a35c3c8184f87b7cde83d6c"
+    },
+    {
+      "source": "content/en/getting-started/screenberry-overview.mdx",
+      "stored": "archive/site/content/en/getting-started/screenberry-overview.mdx",
+      "bytes": 1614,
+      "sha256": "2fa085c656acfaceb79ca6c465ab8c2bcb48501ae2e6c1c23c9775c3fc7ec408"
+    },
+    {
+      "source": "content/en/getting-started/software.mdx",
+      "stored": "archive/site/content/en/getting-started/software.mdx",
+      "bytes": 2794,
+      "sha256": "2a042c032181fb04937971fc1a6d3149fea35d549805e4f9ff31a5b537ce68d0"
+    },
+    {
+      "source": "content/en/index.mdx",
+      "stored": "archive/site/content/en/index.mdx",
+      "bytes": 2318,
+      "sha256": "4890ebb159a1aae13c4ee4ac0afe5d3b1f8d96f8806828608547e1f7a1507119"
+    },
+    {
+      "source": "content/en/integration-control/_meta.ts",
+      "stored": "archive/site/content/en/integration-control/_meta.ts",
+      "bytes": 74,
+      "sha256": "b98bc35f9df9c7bc87b951a3b7c9a38a697b855a48fb80b30a2ba413e4a4156d"
+    },
+    {
+      "source": "content/en/integration-control/screenberry-json-api.mdx",
+      "stored": "archive/site/content/en/integration-control/screenberry-json-api.mdx",
+      "bytes": 30413,
+      "sha256": "17399361ba96a8c8285e96d44e78c4380f789744368d9afce35a1787928656d8"
+    },
+    {
+      "source": "content/en/media-playback/_meta.ts",
+      "stored": "archive/site/content/en/media-playback/_meta.ts",
+      "bytes": 177,
+      "sha256": "6cb35332a10ef6e8cee688e835ea0411fb34d598bc5403acae5ed5fdae0a900d"
+    },
+    {
+      "source": "content/en/media-playback/matrix-based-playlists/_meta.ts",
+      "stored": "archive/site/content/en/media-playback/matrix-based-playlists/_meta.ts",
+      "bytes": 269,
+      "sha256": "4a41090a30ded8fb6b94175899f74ec3eb1e98998362dcd4083249d8a19ef1a9"
+    },
+    {
+      "source": "content/en/media-playback/matrix-based-playlists/adding-organizing-media-items.mdx",
+      "stored": "archive/site/content/en/media-playback/matrix-based-playlists/adding-organizing-media-items.mdx",
+      "bytes": 14078,
+      "sha256": "22f16697d68a11e0aca0cfc6f74b7e2cfd0cdc3560ecfc3eda1816f70e488188"
+    },
+    {
+      "source": "content/en/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.mdx",
+      "stored": "archive/site/content/en/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.mdx",
+      "bytes": 2211,
+      "sha256": "eba85e8aa105a5705dfaae2a09238db28afbbe9e931a9ed467cbe90079b4c237"
+    },
+    {
+      "source": "content/en/media-playback/matrix-based-playlists/managing-playlists.mdx",
+      "stored": "archive/site/content/en/media-playback/matrix-based-playlists/managing-playlists.mdx",
+      "bytes": 4478,
+      "sha256": "c0c64ce2cd87808997ee73e33628e683417cccb9487ee89108ae373c939ae2fa"
+    },
+    {
+      "source": "content/en/media-playback/matrix-based-playlists/overview.mdx",
+      "stored": "archive/site/content/en/media-playback/matrix-based-playlists/overview.mdx",
+      "bytes": 2873,
+      "sha256": "633466fa2c25e961a4bb69515789bd89b2d6339bac1b6ff0b2516f4ac3281de5"
+    },
+    {
+      "source": "content/en/media-playback/matrix-based-playlists/playback.mdx",
+      "stored": "archive/site/content/en/media-playback/matrix-based-playlists/playback.mdx",
+      "bytes": 8649,
+      "sha256": "91f8af8dc531104ad883e142c5a260aed7bf8fd8bd292c5bd54a1cfecffd3607"
+    },
+    {
+      "source": "content/en/media-playback/media-player/_meta.ts",
+      "stored": "archive/site/content/en/media-playback/media-player/_meta.ts",
+      "bytes": 119,
+      "sha256": "75fce30ee324a5530a40c961ab672bdde017f16f55f3216dfb189ab27ab91c68"
+    },
+    {
+      "source": "content/en/media-playback/media-player/media-player-global-settings.mdx",
+      "stored": "archive/site/content/en/media-playback/media-player/media-player-global-settings.mdx",
+      "bytes": 2820,
+      "sha256": "f364c8fff9bd04ccb83c8fa19e64e3de2ee8a89f2c3e968995fec7ad520b82a7"
+    },
+    {
+      "source": "content/en/media-playback/media-player/media-player-overview.mdx",
+      "stored": "archive/site/content/en/media-playback/media-player/media-player-overview.mdx",
+      "bytes": 2967,
+      "sha256": "11ce5eb924451b0557ad99b589fb80ae7e02683e9711ae22b4112ec8f21796c4"
+    },
+    {
+      "source": "content/en/media-playback/playlists/_meta.ts",
+      "stored": "archive/site/content/en/media-playback/playlists/_meta.ts",
+      "bytes": 342,
+      "sha256": "8a1193f0be1007cdd7e82954ffab213075138000d1775d1ae2a107f1d8cf9184"
+    },
+    {
+      "source": "content/en/media-playback/playlists/creating-managing-playlists.mdx",
+      "stored": "archive/site/content/en/media-playback/playlists/creating-managing-playlists.mdx",
+      "bytes": 4853,
+      "sha256": "34e718f1730666c9f2c58f57ed3624c278014aedd7f48ce74c7d1c9658d6316d"
+    },
+    {
+      "source": "content/en/media-playback/playlists/media-item-properties.mdx",
+      "stored": "archive/site/content/en/media-playback/playlists/media-item-properties.mdx",
+      "bytes": 27203,
+      "sha256": "7cbd7f8be587d49668c35b5317ec7a831a46734e44111541ca1baff6e69449a6"
+    },
+    {
+      "source": "content/en/media-playback/playlists/organizing-media-items-in-playlists.mdx",
+      "stored": "archive/site/content/en/media-playback/playlists/organizing-media-items-in-playlists.mdx",
+      "bytes": 8890,
+      "sha256": "62aef9d413536511fd264478e16f93eae6d405530c3e4a1ad25e7c67c2a77b74"
+    },
+    {
+      "source": "content/en/media-playback/playlists/playlists-playback.mdx",
+      "stored": "archive/site/content/en/media-playback/playlists/playlists-playback.mdx",
+      "bytes": 11332,
+      "sha256": "796d175829a67867a07399f2c52722632e1fe6e606be43121176aeeaaa1cc792"
+    },
+    {
+      "source": "content/en/media-playback/playlists/transformation-properties.mdx",
+      "stored": "archive/site/content/en/media-playback/playlists/transformation-properties.mdx",
+      "bytes": 9552,
+      "sha256": "3fcb0a805551517857cf30aeaf9955da54938f8b875ab6f827dfa2fd00c9c77b"
+    },
+    {
+      "source": "content/en/media-playback/timelines/_meta.ts",
+      "stored": "archive/site/content/en/media-playback/timelines/_meta.ts",
+      "bytes": 370,
+      "sha256": "fc789b6933e31320ad25df5bc28a5fd419d1a721061a1e66f310eceac8e62fa9"
+    },
+    {
+      "source": "content/en/media-playback/timelines/animation-and-keyframing.mdx",
+      "stored": "archive/site/content/en/media-playback/timelines/animation-and-keyframing.mdx",
+      "bytes": 7591,
+      "sha256": "dd62d3df33087aad1ca595189e0b7d80ade0abc4f8199cfe1713390c149452e0"
+    },
+    {
+      "source": "content/en/media-playback/timelines/creating-managing-timelines.mdx",
+      "stored": "archive/site/content/en/media-playback/timelines/creating-managing-timelines.mdx",
+      "bytes": 5933,
+      "sha256": "3fbf9eb8bdabd39621eb0562b301e8bd50ec2dcaeb38d4d294f36b54c75141a9"
+    },
+    {
+      "source": "content/en/media-playback/timelines/organizing-media-in-timelines.mdx",
+      "stored": "archive/site/content/en/media-playback/timelines/organizing-media-in-timelines.mdx",
+      "bytes": 14392,
+      "sha256": "646b9d0daad22f0fae435f241ba585fedecb64953d9578b58f57295abf6ce89e"
+    },
+    {
+      "source": "content/en/media-playback/timelines/timeline-markers.mdx",
+      "stored": "archive/site/content/en/media-playback/timelines/timeline-markers.mdx",
+      "bytes": 8421,
+      "sha256": "c5b17d33ce7f91fd781e8f547ab65040d94a0001ca2700ba274b95bb0612667b"
+    },
+    {
+      "source": "content/en/media-playback/timelines/timeline-playback.mdx",
+      "stored": "archive/site/content/en/media-playback/timelines/timeline-playback.mdx",
+      "bytes": 3377,
+      "sha256": "a8ea1e19c3936d1ce038d032c9392dadf5695eee40a782dad4315b7098464d44"
+    },
+    {
+      "source": "content/en/media-playback/timelines/timeline-view.mdx",
+      "stored": "archive/site/content/en/media-playback/timelines/timeline-view.mdx",
+      "bytes": 5989,
+      "sha256": "98764825992983b7beb83814090d14d74a51df1fde55f57eb2d814df7202db72"
+    },
+    {
+      "source": "content/en/node-reference/_meta.ts",
+      "stored": "archive/site/content/en/node-reference/_meta.ts",
+      "bytes": 140,
+      "sha256": "a9e0bb4bb538e5ae045efa208cf5299cd4ff6f50c95b11184904fafacda30fc3"
+    },
+    {
+      "source": "content/en/node-reference/integration-nodes/_meta.ts",
+      "stored": "archive/site/content/en/node-reference/integration-nodes/_meta.ts",
+      "bytes": 98,
+      "sha256": "426e053826645ca0c4d52121fee397e567005b2f21a8b84f852c0dba047b701c"
+    },
+    {
+      "source": "content/en/node-reference/integration-nodes/notchplayback.mdx",
+      "stored": "archive/site/content/en/node-reference/integration-nodes/notchplayback.mdx",
+      "bytes": 3190,
+      "sha256": "a58234236f74309f63a62286473259042a121bf6d6040ee91a1c21b9399d0e44"
+    },
+    {
+      "source": "content/en/node-reference/integration-nodes/touchengine.mdx",
+      "stored": "archive/site/content/en/node-reference/integration-nodes/touchengine.mdx",
+      "bytes": 3214,
+      "sha256": "c3234a7dcd1f6ab32ae0ec79d286ed9db18d99a687d0c411b3225e306c56a4d6"
+    },
+    {
+      "source": "content/en/node-reference/nodes.mdx",
+      "stored": "archive/site/content/en/node-reference/nodes.mdx",
+      "bytes": 77230,
+      "sha256": "918b3410a6fc7de83c4b7df7746453b99ed4edf0879b62ebbc827c689e03cded"
+    },
+    {
+      "source": "content/en/node-reference/primary-nodes/_meta.ts",
+      "stored": "archive/site/content/en/node-reference/primary-nodes/_meta.ts",
+      "bytes": 170,
+      "sha256": "0da551a3d3386f59fb2993f7b4af6a15da728c9731f1059983fef36e64063c84"
+    },
+    {
+      "source": "content/en/node-reference/primary-nodes/canvas.mdx",
+      "stored": "archive/site/content/en/node-reference/primary-nodes/canvas.mdx",
+      "bytes": 22510,
+      "sha256": "6efdbc926254e98412e043e1629061a15671f2e0fe1377132dc9c4e5b92edaeb"
+    },
+    {
+      "source": "content/en/node-reference/primary-nodes/display.mdx",
+      "stored": "archive/site/content/en/node-reference/primary-nodes/display.mdx",
+      "bytes": 5251,
+      "sha256": "0ba4e7c7de0f432aa73b130d89f3c75b04cc0da640137260f0b6cc609f72b358"
+    },
+    {
+      "source": "content/en/node-reference/primary-nodes/info.mdx",
+      "stored": "archive/site/content/en/node-reference/primary-nodes/info.mdx",
+      "bytes": 3048,
+      "sha256": "a6a78b20072aa351e37e5943866575edac3e1471f324c3e611c55628cd2966b5"
+    },
+    {
+      "source": "content/en/node-reference/primary-nodes/mediaplayer.mdx",
+      "stored": "archive/site/content/en/node-reference/primary-nodes/mediaplayer.mdx",
+      "bytes": 39798,
+      "sha256": "c9803b122f0519ae202ad3ff8bc54031755ee3571b00b5cebd5489f974ebdf45"
+    },
+    {
+      "source": "content/en/node-reference/primary-nodes/rendertarget.mdx",
+      "stored": "archive/site/content/en/node-reference/primary-nodes/rendertarget.mdx",
+      "bytes": 6030,
+      "sha256": "71f0fac494d4b45021660d674de1a5d25fac6e2618a8a4be504f90aaffc1e36e"
+    },
+    {
+      "source": "content/en/organizing-media/_meta.ts",
+      "stored": "archive/site/content/en/organizing-media/_meta.ts",
+      "bytes": 178,
+      "sha256": "6120ac94b7f54ffe711dbf148f70d2a5f1a32f87baf7d3f15706f75045493c82"
+    },
+    {
+      "source": "content/en/organizing-media/managing-folders.mdx",
+      "stored": "archive/site/content/en/organizing-media/managing-folders.mdx",
+      "bytes": 1996,
+      "sha256": "9d81826a6b769af680c256849285e876ba83a028c073b02cc0efe08644142a02"
+    },
+    {
+      "source": "content/en/organizing-media/managing-media-items.mdx",
+      "stored": "archive/site/content/en/organizing-media/managing-media-items.mdx",
+      "bytes": 4225,
+      "sha256": "e506b2c377d1a59c1135d29307379cbe3a8d299e88f206f1671775ea33a75ad1"
+    },
+    {
+      "source": "content/en/organizing-media/media-library-overview.mdx",
+      "stored": "archive/site/content/en/organizing-media/media-library-overview.mdx",
+      "bytes": 1738,
+      "sha256": "8c3c483eb362f362e897744249c5e97026b46dae857892b1f1b3d67e1e393e19"
+    },
+    {
+      "source": "content/en/patch-editor/_meta.ts",
+      "stored": "archive/site/content/en/patch-editor/_meta.ts",
+      "bytes": 182,
+      "sha256": "3afcdbbcf2303dd3ef0422f38b111cce79aa447203ddb31b5cd55c8cca6e5aca"
+    },
+    {
+      "source": "content/en/patch-editor/adding-and-managing-patches.mdx",
+      "stored": "archive/site/content/en/patch-editor/adding-and-managing-patches.mdx",
+      "bytes": 1368,
+      "sha256": "34296cad7b0602fc1e4a03e17f5792a2f1b1632fd6929b7662ee59969a8306d9"
+    },
+    {
+      "source": "content/en/patch-editor/editing-patches.mdx",
+      "stored": "archive/site/content/en/patch-editor/editing-patches.mdx",
+      "bytes": 32127,
+      "sha256": "e68ba27cefff67ea003d91f7ce9d79ac642f185ebb50ef82cd1dab0fef843a80"
+    },
+    {
+      "source": "content/en/patch-editor/patch-editor-basics.mdx",
+      "stored": "archive/site/content/en/patch-editor/patch-editor-basics.mdx",
+      "bytes": 4300,
+      "sha256": "13a6d2774daa92f4f72d2605d70bac6f0fca8446f229ca57adbd8e5dde03c35a"
+    },
+    {
+      "source": "content/en/privacy-policy.mdx",
+      "stored": "archive/site/content/en/privacy-policy.mdx",
+      "bytes": 236,
+      "sha256": "47902ea0907a1545d742f7a486ff463c9ea497608d1d4d69c9771a5ad28acca7"
+    },
+    {
+      "source": "content/en/terms-and-conditions.mdx",
+      "stored": "archive/site/content/en/terms-and-conditions.mdx",
+      "bytes": 237,
+      "sha256": "2d624112ce7be27640327aa1447eb13edfcc32497685ab230b9cf272e35428f6"
+    },
+    {
+      "source": "content/en/warping-alignment/_meta.ts",
+      "stored": "archive/site/content/en/warping-alignment/_meta.ts",
+      "bytes": 549,
+      "sha256": "099074079e6516dffc0fe31ba9749a02626f8a938b78314245a9e31f5dd29c69"
+    },
+    {
+      "source": "content/en/warping-alignment/bezierwarp.mdx",
+      "stored": "archive/site/content/en/warping-alignment/bezierwarp.mdx",
+      "bytes": 2562,
+      "sha256": "93cdb21d4ef78c9cc4e291fb003ef6839cff97b98fd64f297588f80660efd13e"
+    },
+    {
+      "source": "content/en/warping-alignment/dometransform.mdx",
+      "stored": "archive/site/content/en/warping-alignment/dometransform.mdx",
+      "bytes": 3140,
+      "sha256": "496c119edb8188f3cd03df7c5e67be2d46eaa1180670a7cc71949376432f85a6"
+    },
+    {
+      "source": "content/en/warping-alignment/latlongtodome.mdx",
+      "stored": "archive/site/content/en/warping-alignment/latlongtodome.mdx",
+      "bytes": 3333,
+      "sha256": "072d762416fde1e58e2bc6908843743b034480e3e93e279017e37c03eebf20c8"
+    },
+    {
+      "source": "content/en/warping-alignment/ledstripesmapper.mdx",
+      "stored": "archive/site/content/en/warping-alignment/ledstripesmapper.mdx",
+      "bytes": 3249,
+      "sha256": "c247c02f8fc4fc5a624e3bd370c9069d9a8a3229ab789253a32e9bfdb806ce4d"
+    },
+    {
+      "source": "content/en/warping-alignment/mask.mdx",
+      "stored": "archive/site/content/en/warping-alignment/mask.mdx",
+      "bytes": 3347,
+      "sha256": "7a52c4e82cf7effedaaf9045fad12905c9594d0cbe347b72f5f351aa540fb19a"
+    },
+    {
+      "source": "content/en/warping-alignment/overview.mdx",
+      "stored": "archive/site/content/en/warping-alignment/overview.mdx",
+      "bytes": 986,
+      "sha256": "b1aabdee0e3bdc952d0a3a130c9c87af0930b9be7e95e079cb1a9b50c7b55cf7"
+    },
+    {
+      "source": "content/en/warping-alignment/patchreplicator.mdx",
+      "stored": "archive/site/content/en/warping-alignment/patchreplicator.mdx",
+      "bytes": 3768,
+      "sha256": "889765e2a784fe7b84df5d75237f932318c7d5c2d1f372fd65202138c0c963fb"
+    },
+    {
+      "source": "content/en/warping-alignment/planartodome.mdx",
+      "stored": "archive/site/content/en/warping-alignment/planartodome.mdx",
+      "bytes": 2195,
+      "sha256": "19474f1650fc18d10d2c3fdd9fe26cd79b2ba34a21d82449f171b054499152bc"
+    },
+    {
+      "source": "content/en/warping-alignment/quadgrid.mdx",
+      "stored": "archive/site/content/en/warping-alignment/quadgrid.mdx",
+      "bytes": 3238,
+      "sha256": "91ce00720be83e3bf41728f82c0d0574edbccbc9200bb5547e8dc8bf47cfbb1b"
+    },
+    {
+      "source": "content/en/warping-alignment/quadwarp.mdx",
+      "stored": "archive/site/content/en/warping-alignment/quadwarp.mdx",
+      "bytes": 1586,
+      "sha256": "4087f44aac725396fbd13db137571b02e4679103b72c65cabff4875a99b4eb0b"
+    },
+    {
+      "source": "content/en/warping-alignment/rectangle.mdx",
+      "stored": "archive/site/content/en/warping-alignment/rectangle.mdx",
+      "bytes": 2290,
+      "sha256": "b76fd5c65d4e5314926d41392ffbeeed3c0e7e8529711567f3374d6f1725bf03"
+    },
+    {
+      "source": "content/en/warping-alignment/softedgeblender.mdx",
+      "stored": "archive/site/content/en/warping-alignment/softedgeblender.mdx",
+      "bytes": 2525,
+      "sha256": "82cc3ed89ec245d98ef92d314de802c39db8c8685cedf5a72db8b48efd80a81b"
+    },
+    {
+      "source": "content/en/warping-alignment/transform2d.mdx",
+      "stored": "archive/site/content/en/warping-alignment/transform2d.mdx",
+      "bytes": 3083,
+      "sha256": "5c96df1e7dfc37b79d38349fb5d50ef44af151e0c1f9304e736522ba3389890e"
+    },
+    {
+      "source": "content/en/warping-alignment/trianglemesh.mdx",
+      "stored": "archive/site/content/en/warping-alignment/trianglemesh.mdx",
+      "bytes": 2368,
+      "sha256": "1f00545f69cfcabe8e6746120f020c59b60240db9c58f9778524dde6e19a8409"
+    },
+    {
+      "source": "content/en/warping-alignment/xgrid.mdx",
+      "stored": "archive/site/content/en/warping-alignment/xgrid.mdx",
+      "bytes": 1670,
+      "sha256": "43bc325472ec948b51dde4da42f7c983bce51570206ec6810f0b4d1997a423c9"
+    },
+    {
+      "source": "content/en/web-panel.mdx",
+      "stored": "archive/site/content/en/web-panel.mdx",
+      "bytes": 8516,
+      "sha256": "2b268f3da506df92b007a9bb76c3f882bf1c731b8a9241284dafc1efdf4ccb9c"
+    },
+    {
+      "source": "content/en/whats-new/_meta.ts",
+      "stored": "archive/site/content/en/whats-new/_meta.ts",
+      "bytes": 641,
+      "sha256": "5a6a50a67ded3d851f59ca1f80d69dc5c66145c13c7b905a610e9edfd8704765"
+    },
+    {
+      "source": "content/en/whats-new/earlier-release-notes.mdx",
+      "stored": "archive/site/content/en/whats-new/earlier-release-notes.mdx",
+      "bytes": 707,
+      "sha256": "961005179907582b695f8cb092a8086fc616e77b4f5a0d3598a83716ac828494"
+    },
+    {
+      "source": "content/en/whats-new/release-notes-2-6-0.mdx",
+      "stored": "archive/site/content/en/whats-new/release-notes-2-6-0.mdx",
+      "bytes": 21461,
+      "sha256": "b538605b27d814bbf8eed1356c684d1e96a425d79f619e8b72393d8a584493e7"
+    },
+    {
+      "source": "content/en/whats-new/release-notes-2-7-0.mdx",
+      "stored": "archive/site/content/en/whats-new/release-notes-2-7-0.mdx",
+      "bytes": 14687,
+      "sha256": "b5bd771cbca879900b6db2325c67d0374639c99827078192474966c1ec093d3a"
+    },
+    {
+      "source": "content/en/whats-new/release-notes-2-8-0.mdx",
+      "stored": "archive/site/content/en/whats-new/release-notes-2-8-0.mdx",
+      "bytes": 13843,
+      "sha256": "558d1794e22c007bb2890131fbb01dc586eb4cb5dc7692576b01f66bf368f662"
+    },
+    {
+      "source": "content/en/whats-new/release-notes-2-9-0.mdx",
+      "stored": "archive/site/content/en/whats-new/release-notes-2-9-0.mdx",
+      "bytes": 11331,
+      "sha256": "b3dd991958c0b2b69c8faf03ef1de93939265af9e7d853e101e004bfda4c35c2"
+    },
+    {
+      "source": "content/en/whats-new/release-notes-3-0-0.mdx",
+      "stored": "archive/site/content/en/whats-new/release-notes-3-0-0.mdx",
+      "bytes": 16645,
+      "sha256": "2c3819d18acd42fc45a978b8445a4320b116ed504ae9352136f6e3521b9e44dd"
+    },
+    {
+      "source": "content/en/whats-new/release-notes-3-1-0.mdx",
+      "stored": "archive/site/content/en/whats-new/release-notes-3-1-0.mdx",
+      "bytes": 31109,
+      "sha256": "0a5790377ac40da9ad61ab15b3eeaf18feb7b47493ff758dcadf44647ca75ab4"
+    },
+    {
+      "source": "content/en/whats-new/release-notes-3-2-0.mdx",
+      "stored": "archive/site/content/en/whats-new/release-notes-3-2-0.mdx",
+      "bytes": 23607,
+      "sha256": "ae8e8e3a163796fdd6b8468b74cdf9f8df9427c67c51a8e34654967e362dd419"
+    },
+    {
+      "source": "content/en/whats-new/release-notes-3-3.mdx",
+      "stored": "archive/site/content/en/whats-new/release-notes-3-3.mdx",
+      "bytes": 28363,
+      "sha256": "8d3fedc47e78ac0b2af0eea80d2c33e34c17ac2ef7294952f90fe1d057061a6b"
+    },
+    {
+      "source": "content/en/whats-new/release-notes-3-4.mdx",
+      "stored": "archive/site/content/en/whats-new/release-notes-3-4.mdx",
+      "bytes": 36919,
+      "sha256": "180f26b66756e4474fef02d45b62585662b341fec0490d0cf1a62a6b904d3a84"
+    },
+    {
+      "source": "content/en/working-with-audio.mdx",
+      "stored": "archive/site/content/en/working-with-audio.mdx",
+      "bytes": 10530,
+      "sha256": "4d847ad053ad93d2c3ddd0616cb01b55a7e721b449a88b3d884ad607e799adb0"
+    },
+    {
+      "source": "content/en/working-with-nodes/_meta.ts",
+      "stored": "archive/site/content/en/working-with-nodes/_meta.ts",
+      "bytes": 292,
+      "sha256": "d2042a0584047785887bde16d343f127623cc827c3789b84c192854b8335fcb8"
+    },
+    {
+      "source": "content/en/working-with-nodes/adding-and-managing-nodes.mdx",
+      "stored": "archive/site/content/en/working-with-nodes/adding-and-managing-nodes.mdx",
+      "bytes": 7022,
+      "sha256": "ce2db025efbaa2df66d18678487285e327d7e1ecc082a964e4769aba067c8869"
+    },
+    {
+      "source": "content/en/working-with-nodes/linking-nodes.mdx",
+      "stored": "archive/site/content/en/working-with-nodes/linking-nodes.mdx",
+      "bytes": 4548,
+      "sha256": "5d2a0e41ae82b06eda6fe6c2941eee7655647c7d5b3285f6b0a9b4a7a4b5b307"
+    },
+    {
+      "source": "content/en/working-with-nodes/navigation-and-monitoring.mdx",
+      "stored": "archive/site/content/en/working-with-nodes/navigation-and-monitoring.mdx",
+      "bytes": 5630,
+      "sha256": "60606cbbcd67c7b760b26ebec743a289cb714b591eac3f58faafc48057cb7b0d"
+    },
+    {
+      "source": "content/en/working-with-nodes/node-basics.mdx",
+      "stored": "archive/site/content/en/working-with-nodes/node-basics.mdx",
+      "bytes": 5140,
+      "sha256": "1c68c6bac81430c5bf8a77be738b5a6cc3d0c62fda32b9ec0a94c88ed1d85b37"
+    },
+    {
+      "source": "content/en/working-with-nodes/node-parameters-and-settings.mdx",
+      "stored": "archive/site/content/en/working-with-nodes/node-parameters-and-settings.mdx",
+      "bytes": 5016,
+      "sha256": "211d6dfa71328b453a079aff547c77280c849cf2fb5f70db3192a2b6cdf683c5"
+    },
+    {
+      "source": "content/jp/3d-scene/3d-camera.mdx",
+      "stored": "archive/site/content/jp/3d-scene/3d-camera.mdx",
+      "bytes": 8862,
+      "sha256": "f920f185fdef3e564421cb77722d648c7ed77a8a34e5f6f328974d319116afb4"
+    },
+    {
+      "source": "content/jp/3d-scene/3d-model.mdx",
+      "stored": "archive/site/content/jp/3d-scene/3d-model.mdx",
+      "bytes": 5276,
+      "sha256": "855e4670f3e1e12e1bdb2b99b81c56c45ea2150cb693a081442f7be89032e481"
+    },
+    {
+      "source": "content/jp/3d-scene/3d-primitive.mdx",
+      "stored": "archive/site/content/jp/3d-scene/3d-primitive.mdx",
+      "bytes": 5434,
+      "sha256": "842aca2bf76df8b821860c0d09ac844f8b996a167c668e0b5282b46f0144a068"
+    },
+    {
+      "source": "content/jp/3d-scene/3d-scene-settings.mdx",
+      "stored": "archive/site/content/jp/3d-scene/3d-scene-settings.mdx",
+      "bytes": 5606,
+      "sha256": "ffd6a848b251d456533a21eab43b5284a93188bbc9e434d4245eeed79c3ec2be"
+    },
+    {
+      "source": "content/jp/3d-scene/3d-scene-view-navigation.mdx",
+      "stored": "archive/site/content/jp/3d-scene/3d-scene-view-navigation.mdx",
+      "bytes": 6900,
+      "sha256": "4f0e8a5fc8ad01c720ce552ee66b7f726d905faa14ced009f37f9401131c716d"
+    },
+    {
+      "source": "content/jp/3d-scene/_meta.ts",
+      "stored": "archive/site/content/jp/3d-scene/_meta.ts",
+      "bytes": 454,
+      "sha256": "f832b3e95d6322d3369434d836de7419d19f3d892d4aab656800e640f6fc0b28"
+    },
+    {
+      "source": "content/jp/3d-scene/creating-3d-scene.mdx",
+      "stored": "archive/site/content/jp/3d-scene/creating-3d-scene.mdx",
+      "bytes": 2584,
+      "sha256": "eb6129aac6beae7e7f33b2b342f2efb4eed95f7031cf46cc6a7ce07758491518"
+    },
+    {
+      "source": "content/jp/3d-scene/overview.mdx",
+      "stored": "archive/site/content/jp/3d-scene/overview.mdx",
+      "bytes": 1509,
+      "sha256": "0c2ea6ce4f14b2e0c7400827a3b2cdc72f99958a6beca38b8297b331e6203909"
+    },
+    {
+      "source": "content/jp/3d-scene/projection-mapper.mdx",
+      "stored": "archive/site/content/jp/3d-scene/projection-mapper.mdx",
+      "bytes": 10824,
+      "sha256": "167e813df9e635f2c1f55205e4dfb717d49493ac4d8e39c0347797469de87983"
+    },
+    {
+      "source": "content/jp/3d-scene/working-in-3d-scene.mdx",
+      "stored": "archive/site/content/jp/3d-scene/working-in-3d-scene.mdx",
+      "bytes": 9460,
+      "sha256": "e7322513b4bbbf5557db79c85f859b24a925af89c8af3eb9a9bbd22dca577898"
+    },
+    {
+      "source": "content/jp/_meta.ts",
+      "stored": "archive/site/content/jp/_meta.ts",
+      "bytes": 862,
+      "sha256": "6e843d4cb61f915cf3914372f4d075aeaf8cb3a909557d7a35cab0fc8b0a0f28"
+    },
+    {
+      "source": "content/jp/automatic-calibration/_meta.ts",
+      "stored": "archive/site/content/jp/automatic-calibration/_meta.ts",
+      "bytes": 379,
+      "sha256": "97e6cbddf9eee36f9b82f4f41c269789090a0f29539e2e053401158e032c69f7"
+    },
+    {
+      "source": "content/jp/automatic-calibration/automatic-calibration-basics.mdx",
+      "stored": "archive/site/content/jp/automatic-calibration/automatic-calibration-basics.mdx",
+      "bytes": 3510,
+      "sha256": "5576ea1e3e3c420826ce451ec0d4d0c41f51992399d143a72aaa41564c982ea3"
+    },
+    {
+      "source": "content/jp/automatic-calibration/calibration-process.mdx",
+      "stored": "archive/site/content/jp/automatic-calibration/calibration-process.mdx",
+      "bytes": 14535,
+      "sha256": "a64a79b53c8a52c002d8a64d7874af56ced4f2b534d0abc7799315b0dc71e90c"
+    },
+    {
+      "source": "content/jp/automatic-calibration/post-calibration.mdx",
+      "stored": "archive/site/content/jp/automatic-calibration/post-calibration.mdx",
+      "bytes": 2760,
+      "sha256": "b1cc6cd819d8c005c79f5faac1d8b4aadb3fa6b91ca658fdb9e7aa10317bc57b"
+    },
+    {
+      "source": "content/jp/automatic-calibration/setting-up-calibration-camera.mdx",
+      "stored": "archive/site/content/jp/automatic-calibration/setting-up-calibration-camera.mdx",
+      "bytes": 9978,
+      "sha256": "d47eed675d6a2bb4cdeee7a70f25d3804d3cd7633caf1c5eff6b5407143f70e5"
+    },
+    {
+      "source": "content/jp/automatic-calibration/setting-up-projectors.mdx",
+      "stored": "archive/site/content/jp/automatic-calibration/setting-up-projectors.mdx",
+      "bytes": 4124,
+      "sha256": "bd1b526741cf7cade3a4784d9476a6d235babeefe23d3febd261a61602acd25f"
+    },
+    {
+      "source": "content/jp/display-editor.mdx",
+      "stored": "archive/site/content/jp/display-editor.mdx",
+      "bytes": 14732,
+      "sha256": "fc34836965c92da2bf8a424ae1b149876bd0ef2f5911b7da19fe027606fcdf8f"
+    },
+    {
+      "source": "content/jp/getting-started/_meta.ts",
+      "stored": "archive/site/content/jp/getting-started/_meta.ts",
+      "bytes": 181,
+      "sha256": "a7eaf733da44728b7d02070747b17cb7c2e4995ffcc9f1f61deafedf609e7fe2"
+    },
+    {
+      "source": "content/jp/getting-started/hardware.mdx",
+      "stored": "archive/site/content/jp/getting-started/hardware.mdx",
+      "bytes": 7321,
+      "sha256": "bc8db877f997b504340ebf394394563e91cc6b01b548b6843311f199d9ff0ce4"
+    },
+    {
+      "source": "content/jp/getting-started/screenberry-overview.mdx",
+      "stored": "archive/site/content/jp/getting-started/screenberry-overview.mdx",
+      "bytes": 1925,
+      "sha256": "429537ec1535fafc178fa390dc7bc5e8baace2c761c89b43f73383d8e5d1001c"
+    },
+    {
+      "source": "content/jp/getting-started/software.mdx",
+      "stored": "archive/site/content/jp/getting-started/software.mdx",
+      "bytes": 3073,
+      "sha256": "fdcff5f4548747af8308c015dc12fb95b04d3b76d8140a675c38bda538e4339b"
+    },
+    {
+      "source": "content/jp/index.mdx",
+      "stored": "archive/site/content/jp/index.mdx",
+      "bytes": 3205,
+      "sha256": "c5eca6c242e7b3eb806cc454d945cb58e1bc07b06f82ec12420b199b1ba03f82"
+    },
+    {
+      "source": "content/jp/integration-control/_meta.ts",
+      "stored": "archive/site/content/jp/integration-control/_meta.ts",
+      "bytes": 72,
+      "sha256": "ce29f9378b9192f6590cf9030b203e1d352a0c4a3415c634ff62c83bc4c71f62"
+    },
+    {
+      "source": "content/jp/integration-control/screenberry-json-api.mdx",
+      "stored": "archive/site/content/jp/integration-control/screenberry-json-api.mdx",
+      "bytes": 31804,
+      "sha256": "af0e9699cefd93b0a6a33da2891ebe8f7d5eec4eb5f14927fdef15257fb49e4b"
+    },
+    {
+      "source": "content/jp/media-playback/_meta.ts",
+      "stored": "archive/site/content/jp/media-playback/_meta.ts",
+      "bytes": 212,
+      "sha256": "02277db7940f9cfb90b459a250e3e05b07d59f5e3c219e9857820eed063da531"
+    },
+    {
+      "source": "content/jp/media-playback/matrix-based-playlists/_meta.ts",
+      "stored": "archive/site/content/jp/media-playback/matrix-based-playlists/_meta.ts",
+      "bytes": 380,
+      "sha256": "1cbff8690d136d81c481b7d06e5b82ac6037d75103b48fc67218ddedbc740c26"
+    },
+    {
+      "source": "content/jp/media-playback/matrix-based-playlists/adding-organizing-media-items.mdx",
+      "stored": "archive/site/content/jp/media-playback/matrix-based-playlists/adding-organizing-media-items.mdx",
+      "bytes": 18368,
+      "sha256": "c90c4697330208efc19d8f0c530a911446fa11e9afbbbced7fc21e9eee65af57"
+    },
+    {
+      "source": "content/jp/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.mdx",
+      "stored": "archive/site/content/jp/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.mdx",
+      "bytes": 2604,
+      "sha256": "ae696e2d5a362aec8f8ae2a9dfbffa51620b1c0047ee37376b30e0e0aeecc05e"
+    },
+    {
+      "source": "content/jp/media-playback/matrix-based-playlists/managing-playlists.mdx",
+      "stored": "archive/site/content/jp/media-playback/matrix-based-playlists/managing-playlists.mdx",
+      "bytes": 6136,
+      "sha256": "c517f490c93310056c8025ab82c68fa181e74b68c909a43a1920293732ded35a"
+    },
+    {
+      "source": "content/jp/media-playback/matrix-based-playlists/overview.mdx",
+      "stored": "archive/site/content/jp/media-playback/matrix-based-playlists/overview.mdx",
+      "bytes": 3799,
+      "sha256": "adead322e1ab6c728e8733b36c973d47765bbcb733ec1245185d8f12631b8600"
+    },
+    {
+      "source": "content/jp/media-playback/matrix-based-playlists/playback.mdx",
+      "stored": "archive/site/content/jp/media-playback/matrix-based-playlists/playback.mdx",
+      "bytes": 10226,
+      "sha256": "e6ce757d8f4d643f154f1b553db2523fe26d97ff2c069422adf5caa41dffaa61"
+    },
+    {
+      "source": "content/jp/media-playback/media-player/_meta.ts",
+      "stored": "archive/site/content/jp/media-playback/media-player/_meta.ts",
+      "bytes": 129,
+      "sha256": "cbad3bb5ca5b84329be7457c30845ab5cdbbc6adbdc96a1f6bbab3bbac492d38"
+    },
+    {
+      "source": "content/jp/media-playback/media-player/media-player-global-settings.mdx",
+      "stored": "archive/site/content/jp/media-playback/media-player/media-player-global-settings.mdx",
+      "bytes": 3290,
+      "sha256": "3b10ef845b0532a3e356b335dff7302d5500c718afba5d6f1781400186c5adb0"
+    },
+    {
+      "source": "content/jp/media-playback/media-player/media-player-overview.mdx",
+      "stored": "archive/site/content/jp/media-playback/media-player/media-player-overview.mdx",
+      "bytes": 4177,
+      "sha256": "23396ae336e5c29957599b8449a24ba2a8d8216bd40fb57695b56cbe9239b96f"
+    },
+    {
+      "source": "content/jp/media-playback/playlists/_meta.ts",
+      "stored": "archive/site/content/jp/media-playback/playlists/_meta.ts",
+      "bytes": 324,
+      "sha256": "8efb2300e86c1c4ffaf5d715f350393ae5989839ce66b1198b4768f4c1c101d5"
+    },
+    {
+      "source": "content/jp/media-playback/playlists/creating-managing-playlists.mdx",
+      "stored": "archive/site/content/jp/media-playback/playlists/creating-managing-playlists.mdx",
+      "bytes": 6746,
+      "sha256": "96da38f6748f362c2117751e6a4adfc4d06f64a116adeb5fe8097c58a5e4419a"
+    },
+    {
+      "source": "content/jp/media-playback/playlists/media-item-properties.mdx",
+      "stored": "archive/site/content/jp/media-playback/playlists/media-item-properties.mdx",
+      "bytes": 35495,
+      "sha256": "a813c0127a80f4b9432dfca7ba2ce317e5e2c7c48cc7e6683b6847219c6c1c6e"
+    },
+    {
+      "source": "content/jp/media-playback/playlists/organizing-media-items-in-playlists.mdx",
+      "stored": "archive/site/content/jp/media-playback/playlists/organizing-media-items-in-playlists.mdx",
+      "bytes": 11331,
+      "sha256": "500f2fb617f87a2792634b117e4ece1e988695aa0b4f458dbc3e368c52701ecd"
+    },
+    {
+      "source": "content/jp/media-playback/playlists/playlists-playback.mdx",
+      "stored": "archive/site/content/jp/media-playback/playlists/playlists-playback.mdx",
+      "bytes": 14196,
+      "sha256": "1da56429e4868421c88bd1b26057209a63ee58930c336c6b66fb227a999a398c"
+    },
+    {
+      "source": "content/jp/media-playback/timelines/_meta.ts",
+      "stored": "archive/site/content/jp/media-playback/timelines/_meta.ts",
+      "bytes": 447,
+      "sha256": "50346a8ca018e907942c8b2d461fbad2178279ec9b52c696eedb99aa58e8c097"
+    },
+    {
+      "source": "content/jp/media-playback/timelines/animation-and-keyframing.mdx",
+      "stored": "archive/site/content/jp/media-playback/timelines/animation-and-keyframing.mdx",
+      "bytes": 9577,
+      "sha256": "9823d16492d553895e2728a2fdafed4aba42b4fc874e64f5c69871c87038bd30"
+    },
+    {
+      "source": "content/jp/media-playback/timelines/creating-managing-timelines.mdx",
+      "stored": "archive/site/content/jp/media-playback/timelines/creating-managing-timelines.mdx",
+      "bytes": 7420,
+      "sha256": "c4fb90e13e4e5d0a7dcf1c1c5d5244c4bd38f07e9c04598f3aef8541056fb685"
+    },
+    {
+      "source": "content/jp/media-playback/timelines/organizing-media-in-timelines.mdx",
+      "stored": "archive/site/content/jp/media-playback/timelines/organizing-media-in-timelines.mdx",
+      "bytes": 18557,
+      "sha256": "f0620f5aef6dc80ebc1cfa7727fa2a760a0c4d611506c75301766c3959848d7a"
+    },
+    {
+      "source": "content/jp/media-playback/timelines/timeline-markers.mdx",
+      "stored": "archive/site/content/jp/media-playback/timelines/timeline-markers.mdx",
+      "bytes": 10743,
+      "sha256": "3ce3156e150d672db071f9b0711048dfcac121235b48e5174e5d22c79c71f253"
+    },
+    {
+      "source": "content/jp/media-playback/timelines/timeline-playback.mdx",
+      "stored": "archive/site/content/jp/media-playback/timelines/timeline-playback.mdx",
+      "bytes": 4224,
+      "sha256": "de4ee24feed52361a38a9fc6282f3234f36dafda94b0956a73c2cf932eccc28f"
+    },
+    {
+      "source": "content/jp/media-playback/timelines/timeline-view.mdx",
+      "stored": "archive/site/content/jp/media-playback/timelines/timeline-view.mdx",
+      "bytes": 7477,
+      "sha256": "e6c337ed712f49d0e848209d6d2da1a72c59611fb4501ac8b257c276eb35870c"
+    },
+    {
+      "source": "content/jp/node-reference/_meta.ts",
+      "stored": "archive/site/content/jp/node-reference/_meta.ts",
+      "bytes": 149,
+      "sha256": "455f89c092a1cd5c8dedf4611903373db37341e2ae316b781834f0cceb2593b6"
+    },
+    {
+      "source": "content/jp/node-reference/integration-nodes/_meta.ts",
+      "stored": "archive/site/content/jp/node-reference/integration-nodes/_meta.ts",
+      "bytes": 96,
+      "sha256": "94a958eae914ab9e98bd900938fa868cb3c4496d3188dd0b812b6983359cb6da"
+    },
+    {
+      "source": "content/jp/node-reference/integration-nodes/notchplayback.mdx",
+      "stored": "archive/site/content/jp/node-reference/integration-nodes/notchplayback.mdx",
+      "bytes": 4188,
+      "sha256": "49b2faf5b7b4562f46b57050e088745b63613d4da5a8a7d659f4152a424d4af1"
+    },
+    {
+      "source": "content/jp/node-reference/integration-nodes/touchengine.mdx",
+      "stored": "archive/site/content/jp/node-reference/integration-nodes/touchengine.mdx",
+      "bytes": 5466,
+      "sha256": "bbe29dca0bcc3ac32c2378bd6338fbd7b8332e3af7e4bd710b0b26b4c6eed51f"
+    },
+    {
+      "source": "content/jp/node-reference/nodes.mdx",
+      "stored": "archive/site/content/jp/node-reference/nodes.mdx",
+      "bytes": 66242,
+      "sha256": "d6fa0b43b36db9c2429cf4598c8e1a7f8fca5100073d0aa5bd1ac0d5eae678c7"
+    },
+    {
+      "source": "content/jp/node-reference/primary-nodes/_meta.ts",
+      "stored": "archive/site/content/jp/node-reference/primary-nodes/_meta.ts",
+      "bytes": 147,
+      "sha256": "4319e8ac37f5d8c356ae85a232d70570d0d1a8851d53d87fe6764c85baab47f0"
+    },
+    {
+      "source": "content/jp/node-reference/primary-nodes/canvas.mdx",
+      "stored": "archive/site/content/jp/node-reference/primary-nodes/canvas.mdx",
+      "bytes": 23602,
+      "sha256": "23802ef2c7300db36c99dc6b85377ec076743b80195026134255d7be45dbf771"
+    },
+    {
+      "source": "content/jp/node-reference/primary-nodes/display.mdx",
+      "stored": "archive/site/content/jp/node-reference/primary-nodes/display.mdx",
+      "bytes": 6275,
+      "sha256": "ef73239d8a343367e3a53163085e48b479d5e786976081e88f51d4aac4c88180"
+    },
+    {
+      "source": "content/jp/node-reference/primary-nodes/mediaplayer.mdx",
+      "stored": "archive/site/content/jp/node-reference/primary-nodes/mediaplayer.mdx",
+      "bytes": 45888,
+      "sha256": "58229957996e48070664d1c46027d513f71502c69d7e33aa60590cd793fc59f8"
+    },
+    {
+      "source": "content/jp/node-reference/primary-nodes/rendertarget.mdx",
+      "stored": "archive/site/content/jp/node-reference/primary-nodes/rendertarget.mdx",
+      "bytes": 6491,
+      "sha256": "fc97ff18184010d2b923477e6e2c4e4e09a4cbcd1d704ec89f9fe7f2bab8c325"
+    },
+    {
+      "source": "content/jp/organizing-media/_meta.ts",
+      "stored": "archive/site/content/jp/organizing-media/_meta.ts",
+      "bytes": 196,
+      "sha256": "9aaa158e7441a62b3156e0668e755a3af928acd0ff569fb639e5811e5f9aeca4"
+    },
+    {
+      "source": "content/jp/organizing-media/managing-folders.mdx",
+      "stored": "archive/site/content/jp/organizing-media/managing-folders.mdx",
+      "bytes": 2527,
+      "sha256": "976f927e05a60e4f46cf197df06fd6d9b2eaac194d733c9f22646f6716c72023"
+    },
+    {
+      "source": "content/jp/organizing-media/managing-media-items.mdx",
+      "stored": "archive/site/content/jp/organizing-media/managing-media-items.mdx",
+      "bytes": 5071,
+      "sha256": "826cbe66b6149aeb7e32909c12071cd7deb40b2d848753d6b7336b63d15f7192"
+    },
+    {
+      "source": "content/jp/organizing-media/media-library-overview.mdx",
+      "stored": "archive/site/content/jp/organizing-media/media-library-overview.mdx",
+      "bytes": 2395,
+      "sha256": "937eb449252c85c1de21eda8dc5ee87e9854764ed8af3fcd9dedcf49da8d11eb"
+    },
+    {
+      "source": "content/jp/patch-editor/_meta.ts",
+      "stored": "archive/site/content/jp/patch-editor/_meta.ts",
+      "bytes": 179,
+      "sha256": "9c79f6c848e12883a33b5636979752d2dffcb72bdca3446670edbb2a52064702"
+    },
+    {
+      "source": "content/jp/patch-editor/adding-and-managing-patches.mdx",
+      "stored": "archive/site/content/jp/patch-editor/adding-and-managing-patches.mdx",
+      "bytes": 1672,
+      "sha256": "40825dd55043b3a80ae06ca1018bfa766896b0259a30e30cf82c0688f991af51"
+    },
+    {
+      "source": "content/jp/patch-editor/editing-patches.mdx",
+      "stored": "archive/site/content/jp/patch-editor/editing-patches.mdx",
+      "bytes": 35095,
+      "sha256": "26aa0a33f1424dccd3847b8ae6e13ce495d205ba4e1a74bf49f647819de50f83"
+    },
+    {
+      "source": "content/jp/patch-editor/patch-editor-basics.mdx",
+      "stored": "archive/site/content/jp/patch-editor/patch-editor-basics.mdx",
+      "bytes": 5148,
+      "sha256": "df6dd49b66371c51a2444514900ea0b4c73b308b8b4a7485d8b7765bcde10abb"
+    },
+    {
+      "source": "content/jp/privacy-policy.mdx",
+      "stored": "archive/site/content/jp/privacy-policy.mdx",
+      "bytes": 236,
+      "sha256": "47902ea0907a1545d742f7a486ff463c9ea497608d1d4d69c9771a5ad28acca7"
+    },
+    {
+      "source": "content/jp/terms-and-conditions.mdx",
+      "stored": "archive/site/content/jp/terms-and-conditions.mdx",
+      "bytes": 237,
+      "sha256": "2d624112ce7be27640327aa1447eb13edfcc32497685ab230b9cf272e35428f6"
+    },
+    {
+      "source": "content/jp/warping-alignment/_meta.ts",
+      "stored": "archive/site/content/jp/warping-alignment/_meta.ts",
+      "bytes": 547,
+      "sha256": "9e31e8d841acb6bbec3b96e0b617f693cc93b648f4d04a7f52b93406917a2c47"
+    },
+    {
+      "source": "content/jp/warping-alignment/bezierwarp.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/bezierwarp.mdx",
+      "bytes": 2970,
+      "sha256": "b2dd027dc6a9d51a2dfbbec8768c9c754b7eddddb50cb05fd47b4f5a9dc9ac2c"
+    },
+    {
+      "source": "content/jp/warping-alignment/dometransform.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/dometransform.mdx",
+      "bytes": 3570,
+      "sha256": "204423cb38c5d90db907324e2274ca3d74784de4f10129b1e727b185f0a30c4f"
+    },
+    {
+      "source": "content/jp/warping-alignment/latlongtodome.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/latlongtodome.mdx",
+      "bytes": 3788,
+      "sha256": "e4035014da1b326127a4869796614d9fd90074068dba429be962bbcb8d08fe19"
+    },
+    {
+      "source": "content/jp/warping-alignment/ledstripesmapper.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/ledstripesmapper.mdx",
+      "bytes": 3962,
+      "sha256": "b396a696c5bf599fec8672f02b657a4048a761441b958475e8865d640c5d4060"
+    },
+    {
+      "source": "content/jp/warping-alignment/mask.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/mask.mdx",
+      "bytes": 3934,
+      "sha256": "0f12965aab07330a7aca7dda13b80b2d383b4b855e211b3ec75e9f5b2175d8e7"
+    },
+    {
+      "source": "content/jp/warping-alignment/overview.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/overview.mdx",
+      "bytes": 1002,
+      "sha256": "ed4d8276e30bb3b8d4c1ba3f80f291bb0e6f26e15611cd918f963e410018d64d"
+    },
+    {
+      "source": "content/jp/warping-alignment/patchreplicator.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/patchreplicator.mdx",
+      "bytes": 4266,
+      "sha256": "f2501f0a9d9af3a96f2eabe0eee63bc3645e05b95b70551c4b13834c001c6fc8"
+    },
+    {
+      "source": "content/jp/warping-alignment/planartodome.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/planartodome.mdx",
+      "bytes": 2652,
+      "sha256": "217cd9f66369279906dccd634bbdf83aab96add07fb5c2f476899076618ba9c7"
+    },
+    {
+      "source": "content/jp/warping-alignment/quadgrid.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/quadgrid.mdx",
+      "bytes": 3407,
+      "sha256": "6b545f90dfe8f1b9d4fb23039247d0224a88348f6f2e636214f907e2ff67baad"
+    },
+    {
+      "source": "content/jp/warping-alignment/quadwarp.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/quadwarp.mdx",
+      "bytes": 1931,
+      "sha256": "b7b5df29c4dac210fa44cb56f3f37f2f95110907de407b96dd68c33cced24f7d"
+    },
+    {
+      "source": "content/jp/warping-alignment/rectangle.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/rectangle.mdx",
+      "bytes": 2571,
+      "sha256": "7ff43e80ba813fb6e33313e138a1977580fa4bd7a13e316d85bb9391da8da14a"
+    },
+    {
+      "source": "content/jp/warping-alignment/softedgeblender.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/softedgeblender.mdx",
+      "bytes": 3202,
+      "sha256": "cfd5d1fe231bd2d4c7e240641309226bb471d544f5192ce1c89b97db78578fe8"
+    },
+    {
+      "source": "content/jp/warping-alignment/transform2d.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/transform2d.mdx",
+      "bytes": 3167,
+      "sha256": "e2cf9ea7e292999e4936245b99a9e7fbc0e1434bc59b8c5d05eec1e72a2b91f7"
+    },
+    {
+      "source": "content/jp/warping-alignment/trianglemesh.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/trianglemesh.mdx",
+      "bytes": 3020,
+      "sha256": "a792673f9f3a77317e6843721456384efef927b3b1a242795b1ca7f5bdfda431"
+    },
+    {
+      "source": "content/jp/warping-alignment/xgrid.mdx",
+      "stored": "archive/site/content/jp/warping-alignment/xgrid.mdx",
+      "bytes": 1850,
+      "sha256": "55be5e242eaae5f1f9ae7770dcc4e29a0ada05b976411693a2a3651e2274cb23"
+    },
+    {
+      "source": "content/jp/web-panel.mdx",
+      "stored": "archive/site/content/jp/web-panel.mdx",
+      "bytes": 10829,
+      "sha256": "113b4bd29b521c413fc23ea8545506151f57459a4147ea5bf04ddd23b39d2edf"
+    },
+    {
+      "source": "content/jp/whats-new/_meta.ts",
+      "stored": "archive/site/content/jp/whats-new/_meta.ts",
+      "bytes": 666,
+      "sha256": "6e61408c50c5646d161f88eb84c6a3494ded72b41738a41e8ac3feb8e1824628"
+    },
+    {
+      "source": "content/jp/whats-new/earlier-release-notes.mdx",
+      "stored": "archive/site/content/jp/whats-new/earlier-release-notes.mdx",
+      "bytes": 795,
+      "sha256": "8441716949939536c5c5c66649730fc589cde45b56bf2e9ccf583cd060f21071"
+    },
+    {
+      "source": "content/jp/whats-new/release-notes-2-6-0.mdx",
+      "stored": "archive/site/content/jp/whats-new/release-notes-2-6-0.mdx",
+      "bytes": 21461,
+      "sha256": "b538605b27d814bbf8eed1356c684d1e96a425d79f619e8b72393d8a584493e7"
+    },
+    {
+      "source": "content/jp/whats-new/release-notes-2-7-0.mdx",
+      "stored": "archive/site/content/jp/whats-new/release-notes-2-7-0.mdx",
+      "bytes": 14687,
+      "sha256": "b5bd771cbca879900b6db2325c67d0374639c99827078192474966c1ec093d3a"
+    },
+    {
+      "source": "content/jp/whats-new/release-notes-2-8-0.mdx",
+      "stored": "archive/site/content/jp/whats-new/release-notes-2-8-0.mdx",
+      "bytes": 13843,
+      "sha256": "558d1794e22c007bb2890131fbb01dc586eb4cb5dc7692576b01f66bf368f662"
+    },
+    {
+      "source": "content/jp/whats-new/release-notes-2-9-0.mdx",
+      "stored": "archive/site/content/jp/whats-new/release-notes-2-9-0.mdx",
+      "bytes": 11331,
+      "sha256": "b3dd991958c0b2b69c8faf03ef1de93939265af9e7d853e101e004bfda4c35c2"
+    },
+    {
+      "source": "content/jp/whats-new/release-notes-3-0-0.mdx",
+      "stored": "archive/site/content/jp/whats-new/release-notes-3-0-0.mdx",
+      "bytes": 16645,
+      "sha256": "2c3819d18acd42fc45a978b8445a4320b116ed504ae9352136f6e3521b9e44dd"
+    },
+    {
+      "source": "content/jp/whats-new/release-notes-3-1-0.mdx",
+      "stored": "archive/site/content/jp/whats-new/release-notes-3-1-0.mdx",
+      "bytes": 31109,
+      "sha256": "0a5790377ac40da9ad61ab15b3eeaf18feb7b47493ff758dcadf44647ca75ab4"
+    },
+    {
+      "source": "content/jp/whats-new/release-notes-3-2-0.mdx",
+      "stored": "archive/site/content/jp/whats-new/release-notes-3-2-0.mdx",
+      "bytes": 23607,
+      "sha256": "ae8e8e3a163796fdd6b8468b74cdf9f8df9427c67c51a8e34654967e362dd419"
+    },
+    {
+      "source": "content/jp/whats-new/release-notes-3-3.mdx",
+      "stored": "archive/site/content/jp/whats-new/release-notes-3-3.mdx",
+      "bytes": 10459,
+      "sha256": "479c49b0bdda4462c13cc1c94c5e31628ecf2eb7dbcb6010b010c399454e6d2e"
+    },
+    {
+      "source": "content/jp/whats-new/release-notes-3-4.mdx",
+      "stored": "archive/site/content/jp/whats-new/release-notes-3-4.mdx",
+      "bytes": 45979,
+      "sha256": "be64f4e0b952476cd4bcab1d2bd2143d57eac968ff848e368b56019c2ef27bf6"
+    },
+    {
+      "source": "content/jp/working-with-audio.mdx",
+      "stored": "archive/site/content/jp/working-with-audio.mdx",
+      "bytes": 15169,
+      "sha256": "833b535299e18daab3ed08cd0e378f4b38a069b5923649adecac10ade4c01fb7"
+    },
+    {
+      "source": "content/jp/working-with-nodes/_meta.ts",
+      "stored": "archive/site/content/jp/working-with-nodes/_meta.ts",
+      "bytes": 326,
+      "sha256": "69167d1a1bfcc2aa8d255849f7cb1cd8ba622191da993199928a9e9fc481ca6b"
+    },
+    {
+      "source": "content/jp/working-with-nodes/adding-and-managing-nodes.mdx",
+      "stored": "archive/site/content/jp/working-with-nodes/adding-and-managing-nodes.mdx",
+      "bytes": 8158,
+      "sha256": "334ae0800f75b5142d49dea1c064e386e8ef57049331f24e1edf111a3a9db7a5"
+    },
+    {
+      "source": "content/jp/working-with-nodes/linking-nodes.mdx",
+      "stored": "archive/site/content/jp/working-with-nodes/linking-nodes.mdx",
+      "bytes": 5634,
+      "sha256": "c3f6eac7421915ebdd56f0f92fcc5125a91e70f7a0fb56aa60ecfedd4d5f84ed"
+    },
+    {
+      "source": "content/jp/working-with-nodes/navigation-and-monitoring.mdx",
+      "stored": "archive/site/content/jp/working-with-nodes/navigation-and-monitoring.mdx",
+      "bytes": 8714,
+      "sha256": "2f7f01c3eeb6424db59914feea5375dccc131cefaf4f6e3582c7f68903d1cac4"
+    },
+    {
+      "source": "content/jp/working-with-nodes/node-basics.mdx",
+      "stored": "archive/site/content/jp/working-with-nodes/node-basics.mdx",
+      "bytes": 4359,
+      "sha256": "fe8bad87c067e7030af3a0238b745a8190619f159692f781430cd77fdee28ebd"
+    },
+    {
+      "source": "content/jp/working-with-nodes/node-parameters-and-settings.mdx",
+      "stored": "archive/site/content/jp/working-with-nodes/node-parameters-and-settings.mdx",
+      "bytes": 5813,
+      "sha256": "411bdf4ed7c32570fb2c1ddf12cfdaaae95683a0316dbc65f34441367a25c95b"
+    },
+    {
+      "source": "docs/screenberry-knowledge-base-proposal.md",
+      "stored": "archive/site/docs/screenberry-knowledge-base-proposal.md",
+      "bytes": 36516,
+      "sha256": "5f6db79883170ffd09466f407e290dd7ce0c8eaf0a696a2b2e81e0ad4343edb3"
+    },
+    {
+      "source": "docs/user-guide-structure-proposal.md",
+      "stored": "archive/site/docs/user-guide-structure-proposal.md",
+      "bytes": 24407,
+      "sha256": "355ddc5bd7f56961ad72ece422a7dfa9985e80dac7545f93123fd1aa95a2ec57"
+    },
+    {
+      "source": "elements/DropDownArrow.tsx",
+      "stored": "archive/site/elements/DropDownArrow.tsx",
+      "bytes": 483,
+      "sha256": "93cecd468e70daff628fd53e67334da45dd95da1aa6e94bcc54c3edafbd0893b"
+    },
+    {
+      "source": "elements/Form.tsx",
+      "stored": "archive/site/elements/Form.tsx",
+      "bytes": 830,
+      "sha256": "9860766628bd585a04339041e3303e8afef35c6d17a3ac2629e7accbf9a6aae8"
+    },
+    {
+      "source": "elements/Input.tsx",
+      "stored": "archive/site/elements/Input.tsx",
+      "bytes": 1993,
+      "sha256": "60a4916a4037cb392833ae1afe1963ec4d24024be669cb7d131c38f38a104104"
+    },
+    {
+      "source": "elements/Loader.tsx",
+      "stored": "archive/site/elements/Loader.tsx",
+      "bytes": 580,
+      "sha256": "68f11cd53752ae6c57935163f543338c186292f0696587bf45b67918ce7b90f7"
+    },
+    {
+      "source": "elements/SocialMediaLinks.tsx",
+      "stored": "archive/site/elements/SocialMediaLinks.tsx",
+      "bytes": 9974,
+      "sha256": "0939585f25fa05d1bca504ef246d01f2947434ee22658e53b141887d9f282b78"
+    },
+    {
+      "source": "elements/icons/AccountIcon.tsx",
+      "stored": "archive/site/elements/icons/AccountIcon.tsx",
+      "bytes": 1356,
+      "sha256": "42914cab51b22b26eb25d1a6e6d3243369977570e993d347185beb69d123b8d6"
+    },
+    {
+      "source": "mdx-components.tsx",
+      "stored": "archive/site/mdx-components.tsx",
+      "bytes": 386,
+      "sha256": "ad43d6a14c9ca75f905768a4c202be07f807be56cee346f72a8e51044cde0207"
+    },
+    {
+      "source": "next-env.d.ts",
+      "stored": "archive/site/next-env.d.ts",
+      "bytes": 288,
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    {
+      "source": "next-sitemap.config.js",
+      "stored": "archive/site/next-sitemap.config.js",
+      "bytes": 512,
+      "sha256": "35ffe809a6cc5ca334e815db1362a411d9b1145ff8c846085d8a1295431a190a"
+    },
+    {
+      "source": "next.config.mjs",
+      "stored": "archive/site/next.config.mjs",
+      "bytes": 49447,
+      "sha256": "c833890fb3e9db3a00c1817b595d4dc1b1a8781dc82b33fdebbffd9f09c31213"
+    },
+    {
+      "source": "package.json",
+      "stored": "archive/site/package.json",
+      "bytes": 1609,
+      "sha256": "6b39f4fd8aa208e9f30bc131fbd96a225b680e51e186239b84d4eda4ea9240ec"
+    },
+    {
+      "source": "patches/nextra-theme-docs@4.6.1.patch",
+      "stored": "archive/site/patches/nextra-theme-docs@4.6.1.patch",
+      "bytes": 2931,
+      "sha256": "2b3d4c27b94380857da448ee387d8e74bb84c3ce706962574a78dfe7cb7902d4"
+    },
+    {
+      "source": "pnpm-lock.yaml",
+      "stored": "archive/site/pnpm-lock.yaml",
+      "bytes": 179552,
+      "sha256": "51d53c53e6eb31e90c8a39a750f542a9b0d9ca621efbe83e9459612dc72c988c"
+    },
+    {
+      "source": "pnpm-workspace.yaml",
+      "stored": "archive/site/pnpm-workspace.yaml",
+      "bytes": 616,
+      "sha256": "6d1ebac73dd4b364d99dba8b79c2441efe4a86762f208e2721557348944801ae"
+    },
+    {
+      "source": "postcss.config.js",
+      "stored": "archive/site/postcss.config.js",
+      "bytes": 76,
+      "sha256": "d0e5e86ac189a1968cb63aad341b3cc74771259d22a652ca1ca5047e6216bec8"
+    },
+    {
+      "source": "proxy.ts",
+      "stored": "archive/site/proxy.ts",
+      "bytes": 185,
+      "sha256": "2453d82121bb4023de94cc56a8be27fa8aa506c6774ea024bf8589ff312da2e1"
+    },
+    {
+      "source": "shared/constants/navigation.ts",
+      "stored": "archive/site/shared/constants/navigation.ts",
+      "bytes": 6951,
+      "sha256": "b866d69bcfdb4f98777e43ee1c11d5ed900a4e54ac5c5080f572eb517a2b4639"
+    },
+    {
+      "source": "shared/lib/getLocalizedHref.ts",
+      "stored": "archive/site/shared/lib/getLocalizedHref.ts",
+      "bytes": 241,
+      "sha256": "5a6e55299b625977020d21ac55f366a709a3a2970b0c3bc5b1e4c28e595ea8d6"
+    },
+    {
+      "source": "shared/lib/hooks/useDevice.ts",
+      "stored": "archive/site/shared/lib/hooks/useDevice.ts",
+      "bytes": 796,
+      "sha256": "57717324bdd89af98a551f2dd8956fadeacc2c35c52995b1a9050a597de59013"
+    },
+    {
+      "source": "shared/lib/hooks/useGsapContext.ts",
+      "stored": "archive/site/shared/lib/hooks/useGsapContext.ts",
+      "bytes": 290,
+      "sha256": "d36e2c40582b415b082aa24af679b6e3bbbf2be2d0152e702b7e08a3f3cb0d7c"
+    },
+    {
+      "source": "shared/lib/hooks/useTranslation.ts",
+      "stored": "archive/site/shared/lib/hooks/useTranslation.ts",
+      "bytes": 487,
+      "sha256": "365b56054dcb9f47296609cd8bb2f5f4e236186e47739f2a60027922a3a61762"
+    },
+    {
+      "source": "shared/lib/node-help-redirects.mjs",
+      "stored": "archive/site/shared/lib/node-help-redirects.mjs",
+      "bytes": 2583,
+      "sha256": "2b5323e6be3de591451057e9bd11193bdd00fef65fe649ec511bdcbacc71cd98"
+    },
+    {
+      "source": "shared/lib/utils.ts",
+      "stored": "archive/site/shared/lib/utils.ts",
+      "bytes": 1142,
+      "sha256": "81e7ba8bb573344434b5571987dd12e1bd8b31921c7fe680a1e3de40ce44d4fb"
+    },
+    {
+      "source": "shared/locales/en.ts",
+      "stored": "archive/site/shared/locales/en.ts",
+      "bytes": 89,
+      "sha256": "dbbc887d7e538a5a6797d1130cebeaf88575435c669c9892290e33b15529972f"
+    },
+    {
+      "source": "shared/locales/jp.ts",
+      "stored": "archive/site/shared/locales/jp.ts",
+      "bytes": 109,
+      "sha256": "e6c37abf6f84de838eb4ee018e034dd16e4638cd69ad7de15e15d10fd1d1f1ca"
+    },
+    {
+      "source": "shared/store/atoms.ts",
+      "stored": "archive/site/shared/store/atoms.ts",
+      "bytes": 244,
+      "sha256": "297c108f6755f7f9fb7af23d0920922ac09fb0421a7aabb440a0f97fe4241c6a"
+    },
+    {
+      "source": "shared/styles/global.css",
+      "stored": "archive/site/shared/styles/global.css",
+      "bytes": 10445,
+      "sha256": "6585adcb952ce53bba89c44bf570bc09bc5017e875405381d219e454be17b802"
+    },
+    {
+      "source": "tailwind.config.js",
+      "stored": "archive/site/tailwind.config.js",
+      "bytes": 1446,
+      "sha256": "fed0f63d8e62b6f9d103d249eed6d1c5f07042f68cc2f11af83589f015417cb3"
+    },
+    {
+      "source": "tools/audit-p0-node-pages.ps1",
+      "stored": "archive/site/tools/audit-p0-node-pages.ps1",
+      "bytes": 5080,
+      "sha256": "d059e7eb3956661a8419a0a31fe027aacc65bd01bb9dec84bca4129a7e6f855a"
+    },
+    {
+      "source": "tools/audit-qt-ux-strings.ps1",
+      "stored": "archive/site/tools/audit-qt-ux-strings.ps1",
+      "bytes": 8321,
+      "sha256": "159d9cde3f37a03d8d971d2abe819ae566901201dda5c3386c40f132cbc994ae"
+    },
+    {
+      "source": "tools/audit-translation-master-en.ps1",
+      "stored": "archive/site/tools/audit-translation-master-en.ps1",
+      "bytes": 16308,
+      "sha256": "b7514602f86234fa02fd51b4a46c1c3628952483f0515d08e83031903411f56c"
+    },
+    {
+      "source": "tools/build-english-task-inventory.ps1",
+      "stored": "archive/site/tools/build-english-task-inventory.ps1",
+      "bytes": 22275,
+      "sha256": "d1e46a6b14f8669689efc21098c7addd3c40b17bd582344e01349bcc6d717db2"
+    },
+    {
+      "source": "tools/build-node-documentation-coverage.ps1",
+      "stored": "archive/site/tools/build-node-documentation-coverage.ps1",
+      "bytes": 8275,
+      "sha256": "ffad0c7336912abd89069be6c18e973a0f550fd6aaa598c1565cda4bebd8f2ca"
+    },
+    {
+      "source": "tools/build-p0-missing-page-briefs.ps1",
+      "stored": "archive/site/tools/build-p0-missing-page-briefs.ps1",
+      "bytes": 5245,
+      "sha256": "b0e2fca4b1a31a3c275ddda39bf4786bc497dc9ec2470389a08ae9891307577d"
+    },
+    {
+      "source": "tools/import-node-page-descriptions.ps1",
+      "stored": "archive/site/tools/import-node-page-descriptions.ps1",
+      "bytes": 3730,
+      "sha256": "3add5381f206489b44f560c4c581a490b9bb3011116b3144e7422f4126323216"
+    },
+    {
+      "source": "tools/test-node-help-redirects.mjs",
+      "stored": "archive/site/tools/test-node-help-redirects.mjs",
+      "bytes": 3508,
+      "sha256": "19028c82f50cbe05a4bd42dc7a0da9d8ebfd6319c404dbe63ff0c4f82e5ab214"
+    },
+    {
+      "source": "tools/update-node-parameter-kb.ps1",
+      "stored": "archive/site/tools/update-node-parameter-kb.ps1",
+      "bytes": 52388,
+      "sha256": "ffe26fcc1b09b60f2314de17286c04da0637dc096f78ad36ce22d038b45bd75e"
+    },
+    {
+      "source": "tools/watch-english-task-inventory.ps1",
+      "stored": "archive/site/tools/watch-english-task-inventory.ps1",
+      "bytes": 1579,
+      "sha256": "d07f4f269b0cfff9fd88684b3bbd64f5d16fe26fe86aee2d1325b28a6b0848eb"
+    },
+    {
+      "source": "tsconfig.json",
+      "stored": "archive/site/tsconfig.json",
+      "bytes": 816,
+      "sha256": "40ffa7085d6500b4f5632ea2cd369a808c2a6689b343fa64fae434ad0c9bf49b"
+    },
+    {
+      "source": "vercel.json",
+      "stored": "archive/site/vercel.json",
+      "bytes": 69,
+      "sha256": "a81bdc8bfa962cb5637432335606e917a676ab680c8728cc1583d9fbec0aefc1"
+    }
+  ],
+  "restoration": "source-only"
+}

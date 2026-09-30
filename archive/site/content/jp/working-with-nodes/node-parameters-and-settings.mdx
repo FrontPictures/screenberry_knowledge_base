@@ -1,0 +1,59 @@
+---
+title: Screenberryのノードパラメータとその設定
+description: 様々なノードのパラメータについて、その編集やノードの表示設定の変更方法を説明します。
+openGraph:
+  title: Screenberryのノードパラメータとその設定
+  description: 様々なノードのパラメータについて、その編集やノードの表示設定の変更方法を説明します。
+---
+
+# ノードのパラメータと設定
+
+## ノードのパラメータ（ピン）
+
+ノードピンは、ノードのパラメータをグラフィカルに表現したものです。
+
+<img alt="Node Parameters Pins" src="/images/working-with-nodes/animation/Node-Parameters-Pins.gif" width={800} height={344} loading="lazy" />
+
+**データ**（灰色のピン <img alt="Grey Pin" src="/images/working-with-nodes/static/grey-pin.png" width={21} height={21} loading="lazy" />）パラメータには、単純なデータ（数値、文字列、タイムコード）またはScreenberryの内部リソース（例： 画像）へのポインタが含まれています。
+
+**スマートリンク**（水色のピン <img alt="Blue Pin" src="/images/working-with-nodes/static/blue-pin.png" width={21} height={21} loading="lazy" />）は、リンクされたノード間の通信を確立します。
+
+**アクション**（オレンジのピン <img alt="Orange Pin" src="/images/working-with-nodes/static/orange-pin.png" width={21} height={21} loading="lazy" />）は、1つの入力に複数のリンクを作成することができます。その結果として、すべての入力値に対して論理OR（いずれか一つでも有効であれば有効）の結果が入力されます。
+
+**メッセージ**（ピンク色のピン <img alt="Pink Pin" src="/images/working-with-nodes/static/pink-pin.png" width={21} height={21} loading="lazy" />）もまた、1 つの入力に対して複数のリンクを作成することができます。こちらは、すべての入力がキューイングされ順番に処理されます。
+
+<img alt="Node Parameters Example" src="/images/working-with-nodes/static/Node-Parameters-Example.gif" width={800} height={260} loading="lazy" />
+
+## ノードの設定
+
+ノードを選択すると、そのノードのパラメータを編集するための**Settings**パネルが表示されます。
+
+<img alt="Node Settings" src="/images/working-with-nodes/animation/Node-Settings.gif" width={800} height={428} loading="lazy" />
+
+**Settings**パネルでのノードパラメータ値が変更されると、パラメータ値フィールドの隣にある<img alt="Redoarrow 1" src="/images/working-with-nodes/static/redoarrow-1.png" width={17} height={16} loading="lazy" />ボタンによって示されます。このボタンをクリックすると、デフォルトのパラメータ値に戻ります。
+
+<img alt="Restore Node Settings" src="/images/working-with-nodes/animation/Restore-Node-Settings.gif" width={352} height={284} loading="lazy" />
+
+### 複数選択されたノードの設定
+
+複数のノードが選択されている場合、**Settings**パネルにはすべての選択されたノードに共通するパラメータのみが表示され、編集することができます。さらに、選択範囲内の各タイプのノードの数に関する情報が**Settings**パネルの上部に表示されます。このボタンをクリックすると、そのタイプのノードのみを選択することができます。
+
+<img alt="Selecting Nodes by Type" src="/images/working-with-nodes/animation/Selecting-Nodes-by-Type.gif" width={800} height={424} loading="lazy" />
+
+## ノードの個々のパラメータの非表示/表示
+
+パラメータを非表示にするには、パラメータ名を右クリックし、ドロップダウンメニューから**Hide**を選択します。非表示のパラメータを表示するには、**Hidden Parameters**欄で**Show**をクリックします。非表示状態のパラメータはイタリックで表示されます。パラメータを非表示解除するには、パラメータ名を右クリックし、ドロップダウンメニューから**Show**を選択します。非表示パラメータを表示しないようにするには、**Hidden Parameters**欄で**Hide**をクリックします。
+
+<img alt="Hiding and Showing Individual Node Parameters" src="/images/working-with-nodes/animation/Hiding-Showing-Node-Parameters.gif" width={400} height={344} loading="lazy" />
+
+> **メモ：** 一部のノードのより使用頻度の低い、より高度なパラメータはデフォルトで非表示になっています。
+
+## ノードのピンの表示/非表示
+
+**Settings**パネルでは、パラメータ名の左側にあるドットを左クリックすると、ノード上の対応するパラメータピンの表示と非表示を切り替えることができます。青いドット<img alt="Blue Dot" src="/images/working-with-nodes/static/bluedot-1.png" width={14} height={14} loading="lazy" />はパラメータピンが表示されていることを示し、灰色のドット<img alt="Grey Dot" src="/images/working-with-nodes/static/greydot-1.png" width={14} height={14} loading="lazy" />は非表示を示します。
+
+<img alt="Hiding Showing Node Pins" src="/images/working-with-nodes/animation/Hiding-Showing-Node-Pins.gif" width={800} height={320} loading="lazy" />
+
+パラメータピンに設定されたリンクが非表示になった場合、このリンクは有効なままで、薄い線で表示されます。
+
+<img alt="Dimmed Link" src="/images/working-with-nodes/animation/Dimmed-Link.gif" width={800} height={296} loading="lazy" />

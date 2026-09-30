@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/en/concepts/organizing-media/media-library-overview.md
+document_id: guide.organizing-media.media-library-overview
+language: en
+document_body_sha256: 4df94e92fc5bda462cbde11d11157338b6d5313f77fcd30e9131ede0ea08a96c
+figures:
+  - id: en-b2f8159ad4-001
+    title: Media Library View
+    caption: Media Library View
+    show: "Media Library View. Use the adjacent instructions as the content brief: The Media Library widget allows users to upload, view, and manage the media content stored on the server. It can be added by selecting Window > Media Library from the main menu. The Media Library view: 1 – the folders tree, 2 – the content area, 3 – Media Library information and controls bar."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Media Library View
+    source_url: https://help.screenberry.com/images/organizing-media/static/media-library-view.png
+    source_alt: Media Library View
+    text_coverage: not-independently-verified
+  - id: en-b2f8159ad4-002
+    title: Media Library Controls
+    caption: Media Library Controls
+    show: "Media Library Controls. Use the adjacent instructions as the content brief: The Media folder is the default root folder and cannot be deleted. All new folders are created within the Media folder. The Interrupt button stops the uploading/converting process.The Uploading progress bar displays the percentage of media items uploaded to the server and the number of files already uploaded / total number of files being uploaded.The Converting progress bar displays the conversion percentage for each"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Media Library Controls
+    source_url: https://help.screenberry.com/images/organizing-media/static/media-library-controls.png
+    source_alt: Media Library Controls
+    text_coverage: not-independently-verified

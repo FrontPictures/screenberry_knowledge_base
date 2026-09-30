@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/en/how-to/organizing-media/managing-media-items.md
+document_id: guide.organizing-media.managing-media-items
+language: en
+document_body_sha256: bf7a168ef996bcdcc819c64eb723b330b2d689fde2d8233030129cd6331372ca
+figures:
+  - id: en-ce3749af23-001
+    title: Adding Media Files
+    caption: Adding Media Files
+    show: "Adding Media Files. Use the adjacent instructions as the content brief: To add media files to the server, do one of the following: select a Media Library folder and press the Add Media button at the bottom of the folders tree area, ordrag and drop file(s) into an existing Media Library folder, ordrag and drop file(s) into the playlist of an existing Media Player window. In the opened Add Media File(s) dialog box, resize or change the quality of media item(s) if needed, then press the Add"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Adding Media Files
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Adding-Media-Files.gif
+    source_alt: Adding Media Files
+    text_coverage: not-independently-verified
+  - id: en-ce3749af23-002
+    title: Deleting Media Items
+    caption: Deleting Media Items
+    show: "Deleting Media Items. Use the adjacent instructions as the content brief: To delete media item(s), right-click the media item (selection of media items) in a folder contents area and select Remove Item from Media Library or press Shift + Del."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Deleting Media Items
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Deleting-Media-Items.gif
+    source_alt: Deleting Media Items
+    text_coverage: not-independently-verified
+  - id: en-ce3749af23-003
+    title: Adding Media Files
+    caption: Adding Media Files
+    show: "Adding Media Files. Use the adjacent instructions as the content brief: If the Media folder in the Media Library is selected, the contents of all folders will be displayed, and media items can be dragged and dropped between folders."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: Arranging Media Items
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Adding-Media-Files.gif
+    source_alt: Adding Media Files
+    text_coverage: not-independently-verified
+  - id: en-ce3749af23-004
+    title: Searching Media Items 1
+    caption: Searching Media Items 1
+    show: "Searching Media Items 1. Use the adjacent instructions as the content brief: To search for specific media items, type any part of the name in the Media Library search box. As a result, only the media items with names or user-defined labels matching the search criteria will be displayed in the contents area. If the Media folder is selected, the search will be performed in all folders."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: Searching Media Items
+    source_url: https://help.screenberry.com/images/organizing-media/animation/Searching-Media-Items-1.gif
+    source_alt: Searching Media Items 1
+    text_coverage: not-independently-verified

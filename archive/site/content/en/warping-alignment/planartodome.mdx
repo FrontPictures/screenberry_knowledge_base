@@ -1,0 +1,37 @@
+---
+title: Screenberry Planar to Dome - Blending Planar and Dome Media
+description: Explore Screenberry's Planar to Dome node for integrating planar images onto dome surfaces. Learn to scale, offset, tilt, and rotate images for a perfect fit on dome-shaped surfaces and picture-in-picture effects.
+openGraph:
+  title: Screenberry Planar to Dome - Blending Planar and Dome Media
+  description: Explore Screenberry's Planar to Dome node for integrating planar images onto dome surfaces. Learn to scale, offset, tilt, and rotate images for a perfect fit on dome-shaped surfaces and picture-in-picture effects.
+---
+
+# Planar to Dome
+
+The **Planar to Dome** node is a patch that allows the mapping of a planar image onto a dome surface. It is mostly used to achieve a picture-in-picture effect by combining planar and dome media content on a dome screen.
+
+In a typical setup, the **Planar to Dome** node receives a source image as the input and outputs the modified image to the **Display** or **Context** node.
+
+![Planar To Dome Node Tree](/images/warping-alignment/static/Planar-to-Dome-node-tree.png)
+
+<small>Example of the node graph with the **Planar to Dome** node</small>
+
+The **Settings** panel of the **Planar to Dome** node offers the following geometry correction parameters:
+
+**Grid Size**    Sets the number of rows and columns for the patch mesh grid.
+
+**Subdivisions**    Sets the number of subdivisions for the patch mesh grid.
+
+**Aspect Ratio**   Defines the aspect ratio of the planar media.
+
+**Projection**   Allows you to select the type of three-dimensional shape on which the image is mapped by choosing one of the following options: **Planar**, **Conical**, or **Cylindrical**.
+
+**Scale**   Scales the image arbitrarily from its center by the set factor.
+
+**Vertical Offset**   Offsets the vertical position of the image in relation to the dome zenith.
+
+**Tilt Angle**   Sets the angle of the image tilt.
+
+**Rotation Angle**   Rotates the image by the specified angle around the zenith of the dome.
+
+<img alt="Planar To Dome" src="/images/warping-alignment/animation/Planar-to-Dome.gif" width={500} height={780} loading="lazy" />

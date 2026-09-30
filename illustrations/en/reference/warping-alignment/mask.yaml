@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/mask.md
+document_id: guide.warping-alignment.mask
+language: en
+document_body_sha256: 0eaeeb7028ac70babad1eb91aaf7de55ee66de4a2698d20ba23254904f053ca8
+figures:
+  - id: en-bd4de4247d-001
+    title: Mask Node Tree
+    caption: Mask Node Tree
+    show: "Mask Node Tree. Use the adjacent instructions as the content brief: The Mask node is a patch generally used to create and customize free-form solid color shapes that can be applied as a mask over other images. In a typical setup, the Mask node receives a solid color image from the Solid Color node and outputs the resulting shape mask to the Display or Canvas node, where it overlays the image received from another image source node. Example of the node graph with the Mask node"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: Mask
+    source_url: https://help.screenberry.com/images/warping-alignment/static/mask-node-tree.png
+    source_alt: Mask Node Tree
+    text_coverage: not-independently-verified
+  - id: en-bd4de4247d-002
+    title: Mask
+    caption: Mask
+    show: "Mask. Use the adjacent instructions as the content brief: Create and customize a shape mask by performing the following actions in the Output layout area of the Patch Editor: Draw a path by adding control points. Position the cursor over the layout area and press P, or right-click there and select Add Point from the context menu. Each new control point is connected to the previous one by a straight line. Continue adding points to form the desired shape.Complete the shape. D"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Mask
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/mask.gif
+    source_alt: Mask
+    text_coverage: not-independently-verified
+  - id: en-bd4de4247d-003
+    title: Mask Shapes Overlap
+    caption: Mask Shapes Overlap
+    show: "Mask Shapes Overlap. Use the adjacent instructions as the content brief: A shape mask can contain more than one shape. There can be an overlap between these shapes. In addition, working with the Mask patch follows the general principles for working with patches outlined in the Editing Patches section of the documentation."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Mask
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Mask-shapes-overlap.jpg
+    source_alt: Mask Shapes Overlap
+    text_coverage: not-independently-verified

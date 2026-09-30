@@ -1,0 +1,27 @@
+---
+title: Screenberryによる自動キャリブレーションの後補正 - 詳細調整とデータの書き出し
+description: 自動キャリブレーションのの後補正作業について、キャリブレーション結果の微調整やほかのアプリケーションなどで利用するためのデータ書き出し方法について説明します。
+openGraph:
+  title: Screenberryによる自動キャリブレーションの後補正 - 詳細調整とデータの書き出し
+  description: 自動キャリブレーションの最終段階、映像の調整や活用のためのデータ書き出し方法について説明します。
+---
+
+# キャリブレーション後の作業
+
+## キャリブレーション後のドーム投影の調整
+
+自動キャリブレーションの完了後、キャリブレーションカメラの位置、方向、レンズの歪みを補正するために、[Dome Transform](/jp/warping-alignment/dometransform)ノードを使用してさらに調整を行う場合があります。
+
+## キャリブレーション画像の確認
+
+もしキャリブレーションの結果が満足できない場合や、キャリブレーション中にエラーメッセージが表示された場合、問題の特定のためにキャリブレーション画像を確認することができます。
+
+キャリブレーションデータを確認するには、**Calibrator Wizard**ウィジェットの**Open Calibration Images Viewer**![Open Calibration Images Viewer](/images/automatic-calibration/static/Open-Calibration-Images-Viewer-button.png)ボタンを押し、必要なキャリブレーション段階の写真や画像を**Select Image**ドロップダウンリストから選びます。
+
+<img alt="Reviewing Calibration Images" src="/images/automatic-calibration/animation/Reviewing-Calibration-Images.gif" width={800} height={570} loading="lazy" />
+
+## キャリブレーションファイルの書き出し
+
+キャリブレーションファイルは、**DomeSDK Saver**ノードを使用して書き出することができます。このノードは、結合されたプロジェクション映像のキャリブレーションファイルを *.sbraw*（Screenberry独自形式）および *.png* 形式で保存します。これらのファイルは、Unreal® Engine 4、Unity®、TouchDesignerアプリケーション用に開発された **Front Pictures SDK** プラグインで使用することができます。*.sbraw* ファイル形式には浮動小数点ピクセル値が含まれています。
+
+> **メモ：** キャリブレーションファイルのエクスポートはScreenberryのデモバージョンでは無効になっています。

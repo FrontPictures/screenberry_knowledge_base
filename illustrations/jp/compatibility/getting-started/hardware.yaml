@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/compatibility/getting-started/hardware.md
+document_id: guide.getting-started.hardware
+language: ja
+document_body_sha256: 7fc6a42bff90c51c03e6841c5526f7bd1c1fd4e5d75ad33f255d8ed6a9bb2610
+figures:
+  - id: ja-a668c95455-001
+    title: License Dongle
+    caption: License Dongle
+    show: "License Dongle. Use the adjacent instructions as the content brief: Screenberry Serverを実行するにはライセンスドングルが必要であり、Media Serverコンピュータの利用可能なUSBポートに挿入する必要があります。 ライセンスドングル"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: ライセンスドングル
+    source_url: https://help.screenberry.com/images/getting-started/static/license-dongle.jpg
+    source_alt: License Dongle
+    text_coverage: not-independently-verified

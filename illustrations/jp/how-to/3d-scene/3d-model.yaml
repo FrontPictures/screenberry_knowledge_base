@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/jp/how-to/3d-scene/3d-model.md
+document_id: guide.3d-scene.3d-model
+language: ja
+document_body_sha256: bcf498c97b14daa3c7cfc4f22255d4ef2ce328ff48e83ec76c494d4f60d7f298
+figures:
+  - id: ja-6773de5d66-001
+    title: 3D Model File
+    caption: 3D Model File
+    show: "3D Model File. Use the adjacent instructions as the content brief: 3D モデルを追加するには、以下の手順に従ってください： Node Graph ウィジェットに移動します。3D Model File ノードをノードグラフに追加します。3D Model File ノードの設定で、Filename パラメータを使用して目的の 3D モデルファイルを選択します。3D Model File ノードの Object 出力パラメータを 3D Scene ノードの Object 入力パラメータに接続します。3D Scene ウィジェットに切り替えて、3D シーンツールを使用するか 3D Model File の設定内で 3D モデルの位置とサイズをさらに調整します。 3D Model File の設定には以下が含まれます："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: 3D モデルの追加
+    source_url: https://help.screenberry.com/images/3d-scene/animation/3D-Model-File.gif
+    source_alt: 3D Model File
+    text_coverage: not-independently-verified
+  - id: ja-6773de5d66-002
+    title: 3D Model Export
+    caption: 3D Model Export
+    show: "3D Model Export. Use the adjacent instructions as the content brief: 3D モデルを書き出すには、以下の手順に従ってください： Node Graph ウィジェットに移動します。3D Model Export ノードをノードグラフに追加します。3D Model File ノードおよび/または 3D Primitive ノードの Object 出力パラメータを、3D Model Export ノードの Source Object 入力パラメータに接続します。3D Model Export ノードの設定で、Filename パラメータに 3D モデルファイルのパスと名前を入力し、Save File ボタンをクリックします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: 3D モデルの保存
+    source_url: https://help.screenberry.com/images/3d-scene/animation/3D-Model-Export.gif
+    source_alt: 3D Model Export
+    text_coverage: not-independently-verified

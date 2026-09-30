@@ -1,0 +1,150 @@
+schema_version: 1
+document: knowledge/en/how-to/media-playback/matrix-based-playlists/adding-organizing-media-items.md
+document_id: guide.media-playback.matrix-based-playlists.adding-organizing-media-items
+language: en
+document_body_sha256: 1868dda3222882646e1879ac4eabb021f6f166520f3134f9fa6876f2a124b009
+figures:
+  - id: en-937cf12dfa-001
+    title: Adding Rows And Columns
+    caption: Adding Rows And Columns
+    show: "Adding Rows And Columns. Use the adjacent instructions as the content brief: In the event your matrix layout requires more rows and columns than what’s currently available, you can expand the grid by scrolling to its current edge. As you reach its visible limits, additional rows or columns are appended automatically. Please note that any rows and columns not populated with media items will automatically retract upon scrolling back, preserving an orderly and manageable grid."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Managing Rows and Columns
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Rows-and-Columns.gif
+    source_alt: Adding Rows And Columns
+    text_coverage: not-independently-verified
+  - id: en-937cf12dfa-002
+    title: Adding Media Items Matrix
+    caption: Adding Media Items Matrix
+    show: "Adding Media Items Matrix. Use the adjacent instructions as the content brief: To add media items to a matrix grid, do one of the following: Drag-and-Drop Method:Drag media items from the Media Library, another Media Player playlist, or a timeline directly into the grid.Copy-Paste Method:Select the chosen media items in the Media Library, another Media Player playlist, or a timeline.Copy these items by right-clicking and choosing Copy from the dropdown menu, or by using the Ctrl + C keyboard sh"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Adding Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Media-Items-Matrix.gif
+    source_alt: Adding Media Items Matrix
+    text_coverage: not-independently-verified
+  - id: en-937cf12dfa-003
+    title: Adding Media Items Matrix 2
+    caption: Adding Media Items Matrix 2
+    show: "Adding Media Items Matrix 2. Use the adjacent instructions as the content brief: Direct File Import from System Folders:Drag and drop files from a system folder into the grid, or use the Ctrl + C (Copy) and Ctrl + V (Paste) shortcuts to copy-paste them into the grid.In the Add Media File(s) dialog that appears, select the conversion quality for the media items. The available options are:MPEG-2 Max Quality 4:2:2: Represents the MPEG-2 video format encoded at the highest quality setting. This defau"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Adding Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Media-Items-Matrix-2.gif
+    source_alt: Adding Media Items Matrix 2
+    text_coverage: not-independently-verified
+  - id: en-937cf12dfa-004
+    title: Adding AUX Items Matrix
+    caption: Adding AUX Items Matrix
+    show: "Adding AUX Items Matrix. Use the adjacent instructions as the content brief: If you require the Media Player to receive multiple image inputs, specify the required count in the Number of AUX Inputs parameter in the Media Player node’s settings. After setting up the Media Player node to receive these images, navigate back to your matrix-based playlist. Right-click in the grid cell where you wish to add the AUX item and choose Add AUX from the dropdown menu. This will open the Select AUX dialog"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: Adding AUX Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-AUX-Items-Matrix.gif
+    source_alt: Adding AUX Items Matrix
+    text_coverage: not-independently-verified
+  - id: en-937cf12dfa-005
+    title: Adding AUX Items Matrix 2
+    caption: Adding AUX Items Matrix 2
+    show: "Adding AUX Items Matrix 2. Use the adjacent instructions as the content brief: AUX items within the matrix can be customized using the settings panel which appears when the item is selected. One setting you might want to adjust right away is the Duration parameter, which determines the playback length of the inserted image within the playlist."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: Adding AUX Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-AUX-Items-Matrix-2.gif
+    source_alt: Adding AUX Items Matrix 2
+    text_coverage: not-independently-verified
+  - id: en-937cf12dfa-006
+    title: Adding Data Items Matrix
+    caption: Adding Data Items Matrix
+    show: "Adding Data Items Matrix. Use the adjacent instructions as the content brief: To add a data item to the matrix grid, follow these steps: Right-click on the grid cell where you want to place the data item.Choose Add Data Item from the dropdown menu.In the window that appears, enter the Node Path and Parameter Name of the parameter you intend to modify.In the settings of the data item, define the value that the parameter will adopt during the playback of this data item in the playlist."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: Adding Data Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Data-Items-Matrix.gif
+    source_alt: Adding Data Items Matrix
+    text_coverage: not-independently-verified
+  - id: en-937cf12dfa-007
+    title: Renaming Media Items Matrix
+    caption: Renaming Media Items Matrix
+    show: "Renaming Media Items Matrix. Use the adjacent instructions as the content brief: To rename a media item within a playlist, you have the following options: Right-click on the media item and select Rename from the dropdown menu (or use the F2 shortcut), then type a new name in the Title field of the opened Set Item Title window.Alternatively, select the media item to open its settings, and enter a new title in the Title field."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: Renaming Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Renaming-Media-Items-Matrix.gif
+    source_alt: Renaming Media Items Matrix
+    text_coverage: not-independently-verified
+  - id: en-937cf12dfa-008
+    title: Deleting Media Items Matrix
+    caption: Deleting Media Items Matrix
+    show: "Deleting Media Items Matrix. Use the adjacent instructions as the content brief: To remove a media item or multiple selected media items from a grid, right-click on the item(s) and choose Delete from the dropdown menu, or press the Del key."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: Deleting Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Media-Items-Matrix.gif
+    source_alt: Deleting Media Items Matrix
+    text_coverage: not-independently-verified
+  - id: en-937cf12dfa-009
+    title: Selecting Media Items Matrix
+    caption: Selecting Media Items Matrix
+    show: "Selecting Media Items Matrix. Use the adjacent instructions as the content brief: Items in the matrix grid can be selected using any of the following methods: Click on a media item to select it.Hold Ctrl and click on multiple items for multiple selections.Select one item, hold Shift, and click on another to select all items within the rectangular grid area between these items.Click a column header to select every item in that column.Click a row header to select every item in that row."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: Selecting Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Selecting-Media-Items-Matrix.gif
+    source_alt: Selecting Media Items Matrix
+    text_coverage: not-independently-verified
+  - id: en-937cf12dfa-010
+    title: Arranging Media Items Matrix
+    caption: Arranging Media Items Matrix
+    show: "Arranging Media Items Matrix. Use the adjacent instructions as the content brief: You can arrange media items by selecting one or more items and dragging them to the preferred location in the grid. When moving multiple items simultaneously, their relative positioning is preserved. As you drag these items, the target cells in the grid are highlighted, indicating where they will be placed upon release. It's crucial to be aware that any existing media items in these cells will be overwritten by the n"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 30
+      section: Arranging Media Items within the Matrix Grid
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Media-Items-Matrix.gif
+    source_alt: Arranging Media Items Matrix
+    text_coverage: not-independently-verified
+  - id: en-937cf12dfa-011
+    title: Media Item Settings Matrix
+    caption: Media Item Settings Matrix
+    show: "Media Item Settings Matrix. Use the adjacent instructions as the content brief: To access and adjust the settings for a media item, do one of the following: Either right-click on the item within the matrix grid and choose Item Settings from the dropdown menu, or with the media item selected, press S to open the Settings dialog.Alternatively, select the media item to have its settings displayed in the Settings Panel. The settings available for media items in matrix-based playlists are consistent "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 34
+      section: Media Item Settings
+    source_url: https://help.screenberry.com/images/media-playback/animation/Media-Item-Settings-Matrix.gif
+    source_alt: Media Item Settings Matrix
+    text_coverage: not-independently-verified
+  - id: en-937cf12dfa-012
+    title: Customizing Thumbnail Appearance Matrix
+    caption: Customizing Thumbnail Appearance Matrix
+    show: "Customizing Thumbnail Appearance Matrix. Use the adjacent instructions as the content brief: Uncheck Show Names to hide the titles for a cleaner view with a focus on the visual content.Keep Show Names checked to maintain title visibility, ensuring efficient navigation and media item identification. These settings provide you with the flexibility to set up the media item thumbnails according to the specific requirements of your project."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 48
+      section: Customizing Thumbnail Appearance
+    source_url: https://help.screenberry.com/images/media-playback/animation/Customizing-Thumbnail-Appearance-Matrix.gif
+    source_alt: Customizing Thumbnail Appearance Matrix
+    text_coverage: not-independently-verified

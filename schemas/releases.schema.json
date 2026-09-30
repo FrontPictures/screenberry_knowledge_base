@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Release registry",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "default_public_version",
+    "releases",
+    "profiles"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "type": "integer"
+    },
+    "default_public_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "releases": {
+      "type": "object"
+    },
+    "profiles": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

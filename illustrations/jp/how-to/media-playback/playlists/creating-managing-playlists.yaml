@@ -1,0 +1,90 @@
+schema_version: 1
+document: knowledge/jp/how-to/media-playback/playlists/creating-managing-playlists.md
+document_id: guide.media-playback.playlists.creating-managing-playlists
+language: ja
+document_body_sha256: 88f409701516136f3a11bd36a7aea60c14dc68b283f6ffbc0e2e3628dd287a7c
+figures:
+  - id: ja-939fbf3f32-001
+    title: Adding Playlists
+    caption: Adding Playlists
+    show: "Adding Playlists. Use the adjacent instructions as the content brief: 新しいプレイリストを作成するには、ナビゲーションパネルの空白のエリアで右クリックするか、下部のツールバーのAddボタンをクリックし、ドロップダウンメニューからAdd Playlistを選択します。 既存のフォルダに新しいプレイリストを追加するには、フォルダを選択し、下部ツールバーのAddボタンをクリックするか、フォルダ名を右クリックしてドロップダウンメニューからAdd Playlistを選択してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: プレイリストの追加
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Playlists.gif
+    source_alt: Adding Playlists
+    text_coverage: not-independently-verified
+  - id: ja-939fbf3f32-002
+    title: Adding Playlists2
+    caption: Adding Playlists2
+    show: "Adding Playlists2. Use the adjacent instructions as the content brief: 既存のフォルダに新しいプレイリストを追加するには、フォルダを選択し、下部ツールバーのAddボタンをクリックするか、フォルダ名を右クリックしてドロップダウンメニューからAdd Playlistを選択してください。 フォルダの内容を表示/非表示にするには、フォルダアイコンの隣にある矢印アイコンを押してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: プレイリストの追加
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Playlists2.gif
+    source_alt: Adding Playlists2
+    text_coverage: not-independently-verified
+  - id: ja-939fbf3f32-003
+    title: Renaming Playlists
+    caption: Renaming Playlists
+    show: "Renaming Playlists. Use the adjacent instructions as the content brief: プレイリストを作成する際は、説明的な名前を付けると簡単に探し出すことができます。プレイリストの名前を変更するには、プレイリストを右クリックし、ドロップダウンメニューから Rename を選択し、表示されるダイアログボックスに新しい名前を入力してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: プレイリスト名の変更
+    source_url: https://help.screenberry.com/images/media-playback/animation/Renaming-Playlists.gif
+    source_alt: Renaming Playlists
+    text_coverage: not-independently-verified
+  - id: ja-939fbf3f32-004
+    title: Deleting Playlists
+    caption: Deleting Playlists
+    show: "Deleting Playlists. Use the adjacent instructions as the content brief: プレイリストを削除するには、その名前を右クリックしてドロップダウンメニューからDeleteを選択するか、名前を選択してナビゲーションパネルの下部ツールバーにあるDeleteボタンをクリックします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: プレイリストの削除
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Playlists.gif
+    source_alt: Deleting Playlists
+    text_coverage: not-independently-verified
+  - id: ja-939fbf3f32-005
+    title: Arranging Playlists
+    caption: Arranging Playlists
+    show: "Arranging Playlists. Use the adjacent instructions as the content brief: プレイリストとタイムラインのリスト内を移動するには、↑ または ↓ の矢印キーを使用してください。フォルダのコンテンツを展開または折りたたむには、フォルダアイコンの隣にある矢印アイコンをクリックしてください。 プレイリスト、タイムライン、およびフォルダの順序を変更するには、名前を右クリックし、ドロップダウンメニューから上に移動（Ctrl + ↑）または下に移動（Ctrl + ↓）を選択するか、それらをリストにドラッグアンドドロップしてください。プレイリストは、フォルダの名前またはそのコンテンツの上にドラッグすることで、フォルダ内に移動することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: プレイリストの整理
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Playlists.gif
+    source_alt: Arranging Playlists
+    text_coverage: not-independently-verified
+  - id: ja-939fbf3f32-006
+    title: Indication Playlists
+    caption: Indication Playlists
+    show: "Indication Playlists. Use the adjacent instructions as the content brief: ロックとアンロック： 誤操作を防ぐためにプレイリストをロックすることができます。ロックされたプレイリストは編集できませんが、アンロックすることでまた編集できるようになります。プレゼンテーションクリッカーによる再生制御： プレイリストの再生はプレゼンテーションクリッカーで制御することができます。このトグルを使用して、この機能を有効または無効にすることができます。詳細については、プレゼンテーションクリッカーによるプレイリストの再生制御 を参照してください。MIDI/キーボードイベントのマッピング： プレイリスト内の各メディアアイテムは、MIDI/キーボードイベントで再生を開始するようにマッピングすることができます。このトグルを使用して、プレイリストのMIDI/キーボードイベントの受信または無視の状態を切り替えることができます。詳細については、メディアアイテムをMIDI/キーボードイベントにマッピングする を参照してください。タイムコ"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: プレイリストの設定と状態表示
+    source_url: https://help.screenberry.com/images/media-playback/animation/Indication-Playlists.gif
+    source_alt: Indication Playlists
+    text_coverage: not-independently-verified
+  - id: ja-939fbf3f32-007
+    title: Indication Playback
+    caption: Indication Playback
+    show: "Indication Playback. Use the adjacent instructions as the content brief: プレイリストが現在再生中、一時停止中、または停止中の場合、対応するアイコンがプレイリスト名の横に表示されます。現在アクティブなプレイリストがフォルダの一部であり、フォルダの内容が折りたたまれている場合、これらのアイコンはフォルダアイコンに置き換えられます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: プレイリストの状態表示
+    source_url: https://help.screenberry.com/images/media-playback/animation/Indication-Playback.gif
+    source_alt: Indication Playback
+    text_coverage: not-independently-verified

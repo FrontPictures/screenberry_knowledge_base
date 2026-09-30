@@ -1,0 +1,102 @@
+schema_version: 1
+document: knowledge/jp/how-to/media-playback/timelines/animation-and-keyframing.md
+document_id: guide.media-playback.timelines.animation-and-keyframing
+language: ja
+document_body_sha256: a6c8debd9447d8b951102835e23066ae5d2fc152e3df06e5d926b4f4c7946ad9
+figures:
+  - id: ja-b6ec990dd1-001
+    title: Animation And Keyframing
+    caption: Animation And Keyframing
+    show: "Animation And Keyframing. Use the adjacent instructions as the content brief: アニメーションを付けたいパラメーターを含むタイムライン上のメディアアイテムを選択します。再生ヘッドをキーフレームを追加したい時点に移動します。Settingsパネルで、パラメーターをアニメーション化するために、その名前の隣にある菱形のアイコンをクリックして指定します。パラメータ入力欄に設定したい値を入力します。 タイムライン上のメディアアイテムにキーフレームを設定すると、菱のアイコンがメディアアイテムの名前の右端に表示されます。このアイコンをクリックすると、設定されたキーフレームを持つメディアアイテムのパラメータのリストが展開または折りたたまれます。 もしキーフレームがメディアアイテムの長さを超える位置に配置されている場合、パラメーターバーの対応する側にあるマークがその存在と位置を示します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: アニメーションとキーフレーム
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing.gif
+    source_alt: Animation And Keyframing
+    text_coverage: not-independently-verified
+  - id: ja-b6ec990dd1-002
+    title: Animation And Keyframing 2
+    caption: Animation And Keyframing 2
+    show: "Animation And Keyframing 2. Use the adjacent instructions as the content brief: もしキーフレームがメディアアイテムの長さを超える位置に配置されている場合、パラメーターバーの対応する側にあるマークがその存在と位置を示します。 リアルタイムで再生中に再生ヘッドが動いている間に、キーフレームを設定することもできます。この場合、選択したパラメータの値が変更されると、キーフレームが自動的に再生ヘッドの現在位置に作成されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: アニメーションとキーフレーム
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing-2.gif
+    source_alt: Animation And Keyframing 2
+    text_coverage: not-independently-verified
+  - id: ja-b6ec990dd1-003
+    title: Animation And Keyframing 3 1
+    caption: Animation And Keyframing 3 1
+    show: "Animation And Keyframing 3 1. Use the adjacent instructions as the content brief: リアルタイムで再生中に再生ヘッドが動いている間に、キーフレームを設定することもできます。この場合、選択したパラメータの値が変更されると、キーフレームが自動的に再生ヘッドの現在位置に作成されます。 複数のキーフレームがパラメータに追加されると、Settingsパネル内のパラメータ名の隣にある菱形アイコンの両側に、キーフレームのナビゲーション矢印が表示されます。これらの矢印を使用して、既存のキーフレームに移動し、さらなる調整を行うことができます。キーフレームが選択されると、菱形アイコンの色が青に変わります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: アニメーションとキーフレーム
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing-3-1.gif
+    source_alt: Animation And Keyframing 3 1
+    text_coverage: not-independently-verified
+  - id: ja-b6ec990dd1-004
+    title: Animation And Keyframing 4
+    caption: Animation And Keyframing 4
+    show: "Animation And Keyframing 4. Use the adjacent instructions as the content brief: 複数のキーフレームがパラメータに追加されると、Settingsパネル内のパラメータ名の隣にある菱形アイコンの両側に、キーフレームのナビゲーション矢印が表示されます。これらの矢印を使用して、既存のキーフレームに移動し、さらなる調整を行うことができます。キーフレームが選択されると、菱形アイコンの色が青に変わります。 また、タイムラインパネルでキーフレーム間を移動する場合は、メディアアイテムのパラメータリストを展開し、再生ヘッドを移動することで行うことができます。再生ヘッドは自動的に既存のキーフレームにスナップされます。さらに、タイムライントラック上の任意の場所で右クリックし、ドロップダウンメニューからJump to… > Next Keyframe（またはPrevious Keyframe）を選択することで、キーフレーム間を移動することもできます。 タイムラインパネルでキーフレームを選択するには、メディアアイテムのパラメータの展開さ"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: アニメーションとキーフレーム
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing-4.gif
+    source_alt: Animation And Keyframing 4
+    text_coverage: not-independently-verified
+  - id: ja-b6ec990dd1-005
+    title: Animation And Keyframing 5
+    caption: Animation And Keyframing 5
+    show: "Animation And Keyframing 5. Use the adjacent instructions as the content brief: タイムラインパネルでキーフレームを選択するには、メディアアイテムのパラメータの展開されたリスト内のアイコンをクリックします。選択されたキーフレームは黄色でハイライト表示され、選択されていないキーフレームはグレーのままです。Ctrl キーを押しながら対応するアイコンをクリックすることで、複数のキーフレームを一度に選択することができます。 選択されたキーフレームの位置（時間）を調整するには、タイムライントラック上の移動先にドラッグします。移動する際に、選択されたキーフレーム同士の相対的な位置関係は変わりません。 キーフレームを1つのメディアアイテムから別のメディアアイテムにコピーするには、以下の手順を実行します："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: アニメーションとキーフレーム
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing-5.gif
+    source_alt: Animation And Keyframing 5
+    text_coverage: not-independently-verified
+  - id: ja-b6ec990dd1-006
+    title: Animation And Keyframing 6
+    caption: Animation And Keyframing 6
+    show: "Animation And Keyframing 6. Use the adjacent instructions as the content brief: キーフレームを1つのメディアアイテムから別のメディアアイテムにコピーするには、以下の手順を実行します： キーフレームをコピーしたいメディアアイテムを右クリックし、ドロップダウンメニューからCopyを選択します。または、メディアアイテムを選択し、Ctrl + C のキーボードショートカットを使用することもできます。コピー先のメディアアイテムを右クリックし、ドロップダウンメニューからPaste Propertiesを選択するか、Ctrl + Shift + V のキーボードショートカットを使用します。表示されるダイアログボックスで、Animation Keysチェックボックスが選択されていることを確認します。OKをクリックして、コピーしたキーフレームをターゲットメディアアイテムに適用します。 もしキーフレームが不要になった場合は、メディアアイテムのパラメータの展開リストでそのアイコンを右クリックし、ドロップダウンメニューからDele"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: アニメーションとキーフレーム
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing-6.gif
+    source_alt: Animation And Keyframing 6
+    text_coverage: not-independently-verified
+  - id: ja-b6ec990dd1-007
+    title: Animation And Keyframing 7
+    caption: Animation And Keyframing 7
+    show: "Animation And Keyframing 7. Use the adjacent instructions as the content brief: もしキーフレームが不要になった場合は、メディアアイテムのパラメータの展開リストでそのアイコンを右クリックし、ドロップダウンメニューからDelete Keyframesを選択することで簡単に削除することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: アニメーションとキーフレーム
+    source_url: https://help.screenberry.com/images/media-playback/animation/Animation-and-Keyframing-7.gif
+    source_alt: Animation And Keyframing 7
+    text_coverage: not-independently-verified
+  - id: ja-b6ec990dd1-008
+    title: Keyframing Of Data Items
+    caption: Keyframing Of Data Items
+    show: "Keyframing Of Data Items. Use the adjacent instructions as the content brief: データアイテムのキーフレームは、他のメディアアイテムと同様の手順で手動で設定することができます。また、レコーディング機能を使用して自動的にキーフレームを設定することもできます。この機能を有効にするには、データアイテムの設定でRecordチェックボックスを選択します。有効にした場合、データアイテムの値パラメータに対するすべての変更は、再生時に自動的にキーフレームとして記録されます。 メモ： レコーディングを終えたら、次にデータアイテムを再生する際に、以前に設定されたキーフレームが消去されないように、Recordチェックボックスを選択解除してレコーディング機能を無効にしてください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: データアイテムのキーフレーム化
+    source_url: https://help.screenberry.com/images/media-playback/animation/Keyframing-of-Data-Items.gif
+    source_alt: Keyframing Of Data Items
+    text_coverage: not-independently-verified

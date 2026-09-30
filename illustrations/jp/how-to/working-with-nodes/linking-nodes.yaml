@@ -1,0 +1,102 @@
+schema_version: 1
+document: knowledge/jp/how-to/working-with-nodes/linking-nodes.md
+document_id: guide.working-with-nodes.linking-nodes
+language: ja
+document_body_sha256: 1f997cd40642b105b086b874ddc30ab5dfae78a99ef76d6e7411903a444c7425
+figures:
+  - id: ja-f3dbb99d85-001
+    title: Links Nodes Automatically
+    caption: Links Nodes Automatically
+    show: "Links Nodes Automatically. Use the adjacent instructions as the content brief: ノード間のリンクを自動的に作成するには、1つ以上のノードを選択し、Ctrl キーを押しながら対象のノードを左クリックします。Screenberryは同じタイプのパラメータを識別してリンクを確立します。これはノードを接続する最速の方法です。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: 自動的にノード間のリンクを作成する
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Links-Nodes-Automatically.gif
+    source_alt: Links Nodes Automatically
+    text_coverage: not-independently-verified
+  - id: ja-f3dbb99d85-002
+    title: Links Nodes With Ctrl
+    caption: Links Nodes With Ctrl
+    show: "Links Nodes With Ctrl. Use the adjacent instructions as the content brief: メモ： リンクは同じタイプのピン間でのみ可能です。 メモ： 1つのリンクに対して複数のピンが利用可能な場合があります。ターゲットノードの側にリンクをドラッグすると、すべての有効な接続を表示できます。 メモ： 一つのピンへの複数のリンクを作成する場合、パラメータのタイプによって、新しいリンクが既存のリンクを置き換えるか、既存のリンクに追加されるかが異なります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: ノード間のリンクを手動で作成する
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Links-Nodes-with-Ctrl.gif
+    source_alt: Links Nodes With Ctrl
+    text_coverage: not-independently-verified
+  - id: ja-f3dbb99d85-003
+    title: Removing Node Links1
+    caption: Removing Node Links1
+    show: "Removing Node Links1. Use the adjacent instructions as the content brief: リンクまたはノードピン（またはそのパラメータ名）を右クリックし、Unlink [パラメータ名] を選択すると、リンクが削除されます。 または、ピンを Shift キーを押しながらクリックし、リンクをノードグラフの空白の領域にドラッグすることでもリンクを削除することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: ノード間のリンクの削除
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Removing-Node-Links1.gif
+    source_alt: Removing Node Links1
+    text_coverage: not-independently-verified
+  - id: ja-f3dbb99d85-004
+    title: Removing Node Links2
+    caption: Removing Node Links2
+    show: "Removing Node Links2. Use the adjacent instructions as the content brief: または、ピンを Shift キーを押しながらクリックし、リンクをノードグラフの空白の領域にドラッグすることでもリンクを削除することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: ノード間のリンクの削除
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Removing-Node-Links2.gif
+    source_alt: Removing Node Links2
+    text_coverage: not-independently-verified
+  - id: ja-f3dbb99d85-005
+    title: Rearranging Links Between Nodes
+    caption: Rearranging Links Between Nodes
+    show: "Rearranging Links Between Nodes. Use the adjacent instructions as the content brief: リンク（または複数のリンク）を1つのピンから別のピンに移動するには、ピンを Shift キーを押しながらクリックし、リンク（複数のリンク）を新しいピンまたはノードにドラッグします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: ノード間のリンクの並べ替え
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Rearranging-Links-Between-Nodes.gif
+    source_alt: Rearranging Links Between Nodes
+    text_coverage: not-independently-verified
+  - id: ja-f3dbb99d85-006
+    title: Reestablishing Links Automatically
+    caption: Reestablishing Links Automatically
+    show: "Reestablishing Links Automatically. Use the adjacent instructions as the content brief: Node Graphウィジェットの空いた領域を左クリックして、すべてのノードの選択を解除します。Ctrl キーを押しながら、接続したいノードを順番に選択します。選択したノード間に適切なリンクが自動的に作成され、新しいリンクと競合する既存のリンクは削除されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: ノード間のリンクを自動的に作成する
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Reestablishing-Links-Automatically.gif
+    source_alt: Reestablishing Links Automatically
+    text_coverage: not-independently-verified
+  - id: ja-f3dbb99d85-007
+    title: Reordering Node Links
+    caption: Reordering Node Links
+    show: "Reordering Node Links. Use the adjacent instructions as the content brief: 複数のリンクがノードの同じ入力ピンに接続されている場合、リンクが作成された順序で処理が実行されます。入力の処理順序を変更するには、入力パラメータのピンまたは名前を右クリックし、Reorder Links for [パラメータ名] を選択します。表示されるダイアログボックスで、リンクの名前をドラッグしたり、名前を選択して矢印ボタンを使用して入力を並び替えてください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: ノードリンクの並び替え
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Reordering-Node-Links.gif
+    source_alt: Reordering Node Links
+    text_coverage: not-independently-verified
+  - id: ja-f3dbb99d85-008
+    title: Route Pin
+    caption: Route Pin
+    show: "Route Pin. Use the adjacent instructions as the content brief: Reroute Pinを追加するには、ノード間のリンク上で右クリックし、ドロップダウンメニューからReroute Pinを選択します。 Reroute Pinを削除するには、これを右クリックし、ドロップダウンメニューから Delete を選択します（または Del キーを押します）。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: Reroute Pin の使用方法
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Route-Pin.gif
+    source_alt: Route Pin
+    text_coverage: not-independently-verified

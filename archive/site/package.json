@@ -1,0 +1,52 @@
+{
+  "name": "nextra-docs-template",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "description": "Nextra docs template",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind && next-sitemap",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+  },
+  "author": "Roman Kotyk <g@shud.in>",
+  "homepage": "https://help-sb.vercel.app",
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@hookform/resolvers": "^5.7.1",
+    "@next/third-parties": "16.3.1",
+    "axios": "1.19.0",
+    "debounce": "^3.0.0",
+    "gsap": "^3.15.0",
+    "jotai": "^2.20.2",
+    "next": "16.3.1",
+    "next-sitemap": "^4.2.3",
+    "next-themes": "^0.4.6",
+    "nextra": "4.6.1",
+    "nextra-theme-docs": "4.6.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-hook-form": "^7.85.0",
+    "react-hot-toast": "^2.6.0",
+    "tailwind-merge": "^3.6.0",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "26.2.0",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "pagefind": "1.5.2",
+    "postcss": "8.5.26",
+    "tailwindcss": "4.3.3",
+    "typescript": "^6.0.3"
+  },
+  "packageManager": "pnpm@11.20.0+sha512.9a6f330a95b66446ea088faf1521405a8a01f07fde7124cc9958dfed52d4bb436737e65b08f85f37b46fcba375092558ac51262b816844b22f63406ed166bfee"
+}

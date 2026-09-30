@@ -1,0 +1,222 @@
+schema_version: 1
+document: knowledge/en/how-to/display-editor.md
+document_id: guide.display-editor
+language: en
+document_body_sha256: 8154c9c54dcf39da01e9b573b9c41d2e5fdbb6b2422356569bf7bec673e92e14
+figures:
+  - id: en-1bcf017428-001
+    title: Display Editor View
+    caption: Display Editor View
+    show: "Display Editor View. Use the adjacent instructions as the content brief: The Display Editor allows users to add new displays, set display dimensions, position, and stack order, create display arrays, swap displays, and adjust other display settings. The Display Editor can be accessed within the Canvas (or RenderTarget) widget. An example of a basic media playback pipeline and its view in the Display Editor: The Media Player node (1) sends an image to the Display node (2) that has a resolu"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Overview
+    source_url: https://help.screenberry.com/images/display-editor/static/Display-Editor-View.png
+    source_alt: Display Editor View
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-002
+    title: Accessing Display Editor
+    caption: Accessing Display Editor
+    show: "Accessing Display Editor. Use the adjacent instructions as the content brief: The Media Player node (1) sends an image to the Display node (2) that has a resolution of 1240 x 768 pixels and is positioned at (0,0) coordinates of Canvas node (3), which defines the server output area with a resolution of 1960 x 1280 pixels. To access the Display Editor, add the Canvas (or Render Target) widget to your workspace, then click the Displays tab on the top left of the widget to switch to the Displays v"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Overview
+    source_url: https://help.screenberry.com/images/display-editor/animation/Accessing-Display-Editor.gif
+    source_alt: Accessing Display Editor
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-003
+    title: Adding A Display
+    caption: Adding A Display
+    show: "Adding A Display. Use the adjacent instructions as the content brief: By default, the added display will have the same dimensions as the Canvas. The corresponding Display node will be created in the Node Graph and linked to the related Canvas (or RenderTarget) node automatically. Reversely, a new display can be added by adding a new Display node in the Node Graph and linking it to the Canvas (or RenderTarget) node of the relevant canvas."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: Adding Displays
+    source_url: https://help.screenberry.com/images/display-editor/animation/Adding-a-Display.gif
+    source_alt: Adding A Display
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-004
+    title: Creating A Display Array
+    caption: Creating A Display Array
+    show: "Creating A Display Array. Use the adjacent instructions as the content brief: Open the Canvas (or RenderTarget) Editor widget.Click the Displays button on the top left of the widget to switch to the Displays view.Click the Create Display Array icon in the toolbar at the top left, or right-click an empty area in the Display window and select Create Display Array from the dropdown menu.In the opened dialog box, enter the numbers of Rows and Columns for a display array, select the type of the pat"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: Creating Display Arrays
+    source_url: https://help.screenberry.com/images/display-editor/animation/Creating-a-Display-Array.gif
+    source_alt: Creating A Display Array
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-005
+    title: Renaming A Display
+    caption: Renaming A Display
+    show: "Renaming A Display. Use the adjacent instructions as the content brief: To rename a display, do one of the following: Right-click on the display, select Rename from the dropdown menu, enter a new display name in the opened dialog box, and press OK.Select display and change the display name in the header of the display’s Settings panel."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: Renaming Displays
+    source_url: https://help.screenberry.com/images/display-editor/animation/Renaming-a-Display.gif
+    source_alt: Renaming A Display
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-006
+    title: Selecting Displays 1
+    caption: Selecting Displays 1
+    show: "Selecting Displays 1. Use the adjacent instructions as the content brief: To select a display, left-click the display in the Display Editor, or the display name in the navigation tree. Multiple displays can be selected by Shift-clicking on displays in the Display Editor, or display names in the navigation tree."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: Selecting Displays
+    source_url: https://help.screenberry.com/images/display-editor/animation/Selecting-Displays-1.gif
+    source_alt: Selecting Displays 1
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-007
+    title: Selecting Displays 2
+    caption: Selecting Displays 2
+    show: "Selecting Displays 2. Use the adjacent instructions as the content brief: Multiple displays can be selected by Shift-clicking on displays in the Display Editor, or display names in the navigation tree. Multiple displays can also be selected at once by left-clicking an empty area in the Display Editor and dragging the mouse to create a marquee."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: Selecting Displays
+    source_url: https://help.screenberry.com/images/display-editor/animation/Selecting-Displays-2.gif
+    source_alt: Selecting Displays 2
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-008
+    title: Selecting Displays 3
+    caption: Selecting Displays 3
+    show: "Selecting Displays 3. Use the adjacent instructions as the content brief: Multiple displays can also be selected at once by left-clicking an empty area in the Display Editor and dragging the mouse to create a marquee. If dragging is done from right to left, all the displays touched by the rectangular marquee will be selected. If dragging is done from left to right only the displays inside the rectangular marquee will be selected."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: Selecting Displays
+    source_url: https://help.screenberry.com/images/display-editor/animation/Selecting-Displays-3.gif
+    source_alt: Selecting Displays 3
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-009
+    title: Selecting Displays 4
+    caption: Selecting Displays 4
+    show: "Selecting Displays 4. Use the adjacent instructions as the content brief: If dragging is done from left to right only the displays inside the rectangular marquee will be selected."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 28
+      section: Selecting Displays
+    source_url: https://help.screenberry.com/images/display-editor/animation/Selecting-Displays-4.gif
+    source_alt: Selecting Displays 4
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-010
+    title: Display Position And Dimensions
+    caption: Display Position And Dimensions
+    show: "Display Position And Dimensions. Use the adjacent instructions as the content brief: Another way to change the position of a display is to select a display in the Display Editor or the display name in the navigation tree and modify the X and Y values for the Position parameter in the Settings panel. You can also adjust the display dimensions in the Settings panel by changing the W and H values for the Size parameter."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: Display Position and Dimensions
+    source_url: https://help.screenberry.com/images/display-editor/animation/Display-Position-and-Dimensions.gif
+    source_alt: Display Position And Dimensions
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-011
+    title: Copying And Pasting Displays
+    caption: Copying And Pasting Displays
+    show: "Copying And Pasting Displays. Use the adjacent instructions as the content brief: To copy and paste displays in the Display Editor, select one or more displays and do one of the following: Right-click on a display (or a group of selected displays) and choose either Copy or Cut and then Paste from the dropdown menu.Use the following keyboard shortcuts: Ctrl + C to copy or Ctrl + X to cut and Ctrl + V to paste."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 36
+      section: Copying and Pasting Displays
+    source_url: https://help.screenberry.com/images/display-editor/animation/Copying-and-Pasting-Displays.gif
+    source_alt: Copying And Pasting Displays
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-012
+    title: Deleting A Display
+    caption: Deleting A Display
+    show: "Deleting A Display. Use the adjacent instructions as the content brief: To delete a display, do one of the following: Right-click on the display and select Delete from the dropdown menu (or press the Del button).Delete the corresponding Display node in the Node Graph."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 39
+      section: Deleting Displays
+    source_url: https://help.screenberry.com/images/display-editor/animation/Deleting-a-Display.gif
+    source_alt: Deleting A Display
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-013
+    title: Disabling A Display
+    caption: Disabling A Display
+    show: "Disabling A Display. Use the adjacent instructions as the content brief: Disabling a Display node in the Node Graph (see Node Status) will disable the corresponding display in the Display Editor. To indicate that a node has been disabled, the display will be crossed off."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 41
+      section: Disabling Displays
+    source_url: https://help.screenberry.com/images/display-editor/animation/Disabling-a-Display.gif
+    source_alt: Disabling A Display
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-014
+    title: Swapping Displays
+    caption: Swapping Displays
+    show: "Swapping Displays. Use the adjacent instructions as the content brief: To swap displays, click the Swap Displays icon in the toolbar at the top left, or right-click an empty area in the Display window and select Swap Displays from the dropdown menu. In the opened dialog box do the following: Select a display from the dropdown menu in the Swap field, or press the Skip button or the Enter key to move on to the next display in the list.When the desired display is selected, in the With fiel"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 44
+      section: Swapping Displays
+    source_url: https://help.screenberry.com/images/display-editor/animation/Swapping-Displays.gif
+    source_alt: Swapping Displays
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-015
+    title: Changing Stack Order Of Displays
+    caption: Changing Stack Order Of Displays
+    show: "Changing Stack Order Of Displays. Use the adjacent instructions as the content brief: Alternatively, the stack order of displays can be modified by reordering the links connecting Display nodes to the Canvas node in the Node Graph (see Reordering Node Links). The displays are stacked top-down in relation to the order in which Display nodes are linked to the Canvas node, which means that the display with the succeeding node link will overlay the one with the preceding link."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 50
+      section: Changing the Stack Order of Displays
+    source_url: https://help.screenberry.com/images/display-editor/animation/Changing-Stack-Order-of-Displays.gif
+    source_alt: Changing Stack Order Of Displays
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-016
+    title: Turning On Display Test Pattern
+    caption: Turning On Display Test Pattern
+    show: "Turning On Display Test Pattern. Use the adjacent instructions as the content brief: To show the test pattern on a display, select a display to access its Settings, and choose one of the following options for the Test Pattern parameter: Name, Digits, Grid, Color Bars, or Gradient."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 52
+      section: Turning on Display Test Pattern
+    source_url: https://help.screenberry.com/images/display-editor/animation/Turning-on-Display-Test-Pattern.gif
+    source_alt: Turning On Display Test Pattern
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-017
+    title: Rotating Display Output Image
+    caption: Rotating Display Output Image
+    show: "Rotating Display Output Image. Use the adjacent instructions as the content brief: When one or more projectors or displays are oriented vertically or upside down, it might be useful to change the orientation of the corresponding display output images so the operations that require onscreen movement upward, downward, right, and left on the particular display correspond to the directions on the physical screen. To rotate a display output image, select a display to access its Settings, and choose one "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 55
+      section: Rotating Display Output Image
+    source_url: https://help.screenberry.com/images/display-editor/animation/Rotating-Display-Output-Image.gif
+    source_alt: Rotating Display Output Image
+    text_coverage: not-independently-verified
+  - id: en-1bcf017428-018
+    title: Zooming And Panning
+    caption: Zooming And Panning
+    show: "Zooming And Panning. Use the adjacent instructions as the content brief: Тo zoom in and out of a specific area in the Display Editor, place the mouse cursor over the area, and use the mouse scroll wheel. Alternatively, click the button in the top right corner of the panel and move the mouse to change the magnification. To pan a view, drag with the middle or right mouse button held down, or click the button in the top right corner of the panel and move the mouse."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 58
+      section: Zooming and Panning in Display Editor
+    source_url: https://help.screenberry.com/images/display-editor/animation/Zooming-and-Panning.gif
+    source_alt: Zooming And Panning
+    text_coverage: not-independently-verified

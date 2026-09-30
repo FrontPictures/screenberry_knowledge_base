@@ -1,0 +1,38 @@
+---
+title: Screenberry Quad Grid Patch - 階段状の表面への映像マッピング
+description: Quad Gridノードを利用して、階段状の表面に映像を正確にマッピングする方法について説明します。
+openGraph:
+  title: Screenberry Quad Grid Patch - 階段状の表面への映像マッピング
+  description: Quad Gridノードを利用して、階段状の表面に映像を正確にマッピングする方法について説明します。
+---
+
+# Quad Grid
+
+**Quad Grid**ノードは、ユーザーが定義したメッシュグリッドの個々の面に透視投影変形を適用するPatchノードです。このPatchは、階段状のオブジェクトの表面に投影をマッピングするために開発されました。
+
+典型的なセットアップでは、**Quad Grid**ノードは入力としてソース映像を受け取り、変形された映像を**Display**ノードまたは**Canvas**ノードに出力します。
+
+![Quad Grid Node Tree](/images/warping-alignment/static/Quad-Grid-node-tree.png)
+
+<small>**Quad Grid**ノードを使用したノードグラフの例</small>
+
+**Patch Editor**で **Quad Grid**ノードを使って透視投影変形を適用するには、以下の手順を実行します：
+
+1. **Settings**パネルの**Grid Size**に**X**と**Y**の値を入力して、メッシュグリッドを作成します。
+
+   典型的な設定は、水平な平面（ステップ）を持つ階段状のオブジェクトへの投影です。
+   - **X**の値は2に設定します。これは1つの列のメッシュグリッドを定義するために必要な最小のキーコントロールポイントの数です。より複雑なオブジェクトへのプロジェクションマッピングの場合、この値は大きくすることもできます。
+   - **Y**の値は、階段の格段の側面と上面の総数に合わせて設定します。
+
+    階段や屏風のようなオブジェクトへの投影の場合、**X**と**Y**の値は逆になります。
+
+| ![Stairs1](/images/warping-alignment/static/stairs1.png)                | ![Stairs2 1](/images/warping-alignment/static/stairs2-1.png)              |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| <small>横長の平面が並んだPatchの例。Grid Size: X=2, Y=10</small> | <small>縦長の平面が並んだPatchの例。Grid Size: X=10, Y=2</small> |
+
+2. **Output**パネルで、各グリッド平面の制御点のハンドルをドラッグして、映像をオブジェクトの形状に合わせます。
+3. メッシュグリッドの変更中に、グリッド平面が台形の形に変換された場合、平面の接合部に歪みが生じる可能性があります。これを避けるためには、**Settings**パネルの**Vertical Interpolation**または**Horizontal Interpolation**で**Linear**を選択し、透視投影変形を水平または垂直のグリッド平面に制限してください。
+
+<img alt="Quad Grid" src="/images/warping-alignment/animation/Quad-Grid.gif" width={800} height={820} loading="lazy" />
+
+**Quad Grid**ノードを使用する場合は、Patchの共通操作について[Patchの編集](../patch-editor/editing-patches)の章も参照してください。

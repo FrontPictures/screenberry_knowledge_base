@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/reference/node-reference/integration-nodes/touchengine.md
+document_id: guide.node-reference.integration-nodes.touchengine
+language: en
+document_body_sha256: 4ba83d9ac6d469f9b643754242686d1154df8fba97640fdcfca9a70cb512e3b6
+figures:
+  - id: en-6835bb1a86-001
+    title: TouchEngineExample
+    caption: TouchEngineExample
+    show: "TouchEngineExample. Use the adjacent instructions as the content brief: TOP — an operator family that creates, composites, and modifies images, and reads/writes images and movies to/from files and the network. TOPs run on the graphics card’s GPU.CHOP — an operator family which operates on Channels (a series of numbers) that are used for animation, audio, mathematics, simulation, logic, UI construction, and many other applications.DAT — an operator family that manipulates text strings: mu"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: TouchEngine
+    source_url: https://help.screenberry.com/images/node-references/animation/TouchEngineExample.gif
+    source_alt: TouchEngineExample
+    text_coverage: not-independently-verified

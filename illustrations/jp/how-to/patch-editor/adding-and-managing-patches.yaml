@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/jp/how-to/patch-editor/adding-and-managing-patches.md
+document_id: guide.patch-editor.adding-and-managing-patches
+language: ja
+document_body_sha256: 080d9f90969f83c29ac0b3e3fd2ba2d29a0099d0aa3a995a65f59f271027d1a0
+figures:
+  - id: ja-7bbf5fe852-001
+    title: Node Tree Example
+    caption: Node Tree Example
+    show: "Node Tree Example. Use the adjacent instructions as the content brief: Patchノードはノードグラフに追加されます（詳細はノードの追加を参照）。 通常のセットアップでは、Patchノードの入力はソース映像となるノードに接続され、その出力はDisplayノードまたはCanvasノードに接続されます。 Bezier WarpノードはMedia Playerノードから映像入力を受け取り、Canvasノードに映像出力を送ります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Patchの追加
+    source_url: https://help.screenberry.com/images/patch-editor/static/Node-Tree-Example.png
+    source_alt: Node Tree Example
+    text_coverage: not-independently-verified
+  - id: ja-7bbf5fe852-002
+    title: Deleting Patches
+    caption: Deleting Patches
+    show: "Deleting Patches. Use the adjacent instructions as the content brief: InputパネルまたはOutputパネルのいずれかの制御点を右クリックし、ドロップダウンメニューからDelete Patchesを選択します。ナビゲーションツリーのPatchをクリックし、ドロップダウンメニューからDelete Patchを選択します。 または、ノードグラフ で関連するPatchノードを削除することもできます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Patchの削除
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Deleting-Patches.gif
+    source_alt: Deleting Patches
+    text_coverage: not-independently-verified

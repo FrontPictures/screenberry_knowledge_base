@@ -1,0 +1,56 @@
+---
+title: ScreenberryのMedia Playerによる色調補正と音量制御
+description: ScreenberryのMedia Playerで色調補正と音量制御を共通設定する方法を説明します。
+openGraph:
+  title: ScreenberryのMedia Playerによる色調補正と音量制御
+  description: ScreenberryのMedia Playerで色調補正と音量制御を共通設定する方法を説明します。
+---
+
+# Media Playerの全体設定
+
+## 色調補正
+
+**Media Player**の出力用の色調補正コントロールにアクセスするには、**Media Player**ウィジェットの右下にある**Color Correction**<img alt="Colorcorrection" src="/images/media-playback/static/colorcorrection.png" width={17} height={17} loading="lazy" />ボタンをクリックします。
+
+> **メモ：** 色調補正は個々のメディアアイテムにも適用することができ、それらは**Media Player**の出力に適用されるものと組み合わされます。
+
+<img alt="Global Color Correction" src="/images/media-playback/animation/Global-Color-Correction.gif" width={800} height={525} loading="lazy" />
+
+### Color Correctionコントロール
+
+#### チャンネルセレクター
+
+色調補正は、すべてのチャンネルに同時に適用するか、個別に*Red*、*Green*、または*Blue*チャンネルに適用することができます。 **チャンネルセレクター**を使用して、調整したいチャンネルを選択します。
+
+#### カーブによる調整
+
+カーブを使用して映像の色調調整をするには：
+
+- 制御点を作成するために曲線上をクリックします。
+- 制御点をドラッグするか、**X**と**Y**の入力欄に値を入力して、座標を変更します。
+
+制御点をダブルクリックして削除します。
+
+#### 色相、彩度、明度スライダー
+
+映像の **色相（Hue）**、**彩度（Saturation）**、および **明度（Lightness）** を調整するには、対応するスライダーをドラッグするか、対応する入力欄に値を入力します。
+
+#### デフォルトの色調の復元
+
+デフォルトの色調に戻すには、**Reset**ボタンを押します。
+
+#### 色調補正設定の保存
+
+色調補正設定をJSON（.cc）形式ファイルに保存するには、**Save**ボタンをクリックします。
+
+#### 保存された色補正設定の適用
+
+以前に保存されたJSON (*.cc) 形式の色調補正設定を読み込むには、**Load**ボタンをクリックします。
+
+## 音量調整
+
+**Media Player**のオーディオ出力の音量を調整するには、**Media Player**ウィジェットの右下にある**Volume**<img alt="Volume" src="/images/media-playback/static/volume.png" width={17} height={17} loading="lazy" />ボタンをクリックし、スライダーをドラッグして音量レベルを設定します。
+
+個々のメディアアイテムのオーディオ音量も調整することができ、これらの変更は**Media Player**のオーディオ出力と音調設定と組み合わされます。
+
+<img alt="Global Volume Control" src="/images/media-playback/animation/Global-Volume-Control.gif" width={800} height={376} loading="lazy" />

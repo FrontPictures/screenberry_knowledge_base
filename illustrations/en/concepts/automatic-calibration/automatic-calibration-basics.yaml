@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/concepts/automatic-calibration/automatic-calibration-basics.md
+document_id: guide.automatic-calibration.automatic-calibration-basics
+language: en
+document_body_sha256: d608e385bff91b42ac8108d29101cf7d82d16eea8cb2025fcce342979c5e26bc
+figures:
+  - id: en-de7d11f0ce-001
+    title: Automatic Calibration Node Graph
+    caption: Automatic Calibration Node Graph
+    show: "Automatic Calibration Node Graph. Use the adjacent instructions as the content brief: In the Node Graph widget, add the Canvas node.Add the Canvas Editor widget to your workspace and ensure that the Displays option is chosen in the View Mode dropdown menu.In the Canvas Editor, press the Create Display Array button. In the dialog box that appears, enter the number of Rows and Columns to generate a display grid corresponding to the number of projectors* in your setup, select CalibratorPatch as the Patch"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: Creating a Node Graph for Automatic Calibration
+    source_url: https://help.screenberry.com/images/automatic-calibration/animation/Automatic-Calibration-Graph.gif
+    source_alt: Automatic Calibration Node Graph
+    text_coverage: not-independently-verified

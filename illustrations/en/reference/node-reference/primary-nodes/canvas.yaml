@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/en/reference/node-reference/primary-nodes/canvas.md
+document_id: guide.node-reference.primary-nodes.canvas
+language: en
+document_body_sha256: 39b39d0f031b73bf3c881e890f56a38924d62f4ef811c2c5ed670112e471b7e4
+figures:
+  - id: en-a55870e461-001
+    title: Canvas Node Graph
+    caption: Canvas Node Graph
+    show: "Canvas Node Graph. Use the adjacent instructions as the content brief: Canvas node is a principal Screenberry node that creates an OpenGL context window for a main server video output. It serves as a canvas on which all Screenberry image output elements such as displays and patches are composed. When the Canvas node is added in the Node Graph the corresponding widget becomes accessible that allows to edit Displays and Patches associated with this canvas. The widget can be added to the w"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: Canvas
+    source_url: https://help.screenberry.com/images/node-references/animation/Canvas-graph.gif
+    source_alt: Canvas Node Graph
+    text_coverage: not-independently-verified
+  - id: en-a55870e461-002
+    title: Canvas Widget
+    caption: Canvas Widget
+    show: "Canvas Widget. Use the adjacent instructions as the content brief: When the Canvas node is added in the Node Graph the corresponding widget becomes accessible that allows to edit Displays and Patches associated with this canvas. The widget can be added to the workspace by selecting Window > [Canvas Name] from the main Screenberry Panel menu. Multiple Canvas nodes can be created, but only one can be enabled for the server video output at a time. Each added Canvas node has its own cor"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Canvas
+    source_url: https://help.screenberry.com/images/node-references/animation/Canvas-widget.gif
+    source_alt: Canvas Widget
+    text_coverage: not-independently-verified
+  - id: en-a55870e461-003
+    title: Multiple Canvas nodes
+    caption: Multiple Canvas nodes
+    show: "Multiple Canvas nodes. Use the adjacent instructions as the content brief: Multiple Canvas nodes can be created, but only one can be enabled for the server video output at a time. Each added Canvas node has its own corresponding widget. For more information on editing displays and patches see the Display Editor and Patch Editor sections of this user guide."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Canvas
+    source_url: https://help.screenberry.com/images/node-references/animation/Canvas-disabled.gif
+    source_alt: Multiple Canvas nodes
+    text_coverage: not-independently-verified

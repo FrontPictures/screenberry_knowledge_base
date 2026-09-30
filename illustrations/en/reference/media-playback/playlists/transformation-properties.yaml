@@ -1,0 +1,114 @@
+schema_version: 1
+document: knowledge/en/reference/media-playback/playlists/transformation-properties.md
+document_id: guide.media-playback.playlists.transformation-properties
+language: en
+document_body_sha256: fc453b98e120e070b6ac1322d5470fc8a6833f4f81c3305ff14181bdddfab8d5
+figures:
+  - id: en-889ea5a2c2-001
+    title: Position Method Presets
+    caption: Position Method Presets
+    show: "Position Method Presets. Use the adjacent instructions as the content brief: Adjusting these properties allows you to precisely control the media item’s placement, size, and orientation. When using transformation presets other than Custom Transformation, Screenberry automatically adjusts how a media item fits within the Media Player canvas based on the selected mode:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Position Method Presets
+    source_url: https://help.screenberry.com/images/media-playback/animation/Position-Method-Presets.gif
+    source_alt: Position Method Presets
+    text_coverage: not-independently-verified
+  - id: en-889ea5a2c2-002
+    title: Anchor Point Reposition
+    caption: Anchor Point Reposition
+    show: "Anchor Point Reposition. Use the adjacent instructions as the content brief: Selecting Custom Transformation gives you full control over the media item’s anchor point, position, scale, and rotation. This method is essential when precise layout or animated transformations are required. The anchor point is the internal reference within the media item used for scaling, rotation, and positioning. The Anchor Point Reposition control lets you quickly align the anchor point to standard locations wit"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: Anchor Point Reposition
+    source_url: https://help.screenberry.com/images/media-playback/animation/Anchor-Point-Reposition.gif
+    source_alt: Anchor Point Reposition
+    text_coverage: not-independently-verified
+  - id: en-889ea5a2c2-003
+    title: Manual Anchor Point Adjustment
+    caption: Manual Anchor Point Adjustment
+    show: "Manual Anchor Point Adjustment. Use the adjacent instructions as the content brief: When you click one of the Anchor Point Reposition preset buttons, only the anchor point moves inside the media item. The media item itself remains in the same position on the Media Player canvas. While the Anchor Point Reposition presets snap the anchor to predefined locations, the Anchor Point fields let you set its position anywhere relative to the center of the media item by entering exact X and Y values."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: Manual Anchor Point Adjustment
+    source_url: https://help.screenberry.com/images/media-playback/animation/Manual-Anchor-Point-Adjustment.gif
+    source_alt: Manual Anchor Point Adjustment
+    text_coverage: not-independently-verified
+  - id: en-889ea5a2c2-004
+    title: Position Adjustment
+    caption: Position Adjustment
+    show: "Position Adjustment. Use the adjacent instructions as the content brief: When you adjust the anchor point manually, the media item shifts to keep the anchor fixed in the same location on the Media Player canvas. This lets you place the pivot exactly where you want transformations (like scaling or rotation) to originate. The Position parameter sets the entire media item, along with its anchor point, relative to the Media Player canvas."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: Position Adjustment
+    source_url: https://help.screenberry.com/images/media-playback/animation/Position-Adjustment.gif
+    source_alt: Position Adjustment
+    text_coverage: not-independently-verified
+  - id: en-889ea5a2c2-005
+    title: Using Position Alignment Buttons
+    caption: Using Position Alignment Buttons
+    show: "Using Position Alignment Buttons. Use the adjacent instructions as the content brief: When you adjust the Position, the media item shifts as a whole, preserving the relationship between its content and anchor point. You can also use the Position Alignment Buttons to snap the anchor point to standard positions on the Media Player canvas, such as top-center, middle-right, or bottom-left."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 23
+      section: Using Position Alignment Buttons
+    source_url: https://help.screenberry.com/images/media-playback/animation/Using-Position-Alignment-Buttons.gif
+    source_alt: Using Position Alignment Buttons
+    text_coverage: not-independently-verified
+  - id: en-889ea5a2c2-006
+    title: Transformation Scale
+    caption: Transformation Scale
+    show: "Transformation Scale. Use the adjacent instructions as the content brief: Note: These buttons are especially useful during layout setup for quickly aligning media items. The Scale parameter changes the size of the media item as a percentage of its original dimensions."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 26
+      section: Scale
+    source_url: https://help.screenberry.com/images/media-playback/animation/Transformation-Scale.gif
+    source_alt: Transformation Scale
+    text_coverage: not-independently-verified
+  - id: en-889ea5a2c2-007
+    title: Transformation Rotation
+    caption: Transformation Rotation
+    show: "Transformation Rotation. Use the adjacent instructions as the content brief: Use Scale X and Scale Y to resize the item horizontally and vertically.Enable Link Scale to preserve the aspect ratio — changing one value updates the other proportionally.Entering a negative value flips the media along the corresponding axis (horizontal or vertical).All scaling operations are performed relative to the current anchor point, which defines the pivot for the transformation. The Rotation parameter turns "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 29
+      section: Rotation
+    source_url: https://help.screenberry.com/images/media-playback/animation/Transformation-Rotation.gif
+    source_alt: Transformation Rotation
+    text_coverage: not-independently-verified
+  - id: en-889ea5a2c2-008
+    title: Transformation Example
+    caption: Transformation Example
+    show: "Transformation Example. Use the adjacent instructions as the content brief: Let’s walk through a typical transformation flow: Your media item is centered by default, with the anchor point at its center.You click the top-center Anchor Point Reposition preset.→ The anchor point moves to the top edge of the media item. The media item remains in the same position on the screen. The Anchor Point Y value updates to reflect the new internal pivot.You manually adjust the Anchor Point Y value.→ The m"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 38
+      section: Example
+    source_url: https://help.screenberry.com/images/media-playback/animation/Transformation-Example.gif
+    source_alt: Transformation Example
+    text_coverage: not-independently-verified
+  - id: en-889ea5a2c2-009
+    title: Mini Display
+    caption: Mini Display
+    show: "Mini Display. Use the adjacent instructions as the content brief: The mini display next to the transformation controls provides real-time visual feedback for:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 39
+      section: Mini Display
+    source_url: https://help.screenberry.com/images/media-playback/static/mini-display.png
+    source_alt: Mini Display
+    text_coverage: not-independently-verified

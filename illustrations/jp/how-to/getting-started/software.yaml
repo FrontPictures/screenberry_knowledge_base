@@ -1,0 +1,150 @@
+schema_version: 1
+document: knowledge/jp/how-to/getting-started/software.md
+document_id: guide.getting-started.software
+language: ja
+document_body_sha256: d93fda184cc17bf3e86076b49bc22f3f540f9947e5fb9d35882746c45e0576ad
+figures:
+  - id: ja-a1ab59b8a2-001
+    title: Install1
+    caption: Install1
+    show: "Install1. Use the adjacent instructions as the content brief: Screenberry Setup 3.2.X.exeファイルを実行して、Screenberry Setup Wizardを起動します。画面に表示される指示に従ってください。 Screenberry Setup Wizardを起動します。 Screenberry Serverをインストールするフォルダを選択し、Nextボタンをクリックします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: ソフトウェアのインストール
+    source_url: https://help.screenberry.com/images/getting-started/static/install1.png
+    source_alt: Install1
+    text_coverage: not-independently-verified
+  - id: ja-a1ab59b8a2-002
+    title: Install2
+    caption: Install2
+    show: "Install2. Use the adjacent instructions as the content brief: Screenberry Serverをインストールするフォルダを選択し、Nextボタンをクリックします。 インストールしたいコンポーネントを選択して、Nextボタンをクリックします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: ソフトウェアのインストール
+    source_url: https://help.screenberry.com/images/getting-started/static/Install2.png
+    source_alt: Install2
+    text_coverage: not-independently-verified
+  - id: ja-a1ab59b8a2-003
+    title: Install3
+    caption: Install3
+    show: "Install3. Use the adjacent instructions as the content brief: インストールしたいコンポーネントを選択して、Nextボタンをクリックします。 End User Licence Agreementに同意したら、Nextボタンをクリックします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: ソフトウェアのインストール
+    source_url: https://help.screenberry.com/images/getting-started/static/install3.png
+    source_alt: Install3
+    text_coverage: not-independently-verified
+  - id: ja-a1ab59b8a2-004
+    title: Install4
+    caption: Install4
+    show: "Install4. Use the adjacent instructions as the content brief: End User Licence Agreementに同意したら、Nextボタンをクリックします。 Start Menu shortcuts を表示したい場所を選択したら、Nextボタンをクリックします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: ソフトウェアのインストール
+    source_url: https://help.screenberry.com/images/getting-started/static/install4.png
+    source_alt: Install4
+    text_coverage: not-independently-verified
+  - id: ja-a1ab59b8a2-005
+    title: Install5
+    caption: Install5
+    show: "Install5. Use the adjacent instructions as the content brief: Start Menu shortcuts を表示したい場所を選択したら、Nextボタンをクリックします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: ソフトウェアのインストール
+    source_url: https://help.screenberry.com/images/getting-started/static/Install5.png
+    source_alt: Install5
+    text_coverage: not-independently-verified
+  - id: ja-a1ab59b8a2-006
+    title: Install6
+    caption: Install6
+    show: "Install6. Use the adjacent instructions as the content brief: Start Menu shortcuts を表示したい場所を選択したら、Nextボタンをクリックします。 Installボタンをクリックし、Screenberryがインストールされるのを待ちます。インストールが完了したら、Finishボタンをクリックして終了します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: ソフトウェアのインストール
+    source_url: https://help.screenberry.com/images/getting-started/static/install6.png
+    source_alt: Install6
+    text_coverage: not-independently-verified
+  - id: ja-a1ab59b8a2-007
+    title: Install7
+    caption: Install7
+    show: "Install7. Use the adjacent instructions as the content brief: Installボタンをクリックし、Screenberryがインストールされるのを待ちます。インストールが完了したら、Finishボタンをクリックして終了します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: ソフトウェアのインストール
+    source_url: https://help.screenberry.com/images/getting-started/static/install7.png
+    source_alt: Install7
+    text_coverage: not-independently-verified
+  - id: ja-a1ab59b8a2-008
+    title: Install8
+    caption: Install8
+    show: "Install8. Use the adjacent instructions as the content brief: Installボタンをクリックし、Screenberryがインストールされるのを待ちます。インストールが完了したら、Finishボタンをクリックして終了します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: ソフトウェアのインストール
+    source_url: https://help.screenberry.com/images/getting-started/static/install8.png
+    source_alt: Install8
+    text_coverage: not-independently-verified
+  - id: ja-a1ab59b8a2-009
+    title: Run1
+    caption: Run1
+    show: "Run1. Use the adjacent instructions as the content brief: メディアサーバーに接続するには： メディアサーバーとなるPCで、Screenberry Serverアプリケーションを起動します。 操作用端末となるPCで、Screenberry Panelアプリケーションを起動します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: Screenberryの起動
+    source_url: https://help.screenberry.com/images/getting-started/static/run1.png
+    source_alt: Run1
+    text_coverage: not-independently-verified
+  - id: ja-a1ab59b8a2-010
+    title: Run2
+    caption: Run2
+    show: "Run2. Use the adjacent instructions as the content brief: 操作用端末となるPCで、Screenberry Panelアプリケーションを起動します。 ウェルカムウィンドウ内で、利用可能なメディアサーバーを選択しConnectボタンをクリックします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: Screenberryの起動
+    source_url: https://help.screenberry.com/images/getting-started/static/run2.png
+    source_alt: Run2
+    text_coverage: not-independently-verified
+  - id: ja-a1ab59b8a2-011
+    title: Connect
+    caption: Connect
+    show: "Connect. Use the adjacent instructions as the content brief: ウェルカムウィンドウ内で、利用可能なメディアサーバーを選択しConnectボタンをクリックします。 Screenberry Serverを初めて実行する際には、Windowsのセキュリティ警告ダイアログが表示され、アプリの一部の機能がWindowsのファイヤーウォール機能によってブロックされる可能性があることが通知されます。このネットワーク上でScreenberry Serverが通信するために、プライベート ネットワークとパブリック ネットワークの両方のチェックボックスをオンにしてください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Screenberryの起動
+    source_url: https://help.screenberry.com/images/getting-started/static/connect.png
+    source_alt: Connect
+    text_coverage: not-independently-verified
+  - id: ja-a1ab59b8a2-012
+    title: WIndows Alert
+    caption: WIndows Alert
+    show: "WIndows Alert. Use the adjacent instructions as the content brief: Screenberry Serverを初めて実行する際には、Windowsのセキュリティ警告ダイアログが表示され、アプリの一部の機能がWindowsのファイヤーウォール機能によってブロックされる可能性があることが通知されます。このネットワーク上でScreenberry Serverが通信するために、プライベート ネットワークとパブリック ネットワークの両方のチェックボックスをオンにしてください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: Screenberryの起動
+    source_url: https://help.screenberry.com/images/getting-started/static/WIndows-Alert.png
+    source_alt: WIndows Alert
+    text_coverage: not-independently-verified

@@ -1,0 +1,26 @@
+---
+title: Screenberry Quad Warp Patch - Correcting Keystone Distortions
+description: Correct keystone distortions on planar surfaces for off-axis projection alignment.
+openGraph:
+  title: Screenberry Quad Warp Patch - Correcting Keystone Distortions
+  description: Correct keystone distortions on planar surfaces for off-axis projection alignment.
+---
+
+# Quad Warp
+
+The **Quad Warp** node is a patch primarily used for image geometry correction to compensate for the distortion caused by an off-axis image projection onto a planar surface (also known as _keystone distortion_).
+
+In a typical setup, the **Quad Warp** node receives a source image as the input and outputs the modified image to the **Display** or **Canvas** node.
+
+![QuadWarp](/images/warping-alignment/static/QuadWarp.png)
+
+<small>Example of the node graph with the **QuadWarp** node</small>
+
+To modify image geometry and mapping using the **Quad Warp** patch, do the following in the **Patch Editor:**
+
+- In the **Input** panel, adjust the area of the source image to be mapped by dragging the handles of the mesh control points.
+- In the **Output** panel, set the image geometry by adjusting the image perspective by dragging the handles of the mesh control points.
+
+<img alt="Quad Warp" src="/images/warping-alignment/animation/Quad-Warp.gif" width={800} height={778} loading="lazy" />
+
+In addition, working with the **Quad Warp** patch follows the general principles for working with patches outlined in the [Editing Patches](../patch-editor/editing-patches) section of the documentation.

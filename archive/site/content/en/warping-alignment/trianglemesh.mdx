@@ -1,0 +1,33 @@
+---
+title: Screenberry Triangle Mesh Patch - Image Warping Using Triangular Mesh
+description: Learn about Screenberry's Triangle Mesh patch for mapping images onto complex surfaces by adjusting triangle-based mesh.
+openGraph:
+  title: Screenberry Triangle Mesh Patch - Image Warping Using Triangular Mesh
+  description: Learn about Screenberry's Triangle Mesh patch for mapping images onto complex surfaces by adjusting triangle-based mesh.
+---
+
+# Triangle Mesh
+
+The **Triangle Mesh** node is a patch that is mostly used to map projection onto the surfaces of objects that are composed of triangular shapes.
+
+In a typical setup, the **Triangle Mesh** node receives a source image as the input and outputs the modified image to the **Display** or **Canvas** node.
+
+![Triangle Mesh Node Tree](/images/warping-alignment/static/Triangle-Mesh-node-tree.png)
+
+<small>Example of the node graph with the **Triangle Mesh** node</small>
+
+To apply triangular mesh warping:
+
+1. Create and edit a triangular mesh by doing the following:
+   - **Add control points.** Position the cursor over the layout area and press **`P`**, or right-click there and select **Add Point** from the context menu.
+   - **Connect control points into triangular mesh faces.** Select the control points and press **`T`**, or right-click the selection and choose **Create Triangles** from the context menu. If no points are selected, pressing **`T`** connects all existing control points.
+   - **Delete control points.** Select the control points and press **`Del`**, or right-click the selection and choose **Delete Points** from the context menu.
+
+<img alt="Triangle Mesh" src="/images/warping-alignment/animation/Triangle-Mesh.gif" width={800} height={464} loading="lazy" />
+
+2. In the **Output** panel, modify the mesh grid by dragging the handles of the mesh control points.
+3. In the **Input** panel, define the mapping of the source image for the individual mesh triangles by dragging the handles of the mesh control points.
+
+<img alt="Trimesh Edit 1" src="/images/warping-alignment/animation/trimesh-edit-1.gif" width={800} height={384} loading="lazy" />
+
+In addition, working with the **Triangle Mesh** patch follows the general principles for working with patches outlined in the [Editing Patches](../patch-editor/editing-patches) section of the documentation.

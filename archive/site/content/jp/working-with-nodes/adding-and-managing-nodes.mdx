@@ -1,0 +1,103 @@
+---
+title: Screenberryにおけるノードの追加および編集方法
+description: ノードの選択、移動、グループ編集の方法について説明します。
+openGraph:
+  title: Screenberryにおけるノードの追加、移動および編集方法
+  description: ノードの選択、移動、グループ編集の方法について説明します。
+---
+
+# ノードの追加と管理
+
+## ノードの追加
+
+ノードを追加するには、**Node Graph**ウィジェットの空白の領域で右クリックして、**Add Node**ドロップダウンメニューを開き、次のいずれかの操作を行います：
+
+- メニューの上部にある**Search**ボックスにノード名を入力し、ドロップダウンリストから選択するか、必要なノードがリストの最上部にある場合は**Enter**キーを押します。
+- **Categoty**または**Tag**でノードを選択します。
+- **Recently Added Nodes**リストからノードを選択します。
+
+ノードは**ノードグラフ**内の、**Add Node**メニューが呼び出された場所に追加されます。
+
+<img alt="Adding Nodes" src="/images/working-with-nodes/animation/Adding-Nodes.gif" width={800} height={376} loading="lazy" />
+
+**ノードの分類**
+
+便宜上、利用可能なすべてのノードはカテゴリごとにグループ化され、1つ以上のタグが割り当てられています。ノードの選択は、**カテゴリ**または**タグ**のいずれかを使って行うことができます。
+
+<img alt="Node Classification" src="/images/working-with-nodes/animation/Node-Classification.gif" width={800} height={376} loading="lazy" />
+
+> **メモ：** 新しい**Display**または**Patch**が**Display Editor**または**Patch Editor**で作成されると、**Display**および**Patch**タイプのノードも自動的にノードグラフに作成され追加されます。
+
+## ノードの選択
+
+ノードを選択するには、**ノードグラフ**内でノードを左クリックします。
+
+<img alt="Selecting Node1" src="/images/working-with-nodes/animation/Selecting-Node1.gif" width={800} height={200} loading="lazy" />
+
+複数のノードを選択するには、**Shift** キーを押しながら **ノードグラフ**上のノードをクリックするか、左クリックして選択枠をドラッグします。
+
+右から左にドラッグすると、四角形の選択枠に触れるすべてのノードが選択されます。
+
+<img alt="Selecting Nodes Right To Left" src="/images/working-with-nodes/animation/Selecting-Nodes-right-to-left.gif" width={800} height={272} loading="lazy" />
+
+もし左から右へドラッグすると、四角形の選択範囲内のノードのみが選択されます。この機能は、複雑なノードツリーの一部であるノードを選択する際に便利です。
+
+<img alt="Selecting Nodes Left To Right" src="/images/working-with-nodes/animation/Selecting-Nodes-left-to-right.gif" width={800} height={508} loading="lazy" />
+
+ノードをダブルクリックすると、そのノードに接続されているすべてのノードが選択されます。
+
+<img alt="Selecting Nodes Double Click" src="/images/working-with-nodes/animation/Selecting-Nodes-Double-click.gif" width={800} height={268} loading="lazy" />
+
+また、同じタイプの複数のノードを選択する方法については、[複数選択されたノードの設定](/jp/working-with-nodes/node-parameters-and-settings#複数選択されたノードの設定)を参照してください。
+
+## ノードの移動
+
+ノードを移動するには、ノードを左クリックしてドラッグします。複数のノードが選択されている場合、選択した任意のノードをクリックしてドラッグすると、全体が移動します。
+
+<img alt="Moving Nodes" src="/images/working-with-nodes/animation/Moving-Nodes.gif" width={800} height={484} loading="lazy" />
+
+## ノードのコピー、貼り付け、切り取り操作
+
+**ノードグラフ**でノードをコピーまたは貼り付けするには、次のいずれかの方法を使用します。
+
+- ノード（または選択した複数のノード）を右クリックし、ドロップダウンメニューから**Copy**または**Cut**を選択し、その後**Paste**を選択します。
+- キーボードショートカットを使用します： コピーするには **`Ctrl`** + **`C`**、切り取るには **`Ctrl`** + **`X`**、貼り付けるには **`Ctrl`** + **`V`** を押します。
+
+<img alt="Copy Paste Nodes" src="/images/working-with-nodes/animation/Copy-Paste-Nodes.gif" width={800} height={472} loading="lazy" />
+
+> **メモ：** Screenberry プロジェクト内のノードは、他のプロジェクトにコピーして貼り付けることができます。
+
+## ノードの削除
+
+ノードまたは選択した複数のノードを削除するには、ノード（またはグループ）を右クリックし、ドロップダウンメニューから**Delete**を選択するか、**`Del`** ボタンを押します。ノードを削除すると、それに接続されたリンクも削除されます。
+
+<img alt="Deleting Nodes" src="/images/working-with-nodes/animation/Deleting-Nodes.gif" width={800} height={420} loading="lazy" />
+
+## ノードの名前変更
+
+ノードの名前を変更するには、そのノードを右クリックして、ドロップダウンメニューから**Rename**を選択し、表示されたダイアログボックスに新しい名前を入力します。
+
+<img alt="Renaming Nodes" src="/images/working-with-nodes/animation/Renaming-Nodes.gif" width={800} height={400} loading="lazy" />
+
+## ノードのサイズ変更
+
+ノードのサイズを変更するには、そのノードを選択し、四隅のいずれかをドラッグします（マウスオーバー時に表示されます）。
+
+<img alt="Changing Node Size" src="/images/working-with-nodes/animation/Changing-Node-Size.gif" width={800} height={202} loading="lazy" />
+
+## ノードのグループ化
+
+ノードツリーのレイアウトを視覚的に簡素化し、より整理されたものにするために、一部のノードをグループ化してまとめることができます。これを行うには、選択したノードのグループを右クリックし、ドロップダウンメニューから**Group Nodes**を選択します（または **`G`** キーを押します）。そして、表示されたダイアログボックスに作成されたグループの名前を入力します。選択したノードは、現在リンクされている入力および出力パラメータと一致する入力および出力パラメータピンを持つ専用の**Group**ノードに結合されます。
+
+**Group**ノードに含まれるノードを表示および編集するには、それを右クリックし、ドロップダウンメニューから **Edit [グループ名]** を選択するか、**Group**ノードをダブルクリックします。
+
+<img alt="Grouping Nodes" src="/images/working-with-nodes/animation/Grouping-Nodes.gif" width={800} height={372} loading="lazy" />!
+[](../../../public/images/working-with-nodes/animation/Grouping-Nodes.gif)
+
+異なる**Group**ノードの内容とメインのノードツリーを切り替えるには、**Node Graph**ウィジェットのナビゲーションバーにあるグループ名のボタンをクリックします（ここで**Root**はメインのノードツリーを示しています）。
+
+![Groups](/images/working-with-nodes/static/groups.png)
+
+**Group**ノードにまとめられたノードを解体するには、**Group**ノードを右クリックし、ドロップダウンメニューから**Ungroup**を選択します（または **`U`** キーを押します）。
+
+<img alt="Ungrouping Nodes" src="/images/working-with-nodes/animation/Ungrouping-Nodes.gif" width={800} height={280} loading="lazy" />

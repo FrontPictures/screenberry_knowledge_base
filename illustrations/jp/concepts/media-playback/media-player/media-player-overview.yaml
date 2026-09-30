@@ -1,0 +1,42 @@
+schema_version: 1
+document: knowledge/jp/concepts/media-playback/media-player/media-player-overview.md
+document_id: guide.media-playback.media-player.media-player-overview
+language: ja
+document_body_sha256: 6fbd551b0a738ba05a44d1a7bbe5824153bdad96b13b67f08f2a4116eb194b11
+figures:
+  - id: ja-1f0377fdba-001
+    title: Mediaplayerview
+    caption: Mediaplayerview
+    show: "Mediaplayerview. Use the adjacent instructions as the content brief: DisplayとPatchを使うことで、メディアプレーヤーは出力画面上で異なるサイズ、位置、形状で映像を重ねることができます。 メディアプレーヤーの再生は自動化することができます。そのためにメディアプレーヤー自体だけでなく、それぞれのプレイリスト、タイムライン、メディアアイテムなども、MIDI / キーボード / IPイベント、スクリプト、DMXコマンドなどによって手動または自動的にトリガーを受信することができます。 Media Playerの画面構成： 1 – ナビゲーションパネル、2 – 現在のプレイリストまたはタイムラインのコンテンツエリア、3 – 再生制御と設定のためのコントロールバー。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Media Playerの概要
+    source_url: https://help.screenberry.com/images/media-playback/static/mediaplayerview.png
+    source_alt: Mediaplayerview
+    text_coverage: not-independently-verified
+  - id: ja-1f0377fdba-002
+    title: Media Player Widget
+    caption: Media Player Widget
+    show: "Media Player Widget. Use the adjacent instructions as the content brief: Media PlayerノードがNode Graphに追加されると、対応するMedia Playerウィジェットがアクセス可能になります。このウィジェットをワークスペースに追加するには、Screenberry Panel のメインメニューから Window > [Media Player名] を選択してください。 メモ： 複数のMedia Playerノードを作成することができます。追加された各MediaPlayerノードには、独自のMedia Playerウィジェットが用意されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Media Player ウィジェット
+    source_url: https://help.screenberry.com/images/media-playback/animation/Media-Player-Widget.gif
+    source_alt: Media Player Widget
+    text_coverage: not-independently-verified
+  - id: ja-1f0377fdba-003
+    title: PlaylistsTimelinesFolders
+    caption: PlaylistsTimelinesFolders
+    show: "PlaylistsTimelinesFolders. Use the adjacent instructions as the content brief: メディア再生のために、メディアアイテムはプレイリストに追加することも、タイムライン内に配置することもできます。 さらに、複数のプレイリストとタイムラインはフォルダで整理することもできます。新しいフォルダを作成するには、ナビゲーションパネルの空白のエリアを右クリックし、ドロップダウンメニューからAdd Folderを選択するか、ナビゲーションパネルの下部ツールバーのAdd Folderボタンをクリックしてください。 メモ： デフォルトでは、新しいMedia Playerウィジェットには空のPlaylistが1つ作成されます。このプレイリストには、メディアアイテムをMedia Libraryからドラッグ＆ドロップするか、直接システムフォルダから追加することができます。プレイリストへのメディアアイテムの追加については、メディアアイテムをプレイリストに追加の章を参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 12
+      section: プレイリスト、タイムライン、およびフォルダ
+    source_url: https://help.screenberry.com/images/media-playback/animation/PlaylistsTimelinesFolders.gif
+    source_alt: PlaylistsTimelinesFolders
+    text_coverage: not-independently-verified

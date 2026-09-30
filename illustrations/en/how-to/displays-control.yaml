@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/how-to/displays-control.md
+document_id: guide.displays-control
+language: en
+document_body_sha256: 1ee60b023bc928537e6bae3050317ed3383e521fe654ccb19b5dec9fb55df35e
+figures:
+  - id: en-367c4c024d-001
+    title: Displays Control GPU Topology showing NVIDIA GPUs, output ports, connection status, EDID, display names, and synchronization state
+    caption: Displays Control GPU Topology showing NVIDIA GPUs, output ports, connection status, EDID, display names, and synchronization state
+    show: "Displays Control GPU Topology showing NVIDIA GPUs, output ports, connection status, EDID, display names, and synchronization state. Use the adjacent instructions as the content brief: GPU Topology inspects NVIDIA GPUs and GPU ports and provides EDID, Mosaic, and frame-synchronization controls. It requires a supported NVIDIA GPU.Displays inspects and configures the logical displays exposed by Windows. It works with any GPU supported by Windows. Changes made through Windows or NVIDIA utilities are reflected in Displays Control. Changes applied in Displays Control are reflected in Windows. Note: Disp"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Overview
+    source_url: https://help.screenberry.com/images/displays-control/static/GPU-Topology-Overview.png
+    source_alt: Displays Control GPU Topology showing NVIDIA GPUs, output ports, connection status, EDID, display names, and synchronization state
+    text_coverage: not-independently-verified

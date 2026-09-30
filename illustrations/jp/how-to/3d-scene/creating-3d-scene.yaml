@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/how-to/3d-scene/creating-3d-scene.md
+document_id: guide.3d-scene.creating-3d-scene
+language: ja
+document_body_sha256: ed367ccc83c5f99bae9c834dab4d929617dfb3e7247465b64a0192ad5dd62a91
+figures:
+  - id: ja-0760e739a4-001
+    title: Creating 3D Scene
+    caption: Creating 3D Scene
+    show: "Creating 3D Scene. Use the adjacent instructions as the content brief: 3D Sceneノードが追加されると、対応するウィジェットが自動的に作成されます。3D Sceneノードをダブルクリックするか、メインの Screenberry パネルメニューで Window > [3D Scene] を選択してアクセスできます。 3D シーンに追加されたすべてのオブジェクト（ノードグラフで関連ノードを3D Sceneノードに接続することで追加されます）は 3D 環境に追加されます。これらのオブジェクトのリストはウィジェットの右上ペインで確認でき、リストから選択されたオブジェクトの設定パネルはこのペインのすぐ下にあります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: 3D シーンの作成
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Creating-3D-Scene.gif
+    source_alt: Creating 3D Scene
+    text_coverage: not-independently-verified

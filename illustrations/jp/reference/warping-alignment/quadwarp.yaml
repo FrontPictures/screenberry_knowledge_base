@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/quadwarp.md
+document_id: guide.warping-alignment.quadwarp
+language: ja
+document_body_sha256: 4f82697b1521d7dd32b61f48820bdbef62f3ae828ba78648903a0f42cd67aa51
+figures:
+  - id: ja-a1c91f9dab-001
+    title: QuadWarp
+    caption: QuadWarp
+    show: "QuadWarp. Use the adjacent instructions as the content brief: Quad Warpノードは、主に映像のジオメトリ補正に使用されるPatchノードであり、平面上に斜めから映像を投映した際の歪み（キーストーン歪み とも呼ばれる）を補正します。 典型的なセットアップでは、Quad Warpノードは入力としてソース映像を受け取り、変形された映像をDisplayノードまたはCanvasノードに出力します。 Quad Warpノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Quad Warp
+    source_url: https://help.screenberry.com/images/warping-alignment/static/QuadWarp.png
+    source_alt: QuadWarp
+    text_coverage: not-independently-verified
+  - id: ja-a1c91f9dab-002
+    title: Quad Warp
+    caption: Quad Warp
+    show: "Quad Warp. Use the adjacent instructions as the content brief: Quad Warpノードを使用して、映像のジオメトリとマッピングを変更するには、次の手順をPatch Editorで実行します。 Inputパネルで、メッシュの制御点のハンドルをドラッグして、マップされるソース映像の範囲を調整します。Outputパネルで、メッシュの制御点のハンドルをドラッグして、映像の透視投影変換を調整して、映像をオブジェクトの形状に合わせます。 Quad Warpノードを使用する場合は、Patchの共通操作についてPatchの編集の章も参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Quad Warp
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Quad-Warp.gif
+    source_alt: Quad Warp
+    text_coverage: not-independently-verified

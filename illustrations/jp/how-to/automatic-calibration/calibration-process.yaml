@@ -1,0 +1,66 @@
+schema_version: 1
+document: knowledge/jp/how-to/automatic-calibration/calibration-process.md
+document_id: guide.automatic-calibration.calibration-process
+language: ja
+document_body_sha256: f11905c02dcdfc4f80d261c833cd67da1598df2763d3c7caae1bd1b72200dff6
+figures:
+  - id: ja-5abad223d4-001
+    title: Automatic Calibration Presets
+    caption: Automatic Calibration Presets
+    show: "Automatic Calibration Presets. Use the adjacent instructions as the content brief: Calibrator Wizardウィジェット（Window > Calibrator Wizard）には、3つのキャリブレーションのプリセットがあります： Geometryキャリブレーションは、歪み補正 および エッジブレンド を行います。通常、プロジェクターごとに約30秒かかり、Mask、Geometry、Blendのキャリブレーション段階が含まれます。Geometry+Intensityキャリブレーションは、歪み補正、エッジブレンド、および 黒と白のレベル補正 を提供します。通常、プロジェクターごとに約1.5分かかり、Mask、Geometry、Blend、Intensityのキャリブレーション段階が含まれます。Geometry+Intensity+Gammaキャリブレーションは、すべての標準キャリブレーション機能に加えて、ブレンド内の画像の色の均一性を確保するための ガンマ補正 を行います。通常、約15〜30分かかり、M"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: 自動キャリブレーションのプリセット
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Automatic-Calibration-Presets.png
+    source_alt: Automatic Calibration Presets
+    text_coverage: not-independently-verified
+  - id: ja-5abad223d4-002
+    title: Camera Positioning
+    caption: Camera Positioning
+    show: "Camera Positioning. Use the adjacent instructions as the content brief: キャリブレーションプリセットが選択されると、Screenberryが自動的にテスト写真を撮影します。 カメラが接続されていないか正常に動作していない場合は、エラーメッセージが表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: プロジェクターとカメラの位置の確認
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Camera-Positioning.png
+    source_alt: Camera Positioning
+    text_coverage: not-independently-verified
+  - id: ja-5abad223d4-003
+    title: Calibration Area Selection
+    caption: Calibration Area Selection
+    show: "Calibration Area Selection. Use the adjacent instructions as the content brief: 投影エリアの外にあるオブジェクト（光源、トラスなど）は光を反射または放射することがあり、その結果、キャリブレーションの幾何学的歪みや黒レベル補正、明るさのバランスに影響を与える可能性があります。そのため、投影エリアを正確に定義することが重要です。指定されたエリア内のものはキャリブレーションされ、外側のものは無視されます。 Calibration Areaドロップダウンメニューを開いて、3つの画面エリア設定モードのうち1つを選択してください： Automatic： キャリブレーションパターンを使用して、Calibrator Wiardが投影エリアの境界を自動的に識別します。Manual（おすすめ）： このモードでは、ユーザーが投影エリアのより正確な境界形状を手動で定義することができます。これによって、プロジェクションでカバーすべきでない望ましくない領域を除外することができ、キャリブレーションの品質が大幅に向上します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: キャリブレーション投影エリアの定義
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Calibration-Area-Selection.png
+    source_alt: Calibration Area Selection
+    text_coverage: not-independently-verified
+  - id: ja-5abad223d4-004
+    title: Automatic Calibration Process2
+    caption: Automatic Calibration Process2
+    show: "Automatic Calibration Process2. Use the adjacent instructions as the content brief: キャリブレーション投影エリアを定義できたら、Start [キャリブレーションプリセット]ボタンを押してキャリブレーションを開始します。キャリブレーションの作業中は、Calibrator Wizardがキャリブレーションの進行状況バー、現在のキャリブレーション段階、およびスクリーンに投影されたキャリブレーションパターンの写真を表示します。 キャリブレーション作業は、Abortボタンを押すことで中断できます。Abortボタンはキャリブレーション中はアクティブな状態であり、キャリブレーション作業が正常に完了すると非アクティブになります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: キャリブレーションの実行
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Automatic-Calibration-process2.gif
+    source_alt: Automatic Calibration Process2
+    text_coverage: not-independently-verified
+  - id: ja-5abad223d4-005
+    title: Finish Calibration2
+    caption: Finish Calibration2
+    show: "Finish Calibration2. Use the adjacent instructions as the content brief: キャリブレーション作業は、Abortボタンを押すことで中断できます。Abortボタンはキャリブレーション中はアクティブな状態であり、キャリブレーション作業が正常に完了すると非アクティブになります。 キャリブレーション作業が完了したら、Finishボタンを押してください。Finishボタンはキャリブレーション作業中は非アクティブであり、キャリブレーションが完了するとアクティブになります。 Note:重要： 正確なキャリブレーション結果を得るために、キャリブレーション作業中は以下の点に留意してください：プロジェクターの投影を遮る物体や人物が存在しないようにしてください。もしキャリブレーション中に人員が必要な場合は、投影されている範囲よりも低い高さで、カメラの視野範囲外にとどまっている必要があります。ドーム内には余計な光源が存在しないようにしてください。ランプ、モニター、携帯電話の画面などはオフにするか、最低限の明るさに設定してくださ"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: キャリブレーションの実行
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Finish-Calibration2.jpg
+    source_alt: Finish Calibration2
+    text_coverage: not-independently-verified

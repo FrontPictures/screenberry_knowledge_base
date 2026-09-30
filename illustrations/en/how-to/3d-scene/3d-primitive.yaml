@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/how-to/3d-scene/3d-primitive.md
+document_id: guide.3d-scene.3d-primitive
+language: en
+document_body_sha256: 7cd17a13f3f9fc720037e9557504ddff23960f1a1d290d0a599f7a12e762aafd
+figures:
+  - id: en-400c4dd80f-001
+    title: 3D Primitive
+    caption: 3D Primitive
+    show: "3D Primitive. Use the adjacent instructions as the content brief: To add a 3D Primitive, do the following: Navigate to the Node Graph widget.Add a 3D Primitive node to your node graph.Connect the Object output parameter of the 3D Primitive node to the Objects input parameter of the 3D Scene node.Optionally (this step can be performed later directly in the 3D scene), select the type of geometric shape you want to add in the 3D Primitive node settings. Options include a sphere, box, "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: 3D Primitive
+    source_url: https://help.screenberry.com/images/3d-scene/animation/3D-Primitive.gif
+    source_alt: 3D Primitive
+    text_coverage: not-independently-verified

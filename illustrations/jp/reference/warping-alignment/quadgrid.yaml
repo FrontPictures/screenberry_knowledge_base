@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/quadgrid.md
+document_id: guide.warping-alignment.quadgrid
+language: ja
+document_body_sha256: 42656c084285db5e19e06e1e3afaa0933d77c03267cad3cf50ac9a146d206109
+figures:
+  - id: ja-a6e63ff7a3-001
+    title: Quad Grid Node Tree
+    caption: Quad Grid Node Tree
+    show: "Quad Grid Node Tree. Use the adjacent instructions as the content brief: Quad Gridノードは、ユーザーが定義したメッシュグリッドの個々の面に透視投影変形を適用するPatchノードです。このPatchは、階段状のオブジェクトの表面に投影をマッピングするために開発されました。 典型的なセットアップでは、Quad Gridノードは入力としてソース映像を受け取り、変形された映像をDisplayノードまたはCanvasノードに出力します。 Quad Gridノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Quad Grid
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Quad-Grid-node-tree.png
+    source_alt: Quad Grid Node Tree
+    text_coverage: not-independently-verified
+  - id: ja-a6e63ff7a3-002
+    title: Stairs1
+    caption: Stairs1
+    show: "Stairs1. Use the adjacent instructions as the content brief: Patch Editorで Quad Gridノードを使って透視投影変形を適用するには、以下の手順を実行します： SettingsパネルのGrid SizeにXとYの値を入力して、メッシュグリッドを作成します。典型的な設定は、水平な平面（ステップ）を持つ階段状のオブジェクトへの投影です。Xの値は2に設定します。これは1つの列のメッシュグリッドを定義するために必要な最小のキーコントロールポイントの数です。より複雑なオブジェクトへのプロジェクションマッピングの場合、この値は大きくすることもできます。Yの値は、階段の格段の側面と上面の総数に合わせて設定します。階段や屏風のようなオブジェクトへの投影の場合、XとYの値は逆になります。 Outputパネルで、各グリッド平面の制御点のハンドルをドラッグして、映像をオブジェクトの形状に合わせます。メッシュグリッドの変更中に、グリッド平面が台形の形に変換された場合、平面の接合部に歪みが生じる可能"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Quad Grid
+    source_url: https://help.screenberry.com/images/warping-alignment/static/stairs1.png
+    source_alt: Stairs1
+    text_coverage: not-independently-verified
+  - id: ja-a6e63ff7a3-003
+    title: Stairs2 1
+    caption: Stairs2 1
+    show: "Stairs2 1. Use the adjacent instructions as the content brief: Patch Editorで Quad Gridノードを使って透視投影変形を適用するには、以下の手順を実行します： SettingsパネルのGrid SizeにXとYの値を入力して、メッシュグリッドを作成します。典型的な設定は、水平な平面（ステップ）を持つ階段状のオブジェクトへの投影です。Xの値は2に設定します。これは1つの列のメッシュグリッドを定義するために必要な最小のキーコントロールポイントの数です。より複雑なオブジェクトへのプロジェクションマッピングの場合、この値は大きくすることもできます。Yの値は、階段の格段の側面と上面の総数に合わせて設定します。階段や屏風のようなオブジェクトへの投影の場合、XとYの値は逆になります。 Outputパネルで、各グリッド平面の制御点のハンドルをドラッグして、映像をオブジェクトの形状に合わせます。メッシュグリッドの変更中に、グリッド平面が台形の形に変換された場合、平面の接合部に歪みが生じる可能"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Quad Grid
+    source_url: https://help.screenberry.com/images/warping-alignment/static/stairs2-1.png
+    source_alt: Stairs2 1
+    text_coverage: not-independently-verified
+  - id: ja-a6e63ff7a3-004
+    title: Quad Grid
+    caption: Quad Grid
+    show: "Quad Grid. Use the adjacent instructions as the content brief: 横長の平面が並んだPatchの例。Grid Size: X=2, Y=10縦長の平面が並んだPatchの例。Grid Size: X=10, Y=2 Outputパネルで、各グリッド平面の制御点のハンドルをドラッグして、映像をオブジェクトの形状に合わせます。メッシュグリッドの変更中に、グリッド平面が台形の形に変換された場合、平面の接合部に歪みが生じる可能性があります。これを避けるためには、SettingsパネルのVertical InterpolationまたはHorizontal InterpolationでLinearを選択し、透視投影変形を水平または垂直のグリッド平面に制限してください。 Quad Gridノードを使用する場合は、Patchの共通操作についてPatchの編集の章も参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: Quad Grid
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Quad-Grid.gif
+    source_alt: Quad Grid
+    text_coverage: not-independently-verified

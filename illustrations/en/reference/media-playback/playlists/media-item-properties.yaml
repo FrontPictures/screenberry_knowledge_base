@@ -1,0 +1,318 @@
+schema_version: 1
+document: knowledge/en/reference/media-playback/playlists/media-item-properties.md
+document_id: guide.media-playback.playlists.media-item-properties
+language: en
+document_body_sha256: a9ee6137a9ac823bac53e1cf867f2cffd18910fe5ef9c73cdbbe18b5d1f19308
+figures:
+  - id: en-400612a347-001
+    title: Renaming Media Items
+    caption: Renaming Media Items
+    show: "Renaming Media Items. Use the adjacent instructions as the content brief: There are two ways to rename a media item. Renaming a media item in the Media Library will change its name globally, i.e. in all existing playlists. A media item’s name in a particular playlist can also be changed by assigning it a title – right-click on the media item, select Settings from the dropdown menu, and enter a new name in the Title field. Note: Media items cannot be renamed if they are currently playing in"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Renaming Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Renaming-Media-Items.gif
+    source_alt: Renaming Media Items
+    text_coverage: not-independently-verified
+  - id: en-400612a347-002
+    title: Crossfading Media Items
+    caption: Crossfading Media Items
+    show: "Crossfading Media Items. Use the adjacent instructions as the content brief: To fade a media item in (to crossfade it with a previous one), right-click on it, select Settings from the dropdown menu, and enter a time or number of frames in the Fade In field in the opened window. Note: When fade in is set for a media item, its content overlays the previous media item for the duration of the crossfade transition."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: Crossfading Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Crossfading-Media-Items.gif
+    source_alt: Crossfading Media Items
+    text_coverage: not-independently-verified
+  - id: en-400612a347-003
+    title: Playing A Media Item In A Loop
+    caption: Playing A Media Item In A Loop
+    show: "Playing A Media Item In A Loop. Use the adjacent instructions as the content brief: To play a media item in a loop, right-click on it, select Settings from the dropdown menu, and do one of the following: Enter the number of the loops in the Loops field.Select the Infinite Loop checkbox if you want to playback a media item in the loop continuously. You can also set a media item to play in a loop continuously by right-clicking on it, and selecting Infinite Loop from the dropdown menu, or pressing the "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Playing a Media Item in a Loop
+    source_url: https://help.screenberry.com/images/media-playback/animation/Playing-a-Media-Item-in-a-Loop.gif
+    source_alt: Playing A Media Item In A Loop
+    text_coverage: not-independently-verified
+  - id: en-400612a347-004
+    title: Playing A Media Item In A Loop2
+    caption: Playing A Media Item In A Loop2
+    show: "Playing A Media Item In A Loop2. Use the adjacent instructions as the content brief: You can also set a media item to play in a loop continuously by right-clicking on it, and selecting Infinite Loop from the dropdown menu, or pressing the L key. When loop playback is set for a media item, it is indicated by the icon on the thumbnail of the media item in the playlist."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: Playing a Media Item in a Loop
+    source_url: https://help.screenberry.com/images/media-playback/animation/Playing-a-Media-Item-in-a-Loop2.gif
+    source_alt: Playing A Media Item In A Loop2
+    text_coverage: not-independently-verified
+  - id: en-400612a347-005
+    title: Pausing Media Item Playback At The Start Or End
+    caption: Pausing Media Item Playback At The Start Or End
+    show: "Pausing Media Item Playback At The Start Or End. Use the adjacent instructions as the content brief: To pause a media item’s playback on the first or last frame, right-click on a media item and do one of the following: Select Pause on First Frame (or press the [ key) / select Pause on Last Frame (or press the ] key) from the dropdown menu.Choose Settings from the dropdown menu, select the Pause on First Frame / Pause on Last Frame checkboxes. When a media item is set to pause at the start or end, it is indicated by "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: Pausing Media Item Playback at the Start or End
+    source_url: https://help.screenberry.com/images/media-playback/animation/Pausing-Media-Item-Playback-at-the-Start-or-End.gif
+    source_alt: Pausing Media Item Playback At The Start Or End
+    text_coverage: not-independently-verified
+  - id: en-400612a347-006
+    title: Trimming A Media Item
+    caption: Trimming A Media Item
+    show: "Trimming A Media Item. Use the adjacent instructions as the content brief: To set the In Point and Out Point for a media item, do one of the following: Drag the In Point and Out Point sliders in the Media Player seek bar,Right-click on the Media Player seek bar and select Set In Point (Set Out Point) from the dropdown menu,Right-click a media item, select Settings from the dropdown menu, and enter the frame number in the In Point / Out Point fields.Right-click a media item, select Preview I"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 26
+      section: Trimming a Media Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Trimming-a-Media-Item.gif
+    source_alt: Trimming A Media Item
+    text_coverage: not-independently-verified
+  - id: en-400612a347-007
+    title: Starting Media Item Playback At A Timecode
+    caption: Starting Media Item Playback At A Timecode
+    show: "Starting Media Item Playback At A Timecode. Use the adjacent instructions as the content brief: Playback of a media item can be initiated at a specific timecode. To set a media item playback to start at a specific timecode, right-click on a media item, choose Settings from the dropdown menu, select the Start at Timecode checkbox, and then input time or frame values in the Start at Timecode field. When a media item is set to start at a specific timecode, it is indicated by the icon on the thumbnail of the media "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 30
+      section: Starting Media Item Playback at a Timecode
+    source_url: https://help.screenberry.com/images/media-playback/animation/Starting-Media-Item-Playback-at-a-Timecode.gif
+    source_alt: Starting Media Item Playback At A Timecode
+    text_coverage: not-independently-verified
+  - id: en-400612a347-008
+    title: Sending A Timecode
+    caption: Sending A Timecode
+    show: "Sending A Timecode. Use the adjacent instructions as the content brief: A media item can send a timecode to trigger internal and external software and hardware events. To set a media item to send a timecode, right-click on the media item, choose Settings from the dropdown menu, select the Send Timecode checkbox, and then input time and frame values in the Send Timecode field. When a media item is set to send a timecode, it is indicated by the icon on the thumbnail of the media item in th"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: Sending a Timecode
+    source_url: https://help.screenberry.com/images/media-playback/animation/Sending-a-Timecode.gif
+    source_alt: Sending A Timecode
+    text_coverage: not-independently-verified
+  - id: en-400612a347-009
+    title: Media Item Color Correction
+    caption: Media Item Color Correction
+    show: "Media Item Color Correction. Use the adjacent instructions as the content brief: To access the color correction controls for a media item, right-click on a media item, select Settings from the dropdown menu, and click the Color Correction button in the Image Adjustment options section. Note: Color corrections can be also applied globally to the Media Player output, and those are cumulative with the ones applied to the individual media items. See Media Player Color Correction."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 36
+      section: Media Item Color Correction
+    source_url: https://help.screenberry.com/images/media-playback/animation/Media-Item-Color-Correction.gif
+    source_alt: Media Item Color Correction
+    text_coverage: not-independently-verified
+  - id: en-400612a347-010
+    title: Multiply By Alpha
+    caption: Multiply By Alpha
+    show: "Multiply By Alpha. Use the adjacent instructions as the content brief: To set Multiply by Alpha for a media item, right-click on a media item, select Settings from the dropdown menu, and check the Multiply by Alpha box. When a media item contains the alpha channel, it is indicated by the alpha channel icon on a media item thumbnail in the playlist."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 55
+      section: Setting Premultiplied Alpha Blending
+    source_url: https://help.screenberry.com/images/media-playback/animation/Multiply-by-Alpha.gif
+    source_alt: Multiply By Alpha
+    text_coverage: not-independently-verified
+  - id: en-400612a347-011
+    title: Disabling Video Output Of A Media Item
+    caption: Disabling Video Output Of A Media Item
+    show: "Disabling Video Output Of A Media Item. Use the adjacent instructions as the content brief: To disable the video track of a media item, right-click on a media item, choose Settings from the dropdown menu, and select the Disable Video checkbox. Note: When the video output of a media item is disabled, the audio track of the media item is still being played during playback."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 58
+      section: Disabling Video Track of a Media Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Disabling-Video-Output-of-a-Media-Item.gif
+    source_alt: Disabling Video Output Of A Media Item
+    text_coverage: not-independently-verified
+  - id: en-400612a347-012
+    title: Disabling The Alpha Channel Of A Media Item
+    caption: Disabling The Alpha Channel Of A Media Item
+    show: "Disabling The Alpha Channel Of A Media Item. Use the adjacent instructions as the content brief: To disable the alpha channel of a media item, right-click on a media item, choose Settings from the dropdown menu, and select the Disable Alpha Channel checkbox. When the alpha channel of a media item has been disabled, it is indicated by the icon on a media item thumbnail in the playlist."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 62
+      section: Disabling the Alpha Channel of a Media Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Disabling-the-Alpha-Channel-of-a-Media-Item.gif
+    source_alt: Disabling The Alpha Channel Of A Media Item
+    text_coverage: not-independently-verified
+  - id: en-400612a347-013
+    title: Adjusting The Audio Level Of A Media Item
+    caption: Adjusting The Audio Level Of A Media Item
+    show: "Adjusting The Audio Level Of A Media Item. Use the adjacent instructions as the content brief: To adjust the volume of a media item’s audio output, right-click on a media item, choose Settings from the dropdown menu, and in the Volume section, drag the slider to set the volume level or enter a percentage value in the corresponding input field. In addition, there you can mute the audio of a media item by selecting the Mute checkbox, and double the sound level scale by selecting the Boost checkbox. Also, it is p"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 65
+      section: Adjusting the Audio Level of a Media Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adjusting-the-Audio-Level-of-a-Media-Item.gif
+    source_alt: Adjusting The Audio Level Of A Media Item
+    text_coverage: not-independently-verified
+  - id: en-400612a347-014
+    title: Adding And Switching The Audio Tracks Of A Media Item
+    caption: Adding And Switching The Audio Tracks Of A Media Item
+    show: "Adding And Switching The Audio Tracks Of A Media Item. Use the adjacent instructions as the content brief: A media item can have several audio tracks. To add an audio track to a media item, drag and drop the audio file from a system folder over a media item thumbnail in the Media Player playlist (or in the Media Library) and click the Add Audio button in the pop-up dialog window. If the duration of the added media item doesn’t match the duration of the audio file, in the next pop-up dialog window, you can choose to update"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 70
+      section: Adding and Switching the Audio Tracks of a Media Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-and-Switching-the-Audio-Tracks-of-a-Media-Item.gif
+    source_alt: Adding And Switching The Audio Tracks Of A Media Item
+    text_coverage: not-independently-verified
+  - id: en-400612a347-015
+    title: Adding And Displaying Media Item Subtitles
+    caption: Adding And Displaying Media Item Subtitles
+    show: "Adding And Displaying Media Item Subtitles. Use the adjacent instructions as the content brief: Media items can contain subtitles, which can be displayed during playback. To add subtitles to a media item, drag and drop the subtitle file (.srt format) from a system folder over a media item thumbnail in the Media Player playlist (or in the Media Library) and click the Add Subtitles button in the pop-up dialog window. Several subtitle tracks can be added to a media item. To select what subtitle track to display du"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 74
+      section: Adding Subtitles to Media Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-and-Displaying-Media-Item-Subtitles.gif
+    source_alt: Adding And Displaying Media Item Subtitles
+    text_coverage: not-independently-verified
+  - id: en-400612a347-016
+    title: Adding And Displaying Media Item Subtitles2
+    caption: Adding And Displaying Media Item Subtitles2
+    show: "Adding And Displaying Media Item Subtitles2. Use the adjacent instructions as the content brief: During playback, the Media Player node outputs subtitles associated with a media item as text. To display this text in the output, it needs to be rendered as an image using the TextImage node and placed over the current output, typically using one of the patch nodes, i.e. the BezierWarp node: Add TextImage and BezierWarp nodes to the node graph.Connect the MediaPlayer node Subtitles output pin to the TextImage node T"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 77
+      section: Adding Subtitles to Media Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-and-Displaying-Media-Item-Subtitles2.gif
+    source_alt: Adding And Displaying Media Item Subtitles2
+    text_coverage: not-independently-verified
+  - id: en-400612a347-017
+    title: Adding User Comments To A Media Item
+    caption: Adding User Comments To A Media Item
+    show: "Adding User Comments To A Media Item. Use the adjacent instructions as the content brief: Adding comments to a media item is convenient for live show control, in regard to certain actions being performed with the media item. To add comments, right-click on a media item, select Settings from the dropdown menu, and enter comments in the Comments text area. When comments are added to the media item, it is indicated by the icon on the thumbnail of the media item in the playlist. Hovering over this icon will b"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 81
+      section: Adding User Comments to a Media Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-User-Comments-to-a-Media-Item.gif
+    source_alt: Adding User Comments To A Media Item
+    text_coverage: not-independently-verified
+  - id: en-400612a347-018
+    title: Changing The Frame Rate
+    caption: Changing The Frame Rate
+    show: "Changing The Frame Rate. Use the adjacent instructions as the content brief: A media item’s playback frame rate can only be changed in the Media Library, and this change will affect all instances of this media item. Right-click on a media item, select Reveal Item in Media Library from the dropdown menu, right-click on a media item in the Media Library window, select Change FPS for Selected items from the dropdown menu, and input the number in the Set FPS field in the opened dialog box."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 86
+      section: Changing the Frame Rate (FPS) of a Media Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Changing-the-Frame-Rate.gif
+    source_alt: Changing The Frame Rate
+    text_coverage: not-independently-verified
+  - id: en-400612a347-019
+    title: Changing The Duration Of A Media Item
+    caption: Changing The Duration Of A Media Item
+    show: "Changing The Duration Of A Media Item. Use the adjacent instructions as the content brief: A media item’s playback duration can only be changed in the Media Library, and this change will affect all instances of this media item. Right-click on a media item, select Reveal Item in Media Library from the dropdown menu, right-click on the media item in the Media Library window, select Change Duration for Selected items from the dropdown menu, and input the number of frames in the Set Frames field in the opened "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 89
+      section: Changing the Duration of a Media Item
+    source_url: https://help.screenberry.com/images/media-playback/animation/Changing-the-Duration-of-a-Media-Item.gif
+    source_alt: Changing The Duration Of A Media Item
+    text_coverage: not-independently-verified
+  - id: en-400612a347-020
+    title: Mapping A Media Item
+    caption: Mapping A Media Item
+    show: "Mapping A Media Item. Use the adjacent instructions as the content brief: To map a media item to keyboard (or mouse) events: Right-click on a media item in the Media Player playlist and select Map Item to MIDI/Keyboard Event from the dropdown menu. A yellow overlay is added to the media item thumbnail to indicate that the mapping process has resumed.Switch to the Node Graph and add a Keyboard (or Mouse) node.Connect the Keyboard (or Mouse) node Messages output pin to the Media Player node "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 92
+      section: Mapping a Media Item to a MIDI/Keyboard Event
+    source_url: https://help.screenberry.com/images/media-playback/animation/Mapping-a-Media-Item.gif
+    source_alt: Mapping A Media Item
+    text_coverage: not-independently-verified
+  - id: en-400612a347-021
+    title: Mapping A Media Item2
+    caption: Mapping A Media Item2
+    show: "Mapping A Media Item2. Use the adjacent instructions as the content brief: To see detailed information on the current mapping of a media item, right-click on it, select Settings from the dropdown menu, and review the MIDI/Keyboard Mappings section. There you can unmap individual events by pressing the Discard MIDI/Keyboard Mapping button next to the event description. If you need to abort the mapping process after it has been initiated, right-click on a media item in the Media Player playli"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 93
+      section: Mapping a Media Item to a MIDI/Keyboard Event
+    source_url: https://help.screenberry.com/images/media-playback/animation/Mapping-a-Media-Item2.gif
+    source_alt: Mapping A Media Item2
+    text_coverage: not-independently-verified
+  - id: en-400612a347-022
+    title: Mapping A Media Item3
+    caption: Mapping A Media Item3
+    show: "Mapping A Media Item3. Use the adjacent instructions as the content brief: If you need to abort the mapping process after it has been initiated, right-click on a media item in the Media Player playlist and select Cancel Item Mapping from the dropdown menu. If you need to remove the current mappings of a media item, right-click on it and select Remove All Mappings from the dropdown menu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 95
+      section: Mapping a Media Item to a MIDI/Keyboard Event
+    source_url: https://help.screenberry.com/images/media-playback/animation/Mapping-a-Media-Item3.gif
+    source_alt: Mapping A Media Item3
+    text_coverage: not-independently-verified
+  - id: en-400612a347-023
+    title: Viewing Media Item Information
+    caption: Viewing Media Item Information
+    show: "Viewing Media Item Information. Use the adjacent instructions as the content brief: To access media item information, right-click on it and select Item Info from the dropdown menu or press the I key."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 97
+      section: Viewing Media Item Information
+    source_url: https://help.screenberry.com/images/media-playback/animation/Viewing-Media-Item-Information.gif
+    source_alt: Viewing Media Item Information
+    text_coverage: not-independently-verified
+  - id: en-400612a347-024
+    title: Changing Settings For Multiple Media Items
+    caption: Changing Settings For Multiple Media Items
+    show: "Changing Settings For Multiple Media Items. Use the adjacent instructions as the content brief: To change settings of more than one media item at once, select the media items, right-click on the selection and choose Item Settings from the dropdown menu, or press the S key. Only the settings common to all selected media items will be available for editing in the Settings dialog window."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 99
+      section: Changing Settings for Multiple Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Changing-Settings-for-Multiple-Media-Items.gif
+    source_alt: Changing Settings For Multiple Media Items
+    text_coverage: not-independently-verified
+  - id: en-400612a347-025
+    title: Media Item With Indicators
+    caption: Media Item With Indicators
+    show: "Media Item With Indicators. Use the adjacent instructions as the content brief: Media item indicators are displayed over a media item thumbnail and provide information about its current settings and status. A media item with indicators"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 101
+      section: Media Item Indicators
+    source_url: https://help.screenberry.com/images/media-playback/static/Media-Item-with-Indicators.png
+    source_alt: Media Item With Indicators
+    text_coverage: not-independently-verified
+  - id: en-400612a347-026
+    title: Audioitem
+    caption: Audioitem
+    show: "Audioitem. Use the adjacent instructions as the content brief: Stereoscopic video Audio-only media items do not have a specific indicator, instead, the poster frame is generated based on its audio histogram. Playback State"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 107
+      section: Media Item Indicators
+    source_url: https://help.screenberry.com/images/media-playback/static/audioitem.png
+    source_alt: Audioitem
+    text_coverage: not-independently-verified

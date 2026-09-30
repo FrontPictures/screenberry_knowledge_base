@@ -1,0 +1,54 @@
+---
+id: guide.media-playback.matrix-based-playlists.configuration-of-media-player-outputs
+variant_id: guide.media-playback.matrix-based-playlists.configuration-of-media-player-outputs.imported-current-guide
+title: Screenberry Media Player Outputs - Configuration and Management
+language: en
+kind: how-to
+status: in_review
+owner: unassigned
+applies_to:
+  from: null
+  until_exclusive: null
+verified_in: []
+last_verified: null
+evidence:
+  - type: existing-guide
+    path: archive/site/content/en/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.mdx
+    sha256: eba85e8aa105a5705dfaae2a09238db28afbbe9e931a9ed467cbe90079b4c237
+    scope: Imported text; not independent product verification
+aliases: []
+related: []
+publication:
+  profile: legacy-guide-3.4
+  product_version: "3.4"
+  basis: Snapshot of existing current guide; applicability not independently verified
+  role: guide
+source:
+  path: content/en/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.mdx
+  canonical_url: https://help.screenberry.com/en/media-playback/matrix-based-playlists/configuration-of-media-player-outputs
+  git_commit: 8acf5a3a7526c3013fc44f1dba0b25f88343e745
+  sha256: eba85e8aa105a5705dfaae2a09238db28afbbe9e931a9ed467cbe90079b4c237
+  imported_at: 2026-09-30T14:15:19.585Z
+  frontmatter:
+    title: Screenberry Media Player Outputs - Configuration and Management
+    description: Learn to configure multiple video outputs in Screenberry Media Player by setting the number of outputs, adjusting image dimensions, and linking to visual display nodes.
+    openGraph:
+      title: Configuring Video Outputs in Screenberry Media Player
+      description: Step-by-step instructions for configuring and managing multiple video outputs in Screenberry's Media Player.
+presentation:
+  mode: text-only
+  illustrations: illustrations/en/how-to/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.yaml
+  visual_information_review: not-independently-verified
+---
+
+# Configuration of Media Player Outputs
+
+Each row within a matrix-based playlist corresponds to an individual video output. Since the **Media Player** node is set to single video output by default, configuring additional outputs manually is necessary to accommodate the number of active rows in the playlist. Follow these steps:
+
+1. Navigate to the **Node Graph** widget.
+2. Select the **Media Player** node corresponding to your matrix-based playlist to open its settings panel.
+3. In the node settings, update the **Number of Video Outputs** parameter to match the number of operational rows in your matrix-based playlist. This will result in the creation of new output parameters like **Image 2**, **Image 3**, etc. in addition to the default **Image** parameter.
+4. Additionally, you can configure the image dimensions for each output by adjusting the corresponding parameters, including **Image Size**, **Image Size 2**, **Image Size 3**, etc. to match your specific output requirements.
+5. Finally, create links from the output node pins— **Image**, **Image 2**, **Image 3**, and so on—to define the routing within the node graph for all your video outputs. These can typically be linked to the respective **Display** nodes, allowing the further customization of display settings for each individual output.
+
+By completing these steps, you'll set up a synchronized output setup where each matrix-based playlist row has a corresponding output in the **Media Player** node: the **Output 1** row to the **Image** video output, the **Output 2** row to **Image 2**, etc.

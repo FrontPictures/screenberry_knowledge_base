@@ -1,0 +1,41 @@
+---
+title: Screenberry Soft Edge Blender - 映像のシームレスなブレンディング
+description: Soft Edge Blenderノードを利用してブレンドマップを生成し、映像の重なりを調整することでシームレスな映像のブレンディングを実現する方法を説明します。
+openGraph:
+  title: Screenberry Soft Edge Blender - 映像のシームレスなブレンディング
+  description: Soft Edge Blenderノードを利用してブレンドマップを生成し、映像の重なりを調整することでシームレスな映像のブレンディングを実現する方法を説明します。
+---
+
+# Soft Edge Blender
+
+**Soft Edge Blender**ノードは、2つ以上の重なり合う映像を1つのシームレスな映像に組み合わせるためのソフトエッジブレンディングの機能を提供します。
+
+**Soft Edge Blender**ノードは、Patchによって修正された映像のシームレスな重なり合いを可能にするブレンディングマップを生成するために、これらのPatchノードの**Soft Edge Blender**入力パラメータに接続する必要があります。
+
+![Soft Edge Blender Node Tree](/images/warping-alignment/static/Soft-Edge-Blender-node-tree.png)
+
+<small>**Soft Edge Blender**ノードを使用したノードグラフの例</small>
+
+**Soft Edge Blender**ノードの**Settings**パネルでは、次ような設定を使用してソフトエッジブレンドを行います：
+
+![Soft Edge Blender](/images/warping-alignment/static/Soft-Edge-Blender.png)
+
+**Generation Method：** ブレンドマップの生成方法を設定します。**線形距離（Linear Distance）** または **重力関数（Gravity Function）** のいずれかを選択します
+
+**Gravity Falloff：** ブレンドマップの生成における重力ベースのエッジ検出アルゴリズムの値を設定します。**重力関数**ブレンドマップの生成方法が選択されている場合に使用されます。
+
+**Quadratic Easing：** 映像のオーバーラップ領域に対して *二次イージング* 関数を適用するかどうかを指定します。
+
+**Blur Radius：** ブレンドマップのぼかし半径を設定します。
+
+**Gamma：** ブレンドマップの逆ガンマ分布値を設定します。
+
+**Build Blend Maps：** **Build Blend Maps**ボタンを押すと、新しいブレンドマップが生成されます。
+
+**Disable Blending：** ブレンドマップがリセットされます。
+
+<img alt="SoftEdgeBlender" src="/images/warping-alignment/animation/SoftEdgeBlender.gif" width={800} height={752} loading="lazy" />
+
+> **メモ：** **Soft Edge Blender** ノードの設定が変更された場合や、**Soft Edge Blender** ノードに接続されたPatchノードのジオメトリが変更された場合は、ブレンドマップを再生成するために **Build Blend Maps** ボタンを押してください。
+
+**Soft Edge Blender**ノードを使用する場合は、Patchの共通操作について[Patchの編集](../patch-editor/editing-patches)の章も参照してください。

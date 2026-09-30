@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/en/reference/node-reference/primary-nodes/display.md
+document_id: guide.node-reference.primary-nodes.display
+language: en
+document_body_sha256: 005f81fe05a73bad9cc2675e0fb9e86315e1a916c8b404dc47531cdc37d9f887
+figures:
+  - id: en-babd5e20e2-001
+    title: Display Node Graph
+    caption: Display Node Graph
+    show: "Display Node Graph. Use the adjacent instructions as the content brief: The Display node defines an individual viewport that can be placed on the Screenberry server output canvas. Multiple Display nodes can be connected to the Canvas node or RenderTarget node (for off-screen rendering). The Display node receives media content from any image source or patch node connected to it. When the Display node is connected to the Canvas (or RenderTarget) node in the Node Graph, this node becomes ac"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Display
+    source_url: https://help.screenberry.com/images/node-references/animation/Display1.gif
+    source_alt: Display Node Graph
+    text_coverage: not-independently-verified
+  - id: en-babd5e20e2-002
+    title: Display Editor
+    caption: Display Editor
+    show: "Display Editor. Use the adjacent instructions as the content brief: When the Display node is connected to the Canvas (or RenderTarget) node in the Node Graph, this node becomes accessible for editing in the corresponding Canvas (or RenderTarget) Editor widget. For more information on editing displays, see Display Editor. The Settings panel of the Display node offers the following control and information parameters:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Display
+    source_url: https://help.screenberry.com/images/node-references/animation/Display2.gif
+    source_alt: Display Editor
+    text_coverage: not-independently-verified

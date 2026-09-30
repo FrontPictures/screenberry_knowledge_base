@@ -1,0 +1,66 @@
+schema_version: 1
+document: knowledge/jp/concepts/patch-editor/patch-editor-basics.md
+document_id: guide.patch-editor.patch-editor-basics
+language: ja
+document_body_sha256: 71c7f02043d98eba0c4c883bb2a4e247380c7621d129d2802a139385b5379734
+figures:
+  - id: ja-1003918201-001
+    title: Adding Widget
+    caption: Adding Widget
+    show: "Adding Widget. Use the adjacent instructions as the content brief: * 「映像」という用語は、静的または動的なメディア（つまり動画）を指します。 ** Patch Editorにアクセスするには、ワークスペースにCanvas（またはRender Target）ウィジェットを追加し、次にウィジェットの左上にあるPatchタブをクリックしてPatch表示に切り替えます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: 概要
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Adding-Widget.gif
+    source_alt: Adding Widget
+    text_coverage: not-independently-verified
+  - id: ja-1003918201-002
+    title: Patch Editor View
+    caption: Patch Editor View
+    show: "Patch Editor View. Use the adjacent instructions as the content brief: Patch Editorの画面構成：（1）表示モードバー、（2）2つのパートに分割された作業エリア：（A）Inputパネルと（B）Outputパネル、（3）ナビゲーションツリー、（4）Settingsパネル。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Patch Editor の画面構成
+    source_url: https://help.screenberry.com/images/patch-editor/static/Patch-Editor-View.png
+    source_alt: Patch Editor View
+    text_coverage: not-independently-verified
+  - id: ja-1003918201-003
+    title: View Modes
+    caption: View Modes
+    show: "View Modes. Use the adjacent instructions as the content brief: InputとOutput両方のパネルを縦方向に分割して表示します。 InputとOutput両方のパネルを横方向に分割して表示します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: 表示モード
+    source_url: https://help.screenberry.com/images/patch-editor/animation/View-Modes.gif
+    source_alt: View Modes
+    text_coverage: not-independently-verified
+  - id: ja-1003918201-004
+    title: View Options
+    caption: View Options
+    show: "View Options. Use the adjacent instructions as the content brief: View Optionsパネルでは、以下の要素の表示または非表示を設定することができます： Rulers： PatchやDisplayの位置やサイズを正確に配置するための目印です。Labels： PatchやDisplayの名前を表示します。Coordinates： Patchの制御点の位置座標を表示します。Live Image： 現在の映像出力のプレビューがリアルタイムに更新されます。Reference Image： 制御点のより正確な位置決めのための背景として使用される参照イメージです。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: 表示オプション
+    source_url: https://help.screenberry.com/images/patch-editor/animation/View-Options.gif
+    source_alt: View Options
+    text_coverage: not-independently-verified
+  - id: ja-1003918201-005
+    title: Zoom And Pan
+    caption: Zoom And Pan
+    show: "Zoom And Pan. Use the adjacent instructions as the content brief: Patch EditorのInputまたはOutputパネルの特定のエリアをズームインおよびズームアウトするには、マウスカーソルをその領域に置き、マウスのスクロールホイールを使用します。または、パネルの右上隅にあるズームボタンをクリックし、マウスを移動して拡大率を変更します。 表示エリアをパンするには、左マウスボタンを押したままマウスを移動するか、パネルの右上隅にあるパンボタンをクリックし、マウスを移動します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 20
+      section: 表示エリアのズームとパン
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Zoom-and-Pan.gif
+    source_alt: Zoom And Pan
+    text_coverage: not-independently-verified

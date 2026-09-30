@@ -1,0 +1,37 @@
+---
+title: Screenberry Quad Grid Patch - Projection Mapping on Stair-Like Surfaces
+description: Explore the Quad Grid patch in Screenberry for mapping projections on stair-like objects, using mesh control for precise alignment.
+openGraph:
+  title: Screenberry Quad Grid Patch - Projection Mapping on Stair-Like Surfaces
+  description: Explore the Quad Grid patch in Screenberry for mapping projections on stair-like objects, using mesh control for precise alignment.
+---
+
+# Quad Grid
+
+The **Quad Grid** node is a patch that applies perspective to the individual planes of the user-defined mesh grid. This patch is developed to map projection onto surfaces of stair-like objects. In a typical setup, the **Quad Grid** node receives a source image as the input and outputs the modified image to the **Display** or **Canvas** node.
+
+![Quad Grid Node Tree](/images/warping-alignment/static/Quad-Grid-node-tree.png)
+
+<small>Example of the node graph with the **Quad Grid** node</small>
+
+To apply perspective warping using the **Quad Grid** patch, do the following in the **Patch Editor**:
+
+1. Create a mesh grid by entering **X** and **Y** values in the **Grid Size** parameter in the **Settings** panel.
+
+   For a staircase-like object with horizontal tread and riser surfaces:
+
+   - Set **X** to 2 to create one column of quadrilateral faces. Use a larger value if a more complex object requires additional columns.
+   - Set **Y** to the total number of consecutive visible tread and riser surfaces plus 1.
+
+   A grid with **X** = 2 and **Y** = N + 1 contains N quadrilateral faces. For the corresponding vertical arrangement, swap the **X** and **Y** values.
+
+| ![Stairs1](/images/warping-alignment/static/stairs1.png)                                                  | ![Stairs2 1](/images/warping-alignment/static/stairs2-1.png)                                              |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| <small>Example of a patch grid for an object with horizontal planes. Grid Size: X=2, Y=10, giving 9 quadrilateral faces.</small> | <small>Example of a patch grid for an object with vertical planes. Grid Size: X=10, Y=2, giving 9 quadrilateral faces.</small> |
+
+2. In the **Output** panel, modify the warping mesh for the projected image by dragging the handles of the mesh control points for each grid plane.
+3. If the grid planes are transformed into trapezoidal shapes during the modification of the mesh grid, some warping artifacts may occur at the junction of the planes. To avoid this, select the **Linear** option for the **Vertical Interpolation** or **Horizontal Interpolation** parameters in the **Settings** panel to limit perspective distortion to horizontal or vertical grid planes.
+
+<img alt="Quad Grid" src="/images/warping-alignment/animation/Quad-Grid.gif" width={800} height={820} loading="lazy" />
+
+In addition, working with the **Quad Grid** patch follows the general principles for working with patches outlined in the [Editing Patches](../patch-editor/editing-patches) section of the documentation.

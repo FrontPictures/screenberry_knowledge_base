@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/planartodome.md
+document_id: guide.warping-alignment.planartodome
+language: ja
+document_body_sha256: 2f0106d7e8fa0ba7f72a9cf27f05bb34675e121fa27eb8e3cc24e4bebb127b6d
+figures:
+  - id: ja-27afffab42-001
+    title: Planar To Dome Node Tree
+    caption: Planar To Dome Node Tree
+    show: "Planar To Dome Node Tree. Use the adjacent instructions as the content brief: Planar to Domeノードは、平面イメージをドーム表面にマッピングするためのPatchです。これは、主にドームスクリーン上で平面とドームメディアコンテンツを組み合わせてピクチャーインピクチャー表示を実現するために使用されます。 典型的なセットアップでは、Planar to Domeノードはソース映像を入力として受け取り、変形されたイメージをDisplayノードまたはCanvasノードに出力します。 Planar to Domeノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Planar to Dome
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Planar-to-Dome-node-tree.png
+    source_alt: Planar To Dome Node Tree
+    text_coverage: not-independently-verified
+  - id: ja-27afffab42-002
+    title: Planar To Dome
+    caption: Planar To Dome
+    show: "Planar To Dome. Use the adjacent instructions as the content brief: Tilt Angle： 平面メディアを設定された角度だけ傾けます。 Rotation Angle： 平面メディアの表示位置をドームの天頂を中心に回転させます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Planar to Dome
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Planar-to-Dome.gif
+    source_alt: Planar To Dome
+    text_coverage: not-independently-verified

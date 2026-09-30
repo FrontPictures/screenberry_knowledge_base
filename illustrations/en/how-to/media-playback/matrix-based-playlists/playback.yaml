@@ -1,0 +1,90 @@
+schema_version: 1
+document: knowledge/en/how-to/media-playback/matrix-based-playlists/playback.md
+document_id: guide.media-playback.matrix-based-playlists.playback
+language: en
+document_body_sha256: ade99bdd747c79df44d2d908d620dbc729f5eb8d55f1a204657b1940c544906c
+figures:
+  - id: en-efbcb907ff-001
+    title: Playback Of Individual Media Items Matrix
+    caption: Playback Of Individual Media Items Matrix
+    show: "Playback Of Individual Media Items Matrix. Use the adjacent instructions as the content brief: To pause the playback, click the Pause button . This action will freeze the playback at the last played frames of the media items currently in play, and these frames will continue to be output. To halt the playback completely, click the Stop button ."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Playback of Individual Media Items
+    source_url: https://help.screenberry.com/images/media-playback/animation/Playback-of-Individual-Media-Items-Matrix.gif
+    source_alt: Playback Of Individual Media Items Matrix
+    text_coverage: not-independently-verified
+  - id: en-efbcb907ff-002
+    title: Row-Specific Playback
+    caption: Row-Specific Playback
+    show: "Row-Specific Playback. Use the adjacent instructions as the content brief: The Play Previous and Play Next buttons in the row header allow users to navigate sequentially through the media items within a specific row of a matrix-based playlist: Play Previous: Reverts playback to the previous media item in the sequence.Play Next: Advances playback to the next media item in the sequence."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: Row-Specific Playback
+    source_url: https://help.screenberry.com/images/media-playback/animation/Row-Specific-Playback.gif
+    source_alt: Alt text
+    text_coverage: not-independently-verified
+  - id: en-efbcb907ff-003
+    title: Column Specific Playback
+    caption: Column Specific Playback
+    show: "Column Specific Playback. Use the adjacent instructions as the content brief: Additionally, the Play Previous and Play Next buttons in the playlist's playback controls bar enable sequential column playback navigation: Play Previous: Jumps to the playback of the previous column. This is achieved by identifying the currently playing media item in the topmost active row and initiating playback of the column that immediately precedes this item.Play Next: Advances to the next column's playback by l"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 20
+      section: Column-Specific Playback
+    source_url: https://help.screenberry.com/images/media-playback/animation/Column-Specific-Playback.gif
+    source_alt: Column Specific Playback
+    text_coverage: not-independently-verified
+  - id: en-efbcb907ff-004
+    title: Lock Playback Controls Matrix
+    caption: Lock Playback Controls Matrix
+    show: "Lock Playback Controls Matrix. Use the adjacent instructions as the content brief: The playback controls bar also offers the following features: Lock/Unlock Playback Controls toggle : This safeguard prevents unintended changes to the playback state of a matrix-based playlist. Activating the Lock option disables all the interactive playback buttons, including Play Selected, Play, Pause, and Stop. To re-enable these controls, click the toggle once again. Reveal Active Item button : Allows you to quic"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 23
+      section: Additional Playback Control Features
+    source_url: https://help.screenberry.com/images/media-playback/animation/Lock-Playback-Controls-Matrix.gif
+    source_alt: Lock Playback Controls Matrix
+    text_coverage: not-independently-verified
+  - id: en-efbcb907ff-005
+    title: Reveal Active Item Matrix
+    caption: Reveal Active Item Matrix
+    show: "Reveal Active Item Matrix. Use the adjacent instructions as the content brief: Reveal Active Item button : Allows you to quickly locate a currently playing media item. Clicking this button shifts the view to the active playlist, automatically scrolls to the currently playing media items, and highlights them."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: Additional Playback Control Features
+    source_url: https://help.screenberry.com/images/media-playback/animation/Reveal-Active-Item-Matrix.gif
+    source_alt: Reveal Active Item Matrix
+    text_coverage: not-independently-verified
+  - id: en-efbcb907ff-006
+    title: Indication Playback
+    caption: Indication Playback
+    show: "Indication Playback. Use the adjacent instructions as the content brief: When a matrix-based playlist is being played, paused, or stopped, the corresponding indicators adjacent to the playlist's name in the Navigation Pane reveal its current state. If the currently active playlist is located within a collapsed folder, these state indicators will replace the folder icon."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 26
+      section: Indication
+    source_url: https://help.screenberry.com/images/media-playback/animation/Indication-Playback.gif
+    source_alt: Indication Playback
+    text_coverage: not-independently-verified
+  - id: en-efbcb907ff-007
+    title: Playback Prioritization Matrix
+    caption: Playback Prioritization Matrix
+    show: "Playback Prioritization Matrix. Use the adjacent instructions as the content brief: In a matrix-based playlist, every new user interaction related to playback supersedes the previous one. For instance, when column playback is initiated and a single row is subsequently paused, this more recent interaction prevails, pausing the playback exclusively for that row."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 28
+      section: Playback Prioritization Logic
+    source_url: https://help.screenberry.com/images/media-playback/animation/Playback-Prioritization-Matrix.gif
+    source_alt: Playback Prioritization Matrix
+    text_coverage: not-independently-verified

@@ -1,0 +1,303 @@
+---
+id: guide.whats-new.release-notes-3-0-0
+variant_id: guide.whats-new.release-notes-3-0-0.imported-current-guide
+title: Screenberry v3.0.0 Release Notes - Major Updates and New Features
+language: ja
+kind: release-notes
+status: in_review
+owner: unassigned
+applies_to:
+  from: null
+  until_exclusive: null
+verified_in: []
+last_verified: null
+evidence:
+  - type: existing-guide
+    path: archive/site/content/jp/whats-new/release-notes-3-0-0.mdx
+    sha256: 2c3819d18acd42fc45a978b8445a4320b116ed504ae9352136f6e3521b9e44dd
+    scope: Imported text; not independent product verification
+aliases: []
+related: []
+publication:
+  profile: legacy-guide-3.4
+  product_version: "3.4"
+  basis: Snapshot of existing current guide; applicability not independently verified
+  role: historical
+source:
+  path: content/jp/whats-new/release-notes-3-0-0.mdx
+  canonical_url: https://help.screenberry.com/jp/whats-new/release-notes-3-0-0
+  git_commit: 8acf5a3a7526c3013fc44f1dba0b25f88343e745
+  sha256: 2c3819d18acd42fc45a978b8445a4320b116ed504ae9352136f6e3521b9e44dd
+  imported_at: 2026-09-30T14:15:19.585Z
+  frontmatter:
+    title: Screenberry v3.0.0 Release Notes - Major Updates and New Features
+    description: Explore key updates in Screenberry v3.0.0, including original format media uploading, uncompressed playback support, an Upload Manager widget, BlackTrax integration, GenICam support, and data item animation capabilities.
+    openGraph:
+      title: Screenberry v3.0.0 Release Notes - Major Updates Overview
+      description: Discover Screenberry v3.0.0's major updates like media uploading in original format, uncompressed playback, upload management, BlackTrax & GenICam integration, and more.
+translation:
+  source_language: en
+  source_id: guide.whats-new.release-notes-3-0-0
+  source_revision: null
+  status: alignment-unverified
+  counterpart: ../../../en/releases/whats-new/release-notes-3-0-0.md
+describes_release: 3.0.0
+presentation:
+  mode: text-only
+  illustrations: null
+  visual_information_review: not-applicable
+---
+
+# Screenberry v3.0.0 Release Notes
+
+## Features:
+
+The capability of uploading and using media files in their **original formats\*** has been added to Screenberry. Previously, all uploaded media files had to be converted.
+
+**Uncompressed playback** support has been added (TGA sequences are now supported). The sequences are sliced during upload to ensure minimum latency during playback start and subsequent rewinding.
+
+**10**, **12**, and **16-bit** video processing are now supported.
+
+**Cluster support** was implemented (experimental)\*\*. Multiple media servers can be synchronized to provide infinite scalability – an unlimited number of displays and playback resolution is now possible. The cluster synchronization can be also employed for calibration.
+
+A new **Upload Manager** widget has been developed to provide a user interface for uploading multiple media files to the Screenberry media server.
+
+Integration with BlackTrax real-time tracking is now available. BlackTrax is a vision-based system that allows capturing positional data and sending it to the Screenberry media server. The integration is accomplished by the new **BlackTrax Motion** node added to the node graph.
+
+GenICam (GigE Vision) protocol support has been added with the introduction of two new nodes: the **GenICam Camera** node is used for calibration and the **GenICam Capture** node for live streams input.
+
+A new **Mask** patch node has been developed that enables the easy creation of free-form geometry patches, which can be used to cut arbitrary shapes from the input image.
+
+A new **USB Camera** node has been added that detects available _DirectShow_ video devices and uses them as input sources.
+
+A **Data Item** is a new type of item that can be added to the Media Player. It allows the user to animate any parameter of any node by placing such an item on the timeline and changing its length, setting keyframes for it, and changing its value dynamically.
+
+The new **Image Format** node has been created which allows extracting image format information (image size, number of channels, bits per channel, and whether an image is stereoscopic) in real-time. This feature is useful for advanced automation.
+
+A **freeze-frame feature** has been added for the media items in the Media Player. The option to hold the frame is available in the media item’s settings.
+
+The **Heat Map** feature has been added to the node graph. It allows real-time monitoring of performance load and processing time for each node.
+
+A new **Smooth Transition** node allows gradual transition between changed values of the input parameter over a set period of time.
+
+\* Depending on the system configuration, the playback performance of media files in original formats in extremely
+high resolutions could be less optimal than in proprietary RVA format.
+
+\*\* Setting up a cluster system requires experienced personnel. This feature is still in the development stage.
+
+## Improvements:
+
+**Main menu**
+
+The main Screenberry Panel menu has been rearranged to improve usability and expand available functionality.
+
+The option to show and open **Recent Projects** has been added to the main menu.
+
+**Node Graph**
+
+The option to hide unused pins on the node has been added.
+
+Zooming in and out of a node graph has become smoother.
+
+**Media Player**
+
+New hotkeys have been added that allow playing selected media items (Ctrl + Enter) and playing / pausing current media items (Spacebar). Until now, the Spacebar was used to open a Video Preview window (now the P hotkey is used).
+
+The ability to add transformations has been added for the _AUX_ items.
+
+Seeking using playhead has become more responsive.
+
+**Timelines**
+
+The timeline user interface in the **Media Player** widget has been redesigned to improve functionality and usability.
+
+The option to switch between **Razor Tool** (media item split) mode and **Move / Trim** mode when editing timelines has been added. Also, now you can switch from Razor Tool mode back to Move / Trim tool (default) using the Esc shortcut.
+
+The following hotkeys have been added to simplify timeline editing:
+
+- **Right** / **Left** arrow keys – moving to the next/previous frame.
+- **Up** / **Down** arrows keys – jumping to the next/previous media item’s beginning/end.
+- **K** / **J** keys – jumping to the next/previous keyframe.
+- **Home** key – moving playhead to the start of the timeline at the 00:00:00 mark.
+- **End** key – moving playhead to the end of the last item on the timeline or the last marker.
+
+Additionally, holding the **Ctrl** key enables selecting multiple keyframes in the timeline and moving them simultaneously.
+
+**Patch Editor**
+
+**Geometry** and **UV** view panels have been renamed to **OUTPUT** and **INPUT** panels, respectively, and their positions in the Patch Editor have been swapped.
+
+The **Patch Editor** was thoroughly redesigned to enhance the look and feel and improve the user experience. The following enhancements were implemented:
+
+- A more consistent color scheme.
+- Improved displays and patches list.
+- Toolbar for operations with displays.
+- Rulers.
+- Labels of the patches.
+- The View Options panel.
+
+Zooming in and out in the Patch Editor has become smoother.
+
+It is now possible to set a reference image and current output image as background images simultaneously and their opacity can be adjusted.
+
+A current server output image preview is updated automatically. This option is enabled by default.
+
+**Display Editor**
+
+Display size and position are now shown.
+
+The origin of coordinates in the Display Editor is now in the top left corner to be consistent with the Patch Editor.
+
+Now, when a new display array is created, the displays are automatically named **Display #** instead of just a sequence number. To show the display numbers on the screen, the new test pattern **Digits** has been added.
+
+The row of command buttons at the top panel has been replaced by the vertical toolbar on the left.
+
+**Files widget**
+
+Copy, cut, paste, and duplicate functionality has been added to simplify copying and moving files between folders on the server in the **Files** widget or different instances of the widget. Now, drag-n-drop works for moving files between different folders or moving media files from the **Files** widget to the **Media Player** or **Media Library**.
+
+The current project folder is now highlighted in bold italic.
+
+**3D Scene**
+
+Texture rendering for 3D models even if UV data for some parts of a model are missing has been added.
+
+The **Near Distance** parameter has been added to the **Free Camera** settings.
+
+Now 3D objects can be excluded from projection mapping. This also can be used for masking.
+
+**Calibrator**
+
+Calibration robustness during the fast **Geometry** stage was further improved.
+
+A new **Calibration in Progress** boolean output parameter has been added.
+
+**Others**
+
+**GPUDirect** support has been added to the **DeckLink Capture** node.
+
+An option to disable audio has been added to the **NDI Out** node.
+
+With **TouchEngine SDK** updated to version 2021.15810, the **TouchEngine** node now automatically displays all available parameters for operators with multiple parameters in the combo box.
+
+In the **Script** node, the _getValue()_ method now returns the index of the multi-value parameter instead of a string which simplifies writing a script.
+
+The Script node now supports the ability to construct output messages which can be used, for example, to simulate a button press or checkbox selection.
+
+The **Frame Sync** option has been added to the **Spout In** and **Spout Out** nodes.
+
+The **Sender FPS** information parameter is now available in the **Spout In** node.
+
+A new **Watchdog Timeout** parameter has been added to the **ServerControl** node to be able to change the default timeout value of 20 seconds.
+
+## Third-party Library Updates:
+
+NDI SDK has been updated to version 5.0.10.
+
+TouchEngine SDK has been updated to version 2021.15810.
+
+The Spout SDK library has been updated to version 2.007h.
+
+The Assimp (Open Asset Importer) Library has been updated to version 5.1.0.rc1.
+
+Deltacast SDK has been updated to version 6.18.
+
+Qt has been updated to version Qt6.
+
+The SDL (Simple DirectMedia Layer) library has been updated to version 2.0.20.
+
+## Changes:
+
+Multiple nodes and node parameters have been renamed to improve clarity and legibility.
+
+## Localization:
+
+Japanese and Ukrainian languages have been added to the Screenberry interface. The language can be changed in the **Preferences** > **Choose Language** dialog box.
+
+## Fixes:
+
+**Node Graph**
+
+- Fixed: the issue with the server crashing when a node is renamed to “/”.
+- Fixed: the issue of not being able to create a group node with the name that already exists. The group node is now created with a unique name by adding a number to the existing name.
+- Fixed: the issue of undesirable movement of the comment area together with the selected nodes if the selection was made from left to right inside the comment area.
+- Fixed: the order of the input Patch links in the Reorder Links dialog box has been changed to bottom-up, which is consistent with the order of patches in the Patch Editor.
+- Fixed: the issue with the server crashing when an Image input parameter is unlinked from the Reroute Pin node.
+- Fixed: the issue with the panel crashing when the Reroute Pin node is added to the link from a hidden node pin.
+- Fixed: the issue with the node not receiving parameter value updates if they are sent by a node that is processed later and the sent value changes every frame.
+
+**Media Player**
+
+- Fixed: the issue with playback lags when seeking on the timeline.
+- Fixed: the issue with playback starting at an invalid time when timecode offset is configured from the Timecode node.
+- Fixed: the issue with audio and video desynchronization after the video track of a media item has been disabled and then enabled again.
+- Fixed: the issue with freezing when decoding more than 100 slices at once.
+- Fixed: the issue with peak overloads when video decoders use too many threads.
+- Fixed: the issue with not prioritizing current frame decoding over the next one.
+- Fixed: the issue with the value of the parameter not changing when it was edited in settings using the logarithmic slider.
+- Fixed: the issue with deleted audio tracks still being displayed for media items.
+- Fixed: the issue of not being able to switch between audio tracks of a media item during its playback.
+- Fixed: the issue with Undo not working for color correction of media items.
+- Fixed: the issue with fade-in time set for AUX items not being displayed correctly.
+- Fixed: the issue with the time ruler not being shown when playing an AUX item.
+- Fixed: the issue with AUX items not playing in the loop.
+- Fixed: the issue with AUX items showing incorrect duration.
+- Fixed: the issue with not showing settings when two or more AUX items are selected.
+- Fixed: the issue with navigation between media items in a playlist using arrow keys.
+- Fixed: the issue with not being able to move media items between playlists using drag-and-drop.
+- Fixed: the issue with not being able to add correctly media items longer than 1.5 hours to the timeline from the Media Library using drag-and-drop.
+- Fixed: the issue with an audio track of the media item on the timeline being played beyond the defined Out point.
+- Fixed: the visual bug where the position of control points and action points on the timeline did not correspond to the actual time of action.
+- Fixed: the issue with Undo not working for deletion of control points or action points added to the timeline.
+- Fixed: the issue with the In and Out point settings applied to a media item in the playlist not being transferred when this media item is copied to the timeline.
+- Fixed: the issue with an incorrect selection of media items on the timeline after splitting.
+- Fixed: the issue with incorrect positioning of a media item on the timeline after it was drag-and-dropped from the Media Library.
+- Fixed: the issue with keyframes position not being adjusted with the change of timeline FPS.
+- Fixed: the issue with not being able to select a media item’s name as text in the Settings.
+- Fixed: the issue with the Out Point marker jumping unexpectedly after being set in the seek bar.
+
+**Media Library**
+
+- Fixed: the issue with not preserving the last opened folder when the widget is reopened.
+- Fixed: the issue with the missing Item Info option from the context menu.
+- Fixed: the issue with files being uploaded to the incorrect folder when using Add File option.
+- Fixed: the issue with the Go to the Parent Folder shortcut (Alt + left arrow) not working.
+- Fixed: the issue with the Show Preview option missing from the context menu for the media items.
+- Fixed: the issue with opening a media item as a folder.
+- Fixed: the issue when a renamed media item is saved without an extension and as a result regarded as a folder.
+
+**Files Widget**
+
+- Fixed: the issue with the files state not updating after the upload is complete.
+- Fixed: the issue with navigation using arrow keys not working in the list view.
+
+**3D Scene**
+
+- Fixed: the issue with overlay lines width not changing in the scene view when changed in the settings.
+- Fixed: the issue with the occasional server crashing when a Projector node is disabled.
+- Fixed: the issue with the transformations received from the Transform3D node applied incorrectly to the position and orientation of the camera or projector.
+- Fixed: the issue with the model loaded by the 3D Model File node not being reloaded automatically when the source model orientation has been changed.
+
+**Others**
+
+- Fixed: the issue with exiting the Panel automatically when a language was not selected at the first start.
+- Fixed: the issue with the server crashing upon reinitialization of a color scheme in the Direct texture upload mode.
+- Fixed: the issue with the server crashing upon attempting to preview video after the Canvas node was disabled.
+- Fixed: the issue with the occasional server crashing when exiting the server or panel.
+- Fixed: the issue with the server freezing when two Art-Net Server nodes are added.
+- Fixed: the issue with the server crashing when the Script node was disabled during script compilation.
+- Fixed: the issue with the Panel crashing when adding a widget in a floating window under Linux.
+- Fixed: the issue with the server crashing when saving a model using the 3D Model Export node under Linux.
+- Fixed: the issue with the File Upload dialog window not always opening above other interface windows.
+- Fixed: the issue with incorrect IDs shown for the demo licenses in the license list.
+- Fixed: the issue with secondary Preset nodes not working when the switch between them is performed in the primary Preset node.
+- Fixed: the issue with the audio replay glitch while seeking.
+- Fixed: the issue with the Lighten node not working properly due to incorrect shader compilation.
+- Fixed: the existing limits for the input value in the media item’s Settings have been removed.
+- Fixed: the issue with added fonts disappearing when the server is restarted.
+- Fixed: the issue with the server crashing when loading an image to the VirtualCamera node.
+- Fixed: the issue with the server crashing during the calibration when projectors are in Smart Eco mode.
+- Fixed: the issue with the incorrect geometry extrapolation on image edges.
+- Fixed: the issue with incorrect handling of images with premultiplied alpha channel in the Video Preview (on hovering over the link).
+- Fixed: the issue with incorrect rounding in the Float to Int node.
+- Fixed: the issue with the SoftEdgeBlender node not working correctly with patches that have transparent vertices.

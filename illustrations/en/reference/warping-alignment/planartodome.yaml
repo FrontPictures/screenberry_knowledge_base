@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/planartodome.md
+document_id: guide.warping-alignment.planartodome
+language: en
+document_body_sha256: 946eade8720d29098a26a36997bca88b424961781f17e5d2a8acfd4af80917cf
+figures:
+  - id: en-cf6caa6cf0-001
+    title: Planar To Dome Node Tree
+    caption: Planar To Dome Node Tree
+    show: "Planar To Dome Node Tree. Use the adjacent instructions as the content brief: The Planar to Dome node is a patch that allows the mapping of a planar image onto a dome surface. It is mostly used to achieve a picture-in-picture effect by combining planar and dome media content on a dome screen. In a typical setup, the Planar to Dome node receives a source image as the input and outputs the modified image to the Display or Context node. Example of the node graph with the Planar to Dome node"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Planar to Dome
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Planar-to-Dome-node-tree.png
+    source_alt: Planar To Dome Node Tree
+    text_coverage: not-independently-verified
+  - id: en-cf6caa6cf0-002
+    title: Planar To Dome
+    caption: Planar To Dome
+    show: "Planar To Dome. Use the adjacent instructions as the content brief: Tilt Angle Sets the angle of the image tilt. Rotation Angle Rotates the image by the specified angle around the zenith of the dome."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Planar to Dome
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Planar-to-Dome.gif
+    source_alt: Planar To Dome
+    text_coverage: not-independently-verified

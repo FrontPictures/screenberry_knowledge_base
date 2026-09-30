@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/how-to/media-playback/matrix-based-playlists/configuration-of-media-player-outputs.md
+document_id: guide.media-playback.matrix-based-playlists.configuration-of-media-player-outputs
+language: ja
+document_body_sha256: 42182d6fb6fdcc1e5ae0e09b3b34cac51e169fabb65831112336ab1b62aae945
+figures:
+  - id: ja-e370720595-001
+    title: Media Player Outputs Matrix
+    caption: Media Player Outputs Matrix
+    show: "Media Player Outputs Matrix. Use the adjacent instructions as the content brief: Node Graphウィジェットに移動します。マトリックス型プレイリストに対応するMedia Playerノードを選択して、その設定パネルを開きます。ノードの設定で、Number of Video Outputsをマトリックス型プレイリストの操作行数に合わせて設定します。これにより、デフォルトのImage出力ピンに加えて、Image 2、Image 3などの新しい出力ピンが作成されます。さらに、各映像出力の解像度を設定するために、対応するパラメータ（Image Size、Image Size 2、Image Size 3など）を変更することで、必要な解像度に設定することができます。最後に、出力ピン（Image、Image 2、Image 3など）からリンクを作成し、すべての映像出力のノードグラフ内のルーティングを作成します。これらは通常、各個別の出力に対して表示の設定をさらにカスタマイズするために、対応するDisplayノードに"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Media Playerの出力設定
+    source_url: https://help.screenberry.com/images/media-playback/animation/Media-Player-Outputs-Matrix.gif
+    source_alt: Media Player Outputs Matrix
+    text_coverage: not-independently-verified

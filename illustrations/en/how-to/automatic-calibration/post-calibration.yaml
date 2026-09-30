@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/how-to/automatic-calibration/post-calibration.md
+document_id: guide.automatic-calibration.post-calibration
+language: en
+document_body_sha256: b120e187f6339a033a678354fe302ad6851f57d8453fe9d8900d118c71661030
+figures:
+  - id: en-cbca0064da-001
+    title: Reviewing Calibration Images
+    caption: Reviewing Calibration Images
+    show: "Reviewing Calibration Images. Use the adjacent instructions as the content brief: If the calibration results are not satisfactory, or if a failure occurred during calibration resulting in an error message, the calibration images can be reviewed to identify the problem. To review the calibration data, press the Open Calibration Images Viewer button in the Calibrator Wizard widget and choose the image file for the required calibration stage from the Select Image drop-down list."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Reviewing Calibration Images
+    source_url: https://help.screenberry.com/images/automatic-calibration/animation/Reviewing-Calibration-Images.gif
+    source_alt: Reviewing Calibration Images
+    text_coverage: not-independently-verified

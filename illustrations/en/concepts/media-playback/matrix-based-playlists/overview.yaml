@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/concepts/media-playback/matrix-based-playlists/overview.md
+document_id: guide.media-playback.matrix-based-playlists.overview
+language: en
+document_body_sha256: 7bccbd86a2fd8fae1778b3997b5494a578e9915fca6212244eb97101fcfb1799
+figures:
+  - id: en-9d5fde67e7-001
+    title: Matrix-based Playlist Interface
+    caption: Matrix-based Playlist Interface
+    show: "Matrix-based Playlist Interface. Use the adjacent instructions as the content brief: Matrix-based playlists in Screenberry offer a convenient method for managing and controlling media playback through a grid-like interface. This feature enables users to coordinate and synchronize the playback of several media sequences, each directed towards its respective video output. Such functionality is particularly beneficial for real-time video mixing across multiple visual layers and dynamic media presentatio"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Matrix-based Playlist Interface
+    source_url: https://help.screenberry.com/images/media-playback/static/matrix-view.png
+    source_alt: Matrix-based Playlist Interface
+    text_coverage: not-independently-verified

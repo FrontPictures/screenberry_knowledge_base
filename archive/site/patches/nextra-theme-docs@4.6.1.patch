@@ -1,0 +1,55 @@
+diff --git a/dist/schemas.js b/dist/schemas.js
+index 37d3d01fc9cbf02bced9e95be84b262df6bc2d96..4ded63e6d3a373df6bf43f14d164399287c028a8 100644
+--- a/dist/schemas.js
++++ b/dist/schemas.js
+@@ -65,7 +65,7 @@ const LayoutPropsSchema = z.strictObject({
+   banner: reactNode.optional().meta({
+     description: "Rendered [`<Banner>` component](/docs/built-ins/banner). E.g. `<Banner {...bannerProps} />`"
+   }),
+-  children: reactNode,
++  children: reactNode.optional(),
+   copyPageButton: z.boolean().default(true).meta({
+     description: "Hide/show copy page content button."
+   }),
+diff --git a/dist/components/pagination.js b/dist/components/pagination.js
+--- a/dist/components/pagination.js
++++ b/dist/components/pagination.js
+@@ -38,7 +38,7 @@ const Pagination = (t0) => {
+   }
+   let t1;
+   if ($[1] !== prev) {
+-    t1 = prev && /* @__PURE__ */ jsxs(NextLink, { href: prev.route, title: extractStringsFromReactNode(prev.title), className: cn(classes.link, "x:pe-4"), prefetch: false, children: [
++    t1 = prev && /* @__PURE__ */ jsxs(NextLink, { href: prev.route, title: extractStringsFromReactNode(prev.title), className: cn(classes.link, "x:pe-4"), prefetch: null, children: [
+       /* @__PURE__ */ jsx(ArrowRightIcon, { height: "20", className: cn(classes.icon, "x:ltr:rotate-180") }),
+       prev.title
+     ] });
+@@ -49,7 +49,7 @@ const Pagination = (t0) => {
+   }
+   let t2;
+   if ($[3] !== next) {
+-    t2 = next && /* @__PURE__ */ jsxs(NextLink, { href: next.route, title: extractStringsFromReactNode(next.title), className: cn(classes.link, "x:ps-4 x:ms-auto x:text-end"), prefetch: false, children: [
++    t2 = next && /* @__PURE__ */ jsxs(NextLink, { href: next.route, title: extractStringsFromReactNode(next.title), className: cn(classes.link, "x:ps-4 x:ms-auto x:text-end"), prefetch: null, children: [
+       next.title,
+       /* @__PURE__ */ jsx(ArrowRightIcon, { height: "20", className: cn(classes.icon, "x:rtl:rotate-180") })
+     ] });
+diff --git a/dist/components/sidebar.js b/dist/components/sidebar.js
+--- a/dist/components/sidebar.js
++++ b/dist/components/sidebar.js
+@@ -127,7 +127,7 @@ const Folder = (t0) => {
+   return /* @__PURE__ */ jsxs("li", { className: t3, children: [
+     /* @__PURE__ */ jsxs(ComponentToUse, { ...isLink ? {
+       href: item.route,
+-      prefetch: false
++      prefetch: null
+     } : {
+       "data-href": item.route
+     }, className: t6, onClick: handleClick2, onFocus, children: [
+@@ -235,7 +235,7 @@ const File = (t0) => {
+   }
+   let t5;
+   if ($[9] !== href || $[10] !== item.title || $[11] !== onFocus || $[12] !== t4) {
+-    t5 = /* @__PURE__ */ jsx(Anchor, { href, className: t4, onFocus, prefetch: false, children: item.title });
++    t5 = /* @__PURE__ */ jsx(Anchor, { href, className: t4, onFocus, prefetch: null, children: item.title });
+     $[9] = href;
+     $[10] = item.title;
+     $[11] = onFocus;

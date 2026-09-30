@@ -1,0 +1,56 @@
+---
+title: Screenberryのタイムラインの表示設定とナビゲーション
+description: Screenberryのタイムラインについて、再生制御や各種設定方法を説明します。
+openGraph:
+  title: Screenberryのタイムラインの表示設定とナビゲーション
+  description: Screenberryのタイムラインについて、再生制御や各種設定方法を説明します。
+---
+
+# タイムライン表示と操作
+
+![Timelineview](/images/media-playback/static/timelineview.png)
+
+**Timeline**パネルは、メディアの整理と再生管理のためのさまざまなツールとオプションを提供しています。これには以下のものが含まれます：
+
+1. **現在の再生時間：** タイムライン上の現在の再生位置を表示します。
+2. **ガイド位置表示：** タイムライン上のガイドの時間位置を表示します。
+3. **トップツールバー：** タイムライントラックの追加、さまざまな種類のマーカーの挿入、Timeline表示のズーム操作のためのツールが含まれています。
+4. **サイドツールバー：** **カミソリ**<img alt="Razor Icon" src="/images/media-playback/static/razor-icon.png" width={23} height={23} loading="lazy" />ツールと**移動**<img alt="Move Icon" src="/images/media-playback/static/move-icon.png" width={23} height={23} loading="lazy" />ツールのセレクタ、再生位置スナップを切り替える**Playhead Snapping**<img alt="Playheadsnap Icon" src="/images/media-playback/static/playheadsnap-icon.png" width={23} height={23} loading="lazy" />スイッチ、メディアアイテムのスナッピングを制御する**Snap On/Off**<img alt="Snap Icon" src="/images/media-playback/static/snap-icon.png" width={23} height={23} loading="lazy" />スイッチ、タイムラインの**設定機能**が含まれています。
+5. **トラック：** タイムライン上でメディアアイテムを整理してレイヤー化します。
+6. **タイム目盛り：** 正確なメディアの整列のための時間目盛りを表示します。
+7. **再生ヘッド：** タイムライン上の現在の再生位置を示します。
+8. **ガイド：** タイムライン上の特定の時間位置を参照用に表示します。
+9. **メディアアイテム：** タイムライントラック内に配置された個々のメディアアイテムです。
+10. **再生制御バー：** 再生制御に使用する**Play Selected Item**<img alt="Play" src="/images/media-playback/static/play.png" width={24} height={24} loading="lazy" />、**Play**<img alt="Play1" src="/images/media-playback/static/play1.png" width={24} height={24} loading="lazy" />、**Pause**<img alt="Pause" src="/images/media-playback/static/pause.png" width={24} height={24} loading="lazy" />、**Stop**<img alt="Stop" src="/images/media-playback/static/stop.png" width={24} height={24} loading="lazy" />ボタンが含まれています。さらに、**再生制御のロック/ロック解除**<img alt="Lock" src="/images/media-playback/static/lock.png" width={24} height={24} loading="lazy" />トグルボタンと、アクティブなアイテムを表示する**Reveal Active Item**<img alt="Reveal Icon" src="/images/media-playback/static/reveal-icon.png" width={23} height={23} loading="lazy" />ボタンも含まれています。
+11. **Media Playerの音量制御：** Media Playerの出力音量を調整します（詳細は[音量調整](../media-player/media-player-global-settings#音量調整)を参照）。
+12. **Media Playerの色調補正：** Media Playerの映像出力の色調を調整します（詳細は[色調補正](../media-player/media-player-global-settings#色調補正)を参照）。
+
+## タイムライン上の再生位置の変更
+
+以下のいずれかの方法で、タイムライン上で再生位置を変更します。
+
+- 再生位置ヘッドを移動したいタイムライン上の時間目盛りをクリックします。
+- タイムライン上の再生ヘッドをドラッグします。再生ヘッドをメディアアイテムの境界やマーカーにスナップさせたい場合は、サイドツールバーの**Playhead Snapping**<img alt="Playheadsnap Icon" src="/images/media-playback/static/playheadsnap-icon.png" width={23} height={23} loading="lazy" />スイッチを有効にします。
+- 矢印キーを使用します。**`右矢印`** キーまたは **`左矢印`** キーを押して、再生ヘッドを次のフレームまたは前のフレームに移動します。**`上矢印`** キーまたは **`下矢印`** キーを押して、次のメディアアイテムの境界やマーカーに移動します。
+- **`K`** キーまたは **`J`** キーを押して、再生ヘッドを次のキーフレームまたは前のキーフレームに移動します。
+- **`Home`** キーまたは **`End`** キーを押して、再生ヘッドをタイムラインの先頭または終端に移動します。
+
+<img alt="Positioning The Playhead On A Timeline" src="/images/media-playback/animation/Positioning-the-playhead-on-a-timeline.gif" width={800} height={492} loading="lazy" />
+
+## タイムラインのズームイン/アウト
+
+タイムラインのズームインまたはズームアウトするには、以下のいずれかの方法を使用します。
+
+- マウスカーソルをタイムライン上に置き、マウスのスクロールホイールを使用して、マウスカーソルの位置に基づいてズームインまたはズームアウトします。
+- 再生ヘッドの位置に基づいて、プラスキー **`+`** を押してズームインし、マイナスキー **`-`** を押してズームアウトします。
+- トップツールバーの<img alt="Zoomplus Icon" src="/images/media-playback/static/zoomplus-icon.png" width={23} height={23} loading="lazy" />または<img alt="Zoomminus Icon" src="/images/media-playback/static/zoomminus-icon.png" width={23} height={23} loading="lazy" />ボタンをクリックして、再生ヘッドの位置に基づいてズームインまたはズームアウトします。
+- トップツールバーの<img alt="Zoomfit Icon" src="/images/media-playback/static/zoomfit-icon.png" width={23} height={23} loading="lazy" />ボタンをクリックするか、**`\`**（バックスラッシュ）キーを押して、タイムライン全体を表示するためにズームアウトします。
+- トップツールバーの<img alt="Zoomframe Icon" src="/images/media-playback/static/zoomframe-icon.png" width={23} height={23} loading="lazy" />ボタンをクリックするか、**`Shift`** + **`\`**（バックスラッシュ）キーを押して、フレーム単位までズームインします。
+
+<img alt="Zooming In Or Out Of A Timeline 1" src="/images/media-playback/animation/Zooming-in-or-out-of-a-timeline-1.gif" width={800} height={400} loading="lazy" />
+
+## タイムラインの水平移動
+
+タイムラインの一部が表示されていない場合、タイムラインウィジェットの下部にあるスクロールバーをドラッグすることで水平に移動することができます。
+
+<img alt="Scrolling A Timeline Horizontally 2" src="/images/media-playback/animation/Scrolling-a-timeline-horizontally-2.gif" width={800} height={400} loading="lazy" />

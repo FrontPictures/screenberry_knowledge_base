@@ -1,0 +1,97 @@
+---
+title: Screenberryのノードグラフ - 操作方法、表示設定およびカラー設定
+description: Screenberryのノードグラフについて、操作方法や表示設定の方法を説明します。自動レイアウト、ズームやパン操作、カラー設定やノードの検索方法も説明します。
+openGraph:
+  title: Screenberryのノードグラフ - 操作方法、表示設定およびカラー設定
+  description: Screenberryのノードグラフについて、操作方法や表示設定の方法を説明します。自動レイアウト、ズームやパン操作、カラー設定やノードの検索方法も説明します。
+---
+
+# ノードグラフの操作と監視
+
+## ノードの自動配置
+
+**ノードグラフ**内のノードを整列するには、ノードを右クリックしてドロップダウンメニューから**Auto-Layout Nodes**を選択します（または **`L`** キーを押します）。ノードが選択されていない場合、**Auto-Layout Nodes**を使用すると、ノードツリー全体が整列されます。
+
+<img alt="Auto-Layout Nodes" src="/images/working-with-nodes/animation/Auto-Layout-Nodes.gif" width={800} height={388} loading="lazy" />
+
+## ノードの表示に合わせる
+
+**ノードグラフ**内で 1 つまたは複数の選択されたノードを中心に最適に表示するには、ノードを右クリックしてドロップダウンメニューから**Fit to View**を選択します（または **`A`** キーを押します）。ノードが選択されていない場合は、**Fit to View**機能を使用するとノードツリー全体が表示されます。
+
+<img alt="Fit to View" src="/images/working-with-nodes/animation/Fit-To-View-For-Nodes.gif" width={800} height={476} loading="lazy" />
+
+## ノードサイズの変更
+
+ノードのサイズを変更するには、ノードを選択し、マウスオーバー時に表示される四隅のコーナーハンドルのいずれかをドラッグしてください。
+
+<img alt="Changing Node Size" src="/images/working-with-nodes/animation/Changing-Node-Size.gif" width={800} height={202} loading="lazy" />
+
+## ノードグラフのズームとパン
+
+**ノードグラフ**の特定のエリアをズームインおよびズームアウトするには、マウスカーソルをその場所に移動し、マウスのスクロールホイールを使用します。または、右上隅の虫眼鏡<img alt="Zoom Button" src="/images/working-with-nodes/static/zoom-icon.png" width={25} height={25} loading="lazy" />ボタンをクリックし、マウスを移動して拡大率を変更します。
+
+ビューをパンするには、次のいずれかを行います：
+
+- マウスのスクロールホイールボタンを押したままにするか、マウスを移動する際に **`Alt`** キーを押します。
+- 右上隅の十字矢印<img alt="Pan Button" src="/images/working-with-nodes/static/pan-icon.png" width={25} height={25} loading="lazy" />ボタンをクリックし、マウスを移動します。
+
+<img alt="Zooming and Panning" src="/images/working-with-nodes/animation/Zooming-and-Panning-in-the-Node-Graph.gif" width={800} height={476} loading="lazy" />
+
+## ナビゲーターパネルの使用方法
+
+**ナビゲーター**パネル（**Node Graph**ウィジェットの左下隅に位置）は、ノードグラフのサムネイル表示です。**ナビゲーター**パネル内の灰色の枠は、ウィジェットで現在表示されている領域に対応する俯瞰表示エリアです。
+
+**ナビゲーター**パネル内の灰色の枠をドラッグすることで、ノードグラフ内を素早く移動できます。
+
+**ナビゲーター**パネル上でマウスのスクロールホイールを使用することで、ノードグラフを拡大・縮小できます。
+
+**ナビゲーター**パネルを右クリックすると、標準モードと拡大モードの表示モードを切り替えることができます。
+
+**Node Graph**ウィジェットの空白の領域を右クリックし、**Minimap**チェックボックスを有効/無効にして（または **`Ctrl`** + **`M`** を押す）、**ナビゲーター**パネルの表示/非表示を切り替えることができます。
+
+<img alt="Navigator Panel" src="/images/working-with-nodes/animation/Navigator-Panel-1.gif" width={800} height={476} loading="lazy" />
+
+## ノードの色分け
+
+色分けは、さまざまなタイプのノードを示すために使用されます。
+
+![Nodes Color Coding](/images/working-with-nodes/static/ColorCoding.png)
+
+以下の色の組み合わせはデフォルトで設定されており、**Preferences > Nodes Color Settings** で変更することができます。
+
+- **コピー＆ペーストの方法：**
+  1. **Media Library**、別の**Media Player**のプレイリスト、またはタイムラインで選択したメディアアイテムを選択します。
+  2. 右クリックしてドロップダウンメニューから**Copy**を選択するか、**`Ctrl`** + **`C`** のキーボードショートカットを使用してこれらのアイテムをコピーします。
+  3. コピーしたメディアアイテムのシーケンスの開始グリッドセルを選択し、そこにアイテムを貼り付けます。これは右クリックしてドロップダウンメニューから**Paste**を選択するか、**`Ctrl`** + **`V`** のショートカットを使用して行うこともできます。
+
+![Nodes Color Settings](/images/working-with-nodes/static/NodesColorSettings-1.png)
+
+色分けは、**Node Type**、**Category**、および**Tag**に基づいています。
+
+新しいカスタム**カラーテーマ**を作成するには、<img alt="Plus Button" src="/images/working-with-nodes/static/plus-1.png" width={23} height={22} loading="lazy" />ボタンを押して、異なる*16 進数カラー*値を各 Type、Category、および Tag に割り当てます。
+
+**Type**の色設定は**Category**の色設定よりも優先され、**Category**の色設定は**Tag**の色設定よりも優先されます。ノードの色が割り当てられる際に、これらのグループのいずれにも色が設定されていない場合、ノードの色はグレーのままです。
+
+![Nodes Color Settings](/images/working-with-nodes/static/NodesColorSettings2-1.png)
+
+ノードのカラースキームを切り替えるには、**Color Theme**のドロップダウンリストでプロファイルを選択してください。
+
+![Nodes Color Settings](/images/working-with-nodes/static/NodesColorSettings3.png)
+
+選択された**カラーテーマ**は<img alt="X Button" src="/images/working-with-nodes/static/X-1.png" width={23} height={22} loading="lazy" />ボタンを押して削除することができます。
+
+## ノードの検索
+
+プロジェクトに追加された特定のノードを検索するには、虫眼鏡<img alt="Search Button" src="/images/working-with-nodes/static/search-icon.png" width={25} height={25} loading="lazy" />ボタン（**Node Graph**ウィジェットの左上隅にあります）をクリックしてください。または **`Ctrl`** + **`F`** を押し、開いた検索フィールドにノード名の一部を入力してください。一致するノードがリストに表示されます。リスト内のノード名をクリックしてノードグラフで選択します。
+
+<img alt="Searching the Nodes" src="/images/working-with-nodes/animation/Searching-the-Nodes1.gif" width={800} height={476} loading="lazy" />
+
+もし検索条件に一致するノードが複数ある場合、**`F3`** を押すと、選択が結果リストの次のノードに切り替わります。
+
+<img alt="Searching the Nodes" src="/images/working-with-nodes/animation/Searching-the-Nodes2.gif" width={800} height={476} loading="lazy" />
+
+## ツールチップを使用してノードパラメータを監視する
+
+ノードパラメータ名（またはピン）の上にマウスを移動すると、リンクに流れるデータを含むパラメータのプロパティが表示される情報ツールチップが開きます（表示可能な場合）。この機能は、デバッグ中に特に便利であり、ノードの**Settings**パネルを参照する必要なく、関連する情報に素早くアクセスできます。
+
+<img alt="Using Tooltips" src="/images/working-with-nodes/animation/Tooltip.gif" width={800} height={460} loading="lazy" />

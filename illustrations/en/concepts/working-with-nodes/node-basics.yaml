@@ -1,0 +1,78 @@
+schema_version: 1
+document: knowledge/en/concepts/working-with-nodes/node-basics.md
+document_id: guide.working-with-nodes.node-basics
+language: en
+document_body_sha256: 3733067867e0d7acb515738b9054d6d150ad1ac76e6a25871a3bba3395105f76
+figures:
+  - id: en-bfd47cdc93-001
+    title: Node Structure2
+    caption: Node Structure2
+    show: "Node Structure2. Use the adjacent instructions as the content brief: Creating a project in Screenberry involves adding nodes, connecting them to form a node graph, and modifying their parameters. The node graph serves as the blueprint for your project, providing a clear visualization of its structure, functional interactions, and data flows. The process of creating a node graph is managed within the Node Graph widget, accessible in the Screenberry Panel under Window > Node Graph. Each"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Node Structure
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Node-Structure2.gif
+    source_alt: Node Structure2
+    text_coverage: not-independently-verified
+  - id: en-bfd47cdc93-002
+    title: Example
+    caption: Example
+    show: "Example. Use the adjacent instructions as the content brief: The node graph is built by adding and linking nodes. Data flows from left to right through links between the right-side output pins and left-side input pins of the nodes. This structured flow creates a clear, unidirectional data pathway, visually representing the processes that result in the rendered video, images, and audio. Example of a Screenberry node graph"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Node Graph Structure and Data Flow
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Example.gif
+    source_alt: Example
+    text_coverage: not-independently-verified
+  - id: en-bfd47cdc93-003
+    title: Execution Order
+    caption: Execution Order
+    show: "Execution Order. Use the adjacent instructions as the content brief: Example of a Screenberry node graph The operational order of nodes is dynamically adjusted to reflect any changes you make to the node graph’s layout. To determine the processing sequence of a particular node, refer to the execution order number displayed on its header. The node graph provides a visual representation of data flow within your project. Various data types can be transmitted, ranging from numerical value"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: Node Graph Structure and Data Flow
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Execution-Order.gif
+    source_alt: Execution Order
+    text_coverage: not-independently-verified
+  - id: en-bfd47cdc93-004
+    title: Links
+    caption: Links
+    show: "Links. Use the adjacent instructions as the content brief: The node graph provides a visual representation of data flow within your project. Various data types can be transmitted, ranging from numerical values and text strings to images, audio, specific messages, timecodes, and actions. Connections between nodes are typically displayed as gray lines, though selecting a node will highlight its connections in green. When data is transferred between nodes, the connecting link b"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: Node Graph Structure and Data Flow
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Links.gif
+    source_alt: Links
+    text_coverage: not-independently-verified
+  - id: en-bfd47cdc93-005
+    title: Disable Node
+    caption: Disable Node
+    show: "Disable Node. Use the adjacent instructions as the content brief: To modify a node's status, right-click on the node and select or deselect the Enabled checkbox in the dropdown menu. Alternatively, you can select the node and adjust the Enabled option within the node’s Settings. When the node is disabled, its background shifts to a lighter shade, and it is marked with crossed diagonal lines. The status of a node is displayed by a colored bar on the right side of its header, indicat"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: Node Status
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Disable-Node.gif
+    source_alt: Disable Node
+    text_coverage: not-independently-verified
+  - id: en-bfd47cdc93-006
+    title: Node Status
+    caption: Node Status
+    show: "Node Status. Use the adjacent instructions as the content brief: The status of a node is displayed by a colored bar on the right side of its header, indicating one of three states: Enabled and Active (Green) Disabled (Gray). Enabled but not Active (Red)."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: Node Status
+    source_url: https://help.screenberry.com/images/working-with-nodes/static/Node-Status.gif
+    source_alt: Node Status
+    text_coverage: not-independently-verified

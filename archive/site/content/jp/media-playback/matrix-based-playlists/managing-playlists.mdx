@@ -1,0 +1,57 @@
+---
+title: Screenberryのマトリックス型プレイリスト - 作成、編集および設定方法
+description: Screenberryでマトリックス型プレイリストを作成し、名前の変更や編集を行う方法について説明します。
+openGraph:
+  title: Screenberryのマトリックス型プレイリスト - 作成および管理方法
+  description: Screenberryでマトリックス型プレイリストを作成し、名前の変更や編集を行う方法について説明します。
+---
+
+# マトリックス型プレイリストの管理
+
+## プレイリストの作成
+
+新しいマトリックス型プレイリストを作成するには、**ナビゲーションパネル**内の空白の領域で右クリックするか、その下部ツールバーの**Add** <img alt="Add" src="/images/media-playback/static/add.png" width={23} height={23} loading="lazy" /> ボタンをクリックし、ドロップダウンメニューから**Add Matrix Playlist**を選択します。
+
+既存のフォルダ内にプレイリストを作成するには、フォルダを右クリックするか、選択して**Add**をクリックし、**Add Matrix Playlist**を選択します。フォルダの内容の表示/非表示を切り替えるには、そのフォルダの隣にある矢印アイコンをクリックします。
+
+作成されたマトリックス型プレイリストは、**Matrix1**、**Matrix2**などと順番に名前が付けられます。
+
+<img alt="Creating Playlists Matrix" src="/images/media-playback/animation/Creating-Playlists-Matrix.gif" width={800} height={336} loading="lazy" />
+
+## プレイリスト名の変更
+
+プレイリストの名前を変更するには、その名前を右クリックし、ドロップダウンメニューから**Rename**を選択し、表示されるダイアログボックスに新しい名前を入力してください。
+
+<img alt="Renaming Playlists Matrix" src="/images/media-playback/animation/Renaming-Playlists-Matrix.gif" width={800} height={336} loading="lazy" />
+
+## プレイリストの削除
+
+プレイリストを削除するには、その名前を右クリックし、ドロップダウンメニューから**Delete**を選択するか、プレイリストを選択し、**ナビゲーションパネル**の下部ツールバーにある**Delete** <img alt="Trash" src="/images/media-playback/static/trash.png" width={16} height={16} loading="lazy" /> ボタンを押してください。
+
+<img alt="Deleting Playlists Matrix" src="/images/media-playback/animation/Deleting-Playlists-Matrix.gif" width={800} height={336} loading="lazy" />
+
+## マトリックス型プレイリストの整理
+
+**ナビゲーションパネル**で、プレイリスト、タイムライン、フォルダのリストを移動するには、**`Up`** と **`Down`** の矢印キーを使用します。矢印アイコンをクリックしてフォルダを展開または折りたたむこともできます。
+
+ナビゲーションパネル内でプレイリストまたはタイムラインの順序を変更するには、移動したいプレイリストまたはタイムラインの名前を右クリックし、ドロップダウンメニューから**Move Up**（**`Ctrl`** + **`Up`**）または**Move Down**（**`Ctrl`** + **`Down`**）を選択するか、リスト内の新しい位置にドラッグします。プレイリストをフォルダに配置するには、そのフォルダの名前の上にドラッグするか、現在のフォルダ内にドラッグします。
+
+<img alt="Arranging Playlists" src="/images/media-playback/animation/Arranging-Playlists.gif" width={800} height={372} loading="lazy" />
+
+## プレイリストの設定と状態表示
+
+プレイリスト名の横には、設定のためのトグルボタンがあり、現在のプレイリストの状態を表示しています：
+
+<img alt="Indication Playlists" src="/images/media-playback/animation/Indication-Playlists.gif" width={464} height={76} loading="lazy" />
+
+1. **Locking**： プレイリストをロックすることで、意図しない変更を防ぎます。ロックされたプレイリストは編集できず、ロック解除することで再び編集できるようになります。
+2. **Playback Control with Presentation Clicker**： プレゼンテーションクリッカーを使用したプレイリストの制御を有効化または無効化します。詳細については、[プレゼンテーションクリッカーによるプレイリスト再生制御](../playlists/playlists-playback#プレゼンテーションクリッカーでの再生制御)の章を参照してください。
+3. **Event Mapping**： プレイリスト内のメディアアイテムは、MIDI/キーボード入力などのさまざまなイベントを通じて再生を開始することができます。このトグルボタンを使用して、プレイリストがそのようなイベントを監視するかどうかを切り替えることができます。詳細については、[メディアアイテムをイベントにマッピングする](../playlists/media-item-properties#メディアアイテムをmidiキーボードイベントにマッピングする) の章を参照してください。
+4. **Listening to the Timecode**： このトグルボタンを使用して、プレイリストがタイムコードを受信するか無視するかを設定します。
+5. **Number of Media Items**： プレイリスト内の現在のメディアアイテムの数を表示します。
+
+### 再生状態の表示
+
+<img alt="Indication Playback" src="/images/media-playback/animation/Indication-Playback.gif" width={464} height={76} loading="lazy" />
+
+プレイリスト名の横には、現在の状態（再生中、一時停止、停止）を表示するアイコンが表示されています。プレイリストが折りたたまれたフォルダ内にある場合、これらのアイコンはフォルダアイコンの代わりに表示されます。

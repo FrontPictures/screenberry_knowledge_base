@@ -1,0 +1,129 @@
+---
+id: guide.3d-scene.projection-mapper
+variant_id: guide.3d-scene.projection-mapper.imported-current-guide
+title: Screenberry 3Dシーンにおけるプロジェクションマッピング
+language: ja
+kind: how-to
+status: in_review
+owner: unassigned
+applies_to:
+  from: null
+  until_exclusive: null
+verified_in: []
+last_verified: null
+evidence:
+  - type: existing-guide
+    path: archive/site/content/jp/3d-scene/projection-mapper.mdx
+    sha256: 167e813df9e635f2c1f55205e4dfb717d49493ac4d8e39c0347797469de87983
+    scope: Imported text; not independent product verification
+aliases: []
+related: []
+publication:
+  profile: legacy-guide-3.4
+  product_version: "3.4"
+  basis: Snapshot of existing current guide; applicability not independently verified
+  role: guide
+source:
+  path: content/jp/3d-scene/projection-mapper.mdx
+  canonical_url: https://help.screenberry.com/jp/3d-scene/projection-mapper
+  git_commit: 8acf5a3a7526c3013fc44f1dba0b25f88343e745
+  sha256: 167e813df9e635f2c1f55205e4dfb717d49493ac4d8e39c0347797469de87983
+  imported_at: 2026-09-30T14:15:19.585Z
+  frontmatter:
+    title: Screenberry 3Dシーンにおけるプロジェクションマッピング
+    description: Screenberryのプロジェクションマッパーを使用して、3Dオブジェクトにテクスチャを正確に投影し、実際のプロジェクターセットアップをシミュレートする方法を学びます。
+    openGraph:
+      title: Screenberry 3Dシーンにおけるプロジェクションマッピング
+      description: Screenberryのプロジェクションマッパーを使用して、3Dオブジェクトにテクスチャを正確に投影し、実際のプロジェクターセットアップをシミュレートする方法を学びます。
+translation:
+  source_language: en
+  source_id: guide.3d-scene.projection-mapper
+  source_revision: null
+  status: alignment-unverified
+  counterpart: ../../../en/how-to/3d-scene/projection-mapper.md
+presentation:
+  mode: text-only
+  illustrations: illustrations/jp/how-to/3d-scene/projection-mapper.yaml
+  visual_information_review: not-independently-verified
+---
+
+## プロジェクションマッパー
+
+**プロジェクションマッパー** は仮想プロジェクターとして機能し、3D オブジェクトにテクスチャを投影する（プロジェクションマッピング）ために使用され、実際のプロジェクターの特性に近い性質を持っています。3D シーン内の仮想プロジェクターの位置が実際のプロジェクターの位置と一致するシナリオでよく使用され、正確なマップの再投影とオブジェクト表面でのシームレスなブレンドを確保します。
+
+**プロジェクションマッパー** は **3D Camera** ノードと類似したパラメータを共有しており、カメラとしても機能してプロジェクターの視点をシミュレートし、セットアップとテストを支援します。
+
+**プロジェクションマッパー** を追加するには、以下の手順に従ってください：
+
+1. **Node Graph** ウィジェットに移動します。
+2. ノードグラフに **Projection Mapper** ノードを追加します。
+3. **Projection Mapper** ノードの **Projection Mapper** 出力パラメータを **3D Scene** ノードの **Projection Mapper** 入力パラメータに接続します。
+4. 映像ソースノード（3D 環境で投影される画像を送信）を **Projection Mapper** ノードの **Source Image** 入力パラメータに接続します。
+5. **3D Scene** ウィジェットに切り替えて、3D シーンツールを使用するか、**Projection Mapper** の設定で直接プロジェクターの位置と向きをさらに調整します。
+
+**Projection Mapper** の設定には以下が含まれます：
+
+##### 一般設定
+
+- **Image Size**：投影画像の幅（**W**）と高さ（**H**）の寸法を設定します。
+- **Bits per Channel**：投影画像の色深度を決定します。オプションには **8 ビット** と **32 ビット（浮動小数点）** があります。
+- **Type**：投影タイプを選択します：
+  - **Perspective**：距離に応じて要素のサイズが小さくなる奥行き効果のある映像を投影します。
+  - **Orthogonal**：均一なスケーリングで映像を投影し、物体の距離に関係なく真の寸法を維持します。
+  - **Fisheye**：広角の半球状の視野で映像を投影し、パノラマ的な視点を提供します。
+  - **Spherical (Lat/Long)**：360 度のパノラマ映像を投影します。
+- **View Mode**：プロジェクターをカメラとして使用する場合、シーンの表示方法を選択します。
+  - **Textured**：オブジェクトにすべてのテクスチャを適用してシーンを表示します。
+  - **Wireframe**：オブジェクトのジオメトリを線のメッシュとして表示し、すべてのポリゴンのエッジを表現します。
+  - **Textured + Wireframe**：テクスチャとワイヤーフレームのビューを組み合わせ、テクスチャが適用されたオブジェクトの上にワイヤーフレームメッシュを重ねて表示します。
+  - **Color**：オブジェクトを単色で表示します。色は個々のオブジェクトの設定で指定できます。
+  - **Color + Wireframe**：オブジェクトを単色で表示し、その上にワイヤーフレームメッシュを重ねて表示します。
+  - **Points**：オブジェクトのジオメトリの頂点（ポイント）のみを表示します。
+  - **None (Projections Only)**：プロジェクションのみを表示します。
+- **Test Pattern**：投影する特定のパターンを選択できます。オプションには **None**、**Name**、**Digits**、**Grid**、**Color Bars**、**Gradient**、**Black**、**White** および **Color** があります。**None** を選択すると、ソース映像が投影されます。
+- **Test Pattern Color**：**カラー** テストパターンが選択された場合に表示される色を選択します。
+- **Shadows**：3D 環境でプロジェクションによって生成される影のレンダリングを切り替えます。
+- **Source Image**：投影されるソース画像に関する情報を提供します。
+- **Show Projections**：プロジェクションの可視性を切り替えます。
+- **Image Interpolation**：投影される画像の補間方法を決定します。
+  - **Linear**：周囲のピクセルの色をブレンドして滑らかな遷移を生成します。
+  - **Nearest-neighbor**：ブレンドを行わず最も近いピクセルの色を選択し、シャープなエッジを保持します。
+- **Transform Matrix**：3D 空間内のプロジェクターの位置、回転、スケールを表す変換行列を表示します。
+- **Transform Order**：プロジェクターに適用される変換（スケール、回転、移動）の順序を指定します。
+- **Scale**：**X**、**Y**、**Z** 軸に沿って投影エリアのスケールを設定します。
+- **Rotation Order**：軸周りの回転が適用される順序を示します。例えば、**Y**（ヘッディング）、**X**（ピッチ）、**Z**（バンク）などです。
+- **Rotation**：**X**、**Y**、**Z** 軸周りの回転角度を設定して、3D 空間内でプロジェクターの向きを決定します。
+- **Position**：X、Y、Z 軸に沿った 3D 空間内のプロジェクターの位置を定義します。
+- **Perspective Angle Mode**：プロジェクターの視点を定義するために使用される方法を指定します。
+  - **Throw Ratio**：プロジェクターから投影面までの距離と投影される映像の幅との関係を定義します。
+  - **Horizontal FOV** (Field of View)：プロジェクターから見た投影エリアの幅を指定し、表示される映像の幅を示します。
+  - **Vertical FOV** (Field of View)：プロジェクターから見た投影エリアの高さを指定し、表示される映像の高さを示します。
+- **Throw Ratio**：プロジェクターと投影面との距離に対する投影映像のサイズを調整します。
+- **Horizontal FOV**：プロジェクターの水平視野角を調整し、投影映像の幅に影響を与えます。
+- **Vertical FOV**：プロジェクターの垂直視野角を調整し、投影映像の高さに影響を与えます。
+- **Horizontal Shift**：プロジェクター自体を動かさずに、投影映像を水平方向にシフトします。
+- **Vertical Shift**：プロジェクター自体を動かさずに、投影映像を垂直方向にシフトします。
+- **Ortho Width**：正投影タイプを使用する際の投影幅を調整します。
+- **Render Behind Camera**：通常のプロジェクターの背後にある物体の表面にテクスチャ投影をレンダリングすることを可能にします。
+- **Fixed Lens Shifts for Pose Estimation**：プロジェクターのレンズシフト値が既知の場合、それをロックすることができ、この特定のパラメータを変更せずに他のポーズ推定パラメータの計算が可能になります。
+- **Fixed Throw Ratio for Pose Estimation**：プロジェクターのスローレシオ値が提供されている場合、それを固定することができ、この特定のパラメータを変更せずに他のポーズ推定パラメータの計算が可能になります。
+- **Fixed Position for Pose Estimation**：プロジェクターの既知の位置値がある場合、それをロックすることができ、この特定のパラメータを変更せずに他のポーズ推定パラメータの計算が可能になります。
+- **Depth Test**：3D 空間内のオブジェクトの相対的な位置を考慮し、シーン内のオブジェクトの遮蔽を考慮することで、テクスチャの正確な投影を確保します。
+- **Back-face Culling**：有効にすると、この設定は投影ビューで 3D オブジェクトの裏側のレンダリングを防ぎ、見えない表面にテクスチャを投影しないことでパフォーマンスを最適化できます。
+- **Frustum Distance**：プロジェクターと最遠および最近のクリッピング平面との間の距離を定義します。この距離は、3D シーンで投影が表示される境界を設定し、この定義された範囲内のオブジェクトのみがマッピングされるようにします。
+- **Show Frustum Center**：投影視錐台の中心にある参照点の可視性を切り替えます。
+- **Near Distance**：プロジェクターから近クリッピング平面までの距離を設定します。この距離を超えると投影テクスチャのレンダリングが始まります。
+- **Antialiasing**：投影テクスチャのジャギーエッジを滑らかにする機能を有効にします。
+- **Preview Mode**：パフォーマンス向上のために詳細レベルを減らしたレンダリングモードに切り替えます。
+- **Camera Gizmo Size**：3D ビューポート内のプロジェクターオブジェクトのサイズを調整します。
+
+##### Simulation
+
+- **Gamma**：ガンマレベルを調整し、投影画像の輝度とコントラストを強調または柔らかくします。
+- **Simulate Black Intensity**：投影における黒色の強度をシミュレートする機能を切り替えます。
+- **Black Intensity**：投影における黒色の深さを調整します。
+- **Black Intensity Offset**：黒色強度のベースラインレベルを修正します。
+
+##### Navigation
+
+- **Keyboard Fly Speed** and **Keyboard Orbit and Zoom Speed**：キーボードナビゲーション時のプロジェクターの移動速度を設定します。

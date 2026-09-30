@@ -1,0 +1,126 @@
+schema_version: 1
+document: knowledge/jp/releases/whats-new/release-notes-2-7-0.md
+document_id: guide.whats-new.release-notes-2-7-0
+language: ja
+document_body_sha256: f27a9da1cfabad59d4f98e410ad8694aab72b4a8e8ff926803bb44203f240e77
+figures:
+  - id: ja-2b78f10ae3-001
+    title: Graphit2
+    caption: Graphit2
+    show: "Graphit2. Use the adjacent instructions as the content brief: New look and feel The look and feel of the Screenberry Panel graphical user interface has been redesigned and a new Dark Graphite theme has been implemented. These design changes, combined with numerous UX improvements, have simplified the user interface and increased its contrast, clarity, and legibility, allowing users to focus more on their tasks."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: "Major Features:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/graphit2.gif
+    source_alt: Graphit2
+    text_coverage: not-independently-verified
+  - id: ja-2b78f10ae3-002
+    title: Panels
+    caption: Panels
+    show: "Panels. Use the adjacent instructions as the content brief: Project workflow and workspace organization reimagined Screenberry’s conceptual approach to workflow has been changed to provide a better user experience. Now, you can fully customize your workflow by arranging workspaces and widgets into a layout that best suits your current tasks and work style. The improvements include:"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: "Major Features:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/panels.gif
+    source_alt: Panels
+    text_coverage: not-independently-verified
+  - id: ja-2b78f10ae3-003
+    title: Patchesdisplays
+    caption: Patchesdisplays
+    show: "Patchesdisplays. Use the adjacent instructions as the content brief: The Display and Patch Editors have merged together The Display Editor and the Patch Editor have been merged into a single widget, allowing users the convenience of editing both displays and patches in one place. Now, a dedicated (stand-alone) editor is available for any created instance of the RenderTarget in addition to the Canvas."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: "Features:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/patchesdisplays.gif
+    source_alt: Patchesdisplays
+    text_coverage: not-independently-verified
+  - id: ja-2b78f10ae3-004
+    title: Displays
+    caption: Displays
+    show: "Displays. Use the adjacent instructions as the content brief: Editing displays has become easier Now, users can drag displays to change their position, duplicate displays by copy-pasting, and arrange their stack order directly in the visual part of the editor. 3D nodes list and Settings have been integrated into the Scene Editor widget"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: "Features:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/displays.gif
+    source_alt: Displays
+    text_coverage: not-independently-verified
+  - id: ja-2b78f10ae3-005
+    title: Scene
+    caption: Scene
+    show: "Scene. Use the adjacent instructions as the content brief: 3D nodes list and Settings have been integrated into the Scene Editor widget The list of 3D nodes and the Settings panel are now integrated into the Scene Editor widget allowing easy access and editing of all the elements comprising the 3D scene in one place. Channel/background selection for video output in the VideoPreview and SceneEditor widgets"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 26
+      section: "Features:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/scene.jpg
+    source_alt: Scene
+    text_coverage: not-independently-verified
+  - id: ja-2b78f10ae3-006
+    title: Channelsbg
+    caption: Channelsbg
+    show: "Channelsbg. Use the adjacent instructions as the content brief: Channel/background selection for video output in the VideoPreview and SceneEditor widgets RGBA channels and background type (Checker, Gradient, Black) have been added to the VideoPreview and SceneEditor widgets. Displaying units in the input fields"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 28
+      section: "Features:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/channelsbg.gif
+    source_alt: Channelsbg
+    text_coverage: not-independently-verified
+  - id: ja-2b78f10ae3-007
+    title: Units
+    caption: Units
+    show: "Units. Use the adjacent instructions as the content brief: Displaying units in the input fields The units are now displayed directly in the input fields of the Settings panel to improve usability. Improved search in the Add Node dialog"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 30
+      section: "Features:"
+    source_url: https://help.screenberry.com/images/whats-new/static/units.jpg
+    source_alt: Units
+    text_coverage: not-independently-verified
+  - id: ja-2b78f10ae3-008
+    title: Search
+    caption: Search
+    show: "Search. Use the adjacent instructions as the content brief: Improved search in the Add Node dialog The search engine in the Add Node dialog has been improved. Now, when a user enters a string in the search box, a list of suggestions is generated based on the intelligent sorting algorithm that contains matches by the node name and/or node tag. Parameter types renamed"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 32
+      section: "Features:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/search.gif
+    source_alt: Search
+    text_coverage: not-independently-verified
+  - id: ja-2b78f10ae3-009
+    title: Trimesh
+    caption: Trimesh
+    show: "Trimesh. Use the adjacent instructions as the content brief: Improved algorithm of a triangular mesh generation A new and improved algorithm for triangular mesh generation from selected control points has been implemented for the TriangleMesh patch, which makes the mapping onto complex polygonal objects easier and more intuitive. Color indication of different log types"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 39
+      section: "Features:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/trimesh.gif
+    source_alt: Trimesh
+    text_coverage: not-independently-verified
+  - id: ja-2b78f10ae3-010
+    title: Patcheslayout
+    caption: Patcheslayout
+    show: "Patcheslayout. Use the adjacent instructions as the content brief: Patch Editor interface controls Further control over the user interface in the Patch Editor has been provided. Now users can switch between horizontal and vertical layouts of the Patch Editor, show/hide Geometry and UV Layout Areas. Zoom and pan navigation in the Node Graph using shortcuts"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 43
+      section: "Features:"
+    source_url: https://help.screenberry.com/images/whats-new/animation/patcheslayout.gif
+    source_alt: Patcheslayout
+    text_coverage: not-independently-verified

@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/jp/how-to/automatic-calibration/setting-up-projectors.md
+document_id: guide.automatic-calibration.setting-up-projectors
+language: ja
+document_body_sha256: 7ba336f4b6ef40343e4c51ff0f7454c330723973e9218770dbb6f58d2c5a32ab
+figures:
+  - id: ja-c72de05250-001
+    title: Projections Overlapping
+    caption: Projections Overlapping
+    show: "Projections Overlapping. Use the adjacent instructions as the content brief: 以下の手順に従って、プロジェクターを正しく設置します： プロジェクターのランプ寿命がほぼ同程度であることを確認します。必要な場合はランプを交換します。レーザー光源を持つプロジェクターの場合は、同じ明るさのモードを選択します。プロジェクターが確実に固定され、キャリブレーション作業中に動かないことを確認します。映像信号ケーブルで各プロジェクターをScreenberry Serverのビデオカードの出力に接続します。すべてのプロジェクターの電源を入れます。プロジェクターのメニューを使用して、テストパターンを表示し、投影される映像が目標の投影エリア（スクリーン）全体をカバーし、十分に重なっていることを確認します。推奨される重なり領域は、隣接する映像の両側に5〜15％の重なりがある状態です。必要に応じて、プロジェクターのズーム、レンズシフト、フォーカス、および位置を調整します。* プロジェクター４台でドームスクリーンを覆う設置の例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: プロジェクターの設置
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/projections-overlapping.png
+    source_alt: Projections Overlapping
+    text_coverage: not-independently-verified

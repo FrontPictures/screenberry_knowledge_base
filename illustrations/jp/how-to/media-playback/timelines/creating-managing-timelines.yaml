@@ -1,0 +1,102 @@
+schema_version: 1
+document: knowledge/jp/how-to/media-playback/timelines/creating-managing-timelines.md
+document_id: guide.media-playback.timelines.creating-managing-timelines
+language: ja
+document_body_sha256: 807a6cde382ad754ff0e707b5ae577cc6459907a8385c895c13ea332146f5498
+figures:
+  - id: ja-f55e2a5fb4-001
+    title: Adding Timelines
+    caption: Adding Timelines
+    show: "Adding Timelines. Use the adjacent instructions as the content brief: 新しいタイムラインを作成するには、Playlist and Timeline Listパネルの空白の領域を右クリックするか、下部のツールバーのAddボタンをクリックして、ドロップダウンメニューからAdd Timelineを選択します。 既存のフォルダ内にタイムラインを作成するには、フォルダを右クリックするか、選択して下部のツールバーのAddボタンをクリックし、ドロップダウンメニューからAdd Timelineを選択します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: タイムラインの追加
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Timelines.gif
+    source_alt: Adding Timelines
+    text_coverage: not-independently-verified
+  - id: ja-f55e2a5fb4-002
+    title: Adding Timelines 2
+    caption: Adding Timelines 2
+    show: "Adding Timelines 2. Use the adjacent instructions as the content brief: 既存のフォルダ内にタイムラインを作成するには、フォルダを右クリックするか、選択して下部のツールバーのAddボタンをクリックし、ドロップダウンメニューからAdd Timelineを選択します。 フォルダの内容を表示または非表示にするには、フォルダアイコンの隣にある矢印アイコンをクリックしてください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: タイムラインの追加
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Timelines-2.gif
+    source_alt: Adding Timelines 2
+    text_coverage: not-independently-verified
+  - id: ja-f55e2a5fb4-003
+    title: Renaming Timelines
+    caption: Renaming Timelines
+    show: "Renaming Timelines. Use the adjacent instructions as the content brief: タイムラインを作成する際には、識別しやすいように具体的な名前を付けると便利です。タイムラインの名前を変更するには、名前を右クリックし、ドロップダウンメニューからRenameを選択し、表示されたダイアログボックスに新しい名前を入力してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: タイムライン名の変更
+    source_url: https://help.screenberry.com/images/media-playback/animation/Renaming-Timelines.gif
+    source_alt: Renaming Timelines
+    text_coverage: not-independently-verified
+  - id: ja-f55e2a5fb4-004
+    title: Deleting Timelines
+    caption: Deleting Timelines
+    show: "Deleting Timelines. Use the adjacent instructions as the content brief: タイムラインを削除するには、タイムラインの名前を右クリックしてドロップダウンメニューからDeleteを選択するか、選択してからPlaylist and Timeline Listパネルの下部ツールバーのDeleteボタンをクリックします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: タイムラインの削除
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Timelines.gif
+    source_alt: Deleting Timelines
+    text_coverage: not-independently-verified
+  - id: ja-f55e2a5fb4-005
+    title: Arranging Timelines
+    caption: Arranging Timelines
+    show: "Arranging Timelines. Use the adjacent instructions as the content brief: Playlist and Timeline Listパネルで、上 と 下 の矢印キーで選択するか、マウスで直接クリックすることでタイムラインを選択することができます。フォルダの内容を展開または折りたたむには、フォルダ名の横にある矢印アイコンをクリックしてください。 プレイリスト、タイムライン、またはフォルダの順序を変更するには、名前を右クリックし、ドロップダウンメニューからMove Up（Ctrl + 上）またはMove Down（Ctrl + 下）を選択するか、リスト内でドラッグアンドドロップします。タイムラインをフォルダに移動するには、そのフォルダの名前の上またはフォルダの中にドラッグします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: タイムラインの整理
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Timelines.gif
+    source_alt: Arranging Timelines
+    text_coverage: not-independently-verified
+  - id: ja-f55e2a5fb4-006
+    title: Indication Timelines
+    caption: Indication Timelines
+    show: "Indication Timelines. Use the adjacent instructions as the content brief: タイムライン設定のトグルボタンは、Playlist and Timeline Listパネルのタイムライン名の横にあります。これらのトグルボタンは、現在のタイムラインの状態も示しています。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: タイムラインの設定と状態表示
+    source_url: https://help.screenberry.com/images/media-playback/animation/Indication-Timelines.gif
+    source_alt: Indication Timelines
+    text_coverage: not-independently-verified
+  - id: ja-f55e2a5fb4-007
+    title: Indication Timelines Playback
+    caption: Indication Timelines Playback
+    show: "Indication Timelines Playback. Use the adjacent instructions as the content brief: ロック： タイムラインの誤操作を防ぐために、ロックすることができます。ロックされたタイムラインは編集できず、ロック解除することで再び編集できるようになります。タイムコードの送信： このトグルボタンのオン/オフによって、タイムラインがタイムコードを送信するかどうかを切り替えます。イベントマッピング： タイムライン内のメディアアイテムは、MIDI/キーボードイベントなどの異なるイベントにマッピングされ、再生をトリガーとすることができます。このトグルボタンにより、これらのイベントを受信または無視するよう切り替えることができます。詳細については、メディアアイテムのイベントへのマッピングの章を参照してください。タイムコードの受信： このトグルボタンのオン/オフによって、タイムコードを受信または無視するよう切り替えることができます。メディアアイテムの数： タイムラインに追加されたメディアアイテムの現在の数が表示されます。 タイムライン名の隣"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: 再生状態の表示
+    source_url: https://help.screenberry.com/images/media-playback/animation/Indication-Timelines-Playback.gif
+    source_alt: Indication Timelines Playback
+    text_coverage: not-independently-verified
+  - id: ja-f55e2a5fb4-008
+    title: Frame Rate
+    caption: Frame Rate
+    show: "Frame Rate. Use the adjacent instructions as the content brief: タイムラインのフレームレートを変更するには、タイムライン名を右クリックし、ドロップダウンメニューからPreferencesを選択するか、タイムラインのサイドツールバーの歯車アイコンをクリックします。次に、開いたTimeline Preferencesダイアログボックスで、Timeline FPSドロップダウンリストから希望するフレームレート値を選択してください。 メモ： 上記のトグルボタンは、タイムラインの名前を右クリックし、ドロップダウンメニューからPreferencesを選択してアクセスできるタイムラインの設定で調整することもできます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: フレームレート （FPS）
+    source_url: https://help.screenberry.com/images/media-playback/animation/Frame-Rate.gif
+    source_alt: Frame Rate
+    text_coverage: not-independently-verified

@@ -1,0 +1,90 @@
+schema_version: 1
+document: knowledge/en/how-to/media-playback/playlists/creating-managing-playlists.md
+document_id: guide.media-playback.playlists.creating-managing-playlists
+language: en
+document_body_sha256: 928f68c5fdab2af84749217ee6dc95d821f35c950addf87e4b067f4342a8c448
+figures:
+  - id: en-d13bbbb15a-001
+    title: Adding Playlists
+    caption: Adding Playlists
+    show: "Adding Playlists. Use the adjacent instructions as the content brief: To create a new playlist, either right-click an empty area of the Navigation Pane or click the Add button on the bottom toolbar and select Add Playlist from the dropdown menu. To add a new playlist to an existing folder, select the folder and click the Add button on the bottom toolbar, or right-click the folder name and select Add Playlist from the dropdown menu."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Adding Playlists
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Playlists.gif
+    source_alt: Adding Playlists
+    text_coverage: not-independently-verified
+  - id: en-d13bbbb15a-002
+    title: Adding Playlists2
+    caption: Adding Playlists2
+    show: "Adding Playlists2. Use the adjacent instructions as the content brief: To add a new playlist to an existing folder, select the folder and click the Add button on the bottom toolbar, or right-click the folder name and select Add Playlist from the dropdown menu. To show/hide a folder’s contents, press the arrow icons next to the folder icon."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Adding Playlists
+    source_url: https://help.screenberry.com/images/media-playback/animation/Adding-Playlists2.gif
+    source_alt: Adding Playlists2
+    text_coverage: not-independently-verified
+  - id: en-d13bbbb15a-003
+    title: Renaming Playlists
+    caption: Renaming Playlists
+    show: "Renaming Playlists. Use the adjacent instructions as the content brief: When you create playlists, it’s helpful to name them descriptively so they can be identified easily. To rename it, right-click on a playlist, select Rename from the dropdown menu, and enter a new name in the opened dialog box."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: Renaming Playlists
+    source_url: https://help.screenberry.com/images/media-playback/animation/Renaming-Playlists.gif
+    source_alt: Renaming Playlists
+    text_coverage: not-independently-verified
+  - id: en-d13bbbb15a-004
+    title: Deleting Playlists
+    caption: Deleting Playlists
+    show: "Deleting Playlists. Use the adjacent instructions as the content brief: To delete a playlist, either right-click on its name, and select Delete from the dropdown menu, or select its name and click the Delete button in the bottom toolbar of the Navigation Pane."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: Deleting Playlists
+    source_url: https://help.screenberry.com/images/media-playback/animation/Deleting-Playlists.gif
+    source_alt: Deleting Playlists
+    text_coverage: not-independently-verified
+  - id: en-d13bbbb15a-005
+    title: Arranging Playlists
+    caption: Arranging Playlists
+    show: "Arranging Playlists. Use the adjacent instructions as the content brief: To navigate the playlists and timelines list, use the Up and Down arrow keys. To expand or collapse the contents of a folder, click on the arrow icon next to the folder icon. To change the order of playlists, timelines, and folders, either right-click on the name and select Move Up (Ctrl + Up) or Move Down (Ctrl + Down) from the dropdown menu, or drag and drop them into the list. A playlist can be moved into a folder"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Arranging Playlists
+    source_url: https://help.screenberry.com/images/media-playback/animation/Arranging-Playlists.gif
+    source_alt: Arranging Playlists
+    text_coverage: not-independently-verified
+  - id: en-d13bbbb15a-006
+    title: Indication Playlists
+    caption: Indication Playlists
+    show: "Indication Playlists. Use the adjacent instructions as the content brief: Locking and Unlocking a playlist to prevent accidental modifications. A locked playlist cannot be further modified, while an unlocked one can be edited.Playback Control with Presentation Clicker. The playback of playlists may be controlled by a presentation clicker. This toggle enables and disables this function. For more information, see Playlist Playback Control with Presentation Clicker.MIDI/Keyboard Events Mappin"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: Playlist Settings and Indication
+    source_url: https://help.screenberry.com/images/media-playback/animation/Indication-Playlists.gif
+    source_alt: Indication Playlists
+    text_coverage: not-independently-verified
+  - id: en-d13bbbb15a-007
+    title: Indication Playback
+    caption: Indication Playback
+    show: "Indication Playback. Use the adjacent instructions as the content brief: When a playlist is currently being played, paused, or stopped, the corresponding indicators appear next to the playlist name. Whenever the currently active playlist is part of a folder, and the contents of the folder have been collapsed, these indicators replace the folder icon."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: Playback Indication
+    source_url: https://help.screenberry.com/images/media-playback/animation/Indication-Playback.gif
+    source_alt: Indication Playback
+    text_coverage: not-independently-verified

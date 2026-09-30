@@ -1,0 +1,66 @@
+schema_version: 1
+document: knowledge/jp/reference/warping-alignment/ledstripesmapper.md
+document_id: guide.warping-alignment.ledstripesmapper
+language: ja
+document_body_sha256: 0bde941559114a7084c873a10a24617b4c484cd6651e8e5d568672aa38d816e1
+figures:
+  - id: ja-4e96cdacee-001
+    title: LedStripesMapper
+    caption: LedStripesMapper
+    show: "LedStripesMapper. Use the adjacent instructions as the content brief: LED Stripes Mapperノードは、映像メディアコンテンツを直線状にリマップするための Patch です。通常、このノードは信号を LED ストライプコントローラに出力するために使用されます。映像を入力として受け取る照明デバイスの制御にも使用することができます。 典型的なセットアップでは、LED Stripes Mapperノードは入力としてソース映像を受け取り、変形された映像をDisplayノードまたはCanvasノードに出力します。 LED Stripes Mapperノードを使用したノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: LED Stripes Mapper
+    source_url: https://help.screenberry.com/images/warping-alignment/static/LedStripesMapper.png
+    source_alt: LedStripesMapper
+    text_coverage: not-independently-verified
+  - id: ja-4e96cdacee-002
+    title: LedStripesMapper Playback
+    caption: LedStripesMapper Playback
+    show: "LedStripesMapper Playback. Use the adjacent instructions as the content brief: 映像メディアコンテンツを直線状にリマップするには、以下の手順を実行してください： Node Graphウィジェットで、Media Player、LED Stripes Mapper、およびCanvas ノードを追加し、それぞれを Ctrl キーを押しながらクリックして接続して、ノードツリーを作成します。Media Player ウィジェットに切り替えて、リマップしたいメディアコンテンツを Media Player のプレイリストに追加し、再生を開始して Patch 作業中に映像を参照できるように準備します。 Patch Editorに切り替え、Patch リストでLED Stripes Mapperを選択します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: LED Stripes Mapper
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/LedStripesMapper-playback.gif
+    source_alt: LedStripesMapper Playback
+    text_coverage: not-independently-verified
+  - id: ja-4e96cdacee-003
+    title: LedStripesMapper Selection
+    caption: LedStripesMapper Selection
+    show: "LedStripesMapper Selection. Use the adjacent instructions as the content brief: Patch Editorに切り替え、Patch リストでLED Stripes Mapperを選択します。 LED Stripes MapperのSettingsパネルで：Source Line Width欄で、ソース映像の幅をピクセル単位で設定してください。Target Image Size、Offset XおよびY、出力のライン幅（Line Width）、間隔（Spacing） の欄にそれぞれ値を入力してください（LED ストライプまたはライティングコントローラーの仕様を参照してこれらの値を設定してください）。Number of Polylines欄に値を入力し、各ポリラインの 分割数（Segments） と 全長（Total Length、ピクセル単位）** を入力してください（例えば、5つに分割されて、各部分が128ピクセルである場合、全長は 5 x 128 = 640 ピクセルとなります）。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: LED Stripes Mapper
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/LedStripesMapper-selection.gif
+    source_alt: LedStripesMapper Selection
+    text_coverage: not-independently-verified
+  - id: ja-4e96cdacee-004
+    title: LedStripesMapper Settings
+    caption: LedStripesMapper Settings
+    show: "LedStripesMapper Settings. Use the adjacent instructions as the content brief: LED Stripes MapperのSettingsパネルで：Source Line Width欄で、ソース映像の幅をピクセル単位で設定してください。Target Image Size、Offset XおよびY、出力のライン幅（Line Width）、間隔（Spacing） の欄にそれぞれ値を入力してください（LED ストライプまたはライティングコントローラーの仕様を参照してこれらの値を設定してください）。Number of Polylines欄に値を入力し、各ポリラインの 分割数（Segments） と 全長（Total Length、ピクセル単位）** を入力してください（例えば、5つに分割されて、各部分が128ピクセルである場合、全長は 5 x 128 = 640 ピクセルとなります）。 Inputパネルで、右クリックしてドロップダウンメニューからShow Live Imageを選択し、その後、制御点をポリラインの端点上"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: LED Stripes Mapper
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/LedStripesMapper-Settings.gif
+    source_alt: LedStripesMapper Settings
+    text_coverage: not-independently-verified
+  - id: ja-4e96cdacee-005
+    title: Lines
+    caption: Lines
+    show: "Lines. Use the adjacent instructions as the content brief: Inputパネルで、右クリックしてドロップダウンメニューからShow Live Imageを選択し、その後、制御点をポリラインの端点上にドラッグしてポリラインを1つずつマッピングしてください。 LED Stripes Mapperによるメディアサーバーからの映像出力の例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: LED Stripes Mapper
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/lines.gif
+    source_alt: Lines
+    text_coverage: not-independently-verified

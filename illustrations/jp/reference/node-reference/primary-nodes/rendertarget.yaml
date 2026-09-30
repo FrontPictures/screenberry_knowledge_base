@@ -1,0 +1,54 @@
+schema_version: 1
+document: knowledge/jp/reference/node-reference/primary-nodes/rendertarget.md
+document_id: guide.node-reference.primary-nodes.rendertarget
+language: ja
+document_body_sha256: 60c6b33342a9b995a6467503df7797d8333a6d204255a6dad054cd8850c6dcc4
+figures:
+  - id: ja-d209ca76be-001
+    title: Render Target node
+    caption: Render Target node
+    show: "Render Target node. Use the adjacent instructions as the content brief: Render Targetノードは、Canvasノードと同じ機能を持っていますが、オフスクリーンの映像レンダリングに使用されます。 Render Targetノードは、映像の歪み補正処理の中間結果を扱うためによく使用されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 2
+      section: Render Target
+    source_url: https://help.screenberry.com/images/node-references/animation/RenderTarget1.gif
+    source_alt: Render Target node
+    text_coverage: not-independently-verified
+  - id: ja-d209ca76be-002
+    title: Render Target node usage
+    caption: Render Target node usage
+    show: "Render Target node usage. Use the adjacent instructions as the content brief: Render Targetノードは、映像の歪み補正処理の中間結果を扱うためによく使用されます。 Render Targetノードがノードグラフに追加されると、Render Targetノードに接続されたDisplayとPatchを編集するための対応するウィジェットが利用可能になります。このウィジェットは、メインのScreenberry PanelメニューからWindow > [Render Target名] を選択することでワークスペースに追加することができます。DisplayとPatchの編集に関する詳細については、このユーザーガイドのDisplay EditorおよびPatch Editorの章を参照してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Render Target
+    source_url: https://help.screenberry.com/images/node-references/animation/RenderTarget2.gif
+    source_alt: Render Target node usage
+    text_coverage: not-independently-verified
+  - id: ja-d209ca76be-003
+    title: Render Target Editor
+    caption: Render Target Editor
+    show: "Render Target Editor. Use the adjacent instructions as the content brief: Render Targetノードがノードグラフに追加されると、Render Targetノードに接続されたDisplayとPatchを編集するための対応するウィジェットが利用可能になります。このウィジェットは、メインのScreenberry PanelメニューからWindow > [Render Target名] を選択することでワークスペースに追加することができます。DisplayとPatchの編集に関する詳細については、このユーザーガイドのDisplay EditorおよびPatch Editorの章を参照してください。 ノードをVideo Previewノードに接続することで、Render Targetで生成された映像をプレビューすることができます。Video Previewノードには、ワークスペースに追加することができるウィジェットがあります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Render Target
+    source_url: https://help.screenberry.com/images/node-references/animation/RenderTarget3.gif
+    source_alt: Render Target Editor
+    text_coverage: not-independently-verified
+  - id: ja-d209ca76be-004
+    title: Render Target Video Preview
+    caption: Render Target Video Preview
+    show: "Render Target Video Preview. Use the adjacent instructions as the content brief: ノードをVideo Previewノードに接続することで、Render Targetで生成された映像をプレビューすることができます。Video Previewノードには、ワークスペースに追加することができるウィジェットがあります。 Render TargetノードのSettingsパネルでは、以下の制御および情報パラメータが提供されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Render Target
+    source_url: https://help.screenberry.com/images/node-references/animation/RenderTarget4.gif
+    source_alt: Render Target Video Preview
+    text_coverage: not-independently-verified

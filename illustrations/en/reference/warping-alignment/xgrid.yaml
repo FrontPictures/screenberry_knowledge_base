@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/xgrid.md
+document_id: guide.warping-alignment.xgrid
+language: en
+document_body_sha256: 0d9cdb2a87494664c9a04afcf80891215e545613a9b77db840c29687165f29e4
+figures:
+  - id: en-1342537103-001
+    title: XGrid Node Tree
+    caption: XGrid Node Tree
+    show: "XGrid Node Tree. Use the adjacent instructions as the content brief: The XGrid node is a patch that is mostly used to map projections onto surfaces with an X-shaped grid pattern. In a typical setup, the XGrid node receives a source image as the input and outputs the modified image to the Display or Context node. Example of the node graph with the XGrid node"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: XGrid
+    source_url: https://help.screenberry.com/images/warping-alignment/static/XGrid-node-tree.png
+    source_alt: XGrid Node Tree
+    text_coverage: not-independently-verified
+  - id: en-1342537103-002
+    title: XGrid
+    caption: XGrid
+    show: "XGrid. Use the adjacent instructions as the content brief: To apply X-grid mapping in the Patch Editor, do the following: Create a mesh grid by entering X and Y values for the Grid Size parameter in the Settings panel.In the Input panel, define the mapping of the source image for the individual grid cells by dragging the handles of the mesh control points.In the Output panel, modify the warping mesh of the projected image by dragging the handles of the mesh control points fo"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: XGrid
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/XGrid.gif
+    source_alt: XGrid
+    text_coverage: not-independently-verified

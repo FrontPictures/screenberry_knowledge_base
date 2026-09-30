@@ -1,0 +1,49 @@
+---
+title: Screenberry Info Node - Monitoring Parameter Values
+description: Use the Info node to display parameter values and image previews directly in the Screenberry Node Graph.
+openGraph:
+  title: Screenberry Info Node - Monitoring Parameter Values
+  description: Use the Info node to display parameter values and image previews directly in the Screenberry Node Graph.
+---
+
+# Info
+
+The **Info** node displays the value of a connected parameter directly in the **Node Graph**, allowing you to monitor data without leaving the workspace. It supports various parameter types, including timecodes, images, vectors, and Boolean values.
+
+The node is useful for inspecting data at a specific point in the node graph, checking connections, monitoring changing values, and troubleshooting.
+
+## Monitoring a Parameter
+
+1. Add an **Info** node to the **Node Graph**, see [Adding and Managing Nodes](/en/working-with-nodes/adding-and-managing-nodes)
+2. Drag a link from the pin of the parameter you want to monitor onto the **Info** node and release it anywhere over the node.
+3. The node displays the connected parameter's value, updating as it changes.
+
+The displayed information adapts to the parameter type, allowing you to inspect different types of data directly within the node graph. This is useful when checking connections, monitoring changing values, or troubleshooting a node graph.
+
+For general instructions on creating, rearranging, and removing connections, see [Linking Nodes](/en/working-with-nodes/linking-nodes).
+
+{/* Planned animation: connect different parameter types by dropping a link anywhere on Info, then show how its display adapts and updates as the source values change. */}
+
+## Opening the Info Widget
+
+Double-click the **Info** node to open its widget, or click the **Open** button on the node.
+
+You can drag the widget and position it anywhere in the workspace. It provides a dedicated display for monitoring the selected parameter, even when the **Info** node itself is no longer visible in the Node Graph or the Node Graph is not in view.
+
+## Settings
+
+The **Settings** panel provides controls for selecting the source and adjusting the display. Use **Auto Font Size** to size text automatically, or turn it off and adjust **Font Size** manually. **Text Padding** controls the space around the displayed text.
+
+<div className="table-parameter-list table-without-thead">
+
+| Parameter | Description |
+| --- | --- |
+| Node | Name of the node containing the parameter to monitor. |
+| Parameter Name | Name of the parameter to display from the chosen node. |
+| Auto Font Size | Automatically adjusts the text size to the available display area. |
+| Font Size | Sets the text size when **Auto Font Size** is disabled. |
+| Text Padding | Sets the padding around the displayed text, in pixels. |
+| Stream Size | Sets the width (**W**) and height (**H**) of the preview stream, in pixels. |
+| Show On Screen Options | Shows or hides the on-screen options in the preview. |
+
+</div>

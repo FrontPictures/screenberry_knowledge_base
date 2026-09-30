@@ -1,0 +1,102 @@
+schema_version: 1
+document: knowledge/jp/how-to/web-panel.md
+document_id: guide.web-panel
+language: ja
+document_body_sha256: 430880e03585e1348da8d56c35215e3f4d5b1b2228bc17380db2cb277119dcdf
+figures:
+  - id: ja-e064497c45-001
+    title: Adding Web Panel
+    caption: Adding Web Panel
+    show: "Adding Web Panel. Use the adjacent instructions as the content brief: 以下の手順でWeb操作画面にアクセスしてください： Node Graphに、WebServerノードを追加します。ノードのSettingsパネルでPortがデフォルトの8081に設定されていることを確認してください。ポート番号8081が既に使用されている場合は、別のポート番号を選択することもできます。Screenberry Serverと同じPCからWeb操作画面にアクセスする場合は、ウェブブラウザでURL http://127.0.0.1:8081（または http://localhost:8081）を入力してください。無線端末や同じLAN内の別のPCなどからアクセスする場合は、Screenberry ServerのPCに関連付けられているIPアドレスのいずれかを入力することができます。例えば、URLはhttp://192.168.31.218:8081のようになります。 メモ： Web操作画面では、Screenberryで現"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Web操作画面へのアクセス
+    source_url: https://help.screenberry.com/images/web-panel/animation/Adding-Web-Panel.gif
+    source_alt: Adding Web Panel
+    text_coverage: not-independently-verified
+  - id: ja-e064497c45-002
+    title: Playlist Selection
+    caption: Playlist Selection
+    show: "Playlist Selection. Use the adjacent instructions as the content brief: 以下の手順で、目的のプレイリストにアクセスしてください： 左上のScreenberry Web Panelメニューボタンをクリックし、Media Playerを選択します。右下隅にあるSettingsボタンをクリックして、右のサイドバーを開きます。ドロップダウンメニューでMedia Playerを選択します。ドロップダウンメニューでプレイリストを選択します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: プレイリストの選択
+    source_url: https://help.screenberry.com/images/web-panel/animation/Playlist-Selection.gif
+    source_alt: Playlist Selection
+    text_coverage: not-independently-verified
+  - id: ja-e064497c45-003
+    title: Web Panel Controls280
+    caption: Web Panel Controls280
+    show: "Web Panel Controls280. Use the adjacent instructions as the content brief: Play Selected Itemボタンで、選択されたメディアアイテムの再生を開始します。 Playボタンで、現在の再生ヘッドの位置から再生を開始します。 Pauseボタンで、現在の再生ヘッドの位置で再生を一時停止します。 Stopボタンで、再生を終了します。 Previous Itemボタンで、プレイリスト内の一つ前のメディアアイテムにジャンプします。 Next Itemボタンで、プレイリスト内の次のメディアアイテムにジャンプします。 Volume Controlボタンで、Media Player自体の音量を調整します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: 再生制御
+    source_url: https://help.screenberry.com/images/web-panel/static/web-panel-controls280.png
+    source_alt: Web Panel Controls280
+    text_coverage: not-independently-verified
+  - id: ja-e064497c45-004
+    title: Media Items Playback
+    caption: Media Items Playback
+    show: "Media Items Playback. Use the adjacent instructions as the content brief: プレイリスト内のメディアアイテムを再生するには、以下のいずれかの方法を使用します： Playボタンで、現在の再生ヘッドの位置から再生を開始します。プレイリストの中からメディアアイテムを選択し、Play Selected Itemボタンで再生を開始します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: メディアアイテムの再生
+    source_url: https://help.screenberry.com/images/web-panel/animation/Media-Items-Playback.gif
+    source_alt: Media Items Playback
+    text_coverage: not-independently-verified
+  - id: ja-e064497c45-005
+    title: Media Item Settings
+    caption: Media Item Settings
+    show: "Media Item Settings. Use the adjacent instructions as the content brief: 以下のメディアアイテムの設定が編集可能です： Title： メディアアイテムの名前を変更します。Fade In： メディアアイテムのフェードイン時間を秒単位で定義します（前のメディアアイテムとのクロスフェード）。Pause on First Frame / Pause on Last Frame： メディアアイテムの再生を最初のフレームまたは最後のフレームで一時停止させるかどうかを設定します。LoopsとInfinite Loop： メディアアイテムをループ再生させるかどうかを設定します。Volume： 選択したメディアアイテムの音量を調整します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 22
+      section: メディアアイテムの設定
+    source_url: https://help.screenberry.com/images/web-panel/animation/Media-Item-Settings.gif
+    source_alt: Media Item Settings
+    text_coverage: not-independently-verified
+  - id: ja-e064497c45-006
+    title: Managing Playlists
+    caption: Managing Playlists
+    show: "Managing Playlists. Use the adjacent instructions as the content brief: プレイリストを管理するには、右下の Settings ボタンをクリックして、右サイドバーを開き、次にプレイリストのドロップダウンメニューをクリックします。以下の操作を行うことができます。 新しいプレイリストを追加するには、Add New Playlistボタンをクリックします。プレイリストの名前を変更するには、プレイリスト名の横にある編集アイコンをクリックし、表示されたダイアログボックスに新しい名前を入力してください。プレイリストを削除するには、プレイリスト名の横にあるゴミ箱アイコンをクリックしてください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: プレイリストの管理
+    source_url: https://help.screenberry.com/images/web-panel/animation/Managing-Playlists.gif
+    source_alt: Managing Playlists
+    text_coverage: not-independently-verified
+  - id: ja-e064497c45-007
+    title: Organizing Media Items In Playlists
+    caption: Organizing Media Items In Playlists
+    show: "Organizing Media Items In Playlists. Use the adjacent instructions as the content brief: メディアアイテムを追加するには、プレイリストが空の場合はボタンをクリックします。特定のメディアアイテムの場合はアイコンをクリックしてから追加するメディアアイテムを選択します。開いたMedia Libraryウィジェットでメディアアイテムを選択し、Addボタンを押します。メディアアイテムを削除するには、メディアアイテム上のアイコンをクリックしてください。メディアアイテムの順序を変更するには、メディアアイテムを希望する位置にドラッグしてください。 プレイリストの編集が終わったら、再びEditフローティングボタンをクリックして編集モードを終了してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 29
+      section: プレイリスト内のメディアアイテムの整理
+    source_url: https://help.screenberry.com/images/web-panel/animation/Organizing-Media-Items-in-Playlists.gif
+    source_alt: Organizing Media Items In Playlists
+    text_coverage: not-independently-verified
+  - id: ja-e064497c45-008
+    title: Working With Widgets
+    caption: Working With Widgets
+    show: "Working With Widgets. Use the adjacent instructions as the content brief: 以下の手順で、目的のウィジェットにアクセスしてください。 左上隅にあるScreenberry Web Panelボタンをクリックし、Widgetを選択します。ドロップダウンメニューからWidgetを選択します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: ウィジェットの操作
+    source_url: https://help.screenberry.com/images/web-panel/animation/Working-with-Widgets.gif
+    source_alt: Working With Widgets
+    text_coverage: not-independently-verified

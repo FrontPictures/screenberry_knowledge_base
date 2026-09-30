@@ -1,0 +1,355 @@
+---
+title: Screenberryのメディアアイテムの設定方法
+description: Screenberryのメディアアイテムの各出廷について説明します。クロスフェードやループ、トリミング、タイムコードや再生範囲、イベントマッピングなどの設定方法についても説明します。
+openGraph:
+  title: Screenberryのメディアアイテムの設定方法
+  description: Screenberryのメディアアイテムの各出廷について説明します。クロスフェードやループ、トリミング、タイムコードや再生範囲などの高度な機能の設定方法についても説明します。
+---
+
+# メディアアイテムの設定
+
+Screenberryでは、**Media Player**ウィジェットで使用するメディアアイテムは、**Media Library**内のソースファイルを参照しているインスタンスです。メディアアイテムを編集したり、トリミングしたり、設定を変更したりしても、ソースファイルには影響しません。
+
+## メディアアイテム名の変更
+
+メディアアイテムの名前を変更する方法は2つあります。**Media Library**でメディアアイテムの名前を変更すると、既存のすべてのプレイリストで名前が変わります。
+
+特定のプレイリスト内のメディアアイテムのタイトルを設定することで名前を変更することもできます。メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、**Title**欄に新しい名前を入力してください。
+
+<img alt="Renaming Media Items" src="/images/media-playback/animation/Renaming-Media-Items.gif" width={800} height={704} loading="lazy" />
+
+> **メモ：** 現在**Media Player**ウィジェットで再生中のメディアアイテムは、名前を変更することができません。
+
+## メディアアイテムのクロスフェード
+
+メディアアイテムをフェードインさせるには（前のメディアアイテムとクロスフェードするには）、メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、開いたダイアログボックスの**Fade In**欄に時間またはフレーム数を入力してください。
+
+<img alt="Crossfading Media Items" src="/images/media-playback/animation/Crossfading-Media-Items.gif" width={800} height={644} loading="lazy" />
+
+> **メモ：** メディアアイテムのフェードインが設定されている場合、そのコンテンツはクロスフェード切り替えの期間中、前のメディアアイテムにオーバーレイされます。
+
+メディアアイテムにフェードインが設定されている場合、プレイリスト内のメディアアイテムのサムネイルに<img alt="FadeIn" src="/images/media-playback/static/FadeIn.png" width={21} height={21} loading="lazy" />アイコンが表示されます。
+
+## メディアアイテムのループ再生
+
+メディアアイテムをループ再生するには、メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、次のいずれかを行います：
+
+- **Loop**欄にループの回数を入力します。
+- メディアアイテムを連続してループ再生する場合は、**Infinite Loop**チェックボックスを選択します。
+
+<img alt="Playing A Media Item In A Loop" src="/images/media-playback/animation/Playing-a-Media-Item-in-a-Loop.gif" width={800} height={640} loading="lazy" />
+
+また、メディアアイテムを右クリックして、ドロップダウンメニューから**Infinite Loop**を選択するか、**`L`** キーを押すことでも、メディアアイテムを連続してループ再生することができます。
+
+<img alt="Playing A Media Item In A Loop2" src="/images/media-playback/animation/Playing-a-Media-Item-in-a-Loop2.gif" width={800} height={640} loading="lazy" />
+
+メディアアイテムにループ再生が設定されている場合、プレイリスト内のメディアアイテムのサムネイルに<img alt="Loop" src="/images/media-playback/static/loop.png" width={21} height={21} loading="lazy" />アイコンが表示されます。
+
+## 再生開始または終了時の一時停止
+
+メディアアイテムの再生を最初のフレームまたは最後のフレームで一時停止するには、メディアアイテムを右クリックし、次のいずれかの操作を行います：
+
+- ドロップダウンメニューから**Pause on First Frame**を選択します（または **`[`** キーを押します）/ ドロップダウンメニューから **Pause on Last Frame** を選択します（または **`]`** キーを押します）。
+- ドロップダウンメニューから**Settings**を選択し、**Pause on First Frame** / **Pause on Last Frame**のチェックボックスを選択します。
+
+<img alt="Pausing Media Item Playback At The Start Or End" src="/images/media-playback/animation/Pausing-Media-Item-Playback-at-the-Start-or-End.gif" width={800} height={640} loading="lazy" />
+
+メディアアイテムが開始または終了時に一時停止されている場合、プレイリストのメディアアイテムのサムネイルには次のアイコンが表示されます：
+
+<img alt="PauseStart 1" src="/images/media-playback/static/PauseStart-1.png" width={21} height={21} loading="lazy" /> – **最初のフレームで一時停止します。**
+
+<img alt="PauseEnd 1" src="/images/media-playback/static/PauseEnd-1.png" width={21} height={21} loading="lazy" /> – **最後のフレームで一時停止します。**
+
+<img alt="PauseStartEnd 1" src="/images/media-playback/static/PauseStartEnd-1.png" width={21} height={21} loading="lazy" /> – **最初と最後のフレームで一時停止します。**
+
+## メディアアイテムの再生範囲の設定
+
+メディアアイテムの再生範囲を設定するには、*開始* 点と *終了* 点を設定します。**開始点**はメディアアイテムの再生される最初のフレームとなり、**終了点**は最後のフレームとなります。
+
+メディアアイテムの**開始点**と**終了点**を設定するには、以下のいずれかの方法を使用します：
+
+- **Media Player**のシークバーで**開始点**と**終了点**のスライダーをドラッグします。
+- **Media Player**のシークバーで右クリックし、ドロップダウンメニューから**Set In Point** (**Set Out Point**)を選択します。
+- メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、**In Point/Out Point**欄のフレーム番号を入力します。
+- メディアアイテムを右クリックし、ドロップダウンメニューから**Preview Item**を選択するか、スペースバーを押して**Media Item** **Preview**ダイアログボックスを開きます。シークバーで**開始点**と**終了点**のスライダーをドラッグするか、シークバーで右クリックし、ドロップダウンメニューから**Set In Point** (**Set Out Point**)を選択します。
+
+<img alt="Trimming A Media Item" src="/images/media-playback/animation/Trimming-a-Media-Item.gif" width={800} height={640} loading="lazy" />
+
+**開始点**または**終了点**が設定された場合、メディアアイテムの設定された範囲のみが**Media Player**のシークバーに表示されます。メディアアイテムの全長を表示するには、シークバーを右クリックし、**Show Full Duration**をドロップダウンメニューから選択します。**Show Trimmed**オプションを選択すると、表示モードがトリムされた状態に切り替わります。
+
+メディアアイテムの**開始点**と**終了点**をリセットするには、**Media Player**のシークバーを右クリックし、ドロップダウンメニューから**Reset In/Out Points**を選択します。
+
+## 特定のタイムコードでのメディアアイテムの再生開始
+
+メディアアイテムの再生は、特定のタイムコードをきっかけに開始することができます。メディアアイテムの再生を特定のタイムコードで開始するには、メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、**Start at Timecode**チェックボックスを選択し、**Start at Timecode**欄に時間またはフレームの値を入力してください。
+
+<img alt="Starting Media Item Playback At A Timecode" src="/images/media-playback/animation/Starting-Media-Item-Playback-at-a-Timecode.gif" width={800} height={640} loading="lazy" />
+
+メディアアイテムが特定のタイムコードで開始されるように設定されている場合、プレイリスト内のメディアアイテムのサムネイルに<img alt="TCin" src="/images/media-playback/static/TCin.png" width={21} height={21} loading="lazy" />アイコンが表示されます。
+
+## タイムコードの送信
+
+メディアアイテムは、内部および外部のソフトウェアやハードウェアのイベントをトリガーするために、タイムコードを送信することができます。メディアアイテムからタイムコードを送信するには、メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、**Send Timecode**チェックボックスを選択し、**Send Timecode**欄に時間とフレームの値を入力します。
+
+<img alt="Sending A Timecode" src="/images/media-playback/animation/Sending-a-Timecode.gif" width={800} height={640} loading="lazy" />
+
+メディアアイテムがタイムコードを送信するように設定されている場合、プレイリスト内のメディアアイテムのサムネイルには<img alt="TCout" src="/images/media-playback/static/TCout.png" width={21} height={21} loading="lazy" />アイコンが表示されます。
+
+## メディアアイテムの色調補正
+
+メディアアイテムの色調補正コントロールにアクセスするには、メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、**Image Adjustment**欄の**Color Correction**ボタンをクリックします。
+
+<img alt="Media Item Color Correction" src="/images/media-playback/animation/Media-Item-Color-Correction.gif" width={800} height={640} loading="lazy" />
+
+> **メモ：** 色調補正は、**Media Player**自体にも設定できます。これは、個々のメディアアイテムに設定された色調補正と組み合わされます。詳細については、**Media Player**の**色調補正**を参照してください。
+
+### Color Correctionコントロール
+
+#### チャンネルセレクター
+
+色調補正は、すべてのチャンネルに同時に適用するか、個別に*Red*、*Green*、または*Blue*チャンネルに適用することができます。 **チャンネルセレクター**を使用して、調整したいチャンネルを選択します。
+
+#### カーブによる調整
+
+カーブを使用して映像の色調調整をするには：
+
+- 制御点を作成するために曲線上をクリックします。
+- 制御点をドラッグするか、**X**と**Y**の入力欄に値を入力して、座標を変更します。
+
+制御点をダブルクリックして削除します。
+
+#### 色相、彩度、明度スライダー
+
+**映像の色相（Hue）**、**彩度（Saturation）**、および**明度（Lightness）** を調整するには、対応するスライダーをドラッグするか、対応する入力欄に値を入力します。
+
+#### デフォルトの色調の復元
+
+デフォルトの色調に戻すには、**Reset**ボタンを押します。
+
+#### 色調補正設定の保存
+
+色調補正設定をJSON（.cc）形式ファイルに保存するには、**Save**ボタンをクリックします。
+
+#### 保存された色補正設定の適用
+
+以前に保存されたJSON (*.cc) 形式の色調補正設定を読み込むには、**Load**ボタンをクリックします。
+
+メディアアイテムが色調補正されている場合、プレイリストのメディアアイテムのサムネイルに<img alt="Colorcorr" src="/images/media-playback/static/colorcorr.png" width={21} height={21} loading="lazy" />アイコンが表示されます。
+
+## プレマルチプライドアルファブレンディングの設定
+
+メディアアイテムに**アルファ値による乗算**を設定するには、メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、**Multiply by Alpha**チェックボックスをオンにします。
+
+<img alt="Multiply By Alpha" src="/images/media-playback/animation/Multiply-by-Alpha.gif" width={800} height={640} loading="lazy" />
+
+メディアアイテムにアルファチャンネルが含まれている場合、プレイリストのメディアアイテムのサムネイルに<img alt="Alpha" src="/images/media-playback/static/alpha.png" width={21} height={21} loading="lazy" />アイコンが表示されます。
+
+## メディアアイテムの映像トラックの無効化
+
+メディアアイテムの映像トラックを無効にするには、メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、**Disable Video**チェックボックスを選択してください。
+
+<img alt="Disabling Video Output Of A Media Item" src="/images/media-playback/animation/Disabling-Video-Output-of-a-Media-Item.gif" width={800} height={640} loading="lazy" />
+
+> **メモ：** メディアアイテムの映像出力が無効になっている場合でも、再生中にはメディアアイテムのオーディオトラックが引き続き再生されます。
+> 
+
+メディアアイテムの映像出力が無効になっている場合、プレイリストのメディアアイテムのサムネイルに<img alt="Videodis" src="/images/media-playback/static/videodis.png" width={21} height={21} loading="lazy" />アイコンが表示されます。
+
+## メディアアイテムのアルファチャンネルの無効化
+
+メディアアイテムのアルファチャンネルを無効にするには、メディアアイテムを右クリックし、ドロップダウンメニューから**Settigs**を選択し、**Disable Alpha Channel**チェックボックスを選択します。
+
+<img alt="Disabling The Alpha Channel Of A Media Item" src="/images/media-playback/animation/Disabling-the-Alpha-Channel-of-a-Media-Item.gif" width={800} height={640} loading="lazy" />
+
+メディアアイテムのアルファチャネルが無効になっている場合、プレイリストのメディアアイテムのサムネイルに<img alt="Alphades" src="/images/media-playback/static/alphades.png" width={21} height={21} loading="lazy" />アイコンが表示されます。
+
+## メディアアイテムの音量調整
+
+メディアアイテムの音量を調整するには、メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、**Volume**スライダーをドラッグして音量レベルを設定するか、対応する入力欄にパーセンテージで入力します。また、メディアアイテムのオーディオをミュートするには、**Mute**チェックボックスを選択します。音量レベルを2倍にするには、**Boost**チェックボックスを選択します。
+
+<img alt="Adjusting The Audio Level Of A Media Item" src="/images/media-playback/animation/Adjusting-the-Audio-Level-of-a-Media-Item.gif" width={800} height={640} loading="lazy" />
+
+また、**Media Player**自体の音量を調整することも可能です。この音量設定はメディアアイテムの音量設定と組み合わされます。詳細は[Media Player/全体調整/音量調整](../media-player/media-player-global-settings#音量調整)を参照してください。
+
+メディアアイテムの音量がミュートされた場合、プレイリストのメディアアイテムのサムネイルに<img alt="Audiodes" src="/images/media-playback/static/audiodes.png" width={21} height={21} loading="lazy" />アイコンが表示されます。
+
+## オーディオトラックの追加および切り替え
+
+メディアアイテムには複数のオーディオトラックが存在する場合があります。
+
+メディアアイテムにオーディオトラックを追加するには、システムフォルダからオーディオファイルを**Media Player**のプレイリスト（または**Media Library**）のメディアアイテムサムネイル上にドラッグアンドドロップし、表示されたダイアログボックスで**Add Audio**ボタンをクリックします。追加されたメディアアイテムの再生時間がオーディオファイルの再生時間と一致しない場合、メディアアイテムの再生時間をオーディオファイルと一致させるか、そのままにするかを選択することができます。
+
+<img alt="Adding And Switching The Audio Tracks Of A Media Item" src="/images/media-playback/animation/Adding-and-Switching-the-Audio-Tracks-of-a-Media-Item.gif" width={800} height={828} loading="lazy" />
+
+メディアアイテムのオーディオトラックを選択および切り替えるには、メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、**Audio Track [N]** のドロップダウンリストからトラックを選択してください。
+
+## メディアアイテムに字幕を追加する
+
+メディアアイテムには、再生中に表示される字幕を含めることができます。
+
+メディアアイテムに字幕を追加するには、システムフォルダから字幕ファイル（**.srt**形式）を**Media Player**のプレイリスト（または**Media Library**）のメディアアイテムのサムネイルにドラッグアンドドロップし、表示されるダイアログボックスの**Add Subtitles**ボタンをクリックします。
+
+<img alt="Adding And Displaying Media Item Subtitles" src="/images/media-playback/animation/Adding-and-Displaying-Media-Item-Subtitles.gif" width={800} height={828} loading="lazy" />
+
+メディアアイテムには複数の字幕トラックが追加できます。メディアアイテムの再生中に表示する字幕トラックを選択するには、メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、**Subtitles**のドロップダウンリストから字幕ファイルを選択します。
+
+再生中、**Media Player**ノードは、メディアアイテムに関連付けられた字幕をテキストとして出力します。このテキストを出力で表示するには、**TextImage**ノードを使用してイメージとしてレンダリングし、通常はPatchノードの1つである**BezierWarp**ノードを使用して現在の出力上に配置する必要があります。
+
+1. **TextImage**ノードと**BezierWarp**ノードをノードグラフに追加します。
+2. **MediaPlayer**ノードの**Subtitles**出力ピンを**TextImage**ノードの**Text**入力ピンに接続します。
+3. **TextImage**ノードの**Image**出力ピンを**BezierWarp**ノードの**Source Image**入力ピンに接続します。
+4. **BezierWarp**ノードの**Patch**出力ピンを**Display**（または**Canvas**）ノードの**Patches**入力ピンに接続します。
+5. 字幕付きのメディアアイテムの再生を開始し、Screenberry Serverの出力に字幕が表示されることを確認します。
+6. 字幕の出力の外観を調整します：
+    - **TextImage**ノードの**設定**パネルで、フォント、フォントサイズ、色などを設定します。
+    - **Patch Editor**で**BezierWarp**ノードを編集することにより、位置、不透明度、スケーリング補間方法、ブレンドなどを調整します。
+
+<img alt="Adding And Displaying Media Item Subtitles2" src="/images/media-playback/animation/Adding-and-Displaying-Media-Item-Subtitles2.gif" width={800} height={576} loading="lazy" />
+
+メディアアイテムに字幕が含まれている場合、プレイリスト内のメディアアイテムのサムネイルに<img alt="Cc" src="/images/media-playback/static/cc.png" width={21} height={21} loading="lazy" />アイコンが表示されます。
+
+## メディアアイテムにユーザーコメントを追加する
+
+メディアアイテムにコメントを追加することで、上映時にメディアアイテムについて特定の操作を行うためのメモなどとして利用できます。
+
+コメントを追加するには、メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、**Comments**テキストエリアにコメントを入力してください。
+
+<img alt="Adding User Comments To A Media Item" src="/images/media-playback/animation/Adding-User-Comments-to-a-Media-Item.gif" width={800} height={576} loading="lazy" />
+
+メディアアイテムにコメントが追加されると、プレイリストのメディアアイテムのサムネイルに<img alt="Comment" src="/images/media-playback/static/comment.png" width={21} height={21} loading="lazy" />アイコンが表示されます。このアイコンにカーソルを合わせると、コメントのツールチップが表示されます。
+
+> **メモ：** コメントは映像出力に表示されません。コメントの目的はメディアサーバーの操作者に情報を提供することのみです。
+
+## メディアアイテムのフレームレート（FPS）の変更
+
+メディアアイテムの再生フレームレートは、**Media Library**でのみ変更できます。この変更は、このメディアアイテムのすべてのインスタンスに影響します。
+
+メディアアイテムを右クリックし、ドロップダウンメニューから**Reveal Item in Media Library**を選択し、**Media Library**ウィジェットでメディアアイテムを右クリックし、ドロップダウンメニューから**Change FPS for Selected items**を選択し、表示されたダイアログボックスの**Set FPS**欄に数値を入力してください。
+
+<img alt="Changing The Frame Rate" src="/images/media-playback/animation/Changing-the-Frame-Rate.gif" width={800} height={692} loading="lazy" />
+
+## メディアアイテムの再生時間の変更
+
+メディアアイテムの再生時間は、**Media Library**でのみ変更することができます。この変更は、このメディアアイテムのすべてのインスタンスに影響を与えます。
+
+メディアアイテムを右クリックし、ドロップダウンメニューから**Reveal Item in Media Library**を選択し、**Media Library**ウィジェットでメディアアイテムを右クリックし、ドロップダウンメニューから**Change Duration for Selected items**を選択し、表示されたたダイアログボックスの**Set Frames**欄にフレーム数を入力してください。
+
+<img alt="Changing The Duration Of A Media Item" src="/images/media-playback/animation/Changing-the-Duration-of-a-Media-Item.gif" width={800} height={692} loading="lazy" />
+
+## メディアアイテムをMIDI/キーボードイベントにマッピングする
+
+メディアアイテムをキーボード（またはマウス）イベントにマッピングするには、以下の手順を実行してください。
+
+1. **Media Player**のプレイリストでマッピングしたいメディアアイテムを右クリックし、ドロップダウンメニューから**Map Item to MIDI/Keyboard Event**を選択します。マッピングを行っていることを示す黄色いハイライトがメディアアイテムのサムネイルに追加されます。
+2. **Node Graph**に切り替え、**Keyboard**（または**Mouse**）ノードを追加します。
+3. **Keyboard**（または**Mouse**）ノードの**Message**出力ピンを**Media Player**ノードの**Event**入力ピンに接続します。
+4. Screenberry Panelのメインメニューから**Server** > **Forward Keyboard and Mouse Events**を選択します。
+5. マッピングしたいキーまたはキーコンビネーションを押します（例： **`Ctrl`** + **`M`**）（またはマッピングしたいマウスクリックを行います（例：**左クリック**）。
+6. **Media Player**ウィジェットに切り替えて、メディアアイテムのマッピングが完了したことを確認します。マッピングが完了していれば、この例ではメディアアイテムのサムネイルの左上隅に表示される **`Ctrl`** + **`M`**（または**マウス左**）の文字が表示されます。
+
+<img alt="Mapping A Media Item" src="/images/media-playback/animation/Mapping-a-Media-Item.gif" width={800} height={625} loading="lazy" />
+
+現在のメディアアイテムへのマッピングの詳細情報を確認するには、メディアアイテムを右クリックし、ドロップダウンメニューから**Settings**を選択し、**MIDI/Keyboard Mappings**欄を表示してください。こちらでは、イベントの説明の横にある**Discard MIDI/Keyboard Mapping**ボタンを押すことで個々のイベントのマッピングを解除することができます。
+
+<img alt="Mapping A Media Item2" src="/images/media-playback/animation/Mapping-a-Media-Item2.gif" width={800} height={580} loading="lazy" />
+
+イベントのマッピングを中止する場合は、**Media Player**のプレイリストでメディアアイテムを右クリックし、ドロップダウンメニューから**Cancel Item Mapping**を選択します。
+
+選択したメディアアイテムへのマッピングをすべて削除したい場合は、メディアアイテムを右クリックし、ドロップダウンメニューから**Remove All Mappings**を選択します。
+
+<img alt="Mapping A Media Item3" src="/images/media-playback/animation/Mapping-a-Media-Item3.gif" width={800} height={588} loading="lazy" />
+
+## メディアアイテムの情報表示
+
+メディアアイテムに関する情報にアクセスするには、メディアアイテムを右クリックしてドロップダウンメニューから**Item Info**を選択するか、**`I`** キーを押してください。
+
+<img alt="Viewing Media Item Information" src="/images/media-playback/animation/Viewing-Media-Item-Information.gif" width={800} height={588} loading="lazy" />
+
+## 複数のメディアアイテム設定の一括変更
+
+一度に複数のメディアアイテムの設定を変更するには、メディアアイテムを選択し、右クリックしてドロップダウンメニューから**Item Settings**を選択するか、**`S`** キーを押してください。選択されたすべてのメディアアイテムに共通する設定のみが、**Settings**ダイアログボックスで編集可能になります。
+
+<img alt="Changing Settings For Multiple Media Items" src="/images/media-playback/animation/Changing-Settings-for-Multiple-Media-Items.gif" width={800} height={588} loading="lazy" />
+
+## メディアアイテムの状態表示
+
+メディアアイテムの現在の設定と状態に関する状態表示は、メディアアイテムのサムネイル上に表示されます。
+
+![Media Item With Indicators](/images/media-playback/static/Media-Item-with-Indicators.png)
+
+状態表示付きのメディアアイテム
+
+**メディアアイテムの種類**
+
+<img alt="Image" src="/images/media-playback/static/image.png" width={21} height={21} loading="lazy" /> 静止画
+
+<img alt="Video" src="/images/media-playback/static/video.png" width={21} height={21} loading="lazy" /> 動画
+
+<img alt="Videostereo" src="/images/media-playback/static/videostereo.png" width={21} height={21} loading="lazy" /> 立体視動画
+
+オーディオのみのメディアアイテムには特定のアイコンがありません。代わりに、サムネイルはオーディオのヒストグラムに基づいて生成されます。
+
+![Audioitem](/images/media-playback/static/audioitem.png)
+
+**再生状態の種類**
+
+<img alt="Playback Play" src="/images/media-playback/static/playback-play.png" width={19} height={19} loading="lazy" /> 再生中
+
+<img alt="Playback Pause" src="/images/media-playback/static/playback-pause.png" width={19} height={19} loading="lazy" /> 一時停止
+
+<img alt="Playback Stop" src="/images/media-playback/static/playback-stop.png" width={19} height={19} loading="lazy" /> 停止状態
+
+[メディアアイテムの再生](playlists-playback#メディアアイテムの再生)の章を参照してください。
+
+**オーディオ**
+
+<img alt="Audio" src="/images/media-playback/static/audio.png" width={21} height={21} loading="lazy" /> メディアアイテムには1つ以上のオーディオトラックが含まれています。
+
+<img alt="Audiodes" src="/images/media-playback/static/audiodes.png" width={21} height={21} loading="lazy" /> オーディオはミュートされています。（[メディアアイテムの音量調整](#メディアアイテムの音量調整)を参照してください。）
+
+**再生時間**
+
+<img alt="Durationc" src="/images/media-playback/static/durationc.png" width={39} height={17} loading="lazy" /> メディアアイテムの再生時間が表示されます。**開始点**または**終了点**が設定されると、メディアアイテムの再生範囲が設定されていることを示すカッコ（<img alt="Duration" src="/images/media-playback/static/duration.png" width={41} height={17} loading="lazy" />）が追加され、設定された再生時間がカッコ内に表示されます（[メディアアイテムの再生範囲設定](#メディアアイテムの再生範囲の設定)を参照）。
+
+**再生動作**
+
+<img alt="FadeIns" src="/images/media-playback/static/FadeIns.png" width={46} height={21} loading="lazy" /> 指定した時間のフェードインが適用されます（[メディアアイテムのクロスフェード](#メディアアイテムのクロスフェード)を参照）。
+
+<img alt="Loop" src="/images/media-playback/static/loop.png" width={21} height={21} loading="lazy" /> メディアアイテムはループ再生されます。数字は繰り返し回数を示しています。数字が表示されない場合、メディアアイテムは無限にループします（[メディアアイテムのループ再生](#メディアアイテムのループ再生)を参照）。
+
+<img alt="PauseStart 1" src="/images/media-playback/static/PauseStart-1.png" width={21} height={21} loading="lazy" /> メディアアイテムの再生は最初のフレームで一時停止されます（[再生開始または終了時の一時停止](#再生開始または終了時の一時停止)を参照）。
+
+<img alt="PauseEnd 1" src="/images/media-playback/static/PauseEnd-1.png" width={21} height={21} loading="lazy" /> メディアアイテムの再生は最後のフレームで一時停止されます（[再生開始または終了時の一時停止](#再生開始または終了時の一時停止)を参照）。
+
+<img alt="PauseStartEnd 1" src="/images/media-playback/static/PauseStartEnd-1.png" width={21} height={21} loading="lazy" /> メディアアイテムの再生は最初と最後のフレームで一時停止されます（[再生開始または終了時の一時停止](#再生開始または終了時の一時停止)を参照）。
+
+**色調補正**
+
+<img alt="Colorcorr" src="/images/media-playback/static/colorcorr.png" width={21} height={21} loading="lazy" /> メディアアイテムに色調補正が適用されています（[メディアアイテムの色調補正](#メディアアイテムの色調補正)を参照）。
+
+**タイムコード**
+
+<img alt="TCin" src="/images/media-playback/static/TCin.png" width={21} height={21} loading="lazy" /> メディアアイテムは特定のタイムコードで再生が開始されるように設定されています（[タイムコードでメディアアイテムの再生を開始](#特定のタイムコードでのメディアアイテムの再生開始)を参照）。
+
+<img alt="TCout" src="/images/media-playback/static/TCout.png" width={21} height={21} loading="lazy" /> メディアアイテムはタイムコードを送信するように設定されています（[タイムコードの送信](#タイムコードの送信)を参照）。
+
+<img alt="TCinout" src="/images/media-playback/static/TCinout.png" width={21} height={21} loading="lazy" /> メディアアイテムは特定のタイムコードで再生が開始され、タイムコードが送信されます。
+
+**アルファチャンネル**
+
+<img alt="Alpha" src="/images/media-playback/static/alpha.png" width={21} height={21} loading="lazy" /> ディアアイテムにはアルファチャンネルが含まれています。
+
+<img alt="Alphades" src="/images/media-playback/static/alphades.png" width={21} height={21} loading="lazy" /> アルファチャンネルが無効になっています（[メディアアイテムのアルファチャンネルの無効化](#メディアアイテムのアルファチャンネルの無効化)を参照）。
+
+**MIDI/キーボードイベントのマッピング**
+
+![Mapping](/images/media-playback/static/mapping.png) キーボードとマウスのイベントのリストに従って、メディアアイテムの再生が開始されます（[メディアアイテムをMIDI/キーボードイベントにマッピング](#メディアアイテムをmidiキーボードイベントにマッピングする)を参照）。
+
+**字幕**
+
+<img alt="Cc" src="/images/media-playback/static/cc.png" width={21} height={21} loading="lazy" /> メディアアイテムには字幕が含まれています（[メディアアイテムに字幕を追加する](#メディアアイテムに字幕を追加する)を参照）。
+
+**コメント**
+
+<img alt="Comment" src="/images/media-playback/static/comment.png" width={21} height={21} loading="lazy" /> 
+ユーザーコメントがメディアアイテムに追加されています。アイコンにカーソルを合わせると表示されます（[メディアアイテムにユーザーコメントを追加する](#メディアアイテムにユーザーコメントを追加する)を参照）。

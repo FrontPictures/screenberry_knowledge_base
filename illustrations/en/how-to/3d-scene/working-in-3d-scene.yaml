@@ -1,0 +1,102 @@
+schema_version: 1
+document: knowledge/en/how-to/3d-scene/working-in-3d-scene.md
+document_id: guide.3d-scene.working-in-3d-scene
+language: en
+document_body_sha256: f1a6174ecc77e6edc2657ab3bd5a5c6f0313aad570dcc7586ae83d66e203b53c
+figures:
+  - id: en-b88d8f005d-001
+    title: Navigating Fly Mode
+    caption: Navigating Fly Mode
+    show: "Navigating Fly Mode. Use the adjacent instructions as the content brief: The Navigation Toolbar provides the following options: Fly Mode: To navigate through the scene with a first-person perspective, activate Fly mode by selecting the fly icon in the navigation toolbar. Use the W, A, S, and D keys to move the camera forward, left, backward, and right, respectively. Q and E keys move the camera up and down. To adjust the camera's orientation, hold the left mouse button and move the mouse."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Navigating the Viewport
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Navigating-Fly-Mode.gif
+    source_alt: Navigating Fly Mode
+    text_coverage: not-independently-verified
+  - id: en-b88d8f005d-002
+    title: Navigating Orbit Mode
+    caption: Navigating Orbit Mode
+    show: "Navigating Orbit Mode. Use the adjacent instructions as the content brief: Orbit Mode: This mode allows the camera to revolve around a focal point of the scene. Activate this mode by clicking the orbit icon on the toolbar, using the Shift + O shortcut, or holding Alt and dragging the mouse. Pan Mode: To shift your viewpoint horizontally or vertically parallel to the viewing plane without changing the viewing angle, activate Pan mode by selecting the pan icon in the navigation toolbar, press"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 5
+      section: Navigating the Viewport
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Navigating-Orbit-Mode.gif
+    source_alt: Navigating Orbit Mode
+    text_coverage: not-independently-verified
+  - id: en-b88d8f005d-003
+    title: Navigating Pan Mode
+    caption: Navigating Pan Mode
+    show: "Navigating Pan Mode. Use the adjacent instructions as the content brief: Pan Mode: To shift your viewpoint horizontally or vertically parallel to the viewing plane without changing the viewing angle, activate Pan mode by selecting the pan icon in the navigation toolbar, pressing Shift + P, or holding Shift (or the mouse wheel) while moving the mouse. Zoom Mode: To move closer to or further away from objects in the scene, activate Zoom mode by selecting the zoom icon in the navigation tool"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Navigating the Viewport
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Navigating-Pan-Mode.gif
+    source_alt: Navigating Pan Mode
+    text_coverage: not-independently-verified
+  - id: en-b88d8f005d-004
+    title: Navigating the Viewport
+    caption: Navigating the Viewport
+    show: "Navigating the Viewport. Use the adjacent instructions as the content brief: Zoom Mode: To move closer to or further away from objects in the scene, activate Zoom mode by selecting the zoom icon in the navigation toolbar, pressing Shift + Z, or holding Ctrl while moving the mouse. Holding Shift in any of these modes slows the movement speed to 1/10 of the default."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Navigating the Viewport
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Navigating-Zoom-Mode.gif
+    source_alt: alt text
+    text_coverage: not-independently-verified
+  - id: en-b88d8f005d-005
+    title: Selecting Objects
+    caption: Selecting Objects
+    show: "Selecting Objects. Use the adjacent instructions as the content brief: Once activated, click on any object in the viewport to select it. Selected objects are highlighted, making them easily distinguishable. To select multiple objects, hold down the Shift key while clicking on each object. Another way to select an object is by clicking its name in the Object List pane. Alternatively, you can cycle through the objects in this list by holding Alt and pressing the Up and Down arrow keys."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Selecting Objects
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Selecting-Objects.gif
+    source_alt: Selecting Objects
+    text_coverage: not-independently-verified
+  - id: en-b88d8f005d-006
+    title: Moving Objects
+    caption: Moving Objects
+    show: "Moving Objects. Use the adjacent instructions as the content brief: While an object is selected, dragging anywhere within the viewport moves it parallel to the viewing plane. Additionally, you can move an object by changing the Position parameters' X, Y, and Z coordinates in the object's Settings panel."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: Moving Objects
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Moving-Objects.gif
+    source_alt: Moving Objects
+    text_coverage: not-independently-verified
+  - id: en-b88d8f005d-007
+    title: Rotating Objects
+    caption: Rotating Objects
+    show: "Rotating Objects. Use the adjacent instructions as the content brief: While an object is selected, dragging anywhere within the viewport rotates it on the plane parallel to the viewing plane. Additionally, you can rotate an object by changing the Rotation parameters' angles for X, Y, and Z coordinates in the object's Settings panel."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: Rotating Objects
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Rotating-Objects.gif
+    source_alt: Rotating Objects
+    text_coverage: not-independently-verified
+  - id: en-b88d8f005d-008
+    title: Scaling Objects
+    caption: Scaling Objects
+    show: "Scaling Objects. Use the adjacent instructions as the content brief: While an object is selected, dragging anywhere within the viewport changes its size while maintaining its proportions. Additionally, you can scale an object by changing the Scale parameters' values for X, Y, and Z coordinates in the object's Settings panel."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 32
+      section: Scaling Objects
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Scaling-Objects.gif
+    source_alt: Scaling Objects
+    text_coverage: not-independently-verified

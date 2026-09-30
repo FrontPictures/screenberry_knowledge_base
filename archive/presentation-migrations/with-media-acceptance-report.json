@@ -1,0 +1,25 @@
+{
+  "original_and_restored_file_hash_comparisons": 1728,
+  "original_documents": 174,
+  "archived_documents": 174,
+  "exported_documents": 174,
+  "exported_chunks": 1404,
+  "exported_assets": 549,
+  "exported_local_links_checked": 1402,
+  "standalone_install": "pnpm install --frozen-lockfile --ignore-scripts passed; offline-only attempt lacked one cached tarball, regular frozen install succeeded",
+  "validation": "174 documents, 1435 local links, 1234 image references, 864 archive hashes; zero errors/warnings",
+  "policy_tests": "5 passed",
+  "strict_public_34_documents": 0,
+  "development_35_documents": 0,
+  "original_source_unchanged": true,
+  "archive_attributes": "knowledge/**, archive/** and assets/** marked -text to preserve byte hashes through Git checkout",
+  "website_build": "not run",
+  "browser_verification": "not run; no site UI changes",
+  "product_runtime": "not verified",
+  "github_ci": "prepared, not run remotely",
+  "whitespace": {
+    "parent_git_diff_check": "passed",
+    "preserved_original_code_lines": 30,
+    "generated_prose_findings": 0
+  }
+}

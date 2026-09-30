@@ -1,0 +1,18 @@
+schema_version: 1
+document: knowledge/en/how-to/3d-scene/creating-3d-scene.md
+document_id: guide.3d-scene.creating-3d-scene
+language: en
+document_body_sha256: 54ee56ef484c6e2155b0d66001564cd9261c3c3fdd216d65fbc6592ac4f9dc3f
+figures:
+  - id: en-442930e364-001
+    title: 3D Scene Creation Illustration
+    caption: 3D Scene Creation Illustration
+    show: "3D Scene Creation Illustration. Use the adjacent instructions as the content brief: Once the 3D Scene node is added, the corresponding widget is automatically created. You can access it by double-clicking on the 3D Scene node or by selecting Window > [3D Scene] in the main Screenberry Panel menu. All objects added to the 3D Scene (by connecting the related nodes to the 3D Scene node in the node graph) are added to the 3D environment. A list of these objects is available in the top right pane of the "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 7
+      section: Creating 3D Scene
+    source_url: https://help.screenberry.com/images/3d-scene/animation/Creating-3D-Scene.gif
+    source_alt: 3D Scene Creation Illustration
+    text_coverage: not-independently-verified

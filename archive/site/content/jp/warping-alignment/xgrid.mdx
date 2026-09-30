@@ -1,0 +1,27 @@
+---
+title: Screenberry XGrid Patch - X字形のグリッドパターンへのマッピング
+description: XGridノードを利用した、 X字形のグリッドパターンの表面へのマッピング方法について説明します。
+openGraph:
+  title: Screenberry XGrid Patch - X字形のグリッドパターンへのマッピング
+  description: XGridノードを利用した、 X字形のグリッドパターンの表面へのマッピング方法について説明します。
+---
+
+# XGrid
+
+**XGrid**ノードは、主にX字形のグリッドパターンを表面にマッピングするために使用されるPatchノードです。
+
+典型的なセットアップでは、セットアップでは、**XGrid**ノードは入力としてソース映像を受け取り、変形された映像を**Display**ノードまたは**Canvas**ノードに出力します。
+
+![XGrid Node Tree](/images/warping-alignment/static/XGrid-node-tree.png)
+
+<small>**XGrid** ノードを使用したノードグラフの例</small>
+
+**Patch Editor**でXGridノードを使用するには、以下の手順を実行してください：
+
+1. **Settings**パネルの**Grid Size**に**X**と**Y**の値を入力して、メッシュグリッドを作成します。
+2. **Input**パネルで、メッシュ制御点のハンドルをドラッグしてソース映像のマッピングを定義します。
+3. **Output**パネルで、メッシュ制御点のハンドルをドラッグして、映像をオブジェクトの形状に合わせます。
+
+<img alt="XGrid" src="/images/warping-alignment/animation/XGrid.gif" width={800} height={380} loading="lazy" />
+
+**XGrid**ノードを使用する場合は、Patchの共通操作について[Patchの編集](../patch-editor/editing-patches/)の章も参照してください。

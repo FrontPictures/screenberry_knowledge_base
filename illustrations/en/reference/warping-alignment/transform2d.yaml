@@ -1,0 +1,30 @@
+schema_version: 1
+document: knowledge/en/reference/warping-alignment/transform2d.md
+document_id: guide.warping-alignment.transform2d
+language: en
+document_body_sha256: 085798a090b4c7a0b7c54cf59c49a484ab10aa6d9964b6b5c23a13767ca4d741
+figures:
+  - id: en-60de02ab2b-001
+    title: Transform2D
+    caption: Transform2D
+    show: "Transform2D. Use the adjacent instructions as the content brief: The Transform 2D node allows you to apply static or dynamic post-processing transformations to the patches. Typically, it is used to position, move, scale, rotate patches, and create various picture-in-picture effects. The Transform 2D node connects to the Transform Matrix input parameter of the target patch node. Example of the node graph with the Transform 2D node"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 3
+      section: Transform 2D
+    source_url: https://help.screenberry.com/images/warping-alignment/static/Transform2D.png
+    source_alt: Transform2D
+    text_coverage: not-independently-verified
+  - id: en-60de02ab2b-002
+    title: Transform2D Transformations2
+    caption: Transform2D Transformations2
+    show: "Transform2D Transformations2. Use the adjacent instructions as the content brief: Scaling Speed Sets the speed of continuous scaling relative to Anchor Point. Rotation Speed Sets the speed of continuous rotation around Anchor Point. In addition, working with the Transform 2D patch follows the general principles for working with patches outlined in the Editing Patches section of the documentation."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: Transform 2D
+    source_url: https://help.screenberry.com/images/warping-alignment/animation/Transform2D-Transformations2.gif
+    source_alt: Transform2D Transformations2
+    text_coverage: not-independently-verified

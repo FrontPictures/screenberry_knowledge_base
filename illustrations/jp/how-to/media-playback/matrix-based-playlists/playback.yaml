@@ -1,0 +1,90 @@
+schema_version: 1
+document: knowledge/jp/how-to/media-playback/matrix-based-playlists/playback.md
+document_id: guide.media-playback.matrix-based-playlists.playback
+language: ja
+document_body_sha256: 56371cbab65c3c287798081c157373e893d735a1b2fb913fd420223fb1c3c518
+figures:
+  - id: ja-fd4b5bab3f-001
+    title: Playback Of Individual Media Items Matrix
+    caption: Playback Of Individual Media Items Matrix
+    show: "Playback Of Individual Media Items Matrix. Use the adjacent instructions as the content brief: 再生を一時停止するには、Pause ボタンをクリックします。この操作により、再生中のメディアアイテムの最後に再生されたフレームで一時停止され、これらのフレームが出力され続けます。 再生を完全に停止するには、Stop ボタンをクリックします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: 個々のメディアアイテムの再生
+    source_url: https://help.screenberry.com/images/media-playback/animation/Playback-of-Individual-Media-Items-Matrix.gif
+    source_alt: Playback Of Individual Media Items Matrix
+    text_coverage: not-independently-verified
+  - id: ja-fd4b5bab3f-002
+    title: 行ごとの再生
+    caption: 行ごとの再生
+    show: "行ごとの再生. Use the adjacent instructions as the content brief: 行ヘッダのPlay Previous ボタンとPlay Next ボタンを使用すると、特定の行内のメディアアイテムを順次再生することができます： Play Previous： 再生を前のメディアアイテムに戻します。Play Next： 再生を次のメディアアイテムに進めます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: 行ごとの再生
+    source_url: https://help.screenberry.com/images/media-playback/animation/Row-Specific-Playback.gif
+    source_alt: Alt text
+    text_coverage: not-independently-verified
+  - id: ja-fd4b5bab3f-003
+    title: Column Specific Playback
+    caption: Column Specific Playback
+    show: "Column Specific Playback. Use the adjacent instructions as the content brief: さらに、プレイリストの再生制御バーのPlay Previous ボタンとPlay Next ボタンを使用して、列ごとの順次再生操作を行うことができます。 Play Previous： 前の列の再生に移動します。これは、現在再生中のメディアアイテムを最も上位のアクティブな行で特定し、そのアイテムの直前の列の再生を開始することで実現されます。Play Next： 次の列の再生に進みます。これは、現在再生中のメディアアイテムを最も上位のアクティブな行で特定し、そのアイテムの直後の列の再生を開始することで実現されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 21
+      section: 列ごとの再生
+    source_url: https://help.screenberry.com/images/media-playback/animation/Column-Specific-Playback.gif
+    source_alt: Column Specific Playback
+    text_coverage: not-independently-verified
+  - id: ja-fd4b5bab3f-004
+    title: Lock Playback Controls Matrix
+    caption: Lock Playback Controls Matrix
+    show: "Lock Playback Controls Matrix. Use the adjacent instructions as the content brief: 再生制御バーには、以下の機能も用意されています。 Lock/Unlock Playback Controlsトグルボタン ： マトリックス型プレイリストの再生状態が意図せず変更されるのを防ぎます。このトグルボタンをアクティブにすると、Play Selected、Play、Pause、Stopなどの再生制御ボタンがすべて操作できなくなります。これらの操作を再度行う場合は、トグルボタンを再度クリックしてください。 Reveal Active Itemボタン ： 現在再生中のメディアアイテムを素早く見つけることができます。このボタンをクリックすると、アクティブなプレイリストに表示が切り替わり、現在再生中のメディアアイテムに自動的にスクロールし、ハイライト表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: その他の再生制御機能
+    source_url: https://help.screenberry.com/images/media-playback/animation/Lock-Playback-Controls-Matrix.gif
+    source_alt: Lock Playback Controls Matrix
+    text_coverage: not-independently-verified
+  - id: ja-fd4b5bab3f-005
+    title: Reveal Active Item Matrix
+    caption: Reveal Active Item Matrix
+    show: "Reveal Active Item Matrix. Use the adjacent instructions as the content brief: Reveal Active Itemボタン ： 現在再生中のメディアアイテムを素早く見つけることができます。このボタンをクリックすると、アクティブなプレイリストに表示が切り替わり、現在再生中のメディアアイテムに自動的にスクロールし、ハイライト表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: その他の再生制御機能
+    source_url: https://help.screenberry.com/images/media-playback/animation/Reveal-Active-Item-Matrix.gif
+    source_alt: Reveal Active Item Matrix
+    text_coverage: not-independently-verified
+  - id: ja-fd4b5bab3f-006
+    title: Indication Playback
+    caption: Indication Playback
+    show: "Indication Playback. Use the adjacent instructions as the content brief: マトリックス型プレイリストが再生、一時停止、または停止されている場合、ナビゲーションパネルのプレイリスト名の隣にある対応するアイコンに現在の状態が表示されます。現在アクティブなプレイリストが折りたたまれたフォルダ内にある場合、これらのアイコンはフォルダアイコンを置き換えます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: 状態表示
+    source_url: https://help.screenberry.com/images/media-playback/animation/Indication-Playback.gif
+    source_alt: Indication Playback
+    text_coverage: not-independently-verified
+  - id: ja-fd4b5bab3f-007
+    title: Playback Prioritization Matrix
+    caption: Playback Prioritization Matrix
+    show: "Playback Prioritization Matrix. Use the adjacent instructions as the content brief: マトリックス型プレイリストでは、再生に関連するすべての新しいユーザーの操作は、前の操作よりも優先されます。例えば、列の再生が開始され、その後ひとつの行が一時停止される場合、このより新しい操作が優先され、その行の再生が一時停止されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 29
+      section: 再生の優先度
+    source_url: https://help.screenberry.com/images/media-playback/animation/Playback-Prioritization-Matrix.gif
+    source_alt: Playback Prioritization Matrix
+    text_coverage: not-independently-verified

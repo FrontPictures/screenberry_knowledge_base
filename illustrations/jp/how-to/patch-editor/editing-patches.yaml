@@ -1,0 +1,522 @@
+schema_version: 1
+document: knowledge/jp/how-to/patch-editor/editing-patches.md
+document_id: guide.patch-editor.editing-patches
+language: ja
+document_body_sha256: e161dfeeb20b586ebfaa40a2a4cc41ca99852d83856801fc2aacfd8041795df0
+figures:
+  - id: ja-5dcf73e919-001
+    title: Selecting Patches 1
+    caption: Selecting Patches 1
+    show: "Selecting Patches 1. Use the adjacent instructions as the content brief: Patch Editor内で： ナビゲーションツリーパネルでPatchをクリックします。連続していない複数のPatchを選択するには、ナビゲーションツリー内でそれらを Ctrl キーを押しながらクリックします。連続した複数のPatchを選択するには、最初のPatchをクリックし、ナビゲーションツリーパネルで最後のPatchを Shift キーを押しながらクリックします。すべてのPatchを選択するには、ナビゲーションツリーパネルをクリックしてから Ctrl + A を押します。 ノードグラフ 内では："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: Patchの選択
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Selecting-Patches-1.gif
+    source_alt: Selecting Patches 1
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-002
+    title: Selecting Patches 2
+    caption: Selecting Patches 2
+    show: "Selecting Patches 2. Use the adjacent instructions as the content brief: ノードグラフ 内では： Patchノードをダブルクリックします。 Display Editor内では："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 8
+      section: Patchの選択
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Selecting-Patches-2.gif
+    source_alt: Selecting Patches 2
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-003
+    title: Selecting Patches 3
+    caption: Selecting Patches 3
+    show: "Selecting Patches 3. Use the adjacent instructions as the content brief: Display Editor内では： Displayをダブルクリックすると、このDisplayに接続されているすべてのPatchがPatch Editorで選択されます。 複数のPatchが選択されている場合、SettingsパネルでPatchタイプ名の横にある数字をクリックすることで、特定のタイプのPatchを選択することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 10
+      section: Patchの選択
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Selecting-Patches-3.gif
+    source_alt: Selecting Patches 3
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-004
+    title: Selecting Patches 4
+    caption: Selecting Patches 4
+    show: "Selecting Patches 4. Use the adjacent instructions as the content brief: 複数のPatchが選択されている場合、SettingsパネルでPatchタイプ名の横にある数字をクリックすることで、特定のタイプのPatchを選択することができます。 連続したPatchの編集に切り替えるには、次のいずれかの方法を行ってください："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: Patchの選択
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Selecting-Patches-4.gif
+    source_alt: Selecting Patches 4
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-005
+    title: Selecting Patches 5
+    caption: Selecting Patches 5
+    show: "Selecting Patches 5. Use the adjacent instructions as the content brief: 連続したPatchの編集に切り替えるには、次のいずれかの方法を行ってください： Z キーを押して次のPatchを選択するか、Shift + Z を押して前のPatchを選択します。InputパネルまたはOutputパネルで右クリックし、ドロップダウンメニューから Select Next PatchまたはSelect Previous Patchを選択します。 Patchが選択されると、そのPatchに対応したSettingsパネルが表示され、設定の確認や変更ができるようになります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: Patchの選択
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Selecting-Patches-5.gif
+    source_alt: Selecting Patches 5
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-006
+    title: Selecting Patches 6 1
+    caption: Selecting Patches 6 1
+    show: "Selecting Patches 6 1. Use the adjacent instructions as the content brief: Patchが選択されると、そのPatchに対応したSettingsパネルが表示され、設定の確認や変更ができるようになります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 14
+      section: Patchの選択
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Selecting-Patches-6-1.gif
+    source_alt: Selecting Patches 6 1
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-007
+    title: Modifying Output Image Geometry 1
+    caption: Modifying Output Image Geometry 1
+    show: "Modifying Output Image Geometry 1. Use the adjacent instructions as the content brief: 映像出力のジオメトリを変更するには、Outputパネルのメッシュ制御点（頂点）の円形ハンドルを選択し、ドラッグしてください。これによって、出力映像の形状や表示される場所が変更されます。 複数の制御点は、Shift キーを押しながら一つずつクリックするか、マウスの左ボタンを押しながらドラッグして箱型に囲むことで選択できます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: 映像出力のジオメトリの変更
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Modifying-Output-Image-Geometry-1.gif
+    source_alt: Modifying Output Image Geometry 1
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-008
+    title: Modifying Output Image Geometry 2
+    caption: Modifying Output Image Geometry 2
+    show: "Modifying Output Image Geometry 2. Use the adjacent instructions as the content brief: 複数の制御点は、Shift キーを押しながら一つずつクリックするか、マウスの左ボタンを押しながらドラッグして箱型に囲むことで選択できます。 メモ： 映像のジオメトリ調整を行う際には、Screenberryの画面出力を実際に見ながら作業することをおすすめします。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 17
+      section: 映像出力のジオメトリの変更
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Modifying-Output-Image-Geometry-2.gif
+    source_alt: Modifying Output Image Geometry 2
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-009
+    title: Adjusting UV Map
+    caption: Adjusting UV Map
+    show: "Adjusting UV Map. Use the adjacent instructions as the content brief: Screenberryでは、Patchノードによって受け取られたソース映像は、Patchで定義されたジオメトリにUVマップされます。入力映像のUVマッピングを調整するには、Inputパネルでメッシュ制御点（UVマップの頂点）の円形ハンドルを選択してドラッグします。これによって、出力映像が参照する入力映像との対応関係が変更されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 20
+      section: UVマップの調整
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Adjusting-UV-Map.gif
+    source_alt: Adjusting UV Map
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-010
+    title: Setting Control Points Coordinates
+    caption: Setting Control Points Coordinates
+    show: "Setting Control Points Coordinates. Use the adjacent instructions as the content brief: 制御点座標を表示するには、次のいずれかの方法を使用します： スペースバー を押します。Inputパネルまたは Outputパネルで右クリックし、ドロップダウンメニューから Show Coordinatesを選択します。View OptionsパネルでShow Coordinatesを選択します。 制御点の座標を手動で変更するには、制御点を選択して Enter キーを押すか、制御点を右クリックしてドロップダウンメニューから Set Position を選択します。ダイアログボックスに X 座標と Y 座標を入力してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 23
+      section: 制御点座標
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Setting-Control-Points-Coordinates.gif
+    source_alt: Setting Control Points Coordinates
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-011
+    title: Setting Control Points Coordinates 2
+    caption: Setting Control Points Coordinates 2
+    show: "Setting Control Points Coordinates 2. Use the adjacent instructions as the content brief: 制御点の座標を手動で変更するには、制御点を選択して Enter キーを押すか、制御点を右クリックしてドロップダウンメニューから Set Position を選択します。ダイアログボックスに X 座標と Y 座標を入力してください。 メモ： 座標の原点(0,0)は左上隅にあります。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 24
+      section: 制御点座標
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Setting-Control-Points-Coordinates-2.gif
+    source_alt: Setting Control Points Coordinates 2
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-012
+    title: Flipping And Rotating
+    caption: Flipping And Rotating
+    show: "Flipping And Rotating. Use the adjacent instructions as the content brief: Patch EditorのInputパネルまたはOutputパネルにおいて、垂直反転や時計回りに90度回転 を適用することができます。制御点を反転するには、Patchの制御点を選択し、F キーを押すか、制御点を右クリックしてドロップダウンメニューから Transform > Flip を選択します。回転するには、Patchの制御点を選択し、R キーを押すか、コントロールポイントを右クリックしてドロップダウンメニューから Transform > Rotate Indexes を選択します。 メモ： メッシュを反転または回転する際に制御点を選択すると、どのような幾何学的な変換やUVレイアウトの変換が適用されているかを理解するのに役立ちます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 27
+      section: Patchの反転と回転
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Flipping-and-Rotating.gif
+    source_alt: Flipping And Rotating
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-013
+    title: Modifying Density
+    caption: Modifying Density
+    show: "Modifying Density. Use the adjacent instructions as the content brief: 映像のジオメトリ修正に対してより細かな編集を行うために、制御点の密度を変更することができます。制御点の密度を変更するには、対応するキーボードショートカットを使用するか、Patch Editorの作業エリアで右クリックしてドロップダウンメニューから Subdivide/Merge/[機能名] を選択します。以下の機能とキーボードショートカットが利用可能です： Increase Subdivision（Ctrl + X）は、ポリゴンを半分に割って新しい頂点を追加することでポリゴンを分割します。Decrease Subdivision（Ctrl + Shift + X）は、隣接するポリゴンを共有する境界を削除することでポリゴンを結合します。Subdivide Columns（Ctrl + Shift + Right）は、すべての列のポリゴンを半分に割って新しい頂点を追加します。Merge Columns（Ctrl + Shift + "
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 31
+      section: 制御点の密度の変更
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Modifying-Density.gif
+    source_alt: Modifying Density
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-014
+    title: Guidelines 1
+    caption: Guidelines 1
+    show: "Guidelines 1. Use the adjacent instructions as the content brief: 制御点の位置が編集されると、灰色の点線の水平および垂直のスマートガイドが表示されます。これらは、制御点の以前の座標を視覚的表示することで、以前の軸に沿って整列しやすくします。 また、Rectangle Patchを編集する際には、ソース映像のアスペクト比を示す追加の対角線状の灰色点線のスマートガイドが表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 33
+      section: スマートガイドとガイドラインの使用
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Guidelines-1.gif
+    source_alt: Guidelines 1
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-015
+    title: Guidelines 2
+    caption: Guidelines 2
+    show: "Guidelines 2. Use the adjacent instructions as the content brief: また、Rectangle Patchを編集する際には、ソース映像のアスペクト比を示す追加の対角線状の灰色点線のスマートガイドが表示されます。 独自にガイドラインを追加するには、空白の領域で右クリックし、ドロップダウンメニューからGuideline Editorを選択します。表示されたダイアログボックスで、次のいずれかを行います："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 34
+      section: スマートガイドとガイドラインの使用
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Guidelines-2.gif
+    source_alt: Guidelines 2
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-016
+    title: Guidelines 3
+    caption: Guidelines 3
+    show: "Guidelines 3. Use the adjacent instructions as the content brief: 列（Columns）と 行（Rows）の値を入力し、Add Gridボタンを押してガイドライングリッドを作成します。座標を入力し、Add Horizontal GuidelineまたはAdd Vertical Guidelineボタンを押して個々のガイドラインを追加します。 すべてのガイドラインを削除する場合は、Clear Allボタンを押します。ガイドラインの設定が完了したら、OKボタンを押してガイドラインを追加します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 37
+      section: スマートガイドとガイドラインの使用
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Guidelines-3.gif
+    source_alt: Guidelines 3
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-017
+    title: Snapping
+    caption: Snapping
+    show: "Snapping. Use the adjacent instructions as the content brief: デフォルトでは、自動スナッピング機能が有効になっています。制御点の位置を変更すると、ガイドライン、スマートガイド、出力Canvasの端、および近くに配置された他の制御点にスナップします。制御点をドラッグする際に一時的にスナップを無効にするには、Shift キーを押し続けます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 39
+      section: スナッピング
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Snapping.gif
+    source_alt: Snapping
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-018
+    title: Alignment Of The Control Points 1
+    caption: Alignment Of The Control Points 1
+    show: "Alignment Of The Control Points 1. Use the adjacent instructions as the content brief: 選択した制御点を水平方向に整列するには、Shift + H を押すか、選択した制御点を右クリックし、ドロップダウンメニューから Align Horizontally を選択します。 選択した制御点を垂直方向に整列するには、Shift + V を押すか、選択した制御点を右クリックし、ドロップダウンメニューから Align Vertically を選択します。 制御点の編集中に移動制限をかけることもできます："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 41
+      section: 制御点の垂直および水平方向の整列
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Alignment-of-the-Control-Points-1.gif
+    source_alt: Alignment Of The Control Points 1
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-019
+    title: Alignment Of The Control Points 2
+    caption: Alignment Of The Control Points 2
+    show: "Alignment Of The Control Points 2. Use the adjacent instructions as the content brief: 制御点の編集中に移動制限をかけることもできます： 水平軸に移動制限をかけるには、H キーを押すか、制御点を右クリックしてドロップダウンメニューからConstrain Horizontallyを選択します。垂直軸に移動制限をかけるには、V キーを押すか、制御点を右クリックしてドロップダウンメニューからConstrain Verticallyを選択します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 43
+      section: 制御点の垂直および水平方向の整列
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Alignment-of-the-Control-Points-2.gif
+    source_alt: Alignment Of The Control Points 2
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-020
+    title: Previewing Patch Output
+    caption: Previewing Patch Output
+    show: "Previewing Patch Output. Use the adjacent instructions as the content brief: プレビュー表示を手動で更新する必要がある場合、次のいずれかの方法を使用します： F5 を押します。View Optionsパネルで、Live Image > Image [ Refresh ] ボタンを押します。パネル内で右クリックし、ドロップダウンメニューでGet Live Image from Serverを選択します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 48
+      section: Patchの映像出力のプレビュー
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Previewing-Patch-Output.gif
+    source_alt: Previewing Patch Output
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-021
+    title: Reference Image
+    caption: Reference Image
+    show: "Reference Image. Use the adjacent instructions as the content brief: View Optionsパネルの Reference Image > Show を選択/選択解除します。パネル内で右クリックし、ドロップダウンメニューで Show Reference Image を選択/選択解除します。 これらの操作では、以前に参照画像が読み込まれていない場合、画像の読み込みダイアログボックスが表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 54
+      section: 参照画像の使用方法
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Reference-Image.gif
+    source_alt: Reference Image
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-022
+    title: Viewmode1
+    caption: Viewmode1
+    show: "Viewmode1. Use the adjacent instructions as the content brief: PatchのSettingsパネルで、View Modeから3つの利用可能な表示モードのうち1つを選択できます。 Texturedは、出力映像のみを表示します。Textured + Cageは、出力映像と制御点グリッド（赤い線）を表示します。Textured + Wireframeは、出力映像、制御点グリッド（赤い線）、および細分化されたメッシュポリゴンのワイヤーフレーム（灰色の線）を表示します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 58
+      section: Outputパネルの表示モードの選択
+    source_url: https://help.screenberry.com/images/patch-editor/static/viewmode1.jpg
+    source_alt: Viewmode1
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-023
+    title: Viewmode2
+    caption: Viewmode2
+    show: "Viewmode2. Use the adjacent instructions as the content brief: PatchのSettingsパネルで、View Modeから3つの利用可能な表示モードのうち1つを選択できます。 Texturedは、出力映像のみを表示します。Textured + Cageは、出力映像と制御点グリッド（赤い線）を表示します。Textured + Wireframeは、出力映像、制御点グリッド（赤い線）、および細分化されたメッシュポリゴンのワイヤーフレーム（灰色の線）を表示します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 58
+      section: Outputパネルの表示モードの選択
+    source_url: https://help.screenberry.com/images/patch-editor/static/viewmode2.jpg
+    source_alt: Viewmode2
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-024
+    title: Viewmode3
+    caption: Viewmode3
+    show: "Viewmode3. Use the adjacent instructions as the content brief: PatchのSettingsパネルで、View Modeから3つの利用可能な表示モードのうち1つを選択できます。 Texturedは、出力映像のみを表示します。Textured + Cageは、出力映像と制御点グリッド（赤い線）を表示します。Textured + Wireframeは、出力映像、制御点グリッド（赤い線）、および細分化されたメッシュポリゴンのワイヤーフレーム（灰色の線）を表示します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 58
+      section: Outputパネルの表示モードの選択
+    source_url: https://help.screenberry.com/images/patch-editor/static/viewmode3.jpg
+    source_alt: Viewmode3
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-025
+    title: Modifying Density
+    caption: Modifying Density
+    show: "Modifying Density. Use the adjacent instructions as the content brief: Patchの変形の結果として得られる出力映像の全体的な滑らかさは、メッシュの細分化の密度を上げることで改善できます。これにより、より 細かい変形 が実現できます。 PatchのSettingsパネルのSubdivisions欄に値を入力することで、細分化の数を変更できます。最大値は256、最小値は1で、デフォルトは5です。 メッシュの細分化を5から20に変更することで、出力映像像の滑らかさが向上する例です。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 61
+      section: メッシュの細分化密度を変更する
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Modifying-Density.gif
+    source_alt: Modifying Density
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-026
+    title: Patch Editor Interpolation Algorithm
+    caption: Patch Editor Interpolation Algorithm
+    show: "Patch Editor Interpolation Algorithm. Use the adjacent instructions as the content brief: Patchのピクセル補間方法を、SettingsパネルのImage Interpolationドロップダウンで、線形補間（Linear）または 最近傍（Nearest-neighbor）から選択することができます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 65
+      section: 補間アルゴリズムの選択
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Patch-Editor-Interpolation-Algorithm.gif
+    source_alt: Patch Editor Interpolation Algorithm
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-027
+    title: Changing Patch Opacity
+    caption: Changing Patch Opacity
+    show: "Changing Patch Opacity. Use the adjacent instructions as the content brief: Patchの不透明度を調整するには、SettingsパネルのOpacityの値を変更してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 67
+      section: Patchの不透明度の変更
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Changing-Patch-Opacity.gif
+    source_alt: Changing Patch Opacity
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-028
+    title: Softening Patch Edges
+    caption: Softening Patch Edges
+    show: "Softening Patch Edges. Use the adjacent instructions as the content brief: Patchの端を透明にフェードさせるためには、PatchのSettingsパネルのSoft Edge欄に、ピクセル単位でフェードの幅を入力してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 69
+      section: Patchの端を柔らかくする
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Softening-Patch-Edges.gif
+    source_alt: Softening Patch Edges
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-029
+    title: Transformations 1
+    caption: Transformations 1
+    show: "Transformations 1. Use the adjacent instructions as the content brief: Patchに対して様々な変換行列を適用することができます。PatchのSettingsパネルのTransform MatrixのEditボタンをクリックして、行列の値を編集します。 変形行列の例："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 71
+      section: Patchへの行列変形の適用
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Transformations-1.gif
+    source_alt: Transformations 1
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-030
+    title: Transformations 2
+    caption: Transformations 2
+    show: "Transformations 2. Use the adjacent instructions as the content brief: 100tx010ty00100001 傾斜： tx は x 軸に沿った傾斜係数を指定します。ty は y 軸に沿った傾斜係数を指定します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 80
+      section: Patchへの行列変形の適用
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Transformations-2.gif
+    source_alt: Transformations 2
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-031
+    title: Locking Patch Geometry
+    caption: Locking Patch Geometry
+    show: "Locking Patch Geometry. Use the adjacent instructions as the content brief: Patch変形の余計な編集を防ぐには、PatchのSettingsパネルでLock Geometryチェックボックスを選択してください。 メモ： サーバーで直接キーボードショートカットの Z（次のPatch）と Shift + Z（前のPatch）を使用してPatchを順次選択する際、Lock Geometry チェックボックスが選択されているPatchはスキップされます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 82
+      section: Patch変形のロック
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Locking-Patch-Geometry.gif
+    source_alt: Locking Patch Geometry
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-032
+    title: Test Pattern 1
+    caption: Test Pattern 1
+    show: "Test Pattern 1. Use the adjacent instructions as the content brief: より効率的で便利なPatch編集のためには、Test Patternノードで生成されたグリッドテストパターンの使用を検討してください。このノードをPatchノードに接続し、Settingsパネルでテストパターンの外観を調整します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 85
+      section: テストパターンの使用
+    source_url: https://help.screenberry.com/images/patch-editor/static/Test-Pattern-1.png
+    source_alt: Test Pattern 1
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-033
+    title: Test Pattern 2
+    caption: Test Pattern 2
+    show: "Test Pattern 2. Use the adjacent instructions as the content brief: より効率的で便利なPatch編集のためには、Test Patternノードで生成されたグリッドテストパターンの使用を検討してください。このノードをPatchノードに接続し、Settingsパネルでテストパターンの外観を調整します。 Test Patternノードによって生成されたデフォルトのグリッドテストパターン"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 85
+      section: テストパターンの使用
+    source_url: https://help.screenberry.com/images/patch-editor/static/Test-Pattern-2.png
+    source_alt: Test Pattern 2
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-034
+    title: Reset Patch
+    caption: Reset Patch
+    show: "Reset Patch. Use the adjacent instructions as the content brief: Patchを初期状態に戻すには、ナビゲーションツリーでPatch名を右クリックし、ドロップダウンメニューからReset Patchを選択します。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 88
+      section: Patchを初期状態に戻す
+    source_url: https://help.screenberry.com/images/patch-editor/animation/Reset-Patch.gif
+    source_alt: Reset Patch
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-035
+    title: Server Shortcuts Selection
+    caption: Server Shortcuts Selection
+    show: "Server Shortcuts Selection. Use the adjacent instructions as the content brief: Patchの選択 Patch編集モードの選択"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 94
+      section: サーバーでのキーボードショートカットの使用例
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-selection.gif
+    source_alt: Server Shortcuts Selection
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-036
+    title: Server Shortcuts Switchingmodes
+    caption: Server Shortcuts Switchingmodes
+    show: "Server Shortcuts Switchingmodes. Use the adjacent instructions as the content brief: Patch編集モードの選択 制御点の選択と移動"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 95
+      section: サーバーでのキーボードショートカットの使用例
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-switchingmodes.gif
+    source_alt: Server Shortcuts Switchingmodes
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-037
+    title: Server Shortcuts Select And Move Points
+    caption: Server Shortcuts Select And Move Points
+    show: "Server Shortcuts Select And Move Points. Use the adjacent instructions as the content brief: 制御点の選択と移動 Patchメッシュのポリゴン面の選択（TriangleMesh Patchのみ）"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 96
+      section: サーバーでのキーボードショートカットの使用例
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-select-and-move-points.gif
+    source_alt: Server Shortcuts Select And Move Points
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-038
+    title: Server Shortcuts Trimesh
+    caption: Server Shortcuts Trimesh
+    show: "Server Shortcuts Trimesh. Use the adjacent instructions as the content brief: Patchメッシュのポリゴン面の選択（TriangleMesh Patchのみ） Patchメッシュのすべての制御点を一括で移動およびスケーリング"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 97
+      section: サーバーでのキーボードショートカットの使用例
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-trimesh.gif
+    source_alt: Server Shortcuts Trimesh
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-039
+    title: Server Shortcuts Move Scale All Control Points At Once
+    caption: Server Shortcuts Move Scale All Control Points At Once
+    show: "Server Shortcuts Move Scale All Control Points At Once. Use the adjacent instructions as the content brief: Patchメッシュのすべての制御点を一括で移動およびスケーリング 編集ステップの増分を変更"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 98
+      section: サーバーでのキーボードショートカットの使用例
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-Move-scale-all-control-points-at-once.gif
+    source_alt: Server Shortcuts Move Scale All Control Points At Once
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-040
+    title: Server Shortcuts Increase Increment
+    caption: Server Shortcuts Increase Increment
+    show: "Server Shortcuts Increase Increment. Use the adjacent instructions as the content brief: 編集ステップの増分を変更 Patchメッシュの反転と回転"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 99
+      section: サーバーでのキーボードショートカットの使用例
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-Increase-increment.gif
+    source_alt: Server Shortcuts Increase Increment
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-041
+    title: Server Shortcuts Rotation
+    caption: Server Shortcuts Rotation
+    show: "Server Shortcuts Rotation. Use the adjacent instructions as the content brief: Patchメッシュの反転と回転 制御点ハンドルの向きの変更"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 100
+      section: サーバーでのキーボードショートカットの使用例
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-rotation.gif
+    source_alt: Server Shortcuts Rotation
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-042
+    title: Server Shortcuts Control Point Handle
+    caption: Server Shortcuts Control Point Handle
+    show: "Server Shortcuts Control Point Handle. Use the adjacent instructions as the content brief: 制御点ハンドルの向きの変更 制御点の密度の変更"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 101
+      section: サーバーでのキーボードショートカットの使用例
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-control-point-handle.gif
+    source_alt: Server Shortcuts Control Point Handle
+    text_coverage: not-independently-verified
+  - id: ja-5dcf73e919-043
+    title: Server Shortcuts Grid Subdivisions
+    caption: Server Shortcuts Grid Subdivisions
+    show: "Server Shortcuts Grid Subdivisions. Use the adjacent instructions as the content brief: 制御点の密度の変更"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 102
+      section: サーバーでのキーボードショートカットの使用例
+    source_url: https://help.screenberry.com/images/patch-editor/animation/server-shortcuts-grid-subdivisions.gif
+    source_alt: Server Shortcuts Grid Subdivisions
+    text_coverage: not-independently-verified

@@ -1,0 +1,66 @@
+schema_version: 1
+document: knowledge/en/how-to/automatic-calibration/calibration-process.md
+document_id: guide.automatic-calibration.calibration-process
+language: en
+document_body_sha256: fe81c8d58a9d047deb07e24eaaee7c109ce88b61ff9c5b149873541c53296d96
+figures:
+  - id: en-e7dfaade93-001
+    title: Automatic Calibration Presets
+    caption: Automatic Calibration Presets
+    show: "Automatic Calibration Presets. Use the adjacent instructions as the content brief: The Calibrator Wizard widget (Window > Calibrator Wizard) offers three calibration presets: Geometry calibration provides geometry alignment and edge blending. It normally takes about 30 seconds per projector and includes the Masks, Geometry, and Blends calibration stages.Geometry + Intensity calibration provides geometry alignment, edge blending, and black and white level compensation. It normally takes about 1.5 mi"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 4
+      section: Automatic Calibration Presets
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Automatic-Calibration-Presets.png
+    source_alt: Automatic Calibration Presets
+    text_coverage: not-independently-verified
+  - id: en-e7dfaade93-002
+    title: Camera Positioning
+    caption: Camera Positioning
+    show: "Camera Positioning. Use the adjacent instructions as the content brief: When the calibration preset is selected, the system automatically takes a test photo. If the camera is not connected or not functioning properly, an Error message will appear."
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 9
+      section: Checking Projectors and Camera Positioning
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Camera-Positioning.png
+    source_alt: Camera Positioning
+    text_coverage: not-independently-verified
+  - id: en-e7dfaade93-003
+    title: Calibration Area Selection
+    caption: Calibration Area Selection
+    show: "Calibration Area Selection. Use the adjacent instructions as the content brief: The objects outside the projection area (light sources, trusses, etc) can reflect or emit light and, thus affect the calibration results — distorting calibration geometry or influencing black level compensation and brightness balance. Therefore, it is important to precisely define the projection area — anything inside the specified area is calibrated while everything outside is ignored. Open the Calibration Area drop"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 16
+      section: Defining the Calibration Projection Area
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Calibration-Area-Selection.png
+    source_alt: Calibration Area Selection
+    text_coverage: not-independently-verified
+  - id: en-e7dfaade93-004
+    title: Automatic Calibration Process2
+    caption: Automatic Calibration Process2
+    show: "Automatic Calibration Process2. Use the adjacent instructions as the content brief: Once the calibration projection area is defined, press the Start (Selected Calibration Preset) button to start the calibration. During calibration, the Calibrator Wizard displays the calibration progress bar, the current calibration stage, and photos of the calibration patterns projected on the screen. The calibration process can be interrupted by pressing the Abort button . The Abort button stays active during calib"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 23
+      section: Running Calibration
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Automatic-Calibration-process2.gif
+    source_alt: Automatic Calibration Process2
+    text_coverage: not-independently-verified
+  - id: en-e7dfaade93-005
+    title: Finish Calibration2
+    caption: Finish Calibration2
+    show: "Finish Calibration2. Use the adjacent instructions as the content brief: The calibration process can be interrupted by pressing the Abort button . The Abort button stays active during calibration and deactivates once the calibration process is finished successfully. Press the Finish button when the calibration process is completed. The Finish button is inactive during the calibration process and activates when calibration is completed. Important: To achieve the best calibration results, d"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 25
+      section: Running Calibration
+    source_url: https://help.screenberry.com/images/automatic-calibration/static/Finish-Calibration2.jpg
+    source_alt: Finish Calibration2
+    text_coverage: not-independently-verified

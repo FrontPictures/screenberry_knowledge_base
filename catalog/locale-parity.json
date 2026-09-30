@@ -1,0 +1,12 @@
+{
+  "en_only": [
+    "guide.displays-control",
+    "guide.getting-started.first-project",
+    "guide.getting-started.licensing",
+    "guide.getting-started.platform-compatibility",
+    "guide.media-playback.playlists.transformation-properties",
+    "guide.node-reference.primary-nodes.info"
+  ],
+  "jp_only": [],
+  "translation_alignment": "Not verified during migration; existing content preserved without translation."
+}

@@ -1,0 +1,95 @@
+---
+id: guide.3d-scene.3d-primitive
+variant_id: guide.3d-scene.3d-primitive.imported-current-guide
+title: Screenberryの3Dシーン - 3Dプリミティブの追加と修正
+language: ja
+kind: how-to
+status: in_review
+owner: unassigned
+applies_to:
+  from: null
+  until_exclusive: null
+verified_in: []
+last_verified: null
+evidence:
+  - type: existing-guide
+    path: archive/site/content/jp/3d-scene/3d-primitive.mdx
+    sha256: 842aca2bf76df8b821860c0d09ac844f8b996a167c668e0b5282b46f0144a068
+    scope: Imported text; not independent product verification
+aliases: []
+related: []
+publication:
+  profile: legacy-guide-3.4
+  product_version: "3.4"
+  basis: Snapshot of existing current guide; applicability not independently verified
+  role: guide
+source:
+  path: content/jp/3d-scene/3d-primitive.mdx
+  canonical_url: https://help.screenberry.com/jp/3d-scene/3d-primitive
+  git_commit: 8acf5a3a7526c3013fc44f1dba0b25f88343e745
+  sha256: 842aca2bf76df8b821860c0d09ac844f8b996a167c668e0b5282b46f0144a068
+  imported_at: 2026-09-30T14:15:19.585Z
+  frontmatter:
+    title: Screenberryの3Dシーン - 3Dプリミティブの追加と修正
+    description: Screenberryの3Dシーンで、ボックス、球体、円柱などの基本的な幾何学的形状を追加し修正する方法を学びます。
+    openGraph:
+      title: Screenberryの3Dシーン - 3Dプリミティブの追加と修正
+      description: Screenberryの3Dシーンで、ボックス、球体、円柱などの基本的な幾何学的形状を追加し修正する方法を学びます。
+translation:
+  source_language: en
+  source_id: guide.3d-scene.3d-primitive
+  source_revision: null
+  status: alignment-unverified
+  counterpart: ../../../en/how-to/3d-scene/3d-primitive.md
+presentation:
+  mode: text-only
+  illustrations: illustrations/jp/how-to/3d-scene/3d-primitive.yaml
+  visual_information_review: not-independently-verified
+---
+
+## 3D プリミティブ
+
+**3D プリミティブ** 機能を使用すると、ボックス、球体、円柱などの基本的な幾何学的形状を 3D シーンに追加し、それらを編集することができます。
+
+**3D プリミティブ**を追加するには、以下の手順に従ってください：
+
+1. **Node Graph** ウィジェットに移動します。
+2. ノードグラフに **3D Primitive** ノードを追加します。
+3. **3D Primitive** ノードの **Object** 出力パラメータを **3D Scene** ノードの **Object** 入力パラメータに接続します。
+4. 必要であれば（この手順は後で 3D シーン内で直接実行することもできます）、**3D Primitive** ノードの設定で追加したい幾何学的形状の種類を選択します。選択肢には球体、ボックス、円柱、平面、ドームが含まれます。
+5. **3D Scene** ウィジェットに切り替えて、**3D シーン** ツールを使用するか、**3D Primitive** の設定内でプリミティブの位置と寸法をさらに調整します。
+
+**3D プリミティブ** の設定には以下が含まれます：
+
+##### 一般設定
+
+- **Type**：作成したいプリミティブの種類を選択します：**Sphere**、**Box**、**Cylinder**、**Plane**、または **Dome**。
+- **Size**：幅（**X**）、高さ（**Y**）、奥行き（**Z**）の具体的な値でプリミティブの寸法を定義します。
+
+##### テクスチャ設定
+
+- **Flip U / Flip V**：これらのオプションは U 軸または V 軸上のテクスチャマッピングを反転させます。
+- **Opposite Polygons**：ポリゴンの反対側の描画を有効にします。これは特定の 3D セットアップシナリオで役立つことがあります。例えば、3D カメラがプリミティブの内側に配置されている場合などです。
+- **Double-sided**：チェックを入れると、ポリゴンの両面が描画されます。
+- **Top/Bottom Plane**：ボックスや円柱などの形状の上面と底面を含めるか除外するかを選択します。
+
+##### Baked Texture
+
+- **Render Baked Texture**：このオプションを切り替えて、ベイクテクスチャの継続的な再レンダリングを有効または無効にします。
+- **Baked Texture Size**：ベイクテクスチャの解像度を設定します。幅（**X**）と高さ（**Y**）の値を指定します。例えば、フル HD の場合は 1920x1080 です。
+- **Baked Texture Bits per Channel**：テクスチャの色深度を選択します。オプションには **8 ビット** と **32 ビット**（浮動小数点）\*\* があります。
+- **Baked Texture Wrap Mode**：テクスチャのラッピングに使用する方法を選択します。オプションには **エッジにクランプ**（ピクセルの最後の行または列をエッジまで引き伸ばし、繰り返しを防ぎます）と **エッジピクセルの繰り返し**（テクスチャが元の境界を超えた場合にエッジのピクセルを拡張します）があります。
+
+##### その他のパラメータ
+
+- **Current UV Set**：3D プリミティブのテクスチャマッピングに使用するテクスチャ座標のセットを定義します。
+- **Color**：プリミティブの表面の色を選択します（テクスチャが適用されていない場合）。
+- **Transform Matrix**：スケール、回転、位置を含む変換コントロールにアクセスします。
+- **Transform Order**：スケール、回転、平行移動などの変換が適用される順序を選択します。
+- **Scale**：**X**、**Y**、**Z** 軸に沿ってプリミティブのサイズを調整します。
+- **Rotation Order**：軸周りの回転が適用される順序を指定します。例えば、**Y（ヨー）**、**X（ピッチ）**、**Z（ロール）** などです。
+- **Rotation**：**X**、**Y**、**Z** 軸周りの回転角度を設定して、3D 空間内でプリミティブの向きを決定します。
+- **Position**：**X**、**Y**、**Z** 軸の座標を入力して、3D 空間内でのプリミティブの位置を設定します。
+- **Projection Mapping**：プリミティブの表面への投影テクスチャの適用を有効または無効にします。
+- **Resources Folder**：プリミティブの現在の状態（ジオメトリとテクスチャ座標を含む）が継続的に OBJ ファイルとして保存されるフォルダへのパスを指定します。
+- **UV Set \[N] Texture**：**UV セット\[N]** を使用して 3D プリミティブの表面にマッピングするテクスチャを割り当てます。

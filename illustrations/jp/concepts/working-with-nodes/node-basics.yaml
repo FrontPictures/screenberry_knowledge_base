@@ -1,0 +1,78 @@
+schema_version: 1
+document: knowledge/jp/concepts/working-with-nodes/node-basics.md
+document_id: guide.working-with-nodes.node-basics
+language: ja
+document_body_sha256: a741cbcd840df21ede0fdb96ba71dfd1cda0b477ff439215bc438f116635b0d0
+figures:
+  - id: ja-6c23905d4f-001
+    title: Node Structure2
+    caption: Node Structure2
+    show: "Node Structure2. Use the adjacent instructions as the content brief: Screenberryでのプロジェクト作成は、ノードの追加/リンクと、ノードパラメータの変更の繰り返しです。これは、Screenberry PanelのNode Graphウィジェットで行います。 ノードヘッダーは、次の情報を提供します："
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 6
+      section: ノードの構造
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Node-Structure2.gif
+    source_alt: Node Structure2
+    text_coverage: not-independently-verified
+  - id: ja-6c23905d4f-002
+    title: Example
+    caption: Example
+    show: "Example. Use the adjacent instructions as the content brief: ノードグラフは、ノードを追加してリンクさせることで作成されます。データは、ノードの右側の出力ピンと左側の入力ピンの間のリンクを通じて左から右へと流れます。ノードグラフは、レンダリングされたビデオ、画像、およびオーディオの結果を示すデータフローとプロセスを視覚的に表現しています。 ノードグラフの例"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 11
+      section: ノードグラフの構造とデータフロー
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Example.gif
+    source_alt: Example
+    text_coverage: not-independently-verified
+  - id: ja-6c23905d4f-003
+    title: Links
+    caption: Links
+    show: "Links. Use the adjacent instructions as the content brief: ノードグラフの例 ノード間のリンクはグレーの線で表示されます。選択されたノードへのリンクは緑でハイライトされます。データが送信されている場合（例えば、タイムコードが送信されている場合）、リンクはアニメーション表示されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 13
+      section: ノードグラフの構造とデータフロー
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Links.gif
+    source_alt: Links
+    text_coverage: not-independently-verified
+  - id: ja-6c23905d4f-004
+    title: Execution Order
+    caption: Execution Order
+    show: "Execution Order. Use the adjacent instructions as the content brief: ノードの実行順序は、ノード間のリンクとノードの実行順序番号に基づいて自動的に決定されます。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 15
+      section: ノードの実行順序
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Execution-Order.gif
+    source_alt: Execution Order
+    text_coverage: not-independently-verified
+  - id: ja-6c23905d4f-005
+    title: Node Status
+    caption: Node Status
+    show: "Node Status. Use the adjacent instructions as the content brief: ノードは、インジケータで表示される次の3つの状態のいずれかになることがあります： 有効化されている状態（緑） 無効化されている状態（灰色） 有効化されているが、アクティブではない状態（赤） ノードを無効化または有効化するには、ノードを右クリックし、ドロップダウンメニューでEnabledのチェックボックスを選択/非選択してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 18
+      section: ノードの状態
+    source_url: https://help.screenberry.com/images/working-with-nodes/static/Node-Status.gif
+    source_alt: Node Status
+    text_coverage: not-independently-verified
+  - id: ja-6c23905d4f-006
+    title: Disable Node
+    caption: Disable Node
+    show: "Disable Node. Use the adjacent instructions as the content brief: ノードを無効化または有効化するには、ノードを右クリックし、ドロップダウンメニューでEnabledのチェックボックスを選択/非選択してください。"
+    status: draft-needs-review
+    basis: Existing alt text, heading and adjacent prose only; no visual inspection or new behavioral claim.
+    placement:
+      before_block: 19
+      section: ノードの状態
+    source_url: https://help.screenberry.com/images/working-with-nodes/animation/Disable-Node.gif
+    source_alt: Disable Node
+    text_coverage: not-independently-verified
