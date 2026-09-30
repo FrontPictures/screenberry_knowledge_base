@@ -1,0 +1,53 @@
+---
+title: Screenberry Dome Transform - Precision Alignment for Dome Projections
+description: Learn to apply geometry correction for dome projections to compensate for calibration camera position, orientation, and lens distortion.
+openGraph:
+  title: Screenberry Dome Transform - Precision Alignment for Dome Projections
+  description: Learn to apply geometry correction for dome projections to compensate for calibration camera position, orientation, and lens distortion.
+---
+
+# Dome Transform
+
+The **Dome Transform** node is a patch that allows the application of additional geometry correction to the image aligned by automatic calibration for the dome setup. Typically, it is used to compensate for the position, orientation, and lens distortion of the calibration camera.
+
+Generally, the **Dome Transform** node connects to the **Calibrator** node via the **Render Target** node.
+
+![Dome Transform Node Tree](/images/warping-alignment/static/Dome-Transform-node-tree.png)
+
+<small>Example of the node graph with the **Dome Transform** node</small>
+
+When the **Dome Transform** node is added, the **Dome Transform Controls** widget becomes available in the list of widgets.
+
+<div className="table-pictures table-without-border">
+
+| ![Dome Transform Controls](/images/warping-alignment/static/Dome-Transform-Controls.png) | ![Dome Transform Controls2](/images/warping-alignment/static/Dome-Transform-Controls2.png) |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------ |
+| <small>**Settings** panel of the **Dome Transform** node</small>  | <small>**Dome Transform Controls** widget</small>                  |
+
+</div>
+
+Both the **Settings** panel of the **Dome Transform** node and the **Dome Transform Controls** widget offer control over the following transformation parameters:
+
+**Grid Size**    Sets the number of rows and columns for the patch mesh grid.
+
+**Subdivisions**   Sets the number of subdivisions for the patch mesh grid.
+
+**Rotation Angle**    Rotates the projection image by the set angle.
+
+**Flip V**    Flips the projection image vertically.
+
+**FOV**    Changes the field of view angle by the set factor.
+
+**Lens Distortion**    Compensates for lens distortion of the calibration camera. This parameter transitions through the following _mapping functions_ of the lens: _Equidistant_ at 0, _Equisolid_ _angle_ for values closer to 0.5 (1/k2 value), and _Orthographic_ at 1.
+
+For more information, visit https://en.wikipedia.org/wiki/Fisheye_lens#Mapping_function.
+
+**Tilt Angle**    Compensates for the calibration camera tilt.
+
+**Offset X**    Compensates for the horizontal shift of the calibration camera position.
+
+**Offset Y**    Compensates for the vertical shift of the calibration camera position.
+
+**Offset Z**    Compensates for the calibration camera being positioned closer or farther away from the zenith of the dome.
+
+<img alt="Dome Transform" src="/images/warping-alignment/animation/Dome-Transform.gif" width={500} height={793} loading="lazy" />

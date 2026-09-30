@@ -1,0 +1,84 @@
+---
+title: Managing the Playback of Matrix-Based Playlists in Screenberry
+description: Understand matrix-based playlist playback in Screenberry, including row, column, and individual media item playback options.
+openGraph:
+  title: Playback Management for Matrix-Based Playlists in Screenberry
+  description: Understand matrix-based playlist playback in Screenberry, including row, column, and individual media item playback options.
+---
+
+## Overview
+
+Each row within a matrix-based playlist operates independently, allowing for the individual control of playback. The playback dynamics are as follows: Upon the completion of a media item's playback, the playback of the subsequent media item in the row begins automatically. This sequence continues unless some media items are specifically set to loop. By default, when the playback reaches the end of the last media item in a row, it loops back to the beginning of the first media item in that row.
+
+## Playback of Individual Media Items
+
+To start the playback of individual media items within a matrix-based playlist, do one of the following:
+
+- Select one or multiple items in the playlist grid, then click the **Play Selected Item** button <img alt="Play" src="/images/media-playback/static/play.png" width={24} height={24} loading="lazy" />. If more than one media item is selected within a particular row, playback of that row will initiate from the first item in that sequence of selected items.
+- Alternatively, hold down the **`Alt`** key (the cursor changes to the orange play symbol ![Altplay](/images/media-playback/static/altplay.png) when hovering over a media item) and click on the media item within the playlist grid.
+- To resume the playback of media items that were paused earlier, click the **Play** button <img alt="Play1" src="/images/media-playback/static/play1.png" width={24} height={24} loading="lazy" />. Playback will restart from the positions where they had been paused.
+
+To pause the playback, click the **Pause** button <img alt="Pause" src="/images/media-playback/static/pause.png" width={24} height={24} loading="lazy" />. This action will freeze the playback at the last played frames of the media items currently in play, and these frames will continue to be output.
+
+To halt the playback completely, click the **Stop** button <img alt="Stop" src="/images/media-playback/static/stop.png" width={24} height={24} loading="lazy" />.
+
+<img alt="Playback Of Individual Media Items Matrix" src="/images/media-playback/animation/Playback-of-Individual-Media-Items-Matrix.gif" width={800} height={528} loading="lazy" />
+
+## Row-Specific Playback
+
+To start the playback of media items within a specific row of the matrix-based playlist, you have several options:
+
+- Click the **Play** button <img alt="Play1" src="/images/media-playback/static/play1.png" width={24} height={24} loading="lazy" /> located in the header of that row. If it's the initial play, or if the **Stop** button <img alt="Stop" src="/images/media-playback/static/stop.png" width={24} height={24} loading="lazy" /> was used prior, playback begins with the first available media item in that row. If playback was paused earlier, it resumes from where it was paused.
+- To start the playback from a particular media item within the row, select that item and then click the **Play Selected Item** button <img alt="Play" src="/images/media-playback/static/play.png" width={24} height={24} loading="lazy" /> located in the header of that row.
+- Hold down the **`Alt`** key and click on the media item within the row.
+
+To pause the playback of a specific row, click the **Pause** button <img alt="Pause" src="/images/media-playback/static/pause.png" width={24} height={24} loading="lazy" /> in the row's header. This action will freeze the playback at the last played frame of the media item currently in play, with that frame continuing to be output.
+
+To stop the playback of a specific row, click the **Stop** button <img alt="Stop" src="/images/media-playback/static/stop.png" width={24} height={24} loading="lazy" /> in the header of that row. This will cease playback and reset the starting playback position to the beginning of the first media item in that row.
+
+The **Play Previous** <img alt="Prev" src="/images/media-playback/static/prev.png" width={24} height={24} loading="lazy" /> and **Play Next** <img alt="Next" src="/images/media-playback/static/next.png" width={24} height={24} loading="lazy" /> buttons in the row header allow users to navigate sequentially through the media items within a specific row of a matrix-based playlist:
+
+- **Play Previous**: Reverts playback to the previous media item in the sequence.
+- **Play Next**: Advances playback to the next media item in the sequence.
+
+![Alt text](<../../../../public/images/media-playback/animation/Row-Specific-Playback.gif>)
+
+## Column-Specific Playback
+
+To start the simultaneous playback of all media items within a specific column:
+
+- Right-click the column header and select **Play Column** from the dropdown menu.
+- Hold down the **`Alt`** key and click on the column header.
+
+To pause or stop playback, use the **Pause** <img alt="Pause" src="/images/media-playback/static/pause.png" width={24} height={24} loading="lazy" /> or **Stop** <img alt="Stop" src="/images/media-playback/static/stop.png" width={24} height={24} loading="lazy" /> buttons located in the playlist's playback controls bar, just as you would when controlling the playback of individual media items.
+
+Additionally, the **Play Previous** <img alt="Prev" src="/images/media-playback/static/prev.png" width={24} height={24} loading="lazy" /> and **Play Next** <img alt="Next" src="/images/media-playback/static/next.png" width={24} height={24} loading="lazy" /> buttons in the playlist's playback controls bar enable sequential column playback navigation:
+
+- **Play Previous**: Jumps to the playback of the previous column. This is achieved by identifying the currently playing media item in the topmost active row and initiating playback of the column that immediately precedes this item.
+- **Play Next**: Advances to the next column's playback by locating the currently playing media item in the topmost active row and initiating playback of the column immediately subsequent to this item.
+
+<img alt="Column Specific Playback" src="/images/media-playback/animation/Column-Specific-Playback.gif" width={800} height={528} loading="lazy" />
+
+## Additional Playback Control Features
+
+The playback controls bar also offers the following features:
+
+**Lock/Unlock Playback Controls** toggle <img alt="Lock" src="/images/media-playback/static/lock.png" width={24} height={24} loading="lazy" /> : This safeguard prevents unintended changes to the playback state of a matrix-based playlist. Activating the **Lock** option disables all the interactive playback buttons, including **Play Selected**, **Play**, **Pause**, and **Stop**. To re-enable these controls, click the toggle once again.
+
+<img alt="Lock Playback Controls Matrix" src="/images/media-playback/animation/Lock-Playback-Controls-Matrix.gif" width={800} height={528} loading="lazy" />
+
+**Reveal Active Item** button <img alt="Reveal Icon" src="/images/media-playback/static/reveal-icon.png" width={23} height={23} loading="lazy" /> : Allows you to quickly locate a currently playing media item. Clicking this button shifts the view to the active playlist, automatically scrolls to the currently playing media items, and highlights them.
+<img alt="Reveal Active Item Matrix" src="/images/media-playback/animation/Reveal-Active-Item-Matrix.gif" width={800} height={528} loading="lazy" />
+
+
+## Indication
+
+When a matrix-based playlist is being played, paused, or stopped, the corresponding indicators adjacent to the playlist's name in the **Navigation Pane** reveal its current state. If the currently active playlist is located within a collapsed folder, these state indicators will replace the folder icon.
+
+<img alt="Indication Playback" src="/images/media-playback/animation/Indication-Playback.gif" width={464} height={76} loading="lazy" />
+
+## Playback Prioritization Logic
+
+In a matrix-based playlist, every new user interaction related to playback supersedes the previous one. For instance, when column playback is initiated and a single row is subsequently paused, this more recent interaction prevails, pausing the playback exclusively for that row.
+
+<img alt="Playback Prioritization Matrix" src="/images/media-playback/animation/Playback-Prioritization-Matrix.gif" width={800} height={528} loading="lazy" />

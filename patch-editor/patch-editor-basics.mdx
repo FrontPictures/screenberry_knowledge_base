@@ -1,0 +1,64 @@
+---
+title: Screenberry Patch Editor - Image Warping and Geometry Correction
+description: Learn how to navigate and use the Patch Editor for editing patches, including available view modes and customization options.
+openGraph:
+  title: Screenberry Patch Editor - Image Warping and Geometry Correction
+  description: Learn how to navigate and use the Patch Editor for editing patches, including available view modes and customization options.
+---
+
+# Patch Editor Basics
+
+## Overview
+
+**Patch nodes** (or **Patches**) such as **Rectangle**, **Bezier Warp**, **Quad Warp**, and others (see the full list of [patch nodes](../working-with-nodes/node-library/nodes#warp-and-transform)) are designed to apply various types of image\* geometry correction (warping), transformation, arrangement, and mapping. Extensive control for patch management is provided in the **Patch Editor** integrated into the **Canvas** (or **Render Target**) widget.** In addition, most operations with the patches can be performed directly from a computer keyboard connected to the **Server\*\*.
+
+<small>\* The term “image” refers to any static or dynamic media (i.e. video).</small>
+
+<small>
+  ** To access the **Patch Editor,** add the **Canvas** (or **Render Target**) widget to your workspace, then click the
+  **Patches** tab on the top left of the widget to switch to the **Patches** view.
+</small>
+
+<img alt="Adding Widget" src="/images/patch-editor/animation/Adding-Widget.gif" width={800} height={504} loading="lazy" />
+
+## Patch Editor View
+
+![Patch Editor View](/images/patch-editor/static/Patch-Editor-View.png)
+
+The **Patch Editor** view: (1) View mode bar, (2) Work area which is split into two parts: (A) **Input** panel and (B) **Output** panel, (3) Navigation tree, (4) **Settings** panel.
+
+## View Modes
+
+There are four view modes of the work area available. You can toggle between them by clicking on the corresponding icon.
+
+<img alt="Vm1" src="/images/patch-editor/static/vm1.png" width={23} height={19} loading="lazy" /> Display only the **Input** panel.
+
+<img alt="Vm2" src="/images/patch-editor/static/vm2.png" width={23} height={19} loading="lazy" /> Display only the **Output** panel.
+
+<img alt="Vm3" src="/images/patch-editor/static/vm3.png" width={23} height={19} loading="lazy" /> Display both panels in the **Vertical** split view.
+
+<img alt="Vm4" src="/images/patch-editor/static/vm4.png" width={23} height={19} loading="lazy" /> Display both panels in the **Horizontal** split view.
+
+<img alt="View Modes" src="/images/patch-editor/animation/View-Modes.gif" width={800} height={564} loading="lazy" />
+
+## View Options
+
+Additionally, the appearance of the **Input** and **Output** panels can be customized using the **View Options** panel, which can be opened by clicking the button in the top right corner of the panels.
+
+The **View Options** panel allows the user to show or hide the following elements:
+
+- **Rulers** Helps you accurately place and measure patches and displays.
+- **Labels** Shows the names of the patches and displays.
+- **Coordinates** Shows the coordinates of the positions of the patch control points.
+- **Live Image** The interactively updated preview of the current video output.
+- **Reference Image** The reference image is used as a background for more precise positioning of control points.
+
+<img alt="View Options" src="/images/patch-editor/animation/View-Options.gif" width={800} height={504} loading="lazy" />
+
+## Zoom and Pan Functions
+
+Тo zoom in and out of a specific area in the **Input** or **Output** panels of the **Patch Editor**, place the mouse cursor over the area, and use the mouse scroll wheel. Alternatively, click the button <img alt="Zoom Icon" src="/images/patch-editor/static/zoom-icon.png" width={25} height={25} loading="lazy" /> in the top right corner of the panel and move the mouse to change the magnification.
+
+To pan a view, hold down the left mouse button while moving the mouse, or click the button <img alt="Pan Icon" src="/images/patch-editor/static/pan-icon.png" width={25} height={25} loading="lazy" /> in the top right corner of the panel and move the mouse.
+
+<img alt="Zoom And Pan" src="/images/patch-editor/animation/Zoom-and-Pan.gif" width={800} height={504} loading="lazy" />

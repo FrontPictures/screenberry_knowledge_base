@@ -1,0 +1,102 @@
+---
+title: Screenberry Node Graph - Navigation, Monitoring, & Color Coding
+description: Explore Screenberry node graph navigation and monitoring - auto-layout, zooming, panning, the color coding of nodes, and node search methods.
+openGraph:
+  title: Navigating the Screenberry Node Graph
+  description: Explore Screenberry node graph navigation and monitoring - auto-layout, zooming, panning, the color coding of nodes, and node search methods.
+---
+
+# Node Graph Navigation and Monitoring
+
+## Arranging Nodes Automatically
+
+To align the nodes in the **Node Graph**, right-click on the nodes and select **Auto-Layout Nodes** from the dropdown menu (or press the **`L`** key). If no nodes have been selected, using the **Auto-Layout Nodes** function will align the entire node tree.
+
+<img alt="Auto-Layout Nodes" src="/images/working-with-nodes/animation/Auto-Layout-Nodes.gif" width={800} height={388} loading="lazy" />
+
+## Fit To View For Nodes
+
+To scale a view of one or more selected nodes to fit the **Node Graph** window, right-click on the nodes and select **Fit to View** from the dropdown menu (or press the **`A`** key). If no nodes have been selected, using the **Fit to View** function will bring the entire node tree into view.
+
+<img alt="Fit to View" src="/images/working-with-nodes/animation/Fit-To-View-For-Nodes.gif" width={800} height={476} loading="lazy" />
+
+## Changing Node Size
+
+To resize a node, select it and drag any one of its corner handles (which become visible on mouseover).
+
+<img alt="Changing Node Size" src="/images/working-with-nodes/animation/Changing-Node-Size.gif" width={800} height={202} loading="lazy" />
+
+## Zooming and Panning in the Node Graph
+
+Тo zoom in and out a specific area of the **Node Graph**, move the mouse cursor to the location and use the mouse scroll wheel. Alternatively, click the button <img alt="Zoom Button" src="/images/working-with-nodes/static/zoom-icon.png" width={25} height={25} loading="lazy" /> in the top right corner and move the mouse to change the magnification.
+
+To pan a view, do one of the following:
+
+- Hold the mouse scroll wheel button or hold the **`Alt`** key while moving the mouse.
+- Click the button <img alt="Pan Button" src="/images/working-with-nodes/static/pan-icon.png" width={25} height={25} loading="lazy" /> in the top right corner and move the mouse.
+
+<img alt="Zooming and Panning" src="/images/working-with-nodes/animation/Zooming-and-Panning-in-the-Node-Graph.gif" width={800} height={476} loading="lazy" />
+
+## Using the Navigator Panel
+
+The **Navigator** panеl (located in the bottom left corner of the **Node Graph** window) is a thumbnail display of a node graph. The gray frame in the **Navigator** panеl is the proxy view area which corresponds to the currently viewable area in the window.
+
+Pan the node graph view quickly by dragging the gray frame in the **Navigator** panеl.
+
+Zoom in and out of the node graph by using the mouse scroll wheel while the cursor is over the **Navigator** panеl.
+
+Right-clicking on the **Navigator** panel toggles between two display modes, standard and enlarged.
+
+To show/hide the **Navigator** panel, right-click an empty area in the **Node Graph** window and enable/disable the **Minimap** checkbox (or press **`Ctrl`** + **`M`**).
+
+<img alt="Navigator Panel" src="/images/working-with-nodes/animation/Navigator-Panel-1.gif" width={800} height={476} loading="lazy" />
+
+## Nodes Color Coding
+
+Color coding is used to indicate various types of nodes.
+
+![Nodes Color Coding](/images/working-with-nodes/static/ColorCoding.png)
+
+The following color scheme is set by default and can be modified in **Preferences > Nodes Color Settings**.
+
+- **Copy-Paste Method**:
+    1. Select the chosen media items in the **Media Library**, another **Media Player** playlist, or a timeline.
+    2. Copy these items by right-clicking and choosing **Copy** from the dropdown menu, or by using the **`Ctrl`** + **`C`** keyboard shortcut.
+    3. Select the starting grid cell for the sequence of copied media items and paste the items there. This can be done by right-clicking and choosing **Paste** from the dropdown menu or by using the **`Ctrl`** + **`V`** shortcut.
+
+![Nodes Color Settings](/images/working-with-nodes/static/NodesColorSettings-1.png)
+
+Color coding is based on the **Node Type**, **Category**, and **Tag**.
+
+To create a new custom **Color Theme**, press the button <img alt="Plus Button" src="/images/working-with-nodes/static/plus-1.png" width={23} height={22} loading="lazy" />, and assign different *Hex color* values to the various types, categories, and tags.
+
+**Type** color settings have priority over **Сategory** color settings, and **Сategory** color settings have priority over **Tag** color settings when the color of a node is assigned. When no color is set in any of these groups, the node color remains gray.
+
+![Nodes Color Settings](/images/working-with-nodes/static/NodesColorSettings2-1.png)
+
+To switch between node color schemes, select their profiles in the **Color Theme** drop-down list.
+
+![Nodes Color Settings](/images/working-with-nodes/static/NodesColorSettings3.png)
+
+A selected **Color Theme** can be deleted by pressing the button <img alt="X Button" src="/images/working-with-nodes/static/X-1.png" width={23} height={22} loading="lazy" />.
+
+## Searching the Nodes
+
+To search for specific nodes added to the project, click the button <img alt="Search Button" src="/images/working-with-nodes/static/search-icon.png" width={25} height={25} loading="lazy" /> (located in the top left corner of the **Node Graph** window) or press **`Ctrl`** + **`F`**, and type any part of the node name in the opened search field. Any matching nodes are displayed in the list below. Click on the node name in the list to select it in the node graph.
+
+<img alt="Searching the Nodes" src="/images/working-with-nodes/animation/Searching-the-Nodes1.gif" width={800} height={476} loading="lazy" />
+
+If more than one node matches the search criteria, pressing **`F3`** will switch the selection to the next node in the results list.
+
+<img alt="Searching the Nodes" src="/images/working-with-nodes/animation/Searching-the-Nodes2.gif" width={800} height={476} loading="lazy" />
+
+## Using Tooltips for Monitoring Parameters and Data Transfer
+
+When you hover over a node's parameter name, a pin, or a link between nodes in the node graph, an information tooltip appears, displaying key properties, including real-time data exchange when applicable. This functionality is particularly useful during setup, enabling quick access to relevant information without opening the node's **Settings** panel.
+
+You can also quickly preview a video and monitor audio levels directly within the node graph:
+
+- **Video Preview**: Hold the **Alt** key while hovering over an image link to view the real-time video being transferred.
+- **Audio Level Meter**: Hold the **Alt** key while hovering over an audio link to monitor audio levels.
+
+<img alt="Using Tooltips" src="/images/working-with-nodes/animation/Tooltip.gif" width={800} height={460} loading="lazy" />

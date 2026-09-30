@@ -1,0 +1,96 @@
+---
+title: Screenberry Hardware Requirements & Optimization
+description: Explore Screenberry's hardware requirements for optimal performance, including system specs, graphics settings, audio and video outputs.
+openGraph:
+  title: Screenberry Hardware Requirements & Optimization
+  description: A guide on the hardware specifications and settings needed to optimize Screenberry for peak performance.
+---
+
+# Hardware Requirements
+
+|                  | Minimum                                                              | Optimal                                            |
+| ---------------- | -------------------------------------------------------------------- | -------------------------------------------------- |
+| Operating system | Windows® 10 with the latest service pack, 64-bit                     | Windows® 10 with the latest service pack, 64-bit   |
+| Processor        | Intel® Core™ / AMD™ dual-core processor                              | Intel® Core™ / AMD™ quad-core processor            |
+| Video            | NVIDIA® GeForce® / AMD™ Radeon™ 2 GB VRAM with support of OpenGL 3.3 | NVIDIA® GeForce® / AMD™ Radeon™ 6 GB VRAM          |
+| Memory           | 8 GB RAM                                                             | 16 GB RAM                                          |
+| Input            | Keyboard and mouse                                                   | Keyboard and multi-button mouse with scroll wheel. |
+
+> **Note:** The optimal hardware specifications should be determined by the requirements of the current system setup, which includes the number of output and input devices, the output resolution, etc. The higher the requirements, the greater the demand on the hardware for sustaining optimal performance.
+
+## Sentinel HASP Key
+
+The **Sentinel HASP Key** is a USB hardware license dongle that must be connected to the Media Server computer while Screenberry Server is running.
+
+![License Dongle](/images/getting-started/static/license-dongle.jpg)
+
+<small>*USB license dongle*</small>
+
+import { Callout } from 'nextra/components';
+
+<Callout type="info" emoji={<img src="/images/misc/warning_yellow.svg" alt="Warning" width={20} height={20} />}>
+  **Important:** The Sentinel HASP Key must remain connected while Screenberry Server is running.
+</Callout>
+
+When no valid license is detected, Screenberry operates in Non-commercial mode, and certain commercial features become unavailable.
+
+## Network
+
+The Operator Workstation computer should be connected to the Media Server computer via Ethernet. A Wi-Fi network connection is possible but not recommended.
+
+## Graphics Card
+
+To allow Media Server video output, a graphics card is required to support OpenGL 3.3.
+
+### Graphics Card Settings
+
+For a multi-display setup, some graphics cards allow the video output to be broadcast to an array of several displays. This feature is not supported by all graphics cards and has different names depending on the manufacturer. Please refer to your manufacturer’s documentation or website for more details.
+
+| **Manufacturer** | **Product** | **Feature name** |
+| ---------------- | ----------- | ---------------- |
+| Nvidia           | GeForce     |
+| Quadro           | Surround    |
+| Mosaic           |
+| AMD              | Radeon      | Eyefinity        |
+
+Use the following graphics card settings for optimal performance:
+
+- Set **Power Management** to **Maximum Performance**.
+- Set **Output Dynamic Range** to **Full**.
+
+## Output Devices
+
+Screenberry supports output to projectors, LCD, LED, PDP displays or any other output device supported by a graphics card. Video output devices can be connected to the graphics cards directly or via video wall controllers (graphics expansion devices). The number of output devices depends on the hardware capability and configuration.
+
+## Audio Output
+
+The Media Server supports multi-channel audio configurations with up to 64 channels via MADI and Dante® interfaces with the choice of Mono, Stereo, 5.1, or 7.1 outputs using ASIO, WASAPI, and WINMM protocols.
+
+## Input Devices
+
+Screenberry works with video input devices and supports Datapath Vision, Blackmagic DeckLink, Deltacast, Magewell, and other capture cards.
+
+## Hardware Drivers
+
+Graphics and capture cards require software drivers provided by the relevant manufacturer.
+
+## Media Server Optimization
+
+### Disabling Automatic Updates
+
+Windows automatically downloads and installs updates in the background. Though keeping your system up to date is recommended, automatic updates may interfere with Screenberry’s performance, resulting in an increased load on your system that could lead to playback problems. Automatic updates can easily be disabled in Windows Settings. For Windows 10:
+
+1. Go to **Control Panel** > **Update & Security** > **Services**.
+2. Search for **Windows Update**.
+3. Right-click the name of the service and click **Properties**.
+4. In the **Startup type** drop-down list, select **Disabled**.
+
+> **Note:** Once automatic updates have been disabled, Windows will no longer download and install updates. For security reasons, it is recommended that you periodically re-enable updates and install any available system updates manually.
+
+### Disabling Automatic Notifications
+
+Automatic notifications in Windows can come as an unwelcome surprise, especially during live shows. To turn off notifications in Windows 10:
+
+1. Click **Start menu** > **Settings** > **System**.
+2. Select **Notifications & actions**.
+3. Turn off notifications.

@@ -1,0 +1,39 @@
+---
+title: Screenberry Media Player - Playback Management
+description: Control media playback, manage playlists and timelines, and automate playback with event mapping in Screenberry.
+openGraph:
+  title: Screenberry Media Player - Playback Management
+  description: Control media playback, manage playlists and timelines, and automate playback with event mapping in Screenberry.
+---
+
+# Media Player Overview
+
+The **Media Player** provides control over the playback of media files, as well as over the management of playlists and timelines, timecode operations, color correction, and audio volume adjustment.
+
+In Screenberry, multiple media players can be created. Each media player can contain playlists and timelines.
+
+With the help of displays and patches, media players can be layered over each other, adjusted to different sizes, positions, and shapes on the output canvas.
+
+The playback of media players can be automated, since media players, as well as each playlist, timeline, and media item they contain, have the ability to trigger or be triggered manually or automatically by MIDI/keyboard/IP events, scripts, DMX commands, etc.
+
+![Mediaplayerview](/images/media-playback/static/mediaplayerview.png)
+
+*The **Media Player** view. 1 – the Navigation Pane, 2 – current playlist or timeline contents, 3 – playback controls and settings.*
+
+## Media Player Widget
+
+When the **MediaPlayer** node is added to the **Node Graph,** the corresponding **Media Player** widget becomes accessible. To add this widget to the workspace, select **Window** > [**Media Player Name**] from the main **Screenberry Panel** menu.
+
+> **Note:** Multiple **Media Player** nodes can be created. Each added **MediaPlayer** node has its own **Media Player** widget.
+
+<img alt="Media Player Widget" src="/images/media-playback/animation/Media-Player-Widget.gif" width={800} height={416} loading="lazy" />
+
+## Playlists, Timelines, and Folders
+
+For playback, media items can be organized into **Playlists** or composed with the help of **Timelines**.
+
+Additionally, multiple playlists and timelines can be organized into folders. To create a new folder, either right-click an empty area of the playlist and timelines tree panel and select **Add Folder** from the dropdown menu or click the button <img alt="Addfolder" src="/images/media-playback/static/addfolder.png" width={18} height={18} loading="lazy" /> on the bottom toolbar of the **Navigation Pane**.
+
+<img alt="PlaylistsTimelinesFolders" src="/images/media-playback/animation/PlaylistsTimelinesFolders.gif" width={800} height={500} loading="lazy" />
+
+> **Note:** By default, the new **Media Player** widget is created with one empty **Playlist** to which media items can be added by dragging them from the **Media Library** or directly from the system folders. See [Adding Media Items to the Playlist](../playlists/organizing-media-items-in-playlists#adding-media-items-to-playlists).

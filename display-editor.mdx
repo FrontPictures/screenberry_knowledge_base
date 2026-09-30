@@ -1,0 +1,172 @@
+---
+title: Screenberry Display Editor - Customizing Media Outputs
+description: Explore the Screenberry Display Editor for customizing media server outputs, including adding, configuring, and arranging individual video outputs.
+openGraph:
+  title: Screenberry Display Editor - Customizing Media Outputs
+  description: Explore the Screenberry Display Editor for customizing media server outputs, including adding, configuring, and arranging individual video outputs.
+---
+
+# Display Editor
+
+## Overview
+
+**Displays** define the resolution and pixel coordinates of media sources on the output canvas of the media server.
+
+The **Display Editor** allows users to add new displays, set display dimensions, position, and stack order, create display arrays, swap displays, and adjust other display settings. The **Display Editor** can be accessed within the **Canvas** (or **RenderTarget**) widget.
+
+An example of a basic media playback pipeline and its view in the **Display Editor**:
+
+![Display Editor View](/images/display-editor/static/Display-Editor-View.png)
+
+The **Media Player** node **(1)** sends an image to the **Display** node **(2)** that has a resolution of 1240 x 768 pixels and is positioned at (0,0) coordinates of **Canvas** node **(3)**, which defines the server output area with a resolution of 1960 x 1280 pixels.
+
+To access the **Display Editor,** add the **Canvas** (or **Render Target**) widget to your workspace, then click the **Displays** tab on the top left of the widget to switch to the **Displays** view.
+
+<img alt="Accessing Display Editor" src="/images/display-editor/animation/Accessing-Display-Editor.gif" width={800} height={484} loading="lazy" />
+
+## Adding Displays
+
+To add a new display, do the following:
+
+1. Open the **Canvas** (or **RenderTarget**) **Editor** widget.
+2. Click the **Displays** button on the top left of the widget to switch to the **Displays** view.
+3. Click the **Add Display** icon in the toolbar at the top left, or right-click an empty area in the **Display** window and select **Add Display** from the dropdown menu.
+4. Enter a new display name in the opened dialog box and press **OK**.
+
+By default, the added display will have the same dimensions as the **Canvas**.
+
+The corresponding **Display** node will be created in the **Node Graph** and linked to the related **Canvas** (or **RenderTarget**) node automatically.
+
+<img alt="Adding A Display" src="/images/display-editor/animation/Adding-a-Display.gif" width={800} height={425} loading="lazy" />
+
+Reversely, a new display can be added by adding a new **Display** node in the **Node Graph** and linking it to the **Canvas** (or **RenderTarget**) node of the relevant canvas.
+
+## Creating Display Arrays
+
+A display array allows splitting the video output into a set of virtual displays with identical dimensions where every display defines the resolution and pixel coordinates of an individual video card output (or video device).
+
+To create a display array, do the following:
+
+1. Open the **Canvas** (or **RenderTarget**) **Editor** widget.
+2. Click the **Displays** button on the top left of the widget to switch to the **Displays** view.
+3. Click the **Create Display Array** icon in the toolbar at the top left, or right-click an empty area in the **Display** window and select **Create Display Array** from the dropdown menu.
+4. In the opened dialog box, enter the numbers of **Rows** and **Columns** for a display array, select the type of the patch to be connected to the displays, and press **OK**.
+
+As a result, an array of displays will be created splitting the canvas into equal sections. The displays will be named **Display 1**, **Display 2**, **Display 3**, etc. left to right, top to bottom. Simultaneously, the corresponding **Display** nodes and related **Patch** nodes will be added and linked in the **Node Graph**.
+
+<img alt="Creating A Display Array" src="/images/display-editor/animation/Creating-a-Display-Array.gif" width={800} height={520} loading="lazy" />
+
+> **Note:** The creation of a display array removes all the displays previously added to the current canvas.
+
+## Renaming Displays
+
+To rename a display, do one of the following:
+
+- Right-click on the display, select **Rename** from the dropdown menu, enter a new display name in the opened dialog box, and press **OK**.
+- Select display and change the display name in the header of the display’s **Settings** panel.
+
+<img alt="Renaming A Display" src="/images/display-editor/animation/Renaming-a-Display.gif" width={800} height={412} loading="lazy" />
+
+## Selecting Displays
+
+To select a display, left-click the display in the **Display Editor**, or the display name in the navigation tree.
+
+<img alt="Selecting Displays 1" src="/images/display-editor/animation/Selecting-Displays-1.gif" width={800} height={408} loading="lazy" />
+
+Multiple displays can be selected by **Shift**-clicking on displays in the **Display Editor**, or display names in the navigation tree.
+
+<img alt="Selecting Displays 2" src="/images/display-editor/animation/Selecting-Displays-2.gif" width={800} height={408} loading="lazy" />
+
+Multiple displays can also be selected at once by left-clicking an empty area in the **Display Editor** and dragging the mouse to create a marquee.
+
+If dragging is done from right to left, all the displays touched by the rectangular marquee will be selected.
+
+<img alt="Selecting Displays 3" src="/images/display-editor/animation/Selecting-Displays-3.gif" width={800} height={408} loading="lazy" />
+
+If dragging is done from left to right only the displays inside the rectangular marquee will be selected.
+
+<img alt="Selecting Displays 4" src="/images/display-editor/animation/Selecting-Displays-4.gif" width={800} height={408} loading="lazy" />
+
+## Display Position and Dimensions
+
+To move a display in the **Display Editor**, left-click on a display and drag it. If multiple displays are selected, then the entire group of selected displays will be moved.
+
+By default, the automatic snapping option is enabled. When you change the position of a display, its borders snap to the borders of other existing displays and output canvas edges if placed near them. To disable snapping temporarily, hold down the **`Shift`** key while dragging a display.
+
+Another way to change the position of a display is to select a display in the **Display Editor** or the display name in the navigation tree and modify the **X** and **Y** values for the **Position** parameter in the **Settings** panel.
+
+You can also adjust the display dimensions in the **Settings** panel by changing the **W** and **H** values for the **Size** parameter.
+
+<img alt="Display Position And Dimensions" src="/images/display-editor/animation/Display-Position-and-Dimensions.gif" width={800} height={456} loading="lazy" />
+
+## Copying and Pasting Displays
+
+To copy and paste displays in the **Display Editor**, select one or more displays and do one of the following:
+
+- Right-click on a display (or a group of selected displays) and choose either **Copy** or **Cut** and then **Paste** from the dropdown menu.
+- Use the following keyboard shortcuts: **`Ctrl`** + **`C`** to copy or **`Ctrl`** + **`X`** to cut and **`Ctrl`** + **`V`** to paste.
+
+<img alt="Copying And Pasting Displays" src="/images/display-editor/animation/Copying-and-Pasting-Displays.gif" width={800} height={492} loading="lazy" />
+
+## Deleting Displays
+
+To delete a display, do one of the following:
+
+- Right-click on the display and select **Delete** from the dropdown menu (or press the **`Del`** button).
+- Delete the corresponding **Display** node in the **Node Graph**.
+
+<img alt="Deleting A Display" src="/images/display-editor/animation/Deleting-a-Display.gif" width={800} height={408} loading="lazy" />
+
+## Disabling Displays
+
+Disabling a **Display** node in the **Node Graph** (see [Node Status](/en/working-with-nodes/node-basics#node-status)) will disable the corresponding display in the **Display Editor**. To indicate that a node has been disabled, the display will be crossed off.
+
+<img alt="Disabling A Display" src="/images/display-editor/animation/Disabling-a-Display.gif" width={800} height={436} loading="lazy" />
+
+## Swapping Displays
+
+To swap displays, click the **Swap Displays** icon in the toolbar at the top left, or right-click an empty area in the **Display** window and select **Swap Displays** from the dropdown menu. In the opened dialog box do the following:
+
+1. Select a display from the dropdown menu in the **Swap** field, or press the **Skip** button or the **`Enter`** key to move on to the next display in the list.
+2. When the desired display is selected, in the **With** field, enter the name of the display with which it is to be swapped, and press the **Apply** button.
+
+<img alt="Swapping Displays" src="/images/display-editor/animation/Swapping-Displays.gif" width={800} height={432} loading="lazy" />
+
+> **Note:** This procedure is particularly useful during the setup. There is no need to follow a particular order when connecting output devices to the server, as this order can be easily changed later by using the **Swap Displays** method.
+
+## Changing the Stack Order of Displays
+
+To change the stack order of a display, right-click on it in the **Display Editor**, and select one of the following in the dropdown menu:
+
+- **Arrange** > **Bring To Front** to move a display to the topmost position.
+- **Arrange** > **Bring Forward** to move a display one level to the front of a stack.
+- **Arrange** > **Send Backward** to move a display one level to the back of a stack.
+- **Arrange** > **Send To Back** to move a display to the bottom-most position.
+
+Alternatively, the stack order of displays can be modified by reordering the links connecting **Display** nodes to the **Canvas** node in the **Node Graph** (see [Reordering Node Links](/en/working-with-nodes/linking-nodes#reordering-node-links)).
+
+The displays are stacked top-down in relation to the order in which **Display** nodes are linked to the **Canvas** node, which means that the display with the succeeding node link will overlay the one with the preceding link.
+
+<img alt="Changing Stack Order Of Displays" src="/images/display-editor/animation/Changing-Stack-Order-of-Displays.gif" width={799} height={989} loading="lazy" />
+
+## Turning on Display Test Pattern
+
+To show the test pattern on a display, select a display to access its **Settings**, and choose one of the following options for the **Test Pattern** parameter: **Name**, **Digits**, **Grid**, **Color Bars**, or **Gradient**.
+
+<img alt="Turning On Display Test Pattern" src="/images/display-editor/animation/Turning-on-Display-Test-Pattern.gif" width={800} height={822} loading="lazy" />
+
+## Rotating Display Output Image
+
+When one or more projectors or displays are oriented vertically or upside down, it might be useful to change the orientation of the corresponding display output images so the operations that require onscreen movement upward, downward, right, and left on the particular display correspond to the directions on the physical screen.
+
+To rotate a display output image, select a display to access its **Settings**, and choose one of the following options for the **Rotate Degree** parameter: **0°**, **90° CW**, **90° CCW**, or **180°**.
+
+<img alt="Rotating Display Output Image" src="/images/display-editor/animation/Rotating-Display-Output-Image.gif" width={800} height={822} loading="lazy" />
+
+## Zooming and Panning in Display Editor
+
+Тo zoom in and out of a specific area in the **Display Editor**, place the mouse cursor over the area, and use the mouse scroll wheel. Alternatively, click the button <img alt="Zoom Icon" src="/images/display-editor/static/zoom-icon.png" width={25} height={25} loading="lazy" /> in the top right corner of the panel and move the mouse to change the magnification.
+
+To pan a view, hold down the left mouse button while moving the mouse, or click the button <img alt="Pan Icon" src="/images/display-editor/static/pan-icon.png" width={25} height={25} loading="lazy" /> in the top right corner of the panel and move the mouse.
+
+<img alt="Zooming And Panning" src="/images/display-editor/animation/Zooming-and-Panning.gif" width={800} height={564} loading="lazy" />

@@ -1,0 +1,64 @@
+---
+title: Navigating and Viewing the Screenberry 3D Scene
+description: Explore the various tools and options available for navigating and viewing 3D scenes in Screenberry, including the 3D Viewport, UV Viewer, Camera View Selector, and navigation modes.
+openGraph:
+  title: Navigating and Viewing the Screenberry 3D Scene
+  description: Explore the various tools and options available for navigating and viewing 3D scenes in Screenberry, including the 3D Viewport, UV Viewer, Camera View Selector, and navigation modes.
+---
+
+# 3D Scene View and Navigation
+
+![alt text](/images/3d-scene/static/3D-Scene-View.png)
+
+1. **View Selectors**: This toolbar includes the **3D Viewport** / **UV Viewer Selector** and **Camera View Selector**.
+
+   ##### 3D Viewport / UV Viewer Selector
+
+   ![alt text](/images/3d-scene/static/View-Selector.png)
+
+   - The **3D Viewport** is the interactive workspace where the 3D environment is rendered. It is used to navigate, select, and modify objects within the 3D scene.
+   - The **UV Viewer** is a specialized view mode for inspecting and editing the UV map of a selected 3D object (if it has a UV map).
+
+   ![alt text](/images/3d-scene/static/UV-Viewer.png)
+
+   ##### Camera View Selector
+
+   ![alt text](/images/3d-scene/static/Camera-View.png)
+
+   This dropdown menu allows you to select a view from among various predefined views or custom camera angles:
+
+   - The **Free Camera** is a default navigational tool that enables users to freely move, rotate, and zoom the viewpoint, providing unrestricted exploration of the 3D environment.
+   - The **3D** **Camera** serves to capture the perspective of the 3D scene from a user-customized viewpoint, distributing the rendered output of the camera view to subsequent nodes within the node graph.
+   - The **Projection Mapper** view offers a visualization from the projector's standpoint, enabling users to see how projected images are applied and interact with the objects in the 3D scene.
+   - Standard orthographic views (cameras) include **Top**, **Bottom**, **Left**, **Right**, **Front**, and **Back**.
+
+2. **Navigation and View Options Toolbar:** This toolbar provides a set of tools that modify how you interact with the 3D scene and navigate within the viewport. The functions include:
+
+   - <img alt="Fly Mode Icon" src="/images/3d-scene/static/Fly-Mode-Icon.png" width={25} height={25} loading="lazy" /> **Fly Mode**: Enables camera movement similar to a first-person perspective, allowing for free movement within the scene.
+   - <img alt="Orbit Mode Icon" src="/images/3d-scene/static/Orbit-Mode-Icon.png" width={25} height={25} loading="lazy" /> **Orbit Mode**: Facilitates rotation around a central point, providing a view from different angles.
+   - <img alt="Pan Mode Icon" src="/images/3d-scene/static/Pan-Mode-Icon.png" width={25} height={25} loading="lazy" /> **Pan Mode**: Allows you to move the view parallel to the viewing plane.
+   - <img alt="Zoom Mode Icon" src="/images/3d-scene/static/Zoom-Mode-Icon.png" width={25} height={25} loading="lazy" /> **Zoom Mode**: Enables you to move closer to or further away from objects in the scene.
+  
+   Additionally, this toolbar contains **View Options**, which offers customization settings for the 3D viewport, such as the background color.
+
+   For more information on using navigation options, refer to the [Navigating the Viewport](../3d-scene/working-in-3d-scene#navigating-the-viewport) section.
+
+3. **Toolbox** contains:
+
+   - <img alt="Select Tool Icon" src="/images/3d-scene/static/Select-Tool-Icon.png" width={25} height={25} loading="lazy" /> **Select Tool**: For selecting objects in the 3D scene. It is also used to switch back from the navigation modes described above.
+   - <img alt="Move Tool Icon" src="/images/3d-scene/static/Move-Tool-Icon.png" width={25} height={25} loading="lazy" /> **Move Tool**: For moving selected objects within the 3D scene.
+   - <img alt="Rotate Tool Icon" src="/images/3d-scene/static/Rotate-Tool-Icon.png" width={25} height={25} loading="lazy" /> **Rotate Tool**: For rotating selected objects around different axes.
+   - <img alt="Scale Tool Icon" src="/images/3d-scene/static/Scale-Tool-Icon.png" width={25} height={25} loading="lazy" /> **Scale Tool**: For scaling selected objects along different axes.
+
+   There are two modes available for interacting with a selected object:
+
+   - <img alt="Object Mode Icon" src="/images/3d-scene/static/Object-Mode-Icon.png" width={25} height={25} loading="lazy" /> **Object Mode**: Allows users to interact with an entire object.
+   - <img alt="Mesh Mode Icon" src="/images/3d-scene/static/Mesh-Mode-Icon.png" width={25} height={25} loading="lazy" /> **Mesh Mode**: Provides the capability to edit the individual vertices of an object's mesh.
+
+4. **Viewport**: The area where the 3D scene is displayed and interaction with its contents occurs. It's where you select, position, and modify objects, adjust camera settings, and observe the results in real-time.
+
+5. **Axis Indicator**: This gizmo provides a constant reference for spatial orientation within the 3D scene.
+
+6. **Scene Inspector**: This pane lists all the elements present in your 3D scene, allowing you to select and manage them. When a particular object is selected, its parameters are displayed in the panel below.
+
+7. **Settings Panel**: This section allows you to view the parameters for selected objects and edit their values.

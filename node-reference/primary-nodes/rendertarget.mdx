@@ -1,0 +1,48 @@
+---
+title: Screenberry Render Target Node - Off-Screen Image Rendering
+description: Explore Screenberry functionality for off-screen image rendering.
+openGraph:
+  title: Screenberry Render Target Node - Off-Screen Image Rendering
+  description: Explore the functionalities of Screenberry's Render Target Node for off-screen image rendering.
+---
+
+# Render Target
+
+The **Render Target** node has the same functionality as the **Canvas** node but is used for off-screen image rendering.
+
+<img alt="Render Target node" src="/images/node-references/animation/RenderTarget1.gif" width={800} height={368} loading="lazy" />
+
+The **Render Target** node is often used to obtain an intermediate result in a series of image geometry transformations.
+
+<img alt="Render Target node usage" src="/images/node-references/animation/RenderTarget2.gif" width={800} height={332} loading="lazy" />
+
+When the **Render Target** node is added in the **Node Graph,** a corresponding widget becomes accessible that allows editing **Displays** and **Patches** connected to the **Render Target** node. The widget can be added to the workspace by selecting **Window** > [**Render Target Name**] from the main **Screenberry Panel** menu. For more information on editing displays and patches see the [Display Editor](../../../display-editor) and [Patch Editor](../../../patch-editor/patch-editor-basics) sections of this user guide.
+
+<img alt="Render Target Editor" src="/images/node-references/animation/RenderTarget3.gif" width={800} height={488} loading="lazy" />
+
+To preview the **Render Target** resulting image, the node can be connected to the **Video Preview** node, which has its own widget that can be added to the workspace.
+
+<img alt="Render Target Video Preview" src="/images/node-references/animation/RenderTarget4.gif" width={800} height={652} loading="lazy" />
+
+The **Settings** panel of the **Render Target** node offers the following control and information parameters:
+
+<div className="table-parameter-list table-without-thead">
+
+|                                  |                                                                                                                                                                                                                                        |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Image Size                       | Enables/disables rendering of the off-screen image.                                                                                                                                                                                    |
+| Number of Channels               | Specifies the number of channels for the rendered image.                                                                                                                                                                               |
+| Bits per Channel                 | Specifies the color depth for the rendered image.                                                                                                                                                                                      |
+| Stereoscopic                     | Enables/disables stereoscopic image                                                                                                                                                                                                    |
+| Multisample Anti-Aliasing (MSAA) | Improves the appearance of rendered patch edges (makes them smoother). This anti-aliasing option only affects patches that are rendered directly to the **Canvas** or **Display**.                                                     |
+| Color Buffer                     | Enables use of a color buffer.                                                                                                                                                                                                         |
+| Depth Buffer                     | Enables use of a depth buffer.                                                                                                                                                                                                         |
+| Displays                         | Displays information about the number of **Display** nodes connected to the **Render Target** node.                                                                                                                                    |
+| Patches                          | Displays information about the number of **Patch** nodes connected to the **Render Target** node.                                                                                                                                      |
+| Background Image                 | Provides information about the image source connected to the **Canvas** node as a background image.                                                                                                                                    |
+| Image Wrap Mode                  | Allows selecting a texture wrapping mode. When **Clamp to Edge** mode is selected, the texture is applied once, then the colors of edge pixels are smeared. In **Clamp to Border** mode, an arbitrary border color (black) is applied. |
+| Image Format                     | Derives the image format from an external image. The pin for this parameter is hidden by default and should be enabled for connecting an image.                                                                                        |
+| Use External Image Format        | Specifies that the size and pixel format of an external image connected to the **Image Format** parameter will be used for rendering.                                                                                                  |
+| Image                            | Outputs the rendered image.                                                                                                                                                                                                            |
+
+</div>

@@ -1,0 +1,70 @@
+---
+title: Screenberry Notch Playback Node - Notch Blocks Control
+description: Explore Screenberry functionality for controlling Notch blocks including parameter management, VRAM usage, and layer management.
+openGraph:
+  title: Controlling Notch Blocks with Screenberry - Notch Playback Node
+  description: Explore the use of Screenberry's Notch Playback Node for controlling Notch blocks, managing their parameters, VRAM, and layers.
+---
+
+# Notch Playback
+
+Notch Blocks loading into a Screenberry project, control of the parameters exposed in the Notch project, and Notch Blocks playback are organized using the **Notch Playback** node.
+
+Typically, the **Notch Playback** outputs the Notch Blocks playback to the **Display** or **Context** node.
+
+![Notch Added](/images/node-references/static/notch-added.png)
+
+Screenberry supports the following types of Notch exposed parameters:
+
+- int
+- float
+- string (including Unicode characters)
+- color
+- texture (including multiple textures)
+- enum
+- posquat
+- cameraparams
+
+Upon importing a Notch Block, Screenberry
+
+- Respects parameter range limits set in a block.
+- Makes the exposed parameter values marked as “Readable” available for use.
+- Provides advanced video memory management allowing to unload from the VRAM a block layer.
+- Displays the block Author string.
+
+The **Settings** panel of the **Notch Playback** node offers the following controls and parameters:
+
+**Filename** Imports a specified Notch Blocks (. dfxdll) file from Screenberry Server directory.
+
+**Block Active** Select / deselect this checkbox to activate / deactivate the Notch Block.
+
+**Reload Block** Press this button to reload the Notch Block if it was updated.
+
+**Block Version**, **Block Creators** Provides the Notch Block information.
+
+**Size X: Y:** Sets the resolution for the Notch Block playback.
+
+**VRAM Usage** Displays current VRAM usage
+
+**Purge VRAM Pool** Press this button to clean VRAM not used for the current Notch Block layer.
+
+**Notch Layer** Selects one of the available layers in the Notch Block.
+
+![Notch Settings](/images/node-references/static/notch-settings.png)
+
+When the Notch Block layer is selected in the **Settings** panel, the **Notch Playback** node does the following:
+
+- Switches to the playback of this layer.
+- Creates a separate section in the **Settings** panel for each layer object with the exposed parameters.
+- Generates custom parameters for all exposed parameters in the layer.
+
+<img alt="Notch" src="/images/node-references/animation/notch.gif" width={800} height={1268} loading="lazy" />
+
+Additionally, various nodes can be connected to the **Notch Playback** node in the node graph to do any of the following:
+
+- Pass textures/video from to the Notch Block.
+- Pass the values for the parameters exposed in the Notch Block.
+- Pass textures/video out of the Notch Block.
+- Pass readable parameters out of the Notch Block.
+
+> **Note:** For the **Notch Playback** node to function, a full [Notch Playback License](https://www.notch.one/products/notch-playback/) is required and the Notch dongle should be connected to the Screenberry server.
