@@ -1,0 +1,17 @@
+[
+  {"id":"IMP-Q01","question":"Does this supplement establish behavior in released 3.4?","expected_fact_ids":["CODE-ARCH-001"],"must_not_claim":"Applicability to 3.4, an installed binary, or runtime verification."},
+  {"id":"IMP-Q02","question":"What state is serialized with a project?","expected_fact_ids":["CODE-PROJECT-001"],"must_not_claim":"Every external media file is embedded or every disk write succeeds."},
+  {"id":"IMP-Q03","question":"Does the workspace layout timer save the project every 500 ms?","expected_fact_ids":["CODE-PANEL-002","CODE-PROJECT-002"],"must_not_claim":"The layout synchronization delay is an autosave interval."},
+  {"id":"IMP-Q04","question":"Does duplicating a workspace duplicate server nodes?","expected_fact_ids":["CODE-PANEL-003"],"must_not_claim":"Node creation, or a conclusion about unresolved extra widget instances."},
+  {"id":"IMP-Q05","question":"Does a true Action indicator mean the operation executes for 300 ms?","expected_fact_ids":["CODE-PARAM-004"],"must_not_claim":"Indicator time equals execution duration, or repeated true writes form an event queue."},
+  {"id":"IMP-Q06","question":"Does clearing completed uploads delete successfully imported media?","expected_fact_ids":["CODE-UPLOAD-001","CODE-UPLOAD-003"],"must_not_claim":"The queue-clear handler calls media deletion, or isComplete means success only."},
+  {"id":"IMP-Q07","question":"Can Upload Again use a file that exists only on Server?","expected_fact_ids":["CODE-UPLOAD-004"],"must_not_claim":"A server-side path proves local availability on Panel."},
+  {"id":"IMP-Q08","question":"Are Timeline JSON positions measured in microseconds?","expected_fact_ids":["CODE-ITEM-002","CODE-ITEM-003"],"must_not_claim":"The JSON properties use the same units as internal storage."},
+  {"id":"IMP-Q09","question":"Does increasing Runs per Frame increase Canvas frame rate?","expected_fact_ids":["CODE-GRAPH-004","CODE-CLOCK-001"],"must_not_claim":"Group iterations create separate presented frames."},
+  {"id":"IMP-Q10","question":"Does Low Latency guarantee a fixed TouchEngine performance improvement?","expected_fact_ids":["CODE-INTEGRATION-003"],"must_not_claim":"A measured latency reduction, throughput or GPU compatibility guarantee."},
+  {"id":"IMP-Q11","question":"Does the filling parameter value 0.2 mean 0.2 percent?","expected_fact_ids":["CODE-REVIEW-002"],"must_not_claim":"The stored scale is 0 through 100 or the default is recommended for every installation."},
+  {"id":"IMP-Q12","question":"Does the automatic near-plane multiplier always use the final far-plane distance?","expected_fact_ids":["CODE-REVIEW-003"],"must_not_claim":"maxDist is the final far-plane distance in every call path."},
+  {"id":"IMP-Q13","question":"Does Audio Out automatically downmix multichannel audio or duplicate mono?","expected_fact_ids":["CODE-CLOCK-005"],"must_not_claim":"Resizing channel storage is a mixing matrix or mono duplication."},
+  {"id":"IMP-Q14","question":"Can the one-buffer image-size example predict all GPU memory consumption?","expected_fact_ids":["CODE-VISUAL-004"],"must_not_claim":"The arithmetic example includes every buffer and driver allocation."},
+  {"id":"IMP-Q15","question":"Does a successful SetParameter response verify the physical result?","expected_fact_ids":["CODE-API-002"],"must_not_claim":"Command dispatch is an independent hardware confirmation."}
+]

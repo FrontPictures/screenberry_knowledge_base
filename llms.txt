@@ -1,6 +1,6 @@
 # Screenberry Knowledge Base
 
-Text-only product knowledge. Public default: 3.4; 3.5 is in development. Imported records are in_review. Use explicit version/profile selection. Search knowledge/ only; illustrations/ contains optional User Guide editorial briefs, not factual evidence. No binary media is bundled.
+Text-only product knowledge. Public default: 3.4; 3.5 is in development. Imported records are in_review. Use explicit version/profile selection. Search knowledge/ for guide answers. For implementation questions, explicitly select the separately scoped 3.5.0 beta source supplement below; source-confirmed does not mean runtime-verified or applicable to 3.4. Preserve fact boundaries and provenance. illustrations/ contains optional User Guide editorial briefs, not factual evidence. No binary media or Screenberry source is bundled.
 
 ## Start here
 
@@ -8,4 +8,5 @@ Text-only product knowledge. Public default: 3.4; 3.5 is in development. Importe
 - [AI instructions](AGENTS.md)
 - [Release registry](releases.yaml)
 - [Complete catalog](catalog/README.md)
+- [Implementation reference: 3.5.0 beta, source build 2422](implementation/3.5.0-beta-build2422/README.md)
 - [Screenshot and illustration workflow](docs/TEXT-AND-ILLUSTRATIONS.md)
