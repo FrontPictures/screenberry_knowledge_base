@@ -1,0 +1,1276 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "sb-3.5.0-beta-build2422-source-2026-10-21",
+  "product_version": "3.5.0",
+  "prerelease": "beta",
+  "source_build_number": 2422,
+  "source_git_commit": null,
+  "source_tree_sha256": "8638441f84bc93052a868fd48ae063f0aa7befce0f39af1a958202130fd54124",
+  "source_tree_digest_method": "SHA-256 of UTF-8 newline-joined path<TAB>file_sha256 entries in the original inventory order; .idea and __pycache__ excluded.",
+  "applicability": "Only the identified source snapshot; not automatically applicable to released 3.4, other 3.5 builds or an installed binary.",
+  "evidence_status": "source-confirmed",
+  "review_method": "Direct static implementation inspection",
+  "reviewed_by": "Codex",
+  "reviewed_on": "2026-10-22",
+  "runtime_verified": false,
+  "product_owner_review": "pending",
+  "owner": "unassigned",
+  "language": "en",
+  "source_access": "Original source is not included in this repository. An authorized reviewer needs the matching local source tree to reproduce source checks.",
+  "facts": [
+    {
+      "id": "CODE-ARCH-001",
+      "topic": "architecture",
+      "title": "Source version and build choices",
+      "text": "The root CMake project declares version 3.5.0 and sets VERSION_IS_BETA to TRUE. It defines separate build options for Server, Panel, Configurator, Benchmark and Media Encoder, and requests C++20. The source build-number file contains 2422.",
+      "boundary": "These are source declarations. They do not identify an installed executable or establish which optional components were shipped.",
+      "evidence": [
+        {
+          "path": "CMakeLists.txt",
+          "line_start": 3,
+          "line_end": 12,
+          "sha256": "367cc0b1e269430839d1cd494c177f1702050059047b217fd3cb01eddca09ed2"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "line_start": 29,
+          "line_end": 40,
+          "sha256": "367cc0b1e269430839d1cd494c177f1702050059047b217fd3cb01eddca09ed2"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "line_start": 53,
+          "line_end": 78,
+          "sha256": "367cc0b1e269430839d1cd494c177f1702050059047b217fd3cb01eddca09ed2"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "line_start": 93,
+          "line_end": 93,
+          "sha256": "367cc0b1e269430839d1cd494c177f1702050059047b217fd3cb01eddca09ed2"
+        },
+        {
+          "path": "Libs/Version/build_number.txt",
+          "line_start": 1,
+          "line_end": 1,
+          "sha256": "f7d804610280c772ae1d527b1d252a3454ae9bf58d9c0cfcfd28104e3bfddbd3"
+        }
+      ]
+    },
+    {
+      "id": "CODE-PROJECT-001",
+      "topic": "projects",
+      "title": "What project serialization includes",
+      "text": "AppHost::currentStateConfig creates the AppHost XML root, saves the node graph when Root exists, then asks PanelLayoutManager and SBStateServer to save their state. Version and BuildNumber are root attributes. An initialized SBStateServer writes its JSON configuration inside an SBState CDATA element.",
+      "boundary": "This describes serialization. It does not prove that a particular disk write succeeded or that the project contains every external media dependency.",
+      "evidence": [
+        {
+          "path": "Server/AppHost/AppHost.cpp",
+          "line_start": 476,
+          "line_end": 488,
+          "sha256": "e58082e98da641067595de98b037f09981b6e4fc0ccce6e671958281b064322d"
+        },
+        {
+          "path": "Server/AppHost/AppHost.cpp",
+          "line_start": 850,
+          "line_end": 861,
+          "sha256": "e58082e98da641067595de98b037f09981b6e4fc0ccce6e671958281b064322d"
+        },
+        {
+          "path": "Libs/SBState/SBStateServer.cpp",
+          "line_start": 67,
+          "line_end": 74,
+          "sha256": "4d46cfa223c17938693a5fcf1a910a9455e3dba17ded321fc0761003d4a115bf"
+        }
+      ]
+    },
+    {
+      "id": "CODE-PROJECT-002",
+      "topic": "projects",
+      "title": "Autosave, shutdown saving and Revert Changes",
+      "text": "Periodic autosave returns immediately for period_never; otherwise an elapsed autosave period calls saveConfig. Shutdown saving uses saveOnNextFinish: forced save returns true, forced not_save returns false, and auto_save uses the supplied Save Server on Close preference. Revert Changes sets Force Open Last Project, selects not_save for the next shutdown and requests a server restart.",
+      "boundary": "These are separate control paths. This record does not establish the preferences in an existing project or guarantee a successful save.",
+      "evidence": [
+        {
+          "path": "Server/AppHost/AppHost.cpp",
+          "line_start": 319,
+          "line_end": 349,
+          "sha256": "e58082e98da641067595de98b037f09981b6e4fc0ccce6e671958281b064322d"
+        },
+        {
+          "path": "Server/ProjectHandler/ProjectHandler.cpp",
+          "line_start": 244,
+          "line_end": 254,
+          "sha256": "672247386fe7b7b5acf32d7f9f7a1c8812039b9d82ff1dcfbcde26a4a3926bf9"
+        },
+        {
+          "path": "Server/AppHost/AppHost.cpp",
+          "line_start": 937,
+          "line_end": 942,
+          "sha256": "e58082e98da641067595de98b037f09981b6e4fc0ccce6e671958281b064322d"
+        }
+      ]
+    },
+    {
+      "id": "CODE-PROJECT-003",
+      "topic": "projects",
+      "title": "Project write and backup sequence",
+      "text": "Project::saveProject rejects XML without a root, attempts to create a project-folder .lock and retries failed configuration writes until its timer exceeds 500 ms. After a successful write it removes the lock, attempts a backup copy and runs backup archiving. CONFIG_BACKUPS is 10; archiveBackups attempts to move entries beyond that count into the archive. Archive cleanup compares its size against maxBackupsSizeMb and removes eligible files in modification-time order.",
+      "boundary": "File-system operations can fail. Ten is the retention target in this implementation, not a guarantee that ten usable backups exist. A backup-copy error is logged separately from the successful primary write.",
+      "evidence": [
+        {
+          "path": "Libs/SBCore/Project.cpp",
+          "line_start": 12,
+          "line_end": 14,
+          "sha256": "7c979359ff7eff725f88c610764c4c928c2d8beed319ec6453f0e602f447e5d5"
+        },
+        {
+          "path": "Libs/SBCore/Project.cpp",
+          "line_start": 245,
+          "line_end": 273,
+          "sha256": "7c979359ff7eff725f88c610764c4c928c2d8beed319ec6453f0e602f447e5d5"
+        },
+        {
+          "path": "Libs/SBCore/Project.cpp",
+          "line_start": 109,
+          "line_end": 133,
+          "sha256": "7c979359ff7eff725f88c610764c4c928c2d8beed319ec6453f0e602f447e5d5"
+        },
+        {
+          "path": "Libs/SBCore/Project.cpp",
+          "line_start": 147,
+          "line_end": 186,
+          "sha256": "7c979359ff7eff725f88c610764c4c928c2d8beed319ec6453f0e602f447e5d5"
+        },
+        {
+          "path": "Libs/SBCore/Project.cpp",
+          "line_start": 341,
+          "line_end": 358,
+          "sha256": "7c979359ff7eff725f88c610764c4c928c2d8beed319ec6453f0e602f447e5d5"
+        }
+      ]
+    },
+    {
+      "id": "CODE-PROJECT-004",
+      "topic": "projects",
+      "title": "Configuration recovery from backups",
+      "text": "If loadProjectData fails, Project::init attempts initFromBackup. Configuration checks reject an invalid path, missing file, directory, remaining .lock or zero-length file. Failed validation or XML loading attempts to rename the configuration with a _corrupted suffix. Recovery iterates the sorted backup list in reverse, copies a candidate to the project configuration path and tries to load it. AppHost adds an informational message when recovery reports a backup name.",
+      "boundary": "This path restores a configuration file. It does not copy missing external media, and it can fail when no candidate can be copied and loaded.",
+      "evidence": [
+        {
+          "path": "Libs/SBCore/Project.cpp",
+          "line_start": 19,
+          "line_end": 55,
+          "sha256": "7c979359ff7eff725f88c610764c4c928c2d8beed319ec6453f0e602f447e5d5"
+        },
+        {
+          "path": "Libs/SBCore/Project.cpp",
+          "line_start": 76,
+          "line_end": 106,
+          "sha256": "7c979359ff7eff725f88c610764c4c928c2d8beed319ec6453f0e602f447e5d5"
+        },
+        {
+          "path": "Libs/SBCore/Project.cpp",
+          "line_start": 184,
+          "line_end": 195,
+          "sha256": "7c979359ff7eff725f88c610764c4c928c2d8beed319ec6453f0e602f447e5d5"
+        },
+        {
+          "path": "Libs/SBCore/Project.cpp",
+          "line_start": 307,
+          "line_end": 333,
+          "sha256": "7c979359ff7eff725f88c610764c4c928c2d8beed319ec6453f0e602f447e5d5"
+        },
+        {
+          "path": "Server/AppHost/AppHost.cpp",
+          "line_start": 489,
+          "line_end": 508,
+          "sha256": "e58082e98da641067595de98b037f09981b6e4fc0ccce6e671958281b064322d"
+        }
+      ]
+    },
+    {
+      "id": "CODE-PROJECT-005",
+      "topic": "projects",
+      "title": "Save As copies two resource directories",
+      "text": "AppHost::saveAsProject calls saveConfig with the chosen project path, checks that the path exists, adds it to recent projects and changes the current configuration path. If the project folder changes, it calls copyFolderToProject for Resources and for the directory returned by Root::nodesResourcesFolder.",
+      "boundary": "The inspected function does not enumerate all external media dependencies. Its existence check is not an independent verification of the newly written contents.",
+      "evidence": [
+        {
+          "path": "Server/AppHost/AppHost.cpp",
+          "line_start": 863,
+          "line_end": 896,
+          "sha256": "e58082e98da641067595de98b037f09981b6e4fc0ccce6e671958281b064322d"
+        },
+        {
+          "path": "Server/AppHost/AppHost.h",
+          "line_start": 177,
+          "line_end": 177,
+          "sha256": "c7bbd45e6df3f72593f6416981d307edb90819e26a292625f3b90836dfe2c96d"
+        }
+      ]
+    },
+    {
+      "id": "CODE-PANEL-002",
+      "topic": "workspaces",
+      "title": "Workspace layouts have a server-side model",
+      "text": "WorkspaceForm::onLayoutChanged starts a single-shot 500 ms timer. Its timeout serializes the docking state and sends updateWorkspaceLayout to AppHost. PanelLayoutManager updates the corresponding server-side layout and broadcasts WorkspaceLayout. A receiving Panel restores the layout when it belongs to its current workspace and differs from the previous layout, temporarily blocking layout-change feedback.",
+      "boundary": "The 500 ms value is a UI update delay, not a disk-save interval or a network delivery guarantee. Local preferences and floating-window geometry require separate analysis.",
+      "evidence": [
+        {
+          "path": "Panel/WorkspaceForm/WorkspaceForm.cpp",
+          "line_start": 317,
+          "line_end": 324,
+          "sha256": "2b092e93ec02570192b4f7955f147c6a06cacc26045aac75c036cec41ee262fb"
+        },
+        {
+          "path": "Panel/WorkspaceForm/WorkspaceForm.cpp",
+          "line_start": 656,
+          "line_end": 664,
+          "sha256": "2b092e93ec02570192b4f7955f147c6a06cacc26045aac75c036cec41ee262fb"
+        },
+        {
+          "path": "Server/Commands/PanelLayout/PanelLayoutManager.cpp",
+          "line_start": 72,
+          "line_end": 83,
+          "sha256": "5eb2ee5fa8b7852c6772760c044b3799e0af3aa2892c4436d1adabe83201e2c2"
+        },
+        {
+          "path": "Panel/WorkspaceForm/WorkspaceForm.cpp",
+          "line_start": 713,
+          "line_end": 728,
+          "sha256": "2b092e93ec02570192b4f7955f147c6a06cacc26045aac75c036cec41ee262fb"
+        }
+      ]
+    },
+    {
+      "id": "CODE-PANEL-003",
+      "topic": "workspaces",
+      "title": "Duplicating and removing a workspace",
+      "text": "The duplication handler copies the selected WorkspaceLayout, chooses an unused name, sets its ID to -1 and submits it as a new workspace immediately after the original. The server has separate handlers for adding, removing and renaming workspaces. When Panel receives removal of its current workspace, it chooses the nearest remaining workspace and restores that layout, or clears the current ID if none remains.",
+      "boundary": "The inspected duplication path copies layout data; it does not issue node-creation commands. This record does not settle disputed widget-instance, chooser-label or Reset Layout behavior.",
+      "evidence": [
+        {
+          "path": "Server/Commands/PanelLayout/PanelLayoutManager.cpp",
+          "line_start": 21,
+          "line_end": 48,
+          "sha256": "5eb2ee5fa8b7852c6772760c044b3799e0af3aa2892c4436d1adabe83201e2c2"
+        },
+        {
+          "path": "Server/Commands/PanelLayout/PanelLayoutManager.cpp",
+          "line_start": 85,
+          "line_end": 144,
+          "sha256": "5eb2ee5fa8b7852c6772760c044b3799e0af3aa2892c4436d1adabe83201e2c2"
+        },
+        {
+          "path": "Panel/WorkspaceForm/WorkspaceForm.cpp",
+          "line_start": 611,
+          "line_end": 623,
+          "sha256": "2b092e93ec02570192b4f7955f147c6a06cacc26045aac75c036cec41ee262fb"
+        },
+        {
+          "path": "Panel/WorkspaceForm/WorkspaceForm.cpp",
+          "line_start": 736,
+          "line_end": 757,
+          "sha256": "2b092e93ec02570192b4f7955f147c6a06cacc26045aac75c036cec41ee262fb"
+        }
+      ]
+    },
+    {
+      "id": "CODE-GRAPH-002",
+      "topic": "graph",
+      "title": "Conditions for node processing",
+      "text": "NodesGroup combines the Enabled state of the node and ancestor groups, checks the node product mask and checks whether a required graphics context is available. Inputs/Outputs nodes and groups marked always-processing use a separate override. basicProcess is called separately; doProcess runs only when processNode is true. Disabled-node input actions are consumed through triggered().",
+      "boundary": "Enabled alone is not the complete processing condition. Product-mask checks are implementation facts, not statements about commercial license entitlements.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/NodesGroup.cpp",
+          "line_start": 965,
+          "line_end": 1134,
+          "sha256": "d06b6767d3037779513407f7b3ac9be617f2806b1d6558dbc755d2d5209842f1"
+        }
+      ]
+    },
+    {
+      "id": "CODE-GRAPH-003",
+      "topic": "graph",
+      "title": "Order of work within a graph pass",
+      "text": "NodesGroup copies the current process-order list before iterating it. For each existing node it processes input notifiers and input links before basicProcess and the conditional doProcess. It then propagates changed state for smart outputs, collects output changes, checks shared resources and clears the processed input change flags.",
+      "boundary": "This describes a node pass. The process-order calculation and special smart-link/resource behavior must be inspected separately for a particular graph.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/NodesGroup.cpp",
+          "line_start": 995,
+          "line_end": 1164,
+          "sha256": "d06b6767d3037779513407f7b3ac9be617f2806b1d6558dbc755d2d5209842f1"
+        }
+      ]
+    },
+    {
+      "id": "CODE-GRAPH-004",
+      "topic": "graph",
+      "title": "Runs per Frame repeats group processing",
+      "text": "Group declares Runs per Frame with default 1 and a parameter range of 1 to 1000. NodesGroup reads that value for Group instances, additionally bounds the process count to 0 through 1000, and calls the child group basicProcess that many times.",
+      "boundary": "The repeated operation is group processing inside the parent pass. The counter does not itself create additional presented Canvas frames.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/Group.cpp",
+          "line_start": 99,
+          "line_end": 107,
+          "sha256": "3822dea390bc7ea9e935141b823dcceff3f408284056c666d3a303afde09e962"
+        },
+        {
+          "path": "Libs/NodesBase/NodesGroup.cpp",
+          "line_start": 921,
+          "line_end": 930,
+          "sha256": "d06b6767d3037779513407f7b3ac9be617f2806b1d6558dbc755d2d5209842f1"
+        },
+        {
+          "path": "Libs/NodesBase/NodesGroup.cpp",
+          "line_start": 1061,
+          "line_end": 1074,
+          "sha256": "d06b6767d3037779513407f7b3ac9be617f2806b1d6558dbc755d2d5209842f1"
+        },
+        {
+          "path": "Libs/NodesBase/NodesGroup.cpp",
+          "line_start": 1105,
+          "line_end": 1107,
+          "sha256": "d06b6767d3037779513407f7b3ac9be617f2806b1d6558dbc755d2d5209842f1"
+        }
+      ]
+    },
+    {
+      "id": "CODE-GRAPH-005",
+      "topic": "graph",
+      "title": "Creating a node requires a registered instantiator",
+      "text": "NodeFactory rejects an empty node name or unknown type. createNodePriv also rejects a missing instantiator and a name containing /. A successful creation receives the description product mask, an optional StreamSource flag and its parent group.",
+      "boundary": "A C++ class or catalog description by itself does not prove that the node can be instantiated in a particular build.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/NodeFactory.cpp",
+          "line_start": 28,
+          "line_end": 46,
+          "sha256": "48b4ca748d43b09f31964cddf493b6145bb0268cca61d84f3d11458857170d20"
+        },
+        {
+          "path": "Libs/NodesBase/NodeFactory.cpp",
+          "line_start": 114,
+          "line_end": 146,
+          "sha256": "48b4ca748d43b09f31964cddf493b6145bb0268cca61d84f3d11458857170d20"
+        }
+      ]
+    },
+    {
+      "id": "CODE-MEDIA-002",
+      "topic": "playback",
+      "title": "Autoplay and previous-state restoration",
+      "text": "During MediaPlayer initialization, the branch without previous states enables autoplay only when both the Autoplay parameter and mProcessAutoplay are true; otherwise it calls Stop. When previous states exist, it calls restorePrevState. The autoplay call occurs after setInitialized(true).",
+      "boundary": "This establishes the initialization branches, not which item autoplay selects or the output visible on a physical display.",
+      "evidence": [
+        {
+          "path": "Nodes/MediaPlayer/MediaPlayer.cpp",
+          "line_start": 297,
+          "line_end": 325,
+          "sha256": "4dcd5aedd7a11a6933a44775cdba9a8ce41d6efae09ed957a15d8fbeff153e84"
+        }
+      ]
+    },
+    {
+      "id": "CODE-MEDIA-005",
+      "topic": "playback",
+      "title": "Playlist, Timeline and Matrix use distinct processors",
+      "text": "ProcessorController constructs PlaylistProcessor, TimelineProcessor and MatrixProcessor. When switching to a registered different processor, it stops and suspends the current processor, assigns the new one and activates it. A non-forced request for the already selected type returns without switching.",
+      "boundary": "This describes processor switching. It is not a promise of identical pause, seek, timing or transition behavior across the three modes.",
+      "evidence": [
+        {
+          "path": "Nodes/MediaPlayer/Processors/ProcessorController.cpp",
+          "line_start": 13,
+          "line_end": 35,
+          "sha256": "49e348b8029d6216309f28d43c9f08f107787803799c0348fe3d696bd3e58ebd"
+        },
+        {
+          "path": "Nodes/MediaPlayer/Processors/ProcessorController.cpp",
+          "line_start": 43,
+          "line_end": 71,
+          "sha256": "49e348b8029d6216309f28d43c9f08f107787803799c0348fe3d696bd3e58ebd"
+        },
+        {
+          "path": "Nodes/MediaPlayer/Processors/ProcessorController.cpp",
+          "line_start": 86,
+          "line_end": 126,
+          "sha256": "49e348b8029d6216309f28d43c9f08f107787803799c0348fe3d696bd3e58ebd"
+        }
+      ]
+    },
+    {
+      "id": "CODE-TIME-005",
+      "topic": "playback",
+      "title": "Declared synchronization modes and defaults",
+      "text": "Sync lists Real Time, Smooth Playback and Play Every Frame for playlists, and Real Time and Smooth Playback for timelines. defaultPlaylistSyncMode returns sync_video, the Smooth Playback entry. defaultTimelineSyncMode returns sync_time, the Real Time entry.",
+      "boundary": "These are defaults in this snapshot. Saved settings and the defaults of other versions have not been verified.",
+      "evidence": [
+        {
+          "path": "Libs/SBCore/Sync/Sync.cpp",
+          "line_start": 5,
+          "line_end": 22,
+          "sha256": "ad9a6d2bc7cb33b732c468e73a941a9e62d952ebcdd2fd3481e374192a6ea2d7"
+        },
+        {
+          "path": "Libs/SBCore/Sync/Sync.h",
+          "line_start": 9,
+          "line_end": 15,
+          "sha256": "30077b3c301ab6028163fa05e487b5f1707178fef13d68e1517dd423732421dd"
+        }
+      ]
+    },
+    {
+      "id": "CODE-CONTENT-003",
+      "topic": "uploads",
+      "title": "Image-sequence decoding requires an explicit frame rate",
+      "text": "RvaDecoder::initInputFileOrFolder fails when InputFile identifies a sequence and no sequenceFps argument was supplied. initStreams selects the LibAv, sequence or RVA/EDV route. For a sequence, an empty stream set marks parsing finished; a nonempty set must contain exactly one stream.",
+      "boundary": "These branches do not establish support for every codec, file extension or image sequence in a shipping build.",
+      "evidence": [
+        {
+          "path": "Libs/SMF/RvaDecoder.cpp",
+          "line_start": 31,
+          "line_end": 93,
+          "sha256": "cf1cfbc7b1b5d552f93b55380242d5bcb0ce2a018e250cc62310cccf7a7c1226"
+        }
+      ]
+    },
+    {
+      "id": "CODE-RENDER-002",
+      "topic": "images",
+      "title": "Display position and orientation participate in drawing",
+      "text": "DisplayNode declares Patches and Background Image inputs, a size and position in pixels, an orientation and a Display output. Its draw function checks initialization, chooses an offset depending on whether it is drawing to an image, constructs an orientation transform and determines whether scissoring is needed from the size, offset and stereo mode.",
+      "boundary": "This is the composition implementation. It does not identify operating-system monitor placement or confirm stereo hardware support.",
+      "evidence": [
+        {
+          "path": "Nodes/MainNodes/Display.cpp",
+          "line_start": 18,
+          "line_end": 66,
+          "sha256": "2af071157a75cb835b1e3767be91aa63ff28b686aa2e7198a5b5fb5b1abb93c4"
+        },
+        {
+          "path": "Nodes/MainNodes/Display.cpp",
+          "line_start": 82,
+          "line_end": 102,
+          "sha256": "2af071157a75cb835b1e3767be91aa63ff28b686aa2e7198a5b5fb5b1abb93c4"
+        },
+        {
+          "path": "Nodes/MainNodes/Display.cpp",
+          "line_start": 131,
+          "line_end": 175,
+          "sha256": "2af071157a75cb835b1e3767be91aa63ff28b686aa2e7198a5b5fb5b1abb93c4"
+        }
+      ]
+    },
+    {
+      "id": "CODE-RENDER-003",
+      "topic": "images",
+      "title": "Render Target reacts to format and content changes",
+      "text": "RenderTarget declares size, channel count, channel bit depth, stereo mode, MSAA and color/depth-buffer controls. doProcess calls doInit when the listed format controls, external Image Format inputs or licensing state change. In the normal rendering branch it returns early when both processNeedRender and mImageChanged are false.",
+      "boundary": "The source describes when this node redraws; it is not a measurement of GPU load or a general guarantee that every static graph consumes no rendering time.",
+      "evidence": [
+        {
+          "path": "Nodes/MainNodes/RenderTarget.cpp",
+          "line_start": 17,
+          "line_end": 75,
+          "sha256": "01e246aa3b4bb63f1c2f7bb120855628dd2603c7a159dcd746a5e6d871815c6e"
+        },
+        {
+          "path": "Nodes/MainNodes/RenderTarget.cpp",
+          "line_start": 126,
+          "line_end": 178,
+          "sha256": "01e246aa3b4bb63f1c2f7bb120855628dd2603c7a159dcd746a5e6d871815c6e"
+        }
+      ]
+    },
+    {
+      "id": "CODE-CAL-003",
+      "topic": "calibration",
+      "title": "Geometry calibration depends on Masks data",
+      "text": "When capture is enabled, GeometryJob reads the camera-tuning value from Masks. A negative value emits an error asking for Masks calibration first and throws GEOMETRY_FAILED. The job also loads MaskCropData for each projector and fails if a loaded CropData object is not initialized.",
+      "boundary": "The camera-tuning check is conditional on capture. No projector or camera calibration was executed in this review.",
+      "evidence": [
+        {
+          "path": "Nodes/CalibratorNodes/Jobs/GeometryJob.cpp",
+          "line_start": 121,
+          "line_end": 165,
+          "sha256": "f60bcfa91c897475f5f4ce586dc7e90c66eef13bb290c50fdc9b6337c4bca91d"
+        }
+      ]
+    },
+    {
+      "id": "CODE-3D-003",
+      "topic": "scene",
+      "title": "Projector brightness calculation and mode-dependent ports",
+      "text": "Projector::getBrightness multiplies Brightness by Brightness Factor divided by 100 and by Stack Count. updateForSceneMode hides Source and disables its port in remapping mode; Mask uses the opposite visibility and port state. ProjectionMapper derives from ProjectorBase and removes the mask input in its constructor.",
+      "boundary": "This establishes a calculation and visibility rules. It does not establish physical illuminance units, photometric accuracy or the units used by external Mapping Matter data.",
+      "evidence": [
+        {
+          "path": "Nodes/Scene3dNodes/Projector.cpp",
+          "line_start": 10,
+          "line_end": 46,
+          "sha256": "a3dfb9bf9d917b16ed9317ee8be0eb5ee6c31903d9a205ef7aee879fb295fae6"
+        },
+        {
+          "path": "Nodes/Scene3dNodes/Projector.cpp",
+          "line_start": 63,
+          "line_end": 91,
+          "sha256": "a3dfb9bf9d917b16ed9317ee8be0eb5ee6c31903d9a205ef7aee879fb295fae6"
+        },
+        {
+          "path": "Nodes/Scene3dNodes/ProjectionMapper.cpp",
+          "line_start": 5,
+          "line_end": 10,
+          "sha256": "e49cb50ca55e42da5b1f3e0137af4371b854aa4d1544ef7dd4c41bcc6153c6a9"
+        }
+      ]
+    },
+    {
+      "id": "CODE-AUDIO-001",
+      "topic": "audio",
+      "title": "Audio processing has its own block loop",
+      "text": "When startAudioThread is true, AudioEngine starts a thread that calls processGraph with mSystemFrameSize and schedules the next iteration using the frame size and sample rate. processGraph calls processAudio(samples) for each audio node under the graph mutex. videoFrameProcessFinished applies deferred changes and notifies audio nodes under the same mutex.",
+      "boundary": "This is the internal-thread path. Device-clock mode and actual end-to-end latency are separate topics.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/AudioEngine/AudioEngine.cpp",
+          "line_start": 10,
+          "line_end": 68,
+          "sha256": "6dd555a20dbf228eee3523e09949487ac582257d95d200a541cfc23ae4240afc"
+        }
+      ]
+    },
+    {
+      "id": "CODE-INTEGRATION-003",
+      "topic": "integration",
+      "title": "TouchEngine Low Latency changes when frame completion is awaited",
+      "text": "TouchEngineNode2 processes the previous frame before passing inputs and starting the next TOX frame. When Low Latency is enabled, it also finishes input images before processFrame and invokes doProcessPrevFrame again after starting that frame. doProcessPrevFrame obtains the current frame result with getResult(true) and reports an error if that result fails.",
+      "boundary": "This explains the extra completion step. It does not establish a fixed latency reduction or throughput on any GPU or TOX project.",
+      "evidence": [
+        {
+          "path": "Nodes/IntegrationNodes/TouchEngine/TouchEngineNode2.cpp",
+          "line_start": 380,
+          "line_end": 407,
+          "sha256": "e27fe73fe623d815960b19fe785adb4c115198cf73ce04202f13780635d5f9a4"
+        },
+        {
+          "path": "Nodes/IntegrationNodes/TouchEngine/TouchEngineNode2.h",
+          "line_start": 92,
+          "line_end": 111,
+          "sha256": "ed94019ff1c17402936fe53cfb867e212044370270d5f065a1058393d3e66e60"
+        },
+        {
+          "path": "Nodes/IntegrationNodes/TouchEngine/TouchEngineNode2.cpp",
+          "line_start": 416,
+          "line_end": 439,
+          "sha256": "e27fe73fe623d815960b19fe785adb4c115198cf73ce04202f13780635d5f9a4"
+        }
+      ]
+    },
+    {
+      "id": "CODE-API-001",
+      "topic": "api",
+      "title": "JSON API command dispatch",
+      "text": "JsonApiFactory registers command factories through std::call_once. getCommand requires a cmd member that can be read as a string, rejects missing or unparseable cmd values, rejects names absent from the factory and constructs the matching command. Descriptions, parameter schemas and mutating metadata are stored separately for commands with a nonempty description.",
+      "boundary": "Registration and metadata do not prove successful execution or authorize a command. Each command implementation defines its validation and effects.",
+      "evidence": [
+        {
+          "path": "Server/Commands/JsonApi/JsonApiFactory.cpp",
+          "line_start": 64,
+          "line_end": 76,
+          "sha256": "dd9afdbeea85fa9f2091f1aad34cfc9204510e46dec5a07e2dc8ed0fdd741605"
+        },
+        {
+          "path": "Server/Commands/JsonApi/JsonApiFactory.cpp",
+          "line_start": 79,
+          "line_end": 173,
+          "sha256": "dd9afdbeea85fa9f2091f1aad34cfc9204510e46dec5a07e2dc8ed0fdd741605"
+        }
+      ]
+    },
+    {
+      "id": "CODE-API-002",
+      "topic": "api",
+      "title": "SetParameter validates and dispatches a parameter command",
+      "text": "JSetParameter finds the node parameter, clones it, requires value and loads that JSON value into the clone through NParamToJson. It serializes the clone and sends SetNodesParamEasy to the parent group, then returns getSuccess().",
+      "boundary": "This success path contains no independent check of an external device or physical result. The accepted JSON shape depends on the parameter type.",
+      "evidence": [
+        {
+          "path": "Server/Commands/JsonApi/NodeGraphCommands/JSetParameter.cpp",
+          "line_start": 9,
+          "line_end": 32,
+          "sha256": "f74fa2df7501a897f5e885c2bc4c27923471b3945bd3e3e495feaa27071f92bc"
+        },
+        {
+          "path": "Server/Commands/JsonApi/NodeGraphCommands/JSetParameter.h",
+          "line_start": 16,
+          "line_end": 38,
+          "sha256": "6b671db09dc460e499fe28e8cf096595da43a82c0823cb902afc4c54e69223b1"
+        }
+      ]
+    },
+    {
+      "id": "CODE-AUTO-002",
+      "topic": "automation",
+      "title": "DelayAction has one restartable timer",
+      "text": "DelayAction::doProcess starts its timer when In is triggered, then checks Reset and pauses the timer if Reset is triggered. If not paused, it compares elapsed seconds with Delay; on reaching Delay it pauses the timer and sets Out to true. Repeated input restarts the same timer.",
+      "boundary": "This is one timer, not a queue of independently delayed events. If In and Reset are both triggered in one pass, Reset is handled after In.",
+      "evidence": [
+        {
+          "path": "Nodes/SharedNodes/AutomationNodes/DelayAction.cpp",
+          "line_start": 20,
+          "line_end": 44,
+          "sha256": "73923a631caa3553445da6da3ce662549b93264c5d6577682ea9dea2d5747252"
+        },
+        {
+          "path": "Libs/SBCore/NMTimer.cpp",
+          "line_start": 26,
+          "line_end": 32,
+          "sha256": "74f61acd7d65a64a89ffef18ede14ffd56837906c8d5eb62c08a72e0c08810f9"
+        }
+      ]
+    },
+    {
+      "id": "CODE-AUTO-004",
+      "topic": "automation",
+      "title": "Timecode Events tests exact matches and bounded forward crossings",
+      "text": "TimecodeEvents evaluates mappings when its timecode input is marked changed. Its predicate accepts exact equality. It also accepts a current value above the mapped value by less than 50 when the previous value is below the mapped value by less than 50, or when the previous value is negative.",
+      "boundary": "The predicate is stated in its timecode-value units. It does not guarantee firing after arbitrary seeks, large jumps or reverse playback.",
+      "evidence": [
+        {
+          "path": "Nodes/SharedNodes/AutomationNodes/TimecodeEvents.cpp",
+          "line_start": 61,
+          "line_end": 71,
+          "sha256": "c62e5378150ffb638ef0332261c1de97ee6cf0d2609dff7c71916b11b49edfce"
+        },
+        {
+          "path": "Nodes/SharedNodes/AutomationNodes/TimecodeEvents.cpp",
+          "line_start": 101,
+          "line_end": 120,
+          "sha256": "c62e5378150ffb638ef0332261c1de97ee6cf0d2609dff7c71916b11b49edfce"
+        }
+      ]
+    },
+    {
+      "id": "CODE-PROTOCOL-002",
+      "topic": "automation",
+      "title": "OSC Sender sends on the Send action",
+      "text": "OscSender::doProcess sends only inside the Send-triggered branch. A Message beginning with { is sent as one string argument to /jsonApi. Otherwise the first space separates the address from the argument string; arguments undergo escape-sequence conversion and UdpStringToArgs parsing. With no space, the entire string is used as an address without arguments.",
+      "boundary": "Changing Message alone does not enter this send branch. This record does not verify packet delivery or behavior of the receiver.",
+      "evidence": [
+        {
+          "path": "Nodes/SharedNodes/AutomationNodes/OscNodes/OscSender.cpp",
+          "line_start": 29,
+          "line_end": 61,
+          "sha256": "a75df307b915347501593dd4b3aced9a3a46395cd97d6fd8947cf0da776f5f8e"
+        }
+      ]
+    },
+    {
+      "id": "CODE-CONTROL-001",
+      "topic": "automation",
+      "title": "Action/Logic conversion uses state and change flags",
+      "text": "ActionToLogic checks the On input first and the Off input in an else-if branch, updating its boolean output accordingly. LogicToAction checks whether its boolean input is marked changed and sets the corresponding On or Off action output.",
+      "boundary": "A true logic value does not by itself cause an action on every pass. The lifetime of an unconsumed action depends on graph cleanup.",
+      "evidence": [
+        {
+          "path": "Nodes/SharedNodes/MathNodes/Logic/ActionToLogic.cpp",
+          "line_start": 35,
+          "line_end": 53,
+          "sha256": "4a11287caabec9eee1a0c39e7ffb937bc3cce3ab0ee986043fb718056c48541a"
+        },
+        {
+          "path": "Nodes/SharedNodes/MathNodes/Logic/LogicToAction.cpp",
+          "line_start": 35,
+          "line_end": 49,
+          "sha256": "0f60971b8a85715ef21ab754a302e654d0bbe50f31964b3718e00866a002ae22"
+        }
+      ]
+    },
+    {
+      "id": "CODE-CONTROL-002",
+      "topic": "automation",
+      "title": "Float triggers and inclusive ranges",
+      "text": "FloatToAction classifies its input as zero or nonzero and emits an action on its first update or when that classification changes. doInit also calls updateValues. FloatRange tests Input >= Min and Input <= Max, emits an entry/exit action when that result changes from its previous Output, and calculates Clamped Value separately.",
+      "boundary": "A change from 1 to 2 does not change the FloatToAction classification. FloatRange changes inside the same range do not by themselves emit another entry action.",
+      "evidence": [
+        {
+          "path": "Nodes/SharedNodes/MathNodes/FloatToAction.cpp",
+          "line_start": 20,
+          "line_end": 26,
+          "sha256": "940e9083ce79b759ee6404764a3e0e5e7b664769f3e7811872b584a88e3ab0f3"
+        },
+        {
+          "path": "Nodes/SharedNodes/MathNodes/FloatToAction.cpp",
+          "line_start": 28,
+          "line_end": 39,
+          "sha256": "940e9083ce79b759ee6404764a3e0e5e7b664769f3e7811872b584a88e3ab0f3"
+        },
+        {
+          "path": "Nodes/SharedNodes/MathNodes/FloatRange.cpp",
+          "line_start": 30,
+          "line_end": 50,
+          "sha256": "19c563c0335c491b375ac2ee7817e787c5c6e8525445d72e00cc0379ac588c73"
+        }
+      ]
+    },
+    {
+      "id": "CODE-CONTROL-006",
+      "topic": "automation",
+      "title": "PID uses the configured time step",
+      "text": "PIDController declares Dt with default 0.0166 and passes it to PID with the gain, output-limit, integral-limit and filter parameters. Processing calculates a result from Target minus Current. PID accumulates filtered error multiplied by Dt, limits the integral, computes a derivative when Dt exceeds 0.000001, and limits the final result to the positive or negative Output Max. Updating configuration calls doInit, which resets PID only when the node was not initialized.",
+      "boundary": "Dt is an explicit input; this path does not replace it with a measured frame duration. Defaults are not tuning recommendations for physical equipment.",
+      "evidence": [
+        {
+          "path": "Nodes/SharedNodes/MathNodes/PIDController.cpp",
+          "line_start": 14,
+          "line_end": 21,
+          "sha256": "cc93fa821be2560b3c2b2ab2dc3deb7672478217de61cefe6d34e15a8d5d6c90"
+        },
+        {
+          "path": "Nodes/SharedNodes/MathNodes/PIDController.cpp",
+          "line_start": 34,
+          "line_end": 45,
+          "sha256": "cc93fa821be2560b3c2b2ab2dc3deb7672478217de61cefe6d34e15a8d5d6c90"
+        },
+        {
+          "path": "Nodes/SharedNodes/MathNodes/PIDController.cpp",
+          "line_start": 55,
+          "line_end": 70,
+          "sha256": "cc93fa821be2560b3c2b2ab2dc3deb7672478217de61cefe6d34e15a8d5d6c90"
+        },
+        {
+          "path": "Libs/SBCore/PID.cpp",
+          "line_start": 33,
+          "line_end": 69,
+          "sha256": "86754df348d141eb16479c224c72b2095e55a398db6499e208add4f2ba0e326b"
+        },
+        {
+          "path": "Libs/SBCore/PID.cpp",
+          "line_start": 17,
+          "line_end": 31,
+          "sha256": "86754df348d141eb16479c224c72b2095e55a398db6499e208add4f2ba0e326b"
+        }
+      ]
+    },
+    {
+      "id": "CODE-UPLOAD-001",
+      "topic": "uploads",
+      "title": "Completed and terminal upload states differ",
+      "text": "UploadItem::isComplete returns true for done, upload error, conversion error and aborted. UploadManager displays Completed only for done and uses distinct failure/aborted labels for the other states. finishConversion chooses done only when result.success is true and no stop request exists; a stop request selects aborted, otherwise an unsuccessful result selects conversion error.",
+      "boundary": "The internal isComplete predicate means a terminal queue state. It must not be interpreted as a successful import.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/UploadItem.h",
+          "line_start": 11,
+          "line_end": 22,
+          "sha256": "c4265a4df28fe83a365619cc3e157546a56a227287172549e9cb07db2be7c114"
+        },
+        {
+          "path": "Libs/NodesBase/UploadItem.cpp",
+          "line_start": 82,
+          "line_end": 89,
+          "sha256": "6c619255884b8e003a7567d7ba4a93b0a6e1a39332d8c9e0a8726e618096a74b"
+        },
+        {
+          "path": "Panel/PanelModules/MediaLibrary/UploadManager.cpp",
+          "line_start": 195,
+          "line_end": 212,
+          "sha256": "264e49cc8ecb2f6ee4ac712c630c20f66f6916a1724da97ddb33d2c25441a0d4"
+        },
+        {
+          "path": "Server/ContentManager/UploadContent.cpp",
+          "line_start": 306,
+          "line_end": 357,
+          "sha256": "b9406f6183c9573910ba95b21a414e6506b02f48286d2f4820f1e4cceeff5219"
+        }
+      ]
+    },
+    {
+      "id": "CODE-UPLOAD-002",
+      "topic": "uploads",
+      "title": "Pause, Resume and Abort operate differently",
+      "text": "UploadItem allows Pause for waiting-for-convert and converting states, and Resume for paused. UploadContent::pauseAll pauses unfinished conversion processes; resumeAll requeues paused processes. abortUploads marks eligible items aborted, requests a stop for running conversions or removes waiting conversions, and calls removeMedia for the collected destination paths.",
+      "boundary": "These pause controls apply to processing. Abort is not equivalent to hiding a queue entry and does not promise preservation of an intermediate output.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/UploadItem.cpp",
+          "line_start": 90,
+          "line_end": 106,
+          "sha256": "6c619255884b8e003a7567d7ba4a93b0a6e1a39332d8c9e0a8726e618096a74b"
+        },
+        {
+          "path": "Server/ContentManager/UploadContent.cpp",
+          "line_start": 696,
+          "line_end": 722,
+          "sha256": "b9406f6183c9573910ba95b21a414e6506b02f48286d2f4820f1e4cceeff5219"
+        },
+        {
+          "path": "Server/ContentManager/UploadContent.cpp",
+          "line_start": 509,
+          "line_end": 566,
+          "sha256": "b9406f6183c9573910ba95b21a414e6506b02f48286d2f4820f1e4cceeff5219"
+        }
+      ]
+    },
+    {
+      "id": "CODE-UPLOAD-003",
+      "topic": "uploads",
+      "title": "Clearing completed uploads removes queue history",
+      "text": "UploadContent::clearCompletedUploads erases UploadItem entries whose isComplete predicate is true and sends the updated list. It does not call removeMedia. Because isComplete includes failures and aborted items, those terminal records are cleared along with successful ones.",
+      "boundary": "This is the queue-clear handler. Media deletion uses a separate path.",
+      "evidence": [
+        {
+          "path": "Server/ContentManager/UploadContent.cpp",
+          "line_start": 295,
+          "line_end": 305,
+          "sha256": "b9406f6183c9573910ba95b21a414e6506b02f48286d2f4820f1e4cceeff5219"
+        },
+        {
+          "path": "Libs/NodesBase/UploadItem.cpp",
+          "line_start": 82,
+          "line_end": 89,
+          "sha256": "6c619255884b8e003a7567d7ba4a93b0a6e1a39332d8c9e0a8726e618096a74b"
+        },
+        {
+          "path": "Server/ContentManager/UploadContent.cpp",
+          "line_start": 722,
+          "line_end": 733,
+          "sha256": "b9406f6183c9573910ba95b21a414e6506b02f48286d2f4820f1e4cceeff5219"
+        }
+      ]
+    },
+    {
+      "id": "CODE-UPLOAD-004",
+      "topic": "uploads",
+      "title": "Upload Again needs a source path available to Panel",
+      "text": "UploadItem stores its remote destination and panelFilePath separately. UploadManager::canBeUploadAgain checks that panelFilePath exists through the Panel-side FileSystem. uploadAgain passes that local source and the recorded remote destination back to processUrlsDrop.",
+      "boundary": "A matching path string on Server does not establish that the source exists on the Panel computer. The existence check also does not guarantee that a subsequent upload succeeds.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/UploadItem.cpp",
+          "line_start": 5,
+          "line_end": 25,
+          "sha256": "6c619255884b8e003a7567d7ba4a93b0a6e1a39332d8c9e0a8726e618096a74b"
+        },
+        {
+          "path": "Panel/PanelModules/MediaLibrary/UploadManager.cpp",
+          "line_start": 227,
+          "line_end": 238,
+          "sha256": "264e49cc8ecb2f6ee4ac712c630c20f66f6916a1724da97ddb33d2c25441a0d4"
+        },
+        {
+          "path": "Panel/PanelModules/MediaLibrary/UploadManager.cpp",
+          "line_start": 261,
+          "line_end": 271,
+          "sha256": "264e49cc8ecb2f6ee4ac712c630c20f66f6916a1724da97ddb33d2c25441a0d4"
+        },
+        {
+          "path": "Libs/SBCore/FileSystem/RemotePath.cpp",
+          "line_start": 40,
+          "line_end": 55,
+          "sha256": "90d67550f1c382e2fdaf70ec910e5f89b223a7813b9ef35837baa7d42f8575c4"
+        }
+      ]
+    },
+    {
+      "id": "CODE-UPLOAD-005",
+      "topic": "uploads",
+      "title": "Upload progress accounts for stages",
+      "text": "UploadItem uses the item size for total upload work and includes conversion work only when hasConversionStage is set. isCountedForProgress includes queued, uploading, converting and done states, and excludes paused, failed and aborted states. A done item reports progress 1.0.",
+      "boundary": "These are work/progress calculations, not an estimate of remaining seconds. Transfer and conversion are separate stages.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/UploadItem.cpp",
+          "line_start": 118,
+          "line_end": 158,
+          "sha256": "6c619255884b8e003a7567d7ba4a93b0a6e1a39332d8c9e0a8726e618096a74b"
+        },
+        {
+          "path": "Libs/NodesBase/UploadItem.cpp",
+          "line_start": 74,
+          "line_end": 80,
+          "sha256": "6c619255884b8e003a7567d7ba4a93b0a6e1a39332d8c9e0a8726e618096a74b"
+        }
+      ]
+    },
+    {
+      "id": "CODE-UPLOAD-006",
+      "topic": "uploads",
+      "title": "A low-space check can pause processing",
+      "text": "UploadContent::updateDiskFreeSpaceInfo checks free space for ./Media after its update interval. If the integer calculation freeSpace / 1024 / 1024 is at most 200 and there are running tasks, it calls pauseAll. It then looks for a conversion in progress to attach the low-space error; if none is found, it logs an internal error and returns.",
+      "boundary": "The checked path is ./Media in the Server process context. This is not a check of every external destination or a guarantee of sufficient space for the remaining job.",
+      "evidence": [
+        {
+          "path": "Server/ContentManager/UploadContent.cpp",
+          "line_start": 153,
+          "line_end": 181,
+          "sha256": "b9406f6183c9573910ba95b21a414e6506b02f48286d2f4820f1e4cceeff5219"
+        }
+      ]
+    },
+    {
+      "id": "CODE-CLOCK-001",
+      "topic": "timing",
+      "title": "Real-frame and Canvas-frame time use different inputs",
+      "text": "AppHost::process records NMTimer::uptimeUs in AppInfo before processMain. RealFrameTimer reads that stored uptime value. CanvasFrameTimer calculates currentFameNumber multiplied by frameTimeMs and 1000.",
+      "boundary": "These are two time sources. Reading either timer repeatedly does not by itself advance a rendered frame or sample a new wall-clock time.",
+      "evidence": [
+        {
+          "path": "Server/AppHost/AppHost.cpp",
+          "line_start": 224,
+          "line_end": 234,
+          "sha256": "e58082e98da641067595de98b037f09981b6e4fc0ccce6e671958281b064322d"
+        },
+        {
+          "path": "Libs/NodesBase/FrameTimer.cpp",
+          "line_start": 137,
+          "line_end": 145,
+          "sha256": "65957db1e85f4d29de63d723e5e43bab256638ebf2f893740648834d7159ed7d"
+        },
+        {
+          "path": "Libs/NodesBase/FrameTimer.cpp",
+          "line_start": 153,
+          "line_end": 161,
+          "sha256": "65957db1e85f4d29de63d723e5e43bab256638ebf2f893740648834d7159ed7d"
+        }
+      ]
+    },
+    {
+      "id": "CODE-CLOCK-002",
+      "topic": "timing",
+      "title": "Changing timer speed preserves elapsed accumulation",
+      "text": "FrameTimer::setSpeed adds the elapsed interval at the old speed into mAddDurationUs and updates its reference point before assigning the new speed. Pause fixes a paused point; Resume preserves the preceding accumulated interval. period(ms) subtracts one period and returns a boolean when the threshold is reached.",
+      "boundary": "One period call does not return a count of all missed periods. Catch-up behavior depends on the caller.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/FrameTimer.cpp",
+          "line_start": 15,
+          "line_end": 45,
+          "sha256": "65957db1e85f4d29de63d723e5e43bab256638ebf2f893740648834d7159ed7d"
+        },
+        {
+          "path": "Libs/NodesBase/FrameTimer.cpp",
+          "line_start": 95,
+          "line_end": 135,
+          "sha256": "65957db1e85f4d29de63d723e5e43bab256638ebf2f893740648834d7159ed7d"
+        }
+      ]
+    },
+    {
+      "id": "CODE-PARAM-003",
+      "topic": "parameters",
+      "title": "Numeric assignment clamps and marks changed",
+      "text": "NParamDouble::setDoubleValue and NParamInt::setInt64Value clamp the incoming value to their stored minimum and maximum, then call setChanged unconditionally. NParam::setChanged sets a boolean flag.",
+      "boundary": "A changed flag does not necessarily mean the numeric value differs from its previous value. This statement is scoped to these setters, not every parameter type or NaN behavior.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/NParams/NParamDouble.cpp",
+          "line_start": 8,
+          "line_end": 15,
+          "sha256": "83ec6ad539877cb4104366ff22a98e0bf6bb55289cfcb30c9dfcb6e5a4021ed8"
+        },
+        {
+          "path": "Libs/NodesBase/NParams/NParamDouble.cpp",
+          "line_start": 83,
+          "line_end": 87,
+          "sha256": "83ec6ad539877cb4104366ff22a98e0bf6bb55289cfcb30c9dfcb6e5a4021ed8"
+        },
+        {
+          "path": "Libs/NodesBase/NParams/NParamInt.cpp",
+          "line_start": 85,
+          "line_end": 89,
+          "sha256": "d5e3871b0863e3473776b481f943ac796ece0c3225ec964537b47164e8bfa2d6"
+        },
+        {
+          "path": "Libs/NodesBase/NParams/NParam.h",
+          "line_start": 229,
+          "line_end": 230,
+          "sha256": "7d58196f327f9238a1a6ed29a19b43efd22fd2ca2fe9b4fd4051ff004557162a"
+        }
+      ]
+    },
+    {
+      "id": "CODE-PARAM-004",
+      "topic": "parameters",
+      "title": "Action values and their short display text have different lifetimes",
+      "text": "NParamAction::triggered returns the current boolean and clears true. setNotChanged also clears it; copyDataFrom transfers true values only, and XML loading resets the action to false. toStringShort uses a separate timer and reports true for less than changeValueTimeoutMs, which is 300 ms.",
+      "boundary": "An Action is a consumable boolean, not an event counter. The 300 ms text indicator does not mean that the action runs continuously for 300 ms.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/NParams/NParamAction.cpp",
+          "line_start": 10,
+          "line_end": 36,
+          "sha256": "d9c948d4cca14691c83dca764e1597e9e2245e95fd52a0207532b3bbd78df52e"
+        },
+        {
+          "path": "Libs/NodesBase/NParams/NParamAction.cpp",
+          "line_start": 46,
+          "line_end": 66,
+          "sha256": "d9c948d4cca14691c83dca764e1597e9e2245e95fd52a0207532b3bbd78df52e"
+        },
+        {
+          "path": "Libs/NodesBase/NParams/NParamAction.h",
+          "line_start": 37,
+          "line_end": 43,
+          "sha256": "596d31416484ae34cebd52cbf6e626e61be0f4942942ab9bd2c40f71868fe5db"
+        }
+      ]
+    },
+    {
+      "id": "CODE-PARAM-005",
+      "topic": "parameters",
+      "title": "Message parameters hold a transient queue",
+      "text": "NParamMessages appends messages, pops the oldest one and appends the source queue during copyDataFrom. setNotChanged clears the queue and last-received text. Its serialization sends counters and the last-received message text when full metadata is requested, rather than serializing the full payload queue.",
+      "boundary": "This parameter is not a durable message log. Delivery and loss behavior depend on its producers, consumers and graph cleanup.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/NParams/NParamMessages.cpp",
+          "line_start": 5,
+          "line_end": 52,
+          "sha256": "e15f041047e4c6f151c83bfe49e5a220a7b79c22c89c82a31d3c80ebe0363ac6"
+        },
+        {
+          "path": "Libs/NodesBase/NParams/NParamMessages.cpp",
+          "line_start": 49,
+          "line_end": 72,
+          "sha256": "e15f041047e4c6f151c83bfe49e5a220a7b79c22c89c82a31d3c80ebe0363ac6"
+        }
+      ]
+    },
+    {
+      "id": "CODE-PARAM-006",
+      "topic": "parameters",
+      "title": "Visibility, ports, editability and saved values are separate",
+      "text": "NParam stores Hidden, Port and UserEditable as separate properties. A name starting with $ initializes Hidden to true and Port to false. setVisibleAndEditable changes visibility and editability together, without setting Port. Serialization records parameter identity, non-input direction, port/hide flags and the type-specific value. NParamImage and NParamAction implement empty saveValueToXml methods.",
+      "boundary": "A visible port, editable control and saved value are different properties. These empty value serializers do not save image pixels or a pending Action event into the parameter XML.",
+      "evidence": [
+        {
+          "path": "Libs/NodesBase/NParams/NParam.cpp",
+          "line_start": 33,
+          "line_end": 77,
+          "sha256": "333528d416f81f0e1828b3a043396b5a2e9f827616d890d5eeaacf85970190e9"
+        },
+        {
+          "path": "Libs/NodesBase/NParams/NParam.cpp",
+          "line_start": 346,
+          "line_end": 360,
+          "sha256": "333528d416f81f0e1828b3a043396b5a2e9f827616d890d5eeaacf85970190e9"
+        },
+        {
+          "path": "Libs/NodesBase/NParams/NParamImage.h",
+          "line_start": 50,
+          "line_end": 51,
+          "sha256": "1d37ba8206fc7865f5ecabbc010abad57213cc65d37e3edc26b74faae8acc37d"
+        },
+        {
+          "path": "Libs/NodesBase/NParams/NParamAction.h",
+          "line_start": 42,
+          "line_end": 43,
+          "sha256": "596d31416484ae34cebd52cbf6e626e61be0f4942942ab9bd2c40f71868fe5db"
+        }
+      ]
+    },
+    {
+      "id": "CODE-CLOCK-005",
+      "topic": "audio",
+      "title": "Audio output channel adjustment resizes channel storage",
+      "text": "AudioStream::pushOutput applies volume and calls trimOrExtendChannels with the device output-channel count. AudioBlob updates that count and resizes its channel array and sample arrays. This path performs no mixing matrix and does not duplicate a mono channel into a second channel. With no data in the ordinary non-clock-cache path, AudioStream writes silence.",
+      "boundary": "Channel-count adjustment is not a downmix or a channel-routing plan. Device-clock caching follows a separate branch.",
+      "evidence": [
+        {
+          "path": "Nodes/AudioNodes/AudioStream.cpp",
+          "line_start": 170,
+          "line_end": 193,
+          "sha256": "e6845942f4118148f4dd8f03383754e52a705b04c97ca4337759554612d8cd37"
+        },
+        {
+          "path": "Libs/SBCore/AudioEngine/AudioBlob.cpp",
+          "line_start": 122,
+          "line_end": 130,
+          "sha256": "eeaaac66af85f35a937a160800c1f9dbeee415f345aba18840de607648de4a03"
+        },
+        {
+          "path": "Libs/SBCore/AudioEngine/AudioBlob.cpp",
+          "line_start": 169,
+          "line_end": 183,
+          "sha256": "eeaaac66af85f35a937a160800c1f9dbeee415f345aba18840de607648de4a03"
+        }
+      ]
+    },
+    {
+      "id": "CODE-VISUAL-001",
+      "topic": "images",
+      "title": "Image Format reports properties of its input",
+      "text": "ImageFormat has an Image input and outputs Image Size, Number of Channels, Bits per Channel and Stereoscopic. updateOutputs reads those properties from the input image. A changed input calls doInit; a missing image sets No Image input and deinitializes the node.",
+      "boundary": "This implementation reports image properties. It does not resize the input or convert its bit depth or color space.",
+      "evidence": [
+        {
+          "path": "Nodes/ImageNodes/ImageFormat.cpp",
+          "line_start": 8,
+          "line_end": 52,
+          "sha256": "bb3e3e6586cf0d72802d32766adf616e21a47caf754094e234b2a96d84c8e606"
+        }
+      ]
+    },
+    {
+      "id": "CODE-VISUAL-004",
+      "topic": "images",
+      "title": "Image-memory calculation is per buffer",
+      "text": "reImageFormat uses one byte per channel for uint8, two for float16 and four for float32/depth32f, multiplied by the multisample count when applicable. rowSize includes width, channel count and alignment; rgb10a2 has a separate four-byte-per-pixel branch. For uncompressed data memorySize is rowSize times height. At alignment 1 without MSAA, a 3840 × 2160 four-channel buffer is 33,177,600 bytes for uint8 or 132,710,400 bytes for float32.",
+      "boundary": "The examples are arithmetic from the source formula, not measured GPU allocation. They exclude other buffers and driver overhead.",
+      "evidence": [
+        {
+          "path": "Libs/Reactor/reImageFormat.cpp",
+          "line_start": 74,
+          "line_end": 96,
+          "sha256": "114d740c870afb77f44932bf4a9468ece2cef0953b2843f2c567fceb06190448"
+        },
+        {
+          "path": "Libs/Reactor/reImageFormat.cpp",
+          "line_start": 98,
+          "line_end": 124,
+          "sha256": "114d740c870afb77f44932bf4a9468ece2cef0953b2843f2c567fceb06190448"
+        },
+        {
+          "path": "Libs/Reactor/reImageFormat.cpp",
+          "line_start": 7,
+          "line_end": 11,
+          "sha256": "114d740c870afb77f44932bf4a9468ece2cef0953b2843f2c567fceb06190448"
+        }
+      ]
+    },
+    {
+      "id": "CODE-ITEM-002",
+      "topic": "playback",
+      "title": "Timeline position and item time have an explicit conversion",
+      "text": "TimelineData::mapToItemTime calculates globalTime − Pos + StartFrom. mapToTimelineTime calculates localTime − StartFrom + Pos. The keyframe insertion and retrieval paths use these conversions. For example, Pos = 10 seconds and StartFrom = 2 seconds map timeline time 11 seconds to item time 3 seconds.",
+      "boundary": "The methods store time in microseconds; the example expresses the same arithmetic in seconds. This is not a claim about every UI time display.",
+      "evidence": [
+        {
+          "path": "Server/Commands/MediaPlayer/MediaItem/TimelineData.cpp",
+          "line_start": 36,
+          "line_end": 56,
+          "sha256": "1f9ea034a013f6402395a55c96e90637372f357895c63d0e2b81cb6632eb7292"
+        },
+        {
+          "path": "Server/Commands/MediaPlayer/MediaItem/TimelineData.cpp",
+          "line_start": 111,
+          "line_end": 128,
+          "sha256": "1f9ea034a013f6402395a55c96e90637372f357895c63d0e2b81cb6632eb7292"
+        }
+      ]
+    },
+    {
+      "id": "CODE-ITEM-003",
+      "topic": "api",
+      "title": "Timeline JSON properties use seconds",
+      "text": "ItemPropertyTimelineDataPos exports position through usToS and imports a JSON double multiplied by 1e6 into int64. ItemPropertyTimelineDataStartOffset also exports seconds and imports through sToUs. StartOffset applies to media timeline items, and its isSkip predicate is true when StartFrom is zero.",
+      "boundary": "Internal microsecond values must not be copied into these JSON properties without conversion. The skip predicate does not remove the underlying feature.",
+      "evidence": [
+        {
+          "path": "Server/Commands/JsonApi/MediaPlayerCommands/MediaItemPropertiesFactory/ItemPropertyTimelineDataPos.cpp",
+          "line_start": 12,
+          "line_end": 26,
+          "sha256": "eabd0c94c6a66b92337669b67a28f16ea0d86b0e6b05b5132b6f4caa92fb9518"
+        },
+        {
+          "path": "Server/Commands/JsonApi/MediaPlayerCommands/MediaItemPropertiesFactory/ItemPropertyTimelineDataStartOffset.cpp",
+          "line_start": 12,
+          "line_end": 32,
+          "sha256": "70a2e9fd31f89766a2c9c6d217419269c3d2aaebe2785b94eae3d734e39f3693"
+        }
+      ]
+    },
+    {
+      "id": "CODE-REVIEW-001",
+      "topic": "calibration",
+      "title": "GenICam image loading applies two denoise passes",
+      "text": "When mDenoisePar is true, GenICamCameraNode::loadImage applies ReactorWrapper::median1 twice to the loaded image. median1 samples the nine offsets in a 3 × 3 neighborhood and selects the middle value using component-wise comparisons.",
+      "boundary": "This is the inspected image-loading path. It does not establish noise reduction quality for a camera or every live-preview path.",
+      "evidence": [
+        {
+          "path": "Nodes/CaptureNodes/GenICam/GenICamCameraNode.cpp",
+          "line_start": 288,
+          "line_end": 305,
+          "sha256": "6e52bd5dc89c62e40dafd8f3218e5b4c4c7116605d3b627c679350776ed44b0d"
+        },
+        {
+          "path": "Libs/Reactor/ReactorWrapper.cpp",
+          "line_start": 1381,
+          "line_end": 1424,
+          "sha256": "2a142ac7bff95b2ae11c91760e2f0241c0b2026c33659ad412e3a1135ba177bb"
+        }
+      ]
+    },
+    {
+      "id": "CODE-REVIEW-002",
+      "topic": "calibration",
+      "title": "Geometry pattern filling is represented as a fraction",
+      "text": "The parameter currently named Geometry patterns: min filling percent is constructed with default 0.2 and range 0 to 1. ImagePixelData3::getFillingPercent returns pixel count divided by the bounding-box area (width × height). PatternsProcess requires this ratio to exceed minFillingPercent unless processOnlyMainCluster is true.",
+      "boundary": "For a nonzero bounding-box area, 0.2 represents a ratio of 20%, not the number 20. This is not a recommendation to change the default or proof of behavior for a zero-area region.",
+      "evidence": [
+        {
+          "path": "Nodes/CalibratorNodes/Calibrator.cpp",
+          "line_start": 430,
+          "line_end": 434,
+          "sha256": "3f81ecdd2179fe4db56b54bd878dbbb9c81eb057fc02c033bf5232dbdc7d3738"
+        },
+        {
+          "path": "Nodes/CalibratorNodes/Calibrator.h",
+          "line_start": 234,
+          "line_end": 237,
+          "sha256": "3de4efb89060f50a1014aeb588dbeeb09e58b2f98dc652cd4f6a0f0cfcc3d53b"
+        },
+        {
+          "path": "Nodes/CalibratorNodes/Jobs/GeometryJob.cpp",
+          "line_start": 1084,
+          "line_end": 1095,
+          "sha256": "f60bcfa91c897475f5f4ce586dc7e90c66eef13bb290c50fdc9b6337c4bca91d"
+        },
+        {
+          "path": "Nodes/CalibratorNodes/Jobs/PatternsProcess.cpp",
+          "line_start": 14,
+          "line_end": 26,
+          "sha256": "2e3685b1bb2f5bbcdc4950133934d971c48271777dd840336397b139ac0f0920"
+        },
+        {
+          "path": "Nodes/CalibratorNodes/Jobs/ImagePixelData3.cpp",
+          "line_start": 201,
+          "line_end": 206,
+          "sha256": "898fef12bad6afe58407f83df42a815a3af17ffbdf9fb9e68a72f17df0d4cf29"
+        },
+        {
+          "path": "Nodes/CalibratorNodes/Jobs/PatternsProcess.cpp",
+          "line_start": 163,
+          "line_end": 174,
+          "sha256": "2e3685b1bb2f5bbcdc4950133934d971c48271777dd840336397b139ac0f0920"
+        }
+      ]
+    },
+    {
+      "id": "CODE-REVIEW-003",
+      "topic": "scene",
+      "title": "Automatic near-plane distance uses a multiplier",
+      "text": "Camera3D::calcNearDist returns maxDist multiplied by Near Plane Relative Distance in Automatic mode, and Manual Near Plane Distance in Manual mode. The relative-distance parameter is constructed with default 0.001 and range 0.00001 to 0.5.",
+      "boundary": "For this calculation, 0.01 means 1% of the supplied maxDist. This record does not equate maxDist with the final far-plane distance in every rendering path.",
+      "evidence": [
+        {
+          "path": "Nodes/Scene3dNodes/Camera3D.cpp",
+          "line_start": 105,
+          "line_end": 121,
+          "sha256": "fc14e31c936c720c3e89b8765189a21fbb383aa12535e89e9e6ad3d729cd1160"
+        },
+        {
+          "path": "Nodes/Scene3dNodes/Camera3D.cpp",
+          "line_start": 432,
+          "line_end": 439,
+          "sha256": "fc14e31c936c720c3e89b8765189a21fbb383aa12535e89e9e6ad3d729cd1160"
+        }
+      ]
+    }
+  ]
+}

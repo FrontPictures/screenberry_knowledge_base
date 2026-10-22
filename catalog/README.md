@@ -2,6 +2,8 @@
 
 All 174 imported pages. These are existing-guide records, not independently verified runtime facts.
 
+Separate evidence layer: [50 source-confirmed implementation facts](../implementation/3.5.0-beta-build2422/README.md) for the identified 3.5.0 beta source snapshot, build 2422. These are not 3.4 guide records or runtime-verified behavior and are excluded from the standard guide exports.
+
 - [en: Screenberry Hardware Requirements](../knowledge/en/compatibility/getting-started/hardware.md) — guide.getting-started.hardware
 - [en: Screenberry Platform Support](../knowledge/en/compatibility/getting-started/platform-compatibility.md) — guide.getting-started.platform-compatibility
 - [en: Screenberry 3D Scene Overview - Crafting and Manipulating 3D Environments](../knowledge/en/concepts/3d-scene/overview.md) — guide.3d-scene.overview

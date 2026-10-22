@@ -6,7 +6,10 @@
 - Illustrations belong only to User Guide preparation: store optional title, caption, what-to-show and placement in illustrations/. Exclude these editorial drafts from factual retrieval.
 - Imported illustration briefs were derived from text and alt labels, not from visual inspection. They are optional and require review; never claim their visual content has been fully captured.
 - Default public product version is 3.4; 3.5 is development. Never infer applicability from file modification dates.
-- Search knowledge/ only for answers. archive/ preserves evidence and site source, not a second active corpus.
+- For released-guide answers search knowledge/. For explicitly scoped implementation questions, also use implementation/3.5.0-beta-build2422/README.md and its source-cited facts. archive/ preserves historical evidence and site source, not a second active corpus.
+- The implementation supplement applies only to its identified 3.5.0 beta source snapshot. Source-confirmed is not runtime-verified or verified-public. Cite the fact ID, snapshot, source ranges and boundary; do not silently apply these facts to 3.4 or another build. No human owner or product approval has been assigned to these records.
+- Original Screenberry source is not bundled. Authorized source holders can run the documented hash/range checks; other readers must disclose that they cannot reproduce the source inspection from this repository alone. Do not copy private source into this repository as a side effect of answering.
+- Implementation facts are edited in facts.json and rendered with pnpm implementation:build. Do not edit generated topic pages or chunks.jsonl alone. Never refresh source hashes without re-reading affected code. Unresolved findings and UI wording proposals stay outside this factual supplement.
 - Imported in_review records are not runtime-verified. Use the explicit legacy-guide-3.4 profile for existing-guide questions and disclose this evidence level.
 - Do not use historical release notes as current behavior without version context. Keep legal content separate from product instructions.
 - Cite the document, section, product version and source URL when answering. Ask when missing version or environment changes the answer.
