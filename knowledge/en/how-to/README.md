@@ -37,3 +37,5 @@
 - [working-with-nodes/navigation-and-monitoring](working-with-nodes/navigation-and-monitoring.md)
 
 - [NDI Network Configuration on Windows](integration-control/ndi-network-configuration.md)
+- [Receiving NDI Streams](integration-control/ndi/receiving-ndi-streams.md)
+- [Sending NDI Streams](integration-control/ndi/sending-ndi-streams.md)

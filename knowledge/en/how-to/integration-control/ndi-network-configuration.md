@@ -15,9 +15,9 @@
   "last_verified": null,
   "evidence": [
     {
-      "type": "published-guide",
-      "url": "https://help.screenberry.com/en/integration-control/ndi-network-configuration",
-      "scope": "Owner-approved guide text; reported field fix and official Windows/NDI references; not independently runtime-tested"
+      "type": "owner-approved-guide",
+      "url": "https://help.screenberry.com/en/integration-control/ndi/ndi-network-configuration",
+      "scope": "Owner reviewed the local guide and approved GitHub publication on 2026-11-19. Deployment awaits Vercel administrator approval; not independently runtime-tested."
     }
   ],
   "aliases": [
@@ -29,15 +29,16 @@
     "guide.node-reference.nodes"
   ],
   "source": {
-    "path": "content/en/integration-control/ndi-network-configuration.mdx",
-    "canonical_url": "https://help.screenberry.com/en/integration-control/ndi-network-configuration",
+    "path": "content/en/integration-control/ndi/ndi-network-configuration.mdx",
+    "canonical_url": "https://help.screenberry.com/en/integration-control/ndi/ndi-network-configuration",
     "sha256": "39cd5e80605a7f020ba1ef71c76a0dc747ddb891a972093c41e4b1fae3e334ba"
   },
   "review": {
     "publication_approved_by": "Andre",
     "publication_approved_on": "2026-11-19",
     "runtime_verified": false,
-    "applicability": "Windows with multiple network adapters; NDI runtime supporting the documented settings. Exact Screenberry build not established."
+    "deployment_status": "pending-administrator-approval",
+    "applicability": "Screenberry 3.4; owner explicitly instructed that NDI functionality is the same in 3.4 and the inspected 3.5.0 beta build 2422 snapshot. Version parity is an owner-provided assumption, not runtime verification. Windows-specific configuration remains scoped to the documented NDI runtime settings."
   },
   "presentation": {
     "mode": "text-only",

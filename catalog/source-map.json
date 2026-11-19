@@ -7712,14 +7712,14 @@
     ]
   },
   {
-    "source": "content/en/integration-control/ndi-network-configuration.mdx",
+    "source": "content/en/integration-control/ndi/ndi-network-configuration.mdx",
     "path": "knowledge/en/how-to/integration-control/ndi-network-configuration.md",
     "locale": "en",
     "language": "en",
-    "slug": "integration-control/ndi-network-configuration",
+    "slug": "integration-control/ndi/ndi-network-configuration",
     "kind": "how-to",
     "id": "guide.integration-control.ndi-network-configuration",
-    "route": "/en/integration-control/ndi-network-configuration",
+    "route": "/en/integration-control/ndi/ndi-network-configuration",
     "headings": [
       {
         "title": "NDI Network Configuration on Windows",
@@ -7756,6 +7756,130 @@
       {
         "title": "If the Problem Remains",
         "anchor": "if-the-problem-remains"
+      }
+    ]
+  },
+  {
+    "source": "content/en/integration-control/ndi/overview.mdx",
+    "path": "knowledge/en/concepts/integration-control/ndi/overview.md",
+    "locale": "en",
+    "language": "en",
+    "slug": "integration-control/ndi/overview",
+    "kind": "concepts",
+    "id": "guide.integration-control.ndi.overview",
+    "route": "/en/integration-control/ndi/overview",
+    "headings": [
+      {
+        "title": "NDI in Screenberry",
+        "anchor": "ndi-in-screenberry"
+      },
+      {
+        "title": "Before You Start",
+        "anchor": "before-you-start"
+      },
+      {
+        "title": "Source Discovery and Reception",
+        "anchor": "source-discovery-and-reception"
+      },
+      {
+        "title": "NDI Previews in Screenberry Panel",
+        "anchor": "ndi-previews-in-screenberry-panel"
+      },
+      {
+        "title": "Related Topics",
+        "anchor": "related-topics"
+      }
+    ]
+  },
+  {
+    "source": "content/en/integration-control/ndi/receiving-ndi-streams.mdx",
+    "path": "knowledge/en/how-to/integration-control/ndi/receiving-ndi-streams.md",
+    "locale": "en",
+    "language": "en",
+    "slug": "integration-control/ndi/receiving-ndi-streams",
+    "kind": "how-to",
+    "id": "guide.integration-control.ndi.receiving-ndi-streams",
+    "route": "/en/integration-control/ndi/receiving-ndi-streams",
+    "headings": [
+      {
+        "title": "Receiving NDI Streams",
+        "anchor": "receiving-ndi-streams"
+      },
+      {
+        "title": "Receive a Stream",
+        "anchor": "receive-a-stream"
+      },
+      {
+        "title": "Find the Source",
+        "anchor": "find-the-source"
+      },
+      {
+        "title": "Groups",
+        "anchor": "groups"
+      },
+      {
+        "title": "IP Addresses",
+        "anchor": "ip-addresses"
+      },
+      {
+        "title": "Adjust Audio Reception",
+        "anchor": "adjust-audio-reception"
+      },
+      {
+        "title": "Parameters",
+        "anchor": "parameters"
+      },
+      {
+        "title": "Check Reception Problems",
+        "anchor": "check-reception-problems"
+      }
+    ]
+  },
+  {
+    "source": "content/en/integration-control/ndi/sending-ndi-streams.mdx",
+    "path": "knowledge/en/how-to/integration-control/ndi/sending-ndi-streams.md",
+    "locale": "en",
+    "language": "en",
+    "slug": "integration-control/ndi/sending-ndi-streams",
+    "kind": "how-to",
+    "id": "guide.integration-control.ndi.sending-ndi-streams",
+    "route": "/en/integration-control/ndi/sending-ndi-streams",
+    "headings": [
+      {
+        "title": "Sending NDI Streams",
+        "anchor": "sending-ndi-streams"
+      },
+      {
+        "title": "Send a Stream",
+        "anchor": "send-a-stream"
+      },
+      {
+        "title": "Name and Groups",
+        "anchor": "name-and-groups"
+      },
+      {
+        "title": "Set the Image Size",
+        "anchor": "set-the-image-size"
+      },
+      {
+        "title": "Padding",
+        "anchor": "padding"
+      },
+      {
+        "title": "Frame Processing",
+        "anchor": "frame-processing"
+      },
+      {
+        "title": "Audio",
+        "anchor": "audio"
+      },
+      {
+        "title": "Parameters",
+        "anchor": "parameters"
+      },
+      {
+        "title": "Check the Receiving Application",
+        "anchor": "check-the-receiving-application"
       }
     ]
   }

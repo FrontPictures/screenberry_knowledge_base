@@ -10,3 +10,4 @@
 - [patch-editor/patch-editor-basics](patch-editor/patch-editor-basics.md)
 - [warping-alignment/overview](warping-alignment/overview.md)
 - [working-with-nodes/node-basics](working-with-nodes/node-basics.md)
+- [NDI in Screenberry](integration-control/ndi/overview.md)

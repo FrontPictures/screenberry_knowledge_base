@@ -179,4 +179,9 @@ Separate evidence layer: [50 source-confirmed implementation facts](../implement
 - [ja: Screenberry v3.3 リリースノート - 新機能と改善点](../knowledge/jp/releases/whats-new/release-notes-3-3.md) — guide.whats-new.release-notes-3-3
 - [ja: Screenberry v3.4 リリースノート - 最新の更新と新機能](../knowledge/jp/releases/whats-new/release-notes-3-4.md) — guide.whats-new.release-notes-3-4
 
-Additional owner-approved guide content (outside the immutable legacy baseline): [NDI Network Configuration on Windows](../knowledge/en/how-to/integration-control/ndi-network-configuration.md). Exact release applicability remains unverified.
+Additional owner-approved NDI content (outside the immutable legacy baseline). The owner-provided 3.4/3.5 beta parity assumption is recorded separately from runtime verification.
+
+- [en: NDI in Screenberry](../knowledge/en/concepts/integration-control/ndi/overview.md) — guide.integration-control.ndi.overview
+- [en: Receiving NDI Streams](../knowledge/en/how-to/integration-control/ndi/receiving-ndi-streams.md) — guide.integration-control.ndi.receiving-ndi-streams
+- [en: Sending NDI Streams](../knowledge/en/how-to/integration-control/ndi/sending-ndi-streams.md) — guide.integration-control.ndi.sending-ndi-streams
+- [en: NDI Network Configuration on Windows](../knowledge/en/how-to/integration-control/ndi-network-configuration.md) — guide.integration-control.ndi-network-configuration

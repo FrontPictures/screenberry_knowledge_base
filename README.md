@@ -79,4 +79,6 @@ pnpm restore-source
 
 ## Guide Update — 19 November 2026
 
-Added [NDI Network Configuration on Windows](knowledge/en/how-to/integration-control/ndi-network-configuration.md). The corpus now contains 175 guide records (91 en, 84 jp): 174 original imported records plus this owner-approved addition. The new article is available in the knowledge corpus; it is not inserted into the immutable legacy export or classified as runtime-verified.
+The owner-approved NDI section covers [Overview](knowledge/en/concepts/integration-control/ndi/overview.md), [Receiving NDI Streams](knowledge/en/how-to/integration-control/ndi/receiving-ndi-streams.md), [Sending NDI Streams](knowledge/en/how-to/integration-control/ndi/sending-ndi-streams.md), and [NDI Network Configuration on Windows](knowledge/en/how-to/integration-control/ndi-network-configuration.md). The corpus now contains 178 guide records (94 en, 84 jp): 174 original imported records plus four owner-approved NDI additions. The network article retains its knowledge ID and file path; its canonical guide URL now belongs to the NDI section.
+
+The owner explicitly instructed that NDI functionality should be assumed identical in 3.4 and the inspected 3.5 beta snapshot. This scoped assumption and publication approval are recorded separately from runtime verification. New records remain in_review, are not classified as runtime-verified, and are not inserted into the immutable legacy export. Website deployment awaits administrator approval.
