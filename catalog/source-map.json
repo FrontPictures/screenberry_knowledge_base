@@ -7774,20 +7774,8 @@
         "anchor": "ndi-in-screenberry"
       },
       {
-        "title": "Before You Start",
-        "anchor": "before-you-start"
-      },
-      {
-        "title": "Source Discovery and Reception",
-        "anchor": "source-discovery-and-reception"
-      },
-      {
         "title": "NDI Previews in Screenberry Panel",
         "anchor": "ndi-previews-in-screenberry-panel"
-      },
-      {
-        "title": "Related Topics",
-        "anchor": "related-topics"
       }
     ]
   },
@@ -7810,28 +7798,12 @@
         "anchor": "receive-a-stream"
       },
       {
-        "title": "Find the Source",
-        "anchor": "find-the-source"
+        "title": "Settings",
+        "anchor": "settings"
       },
       {
-        "title": "Groups",
-        "anchor": "groups"
-      },
-      {
-        "title": "IP Addresses",
-        "anchor": "ip-addresses"
-      },
-      {
-        "title": "Adjust Audio Reception",
-        "anchor": "adjust-audio-reception"
-      },
-      {
-        "title": "Parameters",
-        "anchor": "parameters"
-      },
-      {
-        "title": "Check Reception Problems",
-        "anchor": "check-reception-problems"
+        "title": "Reception Problems",
+        "anchor": "reception-problems"
       }
     ]
   },
@@ -7854,12 +7826,12 @@
         "anchor": "send-a-stream"
       },
       {
-        "title": "Name and Groups",
-        "anchor": "name-and-groups"
+        "title": "Stream Settings",
+        "anchor": "stream-settings"
       },
       {
-        "title": "Set the Image Size",
-        "anchor": "set-the-image-size"
+        "title": "Image Size",
+        "anchor": "image-size"
       },
       {
         "title": "Padding",
@@ -7870,16 +7842,8 @@
         "anchor": "frame-processing"
       },
       {
-        "title": "Audio",
-        "anchor": "audio"
-      },
-      {
-        "title": "Parameters",
-        "anchor": "parameters"
-      },
-      {
-        "title": "Check the Receiving Application",
-        "anchor": "check-the-receiving-application"
+        "title": "Output Problems",
+        "anchor": "output-problems"
       }
     ]
   }

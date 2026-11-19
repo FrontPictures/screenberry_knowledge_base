@@ -17,7 +17,7 @@
     {
       "type": "owner-approved-guide",
       "url": "https://help.screenberry.com/en/integration-control/ndi/receiving-ndi-streams",
-      "scope": "Owner reviewed the local guide and approved GitHub publication on 2026-11-19. Deployment awaits Vercel administrator approval; not independently runtime-tested."
+      "scope": "Owner reviewed the concise NDI revision and Settings formatting, and approved GitHub publication on 2026-11-20. Deployment awaits Vercel administrator approval; not independently runtime-tested."
     },
     {
       "type": "implementation-review",
@@ -41,11 +41,11 @@
   "source": {
     "path": "content/en/integration-control/ndi/receiving-ndi-streams.mdx",
     "canonical_url": "https://help.screenberry.com/en/integration-control/ndi/receiving-ndi-streams",
-    "sha256": "91fdede616760590ad53742a8d201ec970c4b9d0499e4b007544381ff5b79486"
+    "sha256": "6fb07ac493affb30e2f62680bdc5296d975c6b7f03e742abd6d27a3a0ed29e1d"
   },
   "review": {
     "publication_approved_by": "Andre",
-    "publication_approved_on": "2026-11-19",
+    "publication_approved_on": "2026-11-20",
     "runtime_verified": false,
     "deployment_status": "pending-administrator-approval",
     "applicability": "Screenberry 3.4; owner explicitly instructed that NDI functionality is the same in 3.4 and the inspected 3.5.0 beta build 2422 snapshot. Version parity is an owner-provided assumption, not runtime verification. Windows-specific configuration remains scoped to the documented NDI runtime settings."
@@ -55,68 +55,40 @@
 
 # Receiving NDI Streams
 
-Use an **NDI In** node to receive video and audio from an NDI source, such as a camera or another application. The node makes the received media available through its **Image** and **Audio** outputs for use elsewhere in the project.
-
-The receiving application is **Screenberry Server**. When configuring the node from a remote **Screenberry Panel**, check source discovery and network access on the Media Server, not only on the Operator Workstation.
+Use **NDI In** to receive an external NDI stream in a Screenberry project.
 
 ## Receive a Stream
 
-1. Start the source application or device and enable its NDI output. Use content with visible movement so that you can distinguish a live image from a retained frame.
+1. Enable NDI output on the source device or application.
 2. Add an **NDI In** node to the project.
-3. In the node's parameters, select the required stream in **Source**. Check the source name explicitly when several streams are available.
-4. Connect **Image** to the image-processing or display path that should use the stream. For details on making connections, see [Linking Nodes](https://help.screenberry.com/en/working-with-nodes/linking-nodes).
-5. If audio is required, connect **Audio** to the appropriate audio-processing path or an **Audio Out** node configured for the intended device.
-6. Verify that the expected image updates and that the **FPS** output reports received video frames. Check audio separately by listening through the intended output device.
+3. Select the stream in **Source**.
+4. Connect **Image** to the required image-processing or display input. For audio, connect **Audio** to an audio-processing node or **Audio Out**.
+5. Check the received image, **FPS**, and audio output.
 
-For a simple audio path, connect **NDI In** → **Audio Out** using their **Audio** parameters. Connecting **Image** alone does not route audio to a playback device. See [Working with Audio](https://help.screenberry.com/en/working-with-audio) for output devices, mixing, and channel mapping.
+## Settings
 
-## Find the Source
+The **Settings** panel of the **NDI In** node offers the following control and information parameters:
 
-### Groups
-
-Use **Groups** to specify which NDI groups the receiver searches. Enter a comma-separated list, for example `Public,Stage`. An empty value uses **Public**.
-
-If the sender publishes to a custom group, include that group in **Groups** on **NDI In**. To continue discovering public sources as well, include **Public** in the list.
-
-### IP Addresses
-
-Use **IP Addresses** to query additional remote computers for NDI sources when automatic discovery does not find them. Enter a comma-separated list of source-computer addresses, for example `192.168.10.20,192.168.10.21`, then select the discovered stream in **Source**.
-
-This can be useful when the source is on a different subnet and the network is configured to carry traffic between the two computers. Adding an address does not create a network route or bypass a firewall.
-
-> **Note:** **IP Addresses** contains addresses of remote source computers. It does not bind the receiver to a local Ethernet adapter. For Windows adapter priorities, see [NDI Network Configuration](https://help.screenberry.com/en/integration-control/ndi/ndi-network-configuration).
-
-## Adjust Audio Reception
-
-Use **Volume** to adjust the level of the received audio. **Audio Buffer Size** sets the target receive-audio buffer in milliseconds; its default is `100 ms`.
-
-A larger buffer can help accommodate uneven audio delivery, at the cost of additional audio delay. Make small changes and check both continuity and alignment with the image. This node parameter is separate from the global audio buffer setting described in [Working with Audio](https://help.screenberry.com/en/working-with-audio).
-
-## Parameters
-
-| Parameter | Purpose |
+| Parameter | Description |
 | --- | --- |
-| **Source** | Selects the NDI stream to receive from the discovered sources. |
-| **Groups** | Comma-separated groups to search. An empty value uses **Public**. |
-| **IP Addresses** | Comma-separated addresses of additional remote computers to query for sources. |
-| **Volume** | Adjusts the received audio level. |
-| **Audio Buffer Size** | Sets the receive-audio buffer target in milliseconds. The default is `100 ms`. |
-| **Color Format** | Selects **Fastest** or **Best Quality** for NDI reception. The default is **Fastest**. |
-| **Frame Upload Method** | Selects how received frames are transferred to the GPU. Keep the default for the initial setup; change it when investigating a frame-transfer or performance problem. |
-| **Image** | Outputs the received image to the node graph. |
-| **Audio** | Outputs the received audio to the node graph. |
-| **FPS** | Reports the measured rate of incoming video frames. This is an output, not a frame-rate setting. |
+| **Groups** | Groups to search, separated by commas, for example `Public,Stage`. An empty value uses **Public**. Include the sender's group. |
+| **IP Addresses** | Comma-separated IP addresses of source computers to query when automatic discovery fails. Routing and firewall access must allow communication. |
+| **Volume** | Received audio level. |
+| **Audio Buffer Size** | Target buffer for received audio; default `100 ms`. Increasing it can smooth uneven delivery but adds audio delay. This is separate from the global audio buffer. |
+| **Color Format** | **Fastest** (default) or **Best Quality**. |
+| **Frame Upload Method** | Method for transferring received frames to the GPU. Keep the default unless investigating frame-transfer performance. |
+| _Output Parameters_ | |
+| **FPS** | Measured incoming video frame rate; read-only. |
 
-For working with parameters that are not exposed as pins, see [Node Parameters and Settings](https://help.screenberry.com/en/working-with-nodes/node-parameters-and-settings).
+> **Note:** **IP Addresses** queries remote sources; it does not select a local network adapter. For adapter priorities, see [NDI Network Configuration](https://help.screenberry.com/en/integration-control/ndi/ndi-network-configuration).
 
-## Check Reception Problems
+## Reception Problems
 
-| Symptom | Checks |
+| Symptom | Check |
 | --- | --- |
-| The source is missing from **Source** | Confirm that the sender is running and publishing NDI. Check **Groups**, network reachability, and firewall access. If appropriate, add the source computer to **IP Addresses**. |
-| The source is listed, but no moving image arrives | Verify the source's output in another receiver. Check the selected source, the **Image** connection, and **FPS**. On a Windows Media Server with multiple adapters, follow [NDI Network Configuration](https://help.screenberry.com/en/integration-control/ndi/ndi-network-configuration). |
-| The image arrives, but there is no sound | Confirm that the source includes audio, **Volume** is not muted, and **Audio** is connected to the intended playback or processing path. Check the output device and channel mapping. |
-| Audio is interrupted or delayed | Check network and system load, then review **Audio Buffer Size**. Increasing it adds buffering and can increase delay. |
-| A previously working source disappears | Check that the sender is still running, its name and groups have not changed, and the network remains connected. When it is available again, check **Source** and verify that media resumes; reselect the stream if needed. |
+| Source missing or disappeared | The sender's NDI output, source name, **Groups**, and firewall access. Add its address to **IP Addresses** if automatic discovery fails. Reselect the stream if its name changed. |
+| Source listed, but no video | The source in another receiver, the **Image** connection, and **FPS**. For multiple Windows adapters, check [network configuration](https://help.screenberry.com/en/integration-control/ndi/ndi-network-configuration) on the Media Server. |
+| Video without audio | Source audio, **Volume**, the **Audio** connection, and the output device's channel mapping. See [Working with Audio](https://help.screenberry.com/en/working-with-audio). |
+| Audio interruptions or delay | Network and system load, then **Audio Buffer Size**. More buffering increases delay. |
 
-If only the preview in a remote **Screenberry Panel** fails, verify the server-side image path before treating the **NDI In** node as the cause. Panel preview reception uses the Operator Workstation's network connection. See [NDI in Screenberry](https://help.screenberry.com/en/integration-control/ndi/overview#ndi-previews-in-screenberry-panel).
+If only the remote **Screenberry Panel** preview fails, check [Panel preview reception](https://help.screenberry.com/en/integration-control/ndi/overview#ndi-previews-in-screenberry-panel).

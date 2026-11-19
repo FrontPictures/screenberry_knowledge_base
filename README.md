@@ -82,3 +82,7 @@ pnpm restore-source
 The owner-approved NDI section covers [Overview](knowledge/en/concepts/integration-control/ndi/overview.md), [Receiving NDI Streams](knowledge/en/how-to/integration-control/ndi/receiving-ndi-streams.md), [Sending NDI Streams](knowledge/en/how-to/integration-control/ndi/sending-ndi-streams.md), and [NDI Network Configuration on Windows](knowledge/en/how-to/integration-control/ndi-network-configuration.md). The corpus now contains 178 guide records (94 en, 84 jp): 174 original imported records plus four owner-approved NDI additions. The network article retains its knowledge ID and file path; its canonical guide URL now belongs to the NDI section.
 
 The owner explicitly instructed that NDI functionality should be assumed identical in 3.4 and the inspected 3.5 beta snapshot. This scoped assumption and publication approval are recorded separately from runtime verification. New records remain in_review, are not classified as runtime-verified, and are not inserted into the immutable legacy export. Website deployment awaits administrator approval.
+
+## NDI Revision — 20 November 2026
+
+The owner approved the concise revision of all four NDI pages, including the node Settings presentation and spacing. The knowledge records now contain the same instructions in text-only Markdown, with updated source hashes and heading maps. Existing knowledge IDs, version applicability, and runtime-verification status are unchanged. Website deployment approval remains with the Vercel administrator.

@@ -17,7 +17,7 @@
     {
       "type": "owner-approved-guide",
       "url": "https://help.screenberry.com/en/integration-control/ndi/ndi-network-configuration",
-      "scope": "Owner reviewed the local guide and approved GitHub publication on 2026-11-19. Deployment awaits Vercel administrator approval; not independently runtime-tested."
+      "scope": "Owner reviewed the concise NDI revision and Settings formatting, and approved GitHub publication on 2026-11-20. Deployment awaits Vercel administrator approval; not independently runtime-tested."
     }
   ],
   "aliases": [
@@ -31,11 +31,11 @@
   "source": {
     "path": "content/en/integration-control/ndi/ndi-network-configuration.mdx",
     "canonical_url": "https://help.screenberry.com/en/integration-control/ndi/ndi-network-configuration",
-    "sha256": "39cd5e80605a7f020ba1ef71c76a0dc747ddb891a972093c41e4b1fae3e334ba"
+    "sha256": "b50e123ada734c4fd3ea590c9e3347d527ee141d4cd8777da9e63c181b8cf86a"
   },
   "review": {
     "publication_approved_by": "Andre",
-    "publication_approved_on": "2026-11-19",
+    "publication_approved_on": "2026-11-20",
     "runtime_verified": false,
     "deployment_status": "pending-administrator-approval",
     "applicability": "Screenberry 3.4; owner explicitly instructed that NDI functionality is the same in 3.4 and the inspected 3.5.0 beta build 2422 snapshot. Version parity is an owner-provided assumption, not runtime verification. Windows-specific configuration remains scoped to the documented NDI runtime settings."
@@ -50,78 +50,56 @@
 
 # NDI Network Configuration on Windows
 
-On a Windows computer connected to more than one network, network adapter priorities can affect NDI communication. For example, a computer may use one Ethernet adapter for the Media Server and cameras and another for an office network or internet access.
-
-If an NDI stream does not arrive, check the network configuration first. If the problem remains, try the NDI receive settings described below. Disabling Reliable UDP is a troubleshooting workaround; it is not required for every computer with multiple network adapters.
+On Windows computers with multiple network adapters, adapter priorities can prevent NDI reception. Check interface metrics first; use the receive-transport workarounds below only if the problem remains.
 
 ## Identify the Receiving Computer
 
-Apply the checks to the computer receiving the affected NDI stream.
+Apply the settings on the computer receiving the affected stream:
 
-| Affected Connection | Computer to Check |
+| Affected Stream | Computer to Configure |
 | --- | --- |
-| NDI video received by **Screenberry Panel** | The Operator Workstation running **Screenberry Panel** |
-| An external NDI source received by an **NDI In** node | The computer running **Screenberry Server** for that project |
-| An **NDI Out** stream received by another application | The computer running the receiving application |
-
-Operating an **NDI In** node from **Screenberry Panel** does not make the Panel computer the receiver for that node. For application roles, see [Screenberry Overview](https://help.screenberry.com/en/getting-started/screenberry-overview).
-
-For a reception problem confined to **Screenberry Panel**, begin on the Operator Workstation. Test one computer and one change at a time.
+| NDI preview in **Screenberry Panel** | Operator Workstation |
+| External stream received by **NDI In** | Media Server |
+| **NDI Out** received by another application | Computer running that receiver |
 
 ## Check Network Adapter Priorities
 
-Windows normally assigns an interface metric automatically, based on connection speed. A lower metric gives an interface a higher preference when Windows compares otherwise equivalent routes. The fastest adapter may not be the one connected to the NDI network.
+Windows normally assigns interface metrics automatically. Give the NDI network adapter a lower metric than competing adapters—for example, `5` for NDI and `50` for the other network.
 
-> **Note:** An interface metric is not a rule that forces every connection through one adapter. Windows prefers the most specific matching route; for equally specific routes, it compares the combined route and interface metrics. See Microsoft's explanations of [route selection](https://learn.microsoft.com/en-us/windows-hardware/customize/desktop/unattend/microsoft-windows-tcpip-interfaces-interface-routes-route-metric) and [interface metrics](https://learn.microsoft.com/en-us/powershell/module/nettcpip/set-netipinterface).
+> **Note:** Metrics affect route preference, not a forced adapter binding. Windows first chooses the most specific route, then compares combined route and interface metrics. See Microsoft's [route selection](https://learn.microsoft.com/en-us/windows-hardware/customize/desktop/unattend/microsoft-windows-tcpip-interfaces-interface-routes-route-metric) and [interface metric](https://learn.microsoft.com/en-us/powershell/module/nettcpip/set-netipinterface) documentation.
 
-Before changing settings, identify the adapter connected to the NDI source network and record the existing metric settings for each adapter you will change. Administrative privileges may be required. Changing network settings can interrupt remote access, so make the change with local access available.
+Record the current settings before changing them. Administrative privileges may be required. Keep local access available: changing network settings can interrupt remote access.
 
-To assign interface metrics manually:
+1. Press **Win + R**, enter `ncpa.cpl`, and press **Enter**.
+2. Open **Properties** for the adapter connected to the NDI network.
+3. Select **Internet Protocol Version 4 (TCP/IPv4)** → **Properties** → **Advanced**.
+4. On **IP Settings**, clear **Automatic Metric** and enter the lower value in **Interface Metric**.
+5. Click **OK** in both TCP/IP dialogs and close the adapter properties. Repeat for the competing adapter with the higher value. Leave IP address, subnet, DNS, and gateway settings unchanged.
+6. Restart the affected NDI application and test reception, any NDI output, and the connection between **Screenberry Panel** and **Screenberry Server**.
 
-1. Press **Win + R**, enter `ncpa.cpl`, and press **Enter** to open **Network Connections**.
-2. Right-click the adapter connected to the NDI network and select **Properties**.
-3. Select **Internet Protocol Version 4 (TCP/IPv4)** and click **Properties**.
-4. On the **General** tab, click **Advanced**.
-5. On the **IP Settings** tab, clear **Automatic Metric**.
-6. In **Interface Metric**, enter a value lower than the values assigned to the other relevant active adapters. For example, use `5` for the NDI network adapter and `50` for the other network adapter. These are example priorities, not required values.
-7. Click **OK** in both TCP/IP dialogs, then close the adapter properties dialog to apply the change.
-8. Repeat the procedure for the other relevant adapter, assigning the higher metric. Leave the IP address, subnet mask, DNS, and gateway settings unchanged unless your network configuration requires a separate correction.
+If an NDI transport workaround was already applied, [restore the original configuration](#restore-the-original-configuration) and retest after changing metrics. Keep the original NDI settings if they work.
 
-The important relationship is **lower metric for the intended NDI network, higher metric for the competing network**. Do not choose an adapter solely by its name, such as **Ethernet** or **Ethernet 2**; check which network it connects to.
-
-Restart the affected NDI application and test the stream again. If the system sends and receives NDI, check both directions. Also check that the connection between **Screenberry Panel** and **Screenberry Server**, and any other required network connections, still work.
-
-If you previously applied an NDI transport workaround, [restore the original NDI configuration](#restore-the-original-configuration) and retest after correcting the adapter priorities. If reception works with the original settings, keep those settings.
-
-To undo the metric changes, return to **Advanced TCP/IP Settings** and restore each adapter's recorded value or reselect **Automatic Metric**, as appropriate.
+To undo metric changes, restore the recorded values or reselect **Automatic Metric**.
 
 ## Test Alternative NDI Receive Settings
 
-If changing adapter priorities does not resolve the problem, test the following configurations on the receiving computer. Try disabling Reliable UDP first. If that does not help, try TCP-based reception.
-
-These settings apply to NDI applications using the shared configuration on that computer. They are not saved in a Screenberry project and are not limited to a single node or Panel window. The examples change receive settings only when merged into the existing configuration.
+These settings apply to NDI applications using the shared configuration on the receiving computer, rather than to an individual project or node.
 
 ### Prepare the Configuration File
 
-1. Close **Screenberry Panel** and all other NDI applications on the computer you are configuring, including any running **NDI Tools** applications. If **Screenberry Server** is running there and uses NDI, close it as well. Keep **NDI Tools** closed during the initial Screenberry test.
-2. Open the NDI configuration folder. The standard Windows location is:
+1. Close all NDI applications on that computer, including **Screenberry Panel**, **NDI Tools**, and **Screenberry Server** if it uses NDI.
+2. Back up the configuration file:
 
    ```text
-   C:\ProgramData\NDI
+   C:\ProgramData\NDI\ndi-config.v1.json
    ```
 
-3. Back up `ndi-config.v1.json` to a separate location before editing it. If there is no file, record that fact so you can return to the previous state later.
-4. Open the file in a text editor. If the folder or file does not exist, create it and use the complete JSON from the selected test below. Save the filename exactly as `ndi-config.v1.json`, without an additional `.txt` extension.
+3. Merge the selected test settings into the existing `ndi` object, preserving unrelated properties and all `send` settings. Do not duplicate keys or replace an existing file with the short example.
+4. If no file exists, create the folder and file using the complete example. Save it as `ndi-config.v1.json`, without a `.txt` extension.
 
-> **Note:** If the application uses the `NDI_CONFIG_DIR` environment variable, its configuration file is in that directory instead. See [NDI Platform Considerations](https://docs.ndi.video/all/developing-with-ndi/sdk/platform-considerations).
-
-If a configuration file already exists, merge the selected settings into its existing `ndi` object. For example, the first test changes `ndi.rudp.recv.enable` to `false`. Add missing objects as needed, but keep existing properties inside them. Do not add a second `ndi` object or duplicate keys.
-
-Preserve all unrelated settings, including discovery servers, source addresses, groups, allowed adapters, and `send` settings. Replacing an existing file with a short example discards omitted settings; it does not preserve them.
+> **Note:** Applications using `NDI_CONFIG_DIR` read the file from that directory instead. See [NDI Platform Considerations](https://docs.ndi.video/all/developing-with-ndi/sdk/platform-considerations).
 
 ### Test 1: Disable Reliable UDP Reception
-
-Use the following configuration:
 
 ```json
 {
@@ -135,13 +113,13 @@ Use the following configuration:
 }
 ```
 
-This disables Reliable UDP reception. When merged, it leaves the other transport settings unchanged; it does not force TCP reception.
+This disables Reliable UDP reception without forcing TCP. Merging it leaves other transport settings unchanged.
 
-Save the file, start the affected Screenberry application, and test the same source again. On the Operator Workstation, restart **Screenberry Panel**. Applications must be restarted to load the changed shared configuration; disconnecting and reconnecting a source is not a substitute.
+Save the file and restart the affected Screenberry application. Keep **NDI Tools** closed during the initial test. Check video and audio reception; reconnecting a source alone does not reload the configuration.
 
 ### Test 2: Use TCP-Based Reception
 
-If the first test does not help, close the NDI applications again. Restore the backup before applying the second test, or replace the test file if no original file existed. Merge these settings using the same procedure:
+If Test 1 fails, close the NDI applications and restore the backup before merging these settings. If there was no original file, replace the test file.
 
 ```json
 {
@@ -170,34 +148,24 @@ If the first test does not help, close the NDI applications again. Restore the b
 }
 ```
 
-This enables Multi-TCP reception and disables Reliable UDP, unicast UDP, and multicast reception for NDI media. The sender must also support the negotiated mode; base TCP remains a fallback. See [NDI Configuration Files](https://docs.ndi.video/all/developing-with-ndi/sdk/configuration-files).
+This enables Multi-TCP reception and disables Reliable UDP, unicast UDP, and multicast reception for NDI media. The sender must support the negotiated mode; base TCP remains a fallback. See [NDI Configuration Files](https://docs.ndi.video/all/developing-with-ndi/sdk/configuration-files).
 
-Save the file, restart the affected Screenberry application, and test again. This configuration does not disable all UDP traffic on the computer. NDI source discovery can still use mDNS over UDP, as described in [NDI Network Ports](https://docs.ndi.video/all/getting-started/white-paper/ndi-related-network-ports).
+Save, restart the affected application, and retest. Discovery can still use UDP; these settings do not disable all UDP traffic. See [NDI Network Ports](https://docs.ndi.video/all/getting-started/white-paper/ndi-related-network-ports).
 
-For each test, check that the expected source is available and that video and, where applicable, audio arrive correctly. Test both stream directions if the setup uses them. After the initial test, reopen any NDI applications required for normal operation and check the complete setup again.
+After either test succeeds, reopen the other required NDI applications and check the complete setup, including both stream directions if used.
 
 ## Restore the Original Configuration
 
-To remove a transport workaround:
+1. Close all NDI applications on the affected computer.
+2. Restore the backed-up `ndi-config.v1.json`. If no original file existed, remove only the test file.
+3. Restart the applications and retest.
 
-1. Close all NDI applications on the computer whose configuration you changed.
-2. Restore the original `ndi-config.v1.json` from the backup. If no file existed before testing, remove only the file created for the test.
-3. Restart the affected applications and test reception again.
-
-Restoring the file does not undo Windows interface metric changes. Restore those separately if needed.
+Windows interface metrics must be restored separately.
 
 ## If the Problem Remains
 
-Check the source and receiver network addresses, subnet configuration, and firewall access for the intended network. A source that is missing from the list and a visible source that delivers no video may require different checks.
+For a missing source, check the receiver's discovery settings; see [NDI In settings](https://help.screenberry.com/en/integration-control/ndi/receiving-ndi-streams#settings). For a listed source without video, check the source output, routing, and firewall access.
 
-If editing the JSON file has no apparent effect, confirm that you edited the configuration used by the application and restarted it. On managed computers, [NDI administrative settings](https://docs.ndi.video/all/getting-started/white-paper/ndi-administrative-settings) can override the shared file; ask the system administrator to check them.
+If JSON changes have no effect, confirm the configuration path and restart the application. On managed systems, [NDI administrative settings](https://docs.ndi.video/all/getting-started/white-paper/ndi-administrative-settings) can override the file.
 
-When contacting Screenberry support, include:
-
-- The Screenberry and Windows versions, and the NDI runtime version if known.
-- Which computers run **Screenberry Server**, **Screenberry Panel**, and the external NDI source or receiver.
-- The adapters, IP addresses, and interface metrics used by the affected computers.
-- Whether the source is missing, visible without video, or receiving video with interruptions.
-- Which direction fails and the result of each metric or transport test.
-
-For related setup information, see [Network Requirements](https://help.screenberry.com/en/getting-started/hardware#network) and [Video Streaming Nodes](https://help.screenberry.com/en/node-reference/nodes#video-streaming).
+For support, include application and OS versions, the source/receiver computers, adapter IP addresses and metrics, the failing stream direction, and the result of each test.
