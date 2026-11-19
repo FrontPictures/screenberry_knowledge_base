@@ -76,3 +76,7 @@ pnpm restore-source
 После принятия базы разработчиками редактируйте knowledge/ как основной источник знаний. Исходный сайт пока не подключён к этой базе автоматически. Архив не редактируется и не индексируется как вторая копия знаний.
 
 Лицензия и реальные владельцы разделов требуют решения правообладателя; текущий [LICENSE](LICENSE) не выдаёт нового разрешения. Отбор версии не скрывает файлы 3.5, если они размещены в публичном репозитории.
+
+## Guide Update — 19 November 2026
+
+Added [NDI Network Configuration on Windows](knowledge/en/how-to/integration-control/ndi-network-configuration.md). The corpus now contains 175 guide records (91 en, 84 jp): 174 original imported records plus this owner-approved addition. The new article is available in the knowledge corpus; it is not inserted into the immutable legacy export or classified as runtime-verified.

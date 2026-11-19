@@ -35,3 +35,5 @@
 - [working-with-nodes/adding-and-managing-nodes](working-with-nodes/adding-and-managing-nodes.md)
 - [working-with-nodes/linking-nodes](working-with-nodes/linking-nodes.md)
 - [working-with-nodes/navigation-and-monitoring](working-with-nodes/navigation-and-monitoring.md)
+
+- [NDI Network Configuration on Windows](integration-control/ndi-network-configuration.md)

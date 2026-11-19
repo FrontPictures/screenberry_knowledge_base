@@ -7710,5 +7710,53 @@
         "anchor": "ノードのピンの表示非表示"
       }
     ]
+  },
+  {
+    "source": "content/en/integration-control/ndi-network-configuration.mdx",
+    "path": "knowledge/en/how-to/integration-control/ndi-network-configuration.md",
+    "locale": "en",
+    "language": "en",
+    "slug": "integration-control/ndi-network-configuration",
+    "kind": "how-to",
+    "id": "guide.integration-control.ndi-network-configuration",
+    "route": "/en/integration-control/ndi-network-configuration",
+    "headings": [
+      {
+        "title": "NDI Network Configuration on Windows",
+        "anchor": "ndi-network-configuration-on-windows"
+      },
+      {
+        "title": "Identify the Receiving Computer",
+        "anchor": "identify-the-receiving-computer"
+      },
+      {
+        "title": "Check Network Adapter Priorities",
+        "anchor": "check-network-adapter-priorities"
+      },
+      {
+        "title": "Test Alternative NDI Receive Settings",
+        "anchor": "test-alternative-ndi-receive-settings"
+      },
+      {
+        "title": "Prepare the Configuration File",
+        "anchor": "prepare-the-configuration-file"
+      },
+      {
+        "title": "Test 1: Disable Reliable UDP Reception",
+        "anchor": "test-1-disable-reliable-udp-reception"
+      },
+      {
+        "title": "Test 2: Use TCP-Based Reception",
+        "anchor": "test-2-use-tcp-based-reception"
+      },
+      {
+        "title": "Restore the Original Configuration",
+        "anchor": "restore-the-original-configuration"
+      },
+      {
+        "title": "If the Problem Remains",
+        "anchor": "if-the-problem-remains"
+      }
+    ]
   }
 ]
