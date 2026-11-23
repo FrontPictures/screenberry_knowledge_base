@@ -86,3 +86,7 @@ The owner explicitly instructed that NDI functionality should be assumed identic
 ## NDI Revision — 20 November 2026
 
 The owner approved the concise revision of all four NDI pages, including the node Settings presentation and spacing. The knowledge records now contain the same instructions in text-only Markdown, with updated source hashes and heading maps. Existing knowledge IDs, version applicability, and runtime-verification status are unchanged. Website deployment approval remains with the Vercel administrator.
+
+## JSON API Revision — 24 November 2026
+
+Use the [current owner-supplied English JSON API reference](knowledge/en/reference/integration-control/screenberry-json-api-current.md) for current-guide questions. It covers 58 commands, including nine additions, with corrected response and editing contracts. See the [revision provenance](docs/json-api-update-2026-11-24.md). The earlier imported API record is retained only for the immutable legacy export. There are now 179 records (178 guide articles plus one retained legacy API variant). Release applicability is unspecified; this revision is not runtime-verified.

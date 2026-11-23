@@ -185,3 +185,7 @@ Additional owner-approved NDI content (outside the immutable legacy baseline). T
 - [en: Receiving NDI Streams](../knowledge/en/how-to/integration-control/ndi/receiving-ndi-streams.md) — guide.integration-control.ndi.receiving-ndi-streams
 - [en: Sending NDI Streams](../knowledge/en/how-to/integration-control/ndi/sending-ndi-streams.md) — guide.integration-control.ndi.sending-ndi-streams
 - [en: NDI Network Configuration on Windows](../knowledge/en/how-to/integration-control/ndi-network-configuration.md) — guide.integration-control.ndi-network-configuration
+
+## JSON API Revision — 24 November 2026
+
+Use the [current owner-supplied English JSON API reference](../knowledge/en/reference/integration-control/screenberry-json-api-current.md) for current-guide questions. It covers 58 commands, including nine additions, with corrected response and editing contracts. See the [revision provenance](../docs/json-api-update-2026-11-24.md). The earlier imported API record is retained only for the immutable legacy export. There are now 179 records (178 guide articles plus one retained legacy API variant). Release applicability is unspecified; this revision is not runtime-verified.

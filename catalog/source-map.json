@@ -7846,5 +7846,306 @@
         "anchor": "output-problems"
       }
     ]
+  },
+  {
+    "source": "content/en/integration-control/screenberry-json-api.mdx",
+    "path": "knowledge/en/reference/integration-control/screenberry-json-api-current.md",
+    "locale": "en",
+    "language": "en",
+    "slug": "integration-control/screenberry-json-api",
+    "kind": "reference",
+    "id": "guide.integration-control.screenberry-json-api",
+    "route": "/en/integration-control/screenberry-json-api",
+    "headings": [
+      {
+        "title": "Screenberry JSON API",
+        "anchor": "screenberry-json-api"
+      },
+      {
+        "title": "Listener Nodes",
+        "anchor": "listener-nodes"
+      },
+      {
+        "title": "HTTP Listener",
+        "anchor": "http-listener"
+      },
+      {
+        "title": "TCP Listener",
+        "anchor": "tcp-listener"
+      },
+      {
+        "title": "Serial Input",
+        "anchor": "serial-input"
+      },
+      {
+        "title": "UDP Listener",
+        "anchor": "udp-listener"
+      },
+      {
+        "title": "OSC Listener",
+        "anchor": "osc-listener"
+      },
+      {
+        "title": "Listener Quick Reference",
+        "anchor": "listener-quick-reference"
+      },
+      {
+        "title": "Reply Conventions",
+        "anchor": "reply-conventions"
+      },
+      {
+        "title": "Node Graph Commands",
+        "anchor": "node-graph-commands"
+      },
+      {
+        "title": "GetParameter",
+        "anchor": "getparameter"
+      },
+      {
+        "title": "SetParameter",
+        "anchor": "setparameter"
+      },
+      {
+        "title": "AddNode",
+        "anchor": "addnode"
+      },
+      {
+        "title": "RemoveNode",
+        "anchor": "removenode"
+      },
+      {
+        "title": "Link",
+        "anchor": "link"
+      },
+      {
+        "title": "Unlink",
+        "anchor": "unlink"
+      },
+      {
+        "title": "GetNodeGraph",
+        "anchor": "getnodegraph"
+      },
+      {
+        "title": "GetNodeParameters",
+        "anchor": "getnodeparameters"
+      },
+      {
+        "title": "GetNodeTypes",
+        "anchor": "getnodetypes"
+      },
+      {
+        "title": "RenameNode",
+        "anchor": "renamenode"
+      },
+      {
+        "title": "GetCategories",
+        "anchor": "getcategories"
+      },
+      {
+        "title": "AutoLayoutNodes",
+        "anchor": "autolayoutnodes"
+      },
+      {
+        "title": "ForwardParameter",
+        "anchor": "forwardparameter"
+      },
+      {
+        "title": "RemoveForwardedParameter",
+        "anchor": "removeforwardedparameter"
+      },
+      {
+        "title": "RenameForwardedParameter",
+        "anchor": "renameforwardedparameter"
+      },
+      {
+        "title": "ReorderForwardedParameter",
+        "anchor": "reorderforwardedparameter"
+      },
+      {
+        "title": "Media Player Commands",
+        "anchor": "media-player-commands"
+      },
+      {
+        "title": "GetMediaPlayers",
+        "anchor": "getmediaplayers"
+      },
+      {
+        "title": "GetPlaylists",
+        "anchor": "getplaylists"
+      },
+      {
+        "title": "GetMediaPlayerStatus",
+        "anchor": "getmediaplayerstatus"
+      },
+      {
+        "title": "GetPlaylistItems",
+        "anchor": "getplaylistitems"
+      },
+      {
+        "title": "Playback Control Commands",
+        "anchor": "playback-control-commands"
+      },
+      {
+        "title": "PlayPlaylistItem — Plays item in Playlist",
+        "anchor": "playplaylistitem--plays-item-in-playlist"
+      },
+      {
+        "title": "PlayTimeline — Plays Timeline from selected position (seconds)",
+        "anchor": "playtimeline--plays-timeline-from-selected-position-seconds"
+      },
+      {
+        "title": "PlayMatrixItem — Plays item in Matrix (by row/column)",
+        "anchor": "playmatrixitem--plays-item-in-matrix-by-rowcolumn"
+      },
+      {
+        "title": "PlayMatrixColumn — Plays column in Matrix",
+        "anchor": "playmatrixcolumn--plays-column-in-matrix"
+      },
+      {
+        "title": "PlayMatrixRow",
+        "anchor": "playmatrixrow"
+      },
+      {
+        "title": "PauseMatrixRow",
+        "anchor": "pausematrixrow"
+      },
+      {
+        "title": "StopMatrixRow",
+        "anchor": "stopmatrixrow"
+      },
+      {
+        "title": "Seek",
+        "anchor": "seek"
+      },
+      {
+        "title": "SetVolume",
+        "anchor": "setvolume"
+      },
+      {
+        "title": "SeekMatrixItem",
+        "anchor": "seekmatrixitem"
+      },
+      {
+        "title": "Editing Playlists",
+        "anchor": "editing-playlists"
+      },
+      {
+        "title": "CreatePlaylist",
+        "anchor": "createplaylist"
+      },
+      {
+        "title": "AddPlaylistItem",
+        "anchor": "addplaylistitem"
+      },
+      {
+        "title": "AddTimelineItem",
+        "anchor": "addtimelineitem"
+      },
+      {
+        "title": "AddMatrixItem",
+        "anchor": "addmatrixitem"
+      },
+      {
+        "title": "ReplaceItem",
+        "anchor": "replaceitem"
+      },
+      {
+        "title": "ModifyTimelineItem",
+        "anchor": "modifytimelineitem"
+      },
+      {
+        "title": "ModifyPlaylistItem",
+        "anchor": "modifyplaylistitem"
+      },
+      {
+        "title": "ModifyMatrixItem",
+        "anchor": "modifymatrixitem"
+      },
+      {
+        "title": "RemovePlaylistItem",
+        "anchor": "removeplaylistitem"
+      },
+      {
+        "title": "RemoveTimelineItem",
+        "anchor": "removetimelineitem"
+      },
+      {
+        "title": "RemoveMatrixItem",
+        "anchor": "removematrixitem"
+      },
+      {
+        "title": "Timeline Marker Commands",
+        "anchor": "timeline-marker-commands"
+      },
+      {
+        "title": "GetTimelineMarkers",
+        "anchor": "gettimelinemarkers"
+      },
+      {
+        "title": "AddTimelineMarker",
+        "anchor": "addtimelinemarker"
+      },
+      {
+        "title": "RemoveTimelineMarker",
+        "anchor": "removetimelinemarker"
+      },
+      {
+        "title": "ModifyTimelineMarker",
+        "anchor": "modifytimelinemarker"
+      },
+      {
+        "title": "Upload Manager Commands",
+        "anchor": "upload-manager-commands"
+      },
+      {
+        "title": "GetUploadingItems",
+        "anchor": "getuploadingitems"
+      },
+      {
+        "title": "File System Commands",
+        "anchor": "file-system-commands"
+      },
+      {
+        "title": "GetMediaFolder",
+        "anchor": "getmediafolder"
+      },
+      {
+        "title": "GetWorkFolders",
+        "anchor": "getworkfolders"
+      },
+      {
+        "title": "GetMediaItem",
+        "anchor": "getmediaitem"
+      },
+      {
+        "title": "General Commands",
+        "anchor": "general-commands"
+      },
+      {
+        "title": "Exit",
+        "anchor": "exit"
+      },
+      {
+        "title": "Restart",
+        "anchor": "restart"
+      },
+      {
+        "title": "Shutdown",
+        "anchor": "shutdown"
+      },
+      {
+        "title": "Reboot",
+        "anchor": "reboot"
+      },
+      {
+        "title": "GetLicenses",
+        "anchor": "getlicenses"
+      },
+      {
+        "title": "SaveProject",
+        "anchor": "saveproject"
+      }
+    ],
+    "variant_id": "guide.integration-control.screenberry-json-api.owner-approved-2026-11-24"
   }
 ]
